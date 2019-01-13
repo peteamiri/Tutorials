@@ -3,3 +3,8 @@ This is a tutorial for the following subjects
 * Java
 * JavaScript
 * Python
+* TOGAF
+* ITIL
+* Scrum
+* SalesForce
+* AWS
