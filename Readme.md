@@ -1,4 +1,5 @@
-* this is the first document
-* test
-* test
-* just dded another line
+This is a tutorial for the following subjects
+* Git
+* Java
+* JavaScript
+* Python
