@@ -1,0 +1,1 @@
+[Good Starting Point](http://www.mkyong.com/mongodb/)
