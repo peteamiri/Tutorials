@@ -323,7 +323,7 @@ Two method of connection to AWS
 		API,SDK, CLI require access keys (Access Key Id and Secret Access Key)
 		you can not use this for console login
 
-Multi Factor Authentication is Something you know and something you have
+Multi-Factor Authentication is Something you know and something you have
 	you know the password and user id and code from the token, you need to have one of the followings;
 	1- Virtual/Soft Token (software on your device)
 	2- Physical/Hardware Token (Token generator) Order from AWS
@@ -471,28 +471,25 @@ Rekognition
 
 Messaging
 
-SQS
-	Simple Queue Services, decoupling components
-SNS
-	Simple Notification Services (email, text, etc.)
-SES
-	Simple Email Services
+* **SQS** Simple Queue Services, decoupling components
+* **SNS** Simple Notification Services (email, text, etc.)
+* **SES** Simple Email Services
 
 ### EC2
-EC2 is a virtual server. It standss for elastic Compute Cloud (EC2). The instance is charged per hour with different rates depending on the type of the virtual server. These EC2 types are optimized based on the business needs.
+EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instance is charged per hour with different rates depending on the type of the virtual server. These EC2 types are optimized based on the business needs.
 
 [Good Tuotiral](https://www.guru99.com/aws-tutorial.html)
  
 
-- EBS availability is garanteed %99.95
+- EBS availability is guaranteed %99.95
 - AWS recommends to use Roles on EC2 to connect to other resources
-- Roles can be only assingned at the creation time
+- Roles can be only assigned at the creation time
 - Roles can not be assigned to an instance after it is created
 - 	you can change the policies that are attached to the roles (workaround)
 - When Creating an EC2 you have the following Options:
-- 	1Create a new KeyPairs
-- 	2Use and existing Keypair
-- 	3Proceed without the Keypair
+- 	1 Create a new KeyPairs
+- 	2 Use and existing Keypair
+- 	3 Proceed without the Keypair
 - Stop (stops the operating system it can be restarted) Vs. Terminate (Terminates and deletes the Virtual Machine it can not be restarted)
 - 	you have terminate protection (check box) when creating instance
 - you can not stop an instance with the Instance Store only reboot/terminate.
