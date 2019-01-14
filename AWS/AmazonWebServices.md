@@ -8,6 +8,8 @@
 
 # AWS Short History
 
+Amazon Web Services start offering cloud services 
+
 * 2003 Start at 2003
 * 2004 SQS launched SQS 
 * 2006 AWS started
@@ -28,7 +30,7 @@ The followings are AWS categories of services;
 * Management Tools
 * Media Services
 * Machine Learning
-* Analytics
+* Analytic
 * Security & Identity & Compliance
 * Mobile Services
 * AR/VR (Augmented Reality/Virtual Reality)
@@ -39,11 +41,11 @@ The followings are AWS categories of services;
 * Internet of Things (IoT)
 * Game Development
 
-# AWS Global Infrustructure
+# AWS Global Infrastructure
 
 * **Region** : Is a geographic Area (e.g. London, N. VA, etc.)
-* **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across mutiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity. 
-* **Edge Locations** : endpoint for AWS wich are used for caching contents. Typically this is consists of **CloudFront** which is part of AWS Content Delivery Network (CDN).   
+* **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across multiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity. 
+* **Edge Locations** : endpoint for AWS which are used for caching contents. Typically this is consists of **CloudFront** which is part of AWS Content Delivery Network (CDN).   
 
 ## Region ##
 
@@ -55,9 +57,9 @@ Currently AWS has (As of 2018);
 
 ## Availability Zones ##
 
-As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of independent "DataCenters" (for DR reason).
+As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of independent "Data Centers" (for DR reason).
 
-They have low latency Network Intrastructure within a region across the AZ's
+They have low latency Network Infrastructure within a region across the AZ's
 
 Generally; each Region has at least 2 or more Availability Zones
 
@@ -97,7 +99,7 @@ VPC can not be peered cross region
 
 * **Simple Storage Services (S3)** is an object based storage. Files are stored in buckets (File directory)
 * **Elastic File System (EFS)** network attached file system, it can be attached to multiple machines.  
-* **Galcier** is used for file archiving services
+* **Glacier** is used for file archiving services
 * **Snowball** temporary file storage to upload the files into Amazon.
 * **Storage Gateway** are virtual machines installed in the Client's site or data Centers and they replicate the data to AWS's S3.      
 
@@ -126,9 +128,9 @@ VPC can not be peered cross region
 
 ## Network & content Delivery
 
-* Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, ACL, route tables, etc.
+* Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, Accesss Control Lists (ACL), route tables, etc.
 * CloudFront is a AWS content deliver network. 
-* Route53 : is the AWS DNS service.
+* Route53 : is the AWS Domain Name Services (DNS).
 * API Gateway: creating API for other services
 * Direct Connect: Dedicated line from Clients Data Center to a VPC.  
 
@@ -277,9 +279,9 @@ There is a soft 50 domin name limit, this limit can be changed by AWS Support
 
 need to access IAM using the **root account** and create other accounts. After that never use **Root Account** for anything. 
 
-* Centrilized control of your AWS account
+* Centralized control of your AWS account
 * Shared Access to AWS Accounts
-* Enfore Granular Permissions
+* Enforce Granular Permissions
 * Allow Federation (including Active Directory, FaceBook, Linkedin, etc.) 
 * It is a global services and it is not bound to any AWS region or AZ's. IAM is not bound to a region, it is universal 
 * Allow MultiFactor Authentication
@@ -288,11 +290,13 @@ need to access IAM using the **root account** and create other accounts. After t
 * Supports PCI DSS Compliance (Credit Card Security Standards).
 * Provides temporary accounts and access
 
-IAM allows life-cycle management of users, groups, and policies, 
-IAM provides template policies to ease the process
-IAM allows password policies (what and when)
-New Users by default have no access to any resource, they access has to be granted
-Always Create a MultiFactor Authantication on the root account, it is very important  
+IAM Characteristics
+
+* IAM allows life-cycle management of users, groups, and policies, 
+* IAM provides template policies to ease the process
+* IAM allows password policies (what and when)
+* New Users by default have no access to any resource, they access has to be granted
+* Always Create a MultiFactor Authantication on the root account, it is very important  
 
 
 
