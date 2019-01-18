@@ -1,6 +1,7 @@
 # SalesForce
 ## Sources
 * [Youtube Tutorials Point](https://www.youtube.com/watch?v=BA-407HF_fM&list=PLWPirh4EWFpH2LYVIrfmA1RTredCySwP_)
+* [Youtube Salesforcce Admin](https://www.youtube.com/watch?v=bOzlOkPU0cI&list=PLdYQMTciVWO9xjvh1J7SXjhzpnzWvLih4&t=0s&index=2)
 * [SalesForce](https://www.youtube.com/watch?v=jDYfTfaqclk&list=PL6747B4DAE356E17C)
 * [Administrator Certification Exam](https://www.youtube.com/watch?v=vji9NEdX5AY&list=PLJ12axA2fmEAux6zD2viP5kgUFMsnVKw0)
 * [SalesForce Connected Apps](https://www.youtube.com/watch?v=dNB_FRw7mEs)
@@ -9,6 +10,17 @@
 * [SalesForce Single Sign On](https://www.youtube.com/watch?v=kIA1MZrNaAE)
 * [SAML](https://www.youtube.com/watch?v=0fmNoqz6Urw)
 * [SalesForce Learning Center](https://www.salesforce.com/eu/learning-centre/)
+* [SalesForce Admin Tutoril](http://www.sfdc99.com/beginner-tutorials/)
+* [Salesforce Apex Tutorial](http://www.sfdc99.com/apex-academy/)
+* [Apex Trigger](https://www.veonconsulting.com/apex-trigger-in-salesforce/)
+* [Command Line Data Loader](http://www.sfdcpoint.com/salesforce/step-by-step-guide-for-using-salesforce-command-line-interface-data-loader/)
+* [SalesForce Tutorail](https://rainforce.walkme.com/category/salesforce-tutorial/)
+* [SalesForce Training](http://pages.mail.salesforce.com/gettingstarted/home/)
+* [SalesForce Tutorials](https://www.jitendrazaa.com/blog/salesforce/step-by-step-salesforce-tutorial-creating-workflow-rule-5-of-n/)
+* [SalesForce PodCast](https://admin.salesforce.com/salesforce-admin-podcast)
+* [SalesFroce Admin Tutorial](https://www.janbasktraining.com/blog/salesforce-tutorial/)
+
+
 
 Additional Resources;
 
@@ -22,7 +34,7 @@ Additional Resources;
 * [Youtube SalesForce Channels](https://www.youtube.com/user/salesforce/channels)
 * [SalesForce Developers Center](https://developer.salesforce.com/developer-centers)
 * [SalesForce Reporting Basics](https://www.geckoboard.com/blog/salesforce-reporting-basics-building-aggregating-segmenting-formatting-reports/)
-* [SalesForce CheatSheets](https://developer.salesforce.com/page/Cheat_Sheets) 
+* [SalesForce CheatSheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Salesfforce Best Practices](http://ecquire.com/blog/32-salesforce-guides/)
 * [Tutorial](https://developerforce.github.io/lightning-connect-tutorial/)
 
@@ -30,7 +42,7 @@ Additional Resources;
 
 # What is Salesforce
 
-Salesforce started as a cloud based solution for Customer Relationship Management (CRM). It involves managing all aspects of relationship between an organization and its customers. For example, the contact details of the customer, the deals that are in progress or already completed, the support requests from a customer or a new lead from a new customer. 
+Salesforce started as a cloud based solution for Customer Relationship Management (CRM). It involves managing all aspects of relationship between an organization and its customers. For example, the contact details of the customer, the deals that are in progress or already completed, the support requests from a customer or a new lead from a new customer.
 
 Beyond the customer related information, it also involves storing and managing the details of the people and the concerned department from the seller organization that is managing the customer’s account and needs. This makes it easy to manage and enhance the relationship with the customer and hence better growth for the organization.
 
@@ -70,7 +82,7 @@ To view customer contact details, activity history, customer communications, and
 Contact management is the process of recording contacts’ details and tracking their interactions with a business. Such systems have gradually evolved into an aspect of customer relationship management (CRM) systems, which allow businesses to improve sales and service levels leveraging a wider range of data.
 
 * [Contact Management](https://www.salesforce.com/eu/learning-centre/sales/contact-management/)
-* 
+*
 ### Opportunity Management
 
 It provides the details of the stage a deal is in, the products involved in the deal, the quotation for the deal etc. In short it manages all the data that helps in identifying, progressing and closing a deal.
@@ -140,7 +152,7 @@ Salesforce offers lots of features and items that you can set up and configure y
 * Create a custom report for your sales region.
 * Give you a user permission that’s not granted as part of your user profile.
 * Answer questions about your own or others’ access to records.
-* Address those cursed error messages that ask you to contact your administrator 
+* Address those cursed error messages that ask you to contact your administrator
 for help or more information.
 
 ---
@@ -298,7 +310,7 @@ Three basic classifications of the Cloud Computing
 	2. Availability
 	3. Reliability
 3. IASS Infrastructure as a services Advantages;
-	1. 
+	1.
 
 --------------
 ## Licenses in SalesForce
@@ -334,19 +346,19 @@ without affecting production environment. Developer environments are of
 two types:
 
 	* Developer Edition: This is a free, full-featured copy of the Enterprise Edition, with less storage and users. It allows users to create packaged applications suitable for any Salesforce production environment. It can be of two types:
-	
+
 		* Regular Developer Edition: This is a regular DE org whose sign up is free and the user can register for any number of DE orgs. This is suitable when you want to develop managed packages for distribution through AppExchange or Trialforce, when you are working with an edition where sandbox is not available, or if you just want to explore the Force.com platform for free.
-		
+
 		* Partner Developer Edition: This is a regular DE org but with more storage, features, and licenses. This is suitable when you expect a larger team to work who need a bigger environment to test the application against a larger real-life dataset. Note that this org can only be created with the Salesforce Consulting partners or Force.com ISV.
-		
+
 	* Sandbox: This is nearly an identical copy of the production environment available to Enterprise or Unlimited Edition customers, and can contain data and/or customizations. This is suitable when developing applications for production environments only with no plans to distribute applications commercially through AppExchange or Trialforce, or if you want to test the beta-managed packages. Note that sandboxes are completely isolated from your Salesforce production organization, so operations you perform in your sandboxes do not affect your Salesforce production organization, and vice versa. Types of sandboxes are as follows:
 
-		* Full copy sandbox: Nearly an identical copy of the production environment, including data and customizations 
-		
+		* Full copy sandbox: Nearly an identical copy of the production environment, including data and customizations
+
 		* Configuration-only sandbox: Contains only configurations and not data from the production environment
-		 
+
 		* Developer sandbox: Same as Configuration-only sandbox but with less storage
-		
+
 * Test environments: These can be either production or developer environments, used speficially for testing application functionality before deploying to production or releasing to customers. These environments are suitable when you want to test applications in production such as environments with more users and storage to run real-life tests.
 
 ### Production environment
@@ -402,7 +414,7 @@ The following table lists down the important features which are frequently used 
 ## Setting up Organization
 
 There are two types of Fiscal years,
-1. Standard 
+1. Standard
 2. Custom
 Organization Fiscal Year setting;
 1. It customize the Fiscal Forecasts
@@ -455,7 +467,7 @@ While user is working and the User Hours Rang has passed, when a user move to a 
 
 ## Creating Profile
 
-Users can have only one profile, for additional permission you can use Permission Sets. 
+Users can have only one profile, for additional permission you can use Permission Sets.
 
 -----
 
@@ -542,7 +554,7 @@ Two Kind of Apps
 				1. You can see that when you open the tabs, they are tabs or subtabs
 			4. Assign profiles associated with the application (Permissions)
 Custom Apps are new functionality
-Console Apps are extension of the existing CRM apps 
+Console Apps are extension of the existing CRM apps
 -----
 ## Objects
 
@@ -592,7 +604,7 @@ In this section, we will discuss the important standard objects in Salesforce. T
 
 The organization’s data will always not fit into the existing standard objects. So we can extend and customize the SalesForce objects to meet this need. For example, a courier company can create a custom object to store the schedule and dispatch details for every week. So these objects store the data that is unique to the business.The custom objects can also have custom fields along with the standard fields available in Salesforce.
 
-In other cases Custom Objects can be created to provide addtional information that is not supported by the Standard Objects. 
+In other cases Custom Objects can be created to provide addtional information that is not supported by the Standard Objects.
 
 ## Custom Object features
 Following are the features available on Custom Objects. The features help you perform the following features −
@@ -607,10 +619,10 @@ Following are the features available on Custom Objects. The features help you pe
 ## Create a Custom Object
 To create a custom object, we go to the line path as shown in the following screenshot −
 To create Objects,
- 
+
 1. Create-> Object, select Create new Custom Object or use Schema Builder,
 	1. Provide appropriate information, including name, type, description,
-	2. Record Name and Format 
+	2. Record Name and Format
 	2. Optional Feature
 	3. Object Classification
 	4. Deployment Status
@@ -620,13 +632,13 @@ To create Objects,
 Objects AutoNumber Vs. Text. The Auto Number represents a number for Record ID, The text allow the records to be represented by the given name, e.g. Patients name.
 
 **Find out about the other values in the tab.**
- 
+
 - **Optional Feature**
 	- Allow Reports
-	- Allow Activities 
+	- Allow Activities
 	- Track Field History
 	- Allow in Chatter Groups
-- **Object Classification** : when set this object is classified as Enterprise Object, when disables the object is considered as light application object. 
+- **Object Classification** : when set this object is classified as Enterprise Object, when disables the object is considered as light application object.
 	- Allow Sharing
 	- Allow Bulk API Access
 	- Allow Streaming API Access
@@ -660,7 +672,7 @@ to create tabs;
 1. Setup
 2. Create
 3. Tabs
-	1. Custom Tab 
+	1. Custom Tab
 		1. Give Object Name
 		2. Tab Style (color etc).
 		3. Next to select visibility for various profiles
@@ -697,7 +709,7 @@ To create fields;
 	2. **Custom Fields & Relationships**
 		1. Select the Data Type
 	2. Visibility (who can see this field)
-	3. 
+	3.
 Each field has the following Attributes;
 
 * label
@@ -710,7 +722,7 @@ Each field has the following Attributes;
 * External ID
 * Default Value
 
-**Some of the attributes may change based on the data type selected** 
+**Some of the attributes may change based on the data type selected**
 
 
 ### Data Types
@@ -847,25 +859,25 @@ In the Next step we accept the defaults and move on to add the reference field t
 ####### Add Custom Related Lists
 Next, we specify the title for the related list that is associated layout with the parent.
 
-This completes the creation of Master-Detail relationship between DeliveryLocation and Deliveryschedule. 
+This completes the creation of Master-Detail relationship between DeliveryLocation and Deliveryschedule.
 
 #### Role-up Summary
 
-Role-up Summary is only enabled in Master-Detail Relationship 
+Role-up Summary is only enabled in Master-Detail Relationship
 
 It works with Master Detail, it summarizes the specific child object Values e.g. Count, Sum, Min, Max, etc.
 This field is only enabled when there is a Master-Detail relationship, it is only enables in the Master Objects.
 to Create this;
 1. Select Role-up Summary in the Master Object as a field type,
-2. Provide relevant information 
+2. Provide relevant information
 3. Provide the Summary Object (Select the child Object)
 	1. Select the following;
 		1. Count
 		2. Sum
 		3. Min (select the field in the child object)
 		4. Max (select the field in the child object)
-5. Select the filter Criteria 
-  
+5. Select the filter Criteria
+
 ### Field Dependency
 
 - Drop-down list filter
@@ -877,11 +889,11 @@ To create this
 	* Select controlling field
 	* Select the dependent field
 	* Select the values and select include values and save
-	 
+
 ### Lookups Fields
 
 in Search layout section you can add additional attributes to better search and identify the fields dependencies
-This field can perform calculation for Number, Data, Data-time Percentage and Text fields. 
+This field can perform calculation for Number, Data, Data-time Percentage and Text fields.
 
 Select from Search layout panel
 Select edit and select he fields you want
@@ -895,7 +907,7 @@ to ensure data integrity or to make the field mandatory(among others)
 * Add rule name, active, and description
 * Add the functions, and check syntax
 * Add Error message
-* Select where error should be displayed (provide field name) 
+* Select where error should be displayed (provide field name)
 
 ### Database features
 The Force.com database goes beyond the conventional relation DBs and provides
@@ -947,10 +959,10 @@ This is about the customization of the User Interface part. The Page layout is m
 * Sort fields
 * Make fields mandatory or Read Only
 * Remove a field (Hide a field)
-* Sort the related Lists 
+* Sort the related Lists
 * Remove a related Lists (Hide a List)
 
-In the edit field section you can find the page layout. this is derived from the page layout that was originally selected during the custom tab creation. 
+In the edit field section you can find the page layout. this is derived from the page layout that was originally selected during the custom tab creation.
 1. Select Edit or Select New provide a layout name
 	1. select the existing page layout
 	2. you can add / remove button
@@ -960,9 +972,9 @@ In the edit field section you can find the page layout. this is derived from the
 	6. Save the final result
 	7. Assign the page-layout
 		1. Select the profile
-		
+
 you can define the tab movement as well
-you can create buttons etc. 
+you can create buttons etc.
 
 ### Formula Fields
 
@@ -971,7 +983,7 @@ Select the field select as formula as data type select the fields, add the formu
 
 * It perform automatic calculations and it is auto generated
 * you select the return type
-* you either use the formal or use drop down to create the formula. 
+* you either use the formal or use drop down to create the formula.
 
 ### schema builder
 The various objects and their relationships of a Salesforce application can be easily viewed using the Schema builder. And just not viewing, but we can also design, modify and implement new data models using schema builder.
@@ -998,10 +1010,10 @@ We can create new objects using the schema builder. Go to the Elements Tab. Drag
 
 **Need more info on how to assign the layout here **
 
-Assign multiple page layout for various users or Assign separate UI for the same object. 
-This is done during the View fields section. A record type 
- 
------ 
+Assign multiple page layout for various users or Assign separate UI for the same object.
+This is done during the View fields section. A record type
+
+-----
 ## Bulk data Management
 
 * Insert
@@ -1009,9 +1021,9 @@ This is done during the View fields section. A record type
 * Update
 * Export
 * Upsert (Update + Insert)
-* Undelete (Update + Merge) 
+* Undelete (Update + Merge)
 
-the Data is limited to 5 Million records, incases that there are more records you must use third party tools. 
+the Data is limited to 5 Million records, incases that there are more records you must use third party tools.
 
 ### Data Loader
 
@@ -1029,7 +1041,7 @@ Find Data loader from the Data management section of the left-menu on Setup
 	* Insert
 	* Update
 	* Upsert
-	* Delete 
+	* Delete
 	* Export
 	* Export All
 * need to select authorization for operation you selected
@@ -1125,7 +1137,7 @@ The following steps are involved;
 4. Select email template
 5. Select feidls to display on Approvasl page layout
 6. initial submission
-7. record can be Approval and saved in database 
+7. record can be Approval and saved in database
 8. record can be Rejected and it can be recalled
 
 ----
@@ -1155,7 +1167,7 @@ These actions can be triggered by the followings events
 
 To Create a Workflow
 * Create a workflow Rules, Select object, and condition
-* Define the action associated with this field 
+* Define the action associated with this field
 
 ** Need to find out more about this**
 -----
@@ -1229,12 +1241,12 @@ Once created, we can edit the permission set and choose Object Settings. Here we
 
 #### Edit Permission Set
 
----- 
+----
 ## Connected Apps
 
-These are applications that are external to the SalesForce. The user can connect to these apps using the Single-Sign-On. 
+These are applications that are external to the SalesForce. The user can connect to these apps using the Single-Sign-On.
 
-* **SAML Bearer Assertion Flow**; A signed SAML 2.0 Assertion along with a digital signature can be used to obtain an OAuth access Token 
+* **SAML Bearer Assertion Flow**; A signed SAML 2.0 Assertion along with a digital signature can be used to obtain an OAuth access Token
 * **OAuth Flow**;
 * **Username-password flow**; Used by applications that work without requiring user interactions to actively given authorization
 * **User Agent FLow**; CLient side Mobile or Browser application wich cannot secure the client secret
@@ -1304,7 +1316,7 @@ Allows the followings;
 * Custom S-Control
 
 Create a new dashboard, select the dashboard type add chart type and data source, and save.
-You can add filters 
+You can add filters
 
 **Need to find out more about this**
 
@@ -1326,5 +1338,3 @@ User Permissions
 ## Campaigns
 
 ## Visual Workflow
-
-
