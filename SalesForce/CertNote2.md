@@ -3,11 +3,15 @@
 * [Reference](https://trailhead.salesforce.com/en/credentials/administratoroverview)
 * [Source](http://salesforce-certification-notes.blogspot.com/2013/01/global-user-interface-1.html)
 
-#Admin Menu
+# Admin Menu
+The  following image displays the Administrators menu selection under setup;
 
 ![Admin Menu](./image/Admin_Menu.PNG)
 
 # Organization Setup - 1%
+
+![Admin Menu](./image/Company_Profile_Menu.PNG)
+
 The first step in SalesForce setup could be setting up The Company Profile. This can be done from the menu selection.
 
 The following sub-menu items are available under setting company profile;
@@ -26,10 +30,14 @@ Use the Company Information page in Setup to track what’s important about your
 
 when setting the Company Information the following sections are avaiavle on the page;
 
+![Admin Menu](./image/Company_Setup_Page.PNG)
+
+
 ## 1.1 Organization details:
 
 Organization Name, Primary Contact, Default locale, default language, currency locale, used data / File Space, API requests, Salesforce.com organization ID.
 
+![Admin Menu](./image/Company_Information_Section.PNG)
 ### 1.2 User licenses :
 
 A user license determines the baseline of features that the user can access. Every user must have exactly one user license. You assign user permissions for data access through a profile and optionally one or more permission sets.
