@@ -1,16 +1,19 @@
-# Salesforce Certification Exam Notes (Study Guides)
+# SalesForce Certification Exam Notes
 
-* [Reference](https://trailhead.salesforce.com/en/credentials/administratoroverview)
-* [Source](http://salesforce-certification-notes.blogspot.com/2013/01/global-user-interface-1.html)
+* [Reference](https://trailhead.SalesForce.com/en/credentials/administratoroverview)
+* [Source](http://SalesForce-certification-notes.blogspot.com/2013/01/global-user-interface-1.html)
+
+Generally the first step in every account is to setup the organization information
 
 # Admin Menu
+
 The  following image displays the Administrators menu selection under setup;
 
 ![Admin Menu](./image/Admin_Menu.PNG)
 
 # Organization Setup - 1%
 
-Generally the Company Profile set up is the first step. You can find the "Company Profile" Menu selection under the Administration Menu; 
+Generally the Company Profile set up is the first step. You can find the "Company Profile" Menu selection under the Administration Menu;
 
 
 ![Admin Menu](./image/Company_Profile_Menu.PNG)
@@ -29,33 +32,51 @@ The following sub-menu items are available under setting company profile;
 
 # 1. Describe the components of the company profile
 
-Use the Company Information page in Setup to track what’s important about your company’s organization in Salesforce. You can also manage your licenses and entitlements. This page contains the information that was provided when your company signed up with Salesforce.
+Use the Company Information page in Setup to track what’s important about your company’s organization in SalesForce. You can also manage your licenses and entitlements. This page contains the information that was provided when your company signed up with SalesForce.
 
 when setting the Company Information the following sections are avaiavle on the page;
 
 ![Admin Menu](./image/Company_Setup_Page.PNG)
 
-
 ## 1.1 Organization details:
+The following is the organization information;
 
-Organization Name, Primary Contact, Default locale, default language, currency locale, used data / File Space, API requests, Salesforce.com organization ID.
+* Organization Name, 
+* Primary Contact, 
+* Default locale, 
+* default language, 
+* currency locale, 
+* used data / File Space, 
+* API requests, 
+* SalesForce.com organization ID.
 
 ![Admin Menu](./image/Company_Information_Section.PNG)
+
 ### 1.2 User licenses :
 
 A user license determines the baseline of features that the user can access. Every user must have exactly one user license. You assign user permissions for data access through a profile and optionally one or more permission sets.
 
 ![Admin Menu](./image/User_Licenses_Section.PNG)
 
+The followings are the user licenses;
 
-( Salesforce, Salesforce platform, Force.com, Knowledge Only, Chatter Free, Chatter external, Chatter only/plus,  Customer portal, Partner)
+* SalesForce, 
+* SalesForce platform, 
+* Force.com, 
+* Knowledge Only, 
+* Chatter Free, 
+* Chatter external, 
+* Chatter only/plus,  
+* Customer portal, 
+* Partner
 
 ### 1.3 Permission Set Licence
 
 ![Admin Menu](./image/Permision_Set_Licenses.PNG)
 
+A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses. 
 
-A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses. Users can be assigned any number of permission set licenses.
+Users can be assigned any number of permission set licenses.
 
 ### 1.4 Feature licenses :
 
@@ -63,10 +84,22 @@ A feature license entitles a user to access an additional feature that is not in
 
 ![Admin Menu](./image/Feature_Licenses.PNG)
 
+The followings are the Feature Licenses;
 
-(Marketing user, Offline user, Knowledge user, Force.com Flow user, Service cloud user, site.com contributor, site.com publisher, Mobile user, Salesforce CRM Content user, live agent user)
+* Marketing user, 
+* Offline user, 
+* Knowledge user, 
+* Force.com Flow user, 
+* Service cloud user, 
+* site.com contributor, 
+* site.com publisher, 
+* Mobile user, 
+* SalesForce CRM Content user, 
+* live agent user
 
-User Licenses show status, total licenses, used licenses, remaining licenses and expiration date. **Feature licenses are same but do not show expiration date** (They are attached to the user licenses, to enable a feature for a user in your organization, you can assign feature licenses when adding new users or editing a user's personal information, checkboxes!)
+User Licenses show status, total licenses, used licenses, remaining licenses and expiration date. **Feature licenses are same but do not show expiration date** 
+
+(They are attached to the user licenses, to enable a feature for a user in your organization, you can assign feature licenses when adding new users or editing a user's personal information, checkboxes!)
 
 ### 1.5 Usage-based Entitlements
 
@@ -74,19 +107,20 @@ User Licenses show status, total licenses, used licenses, remaining licenses and
 
 A usage-based entitlement is a limited resource that your organization can use on a periodic basis—such as the allowed number of monthly logins to a Partner Community or the record limit for Data.com list users.
 
-Some entitlements are persistent. These entitlements give your Salesforce org a set number of the resource, and the amount allowed doesn’t change unless your contract changes. For example, if your company purchases monthly subscriptions for 50 members to access a Partner Community, you can assign up to 50 individuals the ability to log into the community as many times as they want.
+Some entitlements are persistent. These entitlements give your SalesForce org a set number of the resource, and the amount allowed doesn’t change unless your contract changes. For example, if your company purchases monthly subscriptions for 50 members to access a Partner Community, you can assign up to 50 individuals the ability to log into the community as many times as they want.
 
 Other entitlements are not persistent; these entitlements work like credit. Your org can use up to the amount allowed of that entitlement over the time indicated by the resource’s frequency. If the entitlement has a frequency of Once, your org must purchase more of the resource to replenish the allowance. If the entitlement has a frequency of Monthly, then your contract (not the calendar month) determines the start and end of the month.
 
 For example:
 
-* Company A purchases 50 monthly logins for a Partner Community, and on January 15 that org has a pool of 50 logins. Each time someone logs in, one login is used. On February 15, no matter how many were used in the previous month, the pool is refreshed and 50 logins are available through March 14.
-* Company B purchases 2,000 records for Data.com list users with an end date of May 15. That org’s list users can add or export up to 2,000 records until that date. If the org reaches that limit before May 15, the Data.com list users won’t be able to add or export more records. To unblock users, Company B can purchase more records.
+    * Company A purchases 50 monthly logins for a Partner Community, and on January 15 that org has a pool of 50 logins. Each time someone logs in, one login is used. On February 15, no matter how many were used in the previous month, the pool is refreshed and 50 logins are available through March 14.
+    
+    * Company B purchases 2,000 records for Data.com list users with an end date of May 15. That org’s list users can add or export up to 2,000 records until that date. If the org reaches that limit before May 15, the Data.com list users won’t be able to add or export more records. To unblock users, Company B can purchase more records.
+    
+> NOTE: If your org has multiple contracts with the same Resource and the Resource ID is (tenant), you will still only see one row for that entitlement, but the data in that row will reflect your combined contracts. In this case, Start Date reflects the earliest start date among those contracts, and End Date reflects the latest end date among those contracts.Like feature licenses, usage-based entitlements don’t limit what you can do in SalesForce; they add to your functionality. If your usage exceeds the allowance, SalesForce will contact you to discuss additions to your contract.
 
-> NOTE: If your org has multiple contracts with the same Resource and the Resource ID is (tenant), you will still only see one row for that entitlement, but the data in that row will reflect your combined contracts. In this case, Start Date reflects the earliest start date among those contracts, and End Date reflects the latest end date among those contracts.Like feature licenses, usage-based entitlements don’t limit what you can do in Salesforce; they add to your functionality. If your usage exceeds the allowance, Salesforce will contact you to discuss additions to your contract.
-
-* **View Your Salesforce Org’s Usage-Based Entitlements**; Look at your company’s usage-based entitlements to know which resources your org is entitled to.
-* **Usage-based Entitlement Fields**; The Usage-based Entitlements related list displays the following information. These fields aren’t editable, and they are only visible if your Salesforce org is entitled to a resource.
+* **View Your SalesForce Org’s Usage-Based Entitlements**; Look at your company’s usage-based entitlements to know which resources your org is entitled to.
+* **Usage-based Entitlement Fields**; The Usage-based Entitlements related list displays the following information. These fields aren’t editable, and they are only visible if your SalesForce org is entitled to a resource.
 
 ## Fiscal year:
 
@@ -105,69 +139,112 @@ When setting Company Fiscal Years, there are two types of Fiscal Year;
 -Changing fiscal year start month may delete existing forecasts, forecast history, forecast overrides, reports and all quotas.  To preserve: use a month that starts a fiscal year not a random month.
 
 ## Business hours
+
 Shows the days and hours that your support team is available. These hours, when associated with escalation rules, determine the times at which cases can escalate. Blank business hrs. mean, org doesn’t operate that day. There are no organization login hours, just business hours
 
+** If the user has a session and the hours just passed, the next page the user goes, the session is validated and user loses the session**
+
 ## Holidays
-Holidays are dates and times at which business hours are suspended. Enter the dates and times at which to suspend business hours and escalation rules associated with business hours
+
+Holidays are dates and times at which business is closed. Enter the dates and times at which to suspend business hours and escalation rules associated with business hours
 
 ## Language Setting
 
-where you set end user (help and admin setup are not translated) and platform only languages. Languages that appear in gray are currently used by your company, users, or both. They cannot be deactivated
+where you set end user (help and admin setup are not translated) and platform only languages. 
+
+Languages that appear in gray are currently used by your company, users, or both. They cannot be deactivated
 
 ## Data Protection and Privacy
 
 ----
 
-**My Domain**: Once the new domain name deployed to users, you cant reverse it. Up to 40 characters. You have the option of redirecting the users (deploy) or block login from old domain (Prevent login from login.salesforce.com to provide better security) – check login history to see. (spluxco-dev-ed.my.salesforce.com) 
+**My Domain**: Once the new domain name deployed to users, you cant reverse it.
+Domain name can be up to 40 characters.
 
-* [See](https://pmi-sfbac-dev-ed.my.salesforce.com)
+SalesForce domain name is as follow: mydomainname.my.SalesForce.com
+You have the option of redirecting the users (deploy) or block login from old domain (Prevent login from login.SalesForce.com to provide better security) – check login history to see.
+
+* [See](https://pmi-sfbac-dev-ed.my.SalesForce.com)
 
 # User Licenses:
+
+The followings are various licenses provided by Saleforce;
+
 (Changing a user license of a user also removes the permission sets assigned to that user)
 
-
-* **Salesforce**: Full access, can access any standard and custom app.
-* **Salesforce Platform**: Users can access custom apps (incl. AppExchange) but not standard CRM functionality (forecasts, opportunities). In addition can use core platform functionality (Accounts, contacts, reports, dashboards, documents and custom tabs) Users with this license can only view dashboards if the running user also has the same license.
+* **SalesForce**: Full access, can access any standard and custom app.
+* **SalesForce Platform**: Users can access custom apps (incl. AppExchange) but not standard CRM functionality (forecasts, opportunities). In addition can use core platform functionality (Accounts, contacts, reports, dashboards, documents and custom tabs) Users with this license can only view dashboards if the running user also has the same license.
 * **Force.com**: Users can access one custom app but not standard CRM functionality. Read only on Accounts and Contacts objects. Users with this license can only view dashboards if the running user also has the same license.
-Chatter Free: Users can access standard Chatter people, profiles, groups, and files. They can't access any Salesforce objects or data. You can upgrade a Chatter Free license to a standard Salesforce license at any time, however, you can't convert a standard Salesforce or Chatter Only license to a Chatter Free license.
+Chatter Free: Users can access standard Chatter people, profiles, groups, and files. They can't access any SalesForce objects or data. You can upgrade a Chatter Free license to a standard SalesForce license at any time, however, you can't convert a standard SalesForce or Chatter Only license to a Chatter Free license.
 * **Chatter External**: Designed to allow customers in Chatter groups. Customers are users outside of a company’s email domain.
 Customer portal user license: Allows contacts to log into your Customer Portal to manage customer support
 Authenticated Website license: is designed to be used with Force.com Sites. It gives named sites users unlimited logins to your Platform Portal to access customer support information.
 Data.com: Add, export data.com reports per month. Default is 300.
-Knowledge only: Designed for users who only need access to the Salesforce Knowledge app. Access to the following tabs: Articles, Article Management, Chatter, Chatter Files, Home, Profiles, Reports, custom objects, and custom tabs. The Knowledge Only User license includes a Knowledge Only profile that grants access to the Articles tab.
+Knowledge only: Designed for users who only need access to the SalesForce Knowledge app. Access to the following tabs: Articles, Article Management, Chatter, Chatter Files, Home, Profiles, Reports, custom objects, and custom tabs. The Knowledge Only User license includes a Knowledge Only profile that grants access to the Articles tab.
 
 ## Feature Licenses:
 
-(You may have more than one type of feature license available to assign to the users in your organization. A feature license entitles a user to an additional Salesforce feature, such as Marketing or Connect Offline.)
-Marketing user, Offline user, Knowledge user, force.com flow, Service cloud user, site.com contributor, site.com publisher user, Mobile user, Salesforce CRM Content user, live agent, data.com
+**You may have more than one type of feature license available to assign to the users in your organization. A feature license entitles a user to an additional SalesForce feature, such as Marketing or Connect Offline.**
 
-Storage: (2 kinds: Data storage and File storage): Each license provides additional storage: Minimum 1gb, normally 20MB X the user. 20 users – 1GB, 200 users – 4GB
+Marketing user, Offline user, Knowledge user, force.com flow, Service cloud user, site.com contributor, site.com publisher user, Mobile user, SalesForce CRM Content user, live agent, data.com
+
+* **Storage**: There are two kinds of storage
+	* **Data storage**
+	* **File storage**
+
+Each license provides additional storage: Minimum 1gb, normally 20MB X the user. 20 users – 1GB, 200 users – 4GB
 
 ## Language, Locale, and Currency
-Currency - User in a multiple currency organization - User’s default currency for quotas, forecasts, and reports. Shown only in organizations using multiple currencies. This must be one of the active currencies for the organization
-Corporate Currency – Administrator - The currency in which the organization's corporate headquarters reports revenue. Serves as the basis for all currency conversion rates. Only for organizations that use multiple currencies. Multiple currencies once enabled can’t be disabled by the organization.
-Information Currency – Not editable - The default currency for all currency amount fields in the user record. Available only for organizations that use multiple currencies.
-Currency Locale – Administrator - The country or geographic region in which the organization is located. The setting affects the format of currency amounts. For single currency organizations only.
-Locale – User - Country or geographic region in which user is located.
+
+* **Currency** - User in a multiple currency organization - User’s default currency for quotas, forecasts, and reports. Shown only in organizations using multiple currencies. This must be one of the active currencies for the organization
+
+* **Corporate Currency** – Administrator - The currency in which the organization's corporate headquarters reports revenue. Serves as the basis for all currency conversion rates. Only for organizations that use multiple currencies. Multiple currencies once enabled can’t be disabled by the organization.
+
+* **Information Currency** – Not editable - The default currency for all currency amount fields in the user record. Available only for organizations that use multiple currencies.
+
+* **Currency Locale** – Administrator - The country or geographic region in which the organization is located. The setting affects the format of currency amounts. For single currency organizations only.
+
+* **Locale** – User - Country or geographic region in which user is located.
 The Locale setting affects the format of date, date/time, and number fields, and the calendar. The Locale setting also affects the first and last name order on Name fields for users, leads, and contacts. Personal locale, overrides the organization setting.
 Default Currency ISO Code - Not editable - User's default currency setting for new records. Available only for organizations that use multiple currencies.
-Default Language – Administrator - This setting also determines the language in which all customizations—such as custom fields, tabs, and user interface options—are stored. For customizations, individual users' language settings do not override this setting. Also set language for new users in the organization.
-Language – User - The primary language for the user. A user’s individual Language setting overrides the organization’s Default Language.
-Default Locale – Administrator - The default country or geographic region that is selected for new users in the organization. This setting determines the format of dates, times, and names in Salesforce. Individual users can set their personal locale, which overrides the organization setting.
-Default Time Zone – Administrator - Primary time zone in which the organization is located. A user's individual Time Zone setting overrides the organization's Default Time Zone setting.
-Time Zone – User - Primary time zone in which user works.
+
+* **Default Language – Administrator** - This setting also determines the language in which all customizations—such as custom fields, tabs, and user interface options—are stored. For customizations, individual users' language settings do not override this setting. Also set language for new users in the organization.
+
+* **Language – User** - The primary language for the user. A user’s individual Language setting overrides the organization’s Default Language.
+
+* **Default Locale – Administrator** - The default country or geographic region that is selected for new users in the organization. This setting determines the format of dates, times, and names in SalesForce. Individual users can set their personal locale, which overrides the organization setting.
+
+* **Default Time Zone – Administrator** - Primary time zone in which the organization is located. A user's individual Time Zone setting overrides the organization's Default Time Zone setting.
+
+* **Time Zone – User** - Primary time zone in which user works.
 
 You can opt to use dated exchange rates by using advanced currency management to track historical exchange rates. When enabled, advanced currency management allows maintaining a list of exchange rates by date range, and converted currency amounts on opportunities display based on the specified Close Date, regardless of the opportunity stage. Changing the Close Date impacts converted amounts if it changes to a different exchange rate period. If your organization uses advanced currency management, the opportunity close date determines which conversion rate to use when displaying currency amounts. (Close date is set to the last day of the quarter)
+
 Multiple currencies can be used in opportunities, forecasts, reports, quotes, and other currency fields.
+
 Custom formula fields are not tied to any particular currency. If the result of a formula field is a currency amount, it displays in the currency of the associated record. This is also true for cross-object formulas that reference merge fields with different currencies, and formulas in workflow rules and approval processes. However, note that workflow rules and approval processes that use filters instead of formulas convert all currency values to the corporate currency.
+
 You cannot track revenue gain or loss based on currency fluctuations.
+
 Changing conversion rates causes a mass recalculation of roll-up summary fields, which may take up to 30 minutes, depending on the number of records affected and other factors.
+
 Company information page limits:
-Street address – 255
-City, country, division, fax, phone – 40 State, zip - 20
-Organization name, primary contact,  - 80
-￼￼￼￼￼￼￼If your organization has enabled Shared Activities, you can relate as many as 10 contacts to non-recurring and non-group tasks, and non-recurring events. You assign one primary contact; all others are secondary contacts. The primary contact appears in two reports: Tasks and Events, and Activities with Cases. If you delete the primary contact, the next contact on the activity’s related list becomes the new primary one. If that’s not the primary contact you want, you can edit the activity to select another.
-Standard apps: (Sales, Call Center, Marketing, Community, Site.com, Salesforce Chatter)
+
+* Street address – 255
+* City, country, division, fax, phone – 40 State, zip - 20
+* Organization name, primary contact,  - 80
+
+**If your organization has enabled Shared Activities, you can relate as many as 10 contacts to non-recurring and non-group tasks, and non-recurring events. You assign one primary contact; all others are secondary contacts. The primary contact appears in two reports: Tasks and Events, and Activities with Cases. If you delete the primary contact, the next contact on the activity’s related list becomes the new primary one. If that’s not the primary contact you want, you can
+edit the activity to select another.**
+
+The followings are the list of Standard Apps;
+
+* Sales, 
+* Call Center, 
+* Marketing, 
+* Community, 
+* Site.com, 
+* SalesForce Chatter
 
 ![Admin Menu](./image/Fiscal_Year_Custom.PNG)
 ![Admin Menu](./image/Fiscal_Year_Main.PNG)
@@ -189,23 +266,30 @@ Under "Manage Users" menu selection the following menu itemms are avaiblable
 1. Identity Verification History
 
 2. **Identify the steps to set up and maintain a user** (required fields: Last name, email/username, user license, profile) (req: Last name, Alias, Email, Username, Community Nickname, Role, User Licence, Profile) (Email becomes username, community nickname and Alias are derived from email and names, role is not compulsory)
-In Salesforce, every user is identified by a username, password, and a single profile. The profile determines what tasks users can perform, what data they see, and what they can do with the data.
-A user can be assigned to one or more of feature licenses. You can also set up accounts for users outside your organization who need to access a limited set of fields and objects. These user licenses can grant access to Customer Portal and partner portal. Using Salesforce to Salesforce, you can create connections to share records with other Salesforce users outside of your organization.
+In SalesForce, every user is identified by a username, password, and a single profile. The profile determines what tasks users can perform, what data they see, and what they can do with the data.
+A user can be assigned to one or more of feature licenses. You can also set up accounts for users outside your organization who need to access a limited set of fields and objects. These user licenses can grant access to Customer Portal and partner portal. Using SalesForce to SalesForce, you can create connections to share records with other SalesForce users outside of your organization.
 Profile settings control access to applications and objects. Sharing features control access to specific records
-Maximum Salesforce users per edition:
-Contact Manager(5), Group(5), Professional(unlt), Enterprise(unlt), Unlimited(unlt), Developer(2)
-￼
-3. Given a scenario, troubleshoot common user access and visibility issues
-￼￼￼1. Check login history (to see what the problem is? Usually a password lockout after invalid password, if password is the problem, reset password to send a new password and then unlock/ lockout could be temporary or admin reset)) (if no incorrect attempt then the user was using an invalid email/username to login)
 
-2. If access problems are one of the below then identity must be confirmed:
-a. Does user profile has any login restriction?
-b. Does user IP address in organization’s trusted IP range? (Only user with an activated IP address can login)
-	* IP address considered activated if IP address falls within trusted IP ranges
-	* IP address previously activated by user
-	* Browser can be identified by a cookie
-c. Has user been activated from this IP before?
-d. Does user’s web browser have valid cookies from Salesforce?
+Maximum SalesForce users per edition:
+
+* Contact Manager(5), 
+* Group(5), 
+* Professional(unlt), 
+* Enterprise(unlt), 
+* Unlimited(unlt), 
+* Developer(2)
+
+3. Given a scenario, troubleshoot common user access and visibility issues
+	1. Check login history (to see what the problem is? Usually a password lockout after invalid password, if password is the problem, reset password to send a new password and then unlock/ lockout could be temporary or admin reset)) (if no incorrect attempt then the user was using an invalid email/username to login)
+
+	2. If access problems are one of the below then identity must be confirmed:
+		a. Does user profile has any login restriction?
+		b. Does user IP address in organization’s trusted IP range? (Only user with an activated IP address can login)
+			* IP address considered activated if IP address falls within trusted IP ranges
+			* IP address previously activated by user
+			* Browser can be identified by a cookie
+		c. Has user been activated from this IP before?
+		d. Does user’s web browser have valid cookies from SalesForce?
 
 User profile login restrictions:
 1.     Login hours (outside of the hrs. login is denied) (Set login access for specific profiles (login hours under profile)) (For example: customer support specialist profile can login from 7am until 5pm, Mon to Fri)
@@ -226,14 +310,16 @@ Nothing will happen until your session expires and you will not be able to re-lo
 User will continue to use the system until attempts to save or upload?????? (DML)
 
 Grant login Access: only users themselves can grant login access to the administrator
-o   If you change a user’s email address and generate new password and notify user immediately is deselected, a confirmation message will be sent to the new email address that you entered. The user must click the link provided in that message for the new email address to take effect. This process ensures system security. When generating a new password for a user, the new password is automatically sent to the user’s email address and email verification is not enforced.
-o   If you change a user's username, a confirmation email with a login link is sent to the email address associated with that user account. Problems might occur because an organization could have multiple login servers. The link in the email connects directly to the server where the actual username change was made. This ensures that users can always log in, even if server replication is slow
-o   Click Grant Checkout Access to give a user access to Checkout. Using Checkout, the user can purchase Salesforce licenses, AppExchange app licenses, and other related products. Additionally, within Checkout, the user can view the organization's quotes, installed products, orders, invoices, payments, and contracts.
+* If you change a user’s email address and generate new password and notify user immediately is deselected, a confirmation message will be sent to the new email address that you entered. The user must click the link provided in that message for the new email address to take effect. This process ensures system security. When generating a new password for a user, the new password is automatically sent to the user’s email address and email verification is not enforced.
+* If you change a user's username, a confirmation email with a login link is sent to the email address associated with that user account. Problems might occur because an organization could have multiple login servers. The link in the email connects directly to the server where the actual username change was made. This ensures that users can always log in, even if server replication is slow
+* Click Grant Checkout Access to give a user access to Checkout. Using Checkout, the user can purchase SalesForce licenses, AppExchange app licenses, and other related products. Additionally, within Checkout, the user can view the organization's quotes, installed products, orders, invoices, payments, and contracts.
 
 # Global User Interface - 1%
 
-￼4. Distinguish between and identify the implications of the various user interface features that an administrator controls
+4. Distinguish between and identify the implications of the various user interface features that an administrator controls
+
 ￼￼￼￼￼￼￼User Interface (Customize | User Interface)
+
 * Enable Collapsible Sections:(call center users won’t see incoming calls if they collapse sidebar
 * Show Quick Create: The Quick Create area on a tab home page allows users to create a new record quickly with minimal information. This setting also affects whether or not users can create new records from within the lookup dialog. For example, with the setting enabled, users can create a new account within the account lookup dialog while creating or editing a contact
 * Enable Hover Details: Display an interactive overlay containing detailed information about a record
@@ -241,7 +327,7 @@ o   Click Grant Checkout Access to give a user access to Checkout. Using Checkou
 * Enable Separate Loading of Related Lists: Primary record details load first, followed by related list data. Separate loading can improve performance on record detail pages for organizations with large numbers of related lists.
 * Enable Inline Editing: This doesn't enable inline editing for profiles. Inline editing isn't available for accessibility mode, system fields, formula fields, case assignments, case email notifications, lead assignments, setup pages, on records for which you have read-only access, dashboards, documents, pricebooks, on records for which you have read-only access, All fields in Tasks except for Subject and Comment, All fields in Events except for Subject, Description, and Location, Full name fields of Person Accounts, Contacts, and Leads. However, their component fields are editable, for example, First Name and Last Name.
 * Enable Enhanced Lists: When enabled with the Enable Inline Editing setting, users can also edit records directly from the list, without navigating away from the page
-* Enable New User Interface Theme: Some Salesforce features like Chatter need the new user interface theme. Disabling the new user theme disables Chatter
+* Enable New User Interface Theme: Some SalesForce features like Chatter need the new user interface theme. Disabling the new user theme disables Chatter
 * Enable Tab Bar Organizer
 * Enable Printable List Views
 * Enable Spell Checker
@@ -265,6 +351,7 @@ Setup
 Accessibility Mode is an alternate user interface mode intended for use by visually impaired users utilizing a screen reader such as JAWS or Window-Eyes. Accessibility Mode will disable some user interface features, such as displaying details on hover, inline editing, new user interface theme and should not be enabled by users not using screen readers.
 
 # Security and Access - 15%
+
 Under the "Security Controls" you can manage the following functionality;
 
 * Manage your named credentials
@@ -298,64 +385,87 @@ Under the "Security Controls" you can manage the following functionality;
 5. Explain the various organization security options (Object is a category of information {position, candidate}, record is a single instance of an object {SW Engineer})
 profile>OWD>Role>Sharing rules>Group queues>Criteria based, manual sharing
 -----------à increased data exposure -----------à
+
 Sharing rules can never be stricter than the OWD settings.
 Sharing Access Diagram:
-1.     Salesforce checks whether user’s profile has object level permission to access that object
-2.     Salesforce checks whether user’s profile has any administrative permissions (view all data, modify all data)
-3.     Salesforce checks the ownership of the record (Organization wide defaults, role-level access, any sharing rules will be checked)
+
+1. SalesForce checks whether user’s profile has object level permission to access that object
+2. SalesForce checks whether user’s profile has any administrative permissions (view all data, modify all data)
+3. SalesForce checks the ownership of the record (Organization wide defaults, role-level access, any sharing rules will be checked)
 
 Controlling a user's access to data in several ways:
-1.     To control access to applications and objects, including fields and record types within objects: Use profiles and permission sets. (Create record types for a custom object to display different picklist values and page layouts to different users based on their profiles.)
-2.     To control access to specific records: Use sharing settings and rules.
+1. To control access to applications and objects, including fields and record types within objects: Use profiles and permission sets. (Create record types for a custom object to display different picklist values and page layouts to different users based on their profiles.)
+2. To control access to specific records: Use sharing settings and rules.
 
 You cannot delegate administrative duties related to your organization to partner portal or Customer Portal users. However, you can delegate some portal administrative duties to portal users.
-￼￼￼￼￼
-1.     Object level security: (What objects can a user see?) (It is set in user Profiles and Permission sets) to prevent user from viewing, creating, editing or deleting any instance of a particular type of object. It allows us to hide whole tabs & objects from particular users. User wouldn’t even know the object exists. (Tab settings, Standard / Custom object permissions) On the platform, we set object-level access with object permissions in user profiles and permission sets
-2.     Field level security: (What fields on those objects can a user see?) (In user Profiles and permission sets) (Field level access with field permissions) a variation of object level security. User is prevented from a particular field without having to hide the whole object, such as “max salary” or “SS”. Page layouts only control the visibility of field on detail and edit pages whereas field level security controls the visibility of fields in any part of the app (related lists, list views, reports and search results)(in order to be absolutely sure that a user does not have access to a particular field) (visible/ read only boxes checked – read only | only visible box checked – editable | no box – hidden) In the platform, we control access to individual fields with field-level security. Field-level security controls whether a user can see, edit, and delete the value for a particular field on an object.
-3.     Record level security: (Org. wide defaults (Which records should be hidden by default?), Role hierarchy / Sharing model / Manual sharing (What exceptions should we make?))
+
+1. Object level security: (What objects can a user see?) (It is set in user Profiles and Permission sets) to prevent user from viewing, creating, editing or deleting any instance of a particular type of object. It allows us to hide whole tabs & objects from particular users. User wouldn’t even know the object exists. (Tab settings, Standard / Custom object permissions) On the platform, we set object-level access with object permissions in user profiles and permission sets
+
+2. Field level security: (What fields on those objects can a user see?) (In user Profiles and permission sets) (Field level access with field permissions) a variation of object level security. User is prevented from a particular field without having to hide the whole object, such as “max salary” or “SS”. Page layouts only control the visibility of field on detail and edit pages whereas field level security controls the visibility of fields in any part of the app (related lists, list views, reports and search results)(in order to be absolutely sure that a user does not have access to a particular field) (visible/ read only boxes checked – read only | only visible box checked – editable | no box – hidden) In the platform, we control access to individual fields with field-level security. Field-level security controls whether a user can see, edit, and delete the value for a particular field on an object.
+
+3. Record level security: (Org. wide defaults (Which records should be hidden by default?), Role hierarchy / Sharing model / Manual sharing (What exceptions should we make?))
 
 Organization-wide defaults allow us to specify the baseline level of access that a user has in your organization. For example, we can make it so that any user can see any record of a particular object to which their object permissions give them access, but so that they'll need extra permissions to actually edit one.
 Role hierarchies allow us to make sure that a manager will always have access to the same records as his or her subordinates.
 Sharing rules allow us to make automatic exceptions to organization-wide defaults for particular groups of users.
 Manual sharing allows record owners to give read and edit permissions to folks who might not have access to the record any other way.
 
-Profiles: (compulsory when setting up the user, user must be associated with a profile)
+**Profiles**: (compulsory when setting up the user, user must be associated with a profile)
 A collection of settings (what user can see) and Permissions (what user can do)
 A profile contains user permissions and access settings that control what users can do within their organization. Profiles are typically defined by a user's job function (for example, system administrator or sales representative), but you can have profiles for anything that makes sense for your organization. A profile can be assigned to many users, but a user can be assigned to only one profile at a time, where all of the members of the group have the same folder permissions and access to the same software. Profile never override organization’s sharing model or role hierarchy. (Exp: A profile set to allow a user access to create, edit, delete leads but a user with above profile cannot edit, delete other users leads if organizations lead sharing model is read only)
+
 Profiles control:
-o   Which standard and custom apps users can view?
-o   Which tabs users can view?
-o   Which record types are available to users?
-o   Which page layouts users see?
-o   Object permissions that allow users to create, read, edit, and delete records
-o   Which fields within objects users can view and edit
-o   Admin Permissions that allow users to manage the system and apps within it
-o   Which Apex classes and Visualforce pages users can access
-o   Which desktop clients users can access
-o   The hours during which and IP addresses from which users can log in (profile login hours, Profile IP addresses)
-o   Which service provider’s users can access (if Salesforce is enabled as an identity provider)
+
+* Which standard and custom apps users can view?
+* Which tabs users can view?
+* Which record types are available to users?
+* Which page layouts users see?
+* Object permissions that allow users to create, read, edit, and delete records
+* Which fields within objects users can view and edit
+* Admin Permissions that allow users to manage the system and apps within it
+* Which Apex classes and Visualforce pages users can access
+* Which desktop clients users can access
+* The hours during which and IP addresses from which users can log in (profile login hours, Profile IP addresses)
+* Which service provider’s users can access (if SalesForce is enabled as an identity provider)
+
 You can use standard profiles, or create, edit, and delete custom profiles. For standard profiles, only certain settings can be changed. You can never edit object permissions on a standard profile. So you must first clone the standard profile to create a customd profiles (6 Types): Marketing user, Contract manager, Read only (executive team), Solution manager, Standard user, System#  Admin.
 
-Permission Sets: (Administrative and General) (Standard object permissions, custom object permissions) is a collection of settings and permissions that determine what a user can do.  If the custom box is not checked it is a standard profile and we cannot edit standard profiles permission set. But we can choose which tabs should appear at top of user’s / profile’s page and also select which apps to display in Force.com. (Default on (displayed on top of user’s page), Default off (hidden from user’s page but available when all Tabs is clicked), Tab hidden (completely hidden)
+**Permission Sets:** (Administrative and General) (Standard object permissions, custom object permissions) is a collection of settings and permissions that determine what a user can do.  If the custom box is not checked it is a standard profile and we cannot edit standard profiles permission set. But we can choose which tabs should appear at top of user’s / profile’s page and also select which apps to display in Force.com. (Default on (displayed on top of user’s page), Default off (hidden from user’s page but available when all Tabs is clicked), Tab hidden (completely hidden)
+
 Hiding a tab is not sufficient to prevent a user from accessing records of that tab
+
 You can only assign permission sets that have the same user licenses as the user or permission sets with no associated license. You cannot change the license later. Select the type of users who will use this permission set:
 Who will use this permission set? If you plan to assign this permission set to multiple users with different licenses, choose '--None--'. If only users with one type of license will use this permission set, choose the same license that’s associated with them.
-1.     Grant access to custom object or App:
-Example: Many users in an organization are doing the same job. Assign them all one profile that grants them access to do their job and then assign permission sets to user if they are assigned to a special project. PMISFBAC board profile, PMISFBAC operations profile (DB permission set, Volunteer app review permission set, certifications app permission set) & take away when it is not needed.
-2.     Temporary/long term permission set:
-Example: A user goes to vacation. Create a permission set to grant access to a custom object or app to another user. After main man returns remove it.
+
+1. Grant access to custom object or App:
+
+	Example: Many users in an organization are doing the same job. Assign them all one profile that grants them access to do their job and then assign permission sets to user if they are assigned to a special project. PMISFBAC board profile, PMISFBAC operations profile (DB permission set, Volunteer app review permission set, certifications app permission set) & take away when it is not needed.
+
+2. Temporary/long term permission set:
+
+	Example: A user goes to vacation. Create a permission set to grant access to a custom object or app to another user. After main man returns remove it.
+
 Difference between profiles and permission sets?
-o   Users can have only one profile, but they can have many permission sets
-o   Therefore profiles are used to grand the minimum permissions and settings that every type of user needs. (Assigned before permission sets)
-o   Then use permission sets to grant additional permissions without changing anyone’s profiles. (Also, permission sets can be temporary or long term)
+
+* Users can have only one profile, but they can have many permission sets
+* Therefore profiles are used to grand the minimum permissions and settings that every type of user needs. (Assigned before permission sets)
+* Then use permission sets to grant additional permissions without changing anyone’s profiles. (Also, permission sets can be temporary or long term)
+
 Example: (Recruiting App)
+
 Recruiter: Own profile
+
 Hiring Manager: Permission sets
+
 Standard Employees: Start with low profile + permission sets
+
 Interviewers: Any employee can be an interviewer (grant and revoke access as needed) so permission set.
 Although there is permission to create, read or edit on an object does not necessarily mean users will be allowed to read every object’s record because:
-1.     Permissions on a record always evaluated according to a combination of object, field and record level permissions
-2.     When object vs. record level permissions conflict, the most restrictive setting wins. (If a record level is more restrictive, although object level allows it, still the record level wins because it is more restrictive)
+
+1. Permissions on a record always evaluated according to a combination of object, field and record level permissions
+
+2. When object vs. record level permissions conflict, the most restrictive setting wins. (If a record level is more restrictive, although object level allows it, still the record level wins because it is more restrictive)
+
 6. Describe the features and capabilities of the sharing model
 Record Access (Record level security)
 Changing your sharing model deletes any manual shares your users have created.
@@ -368,52 +478,61 @@ c. Public Read/Write: This setting allows all users the ability to view and edit
 d. Public Read/Write/Transfer: This setting on an object allows all users the ability to view, edit, and even change ownership of records owned by other
 
 You can't change the organization-wide sharing default setting for some objects:
-o   Solutions are always Public Read/Write.
-o   Service contracts are always Private.
-o   The ability to view or edit a document, report, or dashboard is based on a user's access to the folder in which it's stored.
-o   Users can only view the forecasts of other users who are placed below them in the role hierarchy, unless forecast sharing is enabled. For more information, see Manually Sharing a Forecast.
-o   When a custom object is on the detail side of a master-detail relationship with a standard object, its organization-wide default is set to Controlled by Parent and it is not editable.
-o   You can't change the organization-wide default settings from private to public for a custom object if Apex code uses the sharing entries associated with that object. For example, if Apex code retrieves the users and groups who have sharing access on a custom object Invoice__c (represented as Invoice__share in the code), you can't change the object's organization-wide sharing setting from private to public.
+
+* Solutions are always Public Read/Write.
+* Service contracts are always Private.
+* The ability to view or edit a document, report, or dashboard is based on a user's access to the folder in which it's stored.
+* Users can only view the forecasts of other users who are placed below them in the role hierarchy, unless forecast sharing is enabled. For more information, see Manually Sharing a Forecast.
+* When a custom object is on the detail side of a master-detail relationship with a standard object, its organization-wide default is set to Controlled by Parent and it is not editable.
+* You can't change the organization-wide default settings from private to public for a custom object if Apex code uses the sharing entries associated with that object. For example, if Apex code retrieves the users and groups who have sharing access on a custom object Invoice__c (represented as Invoice__share in the code), you can't change the object's organization-wide sharing setting from private to public.
 
 1) Roles Hierarchy: Open up access (vertical) Create role hierarchy to give access to the managers of the account owners (managers inherit the privileges of user below them) (Allows to make sure that a manager will always have access to the same records as his subordinates) users who need access to same records can be grouped together} Sharing rules.
+
 Exceptions to Role Hierarchy-based Sharing
-o   Users can always view and edit all data owned by or shared with users below them in the role hierarchy. Exceptions to this include:
-o   An option (Grant Access Using Hierarchies) on your organization-wide default allows you to ignore the hierarchies when determining access to data. Grant using hierarchies cannot be disabled for standard objects.
-o   Contacts that are not linked to an account are always private. Only the owner of the contact and administrators can view it. Contact sharing rules do not apply to private contacts.
-o   Notes and attachments marked as private via the Private checkbox are accessible only to the person who attached them and administrators.
-o   Events marked as private via the Private checkbox are accessible only by the event owner. Other users cannot see the event details when viewing the event owner’s calendar. However, users with the “View All Data” or “Modify All Data” permission can see private event details in reports and searches, or when viewing other users’ calendars.
-o   Users above a record owner in the role hierarchy can only view or edit the record owner’s records if they have the “Read” or “Edit” object permission for the type of record
+
+* Users can always view and edit all data owned by or shared with users below them in the role hierarchy. Exceptions to this include:
+* An option (Grant Access Using Hierarchies) on your organization-wide default allows you to ignore the hierarchies when determining access to data. Grant using hierarchies cannot be disabled for standard objects.
+* Contacts that are not linked to an account are always private. Only the owner of the contact and administrators can view it. Contact sharing rules do not apply to private contacts.
+* Notes and attachments marked as private via the Private checkbox are accessible only to the person who attached them and administrators.
+* Events marked as private via the Private checkbox are accessible only by the event owner. Other users cannot see the event details when viewing the event owner’s calendar. However, users with the “View All Data” or “Modify All Data” permission can see private event details in reports and searches, or when viewing other users’ calendars.
+* Users above a record owner in the role hierarchy can only view or edit the record owner’s records if they have the “Read” or “Edit” object permission for the type of record
 
 2) Sharing rules:  (based on record owner or criteria) open up access (horizontal/lateral), used by the admin it is a way to automatically grant users access to objects when OWD or Role hierarchy doesn’t allow it. (Allows making automatic exceptions to organization wide defaults for a particular group of users) (Sharing rules works best if used on a predicted group of users {Roles}. Exp: Recruiters all belong to either recruiting manager or recruiter roles, sharing rules works best but for interviewers, a new set of interviewer will be assigned for each job. Hiring manager will be using a different set of interviewees depending on the position they are hiring for. Team of interviewees is hard to predict. )(Manage Users | Public Groups){use public groups when defining a sharing rule for more than 1 person or group or role}
-o   Sharing rules allow you to selectively grant data access to defined sets of users.
-o   Y
+* Sharing rules allow you to selectively grant data access to defined sets of users.
+* Y
 # hen you change the access levels for a sharing rule, all existing records are automatically updated to reflect the new access levels.
-o   When you delete a sharing rule, the sharing access created by that rule is automatically removed.
-o   When you transfer records from one user to another, the sharing rules are reevaluated to add or remove access to the transferred records as necessary.
-o   When you modify which users are in a group, role, or territory, the sharing rules are reevaluated to add or remove access as necessary.
-o   Sharing rules automatically grant additional access to related records. For example, opportunity sharing rules give role or group members access to the account associated with the shared opportunity if they do not already have it. Likewise, contact and case sharing rules provide the role or group members with access to the associated account as well.
-o   If multiple sharing rules give a user different levels of access to a record, the user gets the most permissive access level.
-o   Users in the role hierarchy are automatically granted the same access that users below them in the hierarchy have from a sharing rule, provided that the object is a standard object or the Grant Access Using Hierarchies option is selected.
-o   Regardless of sharing rules, users can, at a minimum, view the accounts in their territories. Also, users can be granted access to view and edit the contacts, opportunities, and cases associated with their territories' accounts.
-o   Making changes to sharing rules may require changing a large number of records at once. To process these changes efficiently, you request may be queued and you may receive an email notification when the process has completed.
-o   You can create rules to share records between most types of Customer Portal users and Salesforce users. Similarly, you can create sharing rules between Customer Portal users from different accounts as long as they have the Customer Portal Manager user license. However, you can't include high-volume portal users in sharing rules because they don't have roles and can't be in public groups.
-o   You can easily convert sharing rules that include Roles, Internal and Portal Subordinates to include Roles and Internal Subordinates instead by using the Convert Portal User Access wizard. Furthermore, you can use this wizard to convert any publicly accessible report, dashboard, and document folders to folders that are accessible by all users except for portal users.
-o   Lead sharing rules do not automatically grant access to lead information after leads are converted into account, contact, and opportunity records.
-o   In a master detail object relationship, you cannot create a sharing rule for a detail object, it is inherited.
+
+* When you delete a sharing rule, the sharing access created by that rule is automatically removed.
+* When you transfer records from one user to another, the sharing rules are reevaluated to add or remove access to the transferred records as necessary.
+* When you modify which users are in a group, role, or territory, the sharing rules are reevaluated to add or remove access as necessary.
+* Sharing rules automatically grant additional access to related records. For example, opportunity sharing rules give role or group members access to the account associated with the shared opportunity if they do not already have it. Likewise, contact and case sharing rules provide the role or group members with access to the associated account as well.
+* If multiple sharing rules give a user different levels of access to a record, the user gets the most permissive access level.
+* Users in the role hierarchy are automatically granted the same access that users below them in the hierarchy have from a sharing rule, provided that the object is a standard object or the Grant Access Using Hierarchies option is selected.
+* Regardless of sharing rules, users can, at a minimum, view the accounts in their territories. Also, users can be granted access to view and edit the contacts, opportunities, and cases associated with their territories' accounts.
+* Making changes to sharing rules may require changing a large number of records at once. To process these changes efficiently, you request may be queued and you may receive an email notification when the process has completed.
+* You can create rules to share records between most types of Customer Portal users and SalesForce users. Similarly, you can create sharing rules between Customer Portal users from different accounts as long as they have the Customer Portal Manager user license. However, you can't include high-volume portal users in sharing rules because they don't have roles and can't be in public groups.
+* You can easily convert sharing rules that include Roles, Internal and Portal Subordinates to include Roles and Internal Subordinates instead by using the Convert Portal User Access wizard. Furthermore, you can use this wizard to convert any publicly accessible report, dashboard, and document folders to folders that are accessible by all users except for portal users.
+* Lead sharing rules do not automatically grant access to lead information after leads are converted into account, contact, and opportunity records.
+* In a master detail object relationship, you cannot create a sharing rule for a detail object, it is inherited.
+
 Sharing rules based on Record owner or based on Criteria:
 Criteria-based sharing rules determine whom to share records with based on field values in records. For example, let's say you use a custom object for job applications, with a custom picklist field named “Department.” You can create a criteria-based sharing rule that shares all job applications in which the Department field is set to “IT” with all IT managers in your organization.
+
 Although criteria-based sharing rules are based on values in the records and not the record owners, a role or territory hierarchy still allows users higher in the hierarchy to access the records.
+
 You can create criteria-based sharing rules for accounts, opportunities, cases, contacts, leads, campaigns, and custom objects. You can create up to 50 criteria-based sharing rules per object.
 
 3) Manual sharing: open up access (flexible), for owners or users with full access to give users read/write access to another user or group who might not have access to the record any other way.
+
 4) Implicit access (Accounts and associated child records)
 an only be used to grant additional access—they cannot be used to restrict access to records beyond what was originally # specified with the sharing model through organization-wide defaults.
 
-Roles: (principal element in sharing rules, users can be grouped into roles based on their need to access data. Each role in hierarchy should represent a level of data access required by users)
+**Roles**: (principal element in sharing rules, users can be grouped into roles based on their need to access data. Each role in hierarchy should represent a level of data access required by users)
+
 Depending on your sharing settings, roles can control the level of visibility that users have into your organization’s data.  If the Grant Access Using Hierarchies option is disabled for a custom object, only the record owner and users granted access by the organization-wide defaults receive access to the object's records. You can create up to 500 roles for your organization.
 Every user must be assigned to a role, or their data will not display in opportunity reports, forecast roll-ups, and other displays based on roles. If your organization uses territory management, forecasts are based on the territory hierarchy rather than the role hierarchy.
 
-Role Name: The unique name used by the API and managed packages. The name must begin with a letter and use only alphanumeric characters and underscores. The name cannot end with an underscore or have two consecutive underscores.
+**Role Name**: The unique name used by the API and managed packages. The name must begin with a letter and use only alphanumeric characters and underscores. The name cannot end with an underscore or have two consecutive underscores.
 Sharing Groups: These groups are automatically created and maintained. The Role group contains all users in this role plus all users in roles above this role. The Role and Subordinates group contains all users in this role plus all users in roles above and below this role in the hierarchy. The Role and Internal Subordinates group (available if Customer Portals or partner portals are enabled for your organization) contains all users in this role plus all users in roles above and below this role, excluding Customer Portal and partner portal users.
 Users that gain access to data due to their position in hierarchies do so based on a setting in your organization-wide defaults (Grant Access Using Hierarchies)
 
@@ -421,9 +540,9 @@ Roles control Records: Roles primarily control a user’s record level access pe
 Profiles and Permission Sets control a user’s object & field level access permissions: A user can’t be defined without being assigned to a particular profile, since the profile specifies the most basic access for users. Each role in the hierarchy should just represent a level of data access that a user or group of users needs.
 ￼￼￼
 7. Given a scenario, apply the appropriate security controls
-1.     Who is the most restricted user of this object?
+1. Who is the most restricted user of this object?
 (Standard employee)
-2.     Is there ever going to be an instance of this object that this user shouldn’t be allowed to see?
+2. Is there ever going to be an instance of this object that this user shouldn’t be allowed to see?
 (Yes – Sharing model is Private)
 (No) 3. Is there ever going to be an instance of this object that this user shouldn’t be allowed to edit?
 (Yes – Sharing model is Public Read Only)(No – Sharing model is Public Read/Write)
@@ -452,15 +571,17 @@ The following table shows the types of permissions and access settings that are 
 
 
 Delegating Data Administration: (Overriding the security and sharing configurations and who has such powers and how powers are granted) Creating a profile with “manage Users” permission is not recommended because of security risks {can expire all passwords, edit login hours, edit/delete profiles, etc.} so we use delegated administration. Limited admin privileges such as create/edit users, reset passwords, assign users to specific profiles, login as a user who granted login access)
-Global Administrative permissions: “View all data”, “Modify all data” (including mass transfer / update records and Undelete what others delete) “Customize Application”—Customize just about anything in Salesforce, from page layouts to the data model
+Global Administrative permissions: “View all data”, “Modify all data” (including mass transfer / update records and Undelete what others delete) “Customize Application”—Customize just about anything in SalesForce, from page layouts to the data model
 “Manage Users”—Add and remove users, reset passwords, grant permissions, and more
 (Global permissions apply to records of every object in organization permissions, if global is too permissive then use object permissions) there are two ways to delegate restricted data administrative access (overriding sharing)
-1.     Object level permissions: (View all, modify all) Object permissions apply to records of a specific object. Or create a permission set with “modify all” and assign to roles.
-2.     Delegated Administration groups: is a group of non-admin users with limited admin privileges. Security controls | Delegated Administration
-a.     Delegated Administrators: Users
-b.     User Administration (Roles): lets us kinds of users this group can manage
-c.      Assignable profiles: lets us specify the profiles this group can assign to users they manage.
-d.     Custom Object Administration: specify custom objects delegated admins can administer.
+
+1. Object level permissions: (View all, modify all) Object permissions apply to records of a specific object. Or create a permission set with “modify all” and assign to roles.
+
+2. Delegated Administration groups: is a group of non-admin users with limited admin privileges. Security controls | Delegated Administration
+	a. Delegated Administrators: Users
+	b. User Administration (Roles): lets us kinds of users this group can manage
+	c. Assignable profiles: lets us specify the profiles this group can assign to users they manage.
+	d. Custom Object Administration: specify custom objects delegated admins can administer.
 
 
 Profiles and permission sets – Objects and fields level access permissions
@@ -474,7 +595,7 @@ Profile controls access to objects and records using roles
 One Account can have many Opportunities, many opportunities can belong to one account.
 
 Public Read Only
-All users can view and report on records but not edit them. Only the owner, and users above that role in the hierarchy, can edit those records. - "How to be successful with salesforce" page 360
+All users can view and report on records but not edit them. Only the owner, and users above that role in the hierarchy, can edit those records. - "How to be successful with SalesForce" page 360
 
 Reply
 
@@ -532,12 +653,12 @@ Reply
 
 sujatha yarlagadda6/04/2018 4:46 AM
 Hai,
-Thanks for sharing nice information. Hope this blog https://mindmajix.com/salesforce-roles-and-certifications may also helpful for you, Please go through it.
+Thanks for sharing nice information. Hope this blog https://mindmajix.com/SalesForce-roles-and-certifications may also helpful for you, Please go through it.
 
 Reply
 
 akhilapriya4049/21/2018 4:25 AM
-Nice information thank you,if you want more information please visit our link salesforce Online Training
+Nice information thank you,if you want more information please visit our link SalesForce Online Training
 
 
 # Standard and Custom Objects - 18%
@@ -545,22 +666,23 @@ Nice information thank you,if you want more information please visit our link sa
 Standard APPs: Sales, Call Center, Marketing, Community, Site.com
 10. Describe the standard object architecture and relationship model
 Overview of Relationships:
-Use relationships to associate an object with other objects in Salesforce. (Custom fields and relationships) You can define different types of relationships by creating custom relationship fields on an object.
-There are different types of relationships between objects in Salesforce. Their differences include how they handle data deletion, sharing, and required fields in page layouts.
+Use relationships to associate an object with other objects in SalesForce. (Custom fields and relationships) You can define different types of relationships by creating custom relationship fields on an object.
+There are different types of relationships between objects in SalesForce. Their differences include how they handle data deletion, sharing, and required fields in page layouts.
 
 Master-detail
 This type of relationship closely links objects together such that the master record controls certain behaviors of the detail and subdetail record. For example, you can define a two-object master-detail relationship, such as Account—Expense Report, that extends the relationship to subdetail records, such as Account—ExpenseReport—Expense Line Item. You can then perform operations across the master—detail—subdetail relationship. (Exp: Job application – Review - Detail)
+
 Behaviors of master-detail relationships include:
-o   When a master record is deleted, the related detail and subdetail records are also deleted. (Because review is useless without job application object)
-o   By default, records can’t be reparented in master-detail relationships. Administrators can, however, allow child records in master-detail relationships on custom objects to be reparented to different parent records by selecting the Allow reparenting option in the master-detail relationship definition.
-o   The Owner field on the detail and subdetail records is not available and is automatically set to the owner of the master record. Custom objects on the “detail” side of a master-detail relationship can't have sharing rules, manual sharing, or queues, as these require the Owner field.
-o   The security settings for the master record control the detail and subdetail records.
-o   The master-detail relationship field (which is the field linking the objects) is required on the page layout of the detail and subdetail records.
-o   The master object can be a standard object, such as Account or Opportunity, or a custom object.
-o   As a best practice, don't exceed 10,000 child records for a master-detail relationship.
-o   In a many-to-many relationship, a user can’t delete a parent record if more than 200 junction object records are associated with it and if the junction object has a roll-up summary field that rolls up to the other parent
-o   Custom object: Maximum Number of Master – Detail Relationships = 23
-o   A master detail relationship on an object can only be created before the object contains record data
+* When a master record is deleted, the related detail and subdetail records are also deleted. (Because review is useless without job application object)
+* By default, records can’t be reparented in master-detail relationships. Administrators can, however, allow child records in master-detail relationships on custom objects to be reparented to different parent records by selecting the Allow reparenting option in the master-detail relationship definition.
+* The Owner field on the detail and subdetail records is not available and is automatically set to the owner of the master record. Custom objects on the “detail” side of a master-detail relationship can't have sharing rules, manual sharing, or queues, as these require the Owner field.
+* The security settings for the master record control the detail and subdetail records.
+* The master-detail relationship field (which is the field linking the objects) is required on the page layout of the detail and subdetail records.
+* The master object can be a standard object, such as Account or Opportunity, or a custom object.
+* As a best practice, don't exceed 10,000 child records for a master-detail relationship.
+* In a many-to-many relationship, a user can’t delete a parent record if more than 200 junction object records are associated with it and if the junction object has a roll-up summary field that rolls up to the other parent
+* Custom object: Maximum Number of Master – Detail Relationships = 23
+* A master detail relationship on an object can only be created before the object contains record data
 
 
 Lookup
@@ -665,12 +787,12 @@ Deleted custom fields and their data are stored until your organization permanen
 1. Begin building a formula field the same way you create a custom field.
 2. Select the data type for the formula. Choose the appropriate data type for your formula based on the output of your calculation.
 3. Choose the number of decimal places for currency, number, or percent data types. This setting is ignored for currency fields in multicurrency organizations. Instead, the Decimal Places for your currency setting apply.
-Note: Salesforce uses the round half up tie-breaking rule for numbers in formula fields. For example, 12.345 becomes 12.35 and −12.345 becomes −12.34.
+Note: SalesForce uses the round half up tie-breaking rule for numbers in formula fields. For example, 12.345 becomes 12.35 and −12.345 becomes −12.34.
 4. Click Next.
 5. Build your formula:
 a. If you are building a formula in the Advanced Formula tab or for approvals or rules, such as workflow, validation, assignment, auto-response, or escalation, click Insert Field, choose a field, and click Insert.
 
-To create a basic formula that passes specific Salesforce data, select the Simple Formula tab, choose the field type in the Select Field Type drop-down list, and choose one of the fields listed in the Insert Field drop-down list.
+To create a basic formula that passes specific SalesForce data, select the Simple Formula tab, choose the field type in the Select Field Type drop-down list, and choose one of the fields listed in the Insert Field drop-down list.
 Tip: Build cross-object formulas to span to related objects and reference merge fields on those objects.
 
 Note: Because formula fields are automatically calculated, they are read-only on record detail pages and do not update last modified date fields. Formula fields are not visible on edit pages.
@@ -690,7 +812,7 @@ o   Campaign statistic fields cannot be referenced in formulas for field updates
 o   Dates and times are always calculated using the user’s time zone.
 o   The Created Date and Last Modified Date fields display only the date, not the date and time.
 o   {!CreatedDate} + 5 calculates the date and time five days after a record’s created date. Note that the expression returns the same data type as the one given; a date field plus or minus a number returns a date, and a date/time field plus or minus a number returns a date/time.
-o   When calculating dates using fractions, Salesforce ignores any numbers beyond the decimal. For example:
+o   When calculating dates using fractions, SalesForce ignores any numbers beyond the decimal. For example:
 TODAY() + 0.7 is the same as TODAY() + 0, which is today’s date
 TODAY() + 1.7 is the same as TODAY() + 1, which is tomorrow’s date
 TODAY() + (-1.8) is the same as TODAY() + (-1), which is yesterday’s date
@@ -701,12 +823,12 @@ o   Hyperlink formula fields are just like other custom fields that you can disp
 o   Custom links display on detail pages in a predefined section; hyperlink formula fields can display on a detail page wherever you specify.
 o   Using custom links, you can specify display properties such as window position and opening in a separate popup position; hyperlink formula fields open in a new browser window by default or you can specify a different target window or frame.
 o   Your formulas can reference custom links. Before deleting a custom link, make sure it is not referenced in a formula field.
-o   Hyperlink formula fields that contain relative URLs to Salesforce pages, such as /rpt/reportwizard.jsp, can be added to list views, reports, and related lists. However, use a complete URL, including the server name and https://, in your hyperlink formula before adding it to a search layout. Note that formula fields are not available in search result layouts.
+o   Hyperlink formula fields that contain relative URLs to SalesForce pages, such as /rpt/reportwizard.jsp, can be added to list views, reports, and related lists. However, use a complete URL, including the server name and https://, in your hyperlink formula before adding it to a search layout. Note that formula fields are not available in search result layouts.
 o   The output of your formula must be less than 19 digits
 
 Cross Object formulas: Are formulas that span two or more objects by referencing merge fields from related records. This means formulas on Review object can access fields on Job Application object and formulas on the Job Application object can access fields on both Position and Candidate objects.
 o   Cross-object formulas that reference currency fields convert the value to the currency of the record that contains the formula.
-o   Salesforce allows a maximum of ten (10) unique relationships per object in cross-object formulas. The limit is cumulative across all formula fields, rules, and lookup filters. For example, if two different formulas on opportunities reference two different fields of an associated account, only one unique relationship exists (from opportunities to accounts).
+o   SalesForce allows a maximum of ten (10) unique relationships per object in cross-object formulas. The limit is cumulative across all formula fields, rules, and lookup filters. For example, if two different formulas on opportunities reference two different fields of an associated account, only one unique relationship exists (from opportunities to accounts).
 o   You cannot reference cross-object formulas in roll-up summary fields.
 o   In cross-object formulas, you cannot reference merge fields for objects related to activities. For example, merge fields for contacts and accounts are not available in task and event formulas.
 o   In cross-object formulas, you cannot reference record owner merge fields for any object. For example, the opportunity owner's Role merge field is not available in opportunity formulas.
@@ -726,7 +848,7 @@ JAN
 Sales Cloud Applications - 9%
 
 Leads: Not a customer yet but person / org / company that is interested in working with your company
-1.     First search Salesforce to see if lead has already been created
+1.     First search SalesForce to see if lead has already been created
 2.     Add lead manually to create new lead
 3.     Import wizard for leads (under lead tab) or data management | Import leads (<= 50,000)
 4.     Web to lead
@@ -747,7 +869,7 @@ Contact: Any point of contact/individual/influencer associated with an account. 
 For multiple users: Setup | Data Management | Import Accounts | Contacts to import accounts and contacts (ONLY AVAILABLE TO THE SYSTEM ADMINISTRATOR)
 For self user: personal setup | Import| Import my accounts and contacts
 
-Opportunity:  potential revenue generating deal / event that you want to track in Salesforce (won deals, lost deals)
+Opportunity:  potential revenue generating deal / event that you want to track in SalesForce (won deals, lost deals)
 Tracking a deal in Sales pipeline: (opportunity) Create Opp à Update Opp à Close Opportunity
 Create opportunity – when converting lead to account
 Create opportunity – Create new (sidebar)
@@ -769,8 +891,8 @@ Predicting and Planning Sales Cycles:
 Forecasts: is a revenue projection that aggregates individual opportunities into a total or summary, expressed in a dollar amount and/or units of product (Roll up)
 
 17. Given a scenario, identify the capabilities and implications of the sales process
-Salesforce CRM Record Lifecycle
-The capabilities of Salesforce CRM provides for the processing of campaigns through to customer acquisition and beyond as shown in the following diagram:
+SalesForce CRM Record Lifecycle
+The capabilities of SalesForce CRM provides for the processing of campaigns through to customer acquisition and beyond as shown in the following diagram:
 
 
 1. Marketing Administration: At the start of the process, it is the responsibility of the Marketing team to develop suitable campaigns in order to generate leads.
@@ -782,8 +904,8 @@ Customer Acquisition
 4. Leads: A lead object is a person or a company that might be interested in your product or service. If the rep qualifies a lead and decides to pursue it, the lead is “converted,” which automatically transforms it into three objects: an account, a contact, and an opportunity.
 5. Accounts: The account object represents a company. You can create account records for prospects, customers, competitors, partners, or any other entities that makes sense for your business. An account record contains—or connects to—all information about your interactions with the company, such as in-progress and completed deals, your points of contact, and records of past interactions.
 6. Contacts: The contact object stores information about people who work at the companies represented by the account object. A contact record contains all relevant information about the person, such as phone numbers, title, role in a deal. When a rep converts a lead, the information in the lead is automatically transferred to the contact. As your engagement with a company widens and your reps meet more people, they can keep creating additional contacts associated with the corresponding account record
-7. Opportunities: The opportunity object contains the information for every deal you’re tracking, such as deal size and expected close date. The opportunity object is at the core of your sales process. To gain visibility into your pipeline, you need to make sure that your reps (usually opportunity owners) diligently track their deals and update the opportunity fields with accurate information. Opportunities can either be generated from lead conversion or may be entered directly by the sales team. As described earlier in this book, the structure of Salesforce requires account ownership to be established which sees inherited ownership of the opportunity. Account ownership is usually the responsibility of the sales team. Opportunities are worked through a sales process using sales stages where the stage is advanced to the point where they are set as won/closed and become sales. Unless you use the product and pricebook objects, we recommend that your opportunity name contains account name, product, and price—for example, “Acme Inc.-Blue Series Router XT6800-$25,000.” If you do use the product object, put all products into a single opportunity.
-Salesforce Automation
+7. Opportunities: The opportunity object contains the information for every deal you’re tracking, such as deal size and expected close date. The opportunity object is at the core of your sales process. To gain visibility into your pipeline, you need to make sure that your reps (usually opportunity owners) diligently track their deals and update the opportunity fields with accurate information. Opportunities can either be generated from lead conversion or may be entered directly by the sales team. As described earlier in this book, the structure of SalesForce requires account ownership to be established which sees inherited ownership of the opportunity. Account ownership is usually the responsibility of the sales team. Opportunities are worked through a sales process using sales stages where the stage is advanced to the point where they are set as won/closed and become sales. Unless you use the product and pricebook objects, we recommend that your opportunity name contains account name, product, and price—for example, “Acme Inc.-Blue Series Router XT6800-$25,000.” If you do use the product object, put all products into a single opportunity.
+SalesForce Automation
 8. Activities: Activities consist of the tasks, events, calls, and emails that make it possible to track every customer interaction. Did you just have a phone conversation in which the customer agreed to certain terms and conditions of an in-progress deal? Click Log a Call on the opportunity record to document any agreements. Did a customer ask you to send some collateral? Log a task so that you won’t forget.
 9. Sales (Won Deals): Opportunity information should be logged in the organization’s financial system. Upon financial completion and acceptance of the deal (and perhaps delivery of the goods or service) the post-customer acquisition process is then enabled where the account and contact can be recognized as a customer.
 Customer Service and Support Automation
@@ -821,7 +943,7 @@ Taking Leads from a Queue
 To take ownership of leads in a queue, go to the queue list view, check the box next to one or more leads, and click Accept.
 
 Changing Ownership of One Lead
-To change the ownership of a lead you own or have read/write sharing access to, click the Change link next to the Lead Owner field, and then specify the name of a user or queue. The Change link only displays on the lead detail page, not the edit page. Select the Send Notification Email box to send an automated email to the new lead owner. If the new owner is a queue, Salesforce sends the email to all of the queue members.
+To change the ownership of a lead you own or have read/write sharing access to, click the Change link next to the Lead Owner field, and then specify the name of a user or queue. The Change link only displays on the lead detail page, not the edit page. Select the Send Notification Email box to send an automated email to the new lead owner. If the new owner is a queue, SalesForce sends the email to all of the queue members.
 
 
 Changing Ownership of Multiple Leads
@@ -875,26 +997,24 @@ The Lead Activity History related list of a lead detail page tracks the changes 
 
 For automated lead changes that result from Web-to-Lead, the user listed in the history is the Default Lead Creator chosen in the Web-to-Lead Settings.
 
-
-
 To convert leads:
 
-When you convert a lead, Salesforce creates a new account, contact, and, optionally, an opportunity using the information from the lead. Any campaign members are moved to the new contact and the lead becomes read only. If an existing account and contact have the same names as those specified on the lead, you can choose to update the existing account and contact. Information from the lead is inserted only into blank fields; Salesforce does not overwrite existing account and contact data.
+When you convert a lead, SalesForce creates a new account, contact, and, optionally, an opportunity using the information from the lead. Any campaign members are moved to the new contact and the lead becomes read only. If an existing account and contact have the same names as those specified on the lead, you can choose to update the existing account and contact. Information from the lead is inserted only into blank fields; SalesForce does not overwrite existing account and contact data.
 
-All open and closed activities from the lead are attached to the account, contact, and opportunity. You can assign the owner of the records, and schedule a follow-up task. When you assign a new owner, only the open activities are assigned to the new owner. If you have custom lead fields, that information can be inserted into custom account, contact, or opportunity fields. Converted leads can't be viewed, although they appear in lead reports. Salesforce updates the Last Modified Date and Last Modified By system fields on converted leads when picklist values included on converted leads are changed.
+All open and closed activities from the lead are attached to the account, contact, and opportunity. You can assign the owner of the records, and schedule a follow-up task. When you assign a new owner, only the open activities are assigned to the new owner. If you have custom lead fields, that information can be inserted into custom account, contact, or opportunity fields. Converted leads can't be viewed, although they appear in lead reports. SalesForce updates the Last Modified Date and Last Modified By system fields on converted leads when picklist values included on converted leads are changed.
 Notes on Converting Leads
 Conversion impact on workflow:
-o   You cannot convert a lead that is associated with an active approval process or has pending workflow actions.
-o   Converting a lead to a person account cannot trigger workflow rules.
-o   If validation and triggers for lead convert are enabled in your organization, then converting a lead can trigger a workflow action on a lead. For example, if there is an active workflow rule that updates a lead field or transfers the owner of a lead, that rule can trigger when the lead is converted, even if the lead is no longer visible on the Leads tab as a result of the conversion. Note that if a workflow rule creates a new task as a result of a lead conversion, the task is assigned to the newly created contact and related to the associated account or opportunity.
-o   When a lead is converted by someone who isn't the lead owner, all workflow tasks associated with the lead that are assigned to that user, except email alerts, are reassigned to the lead owner. Workflow tasks assigned to users other than the lead owner and lead converter aren't changed.
+* You cannot convert a lead that is associated with an active approval process or has pending workflow actions.
+* Converting a lead to a person account cannot trigger workflow rules.
+* If validation and triggers for lead convert are enabled in your organization, then converting a lead can trigger a workflow action on a lead. For example, if there is an active workflow rule that updates a lead field or transfers the owner of a lead, that rule can trigger when the lead is converted, even if the lead is no longer visible on the Leads tab as a result of the conversion. Note that if a workflow rule creates a new task as a result of a lead conversion, the task is assigned to the newly created contact and related to the associated account or opportunity.
+* When a lead is converted by someone who isn't the lead owner, all workflow tasks associated with the lead that are assigned to that user, except email alerts, are reassigned to the lead owner. Workflow tasks assigned to users other than the lead owner and lead converter aren't changed.
 Conversion impact on campaigns:
-o   If the lead matches an existing contact and both records are linked to the same campaign, the campaign member status is determined by whichever is further along in the lifecycle of the campaign. For example, if the lead member status is “sent” and the contact member status is “responded,” the responded value is applied to the contact.
-o   Related campaign information is always associated with the new contact record regardless of the user's sharing access to the campaign.
-o   When more than one campaign is associated with a lead, the most recently associated campaign is applied to the Primary Campaign Source field on the opportunity regardless of the user's sharing access to the campaign.
+* If the lead matches an existing contact and both records are linked to the same campaign, the campaign member status is determined by whichever is further along in the lifecycle of the campaign. For example, if the lead member status is “sent” and the contact member status is “responded,” the responded value is applied to the contact.
+* Related campaign information is always associated with the new contact record regardless of the user's sharing access to the campaign.
+* When more than one campaign is associated with a lead, the most recently associated campaign is applied to the Primary Campaign Source field on the opportunity regardless of the user's sharing access to the campaign.
 When a lead is converted, Chatter feed posts associated with the lead aren’t migrated. The lead posts are no longer available in the Chatter feed.
 
-Salesforce ignores lookup filters when converting leads if the Enforce Validation and Triggers from Lead Convert checkbox on the Lead Settings page is deselected.
+SalesForce ignores lookup filters when converting leads if the Enforce Validation and Triggers from Lead Convert checkbox on the Lead Settings page is deselected.
 
 If the lead has a record type, the default record type of the user converting the lead is assigned to records created during lead conversion.
 
@@ -910,20 +1030,20 @@ When you convert a lead into a existing account, you don’t automatically follo
 
 21. Given a scenario, identify how to automate lead management
 With Web-to-Lead, you can gather information from your company’s website and automatically generate up to 500 new leads a day.
-Your company may already have a registration or other type of page where users enter their contact information. You may also want to create a jump page where prospects respond to a campaign. With a little extra HTML code, you can redirect that information to Salesforce to create new leads.
+Your company may already have a registration or other type of page where users enter their contact information. You may also want to create a jump page where prospects respond to a campaign. With a little extra HTML code, you can redirect that information to SalesForce to create new leads.
 22. Describe the capabilities of campaign management
 5 steps to make it more effective:
 1. Create the campaign: After determining your marketing strategy, create a campaign to track your efforts.
 2. Create your target list: Next define who you want to target with your campaign. The method used to create a target list depends on who you are targeting:
 Rented or Purchased Lists - Simply use the list of names as your target list. We recommend that you do not import the names into the system yet.
-Existing Contacts, Leads, or Person Account - Run a contact, lead, or person account report in Salesforce and use the Add to Campaign button to associate those records with your campaign. Alternatively, go to a list view of contacts or leads and use the Add to Campaign button to associate those records with your campaign. Note that person accounts are included in contact list views and can be added to campaigns from them.
-3. Execute the campaign: All campaign execution occurs outside of Salesforce. It can be online or offline, for example:
+Existing Contacts, Leads, or Person Account - Run a contact, lead, or person account report in SalesForce and use the Add to Campaign button to associate those records with your campaign. Alternatively, go to a list view of contacts or leads and use the Add to Campaign button to associate those records with your campaign. Note that person accounts are included in contact list views and can be added to campaigns from them.
+3. Execute the campaign: All campaign execution occurs outside of SalesForce. It can be online or offline, for example:
 * Online - Send email using an email execution vendor.
 * Offline - Plan and host a conference; run print or radio advertisements; send direct mail pieces; or host a Web seminar.
 4. Track responses: The possible types of campaign responses can be divided into the following groups based on the response tracking mechanism:
 Website Response - Prospects respond by filling in a form on your website. Use Web-to-Lead to set up a jump page or microsite for the campaign. All responses are created as leads, and if the Web form includes the Campaign field value, the leads are directly associated to the campaign. You can also include the Member Status field in the form to automatically mark all submissions with a particular member status.
 Manual Update - Customers and prospects respond via phone or mail. A sales or marketing team member can manually update the Campaign History for the lead, contact, or person account.
-Mass Update/Offline Response - The third type of response is any response that you track in an offline list, for example, trade show attendance or email responses from your email vendor. In Salesforce, use the Manage Members page to update the member status of leads, contacts, or person accounts that have been associated with your campaign.
+Mass Update/Offline Response - The third type of response is any response that you track in an offline list, for example, trade show attendance or email responses from your email vendor. In SalesForce, use the Manage Members page to update the member status of leads, contacts, or person accounts that have been associated with your campaign.
 5. Analyze campaign effectiveness: The final step is to analyze the effectiveness of the campaign using reports and campaign statistics.
 
 A campaign hierarchy allows you to group campaigns together within a specific marketing program or initiative, which enables you to analyze related marketing efforts more efficiently.
@@ -932,7 +1052,7 @@ A campaign hierarchy shows campaigns that are associated with one another via th
 * # hierarchy statistic field values.
 Note: To ensure accurate reporting, all campaigns in a hierarchy must use the same currency.
 
-Salesforce Sales Cloud-Campaign and ROI
+SalesForce Sales Cloud-Campaign and ROI
 Campaign contains name, start/end date, expected revenue, budget cost, actual cost. Can have different page layouts for each campaign type.
 
 Campaign members can be lead, contact, person account, with status. Can have different page layouts for each campaign type. Status can be set up through advanced setup.
@@ -959,7 +1079,7 @@ JAN
 Service Cloud Applications - 6%
 
 23. Describe the capabilities of case management
-Salesforce.com's industry-leading case management solution helps companies develop long-lasting relationships with their customers by streamlining case capture, resolution, and visibility across every customer communication channel
+SalesForce.com's industry-leading case management solution helps companies develop long-lasting relationships with their customers by streamlining case capture, resolution, and visibility across every customer communication channel
 Key features and benefits:
 1. Case management provides a single repository for all customer support interactions.
 2. Solution integration enables faster case handling by seamlessly integrating case information with existing knowledge bases.
@@ -969,84 +1089,94 @@ Key features and benefits:
 24. Given a scenario, identify how to automate case management
 A case is a description of a customer’s feedback, problem, or question. Use cases to track and solve your customers’ issues. You can quickly create, edit, locate, and view cases from the Cases tab. To gather customer feedback from your company’s website and customer emails, set up:
 o   Web-to-Case: With Web-to-Case, you can gather customer support requests directly from your company’s website and automatically generate up to 5000 new cases a day. This can help your organization respond to customers faster, thus improving the productivity of your support team.
-o   Email-to-Case or On-Demand Email-to-Case: Email-to-Case helps your company efficiently resolve and correspond with customer inquiries via email. It automatically creates a case in Salesforce when an email is sent to your company’s customer support email address(es) and auto-populates case fields from the content of the message. Email-to-Case requires downloading the Email-to-Case agent. This allows you to keep all email traffic within your network’s firewall and accept emails larger than 10 MB. Unlike Email-to-Case, On-Demand Email-to-Case uses Apex email services to convert email to cases, without requiring you to download and install an agent behind your network's firewall. On-Demand Email-to-Case allows you to process customer emails up to 10 MB in size.
+o   Email-to-Case or On-Demand Email-to-Case: Email-to-Case helps your company efficiently resolve and correspond with customer inquiries via email. It automatically creates a case in SalesForce when an email is sent to your company’s customer support email address(es) and auto-populates case fields from the content of the message. Email-to-Case requires downloading the Email-to-Case agent. This allows you to keep all email traffic within your network’s firewall and accept emails larger than 10 MB. Unlike Email-to-Case, On-Demand Email-to-Case uses Apex email services to convert email to cases, without requiring you to download and install an agent behind your network's firewall. On-Demand Email-to-Case allows you to process customer emails up to 10 MB in size.
 Your customers can also create cases on your Customer Portal, Self-Service portal (not available for new org.), or Chatter Answers.
 If the Service Cloud console is set up, you can find, view, and edit cases and their related records on one screen.
 
 If your organization uses cases and solutions, you can set up various automated support features. Click Your Name | Setup | Customize | Cases.
-o   Click Business Hours to set your organization’s support hours. (Done from Company profile | Business Hours)
-o   Click Assignment Rules to create rules for automatically routing cases: Case Assignment Rules allow you to automatically route cases to the appropriate users or queues. You can create multiple rules (for example, a Standard rule and a Holiday rule), but only one rule can be "active" at a time.
-o   Click Escalation Rules to create rules for automatically escalating cases: Escalation rules allow you to define automated actions when cases with specific criteria are open after a specified period of time. They can help you identify when cases have fallen outside of an intended service level. When escalating a case, you can choose to automatically notify a user, reassign the case to another user or queue, or both.
-o   Click Support Settings to customize email templates and defaults used by automated support features. This part is for how the org deals with the cases. (Case creation template, case assignment notification, notify case owner when case ownership changes, …)
-o   Click Auto-Response Set up rules that determine which email template to send to customers when cases are captured from emain On-Demand Email-to-Case message#
-o   A Customer Portal
-o   A Self-Service portal (no more)
-o   Click Email-to-Case to set up the ability to capture customer emails as cases, automatically. The setup specifies how the content of each customer email automatically populates case fields.
+* Click Business Hours to set your organization’s support hours. (Done from Company profile | Business Hours)
+* Click Assignment Rules to create rules for automatically routing cases: Case Assignment Rules allow you to automatically route cases to the appropriate users or queues. You can create multiple rules (for example, a Standard rule and a Holiday rule), but only one rule can be "active" at a time.
+* Click Escalation Rules to create rules for automatically escalating cases: Escalation rules allow you to define automated actions when cases with specific criteria are open after a specified period of time. They can help you identify when cases have fallen outside of an intended service level. When escalating a case, you can choose to automatically notify a user, reassign the case to another user or queue, or both.
+* Click Support Settings to customize email templates and defaults used by automated support features. This part is for how the org deals with the cases. (Case creation template, case assignment notification, notify case owner when case ownership changes, …)
+* Click Auto-Response Set up rules that determine which email template to send to customers when cases are captured from emain On-Demand Email-to-Case message#
+* A Customer Portal
+* A Self-Service portal (no more)
+* Click Email-to-Case to set up the ability to capture customer emails as cases, automatically. The setup specifies how the content of each customer email automatically populates case fields.
 
 25. Describe the capabilities of solution management
 For support features related to solutions, click Your Name | Setup | Customize | Solutions.
-o   Click Solution Categories to set up categories so your users can categorize the solutions they create.
-o   Click Solution Settings to enable specific options for solutions.
-o   Click Public Solutions to set up public solutions for your customers to use when searching for solutions.
-o   Click Web-to-Case to set up the ability to capture cases from your website.
-o   Click Self-Service Portal to set up your organization’s web portal for your customers to log cases and search for solutions.
+* Click Solution Categories to set up categories so your users can categorize the solutions they create.
+* Click Solution Settings to enable specific options for solutions.
+* Click Public Solutions to set up public solutions for your customers to use when searching for solutions.
+* Click Web-to-Case to set up the ability to capture cases from your website.
+* Click Self-Service Portal to set up your organization’s web portal for your customers to log cases and search for solutions.
 26. Describe the basic capabilities of portals
-For support features related to a Salesforce Customer Portal, click Your Name | Setup | Customize | Customer Portal.
+For support features related to a SalesForce Customer Portal, click Your Name | Setup | Customize | Customer Portal.
 o   Click Settings to set up your organization's Customer Portal so that your customers can log cases, search for solutions, and access any custom objects you may have created for them.
 
-A Salesforce Customer Portal provides an online support channel for your customers—allowing them to resolve their inquiries without contacting a customer service representative. With a Customer Portal, you can customize and deliver a visually stunning user interface to your customers, and use the following Salesforce features to help you and your customers succeed:
+A SalesForce Customer Portal provides an online support channel for your customers—allowing them to resolve their inquiries without contacting a customer service representative. With a Customer Portal, you can customize and deliver a visually stunning user interface to your customers, and use the following SalesForce features to help you and your customers succeed:
+
 ·      Determine which pages and fields customers see with page layouts and field-level security
 ·      Manage customers with profiles, permission sets, roles, and sharing rules
-·      Provide and organize documents via Salesforce CRM Content or the Documents tab
-·      Create a knowledge base for your customers using Salesforce Knowledge
+·      Provide and organize documents via SalesForce CRM Content or the Documents tab
+·      Create a knowledge base for your customers using SalesForce Knowledge
 ·      Allow customers to participate in Ideas communities.
 ·      Display and collect data that is unique to your organization with custom objects
 ·      Display custom s-controls and content from other websites via Web tabs
 ·      Provide customized reports via the Reports tab
+
 The Service Cloud Portal is the Customer Portal intended for many thousands to millions of users. Service Cloud portal users are also referred to as high-volume portal users. See About High-Volume Portal Users (Service Cloud Portal Users).
 27. Describe the capabilities of the Community application, such as Ideas and Answers
 Community Application: It is under both answers and ideas, customize. One community serves answers, ideas and Chatter Answers. This page allows you to create and edit communities for ideas, answers, and Chatter Answers. Each community has its own unique ideas, questions and replies. You can also set data categories under customize|data categories. But  An administrator defines separate categories for their ideas and answers communities. Answers|Data category Assignments
 New: Idea Themes: lets you invite community members to submit ideas that focus on a specific topic so that members can solve problems or propose innovations for your company. For example, to engage with your community and create excitement around the launch of a new product, you can ask community members to work together to create the product’s name. Community members collaborate and add ideas to the idea theme, while you monitor their activities as they vote and comment on each other’s ideas until they find a winner.
+
 1) Create contests or ask for opinions
 2) Encourage community collaboration
 3) Select a winner
+
 When you create an idea theme, you can add pictures, videos, and other multimedia content to showcase or explain the idea that you’re presenting to the community.
 Ideas:
-Salesforce CRM Ideas is a community of users who post, vote for, and comment on ideas. Consider it an online suggestion box that includes discussions and popularity rankings for any subject.
-28. Describe the capabilities of Salesforce Knowledge
-Salesforce Knowledge is a knowledge base where users can easily create and manage content, known as articles, and quickly find and view the articles they need. After you set up Salesforce Knowledge in your organization, users can write, edit, publish, and archive articles using the Articles Management tab or find and view published articles using the Articles tab. Customers and partners can access articles if Salesforce Knowledge is enabled in the Customer Portal or partner portal. You can also create a public knowledge base so website visitors can view articles.
 
-Salesforce Knowledge provides the following features and tasks to help you efficiently manage your knowledge base and its users:
-1.     Using Article Types: Article types are custom containers for your articles. Every article belongs to a type that determines its content and structure. Administrators define article types by creating custom fields to capture article data, grouping or reorganizing the fields as needed on the layout, and choosing an article-type template. The article-type template determines how the layout appears to viewers of the published article, and administrators can choose unique templates for different audiences and article types. Salesforce provides two standard article-type templates, Tab and Table of Contents, and you can use Visualforce to create custom templates.
+SalesForce CRM Ideas is a community of users who post, vote for, and comment on ideas. Consider it an online suggestion box that includes discussions and popularity rankings for any subject.
+
+28. Describe the capabilities of SalesForce Knowledge
+SalesForce Knowledge is a knowledge base where users can easily create and manage content, known as articles, and quickly find and view the articles they need. After you set up SalesForce Knowledge in your organization, users can write, edit, publish, and archive articles using the Articles Management tab or find and view published articles using the Articles tab. Customers and partners can access articles if SalesForce Knowledge is enabled in the Customer Portal or partner portal. You can also create a public knowledge base so website visitors can view articles.
+
+SalesForce Knowledge provides the following features and tasks to help you efficiently manage your knowledge base and its users:
+
+1.     Using Article Types: Article types are custom containers for your articles. Every article belongs to a type that determines its content and structure. Administrators define article types by creating custom fields to capture article data, grouping or reorganizing the fields as needed on the layout, and choosing an article-type template. The article-type template determines how the layout appears to viewers of the published article, and administrators can choose unique templates for different audiences and article types. SalesForce provides two standard article-type templates, Tab and Table of Contents, and you can use Visualforce to create custom templates.
+
 2.     Categorizing Articles: When end users are searching for published articles in any channel—the internal app, Customer Portal, partner portal, or public knowledge base—they can use the categories to help locate information. If your organization uses a role hierarchy, access to data categories is determined by the user's role.
-3.     Managing Articles: On the Article Management tab, article managers can create new articles as well as find and manage existing articles in any phase of the knowledge life cycle: Create and save a new article. Reassign the article to an editor, translator, reviewer, or any other collaborator as needed. Publish the completed draft to one or more channels, depending on the audiences you've configured: the Articles tab in your Salesforce organization, a customer portal, a partner portal, or a public knowledge base. You can schedule the article to be published on a future date. Update the article as needed. When modifying a published article, you can either remove it from publication so that the original is no longer visible to users, or leave the original published and work on a copy until you're ready to replace the original with your update. Archive the article when it is obsolete to remove it from publication. As with publishing an article, you can archive immediately or on a future date. Delete the article as needed, or turn it into a draft and begin a new publishing cycle.
+
+3.     Managing Articles: On the Article Management tab, article managers can create new articles as well as find and manage existing articles in any phase of the knowledge life cycle: Create and save a new article. Reassign the article to an editor, translator, reviewer, or any other collaborator as needed. Publish the completed draft to one or more channels, depending on the audiences you've configured: the Articles tab in your SalesForce organization, a customer portal, a partner portal, or a public knowledge base. You can schedule the article to be published on a future date. Update the article as needed. When modifying a published article, you can either remove it from publication so that the original is no longer visible to users, or leave the original published and work on a copy until you're ready to replace the original with your update. Archive the article when it is obsolete to remove it from publication. As with publishing an article, you can archive immediately or on a future date. Delete the article as needed, or turn it into a draft and begin a new publishing cycle.
+
 4.     Creating Articles: Authors create articles by selecting an article type, writing content, assigning categories, and choosing one or more channels.
+
 5.     Using Articles to Solve Cases: To search the knowledge base directly from a case and attach related articles to the case for convenient reference, add the Articles related list to case page layouts. When closing a case, support agents can easily create a new article to capture important information and help solve future cases more quickly.
+
 6.     Searching for Articles:
+
 7.     Rating Articles: Internal app, Customer Portal, and partner portal users can rate articles on a scale of 1 to 5 stars and view the average rating for an article. Average ratings are not static. Every 15 days, if an article has not received a new vote, its average moves up or down according to a half-life calculation. This change ensures that over time, older or outdated articles don't maintain artificially high or low ratings compared to newer, more frequently used articles. Articles without recent votes trend towards an average rating of 3 stars.
 
 
 Knowledge Implementation Tips:
-o   If you want to make articles visible on your website, install the Sample Public Knowledge Base for Salesforce Knowledge app from the AppExchange.
+
+o   If you want to make articles visible on your website, install the Sample Public Knowledge Base for SalesForce Knowledge app from the AppExchange.
 o   Public knowledge base users cannot rate articles.
 o   The File custom field type allows users to attach documents to articles. The maximum attachment size is 5 MB. You can add up to 5 File fields to each article type
-o   The Salesforce Knowledge search engine supports stemming, which is the process of reducing a word to its root form. With stemming, a search can match expanded forms of a search term. For example, a search for run matches items that contain run, running, and r
-# eate up to three category groups with a maximum of five hierarchy levels in each group. Each category group can contain a total of 100 categories. For example: “Locations” category group will have ‘North America’ – US and Canada, ‘Europe’ – UK, France, Italy, ‘Asia’ – Japan, China, Korea categories (Use Tab to indent and Shift+Tab to de-indent)
+o   The SalesForce Knowledge search engine supports stemming, which is the process of reducing a word to its root form. With stemming, a search can match expanded forms of a search term. For example, a search for run matches items that contain run, running, and create up to three category groups with a maximum of five hierarchy levels in each group. Each category group can contain a total of 100 categories. For example: “Locations” category group will have ‘North America’ – US and Canada, ‘Europe’ – UK, France, Italy, ‘Asia’ – Japan, China, Korea categories (Use Tab to indent and Shift+Tab to de-indent)
 o   Deleting a category group: Moves it to the Deleted Category Groups section, which is a recycle bin. You can view items in this section but not edit them. It holds category groups for 15 days before they are permanently erased and cannot be recovered. During the 15–day holding period, you can either restore a category group, or permanently erase it immediately.
 
-Data Category Assignments: After creating category groups, use this page to select which groups should be used by Salesforce Knowledge.
+Data Category Assignments: After creating category groups, use this page to select which groups should be used by SalesForce Knowledge.
 Case to Data Category Mapping (beta): Define which case fields map to which data category groups and set a default data category for cases that have no value for the mapped fields. For example, you can map a products custom case field with a products data category group to filter the articles for the customer's products.
 
-For support features related to Salesforce CRM Call Center, click Your Name | Setup | Customize | Call Center.
+For support features related to SalesForce CRM Call Center, click Your Name | Setup | Customize | Call Center.
 o   Click Call Centers to set up new call centers and manage the users who are assigned to them.
 o   Click Directory Numbers to set up additional phone numbers that can be searched in a call center user's phone directory.
 o   Click SoftPhone Layouts to set up the layouts that are used to display call information in a call center user's SoftPhone.
 Posted 6th January 2013 by Green Jay
 
-4  View comments
-JAN
-6
-Activity Management - 3%
+# Activity Management - 3%
 
  29. Describe the capabilities of activity management (two types of activities; events and tasks) Events show up on your calendar have specific time associated with the. Task does not have specific time but they have a date. This is the difference.)
 Reminder pop ups only come up if the user is logs in
@@ -1057,12 +1187,8 @@ Reminder pop ups only come up if the user is logs in
 5. Recurring activities
 6. Complete activities
 Once the scheduled time for an event passed, event automatically moved to the activity history.
-Posted 6th January 2013 by Green Jay
 
-4  View comments
-JAN
-6
-Chatter - 1ormation securely and in real time. Additionally, you can invite coworkers without Salesforce licenses to join Chatter. In# vited users can view profiles, post on their feed, and join groups, but can't see your Salesforce data or records.
+Chatter - 1ormation securely and in real time. Additionally, you can invite coworkers without SalesForce licenses to join Chatter. In# vited users can view profiles, post on their feed, and join groups, but can't see your SalesForce data or records.
 Web 2.0 - Sharing info moves multiple ways, social network for business that provides real-time visibility, locate expertise, post question / problem, improve communication, transparent communication, inform and motivate employees)
 #Topic Tag (also acts as super search, returns all posts) (Exp:#groupstartegy)
 @mentions (@cenkozer) (for post they should be aware of or include them to a conversation)
@@ -1073,9 +1199,9 @@ o   In the Console tab
 
 Chatter, Profile, People, Groups, and Files tabs are available by default in the Chatter app. Select the Chatter app from the app menu in the top right corner of any page. If your administrator has added these tabs to other apps, you see the tabs in those apps unless you previously customized your display. In that case, add the tabs to those apps.
 Is Chatter the same as instant messaging?
-No, Chatter is a collaboration application that helps you connect with coworkers inside your Salesforce organization and share business information securely and in real time. Additionally, you can invite coworkers without Salesforce licenses to join Chatter. Invited users can view profiles, post on their feed, and join groups, but can't see your Salesforce data or records. (Chatter Free License – 5000) You can invite users from the People tab or when adding members to a group. Additionally, you can add customers to groups you own or manage. Customers are users outside of your company's email domains. They have very limited Chatter access and can only see groups they're invited to and interact with members of those groups.
-Can I see updates if I'm not logged into Salesforce?
-To see updates when you're not logged into Salesforce, you can configure email notifications and use Chatter for your iPhone or BlackBerry device.
+No, Chatter is a collaboration application that helps you connect with coworkers inside your SalesForce organization and share business information securely and in real time. Additionally, you can invite coworkers without SalesForce licenses to join Chatter. Invited users can view profiles, post on their feed, and join groups, but can't see your SalesForce data or records. (Chatter Free License – 5000) You can invite users from the People tab or when adding members to a group. Additionally, you can add customers to groups you own or manage. Customers are users outside of your company's email domains. They have very limited Chatter access and can only see groups they're invited to and interact with members of those groups.
+Can I see updates if I'm not logged into SalesForce?
+To see updates when you're not logged into SalesForce, you can configure email notifications and use Chatter for your iPhone or BlackBerry device.
 What limits exist in Chatter?
 Chatter includes limits on:
 People and records you can follow 500
@@ -1085,11 +1211,11 @@ Mentions in a single post or comment 25
 Favorites 50
 File attachment size: 2GB
 Additionally we reserve the right to enforce limits on:
-o   The length of time that posts, comments, and tracked field changes are stored on the Salesforce servers.
+o   The length of time that posts, comments, and tracked field changes are stored on the SalesForce servers.
 o   The number of posts, comments, and tracked field changes available in the Chatter feed. Currently tracked fields without likes or comments are removed from the feed after 45 days.
 o   The number of email notifications that can be sent per organization per hour.
 What are Chatter profiles?
-Chatter profiles are personal pages for each person in a Salesforce organization. Profiles include contact information, a photo, an About Me section, a Chatter feed, a list of followers, and a list of people and records being followed. Customers have limited profiles and can only see limited profiles of people in common groups.
+Chatter profiles are personal pages for each person in a SalesForce organization. Profiles include contact information, a photo, an About Me section, a Chatter feed, a list of followers, and a list of people and records being followed. Customers have limited profiles and can only see limited profiles of people in common groups.
 How do I change Chatter email notification settings?
 Go to Your Name | Setup | My Chatter Settings | My Chatter Emails and select the desired options. Chatter can email you every time someone follows you, posts to your profile or groups, and more. You can also receive daily or weekly user and group email digests. User digests include the updates you see in your own Chatter feed, such as updates about the people, records, and files you follow and your groups. Group digests include the updates you see in a particular group’s Chatter feed, and are configurable on a group-by-group basis.
 Currently, you can't change the location of Chatter feeds. However, you can click the “Hide Feed” link in a Chatter feed to hide the feed, and the “Show Feed” link to show the feed.
@@ -1128,22 +1254,19 @@ Do Chatter posts and files count toward my storage use?
 Chatter feed posts, tracked changes, and comments don’t count toward your data storage. However, any files and photos you upload are counted against file storage. Files uploaded on the Files tab are also counted against file storage.
 Posted 6th January 2013 by Green Jay
 
-3  View comments
-JAN
-5
-Data Management - 11%
+# Data Management - 11%
 
-(To upload an image to use in an App. Go to Documents and upload the image to “My Personal Documents” folder, first. Then you can pull the image creating the app.) (Service Cloud logo must be smaller then 20KB and “Externally Available” is checked) Any data that can be converted to .csv can be imported to Salesforce)
+(To upload an image to use in an App. Go to Documents and upload the image to “My Personal Documents” folder, first. Then you can pull the image creating the app.) (Service Cloud logo must be smaller then 20KB and “Externally Available” is checked) Any data that can be converted to .csv can be imported to SalesForce)
 31. Describe the considerations when importing, updating, transferring, and mass deleting data
 3 steps to prepare for import:
 1.     Clean your data: Clean data is accurate, usable, credibility, which effects adoption. Duplicates confuse analytics, get rid of the duplicates. Dirty data ruins the efficiency of sorting and filtering. When new contacts or opportunities are entered it is impossible to choose between the duplicates (two accounts). Correct spelling and punctuation errors. Enforce naming conventions. Fill in incomplete records.
 2.     Prepare your import file:
-a. Match the field names of columns to match Salesforce for easy mapping.
-b. Add columns for the Owner record. If using import wizard it can be the Salesforce username. If using import tools that use API this must be the Salesforce user id. If importing contacts, opportunities or other objects that have parent records, need to add a column for the parent account id. If contacts, this could be the account name, if using programs that uses API for contacts, must be Salesforce record id. Use vlookup to match parent records with ids: Vlookup: Match Salesforce user ids to record owners. Match Salesforce usernames to regular names. Match account ids to contacts and opportunities.
-3.     Prepare Salesforce:
-a.     Compare your import data to each Salesforce object. If you are tracking data that is not yet captured, you need to create custom fields for data to go when it is imported.
+a. Match the field names of columns to match SalesForce for easy mapping.
+b. Add columns for the Owner record. If using import wizard it can be the SalesForce username. If using import tools that use API this must be the SalesForce user id. If importing contacts, opportunities or other objects that have parent records, need to add a column for the parent account id. If contacts, this could be the account name, if using programs that uses API for contacts, must be SalesForce record id. Use vlookup to match parent records with ids: Vlookup: Match SalesForce user ids to record owners. Match SalesForce usernames to regular names. Match account ids to contacts and opportunities.
+3.     Prepare SalesForce:
+a.     Compare your import data to each SalesForce object. If you are tracking data that is not yet captured, you need to create custom fields for data to go when it is imported.
 b.     Add values to picklists. New values will be imported but will not be available for future records unless you add them to the list of all available values for the field. External id’s would be the unique identifiers that are used in old system that you integrate with. Need to create a field prior to import (Association member id)
-4.     Keep Data Clean in Salesforce: By automating the data entry process.
+4.     Keep Data Clean in SalesForce: By automating the data entry process.
 a.     Data Validation Rules: to prevent users from entering in values outside a certain range. (Returns an error message if expression returns “true”)
 b.     Picklists: To limit choices and so users don’t misspell. Help make data more accurate and consistent by applying filters
 c.      Lookup fields: Custom lookup fields prevent users from creating duplicate records.
@@ -1152,7 +1275,7 @@ e.     Record types and page layouts: can ensure that users see the values they 
 Cleaning and preparing your data using excel (PMI-SFBAC)
 
 
-In Salesforce with English as default, phone numbers are automatically formatted with () and – so do not need it in my import file. Concatenate (A2, “ “, B2) or use text to columns to separate. All formatting will be gone by saving .csv. Also .csv do not support formulas and only saves one sheet, current one.
+In SalesForce with English as default, phone numbers are automatically formatted with () and – so do not need it in my import file. Concatenate (A2, “ “, B2) or use text to columns to separate. All formatting will be gone by saving .csv. Also .csv do not support formulas and only saves one sheet, current one.
 
 Different import tools for different purposes:
 1) Import Wizards: Admin Setup | Data Management| (Imports up to 50,000 accounts and contacts at a time) (can prevent duplicate records) (Has an option to turn off workflow)(But do not allow the import of opportunities) (Do not allow for export of data)
@@ -1172,16 +1295,13 @@ o   Workflow will fire on any records that meet the rule criteria (if finance is
 
 4) Mass Delete records: Accounts, Leads, Activities, Contacts, Cases, Solutions, Products
 
-
-
-
 Order to import data:
-1.     Salesforce record ID (Unique): every record is assigned a unique id. Can be found (1. End of URL (15 digit upper and lower case) 2. Report that contains ID field 3. Via the API (export file from data loader, 18 digit upper case) If using excel use upper 18 digit cause excel does not differentiate between upper and lower)
-2.     Owner of record owner: (if left blank importer becomes default record owner) (Wizards recognize Salesforce username) (Other tools use API therefore only recognize Salesforce user id)
-3.     All contacts and opportunities have owners and since they are child records they are related to a parent account therefore import files need to have both Account id and Owner ids. (if using an import wizard this info can be the account name and the user name,  if using a API tool then this info must be account id & owner id {aka Salesforce record id})
-(order to import: 1. Users (owner ids), 2. Accounts, 3. Contacts) {Once user is in, export their user ids and then match user ids to account owners, then after importing accounts you will have account ids (Salesforce ids) then account ids are matched to companies the contacts belong to and user ids to users who own the contacts, then you can import your contacts) Data Loader uses only the id to match records so it will not notice if you have duplicate names or emails.  Username in Salesforce is the email of the user.
+1.     SalesForce record ID (Unique): every record is assigned a unique id. Can be found (1. End of URL (15 digit upper and lower case) 2. Report that contains ID field 3. Via the API (export file from data loader, 18 digit upper case) If using excel use upper 18 digit cause excel does not differentiate between upper and lower)
+2.     Owner of record owner: (if left blank importer becomes default record owner) (Wizards recognize SalesForce username) (Other tools use API therefore only recognize SalesForce user id)
+3.     All contacts and opportunities have owners and since they are child records they are related to a parent account therefore import files need to have both Account id and Owner ids. (if using an import wizard this info can be the account name and the user name,  if using a API tool then this info must be account id & owner id {aka SalesForce record id})
+(order to import: 1. Users (owner ids), 2. Accounts, 3. Contacts) {Once user is in, export their user ids and then match user ids to account owners, then after importing accounts you will have account ids (SalesForce ids) then account ids are matched to companies the contacts belong to and user ids to users who own the contacts, then you can import your contacts) Data Loader uses only the id to match records so it will not notice if you have duplicate names or emails.  Username in SalesForce is the email of the user.
 Summary of Import order:
-1. Add Users: Enter all your users to Salesforce (Setup | Manage users | Add Multiple Users)
+1. Add Users: Enter all your users to SalesForce (Setup | Manage users | Add Multiple Users)
 o   Export to get Used ids
 o   Match User ids to account owners (in account import file)
 2. Import Accounts
@@ -1204,12 +1324,12 @@ Improve the quality of your data using validation rules. Validation rules verify
 After you have defined validation rules:
 1. The user chooses to create a new record or edit an existing record.
 2. The user clicks Save.
-3. Salesforce executes all validation rules.
-If all data is valid, Salesforce saves the record.
-If any data is invalid, Salesforce displays the associated error message without saving the record.
+3. SalesForce executes all validation rules.
+If all data is valid, SalesForce saves the record.
+If any data is invalid, SalesForce displays the associated error message without saving the record.
 4. The user makes the necessary changes and clicks Save again.
 
-You can specify the error message to display when a record fails validation and where to display it. For example, your error message can be “The close date must occur after today's date.” You can choose to display it near a field or at the top of the page. Like all other Salesforce error messages, validation rule errors display in red text and are preceded by the word “Error.”
+You can specify the error message to display when a record fails validation and where to display it. For example, your error message can be “The close date must occur after today's date.” You can choose to display it near a field or at the top of the page. Like all other SalesForce error messages, validation rule errors display in red text and are preceded by the word “Error.”
 
 Important: Validation rules apply to all new and updated records for an object, even if the fields referenced in the validation rule are not included in a page layout or an API call. If your organization has multiple page layouts for the object on which you create a validation rule, verify that the validation rule functions as intended on each layout. If your organization has any integrations that use this object, verify that the validation rule functions as intended for each integration.
 
@@ -1229,7 +1349,7 @@ Number Validation Rules
 Cross Object Validation Rules
 Community Validation Rules (Answers and Ideas)
 Other Validation Rules
-Tip: Salesforce processes any rules in the following order:
+Tip: SalesForce processes any rules in the following order:
 1. Validation rules
 2. Assignment rules
 3. Auto-response rules
@@ -1263,28 +1383,27 @@ Birthdate, Email, and other fields that are only supported for person accounts a
 If your organization uses person accounts and you are exporting contacts, person account records are included in the contact * *
 # presentations to audio files, video files, Web pages, and Google docs.
 
-Rather than keep files in folders that make content difficult to find, Salesforce CRM Content stores files in fully searchable file repositories known as libraries. Administrators can create multiple libraries based on any classification, such as department name, job function, or team, and then configure user permissions within the library to balance content access with security.
-The powerful Salesforce CRM Content search engine scans the entire body of the document as well as content properties such as the title, description, tags, categorization data, and author name. If Chatter is enabled for your organization, you can also filter your search results by Chatter files. The “smart bar” graphic for downloads, comments, ratings, and subscribers allow you to compare documents within a search result set.
+Rather than keep files in folders that make content difficult to find, SalesForce CRM Content stores files in fully searchable file repositories known as libraries. Administrators can create multiple libraries based on any classification, such as department name, job function, or team, and then configure user permissions within the library to balance content access with security.
+The powerful SalesForce CRM Content search engine scans the entire body of the document as well as content properties such as the title, description, tags, categorization data, and author name. If Chatter is enabled for your organization, you can also filter your search results by Chatter files. The “smart bar” graphic for downloads, comments, ratings, and subscribers allow you to compare documents within a search result set.
 
-Each user must have a Salesforce CRM Content user license and certain user permissions. Users are given access to content based on their library permissions. Note that every user has one personal library where he or she can store private or in-progress content. Customer Portal and partner portal users can have view-only access to your organization without a Salesforce CRM Content feature license (can also download, rate, commend on and subscribe content). Portal users with a Salesforce CRM Content feature license can access all Salesforce CRM Content features granted by their library permission(s), including contributing content, moving and sharing content among libraries, and deleting content. They can also view Salesforce CRM Content reports. The content delivery feature is not available to portal users.
+Each user must have a SalesForce CRM Content user license and certain user permissions. Users are given access to content based on their library permissions. Note that every user has one personal library where he or she can store private or in-progress content. Customer Portal and partner portal users can have view-only access to your organization without a SalesForce CRM Content feature license (can also download, rate, commend on and subscribe content). Portal users with a SalesForce CRM Content feature license can access all SalesForce CRM Content features granted by their library permission(s), including contributing content, moving and sharing content among libraries, and deleting content. They can also view SalesForce CRM Content reports. The content delivery feature is not available to portal users.
 
 Content types are the containers for custom fields; they determine which fields are available during the publishing process and how the fields display on the content details page. All content types contain three default fields: Description, Tags, and Title.
-You can enable Salesforce CRM Content functionality for leads, accounts, contacts, opportunities, cases, products, or custom objects by adding the Related Content related list to the appropriate page layout. From the Related Content related list, users can search for and attach content that is relevant to the record.
+You can enable SalesForce CRM Content functionality for leads, accounts, contacts, opportunities, cases, products, or custom objects by adding the Related Content related list to the appropriate page layout. From the Related Content related list, users can search for and attach content that is relevant to the record.
 
-While setting up the user: Select Salesforce CRM Content User checkbox. Users need license to use content. If Receive Salesforce CRM Content Emails as Alerts is selected, the user receives email notifications if activity occurs on his or her subscribed content, libraries, tags, or authors. To receive real-time email alerts, select this checkbox and do not select the Receive Salesforce CRM Content Alerts as Daily Digest checkbox. If Receive Salesforce CRM Content Alerts as Daily Digest is selected, the user receives a once-daily email summary if activity occurs on his or her subscribed content, libraries, tags, or authors.
+While setting up the user: Select SalesForce CRM Content User checkbox. Users need license to use content. If Receive SalesForce CRM Content Emails as Alerts is selected, the user receives email notifications if activity occurs on his or her subscribed content, libraries, tags, or authors. To receive real-time email alerts, select this checkbox and do not select the Receive SalesForce CRM Content Alerts as Daily Digest checkbox. If Receive SalesForce CRM Content Alerts as Daily Digest is selected, the user receives a once-daily email summary if activity occurs on his or her subscribed content, libraries, tags, or authors.
 
 When this setting is enabled, the Create New > Content Pack option displays on the Libraries tab. Also, from the content details page, users can clone and customize these documents or create new versions.
 
-Content packs are powerful tools that help users efficiently share, customize, and reuse content. A content pack is a collection of related documents or files that are stored as a group in Salesforce CRM Content. Any file in Salesforce CRM Content can be added to a content pack.
+Content packs are powerful tools that help users efficiently share, customize, and reuse content. A content pack is a collection of related documents or files that are stored as a group in SalesForce CRM Content. Any file in SalesForce CRM Content can be added to a content pack.
 
-The Related Content related list allows users to search for content in Salesforce CRM Content and attach it to leads, accounts, contacts, opportunities, products, cases, and custom objects. To use the related list, each user must add it to his or her page layouts for these objects.
+The Related Content related list allows users to search for content in SalesForce CRM Content and attach it to leads, accounts, contacts, opportunities, products, cases, and custom objects. To use the related list, each user must add it to his or her page layouts for these objects.
 On a custom object, clicking Find Content returns search results that contain the full custom object name in the document's text or attributes. If no content meets this criterion, the search results will be empty and a Search All search should be used instead.
-In Salesforce CRM Content, tags are descriptive labels that help classify and organize content. Contributors can assign tags to their files, content packs, Google docs, or Web links, thus enabling all library members to browse for content by tag. The tagging rule in a library determines how contributors can tag content
+In SalesForce CRM Content, tags are descriptive labels that help classify and organize content. Contributors can assign tags to their files, content packs, Google docs, or Web links, thus enabling all library members to browse for content by tag. The tagging rule in a library determines how contributors can tag content
 Tagging rules:
 1.     Open tagging (Allow authors and editors to enter their own tags)
 2.     Guided tagging (Allow authors and editors to enter their own tags or choose from suggested tags)
 3.     Restricted tagging (Allow authors and editors to choose suggested tags only)
-
 
 
 Content Deliveries (Setup | Customize | Content deliveries)
@@ -1308,20 +1427,10 @@ The following settings apply to folders with either of the following visibility 
 o   This folder is accessible by all users, including portal users
 o   This folder is accessible by all users, except for portal users
 
-
-
-
-
-
-Posted 5th January 2013 by Green Jay
-
-10  View comments
-JAN
-5
-Analytics - Reports and Dashboards - 13%
+# Analytics - Reports and Dashboards - 13%
 
 37. Describe the options available when creating or customizing a report  (Only : User permission: Manage public reports: are able to delete reports from the report folders even if user has read/write access and has created the report themselves)
-If you can see it on Salesforce, you can report in it.
+If you can see it on SalesForce, you can report in it.
 Reports are available under standard object tabs: Leads, Accounts, Contacts, Opportunities, Reports, Cases, Contracts, Solutions. (Under the record tab or under reports tab)
 You can use a standard report as the basis for a new report but you must save it first as a custom report to a new folder under a new name.
 
@@ -1364,8 +1473,7 @@ Administrators control access to dashboards by storing them in folders with cert
 Following components isn't supported for dynamic dashboards. You can't save dynamic dashboards to personal folders.
 
 Folders control access to the dashboard, but the running user determines access to data. The running user options are:
-Run as specified user: The dashboard runs using the security settings of that single, specific user. All users with access to the
-#  dashboard according to his or her own access level. This approach helps administrators share one common set of dashboard components to users with different levels of access.
+Run as specified user: The dashboard runs using the security settings of that single, specific user. All users with access to the dashboard according to his or her own access level. This approach helps administrators share one common set of dashboard components to users with different levels of access.
 
 Previously, to control data visibility, administrators would create a dashboard, then clone it for each level of data access. They'd have to assign a different running user for each level, and store the dashboards in different folders. With dynamic dashboards, administrators can accomplish the same thing without having to create and maintain all those extra dashboards and folders. A single dynamic dashboard can display a standard set of metrics across all levels of your organization.
 
@@ -1433,7 +1541,7 @@ Email alerts: 1000 limit per day for workflow and approvals, 2,000,000 limit on 
 42. Describe the capabilities of workflow rules and actions
 Workflow rule: main container for a set of workflow instructions. Every workflow rule must be based on a single object you choose when you define the rule.
 When a workflow rule is triggered one of the following actions occur or multiple actions occur simultaneously. (Workflow tasks, Workflow field updates, Workflow email alerts)
-One workflow rule can trigger execution of another workflow rule. Workflow rules on custom objects will be deleted if custom object is deleted. If rule has pending actions, Salesforce completes those actions as long as rule is not updated. For custom objects you can create a workflow action where a change to a detail record updates a field on the related master record!! Cross object actions for standard objects need Apex triggers instead of workflow rules.
+One workflow rule can trigger execution of another workflow rule. Workflow rules on custom objects will be deleted if custom object is deleted. If rule has pending actions, SalesForce completes those actions as long as rule is not updated. For custom objects you can create a workflow action where a change to a detail record updates a field on the related master record!! Cross object actions for standard objects need Apex triggers instead of workflow rules.
 
 1. Workflow tasks: Assigns a task to a user according to a particular template. (Generates reminder message (pop up) when user logs in) (Set of fields: Assignee, Subject, Status, Priority, Due Date) (Task can only be assigned to the users of the app.) (Exp: Extend offer email or reject email)
 2. Workflow field updates: Changes the value of a particular field on record that initially triggered the workflow rule. (exp: reassign ownership position)
@@ -1465,68 +1573,81 @@ Position record submitted for approval à Initial submission action occurs à Ap
 
 # Desktop and Mobile Administration – 2%
 
- 45.Describe the capabilities of Mobile Lite
+45.Describe the capabilities of Mobile Lite
 
-Mobile Lite is a free, restricted version of Salesforce Mobile that is available to any Salesforce user who doesn't have a mobile license. Mobile Lite users can view, create, edit, and delete accounts, assets, contacts, leads, opportunities, events, tasks, cases, and solutions. They also have access to their dashboards.
+Mobile Lite is a free, restricted version of SalesForce Mobile that is available to any SalesForce user who doesn't have a mobile license. Mobile Lite users can view, create, edit, and delete accounts, assets, contacts, leads, opportunities, events, tasks, cases, and solutions. They also have access to their dashboards.
 You can enable Mobile Lite for your organization by editing your mobile settings. The mobile settings also let you control whether Mobile Lite users have access to all available CRM tabs, or just to dashboards.
-Administrators can't view or edit the default mobile configuration. Mobile lite users are automatically assigned to the default mobile configuration when they activate their Salesforce account from a supported mobile device. Mobile configurations determine the data sent to each mobile user.
+
+Administrators can't view or edit the default mobile configuration. Mobile lite users are automatically assigned to the default mobile configuration when they activate their SalesForce account from a supported mobile device. Mobile configurations determine the data sent to each mobile user.
 Mobile Lite is not supported for partner portal users.
-Mobile Lite doesn't include all of the functionality offered in Salesforce Mobile.
+
+Mobile Lite doesn't include all of the functionality offered in SalesForce Mobile.
 
 o   Supports fewer standard objects
 o   Doesn't provide support for custom objects
 o   Doesn't allow administrators to customize or create mobile configurations
 
-Salesforce mobile:
-Salesforce Mobile is a client application that allows access to Salesforce.com data from BlackBerry, iPhone and Android devices.  A subset of the user's Salesforce information is stored locally on the device, providing access to the user's most critical information even in the absence of a wireless signal.  In addition, the mobile application periodically (and automatically) polls Salesforce.com for new and updated records, ensuring that device data is always kept up to date.  Salesforce Mobile provides the user with the ability to view and edit data, track activity history, log calls and emails and view dashboards.
-Salesforce Mobile is highly configurable and a custom mobile configuration dictates the overall mobile experience and what objects / tabs, records and fields are available on the mobile device.  Salesforce Mobile supports all custom objects and the following standard objects:
+SalesForce mobile:
+
+SalesForce Mobile is a client application that allows access to SalesForce.com data from BlackBerry, iPhone and Android devices.  A subset of the user's SalesForce information is stored locally on the device, providing access to the user's most critical information even in the absence of a wireless signal.  In addition, the mobile application periodically (and automatically) polls SalesForce.com for new and updated records, ensuring that device data is always kept up to date.  SalesForce Mobile provides the user with the ability to view and edit data, track activity history, log calls and emails and view dashboards.
+SalesForce Mobile is highly configurable and a custom mobile configuration dictates the overall mobile experience and what objects / tabs, records and fields are available on the mobile device.  SalesForce Mobile supports all custom objects and the following standard objects:
+
 Accounts, Assets, Cases, Contacts, Content, Events, Leads, Notes, Opportunities, Price Books, Products, Solutions, Tasks, Users
 
-46. Describe the installation and synchronization options of Salesforce for Outlook
-To install Salesforce for Outlook:
+46. Describe the installation and synchronization options of SalesForce for Outlook
+To install SalesForce for Outlook:
 To change sync folders: Your Outlook profile set as the default in your Mail Settings
-Note: We recommend that you activate your computer before using Salesforce for Outlook for the first time.
+Note: We recommend that you activate your computer before using SalesForce for Outlook for the first time.
 1. Close Outlook.
-2. If you're upgrading Salesforce for Outlook, make sure you close it now. To do so, right-click the Salesforce for Outlook icon ( ) in your system tray, then click Exit.
-3. In Salesforce, click Your Name > Setup > Desktop Integration > Salesforce for Outlook.
+2. If you're upgrading SalesForce for Outlook, make sure you close it now. To do so, right-click the SalesForce for Outlook icon ( ) in your system tray, then click Exit.
+3. In SalesForce, click Your Name > Setup > Desktop Integration > SalesForce for Outlook.
 4. If you want to see the email and sync settings your administrator has defined for you before you install, click View My Configuration.
 5. Click Download. Then click Save, open the saved file, and complete the installation wizard.
+
 Note: If you don't yet have .NET 4 installed, the installation wizard installs it for you. Keep in mind, the installation wizard prompts you to restart your machine after it installs .NET 4. You then need to run the installation wizard again to complete the installation process.
-6. Open Outlook. The setup wizard opens, and the Salesforce for Outlook icon ( ) appears in your system tray. To manually open the wizard, right-click this icon and click Settings.
-7. To log in to a Salesforce site other than the default, click Change URL and pick the correct server. If the server you want isn't listed, select Other... and enter the URL, such as a pre-release URL or a custom domain used by your organization.
-8. Enter your Salesforce username and password.
-9. Click Approve. This creates a secure connection between Outlook and Salesforce. You won't have to log in again unless you encounter an error. If you click Deny, you'll return to the previous step.
+
+6. Open Outlook. The setup wizard opens, and the SalesForce for Outlook icon ( ) appears in your system tray. To manually open the wizard, right-click this icon and click Settings.
+
+7. To log in to a SalesForce site other than the default, click Change URL and pick the correct server. If the server you want isn't listed, select Other... and enter the URL, such as a pre-release URL or a custom domain used by your organization.
+
+8. Enter your SalesForce username and password.
+
+9. Click Approve. This creates a secure connection between Outlook and SalesForce. You won't have to log in again unless you encounter an error. If you click Deny, you'll return to the previous step.
+
 Note: If your organization restricts IP addresses, logins from untrusted IPs are blocked until they're activated.
-Salesforce automatically sends you an activation email that you can use to log in. This lets you connect without IP restrictions from anywhere.
+SalesForce automatically sends you an activation email that you can use to log in. This lets you connect without IP restrictions from anywhere.
+
 10. Click Next, and choose the folders you want to sync. You can use your default folders or click Change Folder and select or create a folder that's within your default folders or the main Mailbox folder.
-Important: All data in these folders will sync with Salesforce. If you're syncing from Salesforce to Outlook or syncing both ways and delete a record in Salesforce, that record is automatically deleted in Outlook. Click the configuration link to see more details about how you're configured to sync.
-11. Click Next, and then choose options for private items you want to sync. Keep in mind, private items in both Microsoft Outlook and Salesforce on page 3460 differ in ways you may not expect. Private items in Salesforce may be viewable to others in your organization.
+Important: All data in these folders will sync with SalesForce. If you're syncing from SalesForce to Outlook or syncing both ways and delete a record in SalesForce, that record is automatically deleted in Outlook. Click the configuration link to see more details about how you're configured to sync.
+
+11. Click Next, and then choose options for private items you want to sync. Keep in mind, private items in both Microsoft Outlook and SalesForce on page 3460 differ in ways you may not expect. Private items in SalesForce may be viewable to others in your organization.
+
 12. Click Save. A welcome message appears at the system tray icon ( ), which is now active. If you're configured to sync Outlook items, all data in your selected folders syncs automatically. The icon spins to let you know when data is syncing. During active use, all updates sync automatically every ten minutes. If we detect no keyboard or mouse activity for 30 minutes, we change the sync frequency to 30 minutes. After two hours of inactivity, we sync hourly, and after four hours.
 
-Syncing with Salesforce for Outlook
+Syncing with SalesForce for Outlook
 To sync data Sync enabled for contacts or events
-Salesforce for Outlook syncs data automatically without interrupting your work. To achieve this, Salesforce for Outlook uses Microsoft® Outlook® folders to limit which records sync with Salesforce. Before you complete the Salesforce for Outlook setup wizard, make sure the folders you want to sync contain the right records. If you're syncing both ways or syncing Outlook to Salesforce, moving a record out of a synced Outlook folder deletes that record in Salesforce. If you're syncing both ways or syncing Salesforce to Outlook, removing a record from Salesforce deletes that record in Outlook.
+SalesForce for Outlook syncs data automatically without interrupting your work. To achieve this, SalesForce for Outlook uses Microsoft® Outlook® folders to limit which records sync with SalesForce. Before you complete the SalesForce for Outlook setup wizard, make sure the folders you want to sync contain the right records. If you're syncing both ways or syncing Outlook to SalesForce, moving a record out of a synced Outlook folder deletes that record in SalesForce. If you're syncing both ways or syncing SalesForce to Outlook, removing a record from SalesForce deletes that record in Outlook.
 This topic includes additional details you should know about the sync process, so that you understand your options for not only excluding certain records from syncing, but also syncing your data automatically and manually.
 Excluding Certain Records from Syncing
-o   You have a couple of options for excluding certain items from syncing with Salesforce for Outlook.
-o   You can choose whether to sync items you mark as Private in Microsoft® Outlook®. If you don’t want to sync private items, open Salesforce for Outlook Settings, and select the types of private items you don’t want to sync.
-o   If you don't want certain Outlook items to sync, regardless of whether they’re marked as Private, assign them to the category Don't Sync with Salesforce in Outlook. For details on using categories in Outlook, refer to your Outlook documentation.
-Understanding How Salesforce for Outlook Syncs Data
-o   Your data syncs automatically after you set up Salesforce for Outlook.
+o   You have a couple of options for excluding certain items from syncing with SalesForce for Outlook.
+o   You can choose whether to sync items you mark as Private in Microsoft® Outlook®. If you don’t want to sync private items, open SalesForce for Outlook Settings, and select the types of private items you don’t want to sync.
+o   If you don't want certain Outlook items to sync, regardless of whether they’re marked as Private, assign them to the category Don't Sync with SalesForce in Outlook. For details on using categories in Outlook, refer to your Outlook documentation.
+Understanding How SalesForce for Outlook Syncs Data
+o   Your data syncs automatically after you set up SalesForce for Outlook.
 o   During active use, all updates sync automatically every ten minutes. If we detect no keyboard or mouse activity for 30 minutes, we change the sync frequency to 30 minutes. After two hours of inactivity, we sync hourly, and after four hours, we sync every four hours.
 o   You can force a sync at any time by right-clicking the system tray icon ( ) and clicking Sync > Sync Now.
-o   Your Outlook configuration defines which items are set to sync, which direction the data flows between Outlook and Salesforce, and what happens when data conflicts.
-o   Outlook and Salesforce must be configured to sync before you can see the Sync > Sync Now menu item.
-o   If data is undeleted in Salesforce or becomes available because of a change in sharing permissions, it will show up in Outlook within 24 hours or when you manually sync from the system tray.
+o   Your Outlook configuration defines which items are set to sync, which direction the data flows between Outlook and SalesForce, and what happens when data conflicts.
+o   Outlook and SalesForce must be configured to sync before you can see the Sync > Sync Now menu item.
+o   If data is undeleted in SalesForce or becomes available because of a change in sharing permissions, it will show up in Outlook within 24 hours or when you manually sync from the system tray.
 Posted 5th January 2013 by Green Jay
 
 # AppExchange - 2%
 
  47. Identify use cases for AppExchange applications:
 
-The AppExchange is a Web directory where apps built on the Force.com platform are available to salesforce.com customers to browse, demo, review, and install. Developers can submit their apps for listing on the AppExchange directory if they want to share them with the community.
+The AppExchange is a Web directory where apps built on the Force.com platform are available to SalesForce.com customers to browse, demo, review, and install. Developers can submit their apps for listing on the AppExchange directory if they want to share them with the community.
 
-To get more/enhanced functionality from Salesforce.com. Options to install are either production or sandbox (test env)
+To get more/enhanced functionality from SalesForce.com. Options to install are either production or sandbox (test env)
 AppExchange marketplace:
 a. Managed {Protected components, can be updated by publishing developer}
 b. Unmanaged {Static, can not be upgraded by the publishing developer}
@@ -1535,7 +1656,7 @@ Third party developers
 Force.com labs
 ISV – Independent Software vendors
 
-At times you may run across an AppExchange entry that says, "This listing is private and cannot be found by searching or browsing on the AppExchange." This warning usually means that the partner who develops this application has not started or failed to pass the security review. During the app installation, there's a warning displayed that reads like the following..."Salesforce.com Inc. is not the provider of this application and has not conducted any review of it.
+At times you may run across an AppExchange entry that says, "This listing is private and cannot be found by searching or browsing on the AppExchange." This warning usually means that the partner who develops this application has not started or failed to pass the security review. During the app installation, there's a warning displayed that reads like the following..."SalesForce.com Inc. is not the provider of this application and has not conducted any review of it.
 
 What are AppExchange installation best practices?
 1. Check Edition Compatibility
@@ -1568,8 +1689,8 @@ And vice versa: call position fields under Employment Website obj page layout. U
 What is an external ID?
 
 When importing custom objects, solutions, or person accounts, you can use external IDs to prevent duplicate records from being created as a result of the import operation.
-An external ID is a custom field that has the “External ID” attribute, meaning that it contains unique record identifiers from a system outside of Salesforce. When you select this option, the import wizard will detect existing records in Salesforce that have the same external ID. Note that this operation is not case-sensitive - for example, “ABC” will be matched with “abc”. This option also allows the values in these fields to be indexed for search from the sidebar of the application. If not checked you will be only able to search for records based on the candidate number field. Also setting email field as an external id is also going to help us with importing data.
-In the Salesforce CRM user interface, you can identify up to three (3) custom fields on an object as being an external ID field. The field type must be a text, number, or email field.
+An external ID is a custom field that has the “External ID” attribute, meaning that it contains unique record identifiers from a system outside of SalesForce. When you select this option, the import wizard will detect existing records in SalesForce that have the same external ID. Note that this operation is not case-sensitive - for example, “ABC” will be matched with “abc”. This option also allows the values in these fields to be indexed for search from the sidebar of the application. If not checked you will be only able to search for records based on the candidate number field. Also setting email field as an external id is also going to help us with importing data.
+In the SalesForce CRM user interface, you can identify up to three (3) custom fields on an object as being an external ID field. The field type must be a text, number, or email field.
 If the field does not have "Unique" property, multiple records with same External ID value can be created by Insert operation. Data Loader does not support autonumber as an external id field, although you can use autonumber as an external id field.
 When using an Import Wizard to import custom objects, solutions, or person accounts, you can use external IDs to prevent duplicate records from being created as a result of the import operation.
 The option to use an External Id for matching is not available for the Lead Import Wizard, nor the Accounts & Contacts Import Wizard.
@@ -1591,21 +1712,21 @@ Text Area allows – 255 ch – on separate lines
 Text field allows – 255 ch
 Long text field allows – 32768 ch, on separate lines
 
-Salesforce apps:
+SalesForce apps:
 Data-centric (app is centered around a DB, structured consistent info)
 Collaborative (many users can share data and services, easy to access remotely)
 Security & Sharing model (finely control a user’s access to different data)
 Workflow rules (Used to auto assign tasks, update data, send email according to a business event, creation or change of a business record)
 Approval processes (Sets up a sequence of steps necessary for a record to be approved and by whom)
 
-Technology behind Salesforce:
+Technology behind SalesForce:
 Multitenant architecture – All users share a single common infrastructure
 Meta-data driven development model – Models, obj, forms defined by metadata
 API Access – Application programming interface direct access
-APEX – Programming language, runs on cloud on Salesforce.com servers
+APEX – Programming language, runs on cloud on SalesForce.com servers
 Visualforce – Framework for creating feature rich user interfaces for apps in cloud or blend web services into the application
-Salesforce Mobile – IOS, Android, blackberry native client
-Sites – Public websites and apps that are directly integrated with Salesforce without users requiring to share data and functionality with people outside your organization, apps that directly integrate with SFDC login
+SalesForce Mobile – IOS, Android, blackberry native client
+Sites – Public websites and apps that are directly integrated with SalesForce without users requiring to share data and functionality with people outside your organization, apps that directly integrate with SFDC login
 AppExchange – web directory with Force.com apps available to customers.
 
 App is a container for all objects, tabs / ordered collection of tabs
@@ -1632,7 +1753,7 @@ Data.com (contacts, leads, Accounts)
 Jigsaw – Contacts (over 30M business contacts) (to buy)
 D & B (Dun and bradstreet) – Business credit reports
 
-Import these fields to Salesforce and even compare current Salesforce data to update
+Import these fields to SalesForce and even compare current SalesForce data to update
 Inactive – Bad phone Number, email address or they are no longer with the company listed
 By default – 300 additions per user license / per month but cleaning does not effect your limits.
 
@@ -1656,7 +1777,7 @@ Side search bar uses fuzzy logic to search
 
 recent items: last 10 items
 home and Chatter tabs – Do not show view / Create new view. Not standard home page layout
-A sandbox is a copy of your organization that you can use for testing configurations and training users without compromising the data in your production organization. Salesforce Enterprise and Unlimited Editions come with one free sandbox
+A sandbox is a copy of your organization that you can use for testing configurations and training users without compromising the data in your production organization. SalesForce Enterprise and Unlimited Editions come with one free sandbox
 
 Developer Force is a community of developers who customize and build applications that run in the cloud and are built with the Force.com platform. Developer Force members have access to a full range of resources, including sample code, toolkits, an online developer community, and the test environments necessary for building apps
 
@@ -1667,7 +1788,7 @@ Two huge benefits start to come into focus when you look at Force.com platform a
 Apex: programming language (like ruby)
 Visualforce (like Ruby on Rails) is a complete framework for creating such user interfaces, enabling any kind of interface design and interaction to be built and delivered entirely in the cloud. The user interfaces you build with Visualforce can extend the standard Force.com platform look and feel, or replace it with a completely unique style and set of sophisticated interactions. Because Visualforce markup is ultimately rendered into HTML, designers can use Visualforce tags alongside standard HTML, JavaScript, Flash, or any other code that can execute within an HTML page on the platform. And that's only the beginning: you can also use Visualforce pages to combine data from multiple Force.com platform objects, or blend data from Web services into your applications
 
-Sites enables you to create public websites and applications that are directly integrated with your Salesforce organization—without requiring users to log in with a username and password. You can publicly expose any information stored in your organization through pages that match the look and feel of your company's brand. Because these sites are built and hosted on the Force.com platform servers, there are no data integration issues. And because sites are built with Visualforce pages on the platform, data validation on collected information is performed automatically.
+Sites enables you to create public websites and applications that are directly integrated with your SalesForce organization—without requiring users to log in with a username and password. You can publicly expose any information stored in your organization through pages that match the look and feel of your company's brand. Because these sites are built and hosted on the Force.com platform servers, there are no data integration issues. And because sites are built with Visualforce pages on the platform, data validation on collected information is performed automatically.
 
 Users with the "Manage Users" permission enabled on their profile (under Administrative permissions) are considered administrators.
 Logo’s and pictures must be under Documents tab to be uploaded.
@@ -1785,10 +1906,10 @@ Click Next.
 Accept all remaining field-level security and page layout defaults.
 Click Save.
 
-The HYPERLINK function lets you create a hyperlink to any URL or record in Salesforce. The text of the hyperlink can differ from the URL itself, which is useful here because we want our hyperlink to display the first and last names of the candidate while the URL points to the candidate record itself. We want to be able to go to candidate’s profile so that’s why we use hyperlink.
+The HYPERLINK function lets you create a hyperlink to any URL or record in SalesForce. The text of the hyperlink can differ from the URL itself, which is useful here because we want our hyperlink to display the first and last names of the candidate while the URL points to the candidate record itself. We want to be able to go to candidate’s profile so that’s why we use hyperlink.
 Delete url from the HYPERLINK function you just inserted, but leave your cursor there.
 Click the Insert Field button, and select Review >, Job Application >, Candidate >, Record ID, and click Insert.
-Salesforce generates a unique ID for every record. By inserting the record ID of the candidate in our HYPERLINK function, we're enabling our formula field to locate and link to the candidate's record.
+SalesForce generates a unique ID for every record. By inserting the record ID of the candidate in our HYPERLINK function, we're enabling our formula field to locate and link to the candidate's record.
 Delete friendly_name from the HYPERLINK function, but leave your cursor there.
 Click the Insert Field button, and select Review >, Job Application >, Candidate >, First Name, then click Insert.
 Enter a space, then click the Insert Operator button and choose Concatenate.
@@ -1843,11 +1964,11 @@ Click OK.
 Click Save on the page layout edit page.
 
 
-Salesforce CRM fuctions:
+SalesForce CRM fuctions:
 Campaigns → Leads → Accounts, contacts, opportunities → Sales (won deals) → Cases
 
 Web to case ( up to 500), Email to case
-Marketing Administration – leads -> Salesforce Automation -> Customer service and support automation.
+Marketing Administration – leads -> SalesForce Automation -> Customer service and support automation.
 
 Campaign – allows users to manage and track outbound mARKETING ACTIVITIES: DIRECT MAIL, ROADSHOW, ONLINE ADVERTISING…
 STEPS:
@@ -1863,27 +1984,27 @@ Lead conversion – object account, contact, opportunity record
 
 Converted leads no longer be viewed in Leads tab, only way to view them is to create a lead report. Use filter in report “Converted equals true”
 
-The Recycle Bin link in the sidebar lets you view and restore recently deleted records for 15 days before they are permanently deleted. Your recycle bin record limit is 25 times the Megabytes (MBs) in your storage. For example, if your organization has 1 GB of storage then your limit is 25 times 1000 MB or 25,000 records. If your organization reaches its Recycle Bin limit, Salesforce automatically removes the oldest records if they have been in the Recycle Bin for at least two hours.
+The Recycle Bin link in the sidebar lets you view and restore recently deleted records for 15 days before they are permanently deleted. Your recycle bin record limit is 25 times the Megabytes (MBs) in your storage. For example, if your organization has 1 GB of storage then your limit is 25 times 1000 MB or 25,000 records. If your organization reaches its Recycle Bin limit, SalesForce automatically removes the oldest records if they have been in the Recycle Bin for at least two hours.
 
 You have the ability to attach files up to a maximum of 10MB per e-mail.
 Product, as its name implies, is a product or service that you sell to customers. Products are the individual line items that make up an opportunity.
 
 Products: Individual items that you sell on your opportunities. All prod- ucts belong to one universal product catalog. After you create a product, you can associate it to one or multiple price books with identical or dif- ferent prices. For example, you may use multiple price books if you use one set of prices when selling to qualified non-profit agencies and a dif- ferent price list for companies in the private sector.
-A product can have an associated schedule based on quantity, revenue, or both. If you currently sell products and break out schedules to fore- cast revenue recognition or for planning, you can use Salesforce to reflect important schedules for products linked to opportunities.
+A product can have an associated schedule based on quantity, revenue, or both. If you currently sell products and break out schedules to fore- cast revenue recognition or for planning, you can use SalesForce to reflect important schedules for products linked to opportunities.
 Price book: A collection of products and their associated prices. A product with its associated price is called a price book entry. You can also create custom price books based on your unique sales model.
 You can associate a price book, add products, and build schedules on an opportunity through the Products related list on an Opportunity detail page.
 
-If your company wants to track shipping dates with Salesforce, you need to enable quantity scheduling. If your company wants to measure revenue recognition or anticipate upcoming payments, be sure to enable revenue scheduling.
+If your company wants to track shipping dates with SalesForce, you need to enable quantity scheduling. If your company wants to measure revenue recognition or anticipate upcoming payments, be sure to enable revenue scheduling.
 Go to Setup ➪ Customize ➪ Products ➪ Schedule Setup
 
-Forecasts are generated from opportunities that all members of sales teams manage. And because Salesforce understands that reps and managers sometimes need flexibility to make judgment calls on fore- casts, Salesforce allows for overrides on totals so that submitted forecast numbers are as accurate as possible.
+Forecasts are generated from opportunities that all members of sales teams manage. And because SalesForce understands that reps and managers sometimes need flexibility to make judgment calls on fore- casts, SalesForce allows for overrides on totals so that submitted forecast numbers are as accurate as possible.
 
 Your organization must have customizable forecasting enabled before territory management can be turned on
-Records are the high-level data elements (such as accounts, contacts, and opportunities) that are stored in the Salesforce database. Each of the tabs corresponds to a type of record. Records consist of fields.
+Records are the high-level data elements (such as accounts, contacts, and opportunities) that are stored in the SalesForce database. Each of the tabs corresponds to a type of record. Records consist of fields.
 􏱡 Page layouts is a feature that allows you to control the way a page is dis- played to users.
-􏱡 Search layouts is a feature that allows you to control the way search results are displayed to users. Search layouts correspond to the organi- zation of columns that are displayed on a search results page, lookup dialog page, or record home page in Salesforce.
+􏱡 Search layouts is a feature that allows you to control the way search results are displayed to users. Search layouts correspond to the organi- zation of columns that are displayed on a search results page, lookup dialog page, or record home page in SalesForce.
 
-Processes is an option that allows you to build various sales, marketing, and service processes in Salesforce that you want your reps to follow. Certain records (namely leads, opportunities, cases, solutions, con- tracts, and activities) each have a standard drop-down list used for defining processes.
+Processes is an option that allows you to build various sales, marketing, and service processes in SalesForce that you want your reps to follow. Certain records (namely leads, opportunities, cases, solutions, con- tracts, and activities) each have a standard drop-down list used for defining processes.
 􏱡 Record Types are a feature that allow you to offer certain business processes and subsets of drop-down lists to users based on their profiles. Not to be confused with a type of record (such as an account or contact), a record type when used with page layouts and profiles can make only some of the drop-down list values available to users within a profile.
 
 
@@ -1892,8 +2013,8 @@ Try adding a filter when editing the dashboard by clicking Add Filter. A filter 
 
 Consider the following information when planning and implementing data categories for your organization:
 You can create up to three category groups with a maximum of five hierarchy levels in each group. Each category group can contain a total of 100 categories.
-If you want to use data categories in an answers community, after creating your category group you must assign it to a community at Your Name | Setup | Customize | Answers | Data Category Assignments. You can only assign one category group to an answers community. Salesforce Knowledge supports multiple category groups.
-Even though you can create up to five hierarchy levels of categories in a category group, only the first level of categories is supported in your answers community. Child categories below the first level are not displayed in the community, and community members can't assign these child categories to questions. Salesforce Knowledge supports a hierarchy of data categories.
+If you want to use data categories in an answers community, after creating your category group you must assign it to a community at Your Name | Setup | Customize | Answers | Data Category Assignments. You can only assign one category group to an answers community. SalesForce Knowledge supports multiple category groups.
+Even though you can create up to five hierarchy levels of categories in a category group, only the first level of categories is supported in your answers community. Child categories below the first level are not displayed in the community, and community members can't assign these child categories to questions. SalesForce Knowledge supports a hierarchy of data categories.
 
 Custom formula fields are not tied to any particular currency. If the result of a formula field is a currency amount, it displays in the currency of the associated record. This is also true for cross-object formulas that reference merge fields with different currencies, and formulas in workflow rules and approval processes. However, note that workflow rules and approval processes that use filters instead of formulas convert all currency values to the corporate currency.
 
@@ -1901,9 +2022,9 @@ By default, all lookups behave as standard lookups. When searching for records w
 
 Now joint reports can be printed and exported up to 2000 records in excel
 
-Tags are words or short phrases that you can associate with most Salesforce records to describe and organize their data in a personalized way. Use tags to group records from various objects by a common topic or use, and then use those tags in search to make finding information fast and intuitive.
+Tags are words or short phrases that you can associate with most SalesForce records to describe and organize their data in a personalized way. Use tags to group records from various objects by a common topic or use, and then use those tags in search to make finding information fast and intuitive.
 For example, if you met a number of contacts and leads at a conference, you might tag them all with the phrase User Conference 2011. You could then search for the User Conference 2011 tag and click that tag in search results to retrieve those records.
-Salesforce supports two types of tags.
+SalesForce supports two types of tags.
 Personal tags are private. Only you can view any personal tags that you add to a record.
 Public tags are shared among all users in an organization. Any user with access to the record can view the public tags that you add.
 Administrators can enable personal and public tags for accounts, activities, assets, campaigns, cases, contacts, contracts, dashboards, documents, events, leads, notes, opportunities, reports, solutions, tasks, and any custom objects (except relationship group members), allowing you to:
@@ -1928,31 +2049,31 @@ Often times, when setting up escalation rules you will want to include an owners
 
 1. Assignment Rules that transfer inbound cases from your web to case to a queue or a potential owner will evaluate the escalation rule and then assign the case.
 
-Example:
-Once a case is submitted, it will move through the escalation rules and trigger if it meets a criteria. Afterward, the case will be evaluated by the Assignment Rules and be redirected accordingly. If the escalation rule included a filter that referenced ownership after the assignment, the escalation will not be triggered.
-
+    Example: Once a case is submitted, it will move through the escalation rules and trigger if it meets a criteria. Afterward, the case will be evaluated by the Assignment Rules and be redirected accordingly. If the escalation rule included a filter that referenced ownership after the assignment, the escalation will not be triggered.
+    
 2. Manually transferring records will not trigger Assignment or Escalation Rules.
 
-Example:
-An escalation rule dictates that any cases owned by User 2 will be escalated after 30 minutes.
+    Example: An escalation rule dictates that any cases owned by User 2 will be escalated after 30 minutes.
 
 A case is owned by User 1. The case is then manually transferred from User 1 to User 2. This does not modify the record and does not change the last modified date. Hence, the escalation rules are not triggered.
 
 
 If you opt to have Ownership involved with your escalation rules, you will need to include any users that may transfer these records to another user.
 
-Connection Finder (Salesforce to Salesforce) allows you to email surveys to find out if your partners are Salesforce customer
+Connection Finder (SalesForce to SalesForce) allows you to email surveys to find out if your partners are SalesForce customer
 
 Opportunity is included in territory management but not lead and activity.
 
 If a user accesses a login URL that does not contain a unique identifier of a specific Customer Portal, then they are automatically directed to the login URL of the first Customer Portal you created – True
 
 Division on individual records—Division is a field on individual records which marks the record as belonging to a particular division. A record can belong to a division that the administrator creates, or it can belong to the standard “global” division which is created automatically when your organization enables divisions.
+
 Default division for a user—Users are assigned to a default division that applies to their newly created accounts, leads, and custom objects that are enabled for divisions.
+
 Working division—If you have the “Affected by Divisions” permission, you set the division in which you want to work using a drop-down list in the sidebar. Then, searches will show only the data for your working division. You can change your working division at any time. If you do not have the “Affected by Divisions” permission, you do not have a working division; you always see records in all divisions.
 
 The organization IDs of your sandboxes differ from your production organization ID, and will change each time your sandbox is refreshed.
-Salesforce stores sandbox organizations on several instances. When a sandbox is created or refreshed, an instance is selected for your sandbox, so your sandbox may appear on different instances and have different URLs.
+SalesForce stores sandbox organizations on several instances. When a sandbox is created or refreshed, an instance is selected for your sandbox, so your sandbox may appear on different instances and have different URLs.
 When data that contains object IDs is copied from your production instance into your sandbox, the object IDs in your sandbox match the object IDs in your production instance. However, data created in your production instance or sandbox will not contain matching object IDs.
 
 Full copy sandboxes have the same storage limit as your production organization.
@@ -1983,7 +2104,7 @@ Custom report types allow you to build a framework in the report wizard, from wh
 
 Each value in the opportunity Stage picklist is automatically mapped to a Probability and value in the Forecast Category picklist. Change the Stage of an opportunity and the Probability as well as the Forecast Category changes with it.
 
-Schedule Type: Defines whether the product revenue or quantity will be divided into multiple installments or repeated for multiple installments.
+* **Schedule Type**: Defines whether the product revenue or quantity will be divided into multiple installments or repeated for multiple installments.
 Installment Period: Sets the interval for installments; for example, Weekly, Monthly.
 Number of Installments: Number of installments in the schedule.
 
