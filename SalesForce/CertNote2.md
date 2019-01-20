@@ -10,6 +10,9 @@ The  following image displays the Administrators menu selection under setup;
 
 # Organization Setup - 1%
 
+Generally the Company Profile set up is the first step. You can find the "Company Profile" Menu selection under the Administration Menu; 
+
+
 ![Admin Menu](./image/Company_Profile_Menu.PNG)
 
 The first step in SalesForce setup could be setting up The Company Profile. This can be done from the menu selection.
@@ -17,12 +20,12 @@ The first step in SalesForce setup could be setting up The Company Profile. This
 The following sub-menu items are available under setting company profile;
 
 1. Setup Company Profile
-  1. Company information
-  2. Fiscal year
-  3. Business Hours
-  4. Holidays
-  5. Language Settings
-  6. Data Protection and Privacy
+  1. Company information (General Company Information)
+  2. Fiscal year (Company Fiscal Year setup)
+  3. Business Hours (Business Hours)
+  4. Holidays (Holidays)
+  5. Language Settings (Company Language Information)
+  6. Data Protection and Privacy (Privacy and Protection)
 
 # 1. Describe the components of the company profile
 
@@ -42,9 +45,15 @@ Organization Name, Primary Contact, Default locale, default language, currency l
 
 A user license determines the baseline of features that the user can access. Every user must have exactly one user license. You assign user permissions for data access through a profile and optionally one or more permission sets.
 
+![Admin Menu](./image/User_Licenses_Section.PNG)
+
+
 ( Salesforce, Salesforce platform, Force.com, Knowledge Only, Chatter Free, Chatter external, Chatter only/plus,  Customer portal, Partner)
 
 ### 1.3 Permission Set Licence
+
+![Admin Menu](./image/Permision_Set_Licenses.PNG)
+
 
 A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses. Users can be assigned any number of permission set licenses.
 
@@ -52,11 +61,16 @@ A permission set is a convenient way to assign users specific settings and permi
 
 A feature license entitles a user to access an additional feature that is not included with his or her user license, such as Marketing or Work.com. Users can be assigned any number of feature licenses.
 
+![Admin Menu](./image/Feature_Licenses.PNG)
+
+
 (Marketing user, Offline user, Knowledge user, Force.com Flow user, Service cloud user, site.com contributor, site.com publisher, Mobile user, Salesforce CRM Content user, live agent user)
 
 User Licenses show status, total licenses, used licenses, remaining licenses and expiration date. **Feature licenses are same but do not show expiration date** (They are attached to the user licenses, to enable a feature for a user in your organization, you can assign feature licenses when adding new users or editing a user's personal information, checkboxes!)
 
 ### 1.5 Usage-based Entitlements
+
+![Admin Menu](./image/Usege-Based_Entitlements.PNG)
 
 A usage-based entitlement is a limited resource that your organization can use on a periodic basis—such as the allowed number of monthly logins to a Partner Community or the record limit for Data.com list users.
 
@@ -87,6 +101,7 @@ When setting Company Fiscal Years, there are two types of Fiscal Year;
 1. **Standard (default)**: Follows Gregorian calendar, starts first day of any month)
 2. **Custom**: Follows custom structure you define, it can not be disabled once enabled
 
+
 -Changing fiscal year start month may delete existing forecasts, forecast history, forecast overrides, reports and all quotas.  To preserve: use a month that starts a fiscal year not a random month.
 
 ## Business hours
@@ -109,6 +124,7 @@ where you set end user (help and admin setup are not translated) and platform on
 
 # User Licenses:
 (Changing a user license of a user also removes the permission sets assigned to that user)
+
 
 * **Salesforce**: Full access, can access any standard and custom app.
 * **Salesforce Platform**: Users can access custom apps (incl. AppExchange) but not standard CRM functionality (forecasts, opportunities). In addition can use core platform functionality (Accounts, contacts, reports, dashboards, documents and custom tabs) Users with this license can only view dashboards if the running user also has the same license.
@@ -153,6 +169,10 @@ Organization name, primary contact,  - 80
 ￼￼￼￼￼￼￼If your organization has enabled Shared Activities, you can relate as many as 10 contacts to non-recurring and non-group tasks, and non-recurring events. You assign one primary contact; all others are secondary contacts. The primary contact appears in two reports: Tasks and Events, and Activities with Cases. If you delete the primary contact, the next contact on the activity’s related list becomes the new primary one. If that’s not the primary contact you want, you can edit the activity to select another.
 Standard apps: (Sales, Call Center, Marketing, Community, Site.com, Salesforce Chatter)
 
+![Admin Menu](./image/Fiscal_Year_Custom.PNG)
+![Admin Menu](./image/Fiscal_Year_Main.PNG)
+
+
 # User Setup - 9%
 
 Under "Manage Users" menu selection the following menu itemms are avaiblable
@@ -181,9 +201,9 @@ Contact Manager(5), Group(5), Professional(unlt), Enterprise(unlt), Unlimited(un
 2. If access problems are one of the below then identity must be confirmed:
 a. Does user profile has any login restriction?
 b. Does user IP address in organization’s trusted IP range? (Only user with an activated IP address can login)
-Ø  IP address considered activated if IP address falls within trusted IP ranges
-Ø  IP address previously activated by user
-Ø  Browser can be identified by a cookie
+	* IP address considered activated if IP address falls within trusted IP ranges
+	* IP address previously activated by user
+	* Browser can be identified by a cookie
 c. Has user been activated from this IP before?
 d. Does user’s web browser have valid cookies from Salesforce?
 
