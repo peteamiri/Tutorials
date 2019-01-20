@@ -1178,8 +1178,15 @@ Posted 6th January 2013 by Green Jay
 
 # Activity Management - 3%
 
- 29. Describe the capabilities of activity management (two types of activities; events and tasks) Events show up on your calendar have specific time associated with the. Task does not have specific time but they have a date. This is the difference.)
-Reminder pop ups only come up if the user is logs in
+29. Describe the capabilities of activity management 
+
+There are two types of activities; 
+
+* Events; Events show up on your calendar have specific time associated with the. 
+* Tasks; Task does not have specific time but they have a date. This is the difference. 
+ 
+Reminder pop ups only come up only when the user is logged in
+
 1. Calendar (two person button, to see all users calendar and great tool to find meeting time)
 2. Schedule calls, meetings, tasks
 3. Link activities to Contacts, Accounts and Opportunities
@@ -1188,10 +1195,19 @@ Reminder pop ups only come up if the user is logs in
 6. Complete activities
 Once the scheduled time for an event passed, event automatically moved to the activity history.
 
-Chatter - 1ormation securely and in real time. Additionally, you can invite coworkers without SalesForce licenses to join Chatter. In# vited users can view profiles, post on their feed, and join groups, but can't see your SalesForce data or records.
+# Chatter
+30. Describe the features of Chatter (Engage, participate, Build relationships)
+
+Chatter is a collaboration application that helps you connect with coworkers inside your Salesforce
+
+organization and share business information securely and in real time. Additionally, you can invite
+
+coworkers without Salesforce licenses to join Chatter. Invited users can view profiles, post on their feed, and join groups, but can't see your Salesforce data or records.
 Web 2.0 - Sharing info moves multiple ways, social network for business that provides real-time visibility, locate expertise, post question / problem, improve communication, transparent communication, inform and motivate employees)
 #Topic Tag (also acts as super search, returns all posts) (Exp:#groupstartegy)
 @mentions (@cenkozer) (for post they should be aware of or include them to a conversation)
+
+
 Chatter is not supported:
 o   Using Microsoft® Internet Explorer version 6.0
 o   For portal users
@@ -1990,8 +2006,11 @@ You have the ability to attach files up to a maximum of 10MB per e-mail.
 Product, as its name implies, is a product or service that you sell to customers. Products are the individual line items that make up an opportunity.
 
 Products: Individual items that you sell on your opportunities. All prod- ucts belong to one universal product catalog. After you create a product, you can associate it to one or multiple price books with identical or dif- ferent prices. For example, you may use multiple price books if you use one set of prices when selling to qualified non-profit agencies and a dif- ferent price list for companies in the private sector.
+
 A product can have an associated schedule based on quantity, revenue, or both. If you currently sell products and break out schedules to fore- cast revenue recognition or for planning, you can use SalesForce to reflect important schedules for products linked to opportunities.
+
 Price book: A collection of products and their associated prices. A product with its associated price is called a price book entry. You can also create custom price books based on your unique sales model.
+
 You can associate a price book, add products, and build schedules on an opportunity through the Products related list on an Opportunity detail page.
 
 If your company wants to track shipping dates with SalesForce, you need to enable quantity scheduling. If your company wants to measure revenue recognition or anticipate upcoming payments, be sure to enable revenue scheduling.
@@ -2001,12 +2020,12 @@ Forecasts are generated from opportunities that all members of sales teams manag
 
 Your organization must have customizable forecasting enabled before territory management can be turned on
 Records are the high-level data elements (such as accounts, contacts, and opportunities) that are stored in the SalesForce database. Each of the tabs corresponds to a type of record. Records consist of fields.
+
 􏱡 Page layouts is a feature that allows you to control the way a page is dis- played to users.
 􏱡 Search layouts is a feature that allows you to control the way search results are displayed to users. Search layouts correspond to the organi- zation of columns that are displayed on a search results page, lookup dialog page, or record home page in SalesForce.
 
 Processes is an option that allows you to build various sales, marketing, and service processes in SalesForce that you want your reps to follow. Certain records (namely leads, opportunities, cases, solutions, con- tracts, and activities) each have a standard drop-down list used for defining processes.
 􏱡 Record Types are a feature that allow you to offer certain business processes and subsets of drop-down lists to users based on their profiles. Not to be confused with a type of record (such as an account or contact), a record type when used with page layouts and profiles can make only some of the drop-down list values available to users within a profile.
-
 
 
 Try adding a filter when editing the dashboard by clicking Add Filter. A filter lets you see different views of dashboard data based on filter conditions. You can add up to three filters per dashboard with up to 10 conditions on a filter. For example, you can filter the entire dashboard by the Invoice Statement: Status field. This will show you total and daily merchandise sold for each invoice status. Instead of filtering at the report level, you directly manipulate dashboard data.
@@ -2023,17 +2042,24 @@ By default, all lookups behave as standard lookups. When searching for records w
 Now joint reports can be printed and exported up to 2000 records in excel
 
 Tags are words or short phrases that you can associate with most SalesForce records to describe and organize their data in a personalized way. Use tags to group records from various objects by a common topic or use, and then use those tags in search to make finding information fast and intuitive.
-For example, if you met a number of contacts and leads at a conference, you might tag them all with the phrase User Conference 2011. You could then search for the User Conference 2011 tag and click that tag in search results to retrieve those records.
-SalesForce supports two types of tags.
-Personal tags are private. Only you can view any personal tags that you add to a record.
-Public tags are shared among all users in an organization. Any user with access to the record can view the public tags that you add.
+
+
+    For example, if you met a number of contacts and leads at a conference, you might tag them all with the phrase User Conference 2011. You could then search for the User Conference 2011 tag and click that tag in search results to retrieve those records.
+
+SalesForce supports two types of tags;
+
+* **Personal tags** are private. Only you can view any personal tags that you add to a record.
+* **Public tags** are shared among all users in an organization. Any user with access to the record can view the public tags that you add.
+
 Administrators can enable personal and public tags for accounts, activities, assets, campaigns, cases, contacts, contracts, dashboards, documents, events, leads, notes, opportunities, reports, solutions, tasks, and any custom objects (except relationship group members), allowing you to:
 Tag records
 Remove tags from a record
 Browse, search, and manage tags
 
 When you enable tags, you can also add them to a page layout by editing the page layout directly. See Customizing Page Layouts.
+
 Search results and the Tags page don't display custom objects that don't have an associated tab, even if tags are enabled for the custom object. If you want custom object records to appear in search results or on the Tags page, you must create an associated tab. The tab doesn't have to be visible to users.
+
 Customer Portal users can't view the tags section of a page, even if it is included in a page layout.
 
 Is it possible for an Account to be part of multiple Territories?
@@ -2056,7 +2082,6 @@ Often times, when setting up escalation rules you will want to include an owners
     Example: An escalation rule dictates that any cases owned by User 2 will be escalated after 30 minutes.
 
 A case is owned by User 1. The case is then manually transferred from User 1 to User 2. This does not modify the record and does not change the last modified date. Hence, the escalation rules are not triggered.
-
 
 If you opt to have Ownership involved with your escalation rules, you will need to include any users that may transfer these records to another user.
 
