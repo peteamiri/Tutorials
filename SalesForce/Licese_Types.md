@@ -12,10 +12,8 @@ Here’s the summary of Salesforce user license types:
 * **Salesforce Platform** : Custom apps & core objects (Accounts, Contacts, etc) only; no CRM (no Opportunities or Forecasts).
 * **Force.com – One App** : One custom app & read-only for accounts and Contacts; no CRM.
 * **Knowledge Only User** : Salesforce Knowledge app only.
-Chatter Free
-Access to Chatter for people in your company without a Salesforce license.  No additional cost.
-Chatter External
-Allows your customers to use Chatter groups.  No additional cost.
+* **Chatter Free** : Access to Chatter for people in your company without a Salesforce license.  No additional cost.
+* **Chatter External** : Allows your customers to use Chatter groups.  No additional cost.
 Chatter Only (aka Chatter Plus)
 Access to Chatter for people in your company without a Salesforce license PLUS access to accounts & contacts.  Additional cost.
 Guest User
