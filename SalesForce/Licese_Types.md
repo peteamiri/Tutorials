@@ -49,10 +49,9 @@ more access than Customer Portal Manager Standard).
 
 
 
-The following are Flavors of Customer Portal User Licenses.
-Additional detail on customer portal licenses is here.
+The following are Flavors of Customer Portal User Licenses. Additional detail on customer portal licenses is here.
 
-* **Authenticated Website** : For Platform portal users – used with Force.com Sites (ie public websites hosted on saleforce.com’s servers).  A type of high volume portal license.
+* **Authenticated Website** : For Platform portal users – used with Force.com Sites (i.e. public websites hosted on saleforce.com’s servers).  A type of high volume portal license.
 Unlimited logins to your Platform Portal to access customer support information.
 Read & create access for ideas, questions & answers.
 Read-only access to documents, knowledge, price books, and products.
