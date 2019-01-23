@@ -8,10 +8,10 @@
 
 # AWS Short History
 
-Amazon Web Services start offering cloud services 
+Amazon Web Services start offering cloud services
 
 * 2003 Start at 2003
-* 2004 SQS launched SQS 
+* 2004 SQS launched SQS
 * 2006 AWS started
 * 2010 Amazon.com moved to AWS
 * 2013 Certification program started
@@ -20,7 +20,7 @@ Amazon Web Services start offering cloud services
 
 The followings are AWS categories of services;
 
-* AWS Global Infrastructure 
+* AWS Global Infrastructure
 * Compute
 * Storage
 * Databases
@@ -44,13 +44,14 @@ The followings are AWS categories of services;
 # AWS Global Infrastructure
 
 * **Region** : Is a geographic Area (e.g. London, N. VA, etc.)
-* **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across multiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity. 
+* **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across multiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity.
+each availability zone is a data center within a Region that is a distance apart from other AZ's to protect and provide a better availability in case of a natural or other types of disaster.  
 * **Edge Locations** : endpoint for AWS which are used for caching contents. Typically this is consists of **CloudFront** which is part of AWS Content Delivery Network (CDN).   
 
 ## Region ##
 
 Currently AWS has (As of 2018);
- 
+
 * 16 Regions  
 * 44 Availability Zones (A.K.A) AZ these numbers are increasing rapidly.
 * 96 Edge Locations
@@ -90,8 +91,8 @@ VPC can not be peered cross region
 
 * EC2 Elastic Computer Cloud Virtual Machine or **Optional** Dedicated Machine
 * EC2 Container Service (for Docker)
-* Elastic Beanstalk (for new developers) upload the code and It will provision resources like AutoScaling groups, Loadbalancers, etc. 
-* Lambda Event bases, Serverless an event initiates execution of code, similar to function calls. 
+* Elastic Beanstalk (for new developers) upload the code and It will provision resources like AutoScaling groups, Loadbalancers, etc.
+* Lambda Event bases, Serverless an event initiates execution of code, similar to function calls.
 * Lightsail Preinstalled SaaS (Wordpress, LAMP_Stack, etc.) or Linux Platforms. Provision a server, with a fix IP, you can do RDP and SSH to the server.
 * Batch used for batch computing.
 
@@ -107,21 +108,21 @@ VPC can not be peered cross region
 
 * Relational Data Services (RDS);
 	* MySQL
-	* MS SQL Server 
+	* MS SQL Server
 	* PostgreSQL
 	* Aurora (aws MySQL)
 	* Oracle
 	* MariaDB
 * DynamoDB (Disk based NoSql Database) very similar to MongoDB
 * Elasticache (in memory NoSql Database)
-* Red Shift (Data warehousing) for Business Intelligence 
+* Red Shift (Data warehousing) for Business Intelligence
 
 ## Migration Services
 
 * AWS Migration Hub Tracking Service,
 * Application Discovery Services : Automated Tools to identify the dependencies for applications.
 * Database Migration Services Migrate data from on-premise to AWS.
-* Server Migration Service: Visual Migration tracking system 
+* Server Migration Service: Visual Migration tracking system
 * Snowball Migration of very large data
 
 
@@ -129,7 +130,7 @@ VPC can not be peered cross region
 ## Network & content Delivery
 
 * Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, Accesss Control Lists (ACL), route tables, etc.
-* CloudFront is a AWS content deliver network. 
+* CloudFront is a AWS content deliver network.
 * Route53 : is the AWS Domain Name Services (DNS).
 * API Gateway: creating API for other services
 * Direct Connect: Dedicated line from Clients Data Center to a VPC.  
@@ -138,24 +139,24 @@ VPC can not be peered cross region
 
 * CodeStar; part of CI/CD and Code colaboration
 * CodeCommit : source code repository, source code controll system
-* CodeBuild : build tool 
-* CodeDeploy : Automate application deployment to AWS EC2, Lambda and Client's Data-center. 
+* CodeBuild : build tool
+* CodeDeploy : Automate application deployment to AWS EC2, Lambda and Client's Data-center.
 * CodePipeline : Continious delivery system Visualize Code deployment
-* XRay: debug and analyze servless codes. 
-* Cloud9 is an IDE to develop code for AWS console. 
+* XRay: debug and analyze servless codes.
+* Cloud9 is an IDE to develop code for AWS console.
 
 ## Management Tools
 
 * CloudWatch : Monitoring tool major part of Sysops Admin exam
 * CloudFormation : Script the infrastructure for deploy or redeploy the infrastructure  
 * CloudTrail : Logging any changes, it is turned on by default. The data is stored for a week,
-* Config Monitors the configuration of entire AWS system. 
+* Config Monitors the configuration of entire AWS system.
 * OpsWorks Chef and puppet automate creation of the AWS infrastructure.
 * Service Catalog IT Services catalog, governance and compliance
-* Systems Manager : Interface for managing resources. 
+* Systems Manager : Interface for managing resources.
 * Trusted Advisor : advice on security and administrative task, save money and resources
 * Managed Services :  
-      
+
 ## Media Services
 
 * Elastic Transcoder : takes video and re-size it for various interfaces
@@ -168,45 +169,45 @@ VPC can not be peered cross region
 ## Machine Learning
 
 * SageMaker for use for Deeplearning
-* Amazon Comprehend 
+* Amazon Comprehend
 * DeepLens Artificially Intelligent Camera . It is a hardware you can buy
-* Lex Powers AWS Elexa AI boot to chat 
-* Machine Learning Different DeepLearning (Neural Network). This is like recommended products. 
+* Lex Powers AWS Elexa AI boot to chat
+* Machine Learning Different DeepLearning (Neural Network). This is like recommended products.
 * Polly text to Speech
 * Rekognition similar to OpenCV
 * Amazon Translate translate languages
-* Transacribe Speech to text, Speech recognition. 
+* Transacribe Speech to text, Speech recognition.
 
 ## Analytics
 
 * Athena : SQL against S3 buckets (Text Search)
 * Elastic Map reduce EMR : Big data solution
-* CloudSearch Search 
+* CloudSearch Search
 * ElasticSearch
-* Kinesis injestic large amount of data (e.g. from social media) into AWS services. 
-* Kinesis Video Streams 
-* QuickSight BI tool, 
+* Kinesis injestic large amount of data (e.g. from social media) into AWS services.
+* Kinesis Video Streams
+* QuickSight BI tool,
 * Data Pipeline : move data across various services
 * Glue : ETL tool
 
 # Security, Identity & Compliance
 
-* IAM : 
+* IAM :
 * Cognito : Device authentication service
 * GaurdDuty Monitor for malicious activity
 * Inspector install on machine to monitor for vulnerabilities
 * Macie : search for PII information and alert you
-* Certificate Manager 
+* Certificate Manager
 * ColudHSM Hardware security module, store the keys for access hardware
 * Directory Services Active directory to AWS directory
 * WAF : firewall to protect against attacks.
-* Shield DDos metigation also Advanced-Shield more advanced feature. 
-* Artifact On demand access and downloading AWS documentation. 
+* Shield DDos metigation also Advanced-Shield more advanced feature.
+* Artifact On demand access and downloading AWS documentation.
 
 # Mobile Services
 
 * Mobile Hub : management console for mobile application uses AWS Mobile SDK
-* Pinpoint : Push notification for a certain users. 
+* Pinpoint : Push notification for a certain users.
 * AWS AppSync : update data and information
 * DeviceFarm : testing apps on various devices
 * Mobile analytics  analytics on mobile applications
@@ -221,11 +222,11 @@ VPC can not be peered cross region
 * Amazon MQ (rabbitMQ)
 * SNS Notification services
 * SQS Queueing services
-* SWF Workflow Services similar to BPM. 
+* SWF Workflow Services similar to BPM.
 
-## Customer Engagement 
+## Customer Engagement
 
-* Connect contact center, e.g. CRM. 
+* Connect contact center, e.g. CRM.
 * Simple Email Services sending mass email
 
 ## Business Productivity
@@ -239,7 +240,7 @@ VPC can not be peered cross region
 
 * Workspaces Virtual desktop VDI,
 * AppStream 2.0 : Interface to AWS services
-* 
+*
 ## IoT
 
 * IoT
@@ -277,13 +278,13 @@ There is a soft 50 domin name limit, this limit can be changed by AWS Support
 
 ## Security & Identity Management (IAM) ##
 
-need to access IAM using the **root account** and create other accounts. After that never use **Root Account** for anything. 
+need to access IAM using the **root account** and create other accounts. After that never use **Root Account** for anything.
 
 * Centralized control of your AWS account
 * Shared Access to AWS Accounts
 * Enforce Granular Permissions
-* Allow Federation (including Active Directory, FaceBook, Linkedin, etc.) 
-* It is a global services and it is not bound to any AWS region or AZ's. IAM is not bound to a region, it is universal 
+* Allow Federation (including Active Directory, FaceBook, Linkedin, etc.)
+* It is a global services and it is not bound to any AWS region or AZ's. IAM is not bound to a region, it is universal
 * Allow MultiFactor Authentication
 * Manage password rotation policies
 * Integrates with many AWS services. IAM is fully integrated with many of AWS services
@@ -292,7 +293,7 @@ need to access IAM using the **root account** and create other accounts. After t
 
 IAM Characteristics
 
-* IAM allows life-cycle management of users, groups, and policies, 
+* IAM allows life-cycle management of users, groups, and policies,
 * IAM provides template policies to ease the process
 * IAM allows password policies (what and when)
 * New Users by default have no access to any resource, they access has to be granted
@@ -302,10 +303,10 @@ IAM Characteristics
 
 ### Multifactor Authantication ###
 
-Two types; 
+Two types;
 
-* Virtual (applications installed on various devices), e.g. install Google authaticator. 
-* Hardware 
+* Virtual (applications installed on various devices), e.g. install Google authaticator.
+* Hardware
 
 Access type:
 
@@ -390,7 +391,7 @@ Part of cost control
 
 * control and track resource utilization
 * Connect using AWS Console
-* Once enable it can not be disabled. 
+* Once enable it can not be disabled.
 * It will eventually uses cloudwatch  
 
 ## Management Tools ##
@@ -479,7 +480,7 @@ Messaging
 EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instance is charged per hour with different rates depending on the type of the virtual server. These EC2 types are optimized based on the business needs.
 
 [Good Tuotiral](https://www.guru99.com/aws-tutorial.html)
- 
+
 
 - EBS availability is guaranteed %99.95
 - AWS recommends to use Roles on EC2 to connect to other resources
@@ -614,10 +615,10 @@ EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instanc
 - 		bet on leftover compute capabilities,you get 2 minutes warning beffore shutdown. You pay for hours used AWS pays for fraction hour
 - 		if you terminate before AWS then you pay for the fraction/partial hour otherwise the partial hour is free
 - 		you make bid, you pay market price upto what you bid one when market surpass the bid price you get 2 minute warning
-- 
+-
 - Accessing Metadata
 - 	curl http://169.254.169.254/latest/meta-data
-- 
+-
 - For EC2 to connect to Internet you must have the followings:
 - 	1VPC must have Internet Gateway attached to VPC
 - 	2The Subnet with EC2 must be point to the Internate Gateway via the router
@@ -652,7 +653,7 @@ it uses the Docker
 - Static objects or files, or web-based file storage
 - You can enable Multi Factor Authantication (MFA) for delete at bucket level and object level on S3
 - By default all buckets and objects are private
-- you can use Multi-Part for lager files to upload. In case of Error you can resume the upload on errors. 
+- you can use Multi-Part for lager files to upload. In case of Error you can resume the upload on errors.
 - Bucket Name unique Globally (Across all Users), name must be all lowercase, alphanumeric, with dash with Unlimited Storage and objects, objects from 1-5TB size
 - You can enable the following capabilities at the bucket level
 - Versioning;
@@ -832,7 +833,7 @@ Emphemeral = transient this information is not saved when the instance is (insta
 
 EBS
 
-Elastic Block Storage (EBS) 
+Elastic Block Storage (EBS)
 Volume = Virtual Disk in CLoud
 when terminating the instance by default the EBS is deleted, unless the Delete On Termination is checked off (as default it is checked to allow termination you must uncheck it)
 You can Check, Delete on Termination box when Adding EBS Storage to EC2 instance, this will deletes the EBS when EC2 is terminated.
