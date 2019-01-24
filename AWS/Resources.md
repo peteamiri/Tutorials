@@ -21,3 +21,20 @@
 * [AWS VPC Reinvent 201](https://www.youtube.com/watch?v=Tff1mekxOJ4)
 
 ## IAM
+
+* [IAM Reinvent](https://www.youtube.com/watch?v=YQsK4MtsELU)
+* [IAM Policy Ninja](https://www.youtube.com/watch?v=y7-fAT3z8Lo)
+
+## EBS
+
+* [EBS Reinvent](https://www.youtube.com/watch?v=AnLCr99kFcY)
+* [EBS Reinvent](https://www.youtube.com/watch?v=BuJa6Vl8cn8)
+
+## AWS security
+
+* [AWS Reinvent](https://www.youtube.com/watch?v=I1SwoKxB13c)
+* [AWS Security](https://www.youtube.com/watch?v=Ne5YIeL_2a0)
+
+## CloudWatch (AWS SusOpns)
+
+* [AWS Cloudwatch Reinvenet](https://www.youtube.com/watch?v=9qKryBb7t6s)
