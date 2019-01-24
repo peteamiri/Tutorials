@@ -34,6 +34,7 @@
 
 * [AWS Reinvent](https://www.youtube.com/watch?v=I1SwoKxB13c)
 * [AWS Security](https://www.youtube.com/watch?v=Ne5YIeL_2a0)
+* [AWS Security Groups Best Practices](https://www.youtube.com/watch?v=zU1x5SfKEzs)
 
 ## CloudWatch (AWS SusOpns)
 
