@@ -1,18 +1,17 @@
-
-
 ## Region ##
+AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster. 
 
-Currently AWS has 14 Regions and 35 Availability Zones (A.K.A) AZ these numbers are increasing rapidly.
+These AZ with in each Region are connected with high speed network. 
 
 ## Availability Zones ##
 
 As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of independent "DataCenters" (for DR reason).
 
-They have low latency Network Intrastructure within a region across the AZ's
+They have low latency Network Infrastructure within a region across the AZ's
 
 Generally; each Region has at least 2 or more Availability Zones
 
-Always validate your region, otherwise you may create resources in different regions and you may not know what region they are in.
+> Note: It is important to Always validate your region, otherwise you may create resources in different regions and you may not know what region they are in.
 
 As default your data is always stays in same region that you store it
 
@@ -20,6 +19,7 @@ you can do cross-region copy, etc.
 
 
 ## Edge Location ##
+
 CDN (End Point for CloudFront) CDN = Conntent Delivery Networks
 Edge locations are not Availability zones
 CDN is content caching
@@ -28,6 +28,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 66 Edge Location
 
 ## Network and CDN ##
+
 upto 5 VPC per Region
 VPC can  be peered as log as the CIDR is not overlaps
 VPC can not be cross region
