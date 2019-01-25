@@ -15,7 +15,7 @@
 
 ## AWS Services
 
-- AWS Services can be categorized s follow;
+- AWS Services can be categorized in the following primary services;
 	- AWS Security & Identity Service
 	- AWS Networking Services
 	- AWS Compute Services

@@ -1,4 +1,9 @@
-* **AWS**	Amazon Web Services
+# Addiotional Sources
+* [Source](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+
+# List
+
+* **AWS** Amazon Web Services
 * **Amazon ES**	Amazon Elasticsearch Service
 * **AMI**	Amazon Machine Image
 * **API**	Application Programming Interface
@@ -13,10 +18,10 @@
 * **CLI**	Command Line Interface
 * **CIDR**	 Classless Inter-Domain Routing
 * **CORS**	 Cross Origin Resource Sharing
-* **CI/CD**	Continous Integration/Continous Deployment
+* **CI/CD**	Continuous Integration/Continuous Deployment
 * **DMS**	Database Migration Service
 * **DNS**	Domain Name System
-* **DDoS**	Distritubed Denial of Service
+* **DDoS**	Distributed Denial of Service
 * **DoS**	Denial of Service
 * **DaaS**	Desktop as-a-Service
 * **EC2**	Elastic Compute Cloud
@@ -94,5 +99,5 @@
 * **VPN**	Virtual Private Network
 * **VLAN**	Virtual Local Area Network
 * **VDI**	Virtual Desktop Infrastructure
-* **VPG**	Virtual Private Gatewa
+* **VPG**	Virtual Private Gateway
 * **WAF**	Web Application Firewall
