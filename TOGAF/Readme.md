@@ -7,3 +7,9 @@
 * [Simple Description](https://setandbma.wordpress.com/2011/01/25/what-is-togaf-without-jargon/)
 * [Articke](https://www.developer.com/java/ent/article.php/3374171/TOGAF-Establishing-Itself-As-the-Definitive-Method-for-Building-Enterprise-Architectures-in-the-Commercial-World.htm)
 * [TOGAF Summary](http://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
+* [Togaf](https://github.com/pankajchopra/togaf)
+* [TOGAF Blog](http://togaf9certprep.blogspot.com/)
+* [TOGAF](https://www.visual-paradigm.com/guide/togaf/what-is-togaf/)
+* [TOGAF](https://www.visual-paradigm.com/tutorials/togaf-adm-tool-for-enterprise-architecture.jsp)
+* [TOGAF](https://www.visual-paradigm.com/features/togaf-adm-tools/)
+* 
