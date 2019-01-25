@@ -8,6 +8,7 @@
 # What is ITIL
 
 There are 5 stages of ITIL lifecycle:
+
 * Service Strategy,
 * Service Design,
 * Service Transition,
