@@ -5,6 +5,8 @@
 - [AWS 10 Minutes Tutorial](https://aws.amazon.com/getting-started/tutorials/)
 - [AWS Simple tutorials](https://aws.amazon.com/getting-started/)
 - [AWS documentation](https://aws.amazon.com/documentation/)
+* [AWS FAQ](https://aws.amazon.com/faqs/?nc1=f_dr)
+* [AWS Technologies](https://www.youtube.com/user/AWSwebinars/playlists)
 
 # AWS Short History
 
@@ -44,13 +46,17 @@ The followings are AWS categories of services;
 # AWS Global Infrastructure
 
 * **Region** : Is a geographic Area (e.g. London, N. VA, etc.)
+
 * **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across multiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity.
 each availability zone is a data center within a Region that is a distance apart from other AZ's to protect and provide a better availability in case of a natural or other types of disaster.  
-* **Edge Locations** : endpoint for AWS which are used for caching contents. Typically this is consists of **CloudFront** which is part of AWS Content Delivery Network (CDN).   
+
+* **Edge Locations** : endpoint for AWS which are used for caching contents. Typically this is consists of
+
+**CloudFront** which is part of AWS Content Delivery Network (CDN).   
 
 ## Region ##
 
-Currently AWS has (As of 2018);
+Currently AWS has (As of 2018) This numbers are increasing rapidly;
 
 * 16 Regions  
 * 44 Availability Zones (A.K.A) AZ these numbers are increasing rapidly.
@@ -71,7 +77,7 @@ As default your data is always stays in same region that you store it
 you can do cross-region copy, etc.
 
 
-## Edge Location ##
+## Edge Location
 
 CDN (End Point for CloudFront) CDN = Conntent Delivery Networks
 Edge locations are not Availability zones
@@ -82,26 +88,35 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 ## Network and CDN ##
 
-upto 5 VPC per Region
-VPC can  be peered as log as the CIDR is not overlaps
-VPC can not be cross region
-VPC can not be peered cross region
+* upto 5 VPC per Region
+* VPC can  be peered as log as the CIDR is not overlaps
+* VPC can not be cross region
+* VPC can not be peered cross region
 
 ## Compute Services
 
 * EC2 Elastic Computer Cloud Virtual Machine or **Optional** Dedicated Machine
+
 * EC2 Container Service (for Docker)
+
 * Elastic Beanstalk (for new developers) upload the code and It will provision resources like AutoScaling groups, Loadbalancers, etc.
+
 * Lambda Event bases, Serverless an event initiates execution of code, similar to function calls.
+
 * Lightsail Preinstalled SaaS (Wordpress, LAMP_Stack, etc.) or Linux Platforms. Provision a server, with a fix IP, you can do RDP and SSH to the server.
+
 * Batch used for batch computing.
 
-## Services Services
+## Storage Services
 
 * **Simple Storage Services (S3)** is an object based storage. Files are stored in buckets (File directory)
+
 * **Elastic File System (EFS)** network attached file system, it can be attached to multiple machines.  
+
 * **Glacier** is used for file archiving services
+
 * **Snowball** temporary file storage to upload the files into Amazon.
+
 * **Storage Gateway** are virtual machines installed in the Client's site or data Centers and they replicate the data to AWS's S3.      
 
 ## Database Services
@@ -110,47 +125,66 @@ VPC can not be peered cross region
 	* MySQL
 	* MS SQL Server
 	* PostgreSQL
-	* Aurora (aws MySQL)
+	* Aurora (AWS version of MySQL)
 	* Oracle
 	* MariaDB
+
 * DynamoDB (Disk based NoSql Database) very similar to MongoDB
+
 * Elasticache (in memory NoSql Database)
+
 * Red Shift (Data warehousing) for Business Intelligence
 
 ## Migration Services
 
 * AWS Migration Hub Tracking Service,
+
 * Application Discovery Services : Automated Tools to identify the dependencies for applications.
+
 * Database Migration Services Migrate data from on-premise to AWS.
+
 * Server Migration Service: Visual Migration tracking system
+
 * Snowball Migration of very large data
-
-
 
 ## Network & content Delivery
 
 * Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, Accesss Control Lists (ACL), route tables, etc.
+
 * CloudFront is a AWS content deliver network.
+
 * Route53 : is the AWS Domain Name Services (DNS).
+
 * API Gateway: creating API for other services
+
 * Direct Connect: Dedicated line from Clients Data Center to a VPC.  
 
 ## Developers Tools
 
 * CodeStar; part of CI/CD and Code colaboration
+
 * CodeCommit : source code repository, source code controll system
+
 * CodeBuild : build tool
+
 * CodeDeploy : Automate application deployment to AWS EC2, Lambda and Client's Data-center.
+
 * CodePipeline : Continious delivery system Visualize Code deployment
+
 * XRay: debug and analyze servless codes.
+
 * Cloud9 is an IDE to develop code for AWS console.
 
 ## Management Tools
 
 * CloudWatch : Monitoring tool major part of Sysops Admin exam
+
 * CloudFormation : Script the infrastructure for deploy or redeploy the infrastructure  
+
 * CloudTrail : Logging any changes, it is turned on by default. The data is stored for a week,
+
 * Config Monitors the configuration of entire AWS system.
+
 * OpsWorks Chef and puppet automate creation of the AWS infrastructure.
 * Service Catalog IT Services catalog, governance and compliance
 * Systems Manager : Interface for managing resources.
@@ -301,7 +335,7 @@ IAM Characteristics
 
 
 
-### Multifactor Authantication ###
+### Multifactor Authentication
 
 Two types;
 
@@ -313,9 +347,9 @@ Access type:
 * Console uses user Id and password
 * Programmatic Access (AWS API) Uses **access key** and **secret access key** generated at the time of the user creation time. If the user loose this information they need to be regenerated again. No way to retrieve the original **secret access key** again.  
 
-Two method of connection to AWS
+* Two method of connection to AWS
 	User Id and password
-		Console requirs user ID and password
+		Console requires user ID and password
 			you can not use your Access Key ID and secret access key to access the console
 		Allows loging to the console
 		you can not use User Id and password for API, ssh login or CLI
@@ -329,7 +363,7 @@ Multi-Factor Authentication is Something you know and something you have
 	1- Virtual/Soft Token (software on your device)
 	2- Physical/Hardware Token (Token generator) Order from AWS
 IAM is universal (not depend on a region), and not bound to a region (users are per account and not region)
-	All rolles created under IAM are global
+	All roles created under IAM are global
 Power User Policy vs. Admin User, Admin user has same power as AWS root User, Power User can do anything but create users and accounts
 Enables to control who can do what with your AWS Account
 Shared Access to your AWS account, create various users
@@ -396,10 +430,10 @@ Part of cost control
 
 ## Management Tools ##
 
-Cloud Watch
-Cloud Formation
-OpsWorks
-Config
+* Cloud Watch
+* Cloud Formation
+* OpsWorks
+* Config
 	Monitors your environement configuration, you can set alerts for when a configuration is changed against the policies you have set to send notifications
 Trusted Advisor
 	scans your environement for and provides a series of advises to improve you environement (security, performance, connectivity, cost optimization, etc.)
@@ -408,58 +442,45 @@ Service Catalog
 
 ## Application Services ##
 
-Step Functions
-	Visualizing what is going on your application (debuger I assume)
-SWF (Simple Workflow Services) Workflow system
-	cordinating tasks
-API Gateway
-	API to access backend data, like lambda.
-AppStream
-	Stream Desktop Applications to users
-Elastic Transcoders
-	Changes video formates
+* **Step Functions**; Visualizing what is going on your application (debuger I assume)
+* **SWF (Simple Workflow Services) Workflow system**; cordinating tasks
+* **API Gateway**; API to access backend data, like lambda.
+* **AppStream** ; Stream Desktop Applications to users
+* **Elastic Transcoders**; Changes video formates
 
 ## Developer Tools ##
 
-Code Commite
-	it is GitHub
-Code Build
-	Compile the code Pay by minutes
-Code CDeploy
-	Deployment services
-Code Pipeline
-	Deploy code to varios environements
+* **Code Commite** ; it is GitHub
+* **Code Build** ; Compile the code Pay by minutes
+* **Code CDeploy** ; Deployment services
+* **Code Pipeline** ; Deploy code to varios environements
 
 ## Mobile Services ##
 
-- **Mobile Hub** : Content Delivery for mobile apps, user authentication database access, etc. It is the console for Mobile Apps
-- **Cognito** : Sing-In utility	(oauth2) signup and signin
-- **Device Farm** : testing environement for mobile apps, farms of varous devicces
-- **Mobile Analytics** : collect and use app-usage data
-- PinPoint
-- 	similar google Analytics (user behaviour) for mobile (where they are, what they do, etc.)
+* **Mobile Hub** : Content Delivery for mobile apps, user authentication database access, etc. It is the console for Mobile Apps
+* **Cognito** : Sing-In utility	(oauth2) signup and signin
+* **Device Farm** : testing environement for mobile apps, farms of varous devicces
+* **Mobile Analytics** : collect and use app-usage data
+* **PinPoint** : similar google Analytics (user behaviour) for mobile (where they are, what they do, etc.)
 
-## Business Productivty ##
+## Business Productivity
 
-WorkDocs
-	Securitly stores the documents
-WorkMail
-	send and recieve eamils and calandar services
+* **WorkDocs** : Security stores the documents
+* **WorkMail** : Send and receive emails and calendar services
 
 ## Internet of Things ##
 
-IoT
+## IoT
 
 ## Desktop and App Streaming ##
 
-WorkSpaces
-	Virtual Desktop
-AppStream 2.0
-	AppStream 1.0 is retired
+* **WorkSpaces** : Virtual Desktop
+* **AppStream 2.0** : AppStream 1.0 is retired
 
-Artificial Intelligence
+## Artificial Intelligence
 
-(Ilan Musk SuperIntelligence)
+(Ilan Musk SuperIntelligence is scared of AI)
+
 Alexa (Voice Service in Cloud)
 	Lex
 Polly
@@ -467,16 +488,18 @@ Polly
 Machine Learning
 	give data set and outcomes, and you predict the outcome based on the given case.
 Rekognition
-	reads images and recognizes various Objects (object name with % of recogintion)
+	reads images and recognizes various Objects (object name with % of recognition)
 	Facial Recognitions
 
-Messaging
+## Messaging
 
-* **SQS** Simple Queue Services, decoupling components
-* **SNS** Simple Notification Services (email, text, etc.)
-* **SES** Simple Email Services
+* **SQS** : Simple Queue Services, decoupling components
+* **SNS** : Simple Notification Services (email, text, etc.)
+* **SES** : Simple Email Services
 
+----------------
 ### EC2
+
 EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instance is charged per hour with different rates depending on the type of the virtual server. These EC2 types are optimized based on the business needs.
 
 [Good Tuotiral](https://www.guru99.com/aws-tutorial.html)
@@ -494,7 +517,7 @@ EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instanc
 - Stop (stops the operating system it can be restarted) Vs. Terminate (Terminates and deletes the Virtual Machine it can not be restarted)
 - 	you have terminate protection (check box) when creating instance
 - you can not stop an instance with the Instance Store only reboot/terminate.
-- 	when you reboot you wil lose all the data on ephameral storage
+- 	when you reboot you will lose all the data on ephameral storage
 - You can not change the roles after it is assigned
 - 	You can change the permissions on the role that is currently assigned to the EC2
 - To Create Key Pair
@@ -506,6 +529,7 @@ EC2 is a virtual server. EC2 stands for elastic Compute Cloud (EC2). The instanc
 - 		1Choose an existng key pair
 - 		2Create a new Key pair
 - 		3Proceed without a key Pair
+
 - Cloud Watch resources for EC2 to monitor:
 - 	CPU
 - 	Network
@@ -811,12 +835,12 @@ it uses the Docker
 - Cross Region Replication, you must have versioning enabled for this
 - you can run CloudWatch to monitor and set alarms to get notifications, by buckets or tags.
 
-Glacier
+## Glacier
 
-Data Archiviing
-Write-Once read-never
-3-5 hours to retrive
-very cheap
+* Data Archiviing
+* Write-Once read-never
+* 3-5 hours to retrive
+* very cheap
 
 EFS
 
@@ -1156,7 +1180,7 @@ Claimed to be 10 faster than other Dataware housing Engines
 data is compressed to optimize storage utilization
 It uses only columns and no tables
 No Indexing, No views,
-Advanced Comppressions for a specific data types
+Advanced Compressions for a specific data types
 Provides Encyrption for data in Transit
 1-128 Nodes you are not charged for leader node only for compute nodes
 Two Components:
@@ -1192,23 +1216,23 @@ allow you create private hosted zone, this is to allow you assign arbitrarry TLD
 Zone Apex record (AKA naked domain name) is the TLD without the WWW
 it is a managed service, across all region, global.
 After creating Hosted Zone, it may take 48 hours to take effect (DNS Cached)
-%100 Avaiablity, use over 50 locations
-It strickty deals with IPV4 (2017 supports IPV6) some resources support IPV6 but it is not fully implemented yet
+%100 Availability, use over 50 locations
+It strictly deals with IPV4 (2017 supports IPV6) some resources support IPV6 but it is not fully implemented yet
 Access Route53
 	SDK,CLI, API, AWS tools, Console, Third Party Tools
 Create DNS Entries:
 	1- Create Domain Name
 		if you use AWS to buy the domain this is done for you,
 		otherwise:
-		Console-->Route53-->HostedZone-->Create Hosted Zone and provide the followings:
+		Console-->Route53--> HostedZone -->Create Hosted Zone and provide the followings:
 			1- Domain Name
 			2- Comments
 			3- type (drop down) select public hosted Zone
 		are created for you are: NS(Name Servers), SOA records
 	2- Create Hosted Zone
 	3- Create records in Hosted Zone
-	4- Deligate to Route53 (Update the Registrar with Server IP) if you buy the Name from amazone this part is done for you
-	you can have wild card *.example.com (anything else)
+	4- Deligate to Route53 (Update the Registrar with Server IP) if you buy the Name from Amazone this part is done for you
+	you can have wild card `*.example.com` (anything else)
 	Create Record;
 		domain,
 		Record Type
@@ -1531,7 +1555,7 @@ VPC allows:
 				it resolves to public IP when outside and Private IP when inside the VPC
 		DNS hostname: when lunch instance in the VPC , AWS assign public and private hostname that the above DNS capability is performed
 
-RouteTable
+## RouteTable
 	the default allows all components in the vpc can talk to each others and package stays local
 	Default Route Table
 	All routeTables have rules
@@ -1543,7 +1567,8 @@ RouteTable
 	Route # with are applied in the order they are specified
 	Rules are applied from more specific to more generic
 		(e.g. 0.0.0.0/0 is excuted the last)
-Internaet Gateway
+
+## Internaet Gateway
 	it is a resource and it is attached to VPC to allow trafic outside the VPC
 you can control the incomming trafics with two diff resources:
 	1- ACL (NACL)
@@ -1721,14 +1746,14 @@ three types:
 	1- Snowball
 		Only Storage no compute capability
 		Peta-byte data transport secure appliance 1/5 of cost
-		50TB is starting and 80 TB max-size 256-AES encrypption
+		50TB is starting and 80 TB max-size 256-AES encryption
 		After trransfer is complete the data is deleted
 	2- SnowEdge
 		100 TB, onboard storage and compute capability
 		They can be clustered
 	3- Snowmobile
 		Peta-byte/Exa-Byte of data capacity mobile/Truck
-		Secure/fast / cost efective
+		Secure/fast / cost effective
 
 Import/Export
 External Hard disk that copied the data into it and AWS coopied it to S3
@@ -1839,7 +1864,7 @@ Best practice use roles instead of passing Access Credentials for an instance
 
 ### General Best practices: ###
 
-Always user DNS Names instead of IP, this can be intetnal or External IP or DNS Names.
+Always user DNS Names instead of IP, this can be internal or External IP or DNS Names.
 this is applicable to EC2's, Loadbalancers
 
 ### Transfer Acceleration: ###
@@ -1867,9 +1892,9 @@ Distributed, with high availability
 Decouple the systems
 Throtle the systems, or buffer across system's components
 Messages can be upto 256 chunks KB  1 to 10
-SQS garantees deliver of each message at least once
+SQS guarantees deliver of each message at least once
 SQS supports multiple reader and writer at once
-SQS does not garantee first-in first-out, the message ordering ccan be done manually by adding sequence number
+SQS does not guarantee first-in first-out, the message ordering ccan be done manually by adding sequence number
 Pricing:
 	First 1 Million free / month
 	$0.50 for each additional Million queue / month
@@ -1879,10 +1904,10 @@ PIOPS is same as IOPS
 PIOPS = provisioned IO Per Seconds
 IOPS= IO per Seconds
 Consolidated Billing Account:
-An account that has no authoricty over the other AWS account by it is provide a means to pay mulitple accounts to
+An account that has no authority over the other AWS account by it is provide a means to pay mulitple accounts to
 	get a single bill and trackall charges in a single bill
-you can link upto 20 AWS accounts to a Single Consilidated Billing Account
-provide a volume discount accross all account
+you can link up to 20 AWS accounts to a Single Consolidated Billing Account
+provide a volume discount across all account
 Billing Alert:
 Alerts that are activated when the bill exceeds certain amount
 TAGS:
@@ -1903,7 +1928,7 @@ AWS offers Enterprise, Business and Developers support
 
 there are 4 pillars:
 1. Security
-1. Relaiability (See Service Limits)
+1. Reliability (See Service Limits)
 1. Performance Efficiency
 1. Cost Optimization
 1. Optimizing Over Time
@@ -1915,15 +1940,15 @@ Is a configuration of AutoScaling which instance to be removed first
 
 ### Elastic Load Balancer (ELB) ###
 
-they do not have public Ip address only DNS Name
+they do not have public IP address only DNS Name
 
 ### AWS Command Line Interface
 
 ## Question ##
 
-1. Eastic Beanstalk vs. CloudFormation
+1. Elastic Beanstalk vs. CloudFormation
 1. Difference between NAT Instance and Bastian Server
-1. Main diffrence of EBS and S3
+1. Main difference of EBS and S3
 1. S3 is Object Based EBS is bock based
 1. S3 is an Web Based Object Store
 1. What is ENI, Elastic Network Interface
