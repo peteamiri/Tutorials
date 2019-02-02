@@ -1,3 +1,8 @@
+## Resources
+
+* [Summary of Services](https://www.youtube.com/watch?v=TkT4iFRkaZk)
+* [AWS Certification)(https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
+
 ## Region ##
 
 AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster.
@@ -374,17 +379,20 @@ Instance purchasing Options:
 Accessing Metadata
 	curl http://169.254.169.254/latest/meta-data
 
-For EC2 to connect to Internet you must have the followings:
+### For EC2 to connect to Internet you must have the followings:
 	1- VPC must have Internet Gateway attached to VPC
 	2- The Subnet with EC2 must be point to the Internate Gateway via the router
 	3- the Instance must have public IP or Elastic IP
 	4- The ACL and security Group must allow trafic to and from Inernet
-5 ways to manage resources
-	AWS CLI
-	AWS Tools for Windows PowerShell
-	AWS Consol
-	AWS API
-	AWS SDK
+
+### 5 ways to manage resources
+
+- AWS CLI
+- AWS Tools for Windows PowerShell
+- AWS Consol
+- AWS API
+- AWS SDK
+
 to login to the EC2 using SSH use "ec2-user" as the user name
 System Status Check Vs. Instance Status Check Under the Status Check Tab for EC2
 	System Status indicates that the Hypervisor and the infrustrucutre is working properly
@@ -653,12 +661,13 @@ To create snapshot of Volume, select the volumen-->action-->creat snapshot provi
 
 ## Storage Gateway
 
-Means to connect on-premise to AWS/S3 it is a virtual machine image running on VM on-premise
-the VM is VMwaure ESXi or Microsoft HyperV
+* Means to connect on-premise to AWS/S3 it is a virtual machine image running on VM on-premise
+* the VM is VMwaure ESXi or Microsoft HyperV
 can connect via dirct connect or AWS VPC (VPN) EC2 (need more inforramtion)
-It is a virtual appliance and it replicate the data from your datacenter into S3 and possibly Galcier
-it  can be downloaded and it runs on VMWare ESXi or MicroSoft Hyper-V
-four types of Storage Gateways:
+* It is a virtual appliance and it replicate the data from your datacenter into S3 and possibly Galcier
+* it  can be downloaded and it runs on VMWare ESXi or MicroSoft Hyper-V
+
+### four types of Storage Gateways:
 	1- File Gateway (it uses NFS) Flat files in S3
 		you can use bucket polices after the upload
 		connections across the sites can be provided by
@@ -1095,7 +1104,16 @@ you can run the code using
 	AWS SDK
 	AWS Gateway API
 	Invoked by an Event (need to findout more)
-Lightsail
+#### Resoourcs
+
+* [Reinvent](https://www.youtube.com/watch?v=WbHw14hF7lU)
+* [Reinvent](https://www.youtube.com/watch?v=Xi_WrinvTnM)
+* [Reinvent](https://www.youtube.com/watch?v=QdzV04T_kec)
+* [Lambda with Example](https://www.youtube.com/watch?v=xyHi1hR-UzA)
+* [Lambda](https://www.youtube.com/watch?v=fSUEk6iMW88&list=PLzvRQMJ9HDiSQMe68cti8cupI0mzLk1Gc)
+
+
+### Lightsail
 Web Application Servers:
 	Wordpress
 	Jumla
@@ -1756,4 +1774,6 @@ they do not have public Ip address only DNS Name
 
 5- S3 is an Web Based Object Store
 
-6- What is ENI, Elastic Network Interface
+6- What is ENI, Elastic Network Interface 
+
+* [More details](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html)
