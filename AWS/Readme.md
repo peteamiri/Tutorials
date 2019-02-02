@@ -1,11 +1,12 @@
 ## Region ##
-AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster. 
 
-These AZ with in each Region are connected with high speed network. 
+AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster.
+
+* These AZ with in each Region are connected with high speed network.
 
 ## Availability Zones ##
 
-As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of independent "DataCenters" (for DR reason).
+As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of **independent "Data Centers"** (for DR reason).
 
 They have low latency Network Infrastructure within a region across the AZ's
 
@@ -20,106 +21,121 @@ you can do cross-region copy, etc.
 
 ## Edge Location ##
 
-CDN (End Point for CloudFront) CDN = Conntent Delivery Networks
-Edge locations are not Availability zones
-CDN is content caching
-CDN caches the static data on S3 to provide low latency access to the data on varius Regions
-CDN also can be used for faster file upload (using CloudFront/edgelocation for file upload)
-66 Edge Location
+* CDN (End Point for CloudFront) CDN = Conntent Delivery Networks
+* Edge locations are not Availability zones
+* CDN is content caching
+* CDN caches the static data on S3 to provide low latency access to the data on varius Regions
+* CDN also can be used for faster file upload (using CloudFront/Edgelocation for file upload)
+* 66 Edge Location
 
 ## Network and CDN ##
 
-upto 5 VPC per Region
-VPC can  be peered as log as the CIDR is not overlaps
-VPC can not be cross region
-VPC can not be peered cross region
+* Upto 5 VPC per Region
+* VPC can  be peered as log as the CIDR is not overlaps
+* VPC can not be cross region
+* VPC can not be peered cross region
 
 ## Route53 ##
-	Register Domain Name
-	There is a soft 50 domin name limit, this limit can be changed by AWS Support
-	53 is the DNS Port
+
+* Register Domain Name
+* There is a soft 50 domin name limit, this limit can be changed by AWS Support
+* 53 is the DNS Port
 
 ## CloudFront ##
 
-	is the interface to CDN
-Direct Connect
-	Dedicated line to AWS (Reliable private network, Security)
-	Hardeware VPN
-		it is a fullly managed and highly available service
-		End-point on AWS is "Virtual Private Gateway"
-		End-point on Customer Site "Customer Gateway"
-		create 2 tunnels (resiliance) each tunnel is terminated in Different AZ's
-		Standard IP-Sec Tunnels, Supports AES-256, SHA-2 encryption
-		Charges $0.05 / hr / VPN Connections (For the two tunnels)
+* Is the interface to CDN
 
-## Security & Identity Management (IAM) ##
+## Direct Connect
 
-	Centrilized control of your AWS account
-	IAM is not bound to a region, it is universal
-	IAM is fully intergated with many of AWS services
-	Two methood of connection to AWS
-		User Id and password
-			Console requirs user ID and password
-				you can not use your Access Key ID and secret access key to access the console
-			Allows loging to the console
-			you can not use User Id and password for API, ssh login or CLI
-		Access Key ID and Secret Access Key
-			Allows programitical access
-			API,SDK, CLI require access keys (Access Key Id and Secret Access Key)
-			you can not use this for console login
-	Multi Factor Authantication is Something you know and something you have
-		you know the password and user id and code from the token, you need to have one of the followings;
-		1- Virtual/Soft Token (software on your device)
-		2- Physical/Hardware Token (Token generator) Order from AWS
-	IAM is universal (not depend on a region), and not bound to a region (users are per account and not region)
-	Power User Policy vs. Admin User, Admin user has same power as AWS root User, Power User can do anything but create users and accounts
-	Enables to control who can do what with your AWS Account
-	Shared Access to your AWS account, create various users
-	Granular Permissions /Fine Grained
-	Identify Federation (Active Directory, Facebook, Linkedin, Gmail) SSO
-	Multifactor Authentication
-	Temprorary security credentials: Allows temprotary and short term access for various users or devices
-	Password Rotation Policy
-		Select password change period
-		How many previous password can not be used
-		Lenght of password
-		Mixture of letters
-	PCI/DSS Support (Credit Card Processing)
-	Two types of user credential,
-		1- Console Users Password Authentication
-		2- CLI, API, SDK need access key ID and secret Key
-		need to create groups (optional) and attach policies to either groupp or users.
-		if you loose these credential you need to delete the user and then add it again
-	Credential Report provides list of active users, when they used their credentials, when they retated their credentials.
-		Console-->IAM --> Credential Report
-	Password Policies:
-		Console-->IAM--> Account Setting
-	Secured by default:
-		as default users/resources can not access anything
-	There are two kind of plicies:
-		1- Inline Policies
-		2- Attached Policies
-	As best practices:
-		Grant least privilage, easier to add more
-		Each user must have his/her own credential (Do not share)
-		Credential rotation policy
-			Create strong password policy
-		Use groups vs. users for permission settings
-		Enable CloudTrail
-		Retate Credentials
-			rotate access keys often
-		Use MFA for privilaged access
-		Do NOT USE AWS ROOT
-	terms:
-		User: apply policy
-		Group (group of users to apply a policy to)
-		Roles (allow a resource access to other resources)
-		Policies JSON document, it is a Key value pair
-			JSON documents
-Inspector
-Certificate Manager
-Directory Service
-WAF (Web Application Firewall)
+* Dedicated line to AWS (Reliable private network, Security)
+* Hardeware VPN
+* it is a fullly managed and highly available service
+* End-point on AWS is "Virtual Private Gateway"
+* End-point on Customer Site "Customer Gateway"
+* create 2 tunnels (resiliance) each tunnel is terminated in Different AZ's
+* Standard IP-Sec Tunnels, Supports AES-256, SHA-2 encryption
+* Charges $0.05 / hr / VPN Connections (For the two tunnels)
+
+## AWS DirectConnect
+
+* [Reinvent](https://www.youtube.com/watch?v=DXFooR95BYc)
+
+## Security & Identity Management (IAM)
+
+- Centrilized control of your AWS account
+- IAM is not bound to a region, it is universal
+- IAM is fully intergated with many of AWS services
+- Two methood of connection to AWS
+- 	User Id and password
+- 	Console requirs user ID and password
+- 	you can not use your Access Key ID and secret access key to access the console
+- 	Allows loging to the console
+- 	you can not use User Id and password for API, ssh login or CLI
+- 	Access Key ID and Secret Access Key
+- 	Allows programitical access
+- 	API,SDK, CLI require access keys (Access Key Id and Secret Access Key)
+- 		you can not use this for console login
+- 	Multi Factor Authantication is Something you know and something you have
+- 		you know the password and user id and code from the token, you need to have one of the followings;
+- 		1Virtual/Soft Token (software on your device)
+- 		2Physical/Hardware Token (Token generator) Order from AWS
+- 	IAM is universal (not depend on a region), and not bound to a region (users are per account and not region)
+- 	Power User Policy vs. Admin User, Admin user has same power as AWS root User, Power User can do anything but create users and accounts
+- 	Enables to control who can do what with your AWS Account
+- 	Shared Access to your AWS account, create various users
+- 	Granular Permissions /Fine Grained
+- 	Identify Federation (Active Directory, Facebook, Linkedin, Gmail) SSO
+- 	Multifactor Authentication
+- 	Temprorary security credentials: Allows temprotary and short term access for various users or devices
+- 	Password Rotation Policy
+- 		Select password change period
+- 		How many previous password can not be used
+- 		Lenght of password
+- 		Mixture of letters
+- 	PCI/DSS Support (Credit Card Processing)
+- 	Two types of user credential,
+- 		1Console Users Password Authentication
+- 		2CLI, API, SDK need access key ID and secret Key
+- 		need to create groups (optional) and attach policies to either groupp or users.
+- 		if you loose these credential you need to delete the user and then add it again
+- 	Credential Report provides list of active users, when they used their credentials, when they retated their credentials.
+- 		Console-->IAM --> Credential Report
+- 	Password Policies:
+- 		Console-->IAM--> Account Setting
+- 	Secured by default:
+- 		as default users/resources can not access anything
+- 	There are two kind of plicies:
+- 		1Inline Policies
+- 		2Attached Policies
+- 	As best practices:
+- 		Grant least privilage, easier to add more
+- 		Each user must have his/her own credential (Do not share)
+- 		Credential rotation policy
+- 			Create strong password policy
+- 		Use groups vs. users for permission settings
+- 		Enable CloudTrail
+- 		Retate Credentials
+- 			rotate access keys often
+- 		Use MFA for privilaged access
+- 		Do NOT USE AWS ROOT
+- terms:
+-  User: apply policy
+-  Group (group of users to apply a policy to)
+-  Roles (allow a resource access to other resources)
+- Policies JSON document, it is a Key value pair
+
+## Inspector
+
+## Certificate Manager
+
+## Directory Service
+
+### Resouorces
+
+* [Reinvent](https://www.youtube.com/watch?v=dyspfGRF9Bw)
+* [Reinvent](https://www.youtube.com/watch?v=lOT3c-FDKqo)
+
+## WAF (Web Application Firewall)
 	protects the application against the commonn exploits
 	Stop SQL Injection, cross site scripting and other types Attacks
 Artifacts
@@ -127,65 +143,67 @@ Artifacts
 
 ## Management Tools ##
 
-Cloud Watch
-Cloud Formation
-OpsWorks
-Config
+* Cloud Watch
+* Cloud Formation
+* OpsWorks
+* Config
 	Monitors your environement configuration, you can set alerts for when a configuration is changed against the policies you have set to send notifications
-Trusted Advisor
+
+* Trusted Advisor
 	scans your environement for and provides a series of advises to improve you environement (security, performance, connectivity, cost optimization, etc.)
-Service Catalog
+
+* Service Catalog
 	Allows to create and manage a catalog of services that are approved for use within your company greared toward the governance and compliance
 
 ## Application Services ##
 
-Step Functions
+* Step Functions
 	Visualizing what is going on your application (debuger I assume)
-SWF (Simple Workflow Services) Workflow system
+* SWF (Simple Workflow Services) Workflow system
 	cordinating tasks
-API Gateway
+* API Gateway
 	API to access backend data, like lambda.
-AppStream
+* AppStream
 	Stream Desktop Applications to users
-Elastic Transcoders
+* Elastic Transcoders
 	Changes video formates
 
-## Developer Tools ##
+## Developer Tools
 
-Code Commite
+* Code Commite
 	it is GitHub
-Code Build
+* Code Build
 	Compile the code Pay by minutes
-Code CDeploy
+* Code CDeploy
 	Deployment services
-Code Pipeline
+* Code Pipeline
 	Deploy code to varios environements
 
-## Mobile Services ##
+## Mobile Services 
 
-Mobile Hub
+* Mobile Hub
 	Content Delivery for mobile apps, user authentication database access, etc. It is the console for Mobile Apps
-Cognito
+* Cognito
 	Sing-In utility	(oauth2) signup and signin
-Device Farm
+* Device Farm
 	testing environement for mobile apps, farms of varous devicces
-Mobile Analytics
+* Mobile Analytics
 	collect and use app-usage data
-PinPoint
+* PinPoint
 	similar google Analytics (user behaviour) for mobile (where they are, what they do, etc.)
 
-## Business Productivty ##
+## Business Productivity
 
 WorkDocs
 	Securitly stores the documents
 WorkMail
 	send and recieve eamils and calandar services
 
-## Internet of Things ##
+## Internet of Things
 
 IoT
 
-## Desktop and App Streaming ##
+## Desktop and App Streaming
 
 WorkSpaces
 	Virtual Desktop
@@ -205,7 +223,7 @@ Rekognition
 	reads images and recognizes various Objects (object name with % of recogintion)
 	Facial Recognitions
 
-Messaging
+## Messaging
 
 SQS
 	Simple Queue Services, decoupling components
@@ -215,9 +233,9 @@ SES
 	Simple Email Services
 
 ### EC2
+
 EC2 is a virtual server. It standss for elastic Compute Cloud (EC2). The instance is charged per hour with different rates depending on the type of the virtual server. These EC2 types are optimized based on the business needs.
 
- 
 
 EBS availability is garanteed %99.95
 AWS recommends to use Roles on EC2 to connect to other resources
@@ -380,17 +398,22 @@ Security Groups are stateful ACL are stateless
 with the Security Group You can only allow trafic in/out. You can not deny anything. Deny is always implicit
 with ACL you can deny or allow, they are executed by rule number, and it is stateless
 
-EC2 Container Services (ECS)
+### Resources
 
-it uses the Docker
+* [Reinvent](https://www.youtube.com/watch?v=of0BECWQfxE)
+* [Reinvent](https://www.youtube.com/watch?v=97Wi7V1wLYA)
 
-S3
+## EC2 Container Services (ECS)
 
-it is object based, it is an internet storage
-Static objects, or web-based file storage
-You can enable MFA for delete at bucket level and object level on S3
-By default all buckets and objects are private
-you can use Multi-Part for lager files to upload
+* it uses the Docker
+
+## S3
+
+- it is object based, it is an internet storage
+- Static objects, or web-based file storage
+- You can enable MFA for delete at bucket level and object level on S3
+- By default all buckets and objects are private
+- you can use Multi-Part for lager files to upload
 	you can resume the upload on errors
 Bucket Name unique Globally, name must be all lowercase, alphanumeric, with dash
 	with Unlimited Storage and objects, objects from 1-5TB size
@@ -551,32 +574,37 @@ you can use CloudTrail to create Audits for objects(new for objects) and buckets
 Cross Region Replication, you must have versioning enabled for this
 you can run CloudWatch to monitor and set alarms to get notifications, by buckets or tags.
 
-Glacier
+### Resources
 
-Data Archiviing
-Write-Once read-never
-3-5 hours to retrive
-very cheap
+* [Reinvent](https://www.youtube.com/watch?v=9_vScxbIQLY)
 
-EFS
+## Glacier
+
+- Data Archiviing
+- Write-Once read-never
+- 3-5 hours to retrive
+- very cheap
+
+
+## EFS
 
 Elastic File Service
 	NFS or shared volume across multiple EC2's
 Similar to EBS, not bootable
 It uses NFS V4
 
-Local Insatnce Storage:
+Local Instance Storage:
 
 temporary block-level storage for Instances. These storage are physically connected to the instances. Greate for temporary storage (Cache, Buffers, temp)
 Emphemeral = transient this information is not saved when the instance is (instance can not be stopped) terminnated.
 	Also the data is lost with disk drive failes.
 
-EBS
+## EBS
 
-Elastic Block Storage
-Volume = Virtual Disk in CLoud
-when terminating the instance by default the EBS is deleted, unless the Delete On Termination is checked off (as default it is checked to allow termination you must uncheck it)
-You can Check, Delete on Termination box when Adding EBS Storage to EC2 instance, this will delets the EBS when EC2 is terminated.
+- Elastic Block Storage
+- Volume = Virtual Disk in CLoud
+- when terminating the instance by default the EBS is deleted, unless the Delete On Termination is checked off (as default it is checked to allow termination you must uncheck it)
+- You can Check, Delete on Termination box when Adding EBS Storage to EC2 instance, this will delets the EBS when EC2 is terminated.
 	default is teminate when EC2 is termindated
 Root Volumen = /dev/xvda
 Other Volumen = /dev/sdb
@@ -615,11 +643,15 @@ To create snapshot of Volume, select the volumen-->action-->creat snapshot provi
 		2- Description
 		3- Encrypted (No/Yes) no option to change it
 
-you can create volume from snapshot,
-you can create snapshot from volume
-you can modify/change volume type when creating volume from snapshot
+- you can create volume from snapshot,
+- you can create snapshot from volume
+- you can modify/change volume type when creating volume from snapshot
 
-Storage Gateway
+### Resources
+
+*[Reinvent](https://www.youtube.com/watch?v=AnLCr99kFcY)
+
+## Storage Gateway
 
 Means to connect on-premise to AWS/S3 it is a virtual machine image running on VM on-premise
 the VM is VMwaure ESXi or Microsoft HyperV
@@ -646,11 +678,11 @@ four types of Storage Gateways:
 			1GB to 32TB
 	3- Tape Gateways (VTL) virtual tapes
 		uses existng tape cartdges. Comppatible with NetBackup, Backup Execm Veam, etc.
-AMI
+## AMI
 
-AMI are regional
-If you want to creat a AMI in another region you must manually copy the AMI
-There are two types of AMI
+- AMI are regional
+- If you want to creat a AMI in another region you must manually copy the AMI
+- There are two types of AMI
 	1- EBS Backed : you can terminate/reboot/stop the instance, you can detach and attache the volume, you can encrypt the volumne, more selction of AMI
 		The AMI is created from EBS SnapShot
 		Faster instance Creation
@@ -740,34 +772,36 @@ Characteristics:
 	5- Cost Effective
 	6- Easy to use
 
-EBS
+## EBS
 
-Reduce Redundancy Storage
-Standard
-Provsioned IOPS
-RRS
-RAID
-SnapShots
-RAID
-RAID is reddundant array of disks
-	RAID 0 -Striped, No Redundancy, Good Performance (Gaming)
-	RAID 1 - Mirrored, Redundancy
-	RAID 5 - 3 Disk or more Good reads, bad writes, AWS does not recommend it
-	RAID 10- Combination of RAID 1 and RAID 0, Striped & Mirrored, Good Reedundancy, Good Performance
-Reommended RAID 0, 10 Avoid RAID 5
-RDS
-While taking backup your Database IO my be suspended
-When delete the database the backups will be removed
-The snapshot remains even after removing the RDS
-You do not have SSH or Root Access to the instances, databases are fully managed bu AWS
-Not all Engines support data encrypption at rest
-You can not encrypt an existing instance, you must create a new instance
-you can copy the snapshots to different regions.
-When Encrypt RDS data at rest, all the followings are encrypted also:
+* Reduce Redundancy Storage
+* Standard
+* Provsioned IOPS
+* RRS
+* RAID
+* SnapShots
+* RAID
+* RAID is reddundant array of disks
+	* RAID 0 -Striped, No Redundancy, Good Performance (Gaming)
+	* RAID 1 Mirrored, Redundancy
+	* RAID 5 3 Disk or more Good reads, bad writes, AWS does not recommend it
+	* RAID 10Combination of RAID 1 and RAID 0, Striped & Mirrored, Good Reedundancy, Good Performance
+* Reommended RAID 0, 10 Avoid RAID 5
+
+## RDS
+
+- While taking backup your Database IO my be suspended
+- When delete the database the backups will be removed
+- The snapshot remains even after removing the RDS
+- You do not have SSH or Root Access to the instances, databases are fully managed bu AWS
+- Not all Engines support data encrypption at rest
+- You can not encrypt an existing instance, you must create a new instance
+- you can copy the snapshots to different regions.
+- When Encrypt RDS data at rest, all the followings are encrypted also:
 	automated backups,
 	read replicas,
 	Snapshots
-Data Encryption at rest is only suppported for, MySQL, Oracle, SQL Server, PostSQL and MariaDB
+* Data Encryption at rest is only suppported for, MySQL, Oracle, SQL Server, PostSQL and MariaDB
 	the Key is stored in KMS,
 Point-in-time recovery, is ability to recover a database from the backup and transaction logs to a given second within a "retention period"
 Retention Period can be between 1-35 days.
@@ -791,16 +825,21 @@ Max Backup retention is 35 days (take backup every 35 days)
 backup windows (define when to take backup)
 maintenance windows:
 Some Database instances you can not increse the size/Resize (SQL Server) you may have to perfrom Capcity planning
-Aurora:
-	is a relational DB, upto 5 times faster than MYSQL,
-	mySQL compatible
-	starts at 10GB and increases in 10GB increments.
-	Max 32 vCPU, and 244 GB Memory
-	2 copies per AZ, with minimum of 3 AZ's (6 copies of your data)
-	Self-Healing: Data blocks are validated in background and fixed constantly
-	Always use the Cluster Connection String to connect, this allows the transparent switch over when primary(write) instance is down)
-	Not available on all Machine Sizes (No T2.macro)
-	you can have 2 types of replica
+
+#### Resources
+
+* [Reinvent](https://www.youtube.com/watch?v=TJxC-B9Q9tQ)
+
+## Aurora:
+- is a relational DB, upto 5 times faster than MYSQL,
+- 	mySQL compatible
+- 	starts at 10GB and increases in 10GB increments.
+- 	Max 32 vCPU, and 244 GB Memory
+- 	2 copies per AZ, with minimum of 3 AZ's (6 copies of your data)
+- 	Self-Healing: Data blocks are validated in background and fixed constantly
+- 	Always use the Cluster Connection String to connect, this allows the transparent switch over when primary(write) instance is down)
+- 	Not available on all Machine Sizes (No T2.macro)
+- 	you can have 2 types of replica
 		Aurora (up to 15)
 		MySQL (upto 5)
 Pricing:
@@ -838,8 +877,15 @@ SimpleDB
 	Multi-AZ
 	Data is automatically Indexed
 	Flexible/Simple
+
+#### Resources
+
+* [Reinvent](https://www.youtube.com/watch?v=DAJhvRMniqo)
+
 ## NOSQL Database vs. RDBSM
+
 The Nosql db has the following advantages;
+
 1- Leanear scaling
 2- No relationship / Siingle table
 3- No fixed Schema
@@ -857,7 +903,8 @@ The Nosql db has the following advantages;
 	Eventuall Consistancy by Default but can be configured to be Stronglly Consistent Read
 		when replicated there could be delay in data changes across 3 data Centers (One Second)
 	You are charged for read, write and storage
-DynamoDB vs. SimpleDB
+
+## DynamoDB vs. SimpleDB
 	SimpleDB is not as scalable as DynamoDB, more complex
 	SimpleDB is simple/Flexible DynamoDB is scalble and Fast with predictable performance
 	DynamoDB can be considered as Successor of SimpleDB
@@ -878,25 +925,31 @@ Pricing of DynamoDB:
 		allocate number of read
 		Allocate number of write
 		and storage ($0.25/GB)
-Analytics:
-RedShift
+
+### Resources 
+
+* [Reinvent](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+
+## Analytics:
+### RedShift
 	Data Warehousing
-Athena
+### Athena
 	Allows to run SQL against the S3, turn flat files to Database
 	usecase: csv files, json files
-EMR (Elastic Map Reduce)
+### EMR (Elastic Map Reduce)
 	Hadoop, Apach Spark, Apach HBase, Presto, Flunk
-CloudSearch
+### CloudSearch
 	Fully Managed search engine
-Elastic Search
+### Elastic Search
 	Open Source Search Engine
-Kinesis
+### Kinesis
 	Streaming and analysing realtime data, capture and store TB of data
 	Data Pipeline
 	Allows you to move data from S3(and other resources) to Datastorage (and other resources)
-Quick Sight
+### Quick Sight
 	Business Analytics tool provides visual dashboard.
-RedShift
+
+### RedShift
 Data Warehousing / OLAP
 It is fully managed, Single AZ installation, Redundancies are manual using spanshots
 Claimed to be 10 faster than other Dataware housing Engines
@@ -929,7 +982,9 @@ two parts:
 	2- Compute Nodes
 		perform all the work
 Uses MPP (Massively Paralell processing)
-Route53
+
+## Route53
+
 you are charged for CNAME, but ARecords are free
 There are max 50 Domain Name , this limit can  be increased by AWS support
 Global Service not by AZ's or region (configuration is not limited to the a region)
@@ -1009,10 +1064,11 @@ you can use SNS for CloudWatch
 you can integrate with AutScaling
 
 
-CloudTrail
+### CloudTrail
+
 Provides loging and auditing.
-CloudFormation
-CloudFomer
+
+### CloudFormation
 	Allows you to create a Template
 Templates
 	Description
@@ -1020,19 +1076,20 @@ Templates
 	Resources
 		Type
 		Properties
-Elstic BeanStock
+
+### Elstic BeanStock
 Provision underlaying resources for application
 BeanStock is a Free, but you pay for the resources that you create (EC2, S3, EBS, etc)
 
-Lambda
-ServerLess
-Upload to code and it is triggered by an event
-It is fully managed, just run the code
-Fully scaleable
-it runs the code in response to an event. It manages all the resources
-Supports Four langugaes: Java, Nodejs (I assume this means JavaScript), Python, and C#
-it is 99.99% availablity (4 nines)
-Chargess are per requests (first 1 Million are free), $0.20 / Million Requests there after
+### Lambda
+- ServerLess
+- Upload to code and it is triggered by an event
+- It is fully managed, just run the code
+- Fully scaleable
+- it runs the code in response to an event. It manages all the resources
+- Supports Four langugaes: Java, Nodejs (I assume this means JavaScript), Python, and C#
+- it is 99.99% availablity (4 nines)
+- Chargess are per requests (first 1 Million are free), $0.20 / Million Requests there after
 	Also duration of execution(rounded up to 100Ms), and memory utilization GB used per seconds after frist 400,000 GB/Seconds
 you can run the code using
 	AWS SDK
@@ -1043,11 +1100,11 @@ Web Application Servers:
 	Wordpress
 	Jumla
 Messaging
-SNS
+### SNS
 	Messaging services
-SQS
+### SQS
 	Message Queue system, means to decouple application
-SES
+### SES
 	Simple Email Service
 
 Mobile Hub
@@ -1458,26 +1515,33 @@ Content Delivery Network
 BootStraping
 CIDR
 Bastian HOST
-Snowball
-A storage appliance to move large amount of data to AWS.
-	Import to S3
-	Export from S3
+
+## Snowball
+* A storage appliance to move large amount of data to AWS.
+	* Import to S3
+	* Export from S3
+
 you can restore from Galcier to S3 and then export from S3 to Snowball appliance
 replacement for Import/Export
-three types:
-	1- Snowball
+
+* three types:
+
+1- Snowball
 		Only Storage no compute capability
 		Peta-byte data transport secure appliance 1/5 of cost
 		50TB is starting and 80 TB max-size 256-AES encrypption
 		After trransfer is complete the data is deleted
-	2- SnowEdge
+
+2- SnowEdge
 		100 TB, onboard storage and compute capability
 		They can be clustered
-	3- Snowmobile
+
+3- Snowmobile
 		Peta-byte/Exa-Byte of data capacity mobile/Truck
 		Secure/fast / cost efective
 
-Import/Export
+## Import/Export
+
 External Hard disk that copied the data into it and AWS coopied it to S3
 this is a lagacy, Snowball is replacing this
 DMS
@@ -1572,95 +1636,115 @@ KeyPairs
 	public and private keys to access EC2's
 Login and Password
 	use to access console
-Best practice use roles instead of passing Access Credentials for an instance
-	when usng the AWS CLI from an EC2 you can use either Access Credential or Create a Role for that EC2
-	if you use the Access Credential, it is saved in ~/.aws/credentials file, if anyone acess such information they can
-	control your entire network.
-	if is best to assign a role to the EC2
-	this can be done by assigiing the role at the creation of instance, that allows the access to other components.
-	Roles can not be assigned to an instance after it is created
-	You can not change the roles after it is assigned
-		You can change the permissions on the role
 
+### Best practice use roles instead of passing Access Credentials for an instance
+
+- when usng the AWS CLI from an EC2 you can use either Access Credential or Create a Role for that EC2
+- if you use the Access Credential, it is saved in ~/.aws/credentials file, if anyone acess such information they can
+- control your entire network.
+- if is best to assign a role to the EC2
+- this can be done by assigiing the role at the creation of instance, that allows the access to other components.
+- Roles can not be assigned to an instance after it is created
+- You can not change the roles after it is assigned
+- You can change the permissions on the role
 
 ### General Best practices: ###
 
-Always user DNS Names instead of IP, this can be intetnal or External IP or DNS Names.
-this is applicable to EC2's, Loadbalancers
+* Always user DNS Names instead of IP, this can be intetnal or External IP or DNS Names.
+* this is applicable to EC2's, Loadbalancers
 
 ### Transfer Acceleration: ###
 
-Using the Cloudfront edge locations to upload the file and then to the S3 Buckets
-to accelerate the upload process
-you will get a distinct URL:
-	bucketName.s3-accelerate.amazonaws.com
-it cost more than the S3 upload by in some cases it is faster (not all cases)
-Port Scanning:
-you must apply in advance and get permissions to scan ports, otherwise you are in violation of Acceptable Use Policy.
-Corporate Network is totally sagregated from the AWS reources
-AWS physically destroy the disks at the end of their life to ensure security of data,
+* Using the Cloudfront edge locations to upload the file and then to the S3 Buckets
+* to accelerate the upload process
+* you will get a distinct URL:
+	* bucketName.s3-accelerate.amazonaws.com
+* it cost more than the S3 upload by in some cases it is faster (not all cases)
 
-Health Check:
-Supported protocols are (default is HTTP)
-	TCP/SSL
-	HTTP/HTTPS
-CIDR Notation:
-	Indicates the High Bytes to remain unchange on IP address assignment
+## Port Scanning:
 
-SQS:
-Pull system,
-Distributed, with high availability
-Decouple the systems
-Throtle the systems, or buffer across system's components
-Messages can be upto 256 chunks KB  1 to 10
-SQS garantees deliver of each message at least once
-SQS supports multiple reader and writer at once
-SQS does not garantee first-in first-out, the message ordering ccan be done manually by adding sequence number
-Pricing:
-	First 1 Million free / month
-	$0.50 for each additional Million queue / month
-	Message size is 64Kb
-Terms:
-PIOPS is same as IOPS
-PIOPS = provisioned IO Per Seconds
-IOPS= IO per Seconds
-Consolidated Billing Account:
-An account that has no authoricty over the other AWS account by it is provide a means to pay mulitple accounts to
-	get a single bill and trackall charges in a single bill
-you can link upto 20 AWS accounts to a Single Consilidated Billing Account
-provide a volume discount accross all account
-Billing Alert:
-Alerts that are activated when the bill exceeds certain amount
-TAGS:
-Key Value Pair
-Meta Data
-Can be Inherited
-	Autoscaling, cloudformation Elastic BeanStolk
-Resource Groups:
-Grouping of resources using/share tags
-Active Directory:
-Federated Identity
-SSO using ADFS and SAML
-you login into AD and athenticated at AD and then get SAML
-Support
-AWS offers Enterprise, Business and Developers support
+- you must apply in advance and get permissions to scan ports, otherwise you are in violation of Acceptable Use Policy.
+- Corporate Network is totally segregated from the AWS reources
+- AWS physically destroy the disks at the end of their life to ensure security of data,
+ 
+## Health Check:
 
-### Well Architectured Framework ###
+* Supported protocols are (default is HTTP)
+	* TCP/SSL
+	* HTTP/HTTPS
+
+## CIDR Notation:
+	
+* Indicates the High Bytes to remain unchange on IP address assignment
+
+## SQS:
+
+- Pull system,
+- Distributed, with high availability
+- Decouple the systems
+- Throtle the systems, or buffer across system's components
+- Messages can be upto 256 chunks KB  1 to 10
+- SQS garantees deliver of each message at least once
+- SQS supports multiple reader and writer at once
+- SQS does not garantee first-in first-out, the message ordering ccan be done manually by adding sequence number
+- Pricing:
+	* First 1 Million free / month
+	* $0.50 for each additional Million queue / month
+	* Message size is 64Kb
+
+## Terms:
+
+- PIOPS is same as IOPS
+- PIOPS = provisioned IO Per Seconds
+- IOPS= IO per Seconds
+
+## Consolidated Billing Account:
+- An account that has no authoricty over the other AWS account by it is provide a means to pay mulitple accounts to
+- 	get a single bill and trackall charges in a single bill
+- you can link upto 20 AWS accounts to a Single Consilidated Billing Account
+- provide a volume discount accross all account
+- Billing Alert:
+- Alerts that are activated when the bill exceeds certain amount
+- TAGS:
+- Key Value Pair
+- Meta Data
+- Can be Inherited
+- 	Autoscaling, cloudformation Elastic BeanStolk
+
+## Resource Groups:
+
+- Grouping of resources using/share tags
+- Active Directory:
+- Federated Identity
+- SSO using ADFS and SAML
+- you login into AD and authenticated at AD and then get SAML
+
+## Support
+
+* AWS offers Enterprise, Business and Developers support
+
+## Elastic Loadbalancer
+
+* [Reinvent](https://www.youtube.com/watch?v=9TwkMMogojY)
+
+### Well Architecture Framework
 
 there are 4 pillars:
 1- Security
-2- Relaiability (See Service Limits)
+2- Reliability (See Service Limits)
 3- Performance Efficiency
 4- Cost Optimization
 5- Optimizing Over Time
 
-### Termination Policy: ###
+### Termination Policy
+
 Is a configuration of AutoScaling which instance to be removed first
 
-### Elastic Load Balancer (ELB) ###
+### Elastic Load Balancer (ELB)
+
 they do not have public Ip address only DNS Name
 
-## Question ##
+## Question
 
 1- Eastic Beanstalk vs. CloudFormation
 
