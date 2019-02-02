@@ -2,6 +2,10 @@
 
 * [SalesForce Admin](https://www.youtube.com/watch?v=L93JH9AHeRE)
 * [SalesFroce Starting with VisualForce for Admin](https://www.youtube.com/watch?v=1W_mDfDM2Ak)
+* [SalesForce Udacity 1-2](https://www.youtube.com/watch?v=2a2U2U15l24&list=PL5raE7sV35gNmwJeBdqAHTcq6P_2wNYas)
+* [SalesForce Udacity 3-5](https://www.youtube.com/watch?v=RmGFfrmFF6E&list=PL5raE7sV35gMdYOVveO-AAZ2TUL5BSATX)
+* [SalesForce Udacity](https://www.youtube.com/watch?v=knyuKQ0fass&list=PLAwxTw4SYaPmt1Jiu0laRne1KvM9h-jQo)
+* [SalesForce Training](https://www.youtube.com/watch?v=CiqCfsTrlLA&list=PLV3ll8m0ZlppQBGJUItatmL8HU2UtmByd)
 * [SalesFrce Getting Started](https://www.youtube.com/watch?v=fJFlIqtlscI&t=737s)
 * [SalesForce Admin](https://www.youtube.com/watch?v=MSp61khlP9s&t=4290s)
 * [SalesForce Extending Ojects](https://www.youtube.com/watch?v=ehcXKizoNy0&t=756s)
@@ -21,6 +25,11 @@
 * [SalesForce For Dummies](https://www.youtube.com/watch?v=F22jp1NyfZk)
 * [SalesForce Dashboard and Reports For dummies](https://www.youtube.com/watch?v=7Yo6DwOCW4Y`)
 
+### SalesForce Admin
+
+* [SalesForce Admin](https://www.salesforcetutorial.com/salesforce-admin-certification/)
+* [SalesForce Admin Basics](http://www.salesforceupdates.com/salesforce-basics-pdf/)
+
 ### SalesForce Integration
 
 * [SalesForce Integration](https://www.youtube.com/watch?v=-NLUf7O4NX0)
@@ -29,7 +38,7 @@
 ### SalesForce MuleSoft
 
 * [SalesForce MuleSoft](https://www.youtube.com/watch?v=GUGUO-IUHx8)
-* 
+*
 ### SalesForce Security
 
 * [SalesForce Securrity](https://www.youtube.com/watch?v=c1ccSXlVjXk)
