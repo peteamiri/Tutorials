@@ -10,3 +10,15 @@
 * [Good Resource](http://www.linfo.org/newbies.html)
 * [Good Resource](https://www.computernetworkingnotes.com/)
 * [Good Resource](https://opensource.com/)
+
+## General Resources
+
+* [Good Site](http://www.brendangregg.com/)
+
+## Web Development
+
+* [Web Development](https://developer.mozilla.org/en-US/docs/Learn)
+
+## Development
+
+* [guru99](https://www.guru99.com/)
