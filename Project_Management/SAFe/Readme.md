@@ -14,6 +14,15 @@ Agile development at the team or small organization level has emerged over the l
 * **Safe is about Managing and Delivering Values**
 * **Framework for applying Lean and Agile practices at the enterprise scale**
 
+SAFe leverages three primary bodies of knowledge:
+
+* Agile development,
+* Lean product development and flow,
+* and systems thinking.
+
+## SAFe Layers
+
+
 ## Lean Thinking
 
 * The Goal **Value**
@@ -53,7 +62,7 @@ There are four configurations: essential, portfolio, large solution and full:[27
 * Large Solution SAFe allows for coordination and synchronization across multiple programs, but without the portfolio considerations. In earlier versions of SAFe, this level was referred to as value stream.
 * Full SAFe combines the other three levels.
 
-## Release Train
+## Agile Release Train (ART)
 
 In SAFe terms, the “Release Train” is the team-of-teams, typically 50–125 individuals. Like a real train, the release train runs on a schedule, though that schedule can be as flexible as your organization needs it to be. This Program Increment (PI) is described in more detail below. SAFe suggests that people involved in a release train be dedicated full-time to that release train, regardless of reporting structure.
 
@@ -63,6 +72,13 @@ The release train supports a long-term program that may have many teams and proj
 
 ## Program Increment (PI)
 
+## Events at SAFe
+
+* Product Vision Long-term revised 12+months
+* Product Roadmap 12-18 months revised quarterly
+* Release Planning 3-6 months revised each sprint
+* Sprint Planning Every 2 Weeks
+* Daily Planning Every Day
 
 ## EPIC
 
