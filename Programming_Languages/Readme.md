@@ -9,3 +9,9 @@
 * [Vogella](http://www.vogella.com/tutorials/)
 * [Fincher](http://www.fincher.org/tips/Languages/)
 * [Javatpoint](https://www.javatpoint.com/)
+* [New Boston Code](https://github.com/buckyroberts/Source-Code-from-Tutorials)
+
+
+## Object Oriented Principlas
+
+* [YouTube Video](https://www.youtube.com/watch?v=DdUSzJ8taMs)
