@@ -13,6 +13,7 @@
 * [SQS Tutorial](https://www.youtube.com/watch?v=UesxWuZMZqI)
 * [CloudFormation](https://www.youtube.com/watch?v=t97jZch4lMY)
 * [AWS S2](https://www.youtube.com/watch?v=XGcoeEyt2UM)
+* [AWS Solutions Architect](https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
 
 ## VPC
 * [AWS VPC](https://www.youtube.com/watch?v=fpxDGU2KdkA)
