@@ -13,6 +13,17 @@
 * [SQS Tutorial](https://www.youtube.com/watch?v=UesxWuZMZqI)
 * [CloudFormation](https://www.youtube.com/watch?v=t97jZch4lMY)
 * [AWS S2](https://www.youtube.com/watch?v=XGcoeEyt2UM)
+* [AWS Solutions Architect](https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
+* [Master Classes](https://www.youtube.com/watch?v=zU1x5SfKEzs&list=PL63J1r2PBvog0xRPkwW4zL6ou9XD_uFGu)
+* [Master Classes](https://www.youtube.com/watch?v=Du478i9O_mc&list=PLuI1Y8zL2B-qAAAXQhUm9ttXEz2hNu1gh)
+* [PlayList for SA Cert](https://www.youtube.com/watch?v=KZoTh3hZTyo&list=PL_RVC-cMNyYTz8zlxq117O1bfji-knooI)
+* [Developer Cert](https://www.youtube.com/watch?v=dqj4-pZQzYc&list=PLZ1XLpCapXpgNa2JUNpT2T14NfXXXHohI)
+* [Professional Cert](https://www.youtube.com/watch?v=EidWYzvlbgQ&list=PLWOdWLqFC9RiQs-GT4tkt4GcXeFJfkt20)
+* [Big Data Certification](https://www.youtube.com/watch?v=BCgQ0Ep0zSk&list=PLEF5xKHm-3ZOgLIbiHg9bTq5XIfhJh6Tr)
+* [SysOps Certifications](https://www.youtube.com/watch?v=UFSH-KuDGj8&list=PLTyrc6mz8dg8grU1HEhVw4zoCyvAl5MBO)
+* [AWS Network Specialty](https://www.youtube.com/watch?v=LjeXZItav34&list=PLg4ijto79pc-NEvrVRDGCWX8ACFLG0Ou9)
+* [Devops AWS](https://www.youtube.com/watch?v=dfh--_gXQls&list=PLLsor6GJ_BEEVWzDS3eHLdLkSZsoVnB98)
+* [Custom VPC](https://www.youtube.com/watch?v=XgIZ8asEh-8&list=PLxzKY3wu0_FIg6WAB8zMkgKuaJh28RTaO)
 
 ## VPC
 * [AWS VPC](https://www.youtube.com/watch?v=fpxDGU2KdkA)
@@ -37,7 +48,20 @@
 * [AWS Reinvent](https://www.youtube.com/watch?v=I1SwoKxB13c)
 * [AWS Security](https://www.youtube.com/watch?v=Ne5YIeL_2a0)
 * [AWS Security Groups Best Practices](https://www.youtube.com/watch?v=zU1x5SfKEzs)
+* [Security Cert](https://www.youtube.com/watch?v=aISWoPf_XNE&list=PLNV-8I8TDG4S8L-f6h8TdVuKnSy-T5ia9)
 
 ## CloudWatch (AWS SusOpns)
 
 * [AWS Cloudwatch Reinvenet](https://www.youtube.com/watch?v=9qKryBb7t6s)
+
+# Interview Questions
+
+* [AWS Interview Questions](https://www.youtube.com/watch?v=3t0AP1kO0do)
+
+# Containerizing MicorServices AWS
+
+* [Docker](https://www.youtube.com/watch?v=rcjXQxRgMj0)
+
+# AWF
+
+* [WAF](https://www.youtube.com/watch?v=lU_zPruIL9w)

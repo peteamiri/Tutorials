@@ -29,3 +29,5 @@ Technical debt is commonly associated with extreme programming, especially in th
 * [Good Introduction](https://www.tutorialspoint.com/scrum/)
 * [Scrum Methodology](http://scrummethodology.com/)
 * [Scrum Reference Card](https://www.collab.net/sites/default/files/uploads/CollabNet_scrumreferencecard.pdf)
+* [Youtube Tutorial](https://www.youtube.com/watch?v=GMRGsrfCrJo)
+* [Free Scrum Courses](https://www.scrumstudy.com/freeresources/scrum-free-videos)
