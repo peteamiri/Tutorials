@@ -4,6 +4,8 @@
 * [Training](https://www.scaledagile.com/)
 * [Wiki Definition](https://en.wikipedia.org/wiki/Scaled_agile_framework)
 * [Good Article](https://www.cio.com/article/2936942/enterprise-software/introducing-the-scaled-agile-framework.html)
+* [Safe Walkthrough](https://www.youtube.com/watch?v=5BCGmssAq-4)
+* [Safe Principlas](https://www.youtube.com/watch?v=Rn1DqGi9YJk)
 
 **Agility is about Business Value Increments not development Cycles**
 
