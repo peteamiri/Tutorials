@@ -21,3 +21,5 @@
 * An **incident** is an event that could lead to loss of, or disruption to, an organization's operations, services or functions. Incident is not part of the normal operation
 
 * **Incident management (IcM)** is a term describing the activities of an organization to identify, analyze, and correct hazards to prevent a future re-occurrence. If not managed, an incident can escalate into an emergency, crisis or a disaster. Incident management is therefore the process of limiting the potential disruption caused by such an event, followed by a return to business as usual. Without effective incident management, an incident can disrupt business operations, information security, IT systems, employees, customers, or other vital business functions.
+
+* **Incident response team (IRT) Or incident management team (IMT)** is a team of people that normally deal with incidents. Without effective incident management, an incident can disrupt business operations, information security, IT systems, employees, customers, or other vital business functions.
