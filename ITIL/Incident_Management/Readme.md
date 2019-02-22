@@ -6,6 +6,8 @@
 * [Youtueb Defintions](https://www.youtube.com/watch?v=2gHelVty7xU)
 * [Youtueb KPI](https://www.youtube.com/watch?v=skeZLLfSmQA)
 * [Need to read document](http://taskmap.com/TaskMap%20Templates/ITIL%20Incident%20Management/ITIL%20Incident%20Management%20DOC.htm)
+* [Incident Management](http://www.itsmsolutions.com/newsletters/DITYvol4iss20.htm)
+* [Incident Management](https://advisera.com/20000academy/knowledgebase/itil-incident-management-separate-roles-different-support-levels/)
 
 ## Incident Management Tools
 
