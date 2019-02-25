@@ -8,6 +8,17 @@
 * [Need to read document](http://taskmap.com/TaskMap%20Templates/ITIL%20Incident%20Management/ITIL%20Incident%20Management%20DOC.htm)
 * [Incident Management](http://www.itsmsolutions.com/newsletters/DITYvol4iss20.htm)
 * [Incident Management](https://advisera.com/20000academy/knowledgebase/itil-incident-management-separate-roles-different-support-levels/)
+* [IRS Incident Management Process](https://www.irs.gov/irm/part2/irm_02-148-002)
+* [Good Article](https://www.bmc.com/guides/itil-incident-management.html)
+* [Additional Information](https://incidentmanagementprocess.com/)
+* [More Information](https://www.cherwell.com/library/essential-guides/essential-guide-to-itil-incident-management/)
+* [USPS Incident Management](https://about.usps.com/doing-business/it-policies-standards/incident-management-process.htm)
+
+
+
+# Major Incident Management
+
+* [Major Incident Paper](https://advisera.com/20000academy/knowledgebase/major-incident-management-going-gets-tough/)
 
 ## Incident Management Tools
 
