@@ -21,3 +21,7 @@
 * [Apache Camel](http://kevinboone.net/cameltest.html)
 * [Apache Camel Route](http://kevinboone.net/mavencameltest.html)
 * [Github Cammel Developers Cookbook](https://github.com/CamelCookbook/camel-cookbook-examples)
+
+## Java Tools
+
+* [Github Descriotion of various Tools](https://github.com/shekhargulati/52-technologies-in-2016)
