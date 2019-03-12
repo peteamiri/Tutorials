@@ -20,7 +20,8 @@
 * [Summary](https://www.archimetric.com/what-is-togaf/)
 * [Exam Summary](http://www.enterprise-architecting.com/eaex/togaf.aspx)
 * [Summary](http://www.togaf.com/admref/admreference.html)
+* [Goof Overview](https://www.visual-paradigm.com/guide/togaf/what-is-togaf/)
+* [TOGAF ADM](https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/)
 
 
 # Archimate
-
