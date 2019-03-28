@@ -26,6 +26,15 @@
 * [SalesForce For Dummies](https://www.youtube.com/watch?v=F22jp1NyfZk)
 * [SalesForce Dashboard and Reports For dummies](https://www.youtube.com/watch?v=7Yo6DwOCW4Y`)
 
+* [SalesForce](https://developer.salesforce.com/index.php?title=Requirements_Checklist&oldid=139321) 
+* [SalesForce](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Security_Developer_cheatsheet_web.pdf)
+* [SalesForce](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Security_Admin_cheatsheet_web.pdf)
+* [SalesForce](http://resources.docs.salesforce.com/200/9/en-us/sfdc/pdf/salesforce_security_impl_guide.pdf)
+* [SalesForce](https://developer.salesforce.com/docs/atlas.en-us.secure_coding_guide.meta/secure_coding_guide/secure_coding_guidelines.htm)
+* [SalesForce](https://developer.salesforce.com/events/webinars/secure_development2a?d=7010M000000iXHF)
+* [SalesForce](https://security.secure.force.com/security/tools/webapp/zapbrowsersetup)
+
+
 ### SalesForce Admin
 
 * [SalesForce Admin](https://www.salesforcetutorial.com/salesforce-admin-certification/)

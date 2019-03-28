@@ -23,6 +23,11 @@ Technical debt is commonly associated with extreme programming, especially in th
 
 * Technical debt may also be known as design debt.
 
+## Epic vs. Feature vs. User-Stories
+
+* [Good Source](https://dzone.com/articles/requirements-epic-feature-user-story-task-size-and)
+* [Similar Information](http://mohamedradwan.com/2017/12/05/requirements-epic-feature-user-story-task-size-and-estimation-in-agile-and-scrum/)
+
 ## Resources
 
 * [Agile Manifesto](https://agilemanifesto.org/)
