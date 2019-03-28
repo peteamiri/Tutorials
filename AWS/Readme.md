@@ -3,6 +3,8 @@
 * [Summary of Services](https://www.youtube.com/watch?v=TkT4iFRkaZk)
 * [AWS Certification)(https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
 
+* [AWS Quickstart Sourcecodes](https://github.com/aws-quickstart)
+
 ## Region ##
 
 AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster.
@@ -184,7 +186,7 @@ Artifacts
 * Code Pipeline
 	Deploy code to varios environements
 
-## Mobile Services 
+## Mobile Services
 
 * Mobile Hub
 	Content Delivery for mobile apps, user authentication database access, etc. It is the console for Mobile Apps
@@ -935,7 +937,7 @@ Pricing of DynamoDB:
 		Allocate number of write
 		and storage ($0.25/GB)
 
-### Resources 
+### Resources
 
 * [Reinvent](https://www.youtube.com/watch?v=HaEPXoXVf2k)
 
@@ -1684,7 +1686,7 @@ Login and Password
 - you must apply in advance and get permissions to scan ports, otherwise you are in violation of Acceptable Use Policy.
 - Corporate Network is totally segregated from the AWS reources
 - AWS physically destroy the disks at the end of their life to ensure security of data,
- 
+
 ## Health Check:
 
 * Supported protocols are (default is HTTP)
@@ -1692,7 +1694,7 @@ Login and Password
 	* HTTP/HTTPS
 
 ## CIDR Notation:
-	
+
 * Indicates the High Bytes to remain unchange on IP address assignment
 
 ## SQS:
@@ -1774,6 +1776,6 @@ they do not have public Ip address only DNS Name
 
 5- S3 is an Web Based Object Store
 
-6- What is ENI, Elastic Network Interface 
+6- What is ENI, Elastic Network Interface
 
 * [More details](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html)
