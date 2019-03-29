@@ -9,6 +9,7 @@
 * [Project Portfolio Management](https://en.wikipedia.org/wiki/Project_portfolio_management)
 * [Enterprise LifeCycle](https://en.wikipedia.org/wiki/Enterprise_life_cycle)
 * [Program Management Office](https://en.wikipedia.org/wiki/Project_management_office)
+* [Enterprise Architect](http://bredemeyer.com/pdf_files/Presentations/EnterpriseArchitectureAsCapabilitiesArch.pdf)
 
 ## EAI
 
