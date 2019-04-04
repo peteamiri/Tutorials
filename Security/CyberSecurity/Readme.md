@@ -60,3 +60,7 @@
 * [OWASP Part Two](https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-2-3cdb3bebc976)
 
 ## Injection
+
+## Cache Poisoning
+
+* [Cache Poisonoing](https://portswigger.net/blog/practical-web-cache-poisoning)
