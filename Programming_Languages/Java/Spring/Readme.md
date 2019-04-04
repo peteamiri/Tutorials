@@ -12,3 +12,7 @@
 ## Spring Config
 
 * [Spring Config](https://spring.io/projects/spring-cloud-config)
+
+## Tutorials
+
+* [Rest with Spring](https://github.com/eugenp/tutorials)
