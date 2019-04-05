@@ -7,6 +7,12 @@
 * [Security hacker](https://en.wikipedia.org/wiki/Security_hacker)
 * [Computer Security](https://en.wikipedia.org/wiki/Computer_security)
 
+## Great Resources
+* [Great resources](https://github.com/enaqx/awesome-pentest)
+* [Great resources](https://github.com/jivoi/awesome-osint)
+* [Great resources](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
+* [Great resources](https://github.com/rmusser01/Infosec_Reference)
+
 # Exploits
 
 * [Wiki](https://en.wikipedia.org/wiki/Exploit_(computer_security))
