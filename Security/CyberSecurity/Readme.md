@@ -64,3 +64,14 @@
 ## Cache Poisoning
 
 * [Cache Poisonoing](https://portswigger.net/blog/practical-web-cache-poisoning)
+
+## Security Checklist
+
+* [check list](https://www.abisonline.com/media/cms/RM_Information_Security_Risk_Assesm_8B24CD022B2A3.pdf)
+* [Checklist](https://software-security.sans.org/resources/swat)
+
+## DevSec Ops
+
+* [DevSecOps Good stuff](https://www.sans.org/security-resources/posters/secure-devops-toolchain-swat-checklist/60/download)
+
+
