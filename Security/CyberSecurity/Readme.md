@@ -8,15 +8,15 @@
 * [Computer Security](https://en.wikipedia.org/wiki/Computer_security)
 
 ## Great Resources
-* [Great resources](https://github.com/enaqx/awesome-pentest)
-* [Great resources](https://github.com/jivoi/awesome-osint)
-* [Great resources](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
-* [Great resources](https://github.com/rmusser01/Infosec_Reference)
-* [Great Resource](https://github.com/qazbnm456/awesome-web-security)
-* [Great Resource](https://github.com/nowsecure/secure-mobile-development)
-* [Great Resource](https://github.com/OWASP/owasp-mstg)
-* [Great Resources](https://github.com/paragonie/awesome-appsec)
-* [Great Resources](https://github.com/zbetcheckin/Security_list)
+* [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest)
+* [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint)
+* [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
+* [rmusser01/Infosec_Reference](https://github.com/rmusser01/Infosec_Reference)
+* [qazbnm456/awesome-web-security](https://github.com/qazbnm456/awesome-web-security)
+* [nowsecure/secure-mobile-development](https://github.com/nowsecure/secure-mobile-development)
+* [OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg)
+* [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
+* [zbetcheckin/Security_list](https://github.com/zbetcheckin/Security_list)
 
 
 # Exploits
