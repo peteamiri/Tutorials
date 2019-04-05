@@ -12,6 +12,10 @@
 * [Great resources](https://github.com/jivoi/awesome-osint)
 * [Great resources](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
 * [Great resources](https://github.com/rmusser01/Infosec_Reference)
+* [Great Resource](https://github.com/qazbnm456/awesome-web-security)
+* [Great Resource](https://github.com/nowsecure/secure-mobile-development)
+* [Great Resource](https://github.com/OWASP/owasp-mstg)
+
 
 # Exploits
 
