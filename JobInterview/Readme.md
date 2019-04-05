@@ -17,7 +17,7 @@
 * [Interpersonal Skills](https://www.youtube.com/channel/UCC3UrdqNf6rpWZoTiYbYk4A/playlists)
 
 
-## Voice Improveement
+## Voice Improvement
 
 * [Publc Speaking Resources](https://www.youtube.com/user/VoiceoverMaterclass/playlists)
 * [Voice Improvement](https://www.youtube.com/watch?v=wE7QJSO449o)
