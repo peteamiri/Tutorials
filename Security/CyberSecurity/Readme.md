@@ -15,6 +15,8 @@
 * [Great Resource](https://github.com/qazbnm456/awesome-web-security)
 * [Great Resource](https://github.com/nowsecure/secure-mobile-development)
 * [Great Resource](https://github.com/OWASP/owasp-mstg)
+* [Great Resources](https://github.com/paragonie/awesome-appsec)
+* [Great Resources](https://github.com/zbetcheckin/Security_list)
 
 
 # Exploits
