@@ -29,6 +29,7 @@
 
 ## AWS Architecture Resource
 * [AWS Architecture Center](https://aws.amazon.com/architecture/?icmpid=link_from_docs_website)
+* [AWS Whitepapers](https://aws.amazon.com/whitepapers/?icmpid=link_from_docs_website)
 
 ## VPC
 * [AWS VPC](https://www.youtube.com/watch?v=fpxDGU2KdkA)
