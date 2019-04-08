@@ -18,6 +18,9 @@
 * [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
 * [zbetcheckin/Security_list](https://github.com/zbetcheckin/Security_list)
 
+# NIST 
+
+* [NIST](https://nvd.nist.gov/)
 
 # Exploits
 
@@ -40,7 +43,11 @@
 * [More on Kerberos](https://www.youtube.com/watch?v=KD2Q-2ToloE)
 
 # Security Database 
-*[Security Database All Alerts](https://www.security-database.com/view-all.php?page=1)
+* [Security Database All Alerts](https://www.security-database.com/view-all.php?page=1)
+* [CVSS](https://www.security-database.com/cvss.php)
+* [NIST XML Vulnerability Feeds](https://nvd.nist.gov/vuln/data-feeds#XML_FEED)
+* [Security alerts](https://www.qualys.com/research/security-alerts/)
+* [CISCO Common Vulnerability Scoring System (CVSS) Calculator](https://tools.cisco.com/security/center/cvssCalculator.x)
 
 # Active Reconnaissance
 # Passive Reconnaissance
