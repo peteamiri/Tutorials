@@ -27,6 +27,9 @@
 * [Devops AWS](https://www.youtube.com/watch?v=dfh--_gXQls&list=PLLsor6GJ_BEEVWzDS3eHLdLkSZsoVnB98)
 * [Custom VPC](https://www.youtube.com/watch?v=XgIZ8asEh-8&list=PLxzKY3wu0_FIg6WAB8zMkgKuaJh28RTaO)
 
+## AWS Architecture Resource
+* [AWS Architecture Center](https://aws.amazon.com/architecture/?icmpid=link_from_docs_website)
+
 ## VPC
 * [AWS VPC](https://www.youtube.com/watch?v=fpxDGU2KdkA)
 * [AWS VPC](https://www.youtube.com/watch?v=bGDMeD6kOz0)
