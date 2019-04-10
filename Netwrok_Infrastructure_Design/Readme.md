@@ -10,6 +10,7 @@
 
 # TIC
 * [Good tutorial](https://www.gsa.gov/technology/technology-products-services/it-security/trusted-internet-connections-tics)
+* [TIC](https://www.dhs.gov/sites/default/files/publications/TIC_Ref_Arch_v2.2_2017.pdf)
 
 # Network Address Translation (NAT)
 * [Network address translation (NAT)](https://www.geeksforgeeks.org/computer-network-network-address-translation-nat/)
