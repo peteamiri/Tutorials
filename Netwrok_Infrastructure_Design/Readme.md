@@ -41,3 +41,16 @@
 * [termediate System to Intermediate System (ISIS)]()
 * [Enhanced Interior Gateway RoutingProtocol (EIGRP)]()
 * [Border Gateway Protocol (BGP)]()
+
+## Routers 
+
+* [Basic Routing concepts and protocols Explained](https://www.computernetworkingnotes.com/ccna-study-guide/basic-routing-concepts-and-protocols-explained.html)
+* [Routing Protocols and Concepts](https://learningnetwork.cisco.com/servlet/JiveServlet/downloadBody/25044-102-1-99707/Routing%20Protocols%20and%20Concepts.pdf)
+
+## Firewalls
+
+* [Types of Firewall Explained with Functions and Features](https://www.computernetworkingnotes.com/ccna-study-guide/types-of-firewall-explained-with-functions-and-features.html)
+
+## TCP
+
+* [TCP Features and Functions Explained with Examples](https://www.computernetworkingnotes.com/ccna-study-guide/tcp-features-and-functions-explained-with-examples.html)
