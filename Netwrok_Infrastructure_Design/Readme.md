@@ -40,4 +40,4 @@
 * [Open Shortest Path First (OSPF)]()
 * [termediate System to Intermediate System (ISIS)]()
 * [Enhanced Interior Gateway RoutingProtocol (EIGRP)]()
-* [Border GatewayProtocol (BGP)]()
+* [Border Gateway Protocol (BGP)]()
