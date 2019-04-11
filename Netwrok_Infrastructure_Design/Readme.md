@@ -46,6 +46,7 @@
 
 * [Basic Routing concepts and protocols Explained](https://www.computernetworkingnotes.com/ccna-study-guide/basic-routing-concepts-and-protocols-explained.html)
 * [Routing Protocols and Concepts](https://learningnetwork.cisco.com/servlet/JiveServlet/downloadBody/25044-102-1-99707/Routing%20Protocols%20and%20Concepts.pdf)
+* [Basic Routing Concepts And Protocols Explained](https://techmusa.com/basic-routing-concept/)
 
 ## Firewalls
 
