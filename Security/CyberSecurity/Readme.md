@@ -38,6 +38,15 @@
 # Security Video Course
 * [Simple Security](https://www.youtube.com/channel/UCnnaqnxhlQhAMz-n_VFB1Pg/playlists) 10 Modules course
 
+## Tools
+* [WAFW00F identifies and fingerprints Web Application Firewall (WAF) products](https://github.com/EnableSecurity/wafw00f)
+* [DNS Goodies](http://dnsgoodies.com/)
+* [Sn1per Community Edition for automated scanning](https://github.com/1N3/Sn1per)
+* [MASSCAN: Mass IP port scanner](https://github.com/robertdavidgraham/masscan)
+* [Aquatone for visual inspection of websites](https://github.com/michenriksen/aquatone)
+* [nscan wordlist-based DNS subdomain scanner](https://github.com/rbsec/dnscan)
+
+
 # Kerberos
 * [Introduction to Kerberos](https://www.youtube.com/watch?v=kp5d8Yv3-0c)
 * [More on Kerberos](https://www.youtube.com/watch?v=KD2Q-2ToloE)
