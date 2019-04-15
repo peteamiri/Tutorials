@@ -106,9 +106,9 @@
 
 ## Tools
 
-* [](https://github.com/rbsec/dnscan)
-* [](https://github.com/michenriksen/aquatone)
-* [](https://github.com/robertdavidgraham/masscan)
-* [](https://github.com/1N3/Sn1per)
-* [](http://dnsgoodies.com/)
-* []( https://github.com/EnableSecurity/wafw00f)
+* [Dscan: Wordlist-based DNS subdomain scanner](https://github.com/rbsec/dnscan)
+* [Aquatone: a tool for visual inspection](https://github.com/michenriksen/aquatone)
+* [MASSCAN: Mass IP port scanner](https://github.com/robertdavidgraham/masscan)
+* [Sn1per: (Community Edition) an automated scanner](https://github.com/1N3/Sn1per)
+* [DNS Goodies](http://dnsgoodies.com/)
+* [WAFW00F: identifies and fingerprint Web Application Firewall (WAF) products.](https://github.com/EnableSecurity/wafw00f)
