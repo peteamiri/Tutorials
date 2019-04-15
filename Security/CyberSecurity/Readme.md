@@ -106,9 +106,9 @@
 
 ## Tools
 
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [](https://github.com/rbsec/dnscan)
+* [](https://github.com/michenriksen/aquatone)
+* [](https://github.com/robertdavidgraham/masscan)
+* [](https://github.com/1N3/Sn1per)
+* [](http://dnsgoodies.com/)
+* []( https://github.com/EnableSecurity/wafw00f)
