@@ -4,7 +4,8 @@
 
 * Legacy file formats (e.g., delimited text files), flat tables, use of delimiters and pointers
 * Understand Roles: Data Analyst, Database Administrator (DBA), ETL developer, Database Developer, Data Architect, Enterprise Information Architects
-* Types of databases: relational (OLTP) , object-oriented, NoSQL (non-relational), Geospatial
+* Data types Structured, Semi-Structured, None-Structured
+* Types of databases: relational (OLTP) , object-oriented, NoSQL (non-relational), Geospatial, Data Warehouse (OLAP)
   * Relational
     * Understanding databases, schemas, tables, views (including materialized)
     * Understanding fields, field-types, primary keys (including compound and composite), foreign keys,
@@ -47,3 +48,11 @@
 * [Wiki Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
 
 ## Data Mining
+
+## Data warehouse
+
+* [Wiki](https://en.wikipedia.org/wiki/Data_warehouse)
+
+## Business Intelligence
+
+* [Wiki](https://en.wikipedia.org/wiki/Business_intelligence)
