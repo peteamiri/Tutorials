@@ -9,7 +9,9 @@
 
 ## Description
 
-The Extensible Markup Language (XML) is derived from the Standard Generalized Markup Language (SGML), and can be considered to be a meta-language: a language for defining markup languages. 
+## History and Roots
+
+The Extensible Markup Language (XML) is derived from the Standard Generalized Markup Language (SGML), and can be considered to be a meta-language: a language for defining markup languages.
 
 SGML and XML are text-based formats that provide mechanisms for describing document structures using markup tags (words surrounded by '<' and '>'). Web developers may notice some similarity between HTML and XML, which is due to the fact that they are both derived from SGML.
 
@@ -17,17 +19,17 @@ XML is also suitable for describing structured data. Examples of structured data
 
 XML is preferable to previous data formats because XML can easily represent both tabular data (such as relational data from a database or spreadsheets) and semi-structured data (such as a Web page or business document). Popular pre-existing formats such as comma separated value (CSV) files either work well for tabular data and handle semi-structured data poorly, or like RTF are too specialized for semi-structured text documents. This has led to the widespread adoption of XML as the lingua franca of information interchange.
 
-Besides being able to represent both structured and semi-structured data, XML has a number of characteristics that have caused it to be widely adopted as a data representation format. 
+Besides being able to represent both structured and semi-structured data, XML has a number of characteristics that have caused it to be widely adopted as a data representation format.
 
 XML is extensible, platform-independent, and supports internationalization by being fully Unicode compliant. The fact that XML is a text-based format means that when the need arises, one can read and edit XML documents using standard text-editing tools.
 
 XML is not tied to any programming language, operating system or software vendor. In fact, it is fairly straightforward to produce or consume XML using a variety of programming languages. Platform independence makes XML very useful as a means for achieving interoperability between different programming platforms and operating systems.
 
-The benefits of exposing data as XML have been acknowledged by many, and have led to a proliferation of XML data sources. Business documents, databases and inter-business communication are all examples of information sources that are moving or have moved to using XML as a representation format. 
+The benefits of exposing data as XML have been acknowledged by many, and have led to a proliferation of XML data sources. Business documents, databases and inter-business communication are all examples of information sources that are moving or have moved to using XML as a representation format.
 
 ## Characteristics
 
-XML has the fllowing characteristics
+XML has the following characteristics
 
 * XML is not tied to any programming language, operating system or software vendor.
 
@@ -37,7 +39,7 @@ Below is a sample XML document that represents a customer order for a music stor
 
      1	<?xml version="1.0" encoding="iso-8859-1" ?>
      2	<?xml-stylesheet href="orders.xsl"?>
-     3	
+     3
      4	<order id="ord123456">
      5	  <customer id="cust0921">
      6	    <first-name>Dare</first-name>
@@ -61,7 +63,6 @@ Below is a sample XML document that represents a customer order for a music stor
     24	       <title>Lil Chopper Toy</title>
     25	    </compact-disc>
     26	  </items>
-    27	
+    27
     28	  <!--  Always go the extra mile for the customer -->
     29	</order>
- 
