@@ -2,14 +2,31 @@
 
 ## Data Management – Fundamentals
 
-* Legacy file formats (e.g., delimited text files), flat tables, use of delimiters and pointers
-* Understand Roles: Data Analyst, Database Administrator (DBA), ETL developer, Database Developer, Data Architect, Enterprise Information Architects
-* Data types Structured, Semi-Structured, None-Structured
-* Types of databases: relational (OLTP) , object-oriented, NoSQL (non-relational), Geospatial, Data Warehouse (OLAP)
-  * Relational
-    * Understanding databases, schemas, tables, views (including materialized)
-    * Understanding fields, field-types, primary keys (including compound and composite), foreign keys,
-      * unique keys (anonymous/surrogate keys vs. smart/intelligent /natural), random keys (GUIDs) vs auto increment key
+* Legacy / flat file formats (e.g., delimited text files), flat tables, use of delimiters and pointers
+* Roles:
+  * Data Analyst,
+  * Database Administrator (DBA),
+  * ETL developer,
+  * Database Developer,
+  * Data Architect,
+  * Enterprise Information Architects
+
+* Data types:
+  * Structured,
+  * Semi-Structured,
+  * None-Structured
+
+* Types of databases:
+  * [][]elational (OLTP) ,
+  * object-oriented,
+  * NoSQL (non-relational),
+  * Geospatial,
+  * Data Warehouse (OLAP)
+
+* Relational
+  * Understanding databases, schemas, tables, views (including materialized)
+  * Understanding fields, field-types, primary keys (including compound and composite), foreign keys,
+    * unique keys (anonymous/surrogate keys vs. smart/intelligent /natural), random keys (GUIDs) vs auto increment key
       * Understanding table joining, normalization, indexing, and ACID
       * Queries and ANSI SQL, vendor implementations of SQL (PL-SQL, T-SQL), triggers, and stored procedures
       * SQL injection vulnerabilities
