@@ -17,7 +17,7 @@
   * None-Structured
 
 * Types of databases:
-  * [][]elational (OLTP) ,
+  * Relational (OLTP) ,
   * object-oriented,
   * NoSQL (non-relational),
   * Geospatial,
