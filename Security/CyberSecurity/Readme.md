@@ -18,7 +18,7 @@
 * [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
 * [zbetcheckin/Security_list](https://github.com/zbetcheckin/Security_list)
 
-# NIST 
+# NIST
 
 * [NIST](https://nvd.nist.gov/)
 
@@ -46,12 +46,17 @@
 * [Aquatone for visual inspection of websites](https://github.com/michenriksen/aquatone)
 * [nscan wordlist-based DNS subdomain scanner](https://github.com/rbsec/dnscan)
 
+## Wireshark
+* [Wireshark · Go Deep.](https://www.wireshark.org/)
+* [Wireshark University](https://www.chappell-university.com/)
+* [Wireshark · Go Deep.](https://www.wireshark.org/#learnWS)
+
 
 # Kerberos
 * [Introduction to Kerberos](https://www.youtube.com/watch?v=kp5d8Yv3-0c)
 * [More on Kerberos](https://www.youtube.com/watch?v=KD2Q-2ToloE)
 
-# Security Database 
+# Security Database
 * [Security Database All Alerts](https://www.security-database.com/view-all.php?page=1)
 * [CVSS](https://www.security-database.com/cvss.php)
 * [NIST XML Vulnerability Feeds](https://nvd.nist.gov/vuln/data-feeds#XML_FEED)
@@ -99,6 +104,12 @@
 
 * [check list](https://www.abisonline.com/media/cms/RM_Information_Security_Risk_Assesm_8B24CD022B2A3.pdf)
 * [Checklist](https://software-security.sans.org/resources/swat)
+
+## IP Resources
+* [Major IP Addresses Blocks By Country](http://www.nirsoft.net/countryip/)
+* [CIPB - Create Country ACL](https://www.countryipblocks.net/acl.php)
+* [List of countries by IPv4 address allocation - Wikipedia, the free encyclopedia](https://en.wikipedia.org/wiki/List_of_countries_by_IPv4_address_allocation)
+* [myip - Google Search](https://www.google.com/search?safe=off&q=myip&cad=h)
 
 ## DevSec Ops
 

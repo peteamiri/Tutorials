@@ -2,7 +2,7 @@
 
 ## Resources
 
-* [TOGAF 9.1](http://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html)
+* [TOGAF 9.2](https://pubs.opengroup.org/architecture/togaf9-doc/arch/)
 * [Wiki](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
 * [Blog](http://www.mikethearchitect.com/togaf/)
 * [Simple Description](https://setandbma.wordpress.com/2011/01/25/what-is-togaf-without-jargon/)
