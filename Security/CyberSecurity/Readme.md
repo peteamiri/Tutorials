@@ -123,3 +123,10 @@
 * [Sn1per: (Community Edition) an automated scanner](https://github.com/1N3/Sn1per)
 * [DNS Goodies](http://dnsgoodies.com/)
 * [WAFW00F: identifies and fingerprint Web Application Firewall (WAF) products.](https://github.com/EnableSecurity/wafw00f)
+
+## Data Loss Prevention (DLP)
+
+* [DLP 101](https://www.imperva.com/learn/data-security/data-loss-prevention-dlp/)
+* [Symantec DLP](https://www.symantec.com/products/data-loss-prevention)
+
+
