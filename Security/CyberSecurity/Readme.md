@@ -93,6 +93,10 @@
 * [OWASP](https://www.ibm.com/developerworks/library/se-owasptop10/index.html)
 * [OWASP Part One](https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-1-a540c4ea2df5)
 * [OWASP Part Two](https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-2-3cdb3bebc976)
+* [OWASP Cheat Sheet](https://dzone.com/articles/cheatsheet-addressing-owasp-top-10-vulnerabilities)
+* [FLAGSHIP](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
+* [Keycdn](https://www.keycdn.com/support/rate-limiting)
+
 
 ## Injection
 
