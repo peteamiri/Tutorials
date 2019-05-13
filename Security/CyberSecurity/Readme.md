@@ -96,6 +96,8 @@
 * [OWASP Cheat Sheet](https://dzone.com/articles/cheatsheet-addressing-owasp-top-10-vulnerabilities)
 * [FLAGSHIP](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
 * [Keycdn](https://www.keycdn.com/support/rate-limiting)
+* [OWASP ModSecurity](https://coreruleset.org/)
+
 
 
 ## Injection
