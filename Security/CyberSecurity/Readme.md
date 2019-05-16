@@ -18,6 +18,11 @@
 * [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
 * [zbetcheckin/Security_list](https://github.com/zbetcheckin/Security_list)
 
+# Security Database
+* [Security Database](https://www.security-database.com/)
+* [](https://blog.appsecco.com/)
+* [Security Blogs](https://blog.appsecco.com/)
+
 # NIST
 
 * [NIST](https://nvd.nist.gov/)
