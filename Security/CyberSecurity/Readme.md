@@ -20,7 +20,6 @@
 
 # Security Database
 * [Security Database](https://www.security-database.com/)
-* [](https://blog.appsecco.com/)
 * [Security Blogs](https://blog.appsecco.com/)
 
 # NIST
