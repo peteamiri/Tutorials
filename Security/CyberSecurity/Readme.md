@@ -146,7 +146,7 @@
 
 ## F5 Information
 
-* [Advance WA](https://www.f5.com/content/dam/f5/corp/global/pdf/products/F5_advanced_WAF_overview.pdf)
+* [Advance WAF](https://www.f5.com/content/dam/f5/corp/global/pdf/products/F5_advanced_WAF_overview.pdf)
 * [Programmable L7 Load Balancing](https://www.f5.com/products/big-ip-services/local-traffic-manager)
 * [BIG-IP Platforms Datasheet](https://www.f5.com/pdf/products/big-ip-platforms-datasheet.pdf)
 
