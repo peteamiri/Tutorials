@@ -8,7 +8,7 @@
 * [AWS Blog](https://data-flair.training/blogs/amazon-web-services-aws-tutorial/)
 
 # Youtube Videos
-
+* [AWS Training Site](https://www.aws.training/)
 * [Quick Video](https://www.youtube.com/watch?v=zYOOY_DVnjo&list=PL55RiY5tL51pgPovJKg6HFMFqiGNSZtQ5)
 * [Various Subjects](https://www.youtube.com/user/knowledgeindia/playlists)
 * [Solutions Architect](https://www.youtube.com/watch?v=ywHFXfuJoSU&list=PLTyrc6mz8dg8YE7OpHYoaRILnf1RQM8bz)
