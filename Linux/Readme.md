@@ -14,6 +14,7 @@
 ## General Resources
 
 * [Good Site](http://www.brendangregg.com/)
+* [Linux](https://github.com/judasn/Linux-Tutorial) Use the Google translator for this
 
 ## Web Development
 
