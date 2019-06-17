@@ -1,4 +1,4 @@
-# What are the 8 CISSP domains? Chloe Biscoe  5th August 2018
+# What are the 8 CISSP domains? 
 
 The globally renowned CISSP® (Certified Information Systems Security Professional) qualification provides information security professionals with an objective measure of competence and is divided into eight domains:
 
