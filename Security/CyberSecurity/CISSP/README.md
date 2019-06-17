@@ -18,37 +18,73 @@ Average weight in the exam: 15%
 
 ## Asset Security
 
-Asset Security focuses on: classification and ownership of information and assets; privacy; retention periods; data security controls; and handling requirements.
+Asset Security focuses on: 
+* classification and ownership of information and assets; 
+* privacy; retention periods; 
+* data security controls; 
+* and handling requirements.
 
 Average weight in the exam: 10%
 
 ## Security Engineering
-Security Engineering covers several important information security concepts, including: engineering processes using secure design principles; fundamental concepts of security models; security capabilities of information systems; assessing and mitigating vulnerabilities in systems; cryptography; and designing and implementing physical security.
+Security Engineering covers several important information security concepts, including: 
+* engineering processes using secure design principles; 
+* fundamental concepts of security models; 
+* security capabilities of information systems; 
+* assessing and mitigating vulnerabilities in systems; 
+* cryptography; and designing and implementing physical security.
 
 Average weight in the exam: 13%
 
 ## Communications and Network Security
-The Communications and Network Security domain looks at designing and protecting network security. It covers topics including: secure design principles for network architecture; secure network components; secure communication channels; and preventing or mitigating network attacks.
+The Communications and Network Security domain looks at designing and protecting network security. It covers topics including: 
+* secure design principles for network architecture; 
+* secure network components; 
+* secure communication channels; 
+* and preventing or mitigating network attacks.
 
 Average weight in the exam: 14%
 
 ## Identity and Access Management
-Identity and Access Management helps professionals understand how to control the way users can access data. It covers: physical and logical access to assets; identification and authentication; integrating identity as a service and third-party identity services; authorisation mechanisms; access control attacks; and the identity and access provisioning lifecycle.
+Identity and Access Management helps professionals understand how to control the way users can access data. It covers: 
+* physical and logical access to assets; 
+* identification and authentication; 
+* integrating identity as a service and third-party identity services; 
+* authorisation mechanisms; access control attacks; 
+* and the identity and access provisioning lifecycle.
 
 Average weight in the exam: 13%
 
 ## Security Assessment and Testing
-The Security Assessment and Testing domain focuses on designing, performing and analysing security testing. Topics covered include: designing and validating assessment and test strategies; security control testing; collecting security process data; test outputs; and internal and third-party security audits.
+The Security Assessment and Testing domain focuses on designing, performing and analysing security testing. Topics covered include:
+* designing and validating assessment and test strategies; 
+* security control testing; 
+* collecting security process data; 
+* test outputs; 
+* and internal and third-party security audits.
 
 Average weight in the exam: 12%
 
 ## Security Operations
-The Security Operations domain covers key topics including: understanding and supporting investigations; requirements for investigation types; logging and monitoring activities; securing the provision of resources; foundational security operations concepts; applying resource protection techniques; incident management; disaster recovery; and managing physical security.
+The Security Operations domain covers key topics including: 
+* understanding and supporting investigations; 
+* requirements for investigation types; 
+* logging and monitoring activities; 
+* securing the provision of resources; 
+* foundational security operations concepts; 
+* applying resource protection techniques; 
+* incident management; 
+* disaster recovery; 
+* and managing physical security.
 
 Average weight in the exam: 13%
 
 ## Software Development Security
-The final CISSP domain helps professionals to understand, apply and enforce software security. It covers: security in the Software Development Life Cycle (SDLC); security controls in development environments; effectiveness of software security; and secure coding guidelines and standards.
+The final CISSP domain helps professionals to understand, apply and enforce software security. It covers: 
+* security in the Software Development Life Cycle (SDLC); 
+* security controls in development environments; 
+* effectiveness of software security; 
+* and secure coding guidelines and standards.
 
 Average weight in the exam: 10%
 
