@@ -90,3 +90,4 @@ Building Contact Management App on Lightning Framework, uploading CSS file and u
 ## Resources
 
 * [Setup SalesForce](https://help.salesforce.com/articleView?id=networks_overview.htm&type=5)
+* [Various Documentations](https://help.salesforce.com/articleView?id=salesforce_help_map.htm&type=5)
