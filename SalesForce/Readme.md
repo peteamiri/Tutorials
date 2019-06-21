@@ -86,3 +86,7 @@ A real example of deploying Server side controller by pulling data from Opportun
 
 ## Building Lightning Application
 Building Contact Management App on Lightning Framework, uploading CSS file and uploading it to static resource for referencing in application, creating contact Controller Apex Class, pulling data from contact and returning the list of contacts, designing User Interface by using HTML and CSS Classes provided in Bootstrap Style sheet.
+
+## Resources
+
+* [Setup SalesForce](https://help.salesforce.com/articleView?id=networks_overview.htm&type=5)
