@@ -4,6 +4,8 @@ The following is an outline and guideline
 
 ## MVC Architecture of Salesforce
 * Introduction to Salesforce, 
+  * [WIKI](https://en.wikipedia.org/wiki/Salesforce.com)
+  * [What is CRM and Slaeforce](https://www.dezyre.com/article/what-is-salesforce-and-5-reasons-why-it-is-the-best-crm/90)
 * understanding the MVC Architecture, 
 * overview of Salesforce 501, 
 * the Visualforce MVC Model, 
