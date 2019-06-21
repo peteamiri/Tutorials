@@ -1,25 +1,65 @@
 # SalesForce Tutorials
 
+The following is an outlike and guidleine 
+
 ## MVC Architecture of Salesforce
-Introduction to Salesforce, understanding the MVC Architecture, overview of Salesforce 501, the Visualforce MVC Model, defining Collections, Sets, declaring a Set and using in Operation, list method in Salesforce and understanding Map.
+* Introduction to Salesforce, 
+* understanding the MVC Architecture, 
+* overview of Salesforce 501, 
+* the Visualforce MVC Model, 
+* defining Collections, 
+* defining Sets, 
+* declaring a Set and using in Operation, 
+* list method in Salesforce and understanding Map.
 
 ## Introduction to JavaScript
-Using JavaScript in Visualforce pages, deploying Salesforce Object Query Language, using Query Editor for editing queries, working with Iterators on multiple objects, generating a Query.
+* Using JavaScript in Visualforce pages, 
+* deploying Salesforce Object Query Language, 
+* using Query Editor for editing queries, 
+* working with Iterators on multiple objects, generating a Query.
 
 ## Salesforce Apex Data
-Understanding the Salesforce Apex language, Apex Data Types, introduction to Apex Triggers, importance of Triggers, Trigger – before and after use cases, types of Triggers, the Trigger operations, understanding the Trigger context, writing Triggers, generating error messages, old and new Trigger.
+* Understanding the Salesforce Apex language, 
+* Apex Data Types, introduction to Apex Triggers, 
+* importance of Triggers, 
+* Trigger – before and after use cases, 
+* types of Triggers, 
+* the Trigger operations, 
+* understanding the Trigger context, writing Triggers, 
+* generating error messages, 
+* old and new Trigger.
 
 ## Triggers Overview
-The various scenarios in which Triggers can be fired, understanding Insert Trigger, Update Trigger, working with After Update & After Insert Trigger, relationship between Accounts, Contacts & Opportunities in Salesforce, updating account records, mapping account IDs, comparing Trigger.newmap and Trigger.oldmap.
+* The various scenarios in which Triggers can be fired, 
+* understanding Insert Trigger, 
+* Update Trigger, 
+* working with After Update & After Insert Trigger, 
+* relationship between Accounts, 
+* Contacts & Opportunities in Salesforce, 
+* updating account records, 
+* mapping account IDs, 
+* comparing Trigger.newmap and Trigger.oldmap.
 
 ## Introduction to Wrapper Classes
-Understanding Salesforce Wrapper Classes, various Class methods and data structures, properties of Wrapper Classes, the test classes in Salesforce, executing Apex Class.
+* Understanding Salesforce Wrapper Classes, 
+* various Class methods and data structures, 
+* properties of Wrapper Classes, 
+* the test classes in Salesforce, 
+* executing Apex Class.
 
 ## Understanding Developer Console
-Introduction to Salesforce Developer Console, IDE for creating, testing and debugging applications, checking and executing Salesforce Test Classes, making changes in Classes, working with Eclipse platform and Plugin, scheduling a custom-level class.
+* Introduction to Salesforce Developer Console, 
+* IDE for creating, 
+* testing and debugging applications, 
+* checking and executing Salesforce Test Classes, 
+* making changes in Classes, 
+* working with Eclipse platform and Plugin, 
+* scheduling a custom-level class.
 
 ## Apex Scheduling
-Scheduling Apex Classes using Apex Scheduler, writing Apex Classes that implement Sscheduleable Interface, monitoring and stopping execution of Scheduled Apex Jobs, understanding the concept of Visualforce Pages.
+* Scheduling Apex Classes using Apex Scheduler, 
+* writing Apex Classes that implement Sscheduleable Interface, 
+* monitoring and stopping execution of Scheduled Apex Jobs, understanding the concept of Visualforce Pages.
 
 ## Standard/Custom Controller
 Understanding of Standard and Custom Controllers in Salesforce, the concepts and differences between the two, working with Standard Controller, validation rules and controller actions, building a Custom Controller, designing a new Visualforce Page and Account, HTML Tags in Salesforce, learning Apex programming.
