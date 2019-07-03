@@ -1,6 +1,11 @@
 # SalesForce Tutorials
 
-The following is an outline and guideline 
+The following is an outline and guideline
+
+# Coding guilde lkines
+* [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
+* [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
+* [Cheat sheet 3](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Apex_Code_cheatsheet_web.pdf)
 
 ## MVC Architecture of Salesforce
 * Introduction to Salesforce, 
