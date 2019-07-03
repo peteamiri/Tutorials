@@ -6,6 +6,7 @@
 * [Security Engineering — The Book](http://www.cl.cam.ac.uk/~rja14/book.html)
 * [Security hacker](https://en.wikipedia.org/wiki/Security_hacker)
 * [Computer Security](https://en.wikipedia.org/wiki/Computer_security)
+* [NIST + STICK](https://www.stigviewer.com/)
 
 ## Great Resources
 * [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest)
@@ -49,6 +50,7 @@
 * [MASSCAN: Mass IP port scanner](https://github.com/robertdavidgraham/masscan)
 * [Aquatone for visual inspection of websites](https://github.com/michenriksen/aquatone)
 * [nscan wordlist-based DNS subdomain scanner](https://github.com/rbsec/dnscan)
+* [WAF](https://github.com/0xInfection/Awesome-WAF)
 
 ## Wireshark
 * [Wireshark · Go Deep.](https://www.wireshark.org/)
