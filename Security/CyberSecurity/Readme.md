@@ -109,7 +109,8 @@
 * [OWASP ModSecurity](https://coreruleset.org/)
 * [ModSecurity](https://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
 * [OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project)
-
+* [OWASP top 10 for Mobile](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project#Top_Ten_Mobile_Risks)
+* [OWASP Principals](https://www.owasp.org/index.php/Category:Principle)
 
 
 ## Injection
