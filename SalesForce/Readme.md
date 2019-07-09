@@ -6,6 +6,7 @@ The following is an outline and guideline
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
 * [Cheat sheet 3](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Apex_Code_cheatsheet_web.pdf)
+* [Security Cheatsheets](https://developer.salesforce.com/index.php?title=Cheat_Sheets&oldid=98771)
 
 ## MVC Architecture of Salesforce
 * Introduction to Salesforce, 
