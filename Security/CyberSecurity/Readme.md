@@ -51,6 +51,7 @@
 * [Aquatone for visual inspection of websites](https://github.com/michenriksen/aquatone)
 * [nscan wordlist-based DNS subdomain scanner](https://github.com/rbsec/dnscan)
 * [WAF](https://github.com/0xInfection/Awesome-WAF)
+* [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF)
 
 ## Wireshark
 * [Wireshark · Go Deep.](https://www.wireshark.org/)
