@@ -5,6 +5,10 @@
 
 * [AWS Quickstart Sourcecodes](https://github.com/aws-quickstart)
 
+## IAAS, PAAS, SAAS
+
+* [Good Picture](https://azure.microsoft.com/en-us/overview/what-is-iaas/)
+
 ## Region ##
 
 AWS regions are geographic locations in the world that AWS has a group of data centers. The data centers are commonly knows as Availability zones or AZ for short. Each Region may contain at least 2 data centers. Location like Northern Virginia has as many as six Availability Zone. These AZ's are located such to increase availability in case of any disaster.
