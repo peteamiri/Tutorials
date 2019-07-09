@@ -6,5 +6,5 @@
 
 # STIG
 
-* [](https://www.stigviewer.com/)
+* [STIG Site](https://www.stigviewer.com/)
 
