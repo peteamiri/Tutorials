@@ -1,4 +1,5 @@
 # references
 
 ## Using Informatica to expose data as a Restful Service
-* [Informatica Client](http://www.infotrellis.com/use-informatica-power-center-restful-web-service-client/)
+* [Informatica Restful Service API](https://kb.informatica.com/proddocs/Product%20Documentation/6/DT_102_REST-APIGuide_en.pdf)
+* [Informatica Restful service client](http://www.infotrellis.com/use-informatica-power-center-restful-web-service-client/)
