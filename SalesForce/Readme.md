@@ -2,11 +2,14 @@
 
 The following is an outline and guideline
 
-# Coding guilde lkines
+## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
 * [Cheat sheet 3](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Apex_Code_cheatsheet_web.pdf)
 * [Security Cheatsheets](https://developer.salesforce.com/index.php?title=Cheat_Sheets&oldid=98771)
+
+## General SalesForce Documentation
+* [SalesFroce Docs](https://help.salesforce.com/articleView?id=setup_overview.htm&type=5)
 
 ## Data backup
 * [Sales Force Resources](https://help.salesforce.com/articleView?id=000334121&language=en_US&type=1)
