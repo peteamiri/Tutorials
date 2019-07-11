@@ -10,7 +10,7 @@ The following is an outline and guideline
 
 ## Data backup
 * [Sales Force Resources](https://help.salesforce.com/articleView?id=000334121&language=en_US&type=1)
-* 4 part series on SalesForce data backup)[https://developer.salesforce.com/blogs/2015/03/salesforce-backup-and-restore-essentials-part-1-backup-overview-api-options-and-performance.html)
+* [4 part series on SalesForce data backup](https://developer.salesforce.com/blogs/2015/03/salesforce-backup-and-restore-essentials-part-1-backup-overview-api-options-and-performance.html)
 
 ## MVC Architecture of Salesforce
 * Introduction to Salesforce, 
