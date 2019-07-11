@@ -8,6 +8,9 @@ The following is an outline and guideline
 * [Cheat sheet 3](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_Apex_Code_cheatsheet_web.pdf)
 * [Security Cheatsheets](https://developer.salesforce.com/index.php?title=Cheat_Sheets&oldid=98771)
 
+## Data backup
+* [Sales Force Resources](https://help.salesforce.com/articleView?id=000334121&language=en_US&type=1)
+
 ## MVC Architecture of Salesforce
 * Introduction to Salesforce, 
   * [WIKI](https://en.wikipedia.org/wiki/Salesforce.com)
