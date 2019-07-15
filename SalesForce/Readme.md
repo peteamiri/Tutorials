@@ -2,6 +2,10 @@
 
 The following is an outline and guideline
 
+## Starting Point
+
+* [Good Introduction to SalesForce Services](https://searchcustomerexperience.techtarget.com/definition/Salesforcecom)
+
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
