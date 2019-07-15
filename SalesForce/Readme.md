@@ -6,6 +6,7 @@ The following is an outline and guideline
 
 * [Good Introduction to SalesForce Services](https://searchcustomerexperience.techtarget.com/definition/Salesforcecom)
 * [SalesForce Trailhead Introduction](https://mindmajix.com/salesforce-tutorial)
+* [Brief discussion on SalesForce Environment](https://mindmajix.com/salesforce-environment)
 
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
