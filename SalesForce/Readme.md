@@ -62,7 +62,7 @@ The following is an outline and guideline
 </li>
 </ol>
 
-* [101 Most Important Frequently Asked Salesforce Interview Questions}(https://www.opencodez.com/salesforce/salesforce-interview-questions.htm)
+* [101 Most Important Frequently Asked Salesforce Interview Questions](https://www.opencodez.com/salesforce/salesforce-interview-questions.htm)
 
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
