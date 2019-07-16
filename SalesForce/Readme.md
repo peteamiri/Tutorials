@@ -62,6 +62,8 @@ The following is an outline and guideline
 </li>
 </ol>
 
+* [101 Most Important Frequently Asked Salesforce Interview Questions}(https://www.opencodez.com/salesforce/salesforce-interview-questions.htm)
+
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
