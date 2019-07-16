@@ -8,6 +8,24 @@ The following is an outline and guideline
 * [SalesForce Trailhead Introduction](https://mindmajix.com/salesforce-tutorial)
 * [Brief discussion on SalesForce Environment](https://mindmajix.com/salesforce-environment)
 
+
+1. Introduction to Cloud Computing (Salesforce.com and Force.com)
+1. Overview of Database Concepts (Salesforce.com)
+Introduction to Force.com
+Building Salesforce Custom App and Objects
+Object Relationships and Formula Field in Salesforce
+Salesforce Security Model and Overview
+Automation in Salesforce
+Approval Process in Salesforce
+Introduction to SOQL and SOSL
+Introduction to Apex
+Salesforce Data Management
+Visualforce MVC Architecture on Cloud
+Salesforce Reports and Dashboards
+Building a Visualforce (Custom) Page for the Salesforce App
+Salesforce Sandbox and Overview of Force.com capabilities
+Learning Apex and Deployment Tools
+
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
