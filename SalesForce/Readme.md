@@ -72,7 +72,7 @@ The following is an outline and guideline
 * [SalesFroce Docs](https://help.salesforce.com/articleView?id=setup_overview.htm&type=5)
 * [SOAP API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm)
 * [Apex Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.220.0.apexcode.meta/apexcode/apex_dev_guide.htm)
-* [Visualforce Developer Guide}(https://developer.salesforce.com/docs/atlas.en-us.220.0.pages.meta/pages/pages_intro.htm)
+* [Visualforce Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.220.0.pages.meta/pages/pages_intro.htm)
 
 
 ## Data backup
