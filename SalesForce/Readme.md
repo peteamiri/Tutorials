@@ -7,6 +7,11 @@ The following is an outline and guideline
 * [Good Introduction to SalesForce Services](https://searchcustomerexperience.techtarget.com/definition/Salesforcecom)
 * [SalesForce Trailhead Introduction](https://mindmajix.com/salesforce-tutorial)
 * [Brief discussion on SalesForce Environment](https://mindmajix.com/salesforce-environment)
+* [SalesForce Admin](http://www.crmsalesforcetraining.com/salesforce-tutorials-beginners-salesforce-basics/)
+* [SalesForce Developer](http://www.crmsalesforcetraining.com/advanced-salesforce-developer-training-salesforce-tutorials/)
+* [SalesForce Visusal Force](http://www.crmsalesforcetraining.com/visualforce-visualforce-developer-guide/)
+* [SalesForce Automation](http://www.crmsalesforcetraining.com/sales-force-automation/)
+* [Visualforce Tags](http://www.crmsalesforcetraining.com/visualforce-tags/)
 
 
 <h2>Tutorial Index</h2>
