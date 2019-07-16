@@ -9,23 +9,7 @@ The following is an outline and guideline
 * [Brief discussion on SalesForce Environment](https://mindmajix.com/salesforce-environment)
 
 
-1. Introduction to Cloud Computing (Salesforce.com and Force.com)
-1. Overview of Database Concepts (Salesforce.com)
-Introduction to Force.com
-Building Salesforce Custom App and Objects
-Object Relationships and Formula Field in Salesforce
-Salesforce Security Model and Overview
-Automation in Salesforce
-Approval Process in Salesforce
-Introduction to SOQL and SOSL
-Introduction to Apex
-Salesforce Data Management
-Visualforce MVC Architecture on Cloud
-Salesforce Reports and Dashboards
-Building a Visualforce (Custom) Page for the Salesforce App
-Salesforce Sandbox and Overview of Force.com capabilities
-Learning Apex and Deployment Tools
-
+h2>Tutorial Index</h2><p>&nbsp;</p><ol><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/cloud-computing-salesforce.htm target=_blank rel="noopener noreferrer">Introduction to Cloud Computing (Salesforce.com and Force.com)</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/database-concepts-salesforce-com.htm target=_blank rel="noopener noreferrer">Overview of Database Concepts (Salesforce.com)</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/introduction-force-com.htm target=_blank rel="noopener noreferrer">Introduction to Force.com</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/building-salesforce-custom-app-objects.htm target=_blank rel="noopener noreferrer">Building Salesforce Custom App and Objects</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/object-relationships-formula-field-in-salesforce.htm target=_blank rel="noopener noreferrer">Object Relationships and Formula Field in Salesforce</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/salesforce-security.htm target=_blank rel="noopener noreferrer">Salesforce Security Model and Overview</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/automation-in-salesforce.htm target=_blank rel="noopener noreferrer">Automation in Salesforce</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/approval-process-in-salesforce.htm target=_blank rel="noopener noreferrer">Approval Process in Salesforce</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/web-development/introduction-soql-and-sosl.htm target=_blank rel="noopener noreferrer">Introduction to SOQL and SOSL</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/web-development/salesforce-tutorial-10-introduction-apex.htm target=_blank rel="noopener noreferrer">Introduction to Apex</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/data-management-salesforce.htm target=_blank rel="noopener noreferrer">Salesforce Data Management</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/web-development/visualforce-mvc-architecture-on-cloud.htm target=_blank rel="noopener noreferrer">Visualforce MVC Architecture on Cloud</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/salesforce-reports-and-dashboards.htm target=_blank rel="noopener noreferrer">Salesforce Reports and Dashboards</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/building-visualforce-custom-page-salesforce-app.htm target=_blank rel="noopener noreferrer">Building a Visualforce (Custom) Page for the Salesforce App</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/salesforce-sandbox-overview-force-com-capabilities.htm target=_blank rel="noopener noreferrer">Salesforce Sandbox and Overview of Force.com capabilities</a></span></li><li><span style="color: #0000ff;"><a style="color: #0000ff;" href=https://www.opencodez.com/salesforce/salesforce-tutorial-16-learning-apex-deployment-tools.htm target=_blank rel="noopener noreferrer">Learning Apex and Deployment Tools</a></span></li></ol>
 ## Coding guilde linkes
 * [Cheat Sheets](https://developer.salesforce.com/page/Cheat_Sheets)
 * [Cheat sheet 2](http://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/SF_S1-Developer_cheatsheet_web.pdf)
