@@ -98,6 +98,10 @@ The following is an outline and guideline
 * declaring a Set and using in Operation,
 * list method in Salesforce and understanding Map.
 
+## SalesForce Security
+
+* [Security Trailblaser](https://trust.salesforce.com/en/security/security-resources/)
+
 ## Introduction to JavaScript
 * Using JavaScript in Visualforce pages,
 * deploying Salesforce Object Query Language,
