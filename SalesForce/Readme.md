@@ -110,6 +110,7 @@ The following is an outline and guideline
 * [DEPLOY ENHANCEMENTS FROM SANDBOXES
 Sandbox Types and Templates](https://help.salesforce.com/articleView?id=create_test_instance.htm&type=5)
 * [Innovate faster with a modern software development experience](https://www.salesforce.com/products/platform/products/salesforce-dx/)
+* [ Kingdom Management](https://developer.salesforce.com/promotions/orgs/trust-de)
 
 ## Introduction to JavaScript
 * Using JavaScript in Visualforce pages,
