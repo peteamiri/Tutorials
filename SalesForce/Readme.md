@@ -107,6 +107,9 @@ The following is an outline and guideline
 * [Security Trailblaser](https://trust.salesforce.com/en/security/security-resources/)
 * [Sandbox Management Best Practices](https://help.salesforce.com/servlet/servlet.FileDownload?file=015300000036AisAAE)
 * [Salesforce content security](https://medium.com/@sfdcbrewery/salesforce-content-security-file-scanning-with-opswat-f-secure-blog-3-aabe42bbcd2f)
+* [DEPLOY ENHANCEMENTS FROM SANDBOXES
+Sandbox Types and Templates](https://help.salesforce.com/articleView?id=create_test_instance.htm&type=5)
+* [Innovate faster with a modern software development experience](https://www.salesforce.com/products/platform/products/salesforce-dx/)
 
 ## Introduction to JavaScript
 * Using JavaScript in Visualforce pages,
@@ -116,6 +119,8 @@ The following is an outline and guideline
 
 ## Salesforce Apex Data
 * [Apex basics & Data](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
+* [SalesForce API](https://resources.docs.salesforce.com/220/latest/en-us/sfdc/pdf/api_meta.pdf)
+* [ANT Migration Tools](https://resources.docs.salesforce.com/220/latest/en-us/sfdc/pdf/salesforce_migration_guide.pdf)
 * Understanding the Salesforce Apex language,
 * Apex Data Types, introduction to Apex Triggers, A trigger is Apex code that executes before or after the following types of operations: 
   * insert 
