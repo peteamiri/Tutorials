@@ -2,6 +2,10 @@
 
 The following is an outline and guideline
 
+## SalesForce Video trainings
+
+* [MyTutorialRack](https://www.youtube.com/channel/UCb8Gc-Y6EnbLjRzeAvzmhVQ/playlists)
+
 ## Starting Point
 
 * [Good Introduction to SalesForce Services](https://searchcustomerexperience.techtarget.com/definition/Salesforcecom)
