@@ -105,6 +105,8 @@ The following is an outline and guideline
 ## SalesForce Security
 
 * [Security Trailblaser](https://trust.salesforce.com/en/security/security-resources/)
+* [Sandbox Management Best Practices](https://help.salesforce.com/servlet/servlet.FileDownload?file=015300000036AisAAE)
+* [Salesforce content security](https://medium.com/@sfdcbrewery/salesforce-content-security-file-scanning-with-opswat-f-secure-blog-3-aabe42bbcd2f)
 
 ## Introduction to JavaScript
 * Using JavaScript in Visualforce pages,
