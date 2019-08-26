@@ -109,8 +109,15 @@ The following is an outline and guideline
 * working with Iterators on multiple objects, generating a Query.
 
 ## Salesforce Apex Data
+* [Apex basics & Data](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
 * Understanding the Salesforce Apex language,
-* Apex Data Types, introduction to Apex Triggers,
+* Apex Data Types, introduction to Apex Triggers, A trigger is Apex code that executes before or after the following types of operations: 
+ * insert 
+ * update 
+ * delete 
+ * merge 
+ * upsert 
+ * undelete 
 * importance of Triggers,
 * Trigger – before and after use cases,
 * types of Triggers,
