@@ -138,6 +138,7 @@ The following is an outline and guideline
 * executing Apex Class.
 
 ## Understanding Developer Console
+* [APEX Basics and Data](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
 * Introduction to Salesforce Developer Console,
 * IDE for creating,
 * testing and debugging applications,
