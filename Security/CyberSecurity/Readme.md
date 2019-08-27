@@ -112,7 +112,8 @@
 * [OWASP Secure Headers Project](https://www.owasp.org/index.php/OWASP_Secure_Headers_Project)
 * [OWASP top 10 for Mobile](https://www.owasp.org/index.php/OWASP_Mobile_Security_Project#Top_Ten_Mobile_Risks)
 * [OWASP Principals](https://www.owasp.org/index.php/Category:Principle)
-
+* [Thread Modeling](https://www.owasp.org/images/e/e9/Threat-Modelling_oct2017.pdf)
+* [Practical Thread Modeling](https://handouts.secappdev.org/handouts/2018/Seba%20Deleersnyder%20-%20Practical%20Threat%20Modeling.pdf)
 
 ## Injection
 
