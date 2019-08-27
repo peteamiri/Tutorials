@@ -5,6 +5,7 @@ The following is an outline and guideline
 ## SalesForce Video trainings
 
 * [MyTutorialRack](https://www.youtube.com/channel/UCb8Gc-Y6EnbLjRzeAvzmhVQ/playlists)
+* [SalesForce Develoepr TV](https://developer.salesforce.com/tv/)
 
 ## Starting Point
 
