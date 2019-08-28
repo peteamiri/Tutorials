@@ -6,6 +6,7 @@ The following is an outline and guideline
 
 * [MyTutorialRack](https://www.youtube.com/channel/UCb8Gc-Y6EnbLjRzeAvzmhVQ/playlists)
 * [SalesForce Develoepr TV](https://developer.salesforce.com/tv/)
+* [Online Tutorials](https://intellipaat.com/blog/tutorial/salesforce-tutorial/)
 
 ## Starting Point
 
