@@ -19,6 +19,20 @@ The following is an outline and guideline
 * [SalesForce Automation](http://www.crmsalesforcetraining.com/sales-force-automation/)
 * [Visualforce Tags](http://www.crmsalesforcetraining.com/visualforce-tags/)
 
+## SalesForce Developement Standards
+
+* [SalesForcce Documentation](https://developer.salesforce.com/docs/)
+* [SalesForce CheatSheets](https://developer.salesforce.com/page/Cheat_Sheets)
+* [SalesForce Apex Code Best practices](https://developer.salesforce.com/page/Apex_Code_Best_Practices)
+* [SalesForce Apex Database](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
+* [SalesForce Apex Developers Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm)
+* [SalesForce Apex Testing](https://trailhead.salesforce.com/en/content/learn/modules/apex_testing)
+* [SalesForce Apext Best Pactices](https://developer.salesforce.com/index.php?title=Apex_Code_Best_Practices&oldid=26951)
+* [Security Best practices](https://www.adminbooster.com/best_practices)
+* [OWASP Code Review](https://www.owasp.org/index.php/OWASP_Code_Review_Guide_Table_of_Contents)
+* [OWASP Application Security Verification Standards](https://www.owasp.org/images/3/33/OWASP_Application_Security_Verification_Standard_3.0.1.pdf)
+
+
 
 <h2>Tutorial Index</h2>
 <p>
