@@ -1,11 +1,16 @@
 # AWS Design
 
+## General Resource
+
+* [All Documentation](https://docs.aws.amazon.com/index.html)
+
 ## Getting started
 
 * [Introduction](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
 * [resorces](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
 * [Services Overview](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
 * [Open Guides](https://github.com/open-guides/og-aws) Very good resource
+
 
 ## EC2
 
