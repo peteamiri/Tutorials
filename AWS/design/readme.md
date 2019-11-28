@@ -20,3 +20,7 @@
 
 * [Deep Dive](https://www.youtube.com/watch?v=VIgAT7vjol8)
 * [Elastic Load Balancer](https://www.youtube.com/watch?v=uTrpk-atNFc)
+
+## Machine Learning Resource
+
+* [Good Start](https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials)
