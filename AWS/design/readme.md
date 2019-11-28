@@ -1,10 +1,10 @@
 # AWS Design
 
-## Getting getting started
-
+## Getting started
 
 * [Introduction](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
 * [resorces](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
+* [Open Guides](https://github.com/open-guides/og-aws) Very good resource
 
 ## Principlas
 
