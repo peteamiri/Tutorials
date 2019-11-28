@@ -4,8 +4,13 @@
 
 * [Introduction](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
 * [resorces](https://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-intro.pdf)
+* [Services Overview](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
 * [Open Guides](https://github.com/open-guides/og-aws) Very good resource
 
+## EC2
+
+* [EC2 User Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-ug.pdf)
+*
 ## Principlas
 
 * [Start Here](https://aws.amazon.com/architecture/well-architected/)
