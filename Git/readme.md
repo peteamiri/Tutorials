@@ -17,4 +17,7 @@ This is a tutorial for Git
 
 	git add -A
 
+# Setting user credentials
 
+	git config user.name "username"
+	git config user.password "password"
