@@ -3,6 +3,7 @@
 ## General Resource
 
 * [All Documentation](https://docs.aws.amazon.com/index.html)
+* [Good Summary of Range of services](http://jayendrapatil.com/tag/availability-zone/)
 
 ## Getting started
 
