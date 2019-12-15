@@ -1,5 +1,12 @@
 # Devops DevSecOps
 
+* [Wiki](https://en.wikipedia.org/wiki/DevOps)
+* [DevOps Definition](https://theagileadmin.com/what-is-devops/)
+
+# MicroSoft DevOps
+
+* [Documentation](https://docs.microsoft.com/en-us/azure/devops/learn/)
+
 ## Resources
 
 * [BookMark](http://www.devopsbookmarks.com/)
