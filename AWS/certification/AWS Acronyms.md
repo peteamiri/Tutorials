@@ -1,5 +1,6 @@
 # Addiotional Sources
 * [Source](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+* [AWS Summary of services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
 
 # List
 

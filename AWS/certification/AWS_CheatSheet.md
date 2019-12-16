@@ -22,7 +22,9 @@
 
 **Elastic Beanstalk**: AWS Elastic Beanstalk is an applic­ation container for deploying and managing applic­ations.
 
-**Elasti­Cache**: Amazon Elasti­Cache improves applic­ation perfor­mance by allowing you to retrieve inform­ation from an in-memory caching system.
+**Elasti­Cache**: Amazon Elasti­Cache improves applic­ation perfor­mance by allowing you to retrieve inform­ation from an in-memory caching system. ElastitCace are two types;
+  * RADIUS
+  * Memcached
 
 **Elastic File System**: Amazon Elastic File System (Amazon EFS) is a file storage service for Amazon Elastic Compute Cloud (Amazon EC2) instances.
 
@@ -47,6 +49,14 @@
 **OpsWorks**: AWS OpsWorks is a DevOps platform for managing applic­ations of any scale or complexity on the AWS cloud.
 
 **RDS**: Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale familiar relational databases in the cloud.
+The followings are supported reltional databases engines;
+  * Amazon Aurora,
+  * MySQL,
+  * MariaDB,
+  * Oracle,
+  * Microsoft SQL Server,
+  * PostgreSQL
+
 
 **Redshift**: Amazon Redshift is a fast, fully managed, petaby­te-­scale data warehouse that makes it cost-e­ffe­ctive to analyze all your data using your existing business intell­igence tools.
 
