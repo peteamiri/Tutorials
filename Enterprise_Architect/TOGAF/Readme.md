@@ -24,4 +24,8 @@
 * [TOGAF ADM](https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/)
 
 
+
+
+# Youtube Resources
+* [Course -1](https://www.youtube.com/watch?v=yGWn0qKtS7U&list=PLUDQ1dvtmiWKuB9L1QHYVDoFV5zmLSOi_)
 # Archimate
