@@ -73,3 +73,27 @@
 ## Business Intelligence
 
 * [Wiki](https://en.wikipedia.org/wiki/Business_intelligence)
+
+## Big Data
+## CRISP DM
+Is a Process framework based on Scientific Methods
+
+* Define the problem
+* Get Data and information & Quality Assessment
+  - When
+  - What
+  - Why
+  - Who
+  - Where
+  - How
+* Construct a Hypothesis
+* Test the Hypothesis and Draw Conclusion
+* Share the finding
+### 6 Phases of CRISP DM
+* Business Understaanding
+* Data Understaanding
+* Data Prepration
+* Modeling
+* Evaluation
+* Deployment
+## Actionable Insight
