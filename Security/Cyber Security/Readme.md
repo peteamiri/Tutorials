@@ -8,6 +8,7 @@
 * [Computer Security](https://en.wikipedia.org/wiki/Computer_security)
 * [NIST + STICK](https://www.stigviewer.com/)
 
+
 ## Great Resources
 * [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest)
 * [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint)
@@ -18,6 +19,7 @@
 * [OWASP/owasp-mstg](https://github.com/OWASP/owasp-mstg)
 * [paragonie/awesome-appsec](https://github.com/paragonie/awesome-appsec)
 * [zbetcheckin/Security_list](https://github.com/zbetcheckin/Security_list)
+* [HackerSploit](https://hsploit.com/)
 
 # Security Database
 * [Security Database](https://www.security-database.com/)
