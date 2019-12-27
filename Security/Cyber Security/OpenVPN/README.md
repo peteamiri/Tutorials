@@ -1,6 +1,7 @@
-# OpenVPN 
+# OpenVPN
 
-* [Setting Account](https://www.vpnbook.com/freevpn)
+* [Setting Account VPNBook](https://www.vpnbook.com/freevpn)
+* [OpenVPN Howto](https://openvpn.net/community-resources/how-to/)
 
 # OpenVPN Setup on Kali
 
