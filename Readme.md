@@ -1,28 +1,42 @@
- This repository is intended to provide tutorials for the following subjects. It is all work in progress. 
+ This repository is intended to provide Information regarding the following subjects. It is all work in progress. 
 --- 
 * AWS
+* ChatBot
+* COBIT
+* Computer
 * ComputerVision
 * Cryptography
-* CSharp
-* CyberSecurity
 * DataScience
 * DesignPattern
 * DevOps
+* Enterprise_Architect
+* Enterprise_Integration_Architecture
+* FedRAMP
 * General
+* GeospatialScience
 * Git
+* Governance
+* IoT
 * ITIL
-* Java
-* JavaScript
 * Jira
 * JobInterview
+* Linux
 * MarkDown
-* NoSQL
-* ObjectOriented
-* Python
+* MicroSoft
+* NetWork+
+* Netwrok_Infrastructure_Design
+* OpenSource
+* Programming_Languages
+* Project_Management
+* PublicSpeaking
 * Readme.md
 * SalesForce
-* Scrum
+* Security
+* Security+
+* SharePoint
+* SOA
 * SoftwareArchitect
-* Swagger
-* TOGAF
-* WebDevelopment
+* Tutorial Sites
+* UI-Design
+* Virtualization
+* XML
