@@ -12,5 +12,6 @@
 ## What is data science
 * [What is Data Science](https://datascience.berkeley.edu/about/what-is-data-science/)
 * [Wiki Definition](https://en.wikipedia.org/wiki/Data_science)
+* [Youtube](https://www.youtube.com/watch?v=-ETQ97mXXF0)
 
 # Machine Learning Model

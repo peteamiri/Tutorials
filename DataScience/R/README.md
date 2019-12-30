@@ -6,3 +6,6 @@
 * [R Docummentation](https://www.r-project.org/other-docs.html)
 * [R Sources](https://cran.r-project.org/other-docs.html)
 * [Other Sources](https://cran.r-project.org/)
+
+* [Wiki](https://en.wikipedia.org/wiki/R_(programming_language))
+* [Quick Tutorial](https://cran.r-project.org/doc/contrib/usingR.pdf)
