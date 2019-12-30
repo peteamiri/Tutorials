@@ -1,6 +1,7 @@
 # Tutorial sites
 
 * [Hackr.io](https://hackr.io/)
+* [W3School](https://www.w3schools.com/)
 
 ## YouTube Playlists
 
