@@ -21,3 +21,7 @@ This is a tutorial for Git
 
 	git config user.name "username"
 	git config user.password "password"
+
+## Resources
+
+	- [Git Site](https://try.github.io/)
