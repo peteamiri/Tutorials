@@ -11,7 +11,37 @@ It is typically modeled at four levels:
 
 These levels are refered to as Basic TOGAF Architectural domains.
 
-It relies heavily on modularization, standardization, and already existing, proven technologies and products.
+TOGAF relies heavily on modularization, standardization, and already existing, proven technologies and products.
+
+#### 1.1 What is TOGAF?
+
+TOGAF is an architecture framework - The Open Group Architecture Framework. TOGAF provides the methods and tools for assisting in the acceptance, production, use, and maintenance of an enterprise architecture. It is based on an iterative process model supported by best practices and a re-usable set of existing architecture assets.
+
+#### 1.2 What is Architecture in the Context of TOGAF?
+ISO/IEC 42010:2007 defines "architecture" as:
+
+`"The fundamental organization of a system, embodied in its components, their relationships to each other and the environment, and the principles governing its design and evolution."`
+
+TOGAF embraces but does not strictly adhere to ISO/IEC 42010:2007 terminology. In TOGAF, "architecture" has two meanings depending upon the context:
+
+`"A formal description of a system, or a detailed plan of the system at component level to guide its implementation
+The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time"`
+
+#### 1.3 TOGAF document structure
+
+There are six parts to this document:
+
+* `PART I (Introduction)` This part provides a high-level introduction to the key concepts of Enterprise Architecture and in particular the TOGAF approach. It contains the definitions of terms used throughout this standard.
+
+* `PART II (Architecture Development Method)` This part is the core of the TOGAF framework. It describes the TOGAF Architecture Development Method (ADM) - a step-by-step approach to developing an Enterprise Architecture.
+
+* `PART III (ADM Guidelines & Techniques)` This part contains a collection of guidelines and techniques available for use in applying the TOGAF approach and the TOGAF ADM. Additional guidelines and techniques are available in the TOGAF Library.
+
+* `PART IV (Architecture Content Framework)` This part describes the TOGAF content framework, including a structured metamodel for architectural artifacts, the use of re-usable Architecture Building Blocks (ABBs), and an overview of typical architecture deliverables.
+
+* `PART V (Enterprise Continuum & Tools)` This part discusses appropriate taxonomies and tools to categorize and store the outputs of architecture activity within an enterprise.
+
+* `PART VI (Architecture Capability Framework)` This part discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise.
 
 ##### For more information see
 
@@ -99,6 +129,7 @@ It includes information about defining the scope of the architecture development
     - Solution Building Blocks (SBBs) represent components that will be used to implement the required capability; for example, a network is a building block that can be described through complementary artifacts and then put to use to realize solutions for the enterprise
 
 ##### For more information see
+* [TOAGF](https://pubs.opengroup.org/architecture/togaf92-doc/arch/)
 
 ## Section 5 Enterprise Continum
 
