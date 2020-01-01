@@ -43,7 +43,33 @@ There are six parts to this document:
 
 * `PART VI (Architecture Capability Framework)` This part discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise.
 
+#### 1.4 What is an enterprise?
+
+A good definition of "enterprise" in this context is any collection of organizations that has a common set of goals and/or a single bottom line. In that sense, an enterprise can be a government agency, a whole corporation, a division of a corporation, a single department, or a chain of geographically distant organizations linked together by common ownership.
+
+The term "enterprise" in the context of "enterprise architecture" can be used to denote both an entire enterprise, encompassing all of its information systems, and a specific domain within the enterprise. In both cases, the architecture crosses multiple systems, and multiple functional groups within the enterprise.
+
+Confusion also arises from the evolving nature of the term "enterprise". An extended enterprise nowadays frequently includes partners, suppliers, and customers. If the goal is to integrate an extended enterprise, then the enterprise comprises the partners, suppliers, and customers, as well as internal business units.
+
+Large corporations and government agencies may comprise multiple enterprises, and hence there may well be separate enterprise architecture projects. However, there is often much in common about the information systems in each enterprise, and there is usually great potential for gain in the use of a common architecture framework. For example, a common framework can provide a basis for the development of an architecture repository for the integration and re-use of models, designs, and baseline data.
+
+#### 1.4 Why TOGAF Works
+
+TOGAF provides the following benefits:
+
+* `Proven Method` TOGAF offers a proven method that is the result of years of research and development by the world's leading enterprise architects.
+
+* `Common Vocabulary` TOAGF guides architects in using a standard taxonomy for business, information systems, and technology modeling. This shared vocabulary means that everyone in an organization can read and understand the information.
+
+* `Communication` Models of the enterprise architecture give visual representation to business concepts, and, when published on the corporate intranet, disseminate knowledge of the business to the workforce.
+* `Command Decisions` A business-focused enterprise architecture provides knowledge about an organization and enables managers to make better-informed decisions.
+
+* `Reduced complexity` A well developed architecture leads to a better integrated solution portfolio, fewer interfaces, increased data sharing, improved reliability of the solutions, and easier maintenance.
+Business-IT alignment—The business focus of the architecture development process and the strong emphasis on the need for the implemented solution to be architecture-compliant together will help ensure that IT solutions are aligned to the needs of the business.
+
 ##### For more information see
+
+* [TOAGF Summary](https://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
 
 ## TOGAF Basic Concepts
 
@@ -168,7 +194,6 @@ The major components within an Architecture Repository are as follows:
 
 * [TOGAF 9.2](https://pubs.opengroup.org/architecture/togaf9-doc/arch/)
 * [Wiki](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
-* [Blog](http://www.mikethearchitect.com/togaf/)
 * [Simple Description](https://setandbma.wordpress.com/2011/01/25/what-is-togaf-without-jargon/)
 * [Articke](https://www.developer.com/java/ent/article.php/3374171/TOGAF-Establishing-Itself-As-the-Definitive-Method-for-Building-Enterprise-Architectures-in-the-Commercial-World.htm)
 * [TOGAF Summary](http://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
