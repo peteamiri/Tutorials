@@ -221,6 +221,16 @@ Generally high level the Steps B, C, D mainly deals with
 * Identify the target (TO-Be) architecture
 * Identify the GAP between baseline andd target architecture
 
+### What are the Common inputs for all phases
+
+1. external refrence materials
+2. Request for Architectural work (Created are Prim Phase)
+3. Business principlas goal, and drivers (Created are Prim Phase)
+4. Organization Model for EA (Created are Prim Phase)
+5. Tailored Architecture Framework (Created are Prim Phase)
+6. Populated Architecture Repository (Created are Prim Phase)
+
+
 ### What are the Architecture Partitioning
 
 There are three layers to the EA architectrue
