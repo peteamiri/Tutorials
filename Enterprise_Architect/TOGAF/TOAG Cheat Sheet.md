@@ -235,8 +235,8 @@ Generally high level the Steps B, C, D mainly deals with
 
 There are three layers to the EA architectrue
 
-* `Strategic Architecture`: Generally these are the `concerns` associated with top exuctivies.
-* `Segmented Architecture`: Generally these are partial architectural models, they should be fully inline with the strategic
+* `Strategic Architecture`: Generally these are the `stakeholder's concerns` associated with top exuctivies.
+* `Segmented Architecture`: Generally these are partial architectural models, they may be drived from the busines goals, some of the business golas may also be drived from the `stakeholders concerns` they should be fully inline with the strategic
 * `Capabilites Architecture`: these are capabilities level, they may be initiated from the requirent phase (The middle circle). These should be fully inline with both Strategic and Segemented architecture.
 
 ### What is the versioning convention used for deliverables?
