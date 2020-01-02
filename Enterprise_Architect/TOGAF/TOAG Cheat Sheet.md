@@ -192,10 +192,11 @@ The ADM diagram above is carefully drawn to try and make it clear that the ADM s
 
 ### What are the typical sets of steps within a phase?
 
-* input
+* Input
 * process
-* output
-*
+* Output
+
+
 ### What is the versioning convention used for deliverables?
 
 ### What is its relationship to other parts of the TOGAF standard?
@@ -220,11 +221,16 @@ The ADM diagram above is carefully drawn to try and make it clear that the ADM s
 
 ### What are the categories of views in Enterprise Continium
 
+Each category can be broken into
+
+* Architectural Continum (What)
+* Solution Continum (How)
+
+Each are broken into the following categories (Most Generic at the top very specific at the bottom)
+
 1. Foundation (TRM)
 1. Common System (III-RM)
 1. Industry (Generic Vendor Solution)
     (e.g. Oracle Financial)
 1. Organization (Full developed or customized application)
     (e.g. fully customized Orccle financial)
-
-Each category can be broken into Architectural (What) and So lution (How)

@@ -91,9 +91,9 @@ Business-IT alignment—The business focus of the architecture development proce
 * [Short Tutorial](https://tekslate.com/togaf-tutorials)
 * [TOAGF Tutorials](https://www.edureka.co/blog/togaf-training/)
 * [YouTube Tutorial](https://www.youtube.com/watch?v=UuzhmspJ9MQ&list=PL2DBS7YokxakHkMnodzwroStCf6qtU0WT)
-* [Great Exam Practice Site](http://theopenarch.com/81-tests/72-togaf-9-exam-tests.html)
-* [Video](https://www.orbussoftware.com/resources/videos/togaf-distilled)
+* [Youtube training](https://www.youtube.com/watch?v=UnhC9xk9wiE)
 * [Good Introduction](https://www.youtube.com/watch?v=3M4NKwoaLk4&list=PL2FF5FCBA1AF9B8FA)
+* [Great Exam Practice Site](http://theopenarch.com/81-tests/72-togaf-9-exam-tests.html)
 * [Mock Exam](https://www.techbolo.com/)
 * [MOCK Exam] (https://setandbma.wordpress.com/2011/03/30/togaf-foundation-level-certification-aid-for-preparation/)
 
