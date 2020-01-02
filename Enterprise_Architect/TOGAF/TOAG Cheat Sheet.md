@@ -4,7 +4,9 @@ TOGAF stands for The Open Group Architectural Framework. It is a tool for assist
 
 ### What is an enterprise according to the TOGAF standard?
 
-The standard defines an “enterprise” as any collection of organisations that have a common set of goals.  Within TOGAF this can be extended to include supply chain partners working with the business to achieve its goals.  For example an online store using a third party distribution centre to store and despatch its orders would include the distribution company within its enterprise.
+“Enterprise” is any collection of organisations that have a common set of goals.  Within TOGAF this can be extended to include supply chain partners working with the business to achieve its goals.
+
+For example an online store using a third party distribution centre to store and despatch its orders would include the distribution company within its enterprise.
 
 ### What is enterprise architecture according to TOGAF?
 
@@ -15,6 +17,18 @@ The purpose of Enterprise Architecture is to optimise across the enterprise the 
 The effective management and use of information through IT is a key factor in succesful leading businesses. An enterprise architecture addresses this requirement by providing a strategic context for the evolution of the IT system in response to the constantly changing needs of the business environment.
 
 A good Enterprise Architecture achieves the right balance between IT efficiency and business innovation. It both allows business units to innovate while maintaining an integrated and cohesive IT strategy enabling the closets possible synergy across the extended enterprise.
+
+### What are the TOGAF Characteristics?
+
+It is
+* It is an architecture framework
+* it is Comprehensive
+* It is generic and it can be applied across are business and industires
+* It is technology agnostic
+* It encourages and facilitates re-use
+* It is a `tool` for assisting in the acceptance, production, use, and maintenance of `Enterprise Architecture`
+* It is itrative
+* It is based on best practices and re-use of sets of existing architectural assets
 
 ### What are the business benefits?
 
@@ -220,6 +234,7 @@ Generally high level the Steps B, C, D mainly deals with
 * Identify the baseline (AS-IS) architecture
 * Identify the target (TO-Be) architecture
 * Identify the GAP between baseline andd target architecture
+* Define the roadmap as how to get to the target architecture
 
 ### What are the Common inputs for all phases
 
