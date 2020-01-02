@@ -15,9 +15,31 @@ TOGAF relies heavily on modularization, standardization, and already existing, p
 
 #### 1.1 What is TOGAF?
 
-TOGAF is an architecture framework - The Open Group Architecture Framework. TOGAF provides the methods and tools for assisting in the acceptance, production, use, and maintenance of an enterprise architecture. It is based on an iterative process model supported by best practices and a re-usable set of existing architecture assets.
+* TOGAF is a framework - a detailed method and a set of supporting tools - for developing an enterprise architecture.
+
+* TOGAF is an architecture framework - The Open Group Architecture Framework. TOGAF provides the methods and tools for assisting in the acceptance, production, use, and maintenance of an enterprise architecture. It is based on an iterative process model supported by best practices and a re-usable set of existing architecture assets.
+
+#### What is a framework
+
+An Architecturre Framework is:
+
+1. a precisely define language for describing an architecture.
+2. Predefined Buildig blocks for putting it together
+3. Precise steps to follow.
+
+
+#### What is an enterprise?
+
+`TOGAF defines "enterprise" as any collection of organizations that has a common set of goals. For example, an enterprise could be a government agency, a whole corporation, a division of a corporation, a single department, or a chain of geographically distant organizations linked together by common ownership.`
+
+The term "enterprise" in the context of "enterprise architecture" can be used to denote both an entire enterprise - encompassing all of its information and technology services, processes, and infrastructure - and a specific domain within the enterprise. In both cases, the architecture crosses multiple systems, and multiple functional groups within the enterprise.
+
+Confusion often arises from the evolving nature of the term "enterprise". An extended enterprise nowadays frequently includes partners, suppliers, and customers. If the goal is to integrate an extended enterprise, then the enterprise comprises the partners, suppliers, and customers, as well as internal business units.
+
+The business operating model concept is useful to determine the nature and scope of the enterprise architecture within an organization. Large corporations and government agencies may comprise multiple enterprises, and may develop and maintain a number of independent enterprise architectures to address each one. However, there is often much in common about the information systems in each enterprise, and there is usually great potential for gain in the use of a common architecture framework. For example, a common framework can provide a basis for the development of an Architecture Repository for the integration and re-use of models, designs, and baseline data.
 
 #### 1.2 What is Architecture in the Context of TOGAF?
+
 ISO/IEC 42010:2007 defines "architecture" as:
 
 `"The fundamental organization of a system, embodied in its components, their relationships to each other and the environment, and the principles governing its design and evolution."`
@@ -43,15 +65,6 @@ There are six parts to this document:
 
 * `PART VI (Architecture Capability Framework)` This part discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise.
 
-#### 1.4 What is an enterprise?
-
-A good definition of "enterprise" in this context is any collection of organizations that has a common set of goals and/or a single bottom line. In that sense, an enterprise can be a government agency, a whole corporation, a division of a corporation, a single department, or a chain of geographically distant organizations linked together by common ownership.
-
-The term "enterprise" in the context of "enterprise architecture" can be used to denote both an entire enterprise, encompassing all of its information systems, and a specific domain within the enterprise. In both cases, the architecture crosses multiple systems, and multiple functional groups within the enterprise.
-
-Confusion also arises from the evolving nature of the term "enterprise". An extended enterprise nowadays frequently includes partners, suppliers, and customers. If the goal is to integrate an extended enterprise, then the enterprise comprises the partners, suppliers, and customers, as well as internal business units.
-
-Large corporations and government agencies may comprise multiple enterprises, and hence there may well be separate enterprise architecture projects. However, there is often much in common about the information systems in each enterprise, and there is usually great potential for gain in the use of a common architecture framework. For example, a common framework can provide a basis for the development of an architecture repository for the integration and re-use of models, designs, and baseline data.
 
 #### 1.4 Why TOGAF Works
 
@@ -69,6 +82,7 @@ Business-IT alignment—The business focus of the architecture development proce
 
 ##### For more information see
 
+* [TOAGF FAQ](https://www.itmanagement101.co.uk/togaf-resource-directory/togaf-basic-concepts-faq/)
 * [TOAGF Summary](https://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
 * [Summary](https://www.visual-paradigm.com/guide/togaf/what-is-togaf/)
 * [Overview](https://www.goodelearning.com/courses/enterprise-architecture/togaf-9-foundation/what-is-togaf)
@@ -79,6 +93,9 @@ Business-IT alignment—The business focus of the architecture development proce
 * [YouTube Tutorial](https://www.youtube.com/watch?v=UuzhmspJ9MQ&list=PL2DBS7YokxakHkMnodzwroStCf6qtU0WT)
 * [Great Exam Practice Site](http://theopenarch.com/81-tests/72-togaf-9-exam-tests.html)
 * [Video](https://www.orbussoftware.com/resources/videos/togaf-distilled)
+* [Good Introduction](https://www.youtube.com/watch?v=3M4NKwoaLk4&list=PL2FF5FCBA1AF9B8FA)
+* [Mock Exam](https://www.techbolo.com/)
+* [MOCK Exam] (https://setandbma.wordpress.com/2011/03/30/togaf-foundation-level-certification-aid-for-preparation/)
 
 ## TOGAF Basic Concepts
 

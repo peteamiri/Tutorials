@@ -68,3 +68,7 @@ The eight questions are drawn from the following topic areas:
 1. TOGAF Reference Models
 
 1. Architecture Capability Framework
+
+### resources
+
+* [Tips for taking exam](http://togaf9certprep.blogspot.com/)
