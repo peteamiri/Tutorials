@@ -117,6 +117,19 @@ The ACF (Part VII) describes how to set-up an architectural practice to operate 
 1. Phase H: Architecture Change Management
 1. Requirements Management: this is the process for managing architectural requirements throughout the ADM.
 
+### Provide a high-level overview of ADM
+
+* The Prilimary phase provides the overall view of stakeholders, scope of the enterprise, and architecture principals.
+the requirments for the `Architecture Project`, Most importanlty deffines the `goal` it also defined the SOW, Communication plan, Project Plan, Architecture Capabilities, team memebers. It mainly defines the `Architectural Project Requirments`. This requirement is refered to as `Statement for Architectural Work` (this is exaclty like SOW but it is SAW)
+* Phase A Defines the Scope of the work, estimate resources, budget, roadmap and schedules, PKI and metrics, and Communication Plan. this is excalty like a Project management approach. It identifies the new capabilites to be delivered and the business value it provides. Also to Obtain approval for the `Statement for Architectural Work`.
+* The Phase B translates the architectural gaols and requirments to business requirments. Define the baseline, and target architecture and the gaps in the business process. and possibly associate any requirments from the Requirment Phase.
+* The Phase C translates the Gaps from the Pahse B into application and data requirments, define the baseline, and target architecutrue and gaps at the application and data level.
+* Phase D translates the gaps from the Phase C into the requirments from phase C and add any requirments from the Requirments Phase. It defines the baseline and  target architecture into the gaps at the technology level.
+* Phase E analyse the Gaps from the Phase C and D and possibly the Phase B into a solution. this solution will be working with Solutions Architecture.
+* Phase F is the delivery of the design and solutions fromthe Phase E.
+* Phase G ensure and supervise the implementation of the solution and make sure they are fully inline with the defined solutions.
+* Phase H ensure the architecture capabilites,
+
 ### What are the TOGAF deliverables, artefacts, and building blocks?
 
 The Architecture Content Framework uses the following three categories to describe the type of architectural work products:
@@ -190,12 +203,31 @@ The ADM diagram above is carefully drawn to try and make it clear that the ADM s
 * Between phases: For example from Technology Architecture back to Business Architecture.
 * Around a single phase: For example iterating around a single phase as a technique for elaborating the architectural content.
 
+
+* `Architecture Capablity Iteralion` The Prilimary phase and Architecture Vision (Phase A) sets the goals and defiens  the Architecture project plan.
+* `Architecture Development Iteraltion` The Phase B, C, and D is manily development phase that develop the detailed approach to the Architectural Model
+* Transition Planning` is consist of Phase E and E. this is where the design is implemented. Generally Phase E is where solution architecti is involved and Phase F is when project management is involved.
+* `Governance Iteration` are Phase G and H, deals with ensuring the implementation is compliant and fully aligned with the EA goals.
+
 ### What are the typical sets of steps within a phase?
 
 * Input
-* Steps 
+* Steps
 * Output
 
+Generally high level the Steps B, C, D mainly deals with
+
+* Identify the baseline (AS-IS) architecture
+* Identify the target (TO-Be) architecture
+* Identify the GAP between baseline andd target architecture
+
+### What are the Architecture Partitioning
+
+There are three layers to the EA architectrue
+
+* `Strategic Architecture`: Generally these are the `concerns` associated with top exuctivies.
+* `Segmented Architecture`: Generally these are partial architectural models, they should be fully inline with the strategic
+* `Capabilites Architecture`: these are capabilities level, they may be initiated from the requirent phase (The middle circle). These should be fully inline with both Strategic and Segemented architecture.
 
 ### What is the versioning convention used for deliverables?
 
