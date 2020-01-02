@@ -193,7 +193,7 @@ The ADM diagram above is carefully drawn to try and make it clear that the ADM s
 ### What are the typical sets of steps within a phase?
 
 * Input
-* process
+* Steps 
 * Output
 
 

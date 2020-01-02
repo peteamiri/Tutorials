@@ -1,11 +1,14 @@
- This repository is intended to provide Information regarding the following subjects. It is all work in progress. 
---- 
+# Tutorial
+
+This document is intended to provide information regarding the following subjects
+
 * AWS
 * ChatBot
 * COBIT
-* Computer
+* Computer Science
 * ComputerVision
 * Cryptography
+* Database
 * DataScience
 * DesignPattern
 * DevOps
@@ -20,19 +23,18 @@
 * ITIL
 * Jira
 * JobInterview
-* Linux
 * MarkDown
-* MicroSoft
+* MuleSoft
 * NetWork+
 * Netwrok_Infrastructure_Design
 * OpenSource
 * Programming_Languages
 * Project_Management
 * PublicSpeaking
+* Raspberry Pi
 * Readme.md
 * SalesForce
 * Security
-* Security+
 * SharePoint
 * SOA
 * SoftwareArchitect
