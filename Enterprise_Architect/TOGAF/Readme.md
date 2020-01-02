@@ -70,6 +70,15 @@ Business-IT alignment—The business focus of the architecture development proce
 ##### For more information see
 
 * [TOAGF Summary](https://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
+* [Summary](https://www.visual-paradigm.com/guide/togaf/what-is-togaf/)
+* [Overview](https://www.goodelearning.com/courses/enterprise-architecture/togaf-9-foundation/what-is-togaf)
+* [Summary Overview](http://www.togaf.info/sg02)
+* [Summary of TOAGF](https://www.visual-paradigm.com/guide/togaf/togaf-91-framework/)
+* [Short Tutorial](https://tekslate.com/togaf-tutorials)
+* [TOAGF Tutorials](https://www.edureka.co/blog/togaf-training/)
+* [YouTube Tutorial](https://www.youtube.com/watch?v=UuzhmspJ9MQ&list=PL2DBS7YokxakHkMnodzwroStCf6qtU0WT)
+* [Great Exam Practice Site](http://theopenarch.com/81-tests/72-togaf-9-exam-tests.html)
+* [Video](https://www.orbussoftware.com/resources/videos/togaf-distilled)
 
 ## TOGAF Basic Concepts
 
@@ -138,6 +147,7 @@ It includes information about defining the scope of the architecture development
 * `Requirements` Management examines the process of managing architecture requirements throughout the ADM
 
 ##### For more information see
+* [ADM Tutorial](https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/)
 
 ## Section 4 Deliverable, Artifacts, and Building Blocks
 
@@ -164,7 +174,8 @@ Enterprise Continum is mainly is a view of Enterprise Repository or simply `virt
 The simplest way of thinking of the Enterprise Continuum is as a `virtual repository` of all the architecture assets - models, patterns, architecture descriptions, and other artifacts - that exist both within the enterprise and in the IT industry at large, which the enterprise considers itself to have available for the development of architectures for the enterprise.
 
 ##### For more information see
-
+* [TRM](https://mariosergioflorian.blogspot.com/2012/11/togaf-trm-crub-notes.html)
+* [Continum](https://bizzdesign.com/blog/using-the-togaf-enterprise-continuum-to-classify-architectures-descriptions/)
 
 ## Section 6 Archtecture Repository
 
