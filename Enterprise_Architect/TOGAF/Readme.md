@@ -173,6 +173,9 @@ Enterprise Continum is mainly is a view of Enterprise Repository or simply `virt
 
 The simplest way of thinking of the Enterprise Continuum is as a `virtual repository` of all the architecture assets - models, patterns, architecture descriptions, and other artifacts - that exist both within the enterprise and in the IT industry at large, which the enterprise considers itself to have available for the development of architectures for the enterprise.
 
+* Architertural Continum
+* Solution Continum
+
 ##### For more information see
 * [TRM](https://mariosergioflorian.blogspot.com/2012/11/togaf-trm-crub-notes.html)
 * [Continum](https://bizzdesign.com/blog/using-the-togaf-enterprise-continuum-to-classify-architectures-descriptions/)
@@ -200,6 +203,8 @@ The major components within an Architecture Repository are as follows:
 ##### For more information see
 
 ## Section 7 Establishing & Maintaining Enterprise Architecture Capability
+
+Defines Organization Structur, roles, responsibilites, skills, and processes required for an effective Enterprise Architect praactice.
 
 ## Resources
 
