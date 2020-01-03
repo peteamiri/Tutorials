@@ -185,16 +185,21 @@ It includes information about defining the scope of the architecture development
 ##### For more information see
 * [ADM Tutorial](https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/)
 
-### [Preliminary Phase](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html)
+## ADM Phases in detailed
+This section provide more detaails on the ADM Phases.
+
+![ADM Phases](images/TOAGF-Phases.png)
+
+### [Preliminary Phase](http://pubs.opengroup.org/architecture/togaf-doc/arch/chap06.html)
 
 * Preperation and initiation activities
 
-Preliminary Phase - Objectives
+##### Preliminary Phase - Objectives
 
 * Determine the architecture capability desired by the organization
 * Establish an architecture capability
 
-Preliminary Phase - Approach
+##### Preliminary Phase - Approach
 
 * Defining the enterprise
 	* Which lines of busines
@@ -209,7 +214,7 @@ Preliminary Phase - Approach
 * Evaluate enterprise maturity and capability
 * Define architecture principles - foundation for making decisions
 
-Inputs
+##### Inputs
 
 * TOGAF
 * Other arch frameworks
@@ -218,7 +223,7 @@ Inputs
 * Arch capability
 * Parnerships and contract agreements
 
-Steps
+##### Steps
 
 1. Scope the enterprise organization impacted - what domain do you operate in? Businesses, applications, etc.
 2. Confirm governance and support frameworks.
@@ -227,7 +232,7 @@ Steps
 5. Tailor TOGAF and other frameworks
 6. Implement architecture tools
 
-Outputs
+##### Outputs
 
 1. Organization model for enterprise architecture
 2. Tailored architecture framework
@@ -245,7 +250,7 @@ Outputs
 	* Define KPIs and metrics
 * Developer a communications plan
 
-Architecture Vision - Objectives
+##### Architecture Vision - Objectives
 
 * Develop a high-level vision of the capabilities and business value to be delivered as a result of the proposed enterprise architecture
 * Obtain approval for a Statement of Architecture Work that defines a program of works to develop and deploy the architecture outlined in the Architecture Vision
@@ -255,19 +260,19 @@ Architecture Vision - Objectives
 	* Define KPIs and metrics
 	* Communications plan
 
-Objectives
+##### Objectives
 
 1. Developer a high level aspirational vision of the capabilities and business value to be delivered
 2. Obtain approval for the statement of architecture work
 
 
-Approach
+##### Approach
 
 1. Create the request for architecture work - carefully define scope - what's in, what's out
 2. Creating the architecture vision
 3. Go through the [ADM "business scenarios" process](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap26.html) (use cases)
 
-Business Scenarios process
+##### Business Scenarios process
 
 1. Start with a problem
 2. A problem exists in an *environment*
@@ -277,7 +282,7 @@ Business Scenarios process
 6. There are *roles and responsibilities* for all of these.
 7. You go back through the steps to *refine* things
 
-Inputs
+##### Inputs
 
 1. External reference models
 2. Request for architecture work (prelim phase)
@@ -289,7 +294,7 @@ Inputs
 
 Note - all of the above are common inputs for the architecture definitions phases
 
-Steps
+##### Steps
 
 1. Establish the architecture project (kickoff, schedule, tasks, project mgmt)
 2. Identitfy stakeholders, concerns, and business requirements
@@ -303,7 +308,7 @@ Steps
 10. Identify transformation risks and mitigation strategies
 11. Develop statement of architecture work, secure approval
 
-Outputs (usually documents)
+##### Outputs (usually documents)
 
 1. Approved statement of architecture work
 2. Refined statements of business principles, goals, and drivers
@@ -315,7 +320,7 @@ Outputs (usually documents)
 8. Communications plan
 9. Additional content in the architecture repository
 
-Artifacts
+##### Artifacts
 
 * Matrices: stakeholder map matrix
 * Diagrams: value chain diagran, solution context diagram
@@ -329,7 +334,7 @@ Artifacts
 * Develop a target business architecture v1.0 - top down
 * Identify gaps between baseline, target
 
-Business Architecture - Objectives
+##### Business Architecture - Objectives
 
 * Develop the Target Business Architecture that describes how the enterprise needs to operate to achieve the business goals, and respond to the strategic drivers set out in the Architecture Vision, in a way that addresses the Request for Architecture Work and stakeholder concerns
 * Identify candidate Architecture Roadmap components based upon gaps between the Baseline and Target Business Architectures
@@ -343,7 +348,7 @@ Business Architecture - Objectives
 * Develop baseline [application architecture](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap11.html) 1.0
 * Develop target app architecture 1.0
 
-Objectives
+##### Objectives
 
 * Develop the Target Information Systems (Data and Application) Architecture, describing how the enterprise's Information Systems Architecture will enable the Business Architecture and the Architecture Vision, in a way that addresses the Request for Architecture Work and stakeholder concerns
 * Identify candidate Architecture Roadmap components based upon gaps between the Baseline and Target Information Systems (Data and Application) Architectures
@@ -354,12 +359,12 @@ Objectives
 * T in BDAT
 * Same story - baseline and target, gap analysis
 
-Objectives:
+##### Objectives:
 
 * Develop the Target Technology Architecture that enables the logical and physical application and data components and the Architecture Vision, addressing the Request for Architecture Work and stakeholder concerns
 * Identify candidate Architecture Roadmap components based upon gaps between the Baseline and Target Technology Architectures
 
-Phase E - Opportunities and Solutions
+##### Phase E - Opportunities and Solutions
 
 * Initial complete version of the architecture roadmap, based on gap analysis of the bdat
 * Consolidation of phases B, C, and D into a roadmap
@@ -371,7 +376,7 @@ Phase E - Opportunities and Solutions
 	* Sequencing of work
 	* Grouping of work (what can be done at the same time?)
 
-Phase F - Migration Planning
+##### Phase F - Migration Planning
 
 * Finalize the architecture roadmap and the implementation and migration plans from phase E
 * Ensure the plan is coordinated with the enterprise's approach to change
@@ -380,7 +385,7 @@ Phase F - Migration Planning
 * Start thinking about implementation: costs, resources, timing
 * Transition from developing the architecture to implementing
 
-Phase G - Implementation Govenernance
+##### Phase G - Implementation Govenernance
 
 * Ensure conformance with the target architecture
 * Governance duties
@@ -389,7 +394,7 @@ Phase G - Implementation Govenernance
 	* Done when a transition architecture goes live
 * Phase G ends when the solutions are fully deployed
 
-Phase H - Architecture Change Management
+##### Phase H - Architecture Change Management
 
 * Keeping the architecture alive
 * Ensure architecture governance is happening
@@ -398,7 +403,7 @@ Phase H - Architecture Change Management
 to technology, formal change requests.
 
 
-Requirements Management
+##### Requirements Management
 
 * Center of the hub
 * Operates continuously during the ADM process
