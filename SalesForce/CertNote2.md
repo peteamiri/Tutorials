@@ -11,7 +11,7 @@ The  following image displays the Administrators menu selection under setup;
 
 ![Admin Menu](./image/Admin_Menu.PNG)
 
-# Organization Setup - 1%
+# Organization Setup
 
 Generally the Company Profile set up is the first step. You can find the "Company Profile" Menu selection under the Administration Menu;
 
@@ -41,13 +41,13 @@ when setting the Company Information the following sections are avaiavle on the 
 ## 1.1 Organization details:
 The following is the organization information;
 
-* Organization Name, 
-* Primary Contact, 
-* Default locale, 
-* default language, 
-* currency locale, 
-* used data / File Space, 
-* API requests, 
+* Organization Name,
+* Primary Contact,
+* Default locale,
+* default language,
+* currency locale,
+* used data / File Space,
+* API requests,
 * SalesForce.com organization ID.
 
 ![Admin Menu](./image/Company_Information_Section.PNG)
@@ -60,21 +60,21 @@ A user license determines the baseline of features that the user can access. Eve
 
 The followings are the user licenses;
 
-* SalesForce, 
-* SalesForce platform, 
-* Force.com, 
-* Knowledge Only, 
-* Chatter Free, 
-* Chatter external, 
-* Chatter only/plus,  
-* Customer portal, 
+* SalesForce,
+* SalesForce platform,
+* Force.com,
+* Knowledge Only,
+* Chatter Free,
+* Chatter external,
+* Chatter only/plus,
+* Customer portal,
 * Partner
 
 ### 1.3 Permission Set Licence
 
 ![Admin Menu](./image/Permision_Set_Licenses.PNG)
 
-A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses. 
+A permission set is a convenient way to assign users specific settings and permissions to use various tools and functions. Permission set licenses incrementally entitle users to access features that are not included in their user licenses.
 
 Users can be assigned any number of permission set licenses.
 
@@ -86,18 +86,18 @@ A feature license entitles a user to access an additional feature that is not in
 
 The followings are the Feature Licenses;
 
-* Marketing user, 
-* Offline user, 
-* Knowledge user, 
-* Force.com Flow user, 
-* Service cloud user, 
-* site.com contributor, 
-* site.com publisher, 
-* Mobile user, 
-* SalesForce CRM Content user, 
+* Marketing user,
+* Offline user,
+* Knowledge user,
+* Force.com Flow user,
+* Service cloud user,
+* site.com contributor,
+* site.com publisher,
+* Mobile user,
+* SalesForce CRM Content user,
 * live agent user
 
-User Licenses show status, total licenses, used licenses, remaining licenses and expiration date. **Feature licenses are same but do not show expiration date** 
+User Licenses show status, total licenses, used licenses, remaining licenses and expiration date. **Feature licenses are same but do not show expiration date**
 
 (They are attached to the user licenses, to enable a feature for a user in your organization, you can assign feature licenses when adding new users or editing a user's personal information, checkboxes!)
 
@@ -114,9 +114,9 @@ Other entitlements are not persistent; these entitlements work like credit. Your
 For example:
 
     * Company A purchases 50 monthly logins for a Partner Community, and on January 15 that org has a pool of 50 logins. Each time someone logs in, one login is used. On February 15, no matter how many were used in the previous month, the pool is refreshed and 50 logins are available through March 14.
-    
+
     * Company B purchases 2,000 records for Data.com list users with an end date of May 15. That org’s list users can add or export up to 2,000 records until that date. If the org reaches that limit before May 15, the Data.com list users won’t be able to add or export more records. To unblock users, Company B can purchase more records.
-    
+
 > NOTE: If your org has multiple contracts with the same Resource and the Resource ID is (tenant), you will still only see one row for that entitlement, but the data in that row will reflect your combined contracts. In this case, Start Date reflects the earliest start date among those contracts, and End Date reflects the latest end date among those contracts.Like feature licenses, usage-based entitlements don’t limit what you can do in SalesForce; they add to your functionality. If your usage exceeds the allowance, SalesForce will contact you to discuss additions to your contract.
 
 * **View Your SalesForce Org’s Usage-Based Entitlements**; Look at your company’s usage-based entitlements to know which resources your org is entitled to.
@@ -150,7 +150,7 @@ Holidays are dates and times at which business is closed. Enter the dates and ti
 
 ## Language Setting
 
-where you set end user (help and admin setup are not translated) and platform only languages. 
+where you set end user (help and admin setup are not translated) and platform only languages.
 
 Languages that appear in gray are currently used by your company, users, or both. They cannot be deactivated
 
@@ -239,11 +239,11 @@ edit the activity to select another.**
 
 The followings are the list of Standard Apps;
 
-* Sales, 
-* Call Center, 
-* Marketing, 
-* Community, 
-* Site.com, 
+* Sales,
+* Call Center,
+* Marketing,
+* Community,
+* Site.com,
 * SalesForce Chatter
 
 ![Admin Menu](./image/Fiscal_Year_Custom.PNG)
@@ -272,11 +272,11 @@ Profile settings control access to applications and objects. Sharing features co
 
 Maximum SalesForce users per edition:
 
-* Contact Manager(5), 
-* Group(5), 
-* Professional(unlt), 
-* Enterprise(unlt), 
-* Unlimited(unlt), 
+* Contact Manager(5),
+* Group(5),
+* Professional(unlt),
+* Enterprise(unlt),
+* Unlimited(unlt),
 * Developer(2)
 
 3. Given a scenario, troubleshoot common user access and visibility issues
@@ -1178,13 +1178,13 @@ Posted 6th January 2013 by Green Jay
 
 # Activity Management - 3%
 
-29. Describe the capabilities of activity management 
+29. Describe the capabilities of activity management
 
-There are two types of activities; 
+There are two types of activities;
 
-* Events; Events show up on your calendar have specific time associated with the. 
-* Tasks; Task does not have specific time but they have a date. This is the difference. 
- 
+* Events; Events show up on your calendar have specific time associated with the.
+* Tasks; Task does not have specific time but they have a date. This is the difference.
+
 Reminder pop ups only come up only when the user is logged in
 
 1. Calendar (two person button, to see all users calendar and great tool to find meeting time)
@@ -2076,7 +2076,7 @@ Often times, when setting up escalation rules you will want to include an owners
 1. Assignment Rules that transfer inbound cases from your web to case to a queue or a potential owner will evaluate the escalation rule and then assign the case.
 
     Example: Once a case is submitted, it will move through the escalation rules and trigger if it meets a criteria. Afterward, the case will be evaluated by the Assignment Rules and be redirected accordingly. If the escalation rule included a filter that referenced ownership after the assignment, the escalation will not be triggered.
-    
+
 2. Manually transferring records will not trigger Assignment or Escalation Rules.
 
     Example: An escalation rule dictates that any cases owned by User 2 will be escalated after 30 minutes.

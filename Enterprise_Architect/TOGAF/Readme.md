@@ -13,6 +13,9 @@ These levels are refered to as Basic TOGAF Architectural domains.
 
 TOGAF relies heavily on modularization, standardization, and already existing, proven technologies and products.
 
+
+This immages also provides the Architecture patritioning.
+
 #### 1.1 What is TOGAF?
 
 * TOGAF is a framework - a detailed method and a set of supporting tools - for developing an enterprise architecture.
@@ -64,6 +67,8 @@ There are six parts to this document:
 * `PART V (Enterprise Continuum & Tools)` This part discusses appropriate taxonomies and tools to categorize and store the outputs of architecture activity within an enterprise.
 
 * `PART VI (Architecture Capability Framework)` This part discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise.
+
+![Document Structure](images/DocumentStructure.png)
 
 
 #### 1.4 Why TOGAF Works
@@ -135,7 +140,20 @@ There are four architecture domains:
 
 * `Secuirty Architecture` is a very important aspect of Architecture that mainly should be part of each of the above domains.
 
+![Architecture Domains](images/TOGAF-Domains.gif)
+
 ##### For more information see
+
+### What are the Architecture Partitioning
+
+There are three layers to the EA architectrue
+
+* `Strategic Architecture`: Generally these are the `stakeholder's concerns` associated with top exuctivies.
+* `Segmented Architecture`: Generally these are partial architectural models, they may be drived from the busines goals, some of the business golas may also be drived from the `stakeholders concerns` they should be fully inline with the strategic
+* `Capabilites Architecture`: these are capabilities level, they may be initiated from the requirent phase (The middle circle). These should be fully inline with both Strategic and Segemented architecture.
+
+![TOGAF Domains](images/05_admintro2.png)
+
 
 ## Section 3 Architect Development Method (ADM)
 
@@ -161,6 +179,8 @@ It includes information about defining the scope of the architecture development
 * `Phase H`: Architecture Change Management establishes procedures for managing change to the new architecture
 
 * `Requirements` Management examines the process of managing architecture requirements throughout the ADM
+
+![ADM Phases](images/04-togaf-steps-and-deliverables.png)
 
 ##### For more information see
 * [ADM Tutorial](https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/)
