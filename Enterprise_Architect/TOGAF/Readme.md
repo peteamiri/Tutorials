@@ -200,6 +200,8 @@ It includes information about defining the scope of the architecture development
 
     - Solution Building Blocks (SBBs) represent components that will be used to implement the required capability; for example, a network is a building block that can be described through complementary artifacts and then put to use to realize solutions for the enterprise
 
+![Deliverables](images/DeliverableArtifactBuildingBlocks.png)
+
 ##### For more information see
 * [TOAGF](https://pubs.opengroup.org/architecture/togaf92-doc/arch/)
 
@@ -235,6 +237,8 @@ The major components within an Architecture Repository are as follows:
 * The Architecture Requirements Repository provides a view of all authorized architecture requirements which have been agreed with the Architecture Board
 
 * The Solutions Landscape presents an architectural representation of the SBBs supporting the Architecture Landscape which have been planned or deployed by the enterprise
+
+![TOAGF Repository Structure](images/Architecture-Repository.jpg)
 
 ##### For more information see
 
