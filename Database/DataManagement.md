@@ -1,7 +1,8 @@
 ## Data Management – Fundamentals
 
 * Legacy / flat file formats (e.g., delimited text files), flat tables, use of delimiters and pointers
-* Roles:
+
+## Roles:
   * Data Analyst,
   * Database Administrator (DBA),
   * ETL developer,
@@ -9,19 +10,19 @@
   * Data Architect,
   * Enterprise Information Architects
 
-* Data types:
+## Data types:
   * Structured,
   * Semi-Structured,
   * None-Structured
 
-* Types of databases:
+## Types of databases:
   * Relational (OLTP) ,
   * object-oriented,
   * NoSQL (non-relational),
   * Geospatial,
   * Data Warehouse (OLAP)
 
-* Relational
+### Relational
   * Understanding databases, schemas, tables, views (including materialized)
   * Understanding fields, field-types, primary keys (including compound and composite), foreign keys,
     * unique keys (anonymous/surrogate keys vs. smart/intelligent /natural), random keys (GUIDs) vs auto increment key

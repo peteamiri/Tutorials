@@ -7,6 +7,7 @@
 * [TutorialsPoint Youtube Site](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg/playlists)
 * [Some Good Free Courses](https://www.cybrary.it/)
 * [Youtube Playlist](https://www.youtube.com/user/cbtnuggets/playlists)
+* [Youtube PlayList](https://www.youtube.com/user/Simplilearn/playlists)
 
 ## YouTube Playlists
 
