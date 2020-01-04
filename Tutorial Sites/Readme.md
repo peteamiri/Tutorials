@@ -1,7 +1,11 @@
 # Tutorial sites
 
 * [Hackr.io](https://hackr.io/)
+* [Guru99](https://www.guru99.com/)
 * [W3School](https://www.w3schools.com/)
+* [TutorialsPoint](https://www.tutorialspoint.com/index.htm)
+* [TutorialsPoint Youtube Site](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg/playlists)
+* [Some Good Free Courses](https://www.cybrary.it/)
 
 ## YouTube Playlists
 
