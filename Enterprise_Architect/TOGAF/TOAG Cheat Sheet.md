@@ -110,13 +110,13 @@ The ACF (Part VII) describes how to set-up an architectural practice to operate 
 
 ### What are the different types of architecture that the TOGAF standard deals with?
 
-1. Business Architecture: The business strategy, governance, organisation and key business processes.
+1. `Business Architecture`: The business strategy, governance, organisation and key business processes.
 
-1. Data Architecture: The structure of an organisations logical and physical data assets and data management resources.
+1. `Data Architecture`: The structure of an organisations logical and physical data assets and data management resources.
 
-1. Application Architecture: A blueprint for the individual application systems to be deployed, their interactions and their relationships to the core business processes of the organisation.
+1. `Application Architecture`: A blueprint for the individual application systems to be deployed, their interactions and their relationships to the core business processes of the organisation.
 
-1. Technology Architecture: The software and hardware capabilities that are required to support the deployment of business, data and application services. This includes IT infrastructure, middleware, networks, comms, processing and standards.
+1. `Technology Architecture`: The software and hardware capabilities that are required to support the deployment of business, data and application services. This includes IT infrastructure, middleware, networks, comms, processing and standards.
 
 ### What are the TOGAF ADM phase names and the purpose of each phase?
 
@@ -234,7 +234,11 @@ Generally high level the Steps B, C, D mainly deals with
 * Identify the baseline (AS-IS) architecture
 * Identify the target (TO-Be) architecture
 * Identify the GAP between baseline andd target architecture
-* Define the roadmap as how to get to the target architecture
+* Define the roadmap as how to get to the target architecture usiiing the Gap analysis
+* Perform a formal review with the Stackholders
+* Resolve impacts across the architectural landscape
+* Finalize the architecture
+* Add the section pretaining to the Phase to the `Architectural Definition Document`
 
 ### What are the Common inputs for all phases
 
@@ -258,6 +262,11 @@ There are three layers to the EA architectrue
 
 
 ### What is the versioning convention used for deliverables?
+
+Generally the version numbers of
+
+* 0.1 used for high-level or draft version of the documents
+* 1.0 use for deliverable that are ready for  review and delivery
 
 ### What is its relationship to other parts of the TOGAF standard?
 
