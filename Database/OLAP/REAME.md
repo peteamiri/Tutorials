@@ -1,1 +1,0 @@
-# General Database Tutorial

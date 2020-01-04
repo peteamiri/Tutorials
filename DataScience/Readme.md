@@ -1,51 +1,11 @@
 # Data Science
 
-## Data Management – Fundamentals
+* [Youtube Starting Point](https://www.youtube.com/watch?v=-ETQ97mXXF0)
+* [Youtube Course](https://www.youtube.com/watch?v=csG_qfOTvxw&list=RDQMGLFlZrEFhvY&start_radio=1)
+* [Youtube Deep Learning](https://www.youtube.com/watch?v=DKSZHN7jftI&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi)
+* [Youtube Machine Learning](https://www.youtube.com/watch?v=7S865QCGL74&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
+* [Youtube Play list](https://www.youtube.com/user/krishnaik06/playlists)
 
-* Legacy / flat file formats (e.g., delimited text files), flat tables, use of delimiters and pointers
-* Roles:
-  * Data Analyst,
-  * Database Administrator (DBA),
-  * ETL developer,
-  * Database Developer,
-  * Data Architect,
-  * Enterprise Information Architects
-
-* Data types:
-  * Structured,
-  * Semi-Structured,
-  * None-Structured
-
-* Types of databases:
-  * Relational (OLTP) ,
-  * object-oriented,
-  * NoSQL (non-relational),
-  * Geospatial,
-  * Data Warehouse (OLAP)
-
-* Relational
-  * Understanding databases, schemas, tables, views (including materialized)
-  * Understanding fields, field-types, primary keys (including compound and composite), foreign keys,
-    * unique keys (anonymous/surrogate keys vs. smart/intelligent /natural), random keys (GUIDs) vs auto increment key
-      * Understanding table joining, normalization, indexing, and ACID
-      * Queries and ANSI SQL, vendor implementations of SQL (PL-SQL, T-SQL), triggers, and stored procedures
-      * SQL injection vulnerabilities
-      * Major implementations (e.g. Oracle, SQL Server, UDB/DB2)
-  * Non-relational
-    * Document (including XML) vs Column stores
-    * Comparison to relational
-    * Major implementations
-  * Geospatial Databases
-    * Understanding point, lines and polygons
-    * Geospatial queries
-* Understanding ETL and data integration
-* Understanding data modeling
-* Operational data stores (ODS)
-* Data warehouses, data marts, multi-dimensional cubes and business intelligence (snowflake vs star schemas)
-* Data lakes
-* Storage architectures (distributed, P2P, clustered and mirrored)
-* Cloud-based data management technologies (object storage like S3)
-* Big-data data architectures
 
 ## More information
 
@@ -56,6 +16,8 @@
 * [Udacity Bigdata Hadoop MapReduce](https://www.youtube.com/watch?v=DEQNknALf_8&list=PLAwxTw4SYaPkXJ6LAV96gH8yxIfGaN3H-)
 * [Udacity Introduction to R](https://www.youtube.com/watch?v=YbVuN2KOlt4&list=PLAwxTw4SYaPlSFCDRaseIGGxlGn81Adjs)
 
+## Web Tutorials
+*[What is Data Science](https://datascience.berkeley.edu/about/what-is-data-science/)
 ## Machine Learning
 
 * [Wiki Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
@@ -65,10 +27,6 @@
 * [Wiki Artificial Intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
 
 ## Data Mining
-
-## Data warehouse
-
-* [Wiki](https://en.wikipedia.org/wiki/Data_warehouse)
 
 ## Business Intelligence
 
@@ -89,6 +47,7 @@ Is a Process framework based on Scientific Methods
 * Construct a Hypothesis
 * Test the Hypothesis and Draw Conclusion
 * Share the finding
+
 ### 6 Phases of CRISP DM
 * Business Understaanding
 * Data Understaanding
@@ -96,4 +55,5 @@ Is a Process framework based on Scientific Methods
 * Modeling
 * Evaluation
 * Deployment
+
 ## Actionable Insight
