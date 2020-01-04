@@ -87,6 +87,7 @@ Business-IT alignment—The business focus of the architecture development proce
 
 ##### For more information see
 * [Good Starting Point](https://www.youtube.com/watch?v=yGWn0qKtS7U&list=PLUDQ1dvtmiWKuB9L1QHYVDoFV5zmLSOi_&index=1)
+* [Another Good Starting Point](https://www.youtube.com/watch?v=NHF1VftWTQk&list=PLLiBQRHikaGZ1wQsfLo8-bmsgbtiwIY5g)
 * [TOAGF Summary](https://wiki.glitchdata.com/index.php?title=TOGAF_Summary)
 * [Summary](https://www.visual-paradigm.com/guide/togaf/what-is-togaf/)
 * [Overview](https://www.goodelearning.com/courses/enterprise-architecture/togaf-9-foundation/what-is-togaf)
