@@ -15,7 +15,8 @@
 * [Computer Security](https://en.wikipedia.org/wiki/Computer_security)
 * [NIST + STICK](https://www.stigviewer.com/)
 
-
+## Looking Glass
+* [Botnet activities](https://map.lookingglasscyber.com/)
 ## Great Resources
 * [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest)
 * [jivoi/awesome-osint](https://github.com/jivoi/awesome-osint)
