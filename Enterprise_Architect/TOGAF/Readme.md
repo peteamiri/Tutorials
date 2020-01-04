@@ -1,6 +1,6 @@
 # The Open Group Architecture Framework (TOGAF)
 
-is an enterprise architecture framework that provides a step by step approach for designing, planning, implementing, and governing an enterprise information technology architecture.
+TOGAF is an enterprise architecture framework that provides a step by step approach for designing, planning, implementing, and governing an enterprise information technology architecture.
 
 It is typically modeled at four levels:
 
