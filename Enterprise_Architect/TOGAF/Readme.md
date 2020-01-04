@@ -99,7 +99,7 @@ Business-IT alignment—The business focus of the architecture development proce
 * [Good Introduction](https://www.youtube.com/watch?v=3M4NKwoaLk4&list=PL2FF5FCBA1AF9B8FA)
 * [Great Exam Practice Site](http://theopenarch.com/81-tests/72-togaf-9-exam-tests.html)
 * [Mock Exam](https://www.techbolo.com/)
-* [MOCK Exam] (https://setandbma.wordpress.com/2011/03/30/togaf-foundation-level-certification-aid-for-preparation/)
+* [MOCK Exam](https://setandbma.wordpress.com/2011/03/30/togaf-foundation-level-certification-aid-for-preparation/)
 
 ## TOGAF Basic Concepts
 
