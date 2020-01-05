@@ -5,6 +5,8 @@
 * [Youtube Deep Learning](https://www.youtube.com/watch?v=DKSZHN7jftI&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi)
 * [Youtube Machine Learning](https://www.youtube.com/watch?v=7S865QCGL74&list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe)
 * [Youtube Play list](https://www.youtube.com/user/krishnaik06/playlists)
+* [YouTube Introduction](https://www.youtube.com/watch?v=k1RI5locZE4)
+* [Youtube Introduction](https://www.youtube.com/watch?v=MmsoIcYrXJU)
 
 
 ## More information
