@@ -1,7 +1,8 @@
 # Certified Ethical Hacker
 
 * [Good Starting Point](https://www.guru99.com/ethical-hacking-tutorials.html)
-* [Tutorials Point](https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_quick_guide.htm)
+* [TutorialsPoint](https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_quick_guide.htm)
+* [TutorialsPoint Vidoe](https://www.youtube.com/watch?v=oKgnYe_6uh8&list=PLWPirh4EWFpEK7BXbMvKDYuHhA4AiYLDb)
 
 ## Footprinting
 
