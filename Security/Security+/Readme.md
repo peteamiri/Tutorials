@@ -10,102 +10,25 @@
 
 ## Malleware types
 
-1. Virus
-1. Trojan House
-1. Spyware
-1. Adware
-1. Rootkit
-1. Worm
-1. Ransomware
+Malware is an extremely broad term that blankets a range of software packages. We can say that malware is anything that steals resources, time, identity, or just about anything else while it is in operation. In order to understand what malware is, let’s look at the major types before we delve deeper into the mechanics of each:
 
-### Virus
+* `Viruses` are by far the best-known form of malicious software. This type of malware is designed to replicate and attach itself to other files resident on the system. Typically, viruses require some sort of user action to initiate their infectious activities.
 
-Viruses are the most popular form of malware.
+* `Worms` are a successor to viruses. The worm has been around in some shape or form since the late 1980s. The first worms were primitive by today’s standards, but they had a characteristic that is still seen today: the ability to replicate on their own very
+quickly. Worms that have emerged over the past decade or so have been responsible for some of the most devastating denial-of-service attacks known.
 
-### Trojan Horse
-Trojan horses distinguish itself from viruses in that instead of cleverly hiding themselves inside other files they instead hide in plain sight. This means that Trojans usually masquerade as legitimately useful applications while doing undesirable things unnoticed.
+* `Trojan` horses are a special type of malware that relies in large part on social-engineering techniques to start infecting a system and causing harm while appearing to look like a legitimate program. Similar to a virus in many respects, this malware
+relies on the user being somehow enticed into launching the infected program or wrapper, which in turn starts the Trojan.
 
-Unlike Viruses and Worms, however, Trojans usually do not replicate nor infect other files after it has delivered its payload.
+* `Rootkits` are a modern form of malware that can hide within the core components of a system and stay undetected by modern scanners. What makes rootkits most devastating is that they can be extremely difficult to detect and even more difficult to
+remove.
 
-The payload is generally in the form of backdoor exploits that help introduce different types of malware into the user’s system that can do either subtle or destructive damage to a user’s system.
+* `Spyware` is malware designed to gather information about a system or a user’s activities in a stealthy manner. Spyware comes in many forms; among the most common are keyloggers.
 
-Due to the stealthy nature of Trojans, it is most effective when it introduces other non-disruptive or subtle malware like spyware and adware.
+* `Adware` is malware that may replace home pages in browsers, place pop-up ads on a user’s desktop, or install items on a victim’s system that are designed to advertise products or services.
 
-The Trojan virus is so effective that it has also become a popular entry point for disruptive malware like ransomware.
-
-### Spyware
-The current trend in malware engineering is that it focuses more on stealing and selling user data to parties.
-
-Those parties with the user data would know best how to exploit this information rather than causing direct harm.
-
-Spyware typically tries to steal user confidential data such as usernames, passwords, credit card numbers, browsing history, and other valuable information.
-
-Since it is designed to steal as much information and exploit it for as long as possible, Spyware usually does not cause any immediate harm to your PC.
-
-After all, they’d want to be able to continue what they are doing without risking detection.
-
-Some governments even resort to the use of spyware in the interest of national security.
-
-In some cases though, they have been known to cause a drop in performance of the PC, due in part to the number of other spyware they bring in that are trying to capture more types of data at the user’s expense.
-
-### Adware
-Much like Spyware, these are usually very subtle in the level of direct harm that it causes the user.
-
-Instead of selling exploitable data, Adware exposes the user to advertisers who have either made the adware himself/herself or the engineer that was sponsored by advertisers.
-
-Adware can loosely be either malware or a legitimate program.
-
-It’s defining characteristic as malware is that the user affected was unaware of the inclusion of ads in the software or if the ads themselves are unavoidable, recurring, or both.
-
-One of the most common ways adware affects users is by hijacking the user’s browser to display more ads from specific advertisers while browsing.
-
-On the other hand, some legitimate software is classified as adware in that these use ads to make money rather than upfront costs to purchase the software.
-
-Some types of adware usually have a paid option that eliminates the inclusion of pushy advertising.
-
-For this reason, some security software does not actively detect adware as legitimate threats.
-
-### Rootkit
-Rootkits are similar to Trojans in that they serve as a backdoor to introduce more malware to the computer.
-
-It is considered by many to be more dangerous because it embeds itself very deeply into the user's system.
-
-This makes it a more advanced type of malware that proves to be one of the most difficult to detect and remove.
-
-Some types are so deeply hidden that it can survive a complete wipe or reformat of a computer system.
-
-The goal of rootkits is to embed itself into the user’s system and act as a backdoor for other harmful malware.
-
-Due to its elevated privileges, it can also effectively hide both itself as well as cover the tracks of the harmful malware it introduces.
-
-### Worm
-When a malware’s main objective is to spread to as many machines as possible, especially through a network, then it is what many would call a Worm.
-
-Type-of-Malware-Worm-SecureAge-SecureAPlus
-Unlike Viruses, most worms do no direct damage to files but may affect network traffic if left unchecked.
-
-Worms are treated as malware because besides replicating itself, its authors can use them for large-scale cyber attacks using clusters of affected PCs.
-
-Some computer worms also come with a harmful payload that can take the form of other malware types such as a virus, spyware, adware, or even the much-maligned ransomware.
-
-Ransomware
-Other types of malware such as spyware or adware exploit user data by selling them or exposing them to ads by third parties.
-
-Ransomware takes a much more direct approach by taking data hostage and asking money directly from the user.
-
-Ransomware is found in a user’s system using typical malware fashion such as email attachments or as a payload of another type of malware (such as worms, trojans, and rootkits).
-
-Once it gets past a user’s defenses and is allowed to run, it will silently hide deep into the user’s files while slowly removing access to them.
-
-Type-of-Malware-Ransomware-SecureAge-SecureAPlus
-While some types of ransomware simply keep people out (via a lock screen) from normal computer operations, the worst kind will encrypt the user’s files and leave the encryption key in the sole hands of the malware author (this is sent to them via an internet connection).
-
-Users are then forced to pay a ransom to be able to get back access to their computer and/or files.
-
-While it is not advisable to do so as it encourages the nefarious practice, some are left with no choice as it is the only way to get back valuable data such as family photos or would otherwise put lives at stake if the data were not recovered in time.
-
-
-
+Each of these types of malware has its own traits, which you explore and learn to exploit
+in this chapter.
 
 
 

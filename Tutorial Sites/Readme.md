@@ -15,3 +15,7 @@
 * [in 28 Minutes](https://www.youtube.com/user/rithustutorials/playlists?disable_polymer=1)
 * [Tutorials Point Video](https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg/playlists?disable_polymer=1)
 * [Some  good tutorials](https://www.youtube.com/user/cbtnuggets/playlists)
+
+## Mock Exams
+
+* [Mock Exam Site](http://www.gocertify.com/quizzes/)
