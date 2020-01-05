@@ -4,12 +4,14 @@
 * [Docker Coommands](https://www.edureka.co/blog/docker-commands/)
 * [Docker Resources](https://www.janbasktraining.com/blog/what-is-docker/)
 
+# Docker
+* [IBM Containers](https://www.youtube.com/watch?v=0qotVMX-J5s)
+* [Kubernaties](https://www.youtube.com/watch?v=aSrqRSk43lY)
+* [Dpcker Vs. Kubernaties](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
+
 # Linux Kernel
 	http://www.win.tune.nl/~aeb/linux/lk.html
-# Virtual Machine
-	1- Hypervisor
-		Type A Hypervisor
-		Type B Hypervisor
+
 # Docker:
 # Linux Containers
 	1- Container vs. Virtual Machines
