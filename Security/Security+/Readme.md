@@ -53,3 +53,9 @@ in this chapter.
 ## Vulnerabilities
 * [List of Vulnerabilities](https://www.securityfocus.com/)
 * [Common Vulnerabilities Exposure (CVE)](https://cve.mitre.org/)
+
+## Database of HOAX emails
+
+* [Database of HOAX Messages](http://www.hoax-slayer.net)
+* [HOAX infomration](http://www.snopes.com) They perform factchecks
+* [Common Vunerabiilites & Exposures Database](http://cve.mitre.org)
