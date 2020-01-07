@@ -9,6 +9,7 @@
 * [Youtube Playlist](https://www.youtube.com/user/cbtnuggets/playlists)
 * [Youtube PlayList](https://www.youtube.com/user/Simplilearn/playlists)
 * [YouTube Playlist](https://www.youtube.com/user/intellipaaat/playlists)
+* [Yutube Playlist](https://www.youtube.com/user/edurekaIN/playlists)
 
 ## YouTube Playlists
 
