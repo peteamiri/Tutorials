@@ -10,6 +10,8 @@
 * [Youtube PlayList](https://www.youtube.com/user/Simplilearn/playlists)
 * [YouTube Playlist](https://www.youtube.com/user/intellipaaat/playlists)
 * [Yutube Playlist](https://www.youtube.com/user/edurekaIN/playlists)
+* [Youtube PlayList More on Web UI](https://www.youtube.com/user/TechGuyWeb/playlists)
+* [YouTube Playlist More on web UI](https://www.youtube.com/user/programmingwithmosh/playlistssf)
 
 ## YouTube Playlists
 
