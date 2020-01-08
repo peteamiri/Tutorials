@@ -3,14 +3,15 @@
 * [Tutorial](https://rominirani.com/docker-tutorial-series-a7e6ff90a023)
 * [Docker Coommands](https://www.edureka.co/blog/docker-commands/)
 * [Docker Resources](https://www.janbasktraining.com/blog/what-is-docker/)
+* [Docker](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
+* [Docker](https://www.youtube.com/watch?v=1xo-0gCVhTU)
 
 # Docker
 * [IBM Containers](https://www.youtube.com/watch?v=0qotVMX-J5s)
-* [Kubernaties](https://www.youtube.com/watch?v=aSrqRSk43lY)
-* [Dpcker Vs. Kubernaties](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
+* [Docker Vs. Kubernaties](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
 
 # Linux Kernel
-	http://www.win.tune.nl/~aeb/linux/lk.html
+	* [Linux Kernel](http://www.win.tune.nl/~aeb/linux/lk.html)
 
 # Docker:
 # Linux Containers

@@ -1,8 +1,16 @@
 # Python
 
+* [start Here](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 * [Python Site Tutorial](https://docs.python.org/3/tutorial/index.html)
+* [Python](https://www.youtube.com/watch?v=WGJJIrtnfpk)
 * [Code Repository](https://github.com/DjangoGirls/tutorial)
 * [Python](https://www.youtube.com/watch?v=rfscVS0vtbw&t=28s)
+* [Python](https://www.youtube.com/watch?v=Q33KBiDriJY)
+* [Python](https://www.youtube.com/watch?v=4F2m91eKmts)
+* [Python](https://www.youtube.com/watch?v=WGJJIrtnfpk)
+
+## Python IDE
+* [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ## For more information
 
