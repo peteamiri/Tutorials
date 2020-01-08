@@ -21,3 +21,8 @@
 ## Various Modules for python
 
 * [batteries_included](https://www.pythonanywhere.com/batteries_included/)
+
+## Execute Shell Command with Python
+* [Exec Python](https://stackoverflow.com/questions/89228/calling-an-external-command-from-python)
+* [Exec](https://unix.stackexchange.com/questions/238180/execute-shell-commands-in-python)
+* [Exec](https://stackoverflow.com/questions/4760215/running-shell-command-and-capturing-the-output)
