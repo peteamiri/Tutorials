@@ -1,6 +1,7 @@
 # Java Resources
 
 * [In 28 Minutes Git Repostiory](https://github.com/in28minutes?tab=repositories)
+* [Various Youtube Java Courses Youtube Playlist](https://www.youtube.com/user/rithustutorials/playlists)
 * [Java Ranch](https://coderanch.com/)
 * [kodejava](https://kodejava.org/)
 * [Cafeaulait](http://www.cafeaulait.org/javatutorial.html)
