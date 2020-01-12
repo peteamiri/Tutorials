@@ -26,7 +26,14 @@
 	* Roles Defines a set of permissions assumed by users or systems
 	* Policies defiends sets of permissions that can be associated with users, groups, or roles. 
 
-* A user, group, or Role may have more than one policies attached to them. 	
+* A user, group, or Role may have more than one policies attached to them. 
+
+* IAM Characteristics
+	* IAM allows life-cycle management of users, groups, and policies,
+	* IAM provides template policies to ease the process
+	* IAM allows password policies (what and when)
+	* New Users by default have no access to any resource, they access has to be granted
+	* Always Create a MultiFactor Authantication on the root account, it is very important  	
 
 * Policies are composed of series of key value pairs as shown below:
 	* Version
@@ -103,6 +110,7 @@
 	* you can do the above commands as a boot strap at EC2 creation
 
 
+
 # AMI Amazon Machin Images
 
 * It is a template for EC2 that identifes the Operating system and possibly applications that are installed on them 
@@ -153,14 +161,92 @@
 	* It application on the server is down,
 	* it the load is too high. 
 
-* `X-Forwareded-For` will contain the actual senders IP address. This is good when and EC2 is trying to see the original Senders IP instead of the internal routers IP address in the payload. This is used in Classic load blancer. This is only IPV4.  
+* `X-Forwareded-For` will contain the actual senders IP address. This is good when and EC2 is trying to see the original Senders IP instead of the internal routers IP address in the payload. This is used in Classic load blancer. This is only IPV4.
+
+* To create a load balancer 
+	* Select the load blancer type (As discussed before)
+		* Application Load balancer (Operated at HTTP/HTTPS level layer 7)
+		* Network Load balancer (Operates at TCP layer 4)
+		* Classic load balancer (Operatess at both HTTP/HTTPS layer 7 and TCP layer 4)
+
+* To create application Load blancer
+	* Name : 
+	* Schema (internet facing or internal) : 
+	* IP Address type : IPV4/ IPV6 
+	* Listeners: What port Load Blancer will be listening on
+		* Load Blanacer Protocol: protocol and port
+	* Avaliability Zone 
+		* VPC
+		* list of AZ that load balancer is hosted to provide redundancies. 
+	* Security Groups: 
+		* Assign or create security groups
+	* configure Routing
+		* Target Group : grouping of the target
+		* Name : Target Names
+		* Protocol : HTTP 
+		* Port : 80
+		* Target Type : instance / or IP 
+	* Health Checks 
+		* Protocol : What protocl to use for health checks
+		* Path :  path for health check index.htm 
+	* Advanced health Check setting: 
+		* Values to be assigned how often to check for health check, how many time for bad server and how long to check again
+
 
 # Route 53 
 
 * it is a globla or universal service and it is independent of Region
-* It is the DNS Server for applications associated with your AWS account 
+* It is the DNS Server for applications associated with your AWS account
+* it provides tha follwoing services;
+	* DNS management
+	* Traffic management 
+	* Availabilty Monitoring
+	* Domain Registration
 
-# VPC 
+* It allows to map domain name to:
+	* EC2 instances
+	* Load blancer
+	* S3 Buckets
+	* cloudFront
+	* Elastic Beanstalk 
+
+* `Naked domain name`: is a domain name that as it is registered with out www or any other prefix. generally the A and AAAA record contains
+	* "naked domain name"
+	* www."naked domain name"
+
+* `Naked Domain name` is also refered to as a `Apex Zone Record` 
+
+* AWS provides Domain registration services (TLD) 
+
+* DNS Record Type supported by AWS:  
+	* `A     - Alias Record Type` : is an alias record for IPV4 it routes the IP address to a server, load blancer or S3.
+	* `AAAA  - Alias Record Type` :  for IPV6 it routes the IP address to a server, load blancer or S3. 
+	* `NS    - Name Server Record type` :
+	* `SOA   - Start of Header Record type` :
+	* `CNAME - Canonical Name Record type`: 
+	* `MX    - Mail Exchange Record type`: 
+	* `TXT   - Text Record type`: 
+	* `PTR   - Pointer Rerord type` : 
+	* `SRV   - Service Locator Record type` : 
+	* `SPF   - Sender Policy Pointer Record type`: 
+	* `NAPTR - Name Authority Pointer Record type`: 
+	* `CAA   - Certification Authority Authorization Record type`: 
+	
+* When create Route 53 you need to have
+	* Name: it can be domain name, alias, server name, cloudfront, Elastic Beanstalk, or etc. 
+	* Type is the record type as identified above
+	* Alias: must be selected for Apex Zone Record Type or Named Domain name
+	* Alias Target: you can select S3, EC2 or load blanacer, cloud front drop down. 
+	* routing Policies
+	* Evaluate target Health (Yes / No)
+
+# VPC
+
+* upto 5 VPC per Region
+* VPC can  be peered as long as the CIDR is not overlaps
+* VPC can not be cross region
+* VPC can not be peered cross region
+
 
 # RDS 
 
@@ -174,4 +260,34 @@
 
 * Always role over authantication 
 
-# AWS API, SDK, and  CLI 
+# AWS Console, API, SDK, and  CLI
+
+## Console
+
+## CLI
+
+* CLI or command line interface, provides ability to interact with various services using command line. 
+
+* All CLI must start with AWS followed by the services name for example: 
+	* `aws s3 ls` list all the buckets in S3
+	* `aws s3 ls s3://bucketname` displayes the content of the given bucket
+	* `aws s3 mb s3://bucketname`: creates a bucket in S3 
+	* `aws s3 cp filename s3://bucketname/subbucket/` copies the file to s3 
+
+* to start CLI you must configure credentials using the following command.
+	* `aws configure`, it will promopt you for the followings;
+		* AWS Access Key ID: public key of a user with programatic access. This user must have aproper plocy for target resource. 
+		* AWS Secret Access Code : private key for same user
+		* default Region : Blank is N. Virginia
+		* output format : leave blank
+
+* instead of configuring the aws CLI you can assign a Role to the server;
+
+#### For more information about AWS CLI 
+
+* [AWS CLI Documents](https://docs.aws.amazon.com/cli/index.html)
+* [AWS CLI User Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
+* [AWS CLI Reference Guide](https://docs.aws.amazon.com/cli/latest/reference/)
+
+## SDK 
+## API  

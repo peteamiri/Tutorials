@@ -86,13 +86,6 @@ CDN caches the static data on S3 to provide low latency access to the data on va
 CDN also can be used for faster file upload (using CloudFront/edgelocation for file upload)
 66 Edge Location
 
-## Network and CDN ##
-
-* upto 5 VPC per Region
-* VPC can  be peered as log as the CIDR is not overlaps
-* VPC can not be cross region
-* VPC can not be peered cross region
-
 ## Compute Services
 
 * EC2 Elastic Computer Cloud Virtual Machine or **Optional** Dedicated Machine
@@ -147,7 +140,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 * Snowball Migration of very large data
 
-## Network & content Delivery
+## Network & content Delivery (CDN)
 
 * Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, Accesss Control Lists (ACL), route tables, etc.
 
@@ -1841,7 +1834,7 @@ EC2 Instance Store
 	EFS Elastic File System (multipe instance mount AKA NFS)
 	S3
 Amazon S3 (Object)
-	S3 andd Glacier
+	S3 and Glacier
 Security
 Shared Responsibility Model
 Roles are global, when you create a role it can be used across all regions
