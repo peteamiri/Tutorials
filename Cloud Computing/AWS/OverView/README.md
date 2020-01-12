@@ -62,7 +62,7 @@ Although Cloud Computing provides a wonderful set of advantages, it has some dra
 
 * `Security issues` - Security is the major issue in cloud computing. The cloud service providers implement the best security standards and industry certifications, however, storing data and important files on external service providers always bears a risk.
 
-AWS cloud infrastructure is designed to be the most flexible and secured cloud network. It provides scalable and highly reliable platform that enables customers to deploy applications and data quickly and securely.
+* `Flexibility` - AWS cloud infrastructure is designed to be the most flexible and secured cloud network. It provides scalable and highly reliable platform that enables customers to deploy applications and data quickly and securely.
 
 * `Technical issues` - As cloud service providers offer services to number of clients each day, sometimes the system can have some serious issues leading to business processes temporarily being suspended. Additionally, if the internet connection is offline then we will not be able to access any of the applications, server, or data from the cloud.
 
@@ -114,40 +114,30 @@ Currently AWS has (As of 2018) This numbers are increasing rapidly;
 
 ## Availability Zones ##
 
-As stated previously, currently, there are 35 Availability Zone's (AZ). These zones are consist of independent "Data Centers" (for DR reason).
-
-They have low latency Network Infrastructure within a region across the AZ's
-
-Generally; each Region has at least 2 or more Availability Zones
-
-Always validate your region, otherwise you may create resources in different regions and you may not know what region they are in.
-
-As default your data is always stays in same region that you store it
-
-you can do cross-region copy, etc.
+* Availability Zones are consist of independent "Data Centers" (for DR reason).
+* They have low latency Network Infrastructure within a region across the AZ's
+* Generally; each Region has at least 2 or more Availability Zones
+* Always validate your region, otherwise you may create resources in different regions and you may not know what region they are in.
+* As default your data is always stays in same region that you store it
+* you can do cross-region copy, etc.
 
 
 ## Edge Location
 
-CDN (End Point for CloudFront) CDN = Conntent Delivery Networks
-Edge locations are not Availability zones
-CDN is content caching
-CDN caches the static data on S3 to provide low latency access to the data on varius Regions
-CDN also can be used for faster file upload (using CloudFront/edgelocation for file upload)
-66 Edge Location
+* CDN = Conntent Delivery Networks
+* CDN are the End Point for CloudFront
+* Edge locations are not Availability zones
+* CDN is content caching
+* CDN caches the static data on S3 to provide low latency access to the data on varius Regions
+* CDN also can be used for faster file upload (using CloudFront/edgelocation for file upload)
 
 ## Compute Services
 
 * EC2 Elastic Computer Cloud Virtual Machine or **Optional** Dedicated Machine
-
 * EC2 Container Service (for Docker)
-
 * Elastic Beanstalk (for new developers) upload the code and It will provision resources like AutoScaling groups, Loadbalancers, etc.
-
 * Lambda Event bases, Serverless an event initiates execution of code, similar to function calls.
-
 * Lightsail Preinstalled SaaS (Wordpress, LAMP_Stack, etc.) or Linux Platforms. Provision a server, with a fix IP, you can do RDP and SSH to the server.
-
 * Batch used for batch computing.
 
 ## Storage Services
@@ -165,6 +155,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 ## Database Services
 
 * Relational Data Services (RDS);
+* There RDS is consist of the following six types:
 	* MySQL
 	* MS SQL Server
 	* PostgreSQL
@@ -173,21 +164,15 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 	* MariaDB
 
 * DynamoDB (Disk based NoSql Database) very similar to MongoDB
-
 * Elasticache (in memory NoSql Database)
-
 * Red Shift (Data warehousing) for Business Intelligence
 
 ## Migration Services
 
 * AWS Migration Hub Tracking Service,
-
 * Application Discovery Services : Automated Tools to identify the dependencies for applications.
-
 * Database Migration Services Migrate data from on-premise to AWS.
-
 * Server Migration Service: Visual Migration tracking system
-
 * Snowball Migration of very large data
 
 ## Network & content Delivery (CDN)
@@ -195,39 +180,26 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 * Virtual Private Cloud (VPC): Virtual Data Centers, may include Firewalls, AZ's, subnets and network CIDer's definitions, Accesss Control Lists (ACL), route tables, etc.
 
 * CloudFront is a AWS content deliver network.
-
 * Route53 : is the AWS Domain Name Services (DNS).
-
 * API Gateway: creating API for other services
-
 * Direct Connect: Dedicated line from Clients Data Center to a VPC.
 
 ## Developers Tools
 
 * CodeStar; part of CI/CD and Code colaboration
-
 * CodeCommit : source code repository, source code controll system
-
 * CodeBuild : build tool
-
 * CodeDeploy : Automate application deployment to AWS EC2, Lambda and Client's Data-center.
-
 * CodePipeline : Continious delivery system Visualize Code deployment
-
 * XRay: debug and analyze servless codes.
-
 * Cloud9 is an IDE to develop code for AWS console.
 
 ## Management Tools
 
 * CloudWatch : Monitoring tool major part of Sysops Admin exam
-
 * CloudFormation : Script the infrastructure for deploy or redeploy the infrastructure
-
 * CloudTrail : Logging any changes, it is turned on by default. The data is stored for a week,
-
 * Config Monitors the configuration of entire AWS system.
-
 * OpsWorks Chef and puppet automate creation of the AWS infrastructure.
 * Service Catalog IT Services catalog, governance and compliance
 * Systems Manager : Interface for managing resources.
@@ -329,6 +301,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 * GameLift : Game Development environment. also vor virtual reality.
 
+------------------------------------------------------------------------------
 
 ## Load Balancing
 Load balancing simply means to hardware or software load over web servers, that improver's the efficiency of the server as well as the application. Following is the diagrammatic representation of AWS architecture with load balancing.
