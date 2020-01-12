@@ -51,6 +51,11 @@
 	* Account Settings : (need to get more details)
 	* Credential reports : (need to get more details)
  
+ * Roles are controlled by Policies
+ * Roles are prefered over Access Keys
+ * Changes to Role's policies are immediate
+ * Roles allow you to avoid using Access keys for resources. 
+
 # EC2 
 
 * it is withing an Region and AZ
@@ -119,6 +124,28 @@
 	* you can do the above commands as a boot strap at EC2 creation
 
 
+* When assigning a Role to a device, group, or user always use the least privilage approach. 
+
+* The EC2 properties can be change by using action on EC2 Console menu drop down select instance setting you will be able to;
+	* Add or delete tags
+	* Move EC2 to AutoScaling Group
+	* Attach/Replace IAM Role
+	* Change instance type
+	* Chnage termination Protection
+	* View or change User Data
+	* Change Shutdown behaviou
+	* Get System Log
+	* Get instance Screen shuts
+	* Modify Instance Placement
+
+* The access keys have precedence over roles, when using the aws CLI. you need to remvoe all the access keys to allow Roles to work. 
+
+* You can remove the Access keys from instance
+	* in ec2-user home directory For windows OS the it is in $UserProfile\\.aws
+	* cd .aws
+	* two directories `configuration` and `credential` remove both directories. 
+
+* you can change Roles on EC2 without shutting down the instance. 
 
 # AMI Amazon Machin Images
 
@@ -257,13 +284,151 @@
 * VPC can not be peered cross region
 
 
-# RDS 
+# Relational Database Service RDS
+
+* Relational Database key Terms;
+	* `Database` : 
+	* `Table` : 
+	* `Row` : 
+	* `Fields or Columns` :  
+
+* There are Six (6) AWS Relational Database Types;
+	* `MicroSoft SQL Server` : 
+	* `Oracle Database` : 
+	* `MySQL` : 
+	* `PostgreSQL` : 
+	* `Amazon Aurora` :  AWS Flagship database. Fully Compatible with MySQL. It is not avialble for Free Tier. 
+	* `MAriaDB` :   
+
+* IN relational databases the schema or structure of the table must be predefiend. 
+
+* When creating database you can use templates
+	* Production
+	* Dev/Test
+	* Free Tier
+* You will define the followings;
+	* Instance name
+	* Admin user
+	* Admin password
+	* Instance Size
+		* Standard Classes
+		* Memory Optimized
+		* Burstable Classes (Cheapest)
+	* Storage Size
+	* Storage AutoScaling 
+	* Maximum Storage 
+	* Multi-AZ - Standby
+	* VPC 
+	* Additional Connectivity Configuration
+		* Subnet Groups
+		* Publicly Accessible 
+		* VPC Security Group (Chose existing one or Create New one)
+		* Availability ZOne 
+		* Database Ports  
+	* Additional Configuration 
+		* Initial Database name (need this to creaet the database)
+		* DB parameter group 
+		* IAM DB Authantication 
+		* Backup
+		* Monitoring
+		* Log Exports
+			* Error Logs
+			* General Logs
+			* Slow Query Logs
+			* Audit Logs
+		* Maintenance
+			* Enable Auto Miror upgrade 
+			* maintenance window 
+			* Deletion protection
+	* Estimared montly Cost
+
+#### For more information See
+
+* [AWS Documents](https://docs.aws.amazon.com/)
+
+# AWS None Relational Database NOSQL 
+
+* Key Terms;
+	* Database
+	* Collection = A single Table
+	* Document = Row
+	* Keyvalue Pairs = Fields 
+
+* NOSQL database do not require predefined Structure (Schema), you can always add addtional keyvalue pair to a Document. 
+
+Following is a sample document
+
+```
+
+{
+    "Count": 1, 
+    "Items": [
+        {
+            "AlbumTitle": {
+                "S": "Somewhat Famous"
+            }, 
+            "Awards": {
+                "N": "1"
+            }, 
+            "SongTitle": {
+                "S": "Call Me Today"
+            }, 
+            "Artist": {
+                "S": "No One You Know"
+            }
+        }
+    ], 
+    "ScannedCount": 1, 
+    "ConsumedCapacity": null
+} 
+
+```
+
+##### For more information See 
+
+* [AWS DynamoDB Document](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+
+# AWS Data Warehousing 
+
+* AWS Data Warehousing engine is `RedShit` 
+
+* Data warehousing is used for business intelligence. 
+	* Deals with very large and compex data sets, 
+	* Used by mamanget to creat summary reports. 
+
+* General Data warehousing Tools;
+	* Cognos
+	* Jaspersoft
+	* SQL server Reporting Services
+	* Oracle Hyperion
+	* SAP NetWeaver
+
+* Online Analytical Processing (OLAP) Vs. Online transaction Processin (OLTP)
+	* OLTP Deals with CRUD and it is mostly realtime
+
+* OLAP uses different type of architecture and schema than OLTP
+
+#### For more information See
+
+* [AWS Documents](https://docs.aws.amazon.com/)
+
+# ElastiCache
+
+* ElastiCache is an in-memeory Cache. it improves perfromance.  
+
+* There are 2 Types of AWS ElastiCache Engines
+	* Memcachedd
+	* Redis   
+#### For more information See
+
+* [AWS Documents](https://docs.aws.amazon.com/)
+* [AWS ElastiCache](https://docs.aws.amazon.com/elasticache)
+* [ElastiCache for Redis User Guide](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html)
+* [ElastiCache for Memcached User Guide](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/WhatIs.html)
 
 # API Gateway 
 
 # Serverless 
-
-# DunamoDB
 
 # Security
 

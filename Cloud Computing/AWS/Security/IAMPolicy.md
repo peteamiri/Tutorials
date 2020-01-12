@@ -1,0 +1,3 @@
+# IAM Policy
+
+* Secrets manager

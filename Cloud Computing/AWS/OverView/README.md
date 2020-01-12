@@ -4,6 +4,7 @@
 * [JavaPoint](https://www.javatpoint.com/aws-tutorial)
 * [Intellipaat](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/)
 * [Guru99](https://www.guru99.com/aws-tutorial.html)
+* [Guru99 General Cloud](https://www.guru99.com/cloud-computing-for-beginners.html)
 * [AWS Documentation](https://docs.aws.amazon.com/index.html)
 
 #### AWS Resources;
