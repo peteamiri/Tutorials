@@ -48,17 +48,17 @@ The followings are AWS categories of services;
 * **Region** : Is a geographic Area (e.g. London, N. VA, etc.)
 
 * **Availability Zone** : Each region has **2 or more** Availability Zone. AZ's are simply a **Data Centers**. It is best to have resources across multiple AZ's to increase Availability for Disaster Recover (DR). Each AZ has its own redundant power supply, network connectivity.
-each availability zone is a data center within a Region that is a distance apart from other AZ's to protect and provide a better availability in case of a natural or other types of disaster.  
+each availability zone is a data center within a Region that is a distance apart from other AZ's to protect and provide a better availability in case of a natural or other types of disaster.
 
 * **Edge Locations** : endpoint for AWS which are used for caching contents. Typically this is consists of
 
-**CloudFront** which is part of AWS Content Delivery Network (CDN).   
+**CloudFront** which is part of AWS Content Delivery Network (CDN).
 
 ## Region ##
 
 Currently AWS has (As of 2018) This numbers are increasing rapidly;
 
-* 16 Regions  
+* 16 Regions
 * 44 Availability Zones (A.K.A) AZ these numbers are increasing rapidly.
 * 96 Edge Locations
 
@@ -104,13 +104,13 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 * **Simple Storage Services (S3)** is an object based storage. Files are stored in buckets (File directory)
 
-* **Elastic File System (EFS)** network attached file system, it can be attached to multiple machines.  
+* **Elastic File System (EFS)** network attached file system, it can be attached to multiple machines.
 
 * **Glacier** is used for file archiving services
 
 * **Snowball** temporary file storage to upload the files into Amazon.
 
-* **Storage Gateway** are virtual machines installed in the Client's site or data Centers and they replicate the data to AWS's S3.      
+* **Storage Gateway** are virtual machines installed in the Client's site or data Centers and they replicate the data to AWS's S3.
 
 ## Database Services
 
@@ -150,7 +150,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 * API Gateway: creating API for other services
 
-* Direct Connect: Dedicated line from Clients Data Center to a VPC.  
+* Direct Connect: Dedicated line from Clients Data Center to a VPC.
 
 ## Developers Tools
 
@@ -172,7 +172,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 * CloudWatch : Monitoring tool major part of Sysops Admin exam
 
-* CloudFormation : Script the infrastructure for deploy or redeploy the infrastructure  
+* CloudFormation : Script the infrastructure for deploy or redeploy the infrastructure
 
 * CloudTrail : Logging any changes, it is turned on by default. The data is stored for a week,
 
@@ -182,7 +182,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 * Service Catalog IT Services catalog, governance and compliance
 * Systems Manager : Interface for managing resources.
 * Trusted Advisor : advice on security and administrative task, save money and resources
-* Managed Services :  
+* Managed Services :
 
 ## Media Services
 
@@ -277,7 +277,7 @@ CDN also can be used for faster file upload (using CloudFront/edgelocation for f
 
 ## Game Development
 
-* GameLift : Game Development environment. also vor virtual reality.          
+* GameLift : Game Development environment. also vor virtual reality.
 
 ## AWS CLI tools
 
@@ -324,7 +324,7 @@ IAM Characteristics
 * IAM provides template policies to ease the process
 * IAM allows password policies (what and when)
 * New Users by default have no access to any resource, they access has to be granted
-* Always Create a MultiFactor Authantication on the root account, it is very important  
+* Always Create a MultiFactor Authantication on the root account, it is very important
 
 
 
@@ -338,7 +338,7 @@ Two types;
 Access type:
 
 * Console uses user Id and password
-* Programmatic Access (AWS API) Uses **access key** and **secret access key** generated at the time of the user creation time. If the user loose this information they need to be regenerated again. No way to retrieve the original **secret access key** again.  
+* Programmatic Access (AWS API) Uses **access key** and **secret access key** generated at the time of the user creation time. If the user loose this information they need to be regenerated again. No way to retrieve the original **secret access key** again.
 
 * Two method of connection to AWS
 	User Id and password
@@ -399,7 +399,7 @@ As best practices:
 * User: end users
 * Group categorizing group of users with same permissions (group of users to apply a policy to)
 * Roles categorizing a group of resources, (allow a resource access to other resources)
-* Policies JSON document that implies permissions, it is a Key value pair, it is a JSON documents, policies are permissions that are applied to either or both users and groups to access certain resources or assume certain roles. Policies can be shared across all these elements.  
+* Policies JSON document that implies permissions, it is a Key value pair, it is a JSON documents, policies are permissions that are applied to either or both users and groups to access certain resources or assume certain roles. Policies can be shared across all these elements.
 
 All this is done using IAM,
 
@@ -419,7 +419,7 @@ Part of cost control
 * control and track resource utilization
 * Connect using AWS Console
 * Once enable it can not be disabled.
-* It will eventually uses cloudwatch  
+* It will eventually uses cloudwatch
 
 ## Management Tools ##
 
@@ -835,7 +835,7 @@ it uses the Docker
 * 3-5 hours to retrive
 * very cheap
 
-EFS
+## EFS
 
 Elastic File Service
 	NFS or shared volume across multiple EC2's
@@ -848,7 +848,7 @@ temporary block-level storage for Instances. These storage are physically connec
 Emphemeral = transient this information is not saved when the instance is (instance can not be stopped) terminnated.
 	Also the data is lost with disk drive failes.
 
-EBS
+## EBS
 
 Elastic Block Storage (EBS)
 Volume = Virtual Disk in CLoud
@@ -896,7 +896,7 @@ you can create volume from snapshot,
 you can create snapshot from volume
 you can modify/change volume type when creating volume from snapshot
 
-Storage Gateway
+## Storage Gateway
 
 Means to connect on-premise to AWS/S3 it is a virtual machine image running on VM on-premise
 the VM is VMwaure ESXi or Microsoft HyperV

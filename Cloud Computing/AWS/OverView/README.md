@@ -532,13 +532,10 @@ The list of AWS services that can be used with Amazon VPC are −
 ## Features of VPC
 Many connectivity options − There are various connectivity options that exist in Amazon VPC.
 
-Connect VPC directly to the Internet via public subnets.
-
-Connect to the Internet using Network Address Translation via private subnets.
-
-Connect securely to your corporate datacenter via encrypted IPsec hardware VPN connection.
-
-Connect privately to other VPCs in which we can share resources across multiple virtual networks through AWS account.
+* Connect VPC directly to the Internet via public subnets.
+* Connect to the Internet using Network Address Translation via private subnets.
+* Connect securely to your corporate datacenter via encrypted IPsec hardware VPN connection.
+* Connect privately to other VPCs in which we can share resources across multiple virtual networks through AWS account.
 
 Connect to Amazon S3 without using an internet gateway and have good control over S3 buckets, its user requests, groups, etc.
 
@@ -606,15 +603,12 @@ Easy and simple − Easy to sign up on AWS Direct Connect using the AWS Manageme
 Amazon S3 (Simple Storage Service) is a scalable, high-speed, low-cost web-based service designed for online backup and archiving of data and application programs. It allows to upload, store, and download any type of files up to 5 TB in size. This service allows the subscribers to access the same systems that Amazon uses to run its own web sites. The subscriber has control over the accessibility of data, i.e. privately/publicly accessible.
 
 ## Amazon S3 Features
-Low cost and Easy to Use − Using Amazon S3, the user can store a large amount of data at very low charges.
 
-Secure − Amazon S3 supports data transfer over SSL and the data gets encrypted automatically once it is uploaded. The user has complete control over their data by configuring bucket policies using AWS IAM.
-
-Scalable − Using Amazon S3, there need not be any worry about storage concerns. We can store as much data as we have and access it anytime.
-
-Higher performance − Amazon S3 is integrated with Amazon CloudFront, that distributes content to the end users with low latency and provides high data transfer speeds without any minimum usage commitments.
-
-Integrated with AWS services − Amazon S3 integrated with AWS services include Amazon CloudFront, Amazon CLoudWatch, Amazon Kinesis, Amazon RDS, Amazon Route 53, Amazon VPC, AWS Lambda, Amazon EBS, Amazon Dynamo DB, etc.
+* `Low cost and Easy to Use` − Using Amazon S3, the user can store a large amount of data at very low charges.
+* `Secure` − Amazon S3 supports data transfer over SSL and the data gets encrypted automatically once it is uploaded. The user has complete control over their data by configuring bucket policies using AWS IAM.
+* `Scalable` − Using Amazon S3, there need not be any worry about storage concerns. We can store as much data as we have and access it anytime.
+* `Higher performance` − Amazon S3 is integrated with Amazon CloudFront, that distributes content to the end users with low latency and provides high data transfer speeds without any minimum usage commitments.
+* `Integrated with AWS services` − Amazon S3 integrated with AWS services include Amazon CloudFront, Amazon CLoudWatch, Amazon Kinesis, Amazon RDS, Amazon Route 53, Amazon VPC, AWS Lambda, Amazon EBS, Amazon Dynamo DB, etc.
 
 # Elastic Block Store
 
