@@ -61,9 +61,61 @@
 	* many variations (F,I,G,H,T,D,R,M,C,P,X) Fight Dr Mc PX
 	* T2 is the lowest cost one
 
+* At the Creation of EC2 you define:
+	* AMI
+	* Machine Type 
+	* Number of instances
+	* Purchage Option : Allows selecting spot, on demand, etc. instance. 
+	* Netwrok / VPC : select custom VPC or default VPC detailed information is provided in subsequent sections in this document 
+	* Subnet : detailed information is provided in subsequent sections in this document 
+	* Auto Assign public IP : `Need this if you connect to this instance externally`. 
+	* IAM Role, this is important to avoid adding user id and password to connect to other devices 
+	* Shutdown behavior: Stop (you can restart), Terminate you delete the Instance
+	* Terminatio protection: forces acknowldegment to terminat the EC2
+	* Monitoring: allows cloudwatch detailed monitoring (montor every minute charged assocaiated); Regular monitoring is every 5 minutes no charge
+	* Tanancy: Single / Multi-tenancy Virtual machine
+	* T2 Unlimited: 
+	* Addvanced Data: is the boot strap scripts, allowing you to install software when instance is created. 
+	* Add Storage allows you select the Volumes to be mounted to the EC2 for roto volume you can chose `CP2, IO1, magnetic`.
+	* Add Tages, they will be very usefule in later stages of system administration
+	* Add Security Groups : they are virtual firewalls
+		* you define Type, Protocols, Port, Source (IP or other Security Groups). Description
+		* the Source can be a Cyder notation, 0.0.0.0/0 IP4 or ::/0 for IP6 means any source. When using IP6 you can skip the continious 0000's by using :: 
+		* SSH for linux TCP,22
+		* RDP for windows
+		* HTTP for web port 80
+		* HTTPS for secure web 443
+	* you need an existing or new keypair This is combination of public and private keys. for SSH to connect to instance
+		* download the new keypair. 
+		* you can connect from another Linux instance using SSH
+		* you can use Putty to connect from the Windows to Linux or use cygwin. addtional steps are required to convert the keypair for Putty.
+		* Chmod 400 on keypair,  `ssh ec2-users@ip -i keypair.pem` and follow the instruction
+			* use `PuttyGen` to convert the .pem to .ppk  then import the .ppk file as OAuth in putty.   
+
+* `ec2-user` is the default user and it not the root / super user you need to use `sudo su` to have root privilages for any EC2
+
+* run the followings
+	* sudo su to have super user access
+	* yum update -y 
+	* yum install package-name -y 
+	* add packeg to service `chkconfig packagename on` or your can remove it from service using off
+	* Start package  as a service `service packagename start` you can also check status and stop the service. 
+	* you can do the above commands as a boot strap at EC2 creation
+
+
+# AMI Amazon Machin Images
+
+* It is a template for EC2 that identifes the Operating system and possibly applications that are installed on them 
+* Amazon AMI is the one used for all the classes
+* you can creat your own custum AMI, this is specially good when using AutoScaling
+* there are Alo
+	* Market place : AMI for Sale
+	* Community AMI : free AMI
+
 # EBS Elastic Block Storage 
 
 * It is a virtual disk
+* It is region dependent
 * Create storage volumes to be attached to EC2. 
 * EBS must be in same AZ as the EC2 that is attached to
 * They are replicated across AZ's to prevent single point of failure (SPF) 
@@ -79,6 +131,36 @@
 	* `thoughput Optimized HDD  (ST1)` : it is a magnetic disc. `NOT a Boot/Boot volume` Good for BigData, Data warehouses Log Processing.
 	* `Cold HDD (SC1)` : Lowest cost storage for infrequently accessed data. `Canot be a Root Volume` 
 	* `Magnetic (Standard)` : Lowest cost per GB that can be use as a Boot/Root Drive. Old generation and possibly it will phase out. good for infrequent accessed data. 
+
+* EBS can be encrypted to clear text. Special steps required when trying to encrypt the Root Volume
+
+# Security Groups
+
+* Security Groups are virtual Firewalls 
+
+# Elastic Load balancers 
+
+* Elastic Load balancer routes and balances the load across various servers, by routing the payload using various algorithem. 
+
+* types of Elastic load blancers
+	* `Application Load balancer` : Operates at OSI lvevel 7 (application layer), this will impact the performance. it inspect the packet and can route the payload accordingly (need more information)
+	* `Networ Load balancer` : Operate at layer 4 it is high performance. Most expensive, and if performnace is a requirment.  Can route millions of payload per second with low latency. It is mostly for TCP protocols. 
+	* `Classic Load Balancer` : Original AWS Load balancer, may be phaed out. They do allow Stick Session and X-Forwarded to identify the actual source IP rather than load balancer IP. It is a TCP protocol. It is both layer 4 and layer 7 but not as intelligent as `Application load balancer`. 
+
+* Load balancer may responde with `HTTP 504 Error` gateway time out. This is when Load blancer times out and can not get response from underlaying infrustructure. The followings may be some of the cases that can cuase this error; 
+	* If the servers is down,
+	* If the server is not accissble,
+	* It application on the server is down,
+	* it the load is too high. 
+
+* `X-Forwareded-For` will contain the actual senders IP address. This is good when and EC2 is trying to see the original Senders IP instead of the internal routers IP address in the payload. This is used in Classic load blancer. This is only IPV4.  
+
+# Route 53 
+
+* it is a globla or universal service and it is independent of Region
+* It is the DNS Server for applications associated with your AWS account 
+
+# VPC 
 
 # RDS 
 
