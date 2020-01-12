@@ -82,18 +82,20 @@ Here are some example ARNs:
 
 * You can create policy, (it generated the JSON script)
 * you can allow or deny a specific resource
- * resource type Also Known as AWS Service
- * Action that is allowed
- * Add a specific conditions (Specify instance type etc.)
+* resource type Also Known as AWS Service
+* Action that is allowed
+* Add a specific conditions (Specify instance type etc.)
 
 # Policy reviewer
 
 * is a full JSON editor with syntax checker.
 
 # Need to find out
+
 1. Cognito
 1. Fedrated Users
 
 # Resources
+
 * [AWS Policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html)
 * [JSON Componenets](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policies-json)

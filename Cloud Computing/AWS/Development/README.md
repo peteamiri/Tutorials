@@ -41,6 +41,15 @@
 		* Effect    : "Allow"
 		* Action    : "* means all"
 		* Resources : Resource types
+
+* IAM Dashboard allows you to create the followings;
+	* Groups : (discussed before)
+	* Users : (discussed before)
+	* Roles : (discussed before)
+	* Policies : (discussed before)
+	* Identity providers: (need to get more details)
+	* Account Settings : (need to get more details)
+	* Credential reports : (need to get more details)
  
 # EC2 
 
@@ -258,7 +267,21 @@
 
 # Security
 
-* Always role over authantication 
+* Always role over authantication
+* You should always give users the least privilage  
+* Always great groups for specific group of users and assign individual users to that group
+* every single user must have his/her own userID (no sharing)
+* users automatically inherit the group privilages
+* privilages are assigned to groups using policy documents. 
+* secret access keys are only once at generation time, if needed again it must be regenerated again and delete the original one. 
+* Key pair in this context is 
+	* Access Key ID : public key
+	* Secret Access Key : private key
+* Each user must have his/her own access keys, Never share the access keys. 
+	* if the employee is terminated all other users are effected.   
+
+* Always assign roles to resources like EC2. This prevents the developer to embed the Access keys in the servers, or as part of the code
+	* hackers scan the githubs for aws access keys ID and secret access keys
 
 # AWS Console, API, SDK, and  CLI
 
@@ -267,6 +290,8 @@
 ## CLI
 
 * CLI or command line interface, provides ability to interact with various services using command line. 
+	* you can access the AWS resources enternally (to AWS) or internally (within AWS). 
+		* for external access you must always user CLI Configure and access keys. Roles will never work. 
 
 * All CLI must start with AWS followed by the services name for example: 
 	* `aws s3 ls` list all the buckets in S3
@@ -285,9 +310,22 @@
 
 #### For more information about AWS CLI 
 
+* [Download AWS CLI](https://aws.amazon.com/cli/)
 * [AWS CLI Documents](https://docs.aws.amazon.com/cli/index.html)
 * [AWS CLI User Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html)
 * [AWS CLI Reference Guide](https://docs.aws.amazon.com/cli/latest/reference/)
 
-## SDK 
-## API  
+## SDK
+
+#### For more information about AWS SDK
+* [Starting point](https://aws.amazon.com/tools/)
+
+## API
+
+
+#### For more information about AWS API
+
+* [Starting point for AWS API](https://aws.amazon.com/api-gateway/)  
+* [AWS Step-by-Step tutorial](https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html)
+* [AWS API Features](https://aws.amazon.com/api-gateway/features/)
+
