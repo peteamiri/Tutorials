@@ -1,5 +1,11 @@
 # Amazon Web Services - Cloud Computing
 
+## Resources:
+* [JavaPoint](https://www.javatpoint.com/aws-tutorial)
+* [Intellipaat](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/)
+* [Guru99](https://www.guru99.com/aws-tutorial.html)
+* [AWS Documentation](https://docs.aws.amazon.com/index.html)
+* 
 Amazon Web Services start offering cloud services
 
 * 2003 Start at 2003
@@ -7,6 +13,7 @@ Amazon Web Services start offering cloud services
 * 2006 AWS started
 * 2010 Amazon.com moved to AWS
 * 2013 Certification program started
+* 2020 AWS offeres over 100 services
 
 In 2006, Amazon Web Services (AWS) started to offer IT services to the market in the form of web services, which is nowadays known as cloud computing.
 
