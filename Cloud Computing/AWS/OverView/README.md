@@ -5,7 +5,27 @@
 * [Intellipaat](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/)
 * [Guru99](https://www.guru99.com/aws-tutorial.html)
 * [AWS Documentation](https://docs.aws.amazon.com/index.html)
-* 
+
+#### AWS Resources;
+* [AWS Documentation](https://aws.amazon.com/documentation)
+* [AWS Documentation Github](https://github.com/awsdocs)
+* [AWS Glossory](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+* [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+* [Amazon EC2](https://aws.amazon.com/documentation/ec2/)
+* [Amazon VPC](https://aws.amazon.com/documentation/vpc/)
+* [AWS Direct Connect](https://aws.amazon.com/documentation/directconnect/)
+* [Elastic Load Balancing](https://aws.amazon.com/documentation/elasticloadbalancing/)
+* [Amazon Route 53](https://aws.amazon.com/documentation/route53/)
+* [Amazon CloudFront](https://aws.amazon.com/documentation/cloudfront/)
+* [AWS WAF](https://aws.amazon.com/documentation/waf/)
+* [AWS Shield](https://aws.amazon.com/documentation/shield/)
+
+
+
+
+
+# Brief AWS History
+
 Amazon Web Services start offering cloud services
 
 * 2003 Start at 2003
@@ -74,6 +94,25 @@ Although Cloud Computing provides a wonderful set of advantages, it has some dra
 * `Technical issues` - As cloud service providers offer services to number of clients each day, sometimes the system can have some serious issues leading to business processes temporarily being suspended. Additionally, if the internet connection is offline then we will not be able to access any of the applications, server, or data from the cloud.
 
 * `Not easy to switch service providers` - Cloud service providers promises vendors that the cloud will be flexible to use and integrate, however switching cloud services is not easy. Most organizations may find it difficult to host and integrate current cloud applications on another platform. Interoperability and support issues may arise such as applications developed on Linux platform may not work properly on Microsoft Development Framework (.Net).
+
+# AWS Global Infrastructure
+AWS operates a global infrastructure. This network is operated by one company, Amazon, and it spans the continents where AWS has a presence. This infrastructure enables traffic to flow between AWS Regions, Availability Zones, edge locations, and customer cross-connect facilities. Traffic between nodes on this network uses the AWS global infrastructure, with the exception of AWS GovCloud (US) and China. A representation of the global infrastructure
+
+# Regions
+A region is a geographic area in the world where AWS operates cloud services (for example,Amazon Elastic Compute Cloud, also known as Amazon EC2). AWS Regions are designed to be completely independent from other regions. This approach provides fault isolation, fault tolerance, and stability.
+
+Most AWS Cloud services operate within a region. Since these regions are separated, you only see the resources tied to the region that you have specified. This design also means that customer content that you put into a region stays in that region unless you take an explicit action to move it.
+
+# Availability Zones
+Each region is composed of two or more Availability Zones. Each Availability Zone contains one or more data centers. The zones are engineered such that they have different risk profiles. That is, AWS considers factors like power distribution, floodplains, and tectonics when placing Availability Zones within a region. The zones are connected to one another by low-latency, high-bandwidth fiber optics. Availability Zones are typically less than 2 milliseconds apart.
+
+Amazon operates state-of-the-art, highly-available data centers. Although rare, failures can occur that affect the availability of resources that are in the same location. If you host all of your Amazon EC2 instances in a single location that is affected by such a failure, for example, none of your instances would be available. When you launch an Amazon EC2 instance, you can select an Availability Zone or let AWS choose one for you. If you distribute your instances across multiple Availability Zones and then one instance fails, you can design your application so that an instance in another zone can handle requests.
+
+# Edge Locations
+To deliver content to end users with low latency, AWS provides a global network of edge locations. This content distribution network is called Amazon CloudFront. As end users make requests, the AWS Domain Name System (DNS), Amazon Route 53, routes requests to the Amazon CloudFront edge location that can best serve the user’s request, typically the nearest edge location in terms of latency.
+
+In the edge location, Amazon CloudFront checks its cache for the requested content. If the data is locally cached, Amazon CloudFront returns the content to the user. If the data is not in the cache, Amazon CloudFront forwards the request for the files to the applicable gorigin server for the corresponding file type. The origin servers then send the files back to
+the Amazon CloudFront edge location.
 
 # AWS Platform
 

@@ -1,5 +1,11 @@
 # AWS Security Certification
 
+* [Starting Point Youtube](https://www.youtube.com/watch?v=SOnJyqwGn1I)
+* [Encryption in AWS](https://www.youtube.com/watch?v=uhXalpNzPU4)
+* [KMS Service](https://www.youtube.com/watch?v=ksnHLFxgXcI)
+* [AWS KMS Part 1](https://www.youtube.com/watch?v=fmqzUCtC6Aw)
+* [AWS KMS Part 2](https://www.youtube.com/watch?v=xRIlk9_q-fE)
+* 
 ## CloudWatch
 ## CloudTrail
 ## KMS
