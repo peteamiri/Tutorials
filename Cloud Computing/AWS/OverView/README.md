@@ -672,7 +672,7 @@ The history provides steps in detail that can be used to monitor running workflo
 
 # WorkMail
 
-Amazon WorkMail was formerly known as Zocalo. It is a managed email and calendaring service that runs in Cloud. It provides security controls and is designed to work with your existing PC and Mac-based Outlook clients including the prepackaged Click-to-Run versions. It also works with mobile clients that speak the Exchange ActiveSync protocol.
+Amazon WorkMail is a managed email and calendaring service that runs in Cloud. It provides security controls and is designed to work with your existing PC and Mac-based Outlook clients including the prepackaged Click-to-Run versions. It also works with mobile clients that speak the Exchange ActiveSync protocol.
 
 Its migration tool allows to move mailboxes from on-premises email servers to the service, and works with any device that supports the Microsoft Exchange ActiveSync protocol, such as Apple’s iPad and iPhone, Google Android, and Windows Phone.
 
@@ -686,3 +686,7 @@ Accessibility − Amazon WorkMail supports Microsoft Outlook on both Windows and
 Availability − Users can synchronize emails, contacts and calendars with iOS, Android, Windows Phone, etc. using the Microsoft Exchange ActiveSync protocol anywhere.
 
 Cost-efficient − Amazon WorkMail charges 4$ per user per month up to 50GB of storage.
+
+#### Resources
+
+* [AWS Definition](https://aws.amazon.com/workmail/)
