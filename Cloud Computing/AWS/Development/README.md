@@ -295,9 +295,9 @@
 * There are Six (6) AWS Relational Database Types;
 	* `MicroSoft SQL Server` : 
 	* `Oracle Database` : 
-	* `MySQL` : 
+	* `MySQL` : Port 3306 is default port
 	* `PostgreSQL` : 
-	* `Amazon Aurora` :  AWS Flagship database. Fully Compatible with MySQL. It is not avialble for Free Tier. 
+	* `Amazon Aurora` :  Port 3306 is the default port. AWS Flagship database. Fully Compatible with MySQL. It is not avialble for Free Tier. 
 	* `MAriaDB` :   
 
 * IN relational databases the schema or structure of the table must be predefiend. 
@@ -341,6 +341,14 @@
 			* maintenance window 
 			* Deletion protection
 	* Estimared montly Cost
+
+* AWS provides DNS name for all database conncetion string and not `Public IPV4`, this is due to AWS being able to manage the DB availability and manage other Database infrustructre
+
+* The Database Security group must allow connections from other Security groups (One with EC2 possibly) to communicate
+
+#### Milti-AZ vs. Read Replica
+
+ 
 
 #### For more information See
 
