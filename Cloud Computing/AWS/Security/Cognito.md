@@ -5,6 +5,12 @@
 * [Youtube OAuth Tutorial](https://www.youtube.com/watch?v=lwaudf2h8FY)
 * [Youtube OAuth Tutorial](https://www.youtube.com/watch?v=BdKmZ7mPNns)
 * [Youtube OAuth Tutorial](https://www.youtube.com/watch?v=GyCL8AJUhww)
+* [OAuth2 Home page](https://oauth.net/2/)
+* [RFC6749 OAuth2](https://tools.ietf.org/html/rfc6749)
+* [Wiki OAuth Page](https://en.wikipedia.org/wiki/OAuth)
+* [Wiki OpenID Page](https://en.wikipedia.org/wiki/OpenID)
+* [Qick Reference](https://medium.com/@robert.broeckelmann/saml2-vs-jwt-understanding-oauth2-4abde9e7ec8b)
+* [OpenID detailed information](https://openid.net/connect/)
 
 # JSon Web Tokens (JWT)
 
@@ -24,7 +30,7 @@ JWT is created to fix the shoort commings of Session ID regarding the single sev
 * [Structure of JWT](https://www.youtube.com/watch?v=_XbXkVdoG_0)
 * [Terms in Oauth](https://www.youtube.com/watch?v=3pZ3Nh8tgTE)
 * [OAuth explained](https://www.youtube.com/watch?v=t4-416mg6iU)
-
+* [oAuth Flow and terminilogy](https://www.youtube.com/watch?v=3pZ3Nh8tgTE)
 
 # OAuth and OpenID used by AWS Cognito
 
