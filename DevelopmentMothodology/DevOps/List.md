@@ -60,3 +60,6 @@
 
 * Document repository
   - Confluence
+
+* Code Quality
+  - SonarQube (Open Source) 
