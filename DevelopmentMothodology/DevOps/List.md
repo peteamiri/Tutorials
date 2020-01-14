@@ -42,7 +42,7 @@
   - Mesos
 
 * Scripting Languages
-  - Shell,
+  - Shell Script,
   - Ruby/JRuby,
   - Perl,
   - Python,
@@ -57,3 +57,6 @@
   - Rally,
   - Jira,
   - Version One
+
+* Document repository
+  - Confluence
