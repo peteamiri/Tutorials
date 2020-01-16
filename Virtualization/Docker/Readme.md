@@ -2,7 +2,8 @@
 * [Docker Official Documentation](https://docs.docker.com/)
 * [Docker Compose](https://docs.docker.com/compose/)
 * [Tutorial](https://rominirani.com/docker-tutorial-series-a7e6ff90a023)
-* [Docker Coommands](https://www.edureka.co/blog/docker-commands/)
+* [Good Starting Point](https://www.youtube.com/watch?v=wxxigbHwDGM&list=PL2We04F3Y_42mOz2jsBqB_TOGIgaB8KkL)
+* [Docker Commands](https://www.edureka.co/blog/docker-commands/)
 * [Docker Resources](https://www.janbasktraining.com/blog/what-is-docker/)
 * [Docker](https://www.youtube.com/watch?v=zJ6WbK9zFpI)
 * [Docker](https://www.youtube.com/watch?v=1xo-0gCVhTU)
@@ -79,3 +80,25 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 # Docker File
 * File Structure
+
+## Setting up Docker repository
+## Docker repository / registry
+
+Docker registry could be hosted by a third party, as public or private registry, like one of the following registries:
+
+* Docker Hub
+* Quay
+* Google Container Registry
+* AWS Container Registry
+
+or you can host the docker registry by yourself (see https://docs.docker.com/docker-trusted-registry/ for more details).
+
+Docker repository is a collection of different docker images with same name, that have different tags. Tag is alphanumeric identifier of the image within a repository.
+
+For example see https://hub.docker.com/r/library/python/tags/. There are many different tags for the official python image, these tags are all members of the official python repository on the Docker Hub. Docker Hub is a Docker Registry hosted by Docker.
+
+#### To find out more read:
+
+* [Docker Registry](https://docs.docker.com/registry/)
+* [Github Repository](https://github.com/docker/distribution)
+* [Blog](https://nickjanetakis.com/blog/docker-tip-53-difference-between-a-registry-repository-and-image)

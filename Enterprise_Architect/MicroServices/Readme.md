@@ -19,4 +19,9 @@
 
 ### The system must have a version in URL.
 ### Error message
-### Health check 
+### Health check
+
+### Deploying Service into Dockerfile
+
+* [Youtube example](https://www.youtube.com/watch?v=JGc8KJai1f0)
+* [DevOps Docker](https://www.javainuse.com/devOps/docker)
