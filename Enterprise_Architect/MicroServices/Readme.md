@@ -14,3 +14,9 @@
 ## Microservices with Spring Boot
 
 * [Introduction to MicroServices](https://www.youtube.com/watch?v=8VUbMuAezrc&list=PLBBog2r6uMCQK3KnO2iVs66OnP-V8GiTM)
+
+## Architect a systems
+
+### The system must have a version in URL.
+### Error message
+### Health check 

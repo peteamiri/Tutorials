@@ -42,7 +42,7 @@
 * [Enhanced Interior Gateway RoutingProtocol (EIGRP)]()
 * [Border Gateway Protocol (BGP)]()
 
-## Routers 
+## Routers
 
 * [Basic Routing concepts and protocols Explained](https://www.computernetworkingnotes.com/ccna-study-guide/basic-routing-concepts-and-protocols-explained.html)
 * [Routing Protocols and Concepts](https://learningnetwork.cisco.com/servlet/JiveServlet/downloadBody/25044-102-1-99707/Routing%20Protocols%20and%20Concepts.pdf)
@@ -53,7 +53,7 @@
 
 * [Types of Firewall Explained with Functions and Features](https://www.computernetworkingnotes.com/ccna-study-guide/types-of-firewall-explained-with-functions-and-features.html)
 
-## Load Babalncer
+## Load Balancer
 * [various Algorithm](https://kemptechnologies.com/load-balancer/load-balancing-algorithms-techniques/)
 * [AWS Load balancers](https://aws.amazon.com/elasticloadbalancing/)
 * [AWS Load Balancer](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/load-balancer-types.html#alb)
@@ -62,3 +62,7 @@
 ## TCP
 
 * [TCP Features and Functions Explained with Examples](https://www.computernetworkingnotes.com/ccna-study-guide/tcp-features-and-functions-explained-with-examples.html)
+
+## List of Known Ports
+
+* [Wiki Known Ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
