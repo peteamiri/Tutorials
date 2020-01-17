@@ -1,6 +1,7 @@
 # MicroService Security
 
 * [Starting Point](https://www.youtube.com/watch?v=wpA0N7kHaDo)
+*
 
 # Microservice Characteristics
 
@@ -91,9 +92,40 @@ Viewing the size of services as the primary structuring mechanism can lead to to
 * Continious loging and monitoring.
 * Logging proceess to identify the failure and its cause, and location.
 
+# Various ways of Securing MicroServices
+
+* Kerberos Tickets (Active directory), reqquires a Kerberos Server
+* SAML Token (XML/SOAP), requires a SAML Server
+* JWT Token (JSON/HTTP and MicrServices) prefered
+  - It is standardized
+
+# Security Stack Standards
+
+* JSON Web Algorithm(JWA) : mainly deals with defining the Security Metadata (what encryption algorithm is used. etc.)
+* JSON Web Key (JWK) : mainly deals with defining the Security Metadata (what encryption algorithm is used. etc.)
+* JSON Web signature (JWS) : to protect the message from being tempared with, like hashing.
+* JSON Web encryption (JwE) : encrypt the paylload
+* JSON Web Token (JWT) : it is a based 64 of each of the following parts seperared by periods. The end result is a string that could be used anywhere.
+  - Header : Algorithm used
+  - Body: Arbitraty (programmer defined) infoormation
+  - Signature:
+* OAut2:
+* OpenID Connect:
+
+The JWT is either encrypted or signed.
+
+Anyone can see the content of JWT but they can not change it.
+It is placed in HTTP header as `Authorization:`
+Similarly for RabitMQ header 
+
+#### More information abooout Json Web Token
+* [Wiki](https://en.wikipedia.org/wiki/JSON_Web_Token)
+* [Introduction](https://jwt.io/introduction/)
+* [jwt.io](https://jwt.io/)
+* [Youtube Intrduction](https://www.youtube.com/watch?v=cKjgkNt-tFg)
 
 ### OAuth
-* application use the third party applicatiion to generate token
+* Application use the third party applicatiion to generate token
   - works for both authorization and authantiction
   - If API Token is missing the server routes the calls to the third party for authantication.
     - my not be the best way to secure services.
