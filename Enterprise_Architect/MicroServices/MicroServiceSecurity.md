@@ -1,7 +1,8 @@
 # MicroService Security
 
 * [Starting Point](https://www.youtube.com/watch?v=wpA0N7kHaDo)
-*
+* [Spring Security Deep Dive](https://www.youtube.com/watch?v=AdsnM6OTepc)
+
 
 # Microservice Characteristics
 
@@ -123,7 +124,7 @@ You can use OAuth2 / OpennID and get and validate JWT Token.
 #### More information abooout Json Web Token
 * [Wiki](https://en.wikipedia.org/wiki/JSON_Web_Token)
 * [Introduction](https://jwt.io/introduction/)
-* [jwt.io](https://jwt.io/) you can see the JWT and what algorithm is used for specific JWT
+* [jwt.io](https://jwt.io/) you can see the JWT and what algorithm is used for specific JWT. Also provides library to read JWT with any programming language.
 * [Youtube Intrduction](https://www.youtube.com/watch?v=cKjgkNt-tFg)
 * [Great Resource for OAuth2](https://auth0.com/docs/getting-started)
 
@@ -153,3 +154,20 @@ You can use OAuth2 / OpennID and get and validate JWT Token.
 * Defines a stanrd way of tokens
 
 ### Miroservice Security Patterns
+
+* Use API Gateway A.K.A. Edge MicroServices
+  - Internal MicroServices
+  - Edge MicroService
+  - Client
+
+* [Backend For Frontend (BFF)](https://samnewman.io/patterns/architectural/bff/)
+
+* Always use the JWT with MicroServices.
+
+* In Spring security you can use `@PreAuthorized("#oauth2.hasScope('app1')")` for authorizing the service.
+  - This means that the `app1` is authorized by OAuth2 server as indicated bby user, as a resource to share with this application. or Simply app1 is in the  in Scope. Scop is define in JWT as standard that OpenID connect and OAuth2 is required.
+  - This is a java  annotation as part of Spring security.
+
+*In Spring Security also need to use `@EnableResourceServer` this token indicated that
+  - This application will not interact with any application that does not have JWT token. Part of Spring Security.
+    - There may be some configuration in application.yaml in resources(maven java applicatiion structure) of Java Application.
