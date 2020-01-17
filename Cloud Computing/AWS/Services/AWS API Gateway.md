@@ -26,3 +26,7 @@ To create an API you must select;
 # Deploying
 
 * when done you need to deploy the API
+
+# API Gateway Security 
+
+* [Intorduction](https://www.youtube.com/user/mmatouk/videos?disable_polymer=1)
