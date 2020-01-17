@@ -116,18 +116,40 @@ The JWT is either encrypted or signed.
 
 Anyone can see the content of JWT but they can not change it.
 It is placed in HTTP header as `Authorization:`
-Similarly for RabitMQ header 
+Similarly for RabitMQ header
+
+You can use OAuth2 / OpennID and get and validate JWT Token.
 
 #### More information abooout Json Web Token
 * [Wiki](https://en.wikipedia.org/wiki/JSON_Web_Token)
 * [Introduction](https://jwt.io/introduction/)
-* [jwt.io](https://jwt.io/)
+* [jwt.io](https://jwt.io/) you can see the JWT and what algorithm is used for specific JWT
 * [Youtube Intrduction](https://www.youtube.com/watch?v=cKjgkNt-tFg)
+* [Great Resource for OAuth2](https://auth0.com/docs/getting-started)
 
-### OAuth
+
+### OAuth2
+* It is generally a method to ask for user permission or using a resource or data.
+
 * Application use the third party applicatiion to generate token
   - works for both authorization and authantiction
   - If API Token is missing the server routes the calls to the third party for authantication.
     - my not be the best way to secure services.
 
+* MicroService uses Client ccredential part of OAuth2
+* OAuth2 can be used for both User authantcation and server authantication.
+  - There are 4 flows thet OAuth2 uses. each is for a specific use. include web user authanication and application/service authantication
+
+##### OAuth2 commponenets and terminology
+
+* Resource Owner
+* CLients
+* OAuth2 Authorization Server
+* Resource Server
+
 ### OpenID
+* is build on top of OAuth2, JWT, and TLS. it is most opinionated.
+  - Specific fields are required in JWT.
+* Defines a stanrd way of tokens
+
+### Miroservice Security Patterns
