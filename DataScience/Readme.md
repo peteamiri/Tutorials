@@ -8,6 +8,7 @@
 * [YouTube Introduction](https://www.youtube.com/watch?v=k1RI5locZE4)
 * [Youtube Introduction](https://www.youtube.com/watch?v=MmsoIcYrXJU)
 
+* [Good Staring Point](https://www.ysoutube.com/watch?v=ua-CiDNNj30&list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1)
 
 ## More information
 
