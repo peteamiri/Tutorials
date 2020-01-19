@@ -13,6 +13,8 @@
 * [Yutube Playlist](https://www.youtube.com/user/edurekaIN/playlists)
 * [Youtube PlayList More on Web UI](https://www.youtube.com/user/TechGuyWeb/playlists)
 * [YouTube Playlist More on web UI](https://www.youtube.com/user/programmingwithmosh/playlistssf)
+* [Good Youtube Training](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos)
+* [Good Courses Here](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/playlists)
 
 ## YouTube Playlists
 
