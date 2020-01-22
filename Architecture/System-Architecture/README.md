@@ -1,7 +1,7 @@
 # System Design
 
 # Top Interview Questions;
-*[General System Design Interview Questions](https://dzone.com/articles/top-20-system-design-interview-questions-for-java)
+* [General System Design Interview Questions](https://dzone.com/articles/top-20-system-design-interview-questions-for-java)
 
 
 # How will you design a chat system like WhatsApp for at-least 1 million subscribers?
