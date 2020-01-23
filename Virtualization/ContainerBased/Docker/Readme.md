@@ -12,10 +12,6 @@
 * [IBM Containers](https://www.youtube.com/watch?v=0qotVMX-J5s)
 * [Docker Vs. Kubernaties](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
 
-# Linux Kernel
-
-* <a href="http://www.win.tune.nl/~aeb/linux/lk.html" target="_blank">Linux Kernel</a>
-
 # Docker Hub
 
 * <a href="https://hub.docker.com/" target="_blank">Docker Hub</a>
