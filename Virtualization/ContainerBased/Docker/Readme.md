@@ -47,7 +47,7 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 * `Enterprise Edition (EE)`: Designed for enterprise development and IT teams who build, ship, and run business-critical applications in production at scale.
 
-![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=fqMOX6JJhGo "Introduction to Docker")
+![Docker](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)](https://www.youtube.com/watch?v=fqMOX6JJhGo "Introduction to Docker")
 
 ## Important Subjects in Docker
 * Dockerfile
