@@ -14,18 +14,17 @@
 
 # Linux Kernel
 
-* [Linux Kernel](http://www.win.tune.nl/~aeb/linux/lk.html)
+* <a href="http://www.win.tune.nl/~aeb/linux/lk.html" target="_blank">Linux Kernel</a>
 
 # Docker Hub
 
-* [Docker Hub](https://hub.docker.com/)
+* <a href="https://hub.docker.com/" target="_blank">Docker Hub</a>
 
 # Docker:
 
 ### Installation
 
-* [Docker](https://computingforgeeks.com/install-docker-and-docker-compose-on-rhel-8-centos-8/)
-
+* <a href="https://computingforgeeks.com/install-docker-and-docker-compose-on-rhel-8-centos-8/" target="_blank">Installing Docker on CentOS 8</a>
 
 ### Docker Components / Terminologies
 
@@ -50,13 +49,7 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 ### For more information see
 
-[Good Introduction to Docker](https://www.youtube.com/watch?v=fqMOX6JJhGo)
-
-<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TheVideoID?autoplay=1" frameborder="10" allowfullscreen></iframe>
-
-<a href="https://www.youtube.com/watch?v=fqMOX6JJhGo
-" target="_blank"><img src="https://www.youtube.com/watch?v=fqMOX6JJhGo"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+* <a href="https://www.youtube.com/watch?v=fqMOX6JJhGo" target="_blank">Youtube Introduction to Docker Course</a>
 
 ## Important Subjects in Docker
 * Dockerfile
