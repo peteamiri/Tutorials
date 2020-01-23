@@ -47,6 +47,10 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 * `Enterprise Edition (EE)`: Designed for enterprise development and IT teams who build, ship, and run business-critical applications in production at scale.
 
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=fqMOX6JJhGo">
+</iframe>
+
 ## Important Subjects in Docker
 * Dockerfile
   - Layers
@@ -57,7 +61,7 @@ There area a number of Docker specific jargon that we need to clarify before div
   - Image is like Class in object orirented
   - Contrainer is similar to objects in Object Oriented environement
 	- Information that is created within the containter only lasts during the lifetime of container.
-	- Images are generally created using docker file. the informaiton in the images last for the life of image.     
+	- Images are generally created using docker file. the informaiton in the images last for the life of image.
 
 # Linux Containers
 	1- Container vs. Virtual Machines

@@ -15,6 +15,7 @@
 * [YouTube Playlist More on web UI](https://www.youtube.com/user/programmingwithmosh/playlistssf)
 * [Good Youtube Training](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos)
 * [Good Courses Here](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/playlists)
+* [youtube playlist mostly related to redhat and linux](https://www.youtube.com/user/theurbanpenguin/playlists)
 
 ## YouTube Playlists
 

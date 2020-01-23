@@ -10,6 +10,7 @@
 * [Good Resource](http://www.linfo.org/newbies.html)
 * [Good Resource](https://www.computernetworkingnotes.com/)
 * [Good Resource](https://opensource.com/)
+* [Youtube Playlist](https://www.youtube.com/user/theurbanpenguin/playlists)
 
 ## General Resources
 
