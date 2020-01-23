@@ -54,6 +54,9 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 <iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TheVideoID?autoplay=1" frameborder="10" allowfullscreen></iframe>
 
+<a href="https://www.youtube.com/watch?v=fqMOX6JJhGo
+" target="_blank"><img src="https://www.youtube.com/watch?v=fqMOX6JJhGo"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Important Subjects in Docker
 * Dockerfile
