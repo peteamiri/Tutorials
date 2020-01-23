@@ -13,7 +13,8 @@
 * [Docker Vs. Kubernaties](https://www.youtube.com/watch?v=2vMEQ5zs1ko)
 
 # Linux Kernel
-	* [Linux Kernel](http://www.win.tune.nl/~aeb/linux/lk.html)
+
+* [Linux Kernel](http://www.win.tune.nl/~aeb/linux/lk.html)
 
 # Docker Hub
 
@@ -47,7 +48,12 @@ There area a number of Docker specific jargon that we need to clarify before div
 
 * `Enterprise Edition (EE)`: Designed for enterprise development and IT teams who build, ship, and run business-critical applications in production at scale.
 
-![Docker](https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png)](https://www.youtube.com/watch?v=fqMOX6JJhGo "Introduction to Docker")
+### For more information see
+
+[Good Introduction to Docker](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+
+<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TheVideoID?autoplay=1" frameborder="10" allowfullscreen></iframe>
+
 
 ## Important Subjects in Docker
 * Dockerfile
