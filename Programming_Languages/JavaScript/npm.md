@@ -1,6 +1,6 @@
 # NPM Tips and Tricks
 
-The npm is the original node package manager. Currently, bower is created to overcome some of the `npm` short comings. (Need more info on this and possible some comparison)
+The npm is the original `Node Package Manager`. Currently, `bower` is created to overcome some of the `npm` short comings. (Need more info on this and possible some comparison)
 
 ## create a plain nodejs project
 
@@ -166,7 +166,7 @@ This command prompts you for a number of things, such as the name and version of
 ```
 	entry point: (index.js)
 ```
-Enter app.js, or whatever you want the name of the main file to be. If you want it to be index.js, hit RETURN to accept the suggested     
+Enter app.js, or whatever you want the name of the main file to be. If you want it to be index.js, hit RETURN to accept the suggested
 ```
 	default file name.
 ```
