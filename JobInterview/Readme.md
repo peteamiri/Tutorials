@@ -1,5 +1,13 @@
 # Job Interview
 
+* [Good Source for Technical Interview](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
+* [AWS Cloud Questions](https://www.gangboard.com/blog/aws-interview-questions-and-answers/)
+* [AWS Cloud Questions](https://www.whizlabs.com/blog/aws-database-interview-questions/)
+* [AWS Cloud Questions](https://www.besanttechnologies.com/aws-interview-questions-and-answers)
+
+# AWS Star Interview
+* [AWS Most asked Questions](https://www.inc.com/business-insider/best-amazon-interview-questions.html)
+* 
 ## First Impression
 
 * [12 way good first impression](https://www.youtube.com/watch?v=JrbnTZPjg0k)
