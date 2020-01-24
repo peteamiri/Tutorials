@@ -1,5 +1,51 @@
 # Data Science
 
+`Data science` is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured, semi-structured, and unstructured data.
+
+* [Wiki Definition](https://en.wikipedia.org/wiki/Data_science)
+
+* Machine Learning
+* Deep Learning
+* Artifical Intelliegence
+
+## The Data Science Life Cycle
+
+
+There are 5 stages in Data Science life cycle:
+* Capture,
+  - data acquisition,
+  - data entry,
+  - signal reception,
+  - data extraction
+* Maintain
+  - data warehousing,
+  - data cleansing,
+  - data staging,
+  - data processing,
+  - data architecture
+* Process
+  - data mining,
+  - clustering/classification,
+  - data modeling,
+  - data summarization
+* Analyze
+  - exploratory/confirmatory,
+  - predictive analysis,
+  - regression,
+  - text mining,
+  - qualitative analysis
+* Communicate
+  - data reporting,
+  - data visualization,
+  - business intelligence,
+  - decision making
+
+![The Data Science Life Cycle](images/DataScienceLifeCycle.jpg)
+
+* [Article by Berkeley University](https://datascience.berkeley.edu/about/what-is-data-science/)
+* [Additional Information](https://www.edureka.co/blog/what-is-data-science/)
+
+### For more information see:
 * [Youtube Starting Point](https://www.youtube.com/watch?v=-ETQ97mXXF0)
 * [Youtube Course](https://www.youtube.com/watch?v=csG_qfOTvxw&list=RDQMGLFlZrEFhvY&start_radio=1)
 * [Youtube Deep Learning](https://www.youtube.com/watch?v=DKSZHN7jftI&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi)
@@ -12,8 +58,7 @@
 
 ## More information
 
-* [Wiki Data Science](https://en.wikipedia.org/wiki/Data_science)
-* [Udacity Introduction to Data Science](https://www.youtube.com/watch?v=O_ZdAt_0JWU&index=3&list=PLAwxTw4SYaPk41og7PER4HBpGciPw6n3x)
+* [Udacity Introduction to Data Science](https://www.youtube.com/watch?v=Cgm3r-G0cMQ&list=PLAwxTw4SYaPk41og7PER4HBpGciPw6n3x&index=1)
 * [Udacity Course on Machine Learning](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx)
 * [Udacity Cource on Deep Learning](https://www.youtube.com/playlist?list=PLAwxTw4SYaPn_OWPFT9ulXLuQrImzHfOV)
 * [Udacity Bigdata Hadoop MapReduce](https://www.youtube.com/watch?v=DEQNknALf_8&list=PLAwxTw4SYaPkXJ6LAV96gH8yxIfGaN3H-)

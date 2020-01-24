@@ -1,5 +1,6 @@
 ## Resources
 
+* [AWS certification information](https://aws.amazon.com/certification/)
 * [Summary of Services](https://www.youtube.com/watch?v=TkT4iFRkaZk)
 * [AWS Certification](https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
 
