@@ -16,6 +16,8 @@
 * [Good Youtube Training](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/videos)
 * [Good Courses Here](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/playlists)
 * [youtube playlist mostly related to redhat and linux](https://www.youtube.com/user/theurbanpenguin/playlists)
+* [Generic Youtube playlist Mostly around Data Science](https://www.youtube.com/channel/UCKXx22vOENUyHrVAADq7Z_g/playlists)
+* [Linux Based Playlists](https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ/playlists)
 
 ## YouTube Playlists
 
