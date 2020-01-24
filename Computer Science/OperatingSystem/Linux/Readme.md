@@ -1,5 +1,14 @@
 # Linux
 
+## Linux History
+* Unix
+* Debian GNU (Free Software Fundation FSF)
+* Linux
+
+##
+
+
+
 ## Command Line / Bash
 
 * [Quick Reference](https://ss64.com/bash/)
@@ -11,7 +20,7 @@
 * [Good Resource](https://www.computernetworkingnotes.com/)
 * [Good Resource](https://opensource.com/)
 * [Youtube Playlist](https://www.youtube.com/user/theurbanpenguin/playlists)
-* [7 Hours Linux Training](https://www.youtube.com/watch?v=wBp0Rb-ZJak)
+* [Advanced Linux System Admin](https://www.youtube.com/watch?v=qAMWG86sEm8)
 
 ## General Resources
 
