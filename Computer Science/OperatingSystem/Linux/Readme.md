@@ -11,6 +11,7 @@
 * [Good Resource](https://www.computernetworkingnotes.com/)
 * [Good Resource](https://opensource.com/)
 * [Youtube Playlist](https://www.youtube.com/user/theurbanpenguin/playlists)
+* [7 Hours Linux Training](https://www.youtube.com/watch?v=wBp0Rb-ZJak)
 
 ## General Resources
 
