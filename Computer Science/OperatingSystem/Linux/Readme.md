@@ -1,5 +1,8 @@
 # Linux
 
+* [Linux Fundamental](https://www.youtube.com/playlist?list=PL9ooVrP1hQOHSGgHqf_rW8KrW3IkZmbRM)
+* [Linux Admin](https://www.youtube.com/playlist?list=PL9ooVrP1hQOH3SvcgkC4Qv2cyCebvs0Ik)
+
 ## Linux History
 * Unix
 * Debian GNU (Free Software Fundation FSF)
