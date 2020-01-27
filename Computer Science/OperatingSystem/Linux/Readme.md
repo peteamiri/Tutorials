@@ -2,6 +2,9 @@
 
 * [Linux Fundamental](https://www.youtube.com/playlist?list=PL9ooVrP1hQOHSGgHqf_rW8KrW3IkZmbRM)
 * [Linux Admin](https://www.youtube.com/playlist?list=PL9ooVrP1hQOH3SvcgkC4Qv2cyCebvs0Ik)
+* [Playlist of various Linux Subjects](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists?disable_polymer=1)
+* [Varous Youtube Playlists](https://www.youtube.com/user/gagandhaliwal1/playlists?disable_polymer=1)
+* [Tow Part Linux Performace tools](https://www.youtube.com/playlist?list=PLhhdIMVi0o5RNrf8E2dUijvGpqKLB9TCR)
 
 ## Linux History
 * Unix
