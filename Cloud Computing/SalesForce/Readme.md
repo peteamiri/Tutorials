@@ -7,6 +7,7 @@ The following is an outline and guideline
 * [MyTutorialRack](https://www.youtube.com/channel/UCb8Gc-Y6EnbLjRzeAvzmhVQ/playlists)
 * [SalesForce Develoepr TV](https://developer.salesforce.com/tv/)
 * [Online Tutorials](https://intellipaat.com/blog/tutorial/salesforce-tutorial/)
+* [SalesForce Development](https://www.youtube.com/channel/UCx_ulwNos8lrjTJf82-lwVw/videos)
 
 ## Starting Point
 
@@ -146,7 +147,7 @@ Sandbox Types and Templates](https://help.salesforce.com/articleView?id=create_t
   * delete 
   * merge 
   * upsert 
-  * undelete 
+  * undelete
 * importance of Triggers,
 * Trigger – before and after use cases,
 * types of Triggers,

@@ -3,6 +3,7 @@
 `Data science` is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured, semi-structured, and unstructured data.
 
 * [Wiki Definition](https://en.wikipedia.org/wiki/Data_science)
+* [Interview Questions](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
 
 * Machine Learning
 * Deep Learning
