@@ -5,6 +5,7 @@
 * [Playlist of various Linux Subjects](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists?disable_polymer=1)
 * [Varous Youtube Playlists](https://www.youtube.com/user/gagandhaliwal1/playlists?disable_polymer=1)
 * [Tow Part Linux Performace tools](https://www.youtube.com/playlist?list=PLhhdIMVi0o5RNrf8E2dUijvGpqKLB9TCR)
+* [DNS Server](https://www.youtube.com/watch?v=0X9em99Vcl0&list=PL9ooVrP1hQOH3SvcgkC4Qv2cyCebvs0Ik&index=7)
 
 ## Linux History
 * Unix

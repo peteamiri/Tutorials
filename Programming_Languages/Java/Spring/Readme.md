@@ -1,5 +1,6 @@
 # Spring
 
+* [JavatPoint](https://www.javatpoint.com/)
 * [Spring Tutorial](https://www.dineshonjava.com/spring-tutorial/)
 * [Spring MVC Web Tutorial](https://www.dineshonjava.com/spring-web-mvc-framework-chapter-38/)
 * [Spring Boot Tutorial](https://www.dineshonjava.com/spring-boot-tutorial/)
@@ -13,7 +14,7 @@
 * [Spring Batch](https://www.dineshonjava.com/spring-batch-process-with-example/)
 
 #### Optional
-Best is to use Hibernate 
+Best is to use Hibernate
 * [Spring JDBC Tutorial](https://www.dineshonjava.com/using-spring-jdbc-framework-chapter-32/)
 
 # Generic Spring Resource
