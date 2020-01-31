@@ -1,3 +1,7 @@
+# Hacker Skill
+
+* [Linux Pentesting](https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q/playlists) 
+
 # Skill Set
 
 As an ethical hacker, you will need to understand various hacking techniques such as −

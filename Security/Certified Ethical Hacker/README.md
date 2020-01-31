@@ -4,6 +4,7 @@
 * [TutorialsPoint](https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_quick_guide.htm)
 * [TutorialsPoint Vidoe](https://www.youtube.com/watch?v=oKgnYe_6uh8&list=PLWPirh4EWFpEK7BXbMvKDYuHhA4AiYLDb)
 * [Mock Exam](http://www.gocertify.com/quizzes/ceh/certified-ethical-hacker-practice-quiz-312-50-quiz-1.html)
+* [Digital Attack Map](https://www.digitalattackmap.com/#anim=1&color=0&country=ALL&list=0&time=18290&view=map)
 
 ## Footprinting
 

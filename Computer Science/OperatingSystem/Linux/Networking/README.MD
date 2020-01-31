@@ -6,6 +6,8 @@
 * [Wireshark](https://www.tecmint.com/wireshark-network-traffic-analyzer-for-linux/)
 * [munin Network Monitoring](https://www.tecmint.com/install-munin-network-monitoring-in-rhel-centos-fedora/)
 * [Cacti Network Monitoring](https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/)
+* nmcli
+* ip
 
 ## Network Class, Umask, Cyder notation
 
