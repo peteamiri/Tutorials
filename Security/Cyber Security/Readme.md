@@ -1,6 +1,5 @@
 # Starting
 
-* [Good Starting Point](https://www.youtube.com/watch?v=qvDg17PbSnU&list=PLmAuaUS7wSOMUeLR_y238QTaCDcYnKOO8&index=1)
 * [Good Start](https://www.upguard.com/blog/cyber-security)
 * [Cyber Attacks](https://www.upguard.com/blog/cyber-attack)
 * [Cyber Threads](https://www.upguard.com/blog/cyber-threat)
