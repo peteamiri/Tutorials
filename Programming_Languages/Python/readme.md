@@ -1,5 +1,6 @@
 # Python
 
+* [quick Reference](https://wiki.python.org/moin/SimplePrograms)
 * [start Here](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 * [Python Site Tutorial](https://docs.python.org/3/tutorial/index.html)
 * [Python](https://www.youtube.com/watch?v=WGJJIrtnfpk)
@@ -8,6 +9,8 @@
 * [Python](https://www.youtube.com/watch?v=Q33KBiDriJY)
 * [Python](https://www.youtube.com/watch?v=4F2m91eKmts)
 * [Python](https://www.youtube.com/watch?v=WGJJIrtnfpk)
+* [Good Python Resource](https://realpython.com/tutorials/advanced/)
+* [Various Youtube PlayLists](https://www.youtube.com/user/DrapsTV/playlists)
 
 ## Python IDE
 * [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
