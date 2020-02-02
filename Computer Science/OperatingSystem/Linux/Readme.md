@@ -6,8 +6,9 @@
 * [Varous Youtube Playlists](https://www.youtube.com/user/gagandhaliwal1/playlists?disable_polymer=1)
 * [Tow Part Linux Performace tools](https://www.youtube.com/playlist?list=PLhhdIMVi0o5RNrf8E2dUijvGpqKLB9TCR)
 * [DNS Server](https://www.youtube.com/watch?v=0X9em99Vcl0&list=PL9ooVrP1hQOH3SvcgkC4Qv2cyCebvs0Ik&index=7)
-  - [Good Playlist for Linux Learning](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists)
-
+* [Good Playlist for Linux Learning](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists)
+* [Linux Tutorials](http://www.yolinux.com/TUTORIALS/)
+* [Advanced Training](https://www.linux.org/forums/linux-advanced-tutorials.125/) 
 ## Linux History
 * Unix
 * Debian GNU (Free Software Fundation FSF)
@@ -79,3 +80,16 @@ The following is the boot order in Linux;
 ## Development
 
 * [guru99](https://www.guru99.com/)
+
+## Other resources
+
+To save you some searching, here are a few websites where you can find information covering most aspects of the operating system:
+
+* [tldp.org](http://www.tldp.org/) - The Linux Documentation Project homepage has the largest collection of tutorials, HOW-TOs and FAQs for Linux.
+* [Linux.org](http://www.Linux.org/) - The documentation page from the official Linux.org website. Contains links to a lot of useful information.
+* [redhat.com](https://access.redhat.com/documentation/en-us/) - The Red Hat Fedora Linux manuals page. Almost all of this information will apply to any other version of Linux as well. All the guides here are full of very useful information. You can download all the guides to view offline.
+* [justLinux.com](http://www.justLinux.com/) - Contains a library of information for beginners on all topics from setting up hardware, installing software, to compiling the kernel
+* [Linuxquestions.org](http://www.Linuxquestions.org/) - The second best place (we're the first :> ) to post a question if you have a problem.
+* [pbone.net](http://www.pbone.net) - Pbone is a great search engine to find RPM packages for your Linux operating system.
+* [freshmeat.net](http://www.freshmeat.net) - Looking for an application in Linux? Try Freshmeat - if you don't find it there, it's most probably not out yet!
+* [sourceforge.net](http://www.sourceforge.net) - The world's largest development and download repository of Open Source code (free) and applications. Sourceforge hosts thousands of open source projects, most of which are of course for the Linux operating system.
