@@ -1,5 +1,6 @@
 # Network Design
 
+* [Javatpoint](https://www.javatpoint.com/computer-network-tutorial)
 * [Cisco Safe Reference Guide](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/SAFE_RG/SAFE_rg.html)
 * [Enterprise Internet Edge Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/IE_DG.html)
 * [Internet Edge Solution Overview](https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/WAN_and_MAN/Internet_Edge/InterEdgeOver.html?referring_site=RE&pos=2&page=https://www.cisco.com/c/en/us/td/docs/solutions/Enterprise/Security/IE_DG.html)

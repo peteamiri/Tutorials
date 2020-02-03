@@ -1,6 +1,7 @@
 # Tutorial sites
 
 * [Hackr.io](https://hackr.io/)
+* [JavatPoint](https://www.javatpoint.com/)
 * [Guru99](https://www.guru99.com/)
 * [W3School](https://www.w3schools.com/)
 * [TutorialsPoint](https://www.tutorialspoint.com/index.htm)

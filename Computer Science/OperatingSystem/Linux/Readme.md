@@ -8,7 +8,7 @@
 * [DNS Server](https://www.youtube.com/watch?v=0X9em99Vcl0&list=PL9ooVrP1hQOH3SvcgkC4Qv2cyCebvs0Ik&index=7)
 * [Good Playlist for Linux Learning](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists)
 * [Linux Tutorials](http://www.yolinux.com/TUTORIALS/)
-* [Advanced Training](https://www.linux.org/forums/linux-advanced-tutorials.125/) 
+* [Advanced Training](https://www.linux.org/forums/linux-advanced-tutorials.125/)
 ## Linux History
 * Unix
 * Debian GNU (Free Software Fundation FSF)
@@ -72,6 +72,7 @@ The following is the boot order in Linux;
 
 * [Good Site](http://www.brendangregg.com/)
 * [Linux](https://github.com/judasn/Linux-Tutorial) Use the Google translator for this
+* [Various Training Playlist](https://www.youtube.com/channel/UC3RYdKzMQmdz8I8IU2iQDZA/playlists)
 
 ## Web Development
 
