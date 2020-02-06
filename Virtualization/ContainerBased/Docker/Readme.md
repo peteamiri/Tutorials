@@ -17,6 +17,45 @@
 * <a href="https://hub.docker.com/" target="_blank">Docker Hub</a>
 
 # Docker:
+The followings are some of the docker cli commands;
+
+```
+docker infor
+docker login docker.io
+docker images
+docker containsers
+docker ps
+docker logs
+docker exec -it imageName bash
+docker cp filename containername:full_path/filename
+
+```
+### Dockerfile
+
+### docker-compose.yml
+
+```
+docker-compose up -d       #creates the service
+docker-compose stop
+docker-compose start
+docker-compose restart
+docker-compose down        #deletes the entrie images
+```
+
+```
+version 3
+services:
+  jenkins:
+    container_name:
+    images:
+    ports:
+      - "8080:8080"
+    volumes:
+    networks:
+networks:
+  net:
+
+```
 
 ### Installation
 
