@@ -24,6 +24,16 @@ The following commands are used to work with files and directories:
 * `sed` :
 * `awk` :
 * `ln` :
+* `fsck` : fsck /dev/sda
+* `e2fssck` :
+* `lsblk` : lsblk /dev/sda
+* `parted` : parted /dev/sda print
+* `uname` :
+* `stat` :
+* `less` :
+* `more` :
+* `sync` :
+* `id` :
 
 ### Searching
 The following commands are used to search files and directories:
@@ -42,6 +52,14 @@ The following commands provide information about your Unix/Linux system:
 * `top` : a utility to show processes running, cpu usage, memory usage
 * `who` : show who is currently logged in
 * `iostat` :
+* `shutdown` :
+* `reboot` :
+* `halt` :
+* `pgrep` :
+* `pstree` :
+* `pkill` :
+* `kill` :
+* `pmap` :
 
 ### Debuging and compiling
 
@@ -49,6 +67,12 @@ The following commands provide information about your Unix/Linux system:
 * `gcc` :
 * `ld` :
 *
+### User and Group management
+The following commands deals with user and group manipulations
+
+* `adduser` :
+* `addgrp` :
+* `usermod` :
 
 ### Text Processing
 Unix and Linux text processing commands. Since their initial creation, Unix systems have been known as having powerful text processing commands.
@@ -73,7 +97,12 @@ You'll use these commands to work with networks and the internet from your Unix/
 * `tcpdump` :
   - `-D` displays the network interfaces.
 * `nmap` :
-* `rooute` : 
+* `route` :
+* `host` :
+* `sysctl` :
+* `systemctl` :
+
+
 
 ### Archives and Storage
 This is a collection of tutorials about using Linux archives -- collections of files stored in one other file. The tar and gzip commands are the most popular commands today. The 'compress' command is included here for legacy reasons.
@@ -82,7 +111,8 @@ This is a collection of tutorials about using Linux archives -- collections of f
 * `tar` : tape archive", create archives, and read/write from tapes and diskettes
 * `gzip` : used to compress files and archives (gunzip used to decompress them)
 * `bzip2` : also used to compress files
-
+* `dd` :
+*
 ### Printing
 This is a collection of articles about Unix and Linux printing. (Note: I haven't used these commands since the 1990s, they may have changed quite a bit.)
 
