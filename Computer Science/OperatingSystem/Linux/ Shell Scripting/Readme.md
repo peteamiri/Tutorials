@@ -101,7 +101,9 @@ You'll use these commands to work with networks and the internet from your Unix/
 * `host` :
 * `sysctl` :
 * `systemctl` :
-
+* `firewall-cmd ` : firewall-cmd --get-default-zone, firewall-cmd --get-active-zones, cat /usr/lib/firewalld/zones/public.xml
+  - [Good Article](https://www.cyberciti.biz/faq/how-to-set-up-a-firewall-using-firewalld-on-centos-8/)
+* `nmcli` : Network Manager CLI
 
 
 ### Archives and Storage

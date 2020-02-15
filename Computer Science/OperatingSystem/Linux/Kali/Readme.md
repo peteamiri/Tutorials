@@ -1,3 +1,6 @@
+# Kali Tools
+* [Kali Toolss](https://tools.kali.org/tools-listing)
+
 # Bulletproof hosting
 
 * [Bulletproof hosting Wiki](https://en.wikipedia.org/wiki/Bulletproof_hosting)

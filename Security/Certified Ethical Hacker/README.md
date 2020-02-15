@@ -1,5 +1,6 @@
 # Certified Ethical Hacker
 
+* [Guru99 Ethical Hacking Tutorials](https://www.guru99.com/ethical-hacking-tutorials.html)
 * [Good Starting Point](https://www.guru99.com/ethical-hacking-tutorials.html)
 * [TutorialsPoint](https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_quick_guide.htm)
 * [TutorialsPoint Vidoe](https://www.youtube.com/watch?v=oKgnYe_6uh8&list=PLWPirh4EWFpEK7BXbMvKDYuHhA4AiYLDb)
@@ -44,3 +45,141 @@ hackers based on what they hack and how they do it:
   - `Script Kiddie` : A script kiddie is a non-expert who breaks into computer systems by using pre-packaged automated tools written by others, usually with little understanding of the underlying concept, hence the term Kiddie.
   - `Neophyte`: also know as "n00b", or "newbie" or "Green Hat Hacker" is someone who is new to hacking or phreaking and has almost no knowledge or experience of the workings of technology and hacking.
   - `Hacktivist` : is a hacker who utilizes technology to announce a social, ideological, religious, or political message. In general, most hacktivism involves website defacement or denial-of-service attacks.
+
+### Methodology
+An ethical hacking methodology is quite similar to a hacking methodology as there are more or less the same goals. Anyhow, some differences exist. An ethical hacker doesn’t need to take that much care in hiding his traces and tracks. He can chose a more aggressive way and doesn’t need to bother with slowing down portscans (to avoid detection) or evading intrusion detection systems – at least most of the time unless it is specially desired by the client. Mostly, an ethical hacker just hasn’t the time to be that careful in blurring his traces and tracks unless the customer pays for. Nevertheless, a lot of similarities can be found to a hacking methodology. An ethical hacking methodology overview can be seen in figure 2. A similar setup could be used by a hacker for his attacks. The ethical hacking methodology described is based on eight possible phases where interactions between the phases are possible, even required as hacking is an iterative process; going back to an earlier phase is absolutely
+possible (and needed).
+
+1. Reconnaissance: It refers to gather as more information as we can about target in prior to perform an attack. It can be further classified into Active and Passive. Former involves information gathering with direct interaction like social engineering and the later without any direct interaction by searching news release or public records.
+
+2. Scanning: It refers to scan for all the open as well as closed ports and even for the known vulnerabilities on the target machine.
+* Passive scanning  Gather as much information about the target as possible while maintaining zero contact between the penetration tester and the target. Passive scanning, otherwise known as Open Source Intelligence (OSINT), can include
+  - Social networking sites
+  - Online databases
+  - Google, Monster.com, etc.
+  - Dumpster diving
+* Active scanning and enumeration  Probe the target’s public exposure with scanning tools, which might include
+  - Commercial scanning tools
+  - Network mapping
+  - Banner grabbing
+  - War dialing
+  - DNS zone transfers
+  - Sniffing traffic
+  - Wireless war driving
+* Fingerprinting  Perform a thorough probe of the target systems to identify
+   - Operating system type and patch level
+   - Applications and patch level
+   - Open ports
+   - Running services
+   - User accounts
+* Selecting target system  Identify the most useful target(s).
+* Exploiting the uncovered vulnerabilities  Execute the appropriate attack tools targeted at the suspected exposures.
+   - Some may not work.
+   - Some may kill services or even kill the server.
+   - Some may be successful.
+* Escalating privilege  Escalate the security context so the ethical hacker has more control.
+   - Gaining root or administrative rights
+   - Using cracked password for unauthorized access
+   - Carrying out buffer overflow to gain local versus remote control
+* Documenting and reporting  Document everything found, how it was found, the tools that were used, vulnerabilities that were exploited, the timeline of activities and successes, and so on.
+
+3. Gaining Control: It can be gained at OS level, system level or even network level. From normal access hacker can even proceed with privilege escalation. It often includes password cracking, buffer overflows, DoS attack etc.
+
+4. Maintaining Access: It is where hacker strives to retain its control over target with backdoors, root kits or Trojans. Compromised machines can even be used as Bots and Zombies for further attacks.
+
+5. Covering Tracks : It is also known as Daisy Chaining. To avoid being exposed or caught, a good hacker will leave no impressions of his presence. So he attempts to overwrite the system and application logs.
+
+## What Would an Unethical Hacker Do Differently?
+1.	Target selection
+* Motivated by a grudge or for fun or profit.
+* There are no ground rules, no hands-off targets, and the security team is definitely blind to the upcoming attack.
+
+2.	Intermediaries
+* The attacker launches his attack from a different system (intermediary) than his own, or a series of other systems, to make it more difficult to track back to him in case the attack is detected.
+* Intermediaries are often victims of the attacker as well.
+
+3. Penetration testing steps described in the previous section
+* Scanning
+* Footprinting
+* Selecting target system
+* Fingerprinting
+* Exploiting the uncovered vulnerabilities
+* Escalating privilege
+
+4.	Preserving access
+* This involves uploading and installing a rootkit, backdoor, Trojaned applications, and/or bots to assure that the attacker can regain access at a later time.
+
+5.	Covering tracks
+* Scrubbing event and audit logs
+* Hiding uploaded files
+* Hiding the active processes that allow the attacker to regain access
+* Disabling messages to security software and system logs to hide malicious processes and actions
+
+6.	Hardening the system
+* After taking ownership of a system, an attacker may fix the open vulnerabilities so no other attacker can use the system for other purposes.
+
+How the attacker uses the compromised system depends on what his or her over-all goals are, which could include stealing sensitive information, redirecting financial transactions, adding the systems to his or her bot network, extorting a company, and so on. The crux is that ethical and unethical hackers carry out basically the same activities only with different intentions. If the ethical hacker does not identify the hole in the defenses first, the unethical hacker will surely slip in and make himself at home.
+
+
+### HACKING TOOLS
+There are various characteristics for the use of tools for ethical hacking which are as follows:
+
+1. Adequate documentation
+2. Detailed reports on the discovered vulnerabilities, including how they can be fixed
+3. Updates and support when needed
+4. High level reports that can be presented to managers .
+
+The list and description of various tools used in the ethical hacking process are as follows:
+
+Scanning tools: The Scanning tools are quite helpful in the ethical hacking process. In technical detail, a scanner sends a message requesting to open a connection with a computer on a particular port. (A port is an interface where different layers of software exchanges information).
+
+Port Scanners:
+* Nmap
+* Superscan
+* Angry IP Scanner
+* Nikto
+* Unicornscan
+* Autoscan
+
+Packet Sniffers: They allow you to capture and visualise the traffic that is coming on your website.
+
+* Wireshark
+* TCPdump
+* Ethercap
+* Dsniff
+* EtherApe
+
+Vulnerability Exploitation: These are the tools you would use in order to gain access to various places.
+* Metasploit
+* Sqlmap
+* Sqlninja
+* Social Engineer Toolkit
+* Netsparker
+* BeEF
+* Dradis
+
+Vulnerability Scanners: These are designed to access a computer or network’s vulnerability to attacks. The functionaility of these tools varies from one to the other, but they all present a detailed analysis of how vulnerable your system is.
+* Nessus
+* OpenVAS
+* Nipper
+* Retina
+* QualysGuard
+* Nexpose
+
+Hacking Operating System: These are OS that have been designed specifically for hackers.
+* Backtrack5r3
+* Kalilinux
+* SE Linux
+* Knoppix
+* Backbox linux
+* Pentoo
+* Matriux Krypton
+* NodeZero
+* Blackbuntu
+* CAINE
+* DEFT
+* Helix
+
+Intrusion Detection Systems: These tools are one of the most important part of any security arrangement. They allow you to detect those threats that are potentially dangerous for your system.
+* Snort
+* NetCap
