@@ -12,7 +12,7 @@
 
 # Customer Obsession:
 
-## Tell me about a time that you had to handle a dificualt
+## Tell me about a time that you had to handle a dificualt customer
 
 Situation 1: System performance
 Database issue, I brouoght a DB expert and I optimized JVM and weblogic while she optimied the database
@@ -26,6 +26,12 @@ Using expection as application control flow
 Stack traced was writtien in Weblogic logs system spent resources wrting logs
 Fixed as many as I could and system become ready for user acceptance testing
 
+## Sometimes customers make unreasonable requests. Tell me about a time when you've had to push back or say no to a customer request. What did you say or do in response to that request?
+Adding more servers in a environement where the vnedor garenteed a 3 nine, it was not going to improve me avaiablity.
+
+## Tell me about a time when you pushed back against a decision that negatively impacted your team. What was the issue? How did it turn out? Would you have done anything differently?
+I was in SEC and cotar wanted to deploy the code to production without testing it.
+Issue as a spelling, the impact could have been downtime in production.
 
 ## How do you Wow customers
 
@@ -151,7 +157,7 @@ I can teach you how DNS works, Network Works, TOGAF ADM works.
 
 ## How do you help your employees to grow
 
-## How do you manage your time performers differently
+## How do you manage your top performers differently
 
 ## Give and example when someone was permoted becuase of your coaching and not becuase they were star performer
 * Sutiation one: Verisign rather inexprience new employee.
@@ -162,26 +168,36 @@ I can teach you how DNS works, Network Works, TOGAF ADM works.
 * I am architect, but generally a team of engineers, project manager, testing team, deployment team, and operations team.
 
 # Insist on the highest standard
+
 ## tell me about a time that I was unsttisfied with the status-quoe what dd you do to chenage it
 * Situation 1 Fredie mac, implement CI-CD
+* Situation 2 : puting jarfiles in classpath this could cause major issue
 
 ## Tell me about a situation that peole thought good enough is good and you did not sattle with it
 * I was doing a Architecture Defintion Document for Fannie Mae, I did not sattle with the template, I created my own, and I wind up to be part of reviewing board.
+* I was in Jacksonvill electirc company Development lifecycle
+* Deployment of applications and put jarfiles in classpath
 
 ## what measures have you implemented to ensure the performance improvemenets and targets are achived
 
 ## Give me an example of a goal that you wish you have done better, what was the goal and how could you improve it
+every project lookiing back I can see that could be better soltuions. In most cases those better solutions become requirments for the next release.
+IBM performance improvement, move everything out of stoered procedure.
 
 ## Tell me about a time that you worked on improving a product or solution that was already good
+Sutiation one: DotTV when we bought the dotTV (TLD) code was written in mysql, and perl.
 
-# Thinkk Big
+# Think Big
 
 ## tell me about the time that I took a big risk and failed
 I was iin AT&T and porting a database from DB2 to informix 4gl. I could not meet the deadlines due to the technology.
 Installed CISAM with C and ported all the data
+
 ## Tell me about the time that I went behind the scop of a project and delivered
 USDA using the cloud.
+
 ## Give me an example about a radical approach to a problem
+Using an Sybase Openserver in MOMS. Military airspace reservation system
 
 ## How do you drive adoption for your vision, ideas, or approach
 
@@ -190,7 +206,10 @@ USDA using the cloud.
 ## Tell me about the time you worked on a project an found an opertunity much beiger
 
 # Bias action
+
 ## give me an example of a caltulated risk when speed was critical
+USDA multifamily PDF file to be signed as a contract.
+
 ## Describe a situation when you had to make a decision on spot to make a major sale
 I helped the workshop after a week being on thhe job.
 
@@ -204,7 +223,9 @@ Neustar I moved the system into Java Stack instead of Oracle SOA Fussion (early 
 
 ## Describe a time you had to manage budget could you get more out of less
 
+
 ## How do you manage a project with no money and resource
+
 
 ## Tell me about a time you had to work with limited time and resources
 * AT&T system database migration
@@ -216,11 +237,11 @@ Waterfall, to agile, first deployement
 
 ## Tell me about a time that someone critisied you about a work that you did
 * situation 1: I was in neustar and one individual im marketing continusly critisizing my team about one of the payloads design. He was convinced that he can do it. This large payload had performaance issue.
-  - what he did not know this payload had over 4500 data elelemsts in it. after he saw the complexity of the work he realised that he underestimated the work.
+  - what he did not know this payload had over 500 data elelemsts in it. after he saw the complexity of the work he realised that he underestimated the work.
 
 * I was in Neustar andd marketing lady was telling me I need to define a API to an external system. when I was a consumer of the system.
 
-## Tell me about a time you ad to tell someone else about the harsh truth
+## Tell me about a time you had to tell someone else about the harsh truth
 * Situation one: colorado major system performance issue.
   - open jdbc connections and get a lists for drop down.
   - Used weblogic database connections
@@ -276,6 +297,8 @@ Cultural issue in having vendors working together.
   - The Build was done in matter 1 hour instead of 12 hours.
 
 # Deliver result
+
+## Tell me about a time when you had significant, unanticipated obstacles to overcome in achieving a key goal. What was the obstacle? Were you eventually successful? Knowing what you know now, is there anything you would have done differently?
 
 ## describe a time when you faced a challenging situation and what you did to overcome it
 
