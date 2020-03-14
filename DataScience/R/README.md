@@ -12,11 +12,28 @@
 * [R Resources](https://www.r-bloggers.com/how-to-learn-r-2/)
 
 * [Starting R](http://www.rexamples.com/)
+* [Tutorial](https://www.guru99.com/r-tutorial.html)
+* [TutorialsPoint](https://www.javatpoint.com/r-tutorial)
+* [Tutorial](https://www.listendata.com/p/r-programming-tutorials.html)
+* [Tutorial](https://www.analyticsvidhya.com/blog/2016/02/complete-tutorial-learn-data-science-scratch/)
 
 ## Sample R Syntext
 * [Source](https://www.datamentor.io/r-programming/examples/)
 
-Sample Print statement
+## Save your scrip
+The following saves the script to myScript.R file.
+
+```
+Rscript myScript.R
+```
+## Comments
+Comments are like helping text in your R program and they are ignored by the interpreter while executing your actual program. Single comment is written using # in the beginning of the statement as follows:
+
+```
+# My first program in R Programming
+```
+
+## Sample Print statement
 
 ```
 # We can use the print() function
@@ -28,7 +45,92 @@ print("Hello World!", quote = FALSE)
 # If there are more than 1 item, we can concatenate using paste()
 print(paste("How","are","you?"))
 
+2 + 3
+# 5
+
+6 / 3
+# 2
+
+(3*8)/(2*3)
+# 4
+
+log(12)
+# 1.07
+
+sqrt (121)
+# 11
+
 ```
+
+### R Programming works with numerous data types, including
+
+* Scalars
+* Vectors (numerical, character, logical)
+* Matrices
+* Data frames
+* Lists
+
+## Scalars
+Scalar can be
+
+* Logical
+  - Example : True, False
+  - It is a special data type for data with only two possible values which can be construed as true/false.
+* Numeric
+  - Example : 12,32,112,5432
+  - Decimal value is called numeric in R, and it is the default computational data type.
+* Integer
+  - Example : 3L, 66L, 2346L
+  - Here, L tells R to store the value as an integer,
+* Complex
+  - Example : Z=1+2i, t=7+3i
+  - A complex value in R is defined as the pure imaginary value i.
+* Character
+  - Example : 'a', '"good'", "TRUE", '35.4'
+  - In R programming, a character is used to represent string values. We convert objects into character values with the help ofas.character() function.
+* Raw
+  - A raw data type is used to holds raw bytes.
+
+The following assigns a string to a varuable
+
+```
+myString <- "Hello, World!"
+print ( myString)
+# [1] "Hello, World!"
+
+#Logical Data type
+variable_logical<- TRUE
+cat(variable_logical,"\n")
+cat("The data type of variable_logical is ",class(variable_logical),"\n\n")
+
+#Numeric Data type
+variable_numeric<- 3532
+cat(variable_numeric,"\n")
+cat("The data type of variable_numeric is ",class(variable_numeric),"\n\n")
+
+#Integer Data type
+variable_integer<- 133L
+cat(variable_integer,"\n")
+cat("The data type of variable_integer is ",class(variable_integer),"\n\n")
+
+#Complex Data type
+variable_complex<- 3+2i
+cat(variable_complex,"\n")
+cat("The data type of variable_complex is ",class(variable_complex),"\n\n")
+
+#Character Data type
+variable_char<- "Learning r programming"
+cat(variable_char,"\n")
+cat("The data type of variable_char is ",class(variable_char),"\n\n")
+
+#Raw Data type
+variable_raw<- charToRaw("Learning r programming")
+cat(variable_raw,"\n")
+cat("The data type of variable_char is ",class(variable_raw),"\n\n")
+```
+
+## Vectors
+
 Since, a vector must have elements of the same type, this function will try and coerce elements to the same type, if they are different.
 
 Coercion is from lower to higher types from logical to integer to double to character.
@@ -45,6 +147,9 @@ length(x)
 
 # Print the value ssigned to the varaible
 print(x)
+
+# Add two numbers.
+print(23.9 + 11.6)
 
 ```
 
