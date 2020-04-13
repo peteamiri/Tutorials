@@ -3,6 +3,7 @@
 ## Cloud
 
 * [AWS](https://www.udemy.com/courses/search/?q=AWS&price=price-free&lang=en)
+  - [AWS Security](https://www.udemy.com/courses/search/?src=ukw&q=aws%20security&p=1&price=price-free&lang=en)
 * [Azue](https://www.udemy.com/courses/search/?q=Azure&price=price-free&lang=en)
 * [Cloud](https://www.udemy.com/courses/search/?q=Cloud&price=price-free&lang=en)
 
@@ -24,11 +25,13 @@
 ## DevOps
 
 * [DevOps](https://www.udemy.com/courses/search/?src=ukw&q=devops&p=1&price=price-free&lang=en)
+* [Jenkins](https://www.udemy.com/courses/search/?q=jenkins&src=sac&kw=jenk&p=1&price=price-free&lang=en)
 
 ## Security
 
 * [Security](https://www.udemy.com/courses/search/?q=security&src=sac&kw=sec&p=1&price=price-free&lang=en)
 * [Security+](https://www.udemy.com/courses/search/?q=security%2B&src=sac&kw=security%2B&p=1&price=price-free&lang=en)
+* [OWASP](https://www.udemy.com/courses/search/?src=ukw&q=owasp&p=1&price=price-free)
 
 ## Certification
 
