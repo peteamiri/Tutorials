@@ -21,11 +21,14 @@
 
 * [Data Science](https://www.udemy.com/courses/search/?q=data%20science&src=sac&kw=Data&p=1&price=price-free&lang=en)
 * [Big Data](https://www.udemy.com/courses/search/?src=ukw&q=Big%20Data&p=1&price=price-free&lang=en)
+  - [Hadoop](https://www.udemy.com/courses/search/?q=hadoop&src=sac&kw=Hadoop&p=2&price=price-free&lang=en)
+  - [Spark](https://www.udemy.com/courses/search/?src=ukw&q=spark&p=1&price=price-free&lang=en)
 
 ## DevOps
 
 * [DevOps](https://www.udemy.com/courses/search/?src=ukw&q=devops&p=1&price=price-free&lang=en)
 * [Jenkins](https://www.udemy.com/courses/search/?q=jenkins&src=sac&kw=jenk&p=1&price=price-free&lang=en)
+* [Git](https://www.udemy.com/courses/search/?src=ukw&q=git&p=1&price=price-free&lang=en)
 
 ## Security
 
