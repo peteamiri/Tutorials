@@ -1,24 +1,11 @@
-#AWS
-
-* Cerfitication
-* Design
-
-# AWS Introduction
-
-* [Intoduction & Ovverview](https://www.javatpoint.com/aws-tutorial)
-* [General Course](https://www.youtube.com/watch?v=k1RI5locZE4)
-* [AWS Products](https://aws.amazon.com/products/#)
-* [AWS Architecture](https://aws.amazon.com/architecture/)
-
-# List of AWS Services
+# List of AWS Services 
 
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 * [AppStream 2.0](https://aws.amazon.com/appstream2/)
 * [Amazon Athena](https://aws.amazon.com/athena/)
 * [Amazon Cloud Directory](https://aws.amazon.com/cloud-directory/)
 * [CloudFront](https://aws.amazon.com/cloudfront/)
-* [CloudWatch](https://aws.amazon.com/cloudwatch/)
-* [EventBridge](https://aws.amazon.com/eventbridge/)
+* [CloudWatch](https://aws.amazon.com/cloudwatch/) [EventBridge](https://aws.amazon.com/eventbridge/)
 * [Amazon Cognito](https://aws.amazon.com/cognito/)
 * [Amazon Comprehend](https://aws.amazon.com/comprehend/)
 * [Amazon Comprehend Medical](https://aws.amazon.com/comprehend/medical/)
@@ -27,17 +14,17 @@
 * [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 * [Amazon Elastic Block Store (Amazon EBS)](https://aws.amazon.com/ebs/)
 * [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/ec2/)
-* [Amazon Elastic Container RegistryÂ (Amazon ECR)](https://aws.amazon.com/ecr/)
-* [Amazon Elastic Container Service](https://aws.amazon.com/ecs/)
+* [Amazon Elastic Container Registry (Amazon ECR)](https://aws.amazon.com/ecr/)
+* [Amazon Elastic Container Service](https://aws.amazon.com/ecs/)includesAWS Fargate and Amazon EC2 launch types
 * [Amazon Elastic Container Service for Kubernetes (Amazon EKS)](https://aws.amazon.com/eks/)
-* [Amazon Elastic File SystemÂ (Amazon EFS)](https://aws.amazon.com/efs/)
+* [Amazon Elastic File System (Amazon EFS)](https://aws.amazon.com/efs/)
 * [ElastiCache Redis](https://aws.amazon.com/elasticache/redis/)
 * [Elasticsearch Service](https://aws.amazon.com/elasticsearch-service/)
 * [Amazon EMR](https://aws.amazon.com/emr/)
 * [Amazon Forecast](https://aws.amazon.com/forecast/)
 * [Amazon FreeRTOS](https://aws.amazon.com/freertos/)
 * [Amazon FSx](https://aws.amazon.com/fsx/)
-* [GuardDuty](https://aws.amazon.com/guardduty/)Â 
+* [GuardDuty](https://aws.amazon.com/guardduty/) [referenced in the SOC report asAWS GuardDuty]
 * [Amazon Inspector](https://aws.amazon.com/inspector/)
 * [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/)
 * [Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/)
@@ -54,19 +41,19 @@
 * [QuickSight](https://aws.amazon.com/quicksight/)
 * [Amazon Redshift](https://aws.amazon.com/redshift/)
 * [Rekognition](https://aws.amazon.com/rekognition/)
-* [Amazon Relational Database Service (Amazon RDS) includes Amazon Aurora](https://aws.amazon.com/rds/)Â 
+* [Amazon Relational Database Service (Amazon RDS)](https://aws.amazon.com/rds/) [includes Amazon Aurora]
 * [Amazon Route 53](https://aws.amazon.com/route53/)
-* [Amazon S3 Glacier](https://aws.amazon.com/glacier/)
+* [Amazon S3 Glacier](https://aws.amazon.com/glacier/) [referenced in the SOC report as Amazon Glacier]
 * [SageMaker](https://aws.amazon.com/sagemaker/)
 * [Amazon SimpleDB](https://aws.amazon.com/simpledb/)
-* [Amazon Simple Email ServiceÂ (Amazon SES)](https://aws.amazon.com/ses/)
-* [Amazon Simple Notification ServiceÂ (Amazon SNS)](https://aws.amazon.com/sns/)
-* [Amazon Simple Queue ServiceÂ (Amazon SQS)](https://aws.amazon.com/sqs/)
+* [Amazon Simple Email Service (Amazon SES)](https://aws.amazon.com/ses/)
+* [Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/)
+* [Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/)
 * [Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/)
-* [Amazon Simple Workflow ServiceÂ (Amazon SWF)](https://aws.amazon.com/swf/)
+* [Amazon Simple Workflow Service (Amazon SWF)](https://aws.amazon.com/swf/)
 * [Amazon Transcribe](https://aws.amazon.com/transcribe/)
 * [Amazon Translate](https://aws.amazon.com/translate/)
-* [Amazon Virtual Private CloudÂ (Amazon VPC)](https://aws.amazon.com/vpc/)
+* [Amazon Virtual Private Cloud (Amazon VPC)](https://aws.amazon.com/vpc/)
 * [Amazon WorkDocs](https://aws.amazon.com/workdocs/)
 * [Amazon WorkLink](https://aws.amazon.com/worklink/)
 * [Amazon WorkMail](https://aws.amazon.com/workmail/)
@@ -75,8 +62,8 @@
 * [AWS AppSync](https://aws.amazon.com/appsync/)
 * [AWS Auto Scaling](https://aws.amazon.com/autoscaling/)
 * [AWS Backup](https://aws.amazon.com/backup/)
-* [AWS Batch](https://aws.amazon.com/batch/)Â Â 
-* [AWS Certificate ManagerÂ (ACM)](https://aws.amazon.com/certificate-manager/)
+* [AWS Batch](https://aws.amazon.com/batch/)  
+* [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/)
 * [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
 * [AWS CloudHSM](https://aws.amazon.com/cloudhsm/)
 * [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
@@ -86,15 +73,15 @@
 * [AWS CodePipeline](https://aws.amazon.com/codepipeline/)
 * [AWS Config](https://aws.amazon.com/config/)
 * [AWS Control Tower](https://aws.amazon.com/controltower/)
-* [AWS Database Migration ServiceÂ (AWS DMS)](https://aws.amazon.com/dms/)
+* [AWS Database Migration Service (AWS DMS)](https://aws.amazon.com/dms/)
 * [AWS DataSync](https://aws.amazon.com/datasync/)
 * [AWS Direct Connect](https://aws.amazon.com/directconnect/)
-* [AWS Directory Service](https://aws.amazon.com/directoryservice/)
+* [AWS Directory Service](https://aws.amazon.com/directoryservice/)[excludes Simple Active Directory]
 * [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
 * [AWS Elemental MediaConnect](https://aws.amazon.com/mediaconnect/)
 * [AWS Firewall Manager](https://aws.amazon.com/firewall-manager/)
 * [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/)
-* [AWS Glue](https://aws.amazon.com/glue/)Â AWS Lake Formation
+* [AWS Glue](https://aws.amazon.com/glue/) (includingAWS Lake Formation)
 * [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)
 * [AWS IoT Core](https://aws.amazon.com/iot-platform/)
 * [AWS IoT Device Management](https://aws.amazon.com/iot-device-management/)
@@ -105,7 +92,7 @@
 * [AWS License Manager](https://aws.amazon.com/license-manager/)
 * [AWS Managed Services](https://aws.amazon.com/managed-services/)
 * [AWS OpsWorks](https://aws.amazon.com/opsworks/)
-* [AWS OpsWorks for Chef Automate](https://aws.amazon.com/opsworks/chefautomate/)
+* [AWS OpsWorks for Chef Automate](https://aws.amazon.com/opsworks/chefautomate/) 
 * [AWS OpsWorks for Puppet Enterprise](https://aws.amazon.com/opsworks/puppetenterprise/)
 * [AWS Organizations](https://aws.amazon.com/organizations/)
 * [AWS Resource Groups](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/welcome.html)
