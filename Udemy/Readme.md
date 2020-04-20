@@ -32,6 +32,7 @@
   - [Spark](https://www.udemy.com/courses/search/?src=ukw&q=spark&p=1&price=price-free&lang=en)
   - [Apach Hive](https://www.udemy.com/courses/search/?q=hive&src=sac&kw=Hive&p=1&price=price-free&lang=en)
     - [Apache Sqoop](https://www.udemy.com/courses/search/?q=sqoop&src=sac&kw=sqoop&p=1&price=price-free)
+* [Kafka](https://www.udemy.com/courses/search/?src=ukw&q=kafka&p=1&price=price-free&lang=en)
 
 ## DevOps
 
@@ -50,6 +51,11 @@
 * [Ethical Hacking](https://www.udemy.com/courses/search/?src=ukw&q=ethical%20Hacking&p=1&price=price-free&lang=en)
 * [Crytogrophy](https://www.udemy.com/courses/search/?q=%20cryptography&src=sac&kw=cryptogrophy&p=1&price=price-free&lang=en)
 * [Hacking](https://www.udemy.com/courses/search/?q=hacking&src=sac&kw=hacking&p=1&price=price-free&lang=en)
+
+## Developement
+
+* [Agile](https://www.udemy.com/courses/search/?src=ukw&q=agile&p=1&price=price-free&lang=en)
+* [Scrum](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=scrum&src=ukw)
 
 ## Certification
 
