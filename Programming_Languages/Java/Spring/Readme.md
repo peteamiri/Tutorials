@@ -30,7 +30,13 @@ Best is to use Hibernate
 * Java 8
 * Spring STS
 * Maven
-
+* Spring Boot,
+* Spring MVC,
+* Spring Cloud
+* Spring Security
+  - JWT
+  - OAUTH
+  - OpenConnect ID
 
 # Step One Spring initialzr
 This step you generate the project usingg maven.
