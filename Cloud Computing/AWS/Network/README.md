@@ -34,7 +34,10 @@ The AWS Certifi ed Advanced Networking – Specialty Exam is intended for people
 
 ## In general, certification candidates should understand the following:
 * AWS networking nuances and how they relate to the integration of AWS services
-* Advanced networking architectures and interconnectivity options (for example, IP VPN, and MPLS/VPLS)
+* Advanced networking architectures and interconnectivity options 
+  - IP VPN,
+  - MPLS/VPLS
+
 * Networking technologies within the OSI model and how they affect implementation decisions
 * Development of automation scripts and tools
 * Design, implementation, and optimization of the following:
