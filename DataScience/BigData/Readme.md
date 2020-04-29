@@ -1,6 +1,8 @@
 # Big Data
 
+
 ## Big Data Characteristics
+The followings are the 4 V's of big data.
 
 * `Volume` : The quantity of generated and stored data. Generally big data deals with larg volume of data. The size of the data determines the value and potential insight, and whether it can be considered big data or not.
 
@@ -18,6 +20,7 @@ In summary the big data deals with larg volumes of data, the can be composed of 
 * [Wiki Apache HAdoop](https://en.wikipedia.org/wiki/Apache_Hadoop)
 * [Apache HAdoop](http://hadoop.apache.org/docs/current/index.html)
 * [Cloudera Tutorial](https://www.cloudera.com/tutorials.html)
+* [Hadoop Documentation](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 
 ## resources
 * [Resource](https://opensource.com/)

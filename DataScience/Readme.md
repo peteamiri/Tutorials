@@ -9,8 +9,18 @@
 * Deep Learning
 * Artifical Intelliegence
 
-## The Data Science Life Cycle
+## Data Lake
+A data lake is a system or repository of data stored in its natural/raw format, usually object blobs or files.
 
+A data lake is usually a single store of all enterprise data including raw copies of source system data and transformed data used for tasks such as reporting, visualization, advanced analytics and machine learning. 
+
+A data lake can include;
+* structured data from relational databases (rows and columns),
+* semi-structured data (CSV, logs, XML, JSON),
+* unstructured data (emails, documents, PDFs) and binary data (images, audio, video).
+
+
+## The Data Science Life Cycle
 
 There are 5 stages in Data Science life cycle:
 * Capture,
