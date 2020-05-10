@@ -9,6 +9,7 @@
 * [General Course](https://www.youtube.com/watch?v=k1RI5locZE4)
 * [AWS Products](https://aws.amazon.com/products/#)
 * [AWS Architecture](https://aws.amazon.com/architecture/)
+* [AWS GitHub Repository](https://github.com/awsdocs)
 
 # List of AWS Services
 

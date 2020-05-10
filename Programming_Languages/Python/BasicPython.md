@@ -44,7 +44,7 @@ The following links provide additional information
 #### For more information see the followings:
 The following links provide additional information
 
-### 5.1 - Variable Types in Python
+### 5.1 - Data Types in Python
 
 #### For more information see the followings:
 The following links provide additional information
@@ -53,6 +53,8 @@ The following links provide additional information
 
 #### For more information see the followings:
 The following links provide additional information
+
+## Python Collectons
 
 ## 5 - Strings in Python
 
@@ -260,3 +262,5 @@ The following links provide additional information
 
 #### For more information see the followings:
 The following links provide additional information
+
+### Python Libraries
