@@ -9,6 +9,7 @@
 * [Good Playlist for Linux Learning](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ/playlists)
 * [Linux Tutorials](http://www.yolinux.com/TUTORIALS/)
 * [Advanced Training](https://www.linux.org/forums/linux-advanced-tutorials.125/)
+* [Great Site for Linux Documentation](http://www.tldp.org/guides.html)
 ## Linux History
 * Unix
 * Debian GNU (Free Software Fundation FSF)
