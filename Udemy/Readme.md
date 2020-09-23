@@ -78,6 +78,7 @@
 ## Database
 * [Database](https://www.udemy.com/courses/search/?src=ukw&q=database&p=1&price=price-free&lang=en)
 * [MongoDB](https://www.udemy.com/courses/search/?q=mongodb&src=sac&kw=Mongo&p=1&price=price-free&lang=en)
+* [NoSQL](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=nosql&sort=highest-rated)
 
 
 # BootCamps
@@ -89,3 +90,8 @@
 * [Enterprise Architecture](https://www.udemy.com/courses/search/?q=enterprise%20architecture&src=sac&kw=enterprise&p=1&price=price-free&lang=en)
 * [TOGAF](https://www.udemy.com/courses/search/?q=togaf&src=sac&kw=tog&p=1&price=price-free&lang=en)
 * [System Architecture](https://www.udemy.com/courses/search/?q=system%20architecture&src=sac&kw=system%20architecture&p=1&price=price-free&lang=en)
+
+## Data Analytics
+
+* [Tableau](https://www.udemy.com/courses/search/?price=price-free&q=Tableau&sort=highest-rated)
+* [Informatica](https://www.udemy.com/courses/search/?price=price-free&q=informatica&sort=highest-rated)
