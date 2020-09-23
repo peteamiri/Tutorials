@@ -10,6 +10,7 @@
 * [AWS Products](https://aws.amazon.com/products/#)
 * [AWS Architecture](https://aws.amazon.com/architecture/)
 * [AWS GitHub Repository](https://github.com/awsdocs)
+* [AWS Products](https://aws.amazon.com/products/?pg=WIAWS-N&tile=learn_more)
 
 # List of AWS Services
 

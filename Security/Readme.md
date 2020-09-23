@@ -14,3 +14,9 @@
 
 
 
+# Security Models
+
+There are two popular models related to cloud security.
+
+* Confidentiality, Integrity, and Availability (CIA) model 
+* Authentication, Authorization, and Accounting (AAA) model 
