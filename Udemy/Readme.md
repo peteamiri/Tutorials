@@ -79,6 +79,7 @@
 ## Database
 * [Database](https://www.udemy.com/courses/search/?src=ukw&q=database&p=1&price=price-free&lang=en)
 * [MongoDB](https://www.udemy.com/courses/search/?q=mongodb&src=sac&kw=Mongo&p=1&price=price-free&lang=en)
+* [NoSQL](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=nosql&sort=highest-rated)
 
 
 # BootCamps
@@ -95,3 +96,8 @@
 ## Microservices
 
 * [Microservices](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=microservices&sort=highest-rated&src=sac)
+
+## Data Analytics
+
+* [Tableau](https://www.udemy.com/courses/search/?price=price-free&q=Tableau&sort=highest-rated)
+* [Informatica](https://www.udemy.com/courses/search/?price=price-free&q=informatica&sort=highest-rated)
