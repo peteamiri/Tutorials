@@ -100,4 +100,3 @@
 ## Data Analytics
 
 * [Tableau](https://www.udemy.com/courses/search/?price=price-free&q=Tableau&sort=highest-rated)
-* [Informatica](https://www.udemy.com/courses/search/?price=price-free&q=informatica&sort=highest-rated)
