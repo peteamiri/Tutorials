@@ -101,3 +101,10 @@
 
 * [Tableau](https://www.udemy.com/courses/search/?price=price-free&q=Tableau&sort=highest-rated)
 
+## Linux
+
+* [Linux](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=Linux&sort=highest-rated&src=ukw)
+
+## Ethical Hacking
+
+* [Ethical Hacking](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=ethical+hacking&sort=highest-rated&src=sac)
