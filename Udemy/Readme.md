@@ -2,10 +2,11 @@
 
 ## Cloud
 
+* [Cloud](https://www.udemy.com/courses/search/?q=Cloud&price=price-free&lang=en)
 * [AWS](https://www.udemy.com/courses/search/?q=AWS&price=price-free&lang=en)
   - [AWS Security](https://www.udemy.com/courses/search/?src=ukw&q=aws%20security&p=1&price=price-free&lang=en)
 * [Azue](https://www.udemy.com/courses/search/?q=Azure&price=price-free&lang=en)
-* [Cloud](https://www.udemy.com/courses/search/?q=Cloud&price=price-free&lang=en)
+* [Google Cloud](https://www.udemy.com/courses/search/?lang=en&price=price-free&q=google+cloud&sort=highest-rated&src=ukw)
 * [MuleSoft](https://www.udemy.com/courses/search/?src=ukw&q=mulesoft&p=1&price=price-free&lang=en)
 * [SalesForce](https://www.udemy.com/courses/search/?src=ukw&q=SalesForce&p=1&price=price-free&lang=en)
 
