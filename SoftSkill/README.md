@@ -6,3 +6,5 @@
 * Attention to detail
 * Creative vision
 * Patience
+
+* [Good Starting Point](https://www.upgrad.com/blog/how-to-become-a-full-stack-developer-part-1/)
