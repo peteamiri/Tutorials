@@ -1,6 +1,6 @@
 # Security and Complinace in SharePoint
 
-The Misrosoft has adopted the Zero Trust Security Model as a holistic approach for security and compliance for, SharePoint, OneDrive, Teams, outlook, and Office 365 applications.
+Microsoft has adopted the Zero Trust Security Model as a holistic approach for the basis of its security and compliance infrastructure and its security posture and policies. The Microsoft 365 Compliance Center can centrally define, manage, deploy, and monitor security policies for services like SharePoint, OneDrive, Teams, Outlook, and Office 365 applications.
 
 #### For more information See
 
@@ -9,39 +9,29 @@ The Misrosoft has adopted the Zero Trust Security Model as a holistic approach f
 
 ## Zero Trust Security Model
 
-The basis of the Zero Trust security Model is: "never trust, always verify". Zero Trust is a security model centered around 
-the organizations should not automatically trust anything inside or outside its perimeters and instead must verify 
-anything and everything trying to connect to its systems before granting access. This security model manages and grant access 
-based on the continual verification of identities, devices and services.
+The basis of the Zero Trust security Model is: "never trust, always verify". Zero Trust is a security model centered around the principle that the organizations should not automatically trust anything inside or outside its security perimeters and instead must verify anything and everything trying to connect to its systems before granting access. This security model manages and grants access based on the continual verification of identities, devices, and services.
 
-The followings are the basic principlas of the Model 
+The followings are the basic controls for implementation of the Zero Trust Security Model;
 
-* Strong user identity authentication. This may include Multi-factor Autnatication (MFA).
-* User device management and validation.
-  * Least-privilege user rights as part of user access and authorization. 
-* Services and Corporate resources identification and availability. 
+*	Users authorization;
+  *	Strong Authentication mainly Mutil-factor Authentication
+  *	Internal Vs. External
+  *	Sharing Policies, what asset is shared with who
+*	Devices Management and validation of the devices that can access the data
+  *	Device Management, including mobile devices.
+  *	Fine-grained conditional Access
+  *	Session Time out.
+  *	Automatic expiration of external access to devices.
+*	Location
+  *	IP based Access control (White-listing access control)
+  *	Encryption Certification, both at rest and inflight encryption
+*	Asset Or Document Protection 
+  *	using least-privilege user rights as part of user access and authorization. 
+  *	Document Sensitivity Lable
+  *	Auto Classification for Sensitivity Lable
+  *	Lable Analytics, various analytical information regarding label distribution and utilization
+  *	Auditing.
 
-Controls for implementation of Zero Trust Security Model;
-
-* Users authorization;
-  * Strong Authantication mainly Mutil-factor Authantication
-  * Internal Vs. External
-  * Sharing Policies, what asset is shared with who
-* Devices
-  * Device Mamagement, includiing mobile devices. 
-  * Fine grained conditional Access
-  * Session Time out.
-  * Automatic expiration of the external access.  
-* Location
- * IP based Access control (White List access control)
- * Encryption Certification, both at rest and inflight encryption
-* Asset Protection
- * Document Sessitivity Lable
- * Auto Calssification
- * Lable Analytics, 
-  * Auditing, who viewed the document. 
-  * what service contains how many item classified with each label.  
- 
 
 #### For more information See
 
@@ -49,34 +39,32 @@ Controls for implementation of Zero Trust Security Model;
 
 ## How Zero Trust Security Model is implemented by MicroSoft
 
-This Zero Trust Model is implemented using the "Microsoft 365 Compliance Center".
+The security and compliance are centrally managed and monitored using the Microsoft 365 Compliance Center. The Microsoft 365 Compliance Center can centrally define and deploy security policies for services like SharePoint, OneDrive, Teams, Outlook, and Office 365 applications. 
 
-### Microsoft 365 compliance center
+The following highlights some of the primary functions that are offered by the Microsoft 365 Compliance Center.
+*	Document Sensitivity Labeling
+*	Auto Classification 
+*	Lable Analytics
+*	Auditing
 
-This section highlights some of the primary functionality that Microsoft 365 Compliance Center provides. 
+## Document Sensitivity Labeling
 
-* Document Labling
-* Auto Classification
-* Lable Anaytics
-* Data Loss Prevention (DLP)   
+documents can be labeled with the sensitivity label, these labels allow the followings; 
+
+*	Encryption policies
+*	Internal or external access
+*	Device Management (External devices access, Web Access, or none)
+*	Content Marking (WaterMark or Header labels)
+
+## Auto Classification and Labeling
+
+The Sensitivity labels can be assigned manually or by the Auto Classification feature. The Auto Classification can be configured by utilizing various rules. These rules are applied to each document, and a label is assigned to the document based on the document contents. As an example when a document contains PII or PFI, a specific label is automatically assigned to such document and consequently a specific predefined security policy is enforced. As discussed before each label can enforce, access control, encryption level, service to apply such policy to (e.g. Sharepoint OneDrive, etc.), and content marking. 
+Auto Classification can be run in a simulation model to preview how various labels are assigned to individual documents and if acceptable then the classification can be published. There are more than 100 rules that can be associated with each user-defined label.
+
+## Lable Analytics
+Lable Analytics provides various analytical reporting capabilities about the types of information detected (e.g. PII, PFI, etc.) in the documents and their distribution classified by their labels. 
 
 
-documents can be  labeled with sesitivity label, these lables allows
-
-  * Encryption plocies
-  * Internal or external access
-  * Device Management (External devices access, Web Access, or none)
-  * Content Marking (WaterMark or Header lables) 
-
-The Sesitivity lables and be assigned manually or by Auto Classification feature. Also, the Auto Classification can be run in a simulation mode to preview how various lables assigned to documents. 
-There are more that 100 polices that can be associated with each user defined lable. 
-
-As an example, there are policies, that if document contains Personal Ideintifiable Information (PII), a centrain lable must be applied to such documents. As discussed before each lable can control, access, encryption, application (Sharepoint OneDrive, etc.) and content marking.
-When the policy run in a simulation mode, and pass the user requirments, it can be published. 
-   
-Lable Analytics: provides various analytical information about the types of documents and their contents using various visual reporting capability. These reports provide view of what type information is detected within the repository, this includes, PII, PFI, etc. 
- 
-Data Loss Prevension (DLP):
  
 #### For more information See
 
