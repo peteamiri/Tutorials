@@ -8,6 +8,7 @@ What is network:
 ## Network Devices and appliances
 ###  Switch
 ### Firewalls
+* [Nice definition](https://www.webopedia.com/definitions/firewall/)
 ### Routers
 #### Router Protocols
 ### VLAN
