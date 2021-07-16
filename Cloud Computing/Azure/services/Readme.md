@@ -1,6 +1,6 @@
 # The following are some of the services provided by Azure,
 
-* Azure SQL,
+* Azure SQL:
 * Azure Service Bus:
 * HD Insight:
 * Azure Data Lake Storage:

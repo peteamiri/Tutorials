@@ -1,6 +1,18 @@
 # Kali Tools
 * [Kali Toolss](https://tools.kali.org/tools-listing)
 
+## apt-get commands
+
+* To get a list of all the packages on your system:
+`dpkg --list`
+
+* to remove a pakage:
+`sudo apt-get remove randompackage`
+
+* to clean up
+`sudo apt-get autoremove`
+`sudo apt-get clean`
+
 # Bulletproof hosting
 
 * [Bulletproof hosting Wiki](https://en.wikipedia.org/wiki/Bulletproof_hosting)
