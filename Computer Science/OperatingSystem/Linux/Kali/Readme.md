@@ -1,5 +1,6 @@
 # Kali Tools
 * [Kali Toolss](https://tools.kali.org/tools-listing)
+* [Good Starting point](https://kali.training/downloads/Kali-Linux-Revealed-2021-edition.pdf)
 
 ## apt-get commands
 
@@ -12,6 +13,10 @@
 * to clean up
 `sudo apt-get autoremove`
 `sudo apt-get clean`
+
+## Setting up resolver
+
+* [Good Information](http://www.infrabytes.com/change-dns-in-kali)
 
 # Bulletproof hosting
 
@@ -37,7 +42,7 @@
 # Kali Linux
 The following section provide some of the application that is included in Kali;
 
-## John the Ripper]
+## John the Ripper
 ## Namp
 ## Wireshark
 ## Burp suite
