@@ -18,5 +18,14 @@
 
 There are two popular models related to cloud security.
 
-* Confidentiality, Integrity, and Availability (CIA) model 
-* Authentication, Authorization, and Accounting (AAA) model 
+* Confidentiality, Integrity, and Availability (CIA) model
+* Authentication, Authorization, and Accounting (AAA) model
+
+### More Information
+
+* [RFC 2196: Site Security Handbook](https://www.rfc-editor.org/rfc/rfc2196.txt)
+* [RFC 2504: Users’ Security Handbook](https://www.rfc-editor.org/rfc/rfc2504.txt)
+* [RFC 2828: Internet Security Glossary](https://www.rfc-editor.org/rfc/rfc2828.txt)
+* [RFC 3013: Recommended Internet Service Provider Security Services and Procedures](https://www.rfc-editor.org/rfc/rfc3013.txt)
+* [RFC 3365: Strong Security Requirements for Internet Engineering Task Force Standard Protocols](https://www.rfc-editor.org/rfc/rfc3365.txt)
+* [RFC 3631: Security Mechanisms for the Internet](https://www.rfc-editor.org/rfc/rfc3631.txt)
