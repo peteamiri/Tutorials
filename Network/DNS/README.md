@@ -1,4 +1,10 @@
-# Domain Name system
+# Domain Name system (DNS)
+
+Resolves the Host name into the IP address using the resolver.
+
+
+## DNS Caching
+
 
 ## Read More
 
