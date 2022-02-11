@@ -18,3 +18,11 @@ There are different stages in a typical DevOps pipeline; a typical SDLC process 
 * `Release`: Just before releasing the application, employ security analysis tools to perform thorough penetration testing and vulnerability scanning.
 
 * `Deploy`: After completing the above tests in runtime, send a secure build to production for final deployment.
+
+
+
+# Static Vs. dynamic code scanning
+
+## Dynamic Application Security Tetsting (DAST)
+
+## Static Application Security Tetsting (SAST)
