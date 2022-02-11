@@ -7,7 +7,7 @@ for IPv4
 * `Discovery` : Client Brodcast asking for DHCP server Address
 * `Offer` : Server Offer IP address to the given IP address
 * `Request` : Client send the request for the given address by the server
-* `Accept`: Server sends back accept messages
+* `Acknowldeg`: Server sends ACK back that it acknoowledge the IP allocation
 
 ## DHCP for IPv6
 
