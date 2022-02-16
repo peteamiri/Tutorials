@@ -1,5 +1,10 @@
 # Dynamic Host Configuration Protocol (DHCP)
 
+Dynamic Host Configuration Protocol (DHCP) is a protocol used by DHCP servers to dynamically allocate a variety of network configuration data, such as a user IP address, subnet mask, default gateway IP address, DNS server IP address, lease time, and so on, to client devices (DHCP clients). The DHCP protocol enables DHCP clients to dynamically configure such network configuration data without any manual setup process. 
+
+## For More Information See: 
+* [Good Article](https://www.netmanias.com/en/post/techdocs/5998/dhcp-network-protocol/understanding-the-basic-operations-of-dhcp)
+
 ## DHCP for IPV4
 
 ### DORA
