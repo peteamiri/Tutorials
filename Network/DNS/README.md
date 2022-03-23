@@ -2,9 +2,11 @@
 
 Resolves the Host name into the IP address using the resolver.
 
+## Record Types
 
 ## DNS Caching
 
+## DNS Security 
 
 ## Read More
 

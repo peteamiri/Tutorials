@@ -2,6 +2,9 @@
 
 Virtual Private Network (VPN) encrypts the network traffic to protect the online identity, hide IP address, and protect the transient daya. 
 VPN uses real-time encryption and sends the data over a secure virtual tunnel provides data protection and anonymity. 
+
+The VPN extends a private network across the public network. 
+
  
 ## Protocols of VPN
 
@@ -52,3 +55,11 @@ The security of SSTP (Secure Socket Tunneling Protocol) is like Open VPN but for
 Internet Key Exchange version 2 (IKEv2), was developed by Cisco and Microsoft. 
 In real, it is not a VPN protocol. It is used especially for mobile device connections.
 IKEv2 is a fast and secure protocol. It uses various encryption mechanism like AES, IPSec etc.
+
+### Customer-provisioned VPN vs. Provider-Provisioned VPN (PPVPNs) 
+
+### Layer 2 vpn vs. Layer 3 vpn
+
+### Policy-based VPN vs. Route-based VPN
+
+
