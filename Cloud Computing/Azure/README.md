@@ -3,6 +3,7 @@
 ### Starting Point
 
 * [Good Starting Point](https://www.youtube.com/watch?v=R1sZNw-lb6Q)
+* [John Savill's Technical Training](https://www.youtube.com/@NTFAQGuy/playlists)
 * [General Azure](https://intellipaat.com/blog/tutorial/microsoft-azure-tutorial/)
 
 
