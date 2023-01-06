@@ -8,4 +8,4 @@ This section profile helps for MarkDown Documentation and GITHUB tutorials
 
 [MarkDown Spec](https://github.github.com/gfm/)
 
-<a href="http://www.google.coom">Google</a>
+<a href="http://www.google.com" target="_blank">Google</a>
