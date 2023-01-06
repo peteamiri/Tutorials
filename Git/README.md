@@ -7,3 +7,5 @@ This section profile helps for MarkDown Documentation and GITHUB tutorials
 [Git Help](https://fileinfo.com/extension/md)
 
 [MarkDown Spec](https://github.github.com/gfm/)
+
+<a href="http://www.google.coom">Google</a>
