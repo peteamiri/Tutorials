@@ -8,6 +8,22 @@ AWS services are delivered to customers via a network of AWS server farms locate
 
 Amazon markets AWS to subscribers as a way of obtaining large-scale computing capacity more quickly and cheaply than building an actual physical server farm.[10] All services are billed based on usage, but each service measures usage in varying ways. As of 2021 Q4, AWS has 33% market share for cloud infrastructure while the next two competitors Microsoft Azure and Google Cloud have 21%, and 10% respectively, according to Synergy Group.
 
+AWS (Amazon Web Services) Cloud is a popular cloud computing platform offered by Amazon. It provides a wide range of services that enable businesses and individuals to deploy applications and services in the cloud, using the computing power, storage, and other resources provided by AWS.
+
+Some of the key services offered by AWS include:
+
+* Compute Services: AWS offers various compute services, including Elastic Compute Cloud (EC2), which provides virtual servers for running applications, and Elastic Kubernetes Service (EKS) for managing containers.
+
+* Storage Services: AWS provides a range of storage services, including Simple Storage Service (S3), Elastic Block Store (EBS), and Glacier, which enable businesses to store, backup, and retrieve data easily.
+
+* Database Services: AWS offers managed database services, including Amazon Relational Database Service (RDS) and Amazon DynamoDB, to help businesses deploy, operate, and scale databases in the cloud.
+
+* Networking Services: AWS provides several networking services, such as Virtual Private Cloud (VPC), which enables businesses to launch AWS resources in a virtual network that they define, and Elastic Load Balancing (ELB), which distributes incoming traffic across multiple targets.
+
+* Security Services: AWS offers various security services, such as AWS Identity and Access Management (IAM) and Amazon GuardDuty, to help businesses secure their cloud infrastructure and protect against potential threats.
+
+AWS Cloud is widely used by businesses of all sizes, startups, and individuals for various purposes, including running applications, hosting websites, storing and analyzing data, and much more.
+
 * Cerfitication
 * Design
 
