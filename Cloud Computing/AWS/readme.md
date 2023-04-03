@@ -1,4 +1,4 @@
-#AWS
+# Amazon Web Services (AWS)
 
 Amazon Web Services (AWS), is a cloud computing platform that provides access, management, and development of applications and services via globally-distributed data centers. AWS has multiple capabilities such as software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools, and frameworks.
 
