@@ -57,14 +57,14 @@ These compute services provide businesses with flexibility, scalability, and cos
 AWS (Amazon Web Services) offers a variety of storage services to help businesses store, backup, and retrieve data in the cloud. Here are some of the main AWS storage services:
 
 * Amazon S3: Simple Storage Service (S3) is an object storage service that provides businesses with a scalable, durable, and highly available storage solution for data and files. S3 allows businesses to store and retrieve any amount of data from anywhere on the internet.
-  - Amazon S3 Standard is the default. It is general purpose storage for frequently accessed data.  -
-  - Amazon S3 Standard-Infrequent Access (Standard-IA) is designed for less frequently accessed da  - ta, such as backups and disaster recovery data.
+  - Amazon S3 Standard is the default. It is general purpose storage for frequently accessed data.
+  - Amazon S3 Standard-Infrequent Access (Standard-IA) is designed for less frequently accessed data, such as backups and disaster recovery data.
   - Amazon S3 One Zone-Infrequent Access (One Zone-IA) performs like the Standard-IA, but stores data only in one availability zone.
   - Amazon S3 Intelligent-Tiering moves objects automatically to a more cost-efficient storage class.
   - Amazon S3 on Outposts brings storage to installations not hosted by Amazon.
   - Amazon S3 Glacier Instant Retrieval is a low-cost storage for rarely accessed data, but which still requires rapid retrieval.
   - Amazon S3 Glacier Flexible Retrieval is also a low-cost option for long-lived data; it offers 3 retrieval speeds, ranging from minutes to hours.
-  - Amazon S3 Glacier Deep Archive is another low-cost option.[17][better source needed]
+  - Amazon S3 Glacier Deep Archive is another low-cost option.
 
 * Amazon EBS: Elastic Block Store (EBS) provides persistent block-level storage volumes for use with Amazon EC2 instances. EBS allows businesses to store data that requires frequent updates, such as databases or transactional workloads.
 
