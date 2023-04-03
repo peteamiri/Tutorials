@@ -75,6 +75,11 @@ These storage services offer businesses flexibility, scalability, and durability
 AWS (Amazon Web Services) provides a variety of database services to help businesses deploy, operate, and scale databases in the cloud. Here are some of the main AWS database services:
 
 * Amazon RDS: Amazon Relational Database Service (RDS) provides fully-managed relational databases, such as MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB. RDS allows businesses to easily deploy and scale databases in the cloud, and provides features such as automated backups, patches, and monitoring.
+** MySQL, 
+** PostgreSQL,
+** Oracle Database,
+** SQL Server,
+** MariaDB
 
 * Amazon DynamoDB: Amazon DynamoDB provides a fully-managed NoSQL database service that can handle any amount of data and traffic. DynamoDB allows businesses to store and retrieve data using flexible data models, and provides features such as automatic scaling, backup and restore, and real-time data streams.
 
