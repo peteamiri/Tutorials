@@ -1,5 +1,27 @@
 # Cloud Security
 
+Cloud security refers to the set of policies, technologies, and controls used to protect cloud-based systems, applications, and data from cyber threats. The cloud security model aims to ensure the confidentiality, integrity, and availability of data in the cloud by managing risk, enforcing compliance, and detecting and responding to security incidents.
+
+Cloud security encompasses a variety of security measures, including identity and access management (IAM), encryption, network security, threat detection and response, and data loss prevention. It is the responsibility of both cloud service providers and cloud customers to implement appropriate security measures to safeguard their data and systems.
+
+In summary, cloud security is all about ensuring that cloud-based data and applications are secure and protected from unauthorized access, cyber attacks, and other security threats.
+
+Cloud computing security or cloud security refers to a broad set of policies, technologies, applications, and controls utilized to protect virtualized IP, data, applications, services, and the associated infrastructure of cloud computing. It is a sub-domain of computer security, network security, and, more broadly, information security.
+
+## Cloud Security Controls
+
+Cloud security controls are measures that are implemented to protect cloud-based systems, applications, and data from cyber threats. These controls can be divided into several categories, including administrative, technical, and physical controls.
+
+* Administrative controls are policies and procedures that are implemented to manage the security of cloud-based systems. Examples of administrative controls include security awareness training, risk assessment, incident response planning, and access control policies.
+
+* Technical controls are the security mechanisms that are implemented in cloud-based systems to protect against cyber threats. Examples of technical controls include encryption, network segmentation, intrusion detection and prevention systems, and malware protection.
+
+* Physical controls are the measures taken to secure the physical infrastructure of cloud-based systems. Examples of physical controls include access controls to data centers, surveillance cameras, and environmental controls such as fire suppression systems.
+
+In summary, cloud security controls are the security measures that are implemented to protect cloud-based systems, applications, and data from cyber threats. These controls are an essential component of cloud security and must be implemented to ensure the confidentiality, integrity, and availability of data in the cloud.
+
+
+
 ### More Information See;
 
 * [Wiki](https://en.wikipedia.org/wiki/Cloud_computing_security)

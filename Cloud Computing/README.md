@@ -1,4 +1,4 @@
-#Cloud Computing
+# Cloud Computing
 
 Cloud computing is the on-demand availability of computing resources, including data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a pay-as-you-go model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
 
@@ -14,6 +14,10 @@ There are several types of cloud computing models, including
 
 Public cloud services are offered by third-party providers, while private clouds are dedicated to a single organization. Hybrid and multi-cloud models combine the benefits of both public and private clouds.
 
-# AWS Top Compatitors
+## Additional Reading
 
+* [NIST Cloud Computing Dfinition](https://www.nist.gov/publications/nist-definition-cloud-computing)
+* [NIST Cloud Computing Resources](https://www.nist.gov/programs-projects/nist-cloud-computing-program-nccp)
+* [NIST Fedral Clooud Reference Architect](https://www.nist.gov/publications/nist-cloud-federation-reference-architecture)
 * [List of other CLoud Providers](https://www.guru99.com/aws-alternatives-competitors.html)
+*
