@@ -32,6 +32,74 @@ AWS comprises over 200 products and services including computing, storage, netwo
 
 Services expose functionality through APIs for clients to use in their applications. These APIs are accessed over HTTP, using the REST architectural style and SOAP protocol for older APIs and exclusively JSON for newer ones. Clients can interact with these APIs in various ways, including from the AWS console (a website), by using SDKs written in various languages (such as Python, Java, and JavaScript), or by making direct REST calls.
 
+## AWS Compute services
+
+AWS (Amazon Web Services) provides several compute services that enable businesses to run applications and workloads in the cloud, using virtual servers, containers, and serverless computing. Here are some of the main AWS compute services:
+
+* Amazon EC2: Elastic Compute Cloud (EC2) provides virtual servers (instances) that businesses can use to run their applications, databases, and other workloads in the cloud. EC2 offers a wide range of instance types, operating systems, and other configuration options to meet different needs.
+
+* AWS Lambda: AWS Lambda is a serverless compute service that enables businesses to run code in response to events or requests, without managing any servers. Lambda automatically scales the computing resources based on the demand, and charges only for the actual usage.
+
+* Amazon Elastic Container Service (ECS): Amazon ECS is a fully managed container orchestration service that enables businesses to run and manage Docker containers in the cloud. ECS provides features such as automatic scaling, load balancing, and integration with other AWS services.
+
+* Amazon Elastic Kubernetes Service (EKS): Amazon EKS is a fully managed Kubernetes service that enables businesses to deploy, manage, and scale containerized applications using Kubernetes on AWS. EKS provides a highly available and secure Kubernetes control plane, and integrates with other AWS services.
+
+* AWS Batch: AWS Batch is a managed batch computing service that enables businesses to run batch computing workloads on AWS. Batch automatically provisions the computing resources based on the workload demands, and optimizes the resource utilization and cost.
+
+* AWS Fargate: AWS Fargate is a serverless compute engine for containers that enables businesses to run containers without managing the underlying infrastructure. Fargate provides on-demand, per-second billing, and automatically scales the resources based on the demand.
+
+These compute services provide businesses with flexibility, scalability, and cost-effectiveness to run their applications and workloads in the cloud.
+
+
+## AWS Storage Services
+
+
+AWS (Amazon Web Services) offers a variety of storage services to help businesses store, backup, and retrieve data in the cloud. Here are some of the main AWS storage services:
+
+* Amazon S3: Simple Storage Service (S3) is an object storage service that provides businesses with a scalable, durable, and highly available storage solution for data and files. S3 allows businesses to store and retrieve any amount of data from anywhere on the internet.
+
+* Amazon EBS: Elastic Block Store (EBS) provides persistent block-level storage volumes for use with Amazon EC2 instances. EBS allows businesses to store data that requires frequent updates, such as databases or transactional workloads.
+
+* Amazon EFS: Elastic File System (EFS) provides scalable, shared file storage for use with Amazon EC2 instances. EFS allows businesses to share data across multiple instances and applications, and provides a fully-managed file system that scales automatically.
+
+* Amazon Glacier: Amazon Glacier provides low-cost, long-term storage for data archiving and backup. Glacier allows businesses to store large amounts of data that is infrequently accessed, and provides retrieval options that range from minutes to hours.
+
+* AWS Storage Gateway: AWS Storage Gateway provides hybrid cloud storage solutions that enable businesses to seamlessly integrate on-premises applications and data with cloud storage. Storage Gateway supports file, volume, and tape gateway configurations, and provides a variety of data transfer and synchronization options.
+
+* Amazon FSx: Amazon FSx provides fully-managed file systems that are optimized for Windows and Linux workloads. FSx allows businesses to run their applications and workloads that require file storage, and provides features such as backup and restore, automatic software updates, and integration with other AWS services.
+
+These storage services offer businesses flexibility, scalability, and durability to store and manage their data in the cloud.
+
+## AWS Database Services
+
+AWS (Amazon Web Services) provides a variety of database services to help businesses deploy, operate, and scale databases in the cloud. Here are some of the main AWS database services:
+
+* Amazon RDS: Amazon Relational Database Service (RDS) provides fully-managed relational databases, such as MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB. RDS allows businesses to easily deploy and scale databases in the cloud, and provides features such as automated backups, patches, and monitoring.
+
+* Amazon DynamoDB: Amazon DynamoDB provides a fully-managed NoSQL database service that can handle any amount of data and traffic. DynamoDB allows businesses to store and retrieve data using flexible data models, and provides features such as automatic scaling, backup and restore, and real-time data streams.
+
+* Amazon Aurora: Amazon Aurora is a fully-managed MySQL and PostgreSQL-compatible relational database service that provides high performance, availability, and scalability. Aurora allows businesses to run mission-critical applications in the cloud with low latency and high throughput.
+
+* Amazon DocumentDB: Amazon DocumentDB is a fully-managed document database service that is compatible with MongoDB. DocumentDB allows businesses to store, query, and index JSON data at scale, and provides features such as automatic scaling, backup and restore, and encryption.
+
+* Amazon Neptune: Amazon Neptune is a fully-managed graph database service that is optimized for storing and querying graph data. Neptune allows businesses to build and run graph applications that require real-time querying of large datasets.
+
+* Amazon ElastiCache: Amazon ElastiCache provides fully-managed in-memory caching engines, such as Redis and Memcached. ElastiCache allows businesses to improve the performance of their applications by caching frequently accessed data in memory.
+
+These database services offer businesses flexibility, scalability, and reliability to manage their data in the cloud.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AWS Introduction
 
 * [Intoduction & Overview](https://www.javatpoint.com/aws-tutorial)
