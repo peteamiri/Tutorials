@@ -7,3 +7,7 @@ OpenAI conducts research in a variety of areas, including natural language proce
 OpenAI is committed to the principles of openness and transparency in its research. It publishes its research findings in academic journals and makes its code and data sets available to the public. It also offers free access to its AI models and tools through its API.
 
 OpenAI is a non-profit organization, and its funding comes from a variety of sources, including philanthropic organizations, corporate partnerships, and government grants. Its mission is to ensure that the benefits of advanced AI technologies are shared widely and that the risks are carefully managed to ensure that they do not pose a threat to humanity.
+
+## Read More
+
+* [Wiki OpenAI](https://en.wikipedia.org/wiki/OpenAI)
