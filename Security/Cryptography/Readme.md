@@ -1,11 +1,67 @@
 # Cryptography
 
-## More Information
+Cryptography is the practice of using mathematical algorithms and techniques to secure communication and data transmission. The goal of cryptography is to ensure that the information is kept confidential, authentic, and integrity is maintained.
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Cryptography)
-* [Udacity Applied Cryptography](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnCeih6BPvJ5GdqqThGcWlX)
-* [Cybrary](https://www.cybrary.it/)
-* [WikiBooks](https://en.wikibooks.org/wiki/Cryptographygs)
+Cryptography is used for a variety of purposes, including:
+
+* Confidentiality: Ensuring that information remains secret and cannot be read by unauthorized parties.
+
+* Integrity: Ensuring that information cannot be altered or modified during transmission.
+
+* Authentication: Ensuring that the identity of the sender and receiver can be verified.
+
+* Non-repudiation: Ensuring that a sender cannot deny sending a message or deny that the message was received.
+
+Cryptography uses various algorithms and techniques to achieve these goals, including encryption, decryption, digital signatures, and hashing. Encryption involves converting plain text into ciphertext using a mathematical algorithm and a secret key. Decryption is the reverse process of converting ciphertext back into plain text using the same algorithm and key. Digital signatures use asymmetric-key algorithms to verify the authenticity and integrity of a message. Hashing involves converting data of any length into a fixed-size output that cannot be reversed.
+
+Cryptography plays a vital role in securing information in today's digital world, and it is used in various applications, including secure communication, e-commerce, digital signatures, and password storage.
+
+## Categories of Cryptography
+
+Cryptographic algorithms can be broadly categorized into two categories:
+
+* Symmetric-key algorithms: These algorithms use a single secret key to encrypt and decrypt data. The same key is used for both encryption and decryption, and it must be kept secret from unauthorized parties. Examples of symmetric-key algorithms include Advanced Encryption Standard (AES), Data Encryption Standard (DES), and Triple DES (3DES).
+
+* Asymmetric-key algorithms: Also known as public-key algorithms, these algorithms use a pair of keys (a public key and a private key) to encrypt and decrypt data. The public key is used to encrypt data, while the private key is used to decrypt it. The public key can be shared freely, while the private key must be kept secret. Examples of asymmetric-key algorithms include RSA, Elliptic Curve Cryptography (ECC), and Digital Signature Algorithm (DSA).
+
+Both symmetric-key and asymmetric-key algorithms have their own advantages and disadvantages. Symmetric-key algorithms are generally faster and more efficient for encrypting large amounts of data, but they are less secure than asymmetric-key algorithms because the same key is used for both encryption and decryption. Asymmetric-key algorithms are more secure, but they are slower and less efficient for encrypting large amounts of data. As a result, most modern cryptographic systems use a combination of both symmetric-key and asymmetric-key algorithms to achieve a balance between security and efficiency.
+
+
+## Applications of Cryptography
+
+There are several types of cryptography algorithms, including:
+
+* Symmetric-key algorithms: Also known as secret-key algorithms, these algorithms use a single secret key to encrypt and decrypt data. The same key is used for both encryption and decryption. Examples of symmetric-key algorithms include Advanced Encryption Standard (AES), Data Encryption Standard (DES), and Triple DES (3DES).
+
+* Asymmetric-key algorithms: Also known as public-key algorithms, these algorithms use a pair of keys (a public key and a private key) to encrypt and decrypt data. The public key is used to encrypt data, while the private key is used to decrypt it. The public key can be shared freely, while the private key must be kept secret. Examples of asymmetric-key algorithms include RSA, Elliptic Curve Cryptography (ECC), and Digital Signature Algorithm (DSA).
+
+* Hash functions: These algorithms are used to generate a fixed-size output (known as a hash) from an input message of any length. The output is a unique representation of the input data, and even a small change in the input will result in a completely different output. Examples of hash functions include Secure Hash Algorithm (SHA) and Message Digest (MD).
+
+* Key exchange algorithms: These algorithms are used to securely exchange keys between two parties without the risk of interception or eavesdropping. Examples of key exchange algorithms include Diffie-Hellman (DH) and Elliptic Curve Diffie-Hellman (ECDH).
+
+* Digital signature algorithms: These algorithms are used to provide authentication and non-repudiation of digital documents. A digital signature is created using the sender's private key and can be verified using the sender's public key. Examples of digital signature algorithms include Digital Signature Algorithm (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA).
+
+These are just some examples of the types of cryptography algorithms that are used to secure data and communication in various applications.
+
+## common cryptography algorithms
+
+There are many common cryptography algorithms used in various applications. Here are a few examples:
+
+* Advanced Encryption Standard (AES): This is a widely used symmetric-key algorithm that is used to encrypt and decrypt data. It uses a block cipher with block sizes of 128 bits and keys of 128, 192, or 256 bits.
+
+* Rivest-Shamir-Adleman (RSA): This is a widely used asymmetric-key algorithm that is used for encryption and digital signatures. It uses a public key for encryption and a private key for decryption and signing.
+
+* Secure Hash Algorithm (SHA): This is a family of cryptographic hash functions that produce a fixed-size output from an input message of any size. The most commonly used variants are SHA-256 and SHA-3.
+
+* Blowfish: This is a symmetric-key algorithm that is used for encryption and decryption. It uses a block cipher with variable key sizes up to 448 bits.
+
+* Elliptic Curve Cryptography (ECC): This is a type of asymmetric-key algorithm that is based on the mathematics of elliptic curves. It is used for encryption, digital signatures, and key exchange.
+
+* Triple Data Encryption Standard (3DES): This is a symmetric-key algorithm that is based on the Data Encryption Standard (DES) algorithm. It uses three rounds of encryption with three different keys.
+
+These are just a few examples of common cryptography algorithms. There are many other algorithms and variations that are used in different applications, depending on the specific security requirements and constraints of the system.
+
+
 ## cryptography
 
 Cryptography is the practice and study of techniques for secure communication in the presence of third parties called adversaries. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages; various aspects in information security such as data including
@@ -92,7 +148,7 @@ logic diagram showing International Data Encryption Algorithm cypher process
 One round (out of 8.5) of the IDEA cipher, used in most versions of PGP and OpenPGP compatible software for time-efficient encryption of messages
 Symmetric key ciphers are implemented as either block ciphers or stream ciphers. A block cipher enciphers input in blocks of plaintext as opposed to individual characters, the input form used by a stream cipher.
 
-The Data Encryption Standard (DES) and the Advanced Encryption Standard (AES) are block cipher designs that have been designated cryptography standards by the US government (though DES's designation was finally withdrawn after the AES was adopted).[28] Despite its deprecation as an official standard, DES (especially its still-approved and much more secure triple-DES variant) remains quite popular; it is used across a wide range of applications, from ATM encryption[29] to e-mail privacy[30] and secure remote access.[31] Many other block ciphers have been designed and released, with considerable variation in quality. Many, even some designed by capable practitioners, have been thoroughly broken, such as FEAL.[4][32]
+The Data Encryption Standard (DES) and the Advanced Encryption Standard (AES) are block cipher designs that have been designated cryptography standards by the US government (though DES's designation was finally withdrawn after the AES was adopted).[28] Despite its deprecation as an official standard, DES (especially its still-approved and much more secure triple-DES variant) remains quite popular; it is used across a wide range of applications, from ATM encryption[29] to e-mail privacy[30] and secure remote access.[31] Many other block ciphers have been designed and released, with considerable variation in quality. Many, even some designed by capable practitioners, have been thoroughly broken, such as FEAL.
 
 Stream ciphers, in contrast to the 'block' type, create an arbitrarily long stream of key material, which is combined with the plaintext bit-by-bit or character-by-character, somewhat like the one-time pad. In a stream cipher, the output stream is created based on a hidden internal state that changes as the cipher operates. That internal state is initially set up using the secret key material. RC4 is a widely used stream cipher; see Category:Stream ciphers.[4] Block ciphers can be used as stream ciphers; see Block cipher modes of operation.
 
@@ -185,4 +241,11 @@ The United States Department of Justice and FBI have not enforced the DMCA as ri
 
 In the United Kingdom, the Regulation of Investigatory Powers Act gives UK police the powers to force suspects to decrypt files or hand over passwords that protect encryption keys. Failure to comply is an offense in its own right, punishable on conviction by a two-year jail sentence or up to five years in cases involving national security.[7] Successful prosecutions have occurred under the Act; the first, in 2009,[64] resulted in a term of 13 months' imprisonment.[65] Similar forced disclosure laws in Australia, Finland, France, and India compel individual suspects under investigation to hand over encryption keys or passwords during a criminal investigation.
 
-In the United States, the federal criminal case of United States v. Fricosu addressed whether a search warrant can compel a person to reveal an encryption passphrase or password.[66] The Electronic Frontier Foundation (EFF) argued that this is a violation of the protection from self-incrimination given by the Fifth Amendment.[67] In 2012, the court ruled that under the All Writs Act, the defendant was required to produce an unencrypted hard drive for the court.[68]
+In the United States, the federal criminal case of United States v. Fricosu addressed whether a search warrant can compel a person to reveal an encryption passphrase or password.[66] The Electronic Frontier Foundation (EFF) argued that this is a violation of the protection from self-incrimination given by the Fifth Amendment.[67] In 2012, the court ruled that under the All Writs Act, the defendant was required to produce an unencrypted hard drive for the court.
+
+## More Information
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Cryptography)
+* [Udacity Applied Cryptography](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnCeih6BPvJ5GdqqThGcWlX)
+* [Cybrary](https://www.cybrary.it/)
+* [WikiBooks](https://en.wikibooks.org/wiki/Cryptographygs)
