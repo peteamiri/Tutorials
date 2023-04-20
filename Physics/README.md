@@ -65,3 +65,11 @@ M-theory is an extension of superstring theory, and it postulates that there are
 One of the key features of M-theory is the concept of "duality", which suggests that different physical systems can be described by different mathematical formulations that are equivalent. This idea of duality has led to the discovery of many new mathematical structures that are relevant to theoretical physics, and has helped researchers gain new insights into the nature of the universe.
 
 M-theory is still a work in progress, and there is no experimental evidence to support its validity. However, it is considered to be one of the most promising candidates for a theory of everything, and it continues to be an active area of research in theoretical physics.
+
+
+### Read More
+
+* [Origin of Quantum Mecanichs](https://www.youtube.com/watch?v=K5Po5R-1rgY)
+* [Play list of infoormation](https://www.youtube.com/watch?v=aeWyp2vXxqA&list=PLFs4vir_WsTwEd-nJgVJCZPNL3HALHHpF)
+* [Very Good Video](https://www.youtube.com/watch?v=Da-2h2B4faU)
+* [String Theroy](https://www.youtube.com/watch?v=n7cOlBxtKSo)
