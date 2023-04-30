@@ -19,3 +19,18 @@ The history of Earth spans over 4.5 billion years, from its formation through th
 * Cenozoic Era (66 million years ago to present day): The current era, characterized by the emergence and diversification of mammals, birds, and flowering plants, as well as the rise of humans.
 
 Throughout Earth's history, there have been numerous major events, including mass extinctions, climate changes, and geological upheavals, that have shaped the planet and influenced the evolution of life.
+
+
+## History of life on Earth
+
+The history of life on Earth spans over 3.5 billion years, and is divided into several major eras based on the evolution of different forms of life. Here is a brief overview of the major eras and events in the history of life on Earth:
+
+* Pre-Cambrian Era (4.6 billion to 541 million years ago): The earliest era of life on Earth, during which the first simple bacterial and archaeal life forms evolved.
+
+* Paleozoic Era (541 to 252 million years ago): The Paleozoic era saw the emergence and diversification of complex life forms, including the first fish, plants, insects, and reptiles. It also saw the formation and breakup of the supercontinent Pangaea, and several mass extinction events.
+
+* Mesozoic Era (252 to 66 million years ago): The Mesozoic era is commonly known as the "Age of Dinosaurs", and saw the dominance of these reptiles as well as the emergence of mammals, birds, and flowering plants. The era ended with the Cretaceous-Paleogene extinction event, which wiped out the dinosaurs and many other species.
+
+* Cenozoic Era (66 million years ago to present day): The Cenozoic era is characterized by the emergence and diversification of mammals, birds, and flowering plants, as well as the rise of humans. It is divided into the Paleogene, Neogene, and Quaternary periods.
+
+Throughout the history of life on Earth, there have been several major events that have influenced the evolution of species, including mass extinction events, climate changes, and geological upheavals. These events have created opportunities for new species to emerge and for existing species to adapt and evolve, leading to the incredible diversity of life that we see on Earth today.
