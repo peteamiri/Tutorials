@@ -34,3 +34,27 @@ The history of life on Earth spans over 3.5 billion years, and is divided into s
 * Cenozoic Era (66 million years ago to present day): The Cenozoic era is characterized by the emergence and diversification of mammals, birds, and flowering plants, as well as the rise of humans. It is divided into the Paleogene, Neogene, and Quaternary periods.
 
 Throughout the history of life on Earth, there have been several major events that have influenced the evolution of species, including mass extinction events, climate changes, and geological upheavals. These events have created opportunities for new species to emerge and for existing species to adapt and evolve, leading to the incredible diversity of life that we see on Earth today.
+
+## Hisotry of Mankind
+
+The stages of human history are generally divided into different periods based on significant changes in human development, technology, and culture. The following is a general overview of the stages of human history:
+
+* Paleolithic Age (2.6 million BCE - 10,000 BCE): This era, also known as the Old Stone Age, was characterized by the use of stone tools and the development of early human societies based on hunting and gathering.
+
+* Neolithic Age (10,000 BCE - 4000 BCE): Also known as the New Stone Age, this era saw the development of agriculture and animal domestication, leading to the establishment of permanent settlements and the rise of early civilizations.
+
+* Bronze Age (4000 BCE - 1200 BCE): This era saw the widespread use of bronze tools and the rise of several major civilizations, including Mesopotamia, Egypt, and the Indus Valley.
+
+* Iron Age (1200 BCE - 500 BCE): This era saw the widespread use of iron tools and the emergence of several major empires, including the Persian Empire and the Greek city-states.
+
+* Classical Antiquity (500 BCE - 500 CE): This era saw the development of major empires, including the Roman Empire and the Han Dynasty, as well as the rise of major philosophical and religious traditions such as Confucianism, Buddhism, and Christianity.
+
+* Middle Ages (500 CE - 1500 CE): This era saw the collapse of the Western Roman Empire, the emergence of feudalism, and the rise of the Islamic Caliphate and the Mongol Empire.
+
+* Early Modern Period (1500 CE - 1800 CE): This era saw the rise of colonialism, the Scientific Revolution, and the Enlightenment, which led to major changes in politics, economics, and culture.
+
+* Industrial Revolution (1760 CE - 1840 CE): This era saw the emergence of industrialization, which transformed economies and societies and led to major advancements in technology and science.
+
+* Modern Era (1800 CE - present): This era is characterized by major global conflicts, the rise of globalization and the Information Age, and the development of new technologies such as the internet and space exploration.
+
+It's worth noting that these divisions are arbitrary and there is significant overlap between the stages of human history. Additionally, different regions of the world developed at different rates and had different experiences during each era, so the specifics of each period may vary depending on the cultural context.
