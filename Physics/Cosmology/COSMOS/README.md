@@ -1,8 +1,73 @@
 # Cosmos
 
-## Histry of Cosmos
+The term "cosmos" refers to the entire universe, including all matter, energy, space, and time. It encompasses all known and unknown regions of space and all the laws and principles that govern the behavior of the universe. The concept of the cosmos is closely related to the field of cosmology, which is the scientific study of the universe's origin, evolution, and ultimate fate.
 
-The history of the cosmos can be divided into several stages based on key events and developments:
+The term "cosmos" is often used to describe the universe as a harmonious and ordered whole, with a set of fundamental laws and principles that govern its behavior. This idea of the cosmos as an ordered and harmonious system has been present in many cultures and civilizations throughout history, from ancient Greek philosophy to modern scientific cosmology.
+
+In scientific cosmology, the study of the cosmos has led to a wealth of knowledge about the universe's structure, history, and fundamental properties. Scientists continue to explore the mysteries of the cosmos, including the nature of dark matter and dark energy, the origin of the universe, and the possibility of life on other planets.
+
+## Cosmology Basic Concepts
+
+Cosmology is the scientific study of the origin, evolution, and large-scale structure of the universe. It encompasses a wide range of topics, including the Big Bang, the structure of galaxies and clusters of galaxies, dark matter, and dark energy. Some of the basic concepts in cosmology are:
+
+* The Big Bang: According to the prevailing cosmological theory, the universe began as a hot and dense state, which expanded rapidly in a fraction of a second. This event is known as the Big Bang.
+
+* Expansion of the Universe: The universe is expanding, which means that the distances between galaxies are increasing with time.
+
+* Cosmic Microwave Background Radiation: The Cosmic Microwave Background (CMB) radiation is a remnant of the Big Bang and provides evidence for the early universe's hot and dense state.
+
+* Dark Matter: Observations suggest that there is more matter in the universe than what can be accounted for by visible matter. This unseen matter is known as dark matter.
+
+* Dark Energy: Observations of distant supernovae suggest that the expansion of the universe is accelerating, which requires the presence of an unknown form of energy, known as dark energy.
+
+* Large-Scale Structure: The universe's structure is characterized by the formation of galaxies and clusters of galaxies, which are organized into a vast cosmic web of filaments and voids.
+
+These are some of the basic concepts in cosmology, and many others are being studied and explored by cosmologists worldwide.
+
+## The big bang
+
+The Big Bang is a scientific theory that describes the origin and evolution of the universe. According to the Big Bang theory, the universe began as a hot, dense, and infinitely small point, known as a singularity, approximately 13.8 billion years ago. The universe has been expanding and cooling ever since, and the present-day universe is vastly larger and less dense than its early state.
+
+The theory is supported by multiple lines of evidence, including observations of the cosmic microwave background radiation, the abundance of light elements, and the large-scale structure of the universe. The cosmic microwave background radiation is a faint glow of light that fills the universe and is believed to be the leftover radiation from the hot, dense state of the early universe.
+
+The Big Bang theory also explains the observed redshift of galaxies, which indicates that the universe is expanding. According to the theory, as the universe expands, the distances between galaxies increase, causing the light they emit to be stretched to longer wavelengths, resulting in a redshift.
+
+The Big Bang theory has been refined over the years, and scientists continue to study and refine the details of the early universe's evolution. The discovery of the cosmic microwave background radiation was a major breakthrough that provided strong support for the theory and helped to establish it as the prevailing model of the universe's origin and evolution.
+
+## The inflation theory
+
+The inflation theory is a cosmological model that proposes that the universe underwent a brief period of exponential expansion during its early stages, shortly after the Big Bang. The theory was developed to solve several issues that the Big Bang theory could not explain, such as the uniformity of the cosmic microwave background radiation and the large-scale structure of the universe.
+
+According to the inflation theory, the universe underwent an exponential expansion for an extremely short period, expanding faster than the speed of light. This rapid expansion caused the universe to expand from a very small size to an incredibly large size in a fraction of a second. During this expansion, the universe became extremely flat and homogeneous.
+
+The inflation theory also explains why the cosmic microwave background radiation is so uniform in all directions. Before inflation, the universe would have been too small for different regions to be in causal contact and have the same temperature. However, during inflation, these regions were brought into contact and reached the same temperature, producing the uniformity observed in the cosmic microwave background radiation.
+
+The inflation theory has been supported by various observational tests, such as measurements of the cosmic microwave background radiation and the large-scale structure of the universe. However, it is still an active area of research, and scientists continue to study its implications and test its predictions.
+
+## The Dark Matter
+
+Dark matter is a type of matter that does not interact with light or other forms of electromagnetic radiation and, therefore, cannot be directly detected by telescopes or other astronomical instruments. Its presence is inferred through its gravitational effects on visible matter, such as stars and galaxies.
+
+Observations of galaxies and galaxy clusters have shown that they contain much more mass than can be accounted for by visible matter, such as stars, gas, and dust. Dark matter is believed to make up this "missing mass," as it interacts only through gravity, and thus it does not emit, absorb, or reflect light, making it invisible to traditional detection methods.
+
+The properties of dark matter are not well understood, but it is believed to be composed of subatomic particles that are not included in the Standard Model of particle physics. Candidates for dark matter particles include weakly interacting massive particles (WIMPs), axions, and sterile neutrinos.
+
+The presence of dark matter is essential to the formation and evolution of galaxies and clusters of galaxies, as it provides the additional gravitational force necessary to hold these structures together. The study of dark matter is an active area of research in astrophysics and particle physics, with many ongoing experiments and observations aimed at detecting and characterizing this elusive type of matter.
+
+## what is the dark energy
+
+Dark energy is a hypothetical form of energy that is believed to permeate all of space and is thought to be responsible for the accelerated expansion of the universe. The existence of dark energy was first proposed in the late 1990s when observations of distant supernovae suggested that the expansion of the universe was accelerating, rather than slowing down as previously expected.
+
+Unlike dark matter, which interacts only through gravity, dark energy is believed to exert a repulsive force that counteracts gravity, causing the expansion of the universe to accelerate. This has been confirmed by multiple observations, including measurements of the cosmic microwave background radiation and the large-scale structure of the universe.
+
+The nature of dark energy is not well understood, but it is often described using the concept of a cosmological constant, a constant energy density that pervades all of space and exerts a negative pressure. Another possibility is that dark energy is a scalar field, similar to the Higgs field in particle physics.
+
+The study of dark energy is an active area of research in cosmology, with many ongoing experiments and observations aimed at understanding its properties and origin. The discovery of dark energy has revolutionized our understanding of the universe and has led to new questions and challenges in the field of cosmology.
+
+
+## Stages of the Cosmos Creation
+
+The creatin of the cosmos can be divided into several stages based on key events and developments:
 
 * The Planck Era: This is the earliest stage of the universe, which began at the moment of the Big Bang and lasted for approximately 10^-43 seconds. During this stage, the universe was incredibly dense and hot, and the four fundamental forces (gravity, electromagnetism, and the strong and weak nuclear forces) were unified.
 
