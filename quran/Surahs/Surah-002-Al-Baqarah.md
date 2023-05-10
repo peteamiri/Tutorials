@@ -954,3 +954,370 @@ Verse 183:
 "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous."
 
 This verse introduces the obligation of fasting, which was prescribed for the believers. Fasting is described as a practice that was also enjoined upon the previous nations, serving as a means to attain righteousness and develop self-discipline.
+
+Verse 184:
+"[Fasting for] a limited number of days. So whoever among you is ill or on a journey [during them] - then an equal number of days [are to be made up]. And upon those who are able [to fast, but with hardship] - a ransom [as substitute] of feeding a poor person [each day]. And whoever volunteers excess - it is better for him. But to fast is best for you, if you only knew."
+
+This verse discusses the rules and options regarding fasting. It specifies that fasting is prescribed for a limited number of days during the month of Ramadan. However, if someone is ill or traveling during those days, they are exempt from fasting and are required to make up the missed days at a later time. For those who are physically capable of fasting but find it excessively difficult, they have the option to offer a ransom by feeding a poor person for each day missed. Additionally, it is mentioned that voluntary fasting beyond the obligatory days is commendable and brings additional reward. The verse concludes by stating that fasting is the best option overall, if only people knew the immense benefits it brings.
+
+Verse 185:
+"The month of Ramadan [is that] in which the Qur'an was revealed as guidance for the people and clear proofs of guidance and criterion. So whoever sights [the new moon of] the month, let him fast it; and whoever is ill or on a journey - then an equal number of other days. Allah intends for you ease and does not intend for you hardship and [wants] for you to complete the period and to glorify Allah for that [to] which He has guided you; and perhaps you will be grateful."
+
+This verse highlights the significance of the month of Ramadan as the period during which the Qur'an was revealed as a source of guidance and a criterion for distinguishing between right and wrong. It instructs believers to fast during this month upon sighting the new moon, with exceptions for those who are ill or traveling, as mentioned previously. Allah desires ease for His people and does not impose undue hardship upon them. The verse encourages believers to complete the prescribed period of fasting and to express gratitude to Allah for the guidance bestowed upon them.
+
+Verse 186:
+"When My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided."
+
+This verse conveys Allah's nearness and His willingness to respond to the supplications of His servants when they call upon Him. Believers are encouraged to turn to Allah, respond to His call, and have faith in Him, as it is through this connection and belief that they will find true guidance.
+
+Verse 187:
+"It has been made permissible for you the night preceding fasting to go to your wives [for sexual relations]. They are clothing for you and you are clothing for them. Allah knows that you used to deceive yourselves, so He accepted your repentance and forgave you. So now, have relations with them and seek that which Allah has decreed for you. And eat and drink until the white thread of dawn becomes distinct to you from the black thread [of night]. Then complete the fast until the night. And do not have relations with them as long as you are staying for worship in the mosques. These are the limits [set by] Allah, so do not approach them. Thus does Allah make clear His ordinances to the people that they may become righteous."
+
+This verse provides guidance on the rules of fasting and intimate relations during the month of Ramadan. It states that it is permissible for individuals to have intimate relations with their spouses during the nights of fasting, but they must abstain from such relations during the day while fasting. It emphasizes that spouses are like garments for one another, providing comfort, protection, and companionship. Allah is aware that people used to engage in deception by intentionally delaying the pre-dawn meal, so He forgave them and allowed them to have relations during the nights. It also reminds believers to begin their fast at the break of dawn when the distinction between the white thread of light and the black thread of darkness becomes clear. The verse concludes by highlighting the importance of adhering to the limits set by Allah and obeying His ordinances in order to attain righteousness.
+
+Verse 188:
+"And do not consume one another's wealth unjustly or send it [in bribery] to the rulers in order that [they might aid] you [to] consume a portion of the wealth of the people in sin, while you know [it is unlawful]."
+
+This verse addresses the prohibition of unlawfully consuming the wealth of others or using bribery to gain favors from the rulers in order to obtain a portion of people's wealth through sinful means. It reminds believers not to engage in dishonest practices or exploit others for personal gain, even if they have the opportunity to do so.
+
+Verse 189:
+"They ask you, [O Muhammad], about the new moons. Say, 'They are measurements of time for the people and for Hajj.' And it is not righteousness to enter houses from the back, but righteousness is [in] one who fears Allah. And enter houses from their doors. And fear Allah that you may succeed."
+
+In this verse, the question is raised regarding the significance of the new moons. The response emphasizes that the sighting of the new moons serves as a means to determine the time for various religious obligations, including the performance of Hajj. The verse also reminds believers that righteousness is not determined by entering houses through the back entrances or engaging in external rituals, but rather by fearing Allah, upholding His commandments, and entering houses through their proper doors. It emphasizes the importance of having a conscious awareness of Allah's presence and following His guidance in order to achieve success.
+
+Verse 190:
+"Fight in the way of Allah those who fight you but do not transgress. Indeed. Allah does not like transgressors."
+
+This verse addresses the concept of self-defense in the context of warfare. It instructs believers to fight against those who fight against them, but with the condition of not transgressing the limits set by Allah. Muslims are allowed to defend themselves, but they must not exceed the bounds of permissible conduct during warfare. Transgression is disapproved by Allah, and the verse emphasizes the importance of maintaining justice and moderation even in times of conflict.
+
+Verse 191:
+"And kill them wherever you overtake them and expel them from wherever they have expelled you, and fitnah is worse than killing. And do not fight them at al-Masjid al- Haram until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers."
+
+This verse addresses the context of defensive warfare against those who have initiated aggression. It states that when engaged in battle, believers are permitted to fight against their adversaries and defend themselves. It emphasizes the principle of proportionality, where retaliation should not exceed the level of aggression faced. The verse also highlights the importance of expelling those who have expelled Muslims from their homes, as well as the gravity of causing strife and discord (fitnah), which is considered even worse than killing. It further clarifies that fighting should not take place within the sacred precincts of al-Masjid al-Haram, unless the enemy initiates the fighting there. In such cases, believers are allowed to fight back and defend themselves against the disbelievers.
+
+Verse 192:
+"And if they cease, then indeed, Allah is Forgiving and Merciful."
+
+This verse encourages the pursuit of peace and reconciliation. It states that if the enemy ceases their aggression and shows willingness to make peace, then believers should also respond in a forgiving and merciful manner. It highlights the qualities of forgiveness and mercy that are valued in Islam.
+
+Verse 193:
+"And fight them until there is no fitnah and [until] the religion, all of it, is for Allah. And if they cease - then indeed, Allah is Seeing of what they do."
+
+This verse establishes the objective of defensive warfare, which is to eliminate aggression and the causes of conflict (fitnah) until there is peace and the establishment of Allah's religion. It emphasizes the importance of fighting to ensure the freedom to practice and uphold the religion of Islam. However, it reiterates that if the enemy ceases hostilities and chooses peace, Allah is fully aware of their actions.
+
+Verse 194:
+"And if they cease, then there is to be no aggression except against the oppressors."
+
+This verse emphasizes the principle of non-aggression. It states that if the enemy stops their aggression and shows a desire for peace, then believers are prohibited from initiating aggression, except against those who continue to oppress and act unjustly. It reaffirms the importance of responding to peace with peace and reserving force for cases of legitimate self-defense.
+
+Verse 195:
+"Fighting during the sacred months is prohibited. For each year, whoever commits aggression, Allah will impose upon him a penalty. Allah is Exalted in Might and Powerful."
+
+This verse establishes the prohibition of warfare during the sacred months, which are considered times of peace and tranquility in the Islamic calendar. It warns that anyone who engages in aggression during these months will face consequences from Allah. It reaffirms the authority and power of Allah in enforcing justice.
+
+Verse 196:
+"And complete the Hajj and 'Umrah for Allah. But if you are prevented, then [offer] what can be obtained with ease of sacrificial animals. And do not shave your heads until the sacrificial animal has reached its place of slaughter. And whoever among you is ill or has an ailment of the head [making shaving necessary must offer] a ransom of fasting [three days] or charity or sacrifice. And when you are secure, then whoever performs 'Umrah [during the Hajj months] followed by Hajj [offers] what can be obtained with ease of sacrificial animals. And whoever cannot find [or afford such an animal] - then a fast of three days during Hajj and of seven when you have returned [home]. Those are ten complete [days]. This is for those whose family is not in the area of al-Masjid al-Haram. And fear Allah and know that Allah is severe in penalty."
+
+This verse discusses the rituals of Hajj (pilgrimage) and 'Umrah (lesser pilgrimage) and provides guidance on how to perform them. It advises believers to complete the prescribed rituals of Hajj and 'Umrah for the sake of Allah. If circumstances prevent them from completing the rituals, they are instructed to offer a sacrificial animal instead. The verse further instructs that the shaving of the head should be delayed until the sacrificial animal has been slaughtered. If someone is unable to shave their head due to illness or any head-related ailment, they can offer a ransom by either fasting for three days, giving charity, or sacrificing an animal. Once the pilgrims are in a state of security, those who perform 'Umrah during the Hajj months followed by Hajj are allowed to offer a sacrificial animal as part of their Hajj rituals. If a person cannot find or afford an animal for sacrifice, they are required to fast for three days during Hajj and for an additional seven days upon returning home, making a total of ten days of fasting. These provisions are specifically for those whose families are not residing near al-Masjid al-Haram (the Sacred Mosque in Mecca). The verse concludes by reminding believers to fear Allah and be aware that Allah's punishment is severe for those who disobey His commands.
+
+Verse 197:
+"The Hajj is [during] well-known months, so whoever has made Hajj obligatory upon himself therein [by entering the state of ihram], there is [to be for him] no sexual relations and no disobedience and no disputing during Hajj. And whatever good you do - Allah knows it. And take provisions, but indeed, the best provision is fear of Allah. So fear Me, O you of understanding."
+
+This verse emphasizes the sanctity of the months in which Hajj is performed and instructs those who have entered the state of ihram (ritual consecration) for Hajj to abstain from sexual relations, disobedience, and disputes during the pilgrimage. It reminds believers that Allah is fully aware of their good deeds and intentions. The verse also advises pilgrims to take provisions for their journey, but it emphasizes that the best provision they can have is the fear of Allah and adherence to His commands. It encourages believers to be conscious of Allah and seek understanding of His guidance.
+
+Verse 198:
+"There is no blame upon you for seeking bounty from your Lord [during Hajj]. But when you depart from 'Arafat, remember Allah at al-Mash'ar al-Haram. And remember Him, as He has guided you, for indeed, you were before that among those astray."
+
+This verse addresses the permissibility of seeking provision and sustenance from Allah during the Hajj pilgrimage. It assures believers that there is no blame upon them for seeking the blessings and favors of their Lord. However, it also reminds them that after departing from the gathering at 'Arafat, they should remember Allah and engage in acts of worship and remembrance at al-Mash'ar al-Haram (a designated site near Muzdalifah). The verse highlights the importance of reflecting upon Allah's guidance and the transformation that has taken place in the lives of the pilgrims who were previously astray but have now been guided to the right path through Hajj.
+
+Verse 199:
+"Then depart from the place from where [all] the people depart and ask forgiveness of Allah. Indeed, Allah is Forgiving and Merciful."
+
+This verse instructs the pilgrims to leave the area of 'Arafat and join the general movement of the people as they move towards Muzdalifah and other designated locations in the Hajj pilgrimage. It also encourages them to seek forgiveness from Allah for any shortcomings or sins they may have committed. It emphasizes that Allah is Forgiving and Merciful, ready to accept sincere repentance.
+
+Verse 200:
+"And when you have completed your rites, remember Allah like your [previous] remembrance of your fathers or with [much] greater remembrance. And among the people is he who says, 'Our Lord, give us in this world,' and he will have in the Hereafter no share."
+
+This verse emphasizes the importance of remembering and worshiping Allah after completing the rituals of Hajj. It encourages believers to maintain a strong and constant remembrance of Allah, similar to the remembrance of their forefathers or even greater. The verse also warns against those who solely seek worldly gains and fail to prioritize the rewards and blessings of the Hereafter. It reminds believers that those who focus solely on worldly gains will have no share or reward in the Hereafter.
+
+Verse 201:
+"But among them is he who says, 'Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.'"
+
+This verse highlights the balanced and comprehensive supplication of believers. It acknowledges that some individuals pray for both worldly blessings and goodness in the Hereafter. They seek Allah's guidance and protection, not only in this life but also from the punishment of the Fire in the Hereafter. The verse encourages believers to seek goodness and protection in both realms and maintain a holistic approach to their supplications.
+
+Verse 202:
+"Those will have a share of what they have earned, and Allah is swift in account."
+
+This verse reassures believers that they will be rewarded according to their efforts and actions. Those who seek goodness and righteousness, both in this world and the Hereafter, will receive a share of the rewards they have earned. Allah is swift in taking account and rewarding His servants accordingly.
+
+Verse 203:
+"And remember Allah during [specific] numbered days. Then whoever hastens [his departure] in two days - there is no sin upon him; and whoever delays - there is no sin upon him - for him who fears Allah. And fear Allah and know that unto Him you will be gathered."
+
+This verse refers to the specific numbered days that are associated with certain rituals and acts of worship. It encourages believers to remember and worship Allah during these appointed days. It further explains that those who complete their rituals and hasten their departure from the sacred precincts of Mecca in two days are not committing any sin. Similarly, those who choose to delay their departure are also not sinning, as long as they do so out of fear and reverence for Allah. The verse emphasizes the importance of fearing Allah, being mindful of His presence, and knowing that everyone will eventually be gathered before Him for judgment.
+
+Verse 204:
+"And among the people is he whose speech pleases you in worldly life, and he calls Allah to witness as to what is in his heart, yet he is the fiercest of opponents."
+
+This verse highlights a hypocritical behavior found in some individuals. It describes people whose outward speech may please others and who may use religious language and oaths to give the impression of righteousness. However, in reality, they are among the fiercest opponents of the believers. The verse serves as a reminder to be cautious of individuals who may show outward piety but hold malicious intentions and harbor hostility towards the believers.
+
+Verse 205:
+"And when he goes away, he strives throughout the land to cause corruption therein and destroy crops and animals. And Allah does not like corruption."
+
+This verse continues the discussion of the hypocritical individuals described in the previous verse. It exposes their true nature and their efforts to spread corruption in the land. They engage in destructive actions that harm society, such as damaging crops and animals. The verse makes it clear that Allah does not approve of such corruption, as it goes against the principles of righteousness and justice.
+
+Verse 206:
+"And when it is said to him, 'Fear Allah,' pride in the sin takes hold of him. Sufficient for him is Hellfire, and how wretched is the resting place."
+
+This verse portrays the attitude of arrogance and defiance displayed by those who are reminded to fear Allah and mend their ways. Instead of reflecting on their behavior and repenting, they respond with pride and arrogance. Their arrogance leads them to continue in their sinful ways. The verse warns that such an attitude will result in their ultimate destination being Hellfire, which is a wretched and miserable abode.
+
+Verse 207:
+"And among the people is he who sells himself, seeking means to the approval of Allah. And Allah is kind to [His] servants."
+
+This verse contrasts the previous descriptions of hypocritical individuals with those who are sincere in their pursuit of pleasing Allah. It mentions a group of people who willingly sacrifice their own desires and interests in order to seek the pleasure and approval of Allah. They prioritize righteousness and strive to align their actions with the teachings of Islam. The verse assures that Allah, in His kindness and mercy, recognizes the efforts of such sincere individuals.
+
+Verse 208:
+"O you who have believed, enter into peace completely and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy."
+
+This verse addresses the believers, urging them to enter into a state of peace fully and wholeheartedly. They are instructed not to follow the footsteps of Satan, who is a known enemy of humanity. It emphasizes the importance of seeking peace and righteousness in all aspects of life and warns against succumbing to the temptations and deceptions of Satan.
+
+Verse 209:
+"But if you slip after clear proofs have come to you, then know that Allah is Exalted in Might and Wise."
+
+This verse acknowledges the possibility of human error and slips, even after clear signs and proofs have been revealed to the believers. It reminds them that Allah is Exalted in Might and Wise, meaning that He is fully aware of their weaknesses and is forgiving and wise in dealing with their shortcomings. It reassures believers that they should seek repentance and turn back to Allah whenever they make mistakes.
+
+Verse 210:
+"Are they waiting for anything except that Allah should come to them in covers of clouds and the angels [as well] and the matter is [then] decided? And to Allah [all] matters are returned."
+
+This verse addresses the disbelievers who are waiting for some extraordinary signs or events as proof of the truth of the message. It rhetorically asks them if they are waiting for Allah to appear to them in physical forms, such as covered in clouds, accompanied by angels, and with the matter of judgment already decided. The verse reminds them that all matters ultimately belong to Allah, and it is to Him that everyone will be returned for judgment.
+
+Verse 211:
+"Ask the Children of Israel how many signs We have given them. And whoever exchanges the favor of Allah [for disbelief] after it has come to him - then indeed, Allah is severe in penalty."
+
+This verse directs the believers to learn from the history of the Children of Israel and the numerous signs and miracles that were bestowed upon them. It highlights the consequences faced by those who, despite witnessing the favor and blessings of Allah, choose to exchange it for disbelief and ingratitude. Allah is severe in His punishment for such actions.
+
+Verse 212:
+"Beautified for those who disbelieve is the life of this world, and they ridicule those who believe. But those who fear Allah are above them on the Day of Resurrection. And Allah gives provision to whom He wills without account."
+
+This verse contrasts the temporary allure and superficial attractions of worldly life that are appealing to disbelievers. It mentions how they mock and ridicule the believers who prioritize their faith over worldly pursuits. However, on the Day of Resurrection, those who fear Allah and remain steadfast in their belief will be elevated above the disbelievers. The verse also emphasizes that Allah is the ultimate provider, and He bestows provisions upon whomever He wills without any limit or accountability.
+
+Verse 213:
+"Mankind was [of] one religion [before their deviation]; then Allah sent the prophets as bringers of good tidings and warners and sent down with them the Scripture in truth to judge between the people concerning that in which they differed. And none differed over the Scripture except those who were given it - after the clear proofs came to them - out of jealous animosity among themselves. And Allah guided those who believed to the truth concerning that over which they had differed, by His permission. And Allah guides whom He wills to a straight path."
+
+This verse highlights the original unity of mankind in following a single religion before they deviated and diverged into various belief systems. Allah, out of His mercy and wisdom, sent prophets as bearers of good news and warning, along with revelations in the form of Scriptures, to guide and judge between people in matters of disagreement. The verse points out that those who differed in their interpretations of the Scriptures were primarily those who received them, driven by jealous animosity among themselves. However, Allah, by His permission, guided the believers to the truth and resolved their differences. It emphasizes that it is Allah who guides whom He wills onto the straight path.
+
+Verse 214:
+"Or do you think that you will enter Paradise while such [trial] has not yet come to you as came to those who passed on before you? They were touched by poverty and hardship and were shaken until [even their] messenger and those who believed with him said, 'When is the help of Allah?' Unquestionably, the help of Allah is near."
+
+This verse reminds the believers that they should not assume they will enter Paradise without facing trials and difficulties similar to those experienced by the believers who came before them. The early believers faced poverty, hardship, and severe tests of faith. They even questioned when the help of Allah would come. However, the verse assures that the help of Allah is always near, even though it may not be immediately apparent. It encourages believers to remain patient and steadfast in times of trial, as Allah's help and relief are certain.
+
+Verse 215:
+"They ask you, [O Muhammad], what they should spend. Say, 'Whatever you spend of good is [to be] for parents and relatives and orphans and the needy and the traveler. And whatever you do of good - indeed, Allah is Knowing of it.'"
+
+This verse addresses a question posed by the believers regarding spending in charity and good deeds. The Prophet Muhammad is instructed to respond by informing them that whatever they spend from their wealth should be directed towards benefiting their parents, relatives, orphans, the needy, and travelers. It emphasizes that any act of goodness or charity is known and acknowledged by Allah. The verse emphasizes the importance of caring for one's family, supporting those in need, and contributing to the welfare of society.
+
+Verse 216:
+"Fighting has been enjoined upon you while it is hateful to you. But perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you. And Allah knows, while you know not."
+
+This verse discusses the topic of fighting and highlights the complex nature of human desires and preferences. It acknowledges that although fighting may be disliked or hateful to some, there are situations where it becomes necessary and beneficial. Conversely, something that may be beloved or desired by individuals can sometimes be harmful or detrimental to them. Allah, with His perfect knowledge and wisdom, knows the true consequences and outcomes, while humans may lack full understanding. The verse encourages believers to trust in Allah's wisdom and guidance, even if they may not fully comprehend the wisdom behind certain actions or circumstances.
+
+Verse 217:
+"They ask you about the sacred month - about fighting therein. Say, 'Fighting therein is great [sin], but averting [people] from the way of Allah and disbelief in Him and [preventing access to] al-Masjid al-Haram and the expulsion of its people therefrom are greater [evil] in the sight of Allah. And fitnah is greater than killing.' And they will continue to fight you until they turn you back from your religion if they are able. And whoever of you reverts from his religion [to disbelief] and dies while he is a disbeliever - for those, their deeds have become worthless in this world and the Hereafter, and those are the companions of the Fire, they will abide therein eternally."
+
+This verse addresses a question concerning the sacred months and the permissibility of fighting during them. The response clarifies that although fighting during the sacred months is a grave sin, there are even greater sins in the sight of Allah. These include turning people away from the path of Allah, disbelieving in Him, preventing access to the sacred mosque (Al-Masjid al-Haram), and expelling its people. It emphasizes that the greatest trial and temptation (fitnah) is worse than killing. It warns the believers that those who oppose them will continue to fight them, seeking to divert them from their religion. It also states that if someone renounces their faith and dies in a state of disbelief, their deeds will be in vain, and they will face eternal punishment in the Fire.
+
+Verse 218:
+"Indeed, those who have believed and those who have emigrated and fought in the cause of Allah - those expect the mercy of Allah. And Allah is Forgiving and Merciful."
+
+This verse highlights the hopeful expectations of those who have believed in Allah, migrated for the sake of their faith, and fought in the cause of Allah. They anticipate the mercy of Allah, recognizing His forgiveness and mercy. It reminds the believers that Allah is compassionate and forgiving towards those who strive and sacrifice for His cause.
+
+Verse 219:
+"They ask you about wine and gambling. Say, 'In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.' And they ask you what they should spend. Say, 'The excess [beyond needs].' Thus Allah makes clear to you the verses [of revelation] that you might give thought."
+
+This verse addresses inquiries regarding the permissibility of wine and gambling. The response acknowledges that although there may be some perceived benefits in them for people, the sins associated with these practices outweigh any potential benefits. It clarifies that the harmful consequences and moral degradation caused by wine and gambling render them impermissible. Furthermore, when asked about spending, the believers are advised to give from their excess wealth, indicating the importance of generosity and charitable giving. The verse emphasizes the need for reflection and contemplation upon the clear verses of revelation to make informed decisions.
+
+Verse 220:
+"Upon the world and the Hereafter. And they ask you about orphans. Say, 'Improvement for them is best. And if you mix your affairs with theirs - they are your brothers. And Allah knows the corrupter from the amender. And if Allah had willed, He could have put you in difficulty. Indeed, Allah is Exalted in Might and Wise.'"
+
+This verse continues the discussion on the topic of orphans. It reminds the believers that their responsibilities extend beyond the worldly life to the Hereafter. They are encouraged to seek the betterment and improvement of the orphans under their care. The verse emphasizes that if believers combine their affairs with those of the orphans, they should consider them as their brothers and act in their best interest. Allah is fully aware of those who may corrupt or misuse the resources of orphans and those who genuinely seek to improve their situation. The verse also serves as a reminder that if Allah had desired, He could have placed the believers in difficult circumstances, but He, in His wisdom, has not done so. Allah is exalted in might and possesses perfect wisdom.
+
+Verse 221:
+"And do not marry polytheistic women until they believe. And a believing slave woman is better than a polytheist, even though she might please you. And do not marry polytheistic men [to your women] until they believe. And a believing slave is better than a polytheist, even though he might please you. Those invite [you] to the Fire, but Allah invites to Paradise and to forgiveness, by His permission. And He makes clear His verses to the people that perhaps they may remember."
+
+This verse provides guidance on marriage, particularly regarding the prohibition of believers marrying polytheistic women or men. It instructs the believers not to enter into marital relationships with polytheistic individuals until they embrace the faith of Islam. It emphasizes that a believing slave woman or man is better than a polytheist, even if the latter may be appealing to them. The verse explains that those who invite others to polytheism and disbelief ultimately lead them towards the Fire, while Allah, by His permission, invites people to Paradise and forgiveness. Allah clearly elucidates His signs and guidance for humanity, with the hope that they may reflect and remember.
+
+Verse 222:
+"And they ask you about menstruation. Say, 'It is harm, so keep away from wives during menstruation. And do not approach them until they are pure. And when they have purified themselves, then come to them from where Allah has ordained for you. Indeed, Allah loves those who are constantly repentant and loves those who purify themselves.'"
+
+This verse addresses a question regarding menstruation and provides guidance on how to handle the issue within marital relationships. The response advises the believers that menstruation is a period of impurity for women, and during this time, they should refrain from sexual intimacy with their spouses. They are instructed to wait until the women have completed their purification and become pure again before engaging in intimate relations. The verse emphasizes that Allah loves those who constantly repent for their shortcomings and sins and those who strive to purify themselves spiritually and physically.
+
+Verse 223:
+"Your wives are a place of sowing of seed for you, so come to your place of cultivation however you wish and put forth [righteousness] for yourselves. And fear Allah and know that you will meet Him. And give good tidings to the believers."
+
+This verse continues the discussion on the marital relationship and the importance of intimacy within the bounds of marriage. It uses the analogy of sowing seeds in a field to illustrate the mutual pleasure and consent between spouses. It advises husbands to approach their wives and engage in intimate relations in a manner that brings them joy and fulfillment. However, it also emphasizes the need to approach intimacy with righteousness and within the limits prescribed by Allah. The verse reminds believers to fear Allah, be mindful of their ultimate meeting with Him, and give glad tidings to fellow believers.
+
+Verse 224:
+"And do not make [your oath by] Allah an excuse against being righteous and fearing Allah and making peace among people. And Allah is Hearing and Knowing."
+
+This verse addresses the issue of making false oaths in the name of Allah as a means to evade responsibilities or deceive others. It prohibits using Allah's name as an excuse to justify wrongdoing, neglecting righteousness, or avoiding the duty to maintain peace and harmony among people. It reminds the believers that Allah is All-Hearing and All-Knowing, fully aware of their intentions and actions.
+
+Verse 225:
+"Allah does not impose blame upon you for what is unintentional in your oaths, but He imposes blame upon you for what your hearts have earned. And Allah is Forgiving and Forbearing."
+
+This verse provides clarification regarding unintentional oaths. It states that Allah does not hold people accountable for unintentional or accidental oaths they may have made. However, individuals are responsible for the intentions of their hearts and the deliberate oaths they make. Allah is forgiving and forbearing, willing to pardon sincere mistakes and accept repentance.
+
+Verse 226:
+"Those who swear not to have sexual relations with their wives may wait for four months. Then if they return [to normal relations], indeed, Allah is Forgiving and Merciful."
+
+This verse addresses a situation where a husband takes an oath not to have sexual relations with his wife. It stipulates that if such an oath is made, the husband must wait for a period of four months. If during this waiting period, he decides to resume normal relations with his wife, Allah is forgiving and merciful towards him. This verse acknowledges the temporary nature of such oaths and provides a timeframe for reconciliation.
+
+Verse 227:
+"But if they separate [by divorce], Allah will enrich each [of them] from His abundance. And ever is Allah Encompassing and Wise."
+
+This verse deals with the topic of divorce. It states that if a couple decides to separate through divorce, Allah, in His abundance, will provide for each of them. It reassures that Allah's provisions are vast and encompasses all their needs. It emphasizes the wisdom and encompassing knowledge of Allah in managing the affairs of His creation.
+
+Verse 228:
+"Divorced women remain in waiting for three periods, and it is not lawful for them to conceal what Allah has created in their wombs if they believe in Allah and the Last Day. And their husbands have more right to take them back in this [period] if they want reconciliation. And due to the wives is similar to what is expected of them, according to what is reasonable. But the men have a degree over them [in responsibility and authority]. And Allah is Exalted in Might and Wise."
+
+This verse addresses the waiting period (iddah) for divorced women. It stipulates that divorced women must observe a waiting period of three menstrual cycles before they can marry again. During this time, it is not permissible for them to conceal any signs of pregnancy if they believe in Allah and the Last Day. The verse also highlights that during the waiting period, the husband has the right to take back his wife if he desires reconciliation. The verse acknowledges that the responsibilities and expectations from both husbands and wives are mutual, but men have a degree of authority and responsibility over women. Allah is exalted in might and possesses perfect wisdom.
+
+Verse 229:
+"Divorce is twice. Then, either keep [her] in an acceptable manner or release [her] with good treatment. And it is not lawful for you to take anything of what you have given them unless both fear that they will not be able to keep [within] the limits of Allah. But if you fear that they will not keep [within] the limits of Allah, then there is no blame upon either of them concerning that by which she ransoms herself. These are the limits of Allah, so do not transgress them. And whoever transgresses the limits of Allah - it is those who are the wrongdoers."
+
+This verse addresses the concept of divorce and outlines the rules and regulations associated with it. It states that divorce can be pronounced twice in a marital relationship. After the first divorce, the husband has the option to reconcile with his wife in an acceptable manner. If, however, they decide to separate again, it should be done with good treatment and fairness. The verse emphasizes that it is not permissible for the husband to take back any of the dowry or gifts he had given to his wife unless both parties fear that they will not be able to maintain the limits set by Allah. In such cases, it is permissible for the wife to offer something in return to free herself from the marriage. The verse underscores the importance of respecting the limits of Allah and warns against transgressing them. Those who exceed these limits are considered wrongdoers.
+
+Verse 230:
+"And if he has divorced her [for the third time], then she is not lawful to him afterward until [after] she marries a husband other than him. But if the latter husband divorces her [or dies], there is no blame upon them [i.e., the former husband and wife] if they return to each other, provided they think that they can keep [within] the limits of Allah. These are the limits of Allah, which He makes clear to a people who know."
+
+This verse continues the discussion on divorce, specifically addressing the issue of the third and final divorce. It states that if a husband has divorced his wife three times, she becomes impermissible for him to remarry unless she marries another husband in a legitimate marriage and they consummate their relationship. However, if the second husband divorces her or passes away, there is no blame on the former husband and wife if they decide to reunite, provided they believe they can uphold the boundaries and obligations set by Allah. This verse emphasizes the importance of considering the consequences of divorce and encourages reconciliation whenever possible.
+
+Verse 231:
+"And when you divorce women and they have [nearly] fulfilled their term, either retain them according to acceptable terms or release them according to acceptable terms, and do not keep them, intending harm, to transgress [against them]. And whoever does that has certainly wronged himself. And do not take the verses of Allah in jest. And remember the favor of Allah upon you and what has been revealed to you of the Book and wisdom by which He instructs you. And fear Allah and know that Allah is Knowing of all things."
+
+This verse provides guidance on the treatment of divorced women, particularly when they are approaching the end of their waiting period. It advises that during this time, the husband should either retain them in a kind and fair manner or release them amicably, without intending any harm or ill treatment. It warns against using divorce as a means to oppress or mistreat women. Those who do so are considered to have wronged themselves. The verse also emphasizes the seriousness of Allah's verses and teachings, urging believers to reflect on the favors of Allah and the wisdom revealed in the Book (Quran). It reminds them to fear Allah and be aware that He is knowledgeable of all things.
+
+Verse 232:
+"And when you divorce women and they have fulfilled their term, do not prevent them from remarrying their [former] husbands if they agree among themselves on an acceptable basis. That is instructed to whoever of you believes in Allah and the Last Day. That is better for you and purer, and Allah knows and you know not."
+
+This verse addresses the issue of preventing divorced women from remarrying their former husbands once their waiting period (iddah) is completed. It advises that if both parties mutually agree on an acceptable basis, they should not be prevented from remarrying. This instruction is given to those who believe in Allah and the Last Day. The verse emphasizes that allowing such remarriage is better and purer for them. It reminds the believers that Allah's knowledge surpasses their own, and they may not fully understand the wisdom behind certain rulings.
+
+Verse 233:
+"Mothers may breastfeed their children two complete years for whoever wishes to complete the nursing [period]. Upon the father is the mothers' provision and their clothing according to what is acceptable. No person is charged with more than his capacity. No mother should be harmed through her child, and no father through his child. And upon the [father's] heir is [a duty] like that [of the father]. And if they both desire weaning through mutual consent from both of them and consultation, there is no blame upon either of them. And if you wish to have your children nursed by a substitute, there is no blame upon you as long as you give payment according to what is acceptable. And fear Allah and know that Allah is Seeing of what you do."
+
+This verse addresses the topic of breastfeeding and provides guidance regarding the period of nursing for children. It states that mothers should breastfeed their children for a complete period of two years if they wish to do so. During this time, it is the responsibility of the father to provide for the mother's needs and clothing in a manner that is acceptable and fair. The verse emphasizes that no one should be burdened with more than they can handle, and no mother or father should be harmed or burdened through the care of their child. The verse also recognizes the importance of mutual consent and consultation between parents when deciding to wean their child. If both parents agree to wean the child before the completion of two years, there is no blame on either of them. Additionally, the verse allows for the option of hiring a substitute mother for breastfeeding, as long as the payment is made in accordance with what is acceptable. The verse concludes by reminding believers to fear Allah and be mindful that He sees their actions.
+
+Verse 234:
+"And those who are taken in death among you and leave wives behind - they, [the wives, shall] wait four months and ten [days]. And when they have fulfilled their term, then there is no blame upon you for what they do with themselves in an acceptable manner. And Allah is [fully] acquainted with what you do."
+
+This verse addresses the waiting period (iddah) for widows. It states that when a husband passes away, his widowed wife should observe a waiting period of four months and ten days. During this period, the widow is expected to remain in a state of mourning and is not permitted to remarry. After the completion of the waiting period, the widow has the freedom to choose her course of action regarding herself, including the possibility of remarriage. The verse emphasizes that once the waiting period is fulfilled, there is no blame on the widow for making decisions about her own life in an acceptable and appropriate manner. Allah is fully aware of the actions and intentions of individuals.
+
+Verse 235:
+"And there is no blame upon you for that to which you [indirectly] allude concerning a proposal to women or for what you conceal within yourselves. Allah knows that you will have them in mind. But do not promise them secretly except for saying a proper saying. And do not determine to undertake a marriage contract until the decreed period reaches its end. And know that Allah knows what is within yourselves, so beware of Him. And know that Allah is Forgiving and Forbearing."
+
+This verse addresses the issue of expressing interest in marriage and making proposals to women. It states that there is no blame on individuals for subtly alluding to their interest in marriage or for keeping their intentions within themselves. Allah is aware of what individuals have in mind. However, the verse advises against making secret promises to women, except for using proper and appropriate words. Furthermore, it cautions against finalizing a marriage contract until the specified waiting period has ended. It reminds believers that Allah is fully aware of their inner thoughts and intentions, and they should be cautious and mindful of Him. It emphasizes that Allah is Forgiving and Forbearing.
+
+Verse 236:
+"There is no blame upon you for that to which you [indirectly] allude concerning a proposal to women or for what you conceal within yourselves. Allah knows that you will have them in mind. But do not promise them secretly except for saying a proper saying. And do not determine to undertake a marriage contract until the decreed period reaches its end. And know that Allah knows what is within yourselves, so beware of Him. And know that Allah is Forgiving and Forbearing."
+
+Verse 236 is a repetition of the previous verse (verse 235) and carries the same message. It addresses the issue of expressing interest in marriage and making proposals to women. It highlights that there is no blame on individuals for subtly alluding to their interest or keeping their intentions within themselves. Allah is fully aware of their thoughts and intentions. However, it advises against making secret promises to women, except for using proper and appropriate words. It also emphasizes not finalizing a marriage contract until the specified waiting period has ended. The verse reminds believers to be mindful of Allah, who knows the innermost thoughts and intentions of individuals, and that Allah is Forgiving and Forbearing.
+
+Verse 237:
+"And if you divorce them before you have touched them and you have already specified for them an obligation, then [give] half of what you specified - unless they forego the right or the one in whose hand is the marriage contract foregoes it. And to forego it is nearer to righteousness. And do not forget graciousness between you. Indeed Allah, of whatever you do, is Seeing."
+
+This verse addresses the issue of divorce before consummation of the marriage when an obligation or dowry has been specified. It states that if a divorce occurs before the husband has intimate relations with his wife and an obligation or dowry has been set, the husband should give half of what was specified, unless the wife willingly foregoes her right or the one holding the marriage contract foregoes it. The verse emphasizes that foregoes, or giving up the right, is closer to righteousness. It also reminds believers not to forget kindness and graciousness in their dealings with one another. Allah is All-Seeing and fully aware of their actions.
+
+Verse 238:
+"Maintain with care the [obligatory] prayers and [in particular] the middle prayer and stand before Allah, devoutly obedient."
+
+This verse emphasizes the importance of observing the obligatory prayers and specifically highlights the significance of the middle prayer. It encourages believers to perform their prayers diligently and devoutly, standing before Allah with obedience and humility.
+
+Verse 239:
+"But if you are in fear, [praying] on foot or riding, but when you are secure, then remember Allah [in prayer], as He has taught you that which you did not [previously] know."
+
+This verse addresses the issue of performing prayers during times of fear or insecurity. It states that if believers find themselves in a state of fear, they are permitted to pray while on foot or while riding a mount. However, when they are in a state of security and safety, they should remember Allah and perform prayers as they have been taught, even if they did not previously have knowledge of the specific manner of prayer.
+
+Verse 240:
+"And those who are taken in death among you and leave wives behind - they, [the wives, shall] wait four months and ten [days]. And when they have fulfilled their term, then there is no blame upon you for what they do with themselves in an acceptable manner. And Allah is [fully] acquainted with what you do."
+
+This verse reiterates the waiting period (iddah) for widows mentioned earlier. It states that when a husband passes away, his widowed wife should observe a waiting period of four months and ten days. During this period, the widow is expected to remain in a state of mourning and is not permitted to remarry. After the completion of the waiting period, the widow has the freedom to choose her course of action regarding herself, including the possibility of remarriage. The verse emphasizes that once the waiting period is fulfilled, there is no blame on the widow for making decisions about her own life in an acceptable and appropriate manner. Allah is fully aware of the actions and intentions of individuals.
+
+Verse 241:
+"And for divorced women is a provision according to what is acceptable - a duty upon the righteous."
+
+This verse addresses the provision and support that should be given to divorced women. It highlights that it is the responsibility of the righteous individuals, particularly the former husbands, to provide a suitable and acceptable provision for the divorced women. It emphasizes the importance of fulfilling this duty towards the welfare and well-being of the divorced women.
+
+Verse 242:
+"Thus does Allah make clear to you His verses that you might use reason."
+
+This verse indicates that Allah clarifies His verses and teachings so that people may use their intellect and reasoning abilities to understand and apply them correctly. It underscores the importance of using rationality and wisdom in comprehending and following the guidance of Allah.
+
+Verse 243:
+"Have you not considered those who left their homes in many thousands, fearing death? Allah said to them, 'Die'; then He restored them to life. And Allah is full of bounty to the people, but most of the people do not show gratitude."
+
+This verse draws attention to those individuals who had to leave their homes and migrate in large numbers due to the fear of death or persecution. It highlights an incident where Allah commanded them to die, signifying a severe trial and test they had to face. However, Allah later restored them to life, saving them from their difficult situation. The verse emphasizes that Allah is abundant in His bounties and blessings towards people. Nevertheless, it laments that most people fail to show gratitude for the favors bestowed upon them by Allah.
+
+Verse 244:
+"Fight in the cause of Allah and know that Allah is Hearing and Knowing."
+
+This verse emphasizes the concept of fighting in the cause of Allah. It encourages believers to engage in lawful defensive warfare or struggle for the sake of upholding justice and righteousness. The verse reminds them that Allah is All-Hearing, meaning He listens to their supplications and prayers, and All-Knowing, meaning He is aware of their intentions and actions.
+
+Verse 245:
+"Who is it that would loan Allah a goodly loan so He may multiply it for him many times over? And it is Allah who withholds and grants abundance, and to Him you will be returned."
+
+This verse encourages believers to spend in the cause of Allah and to give generously in charity. It metaphorically refers to spending in the way of Allah as lending Allah a goodly loan. It assures them that Allah will multiply their reward and blessings manifold. The verse emphasizes that it is Allah who controls the resources of abundance and scarcity and that ultimately, all will return to Him.
+
+Verse 246:
+"Have you not considered the assembly of the Children of Israel after [the time of] Moses when they said to a prophet of theirs, 'Send to us a king, and we will fight in the way of Allah'? He said, 'Would you perhaps refrain from fighting if fighting was prescribed for you?' They said, 'And why should we not fight in the cause of Allah when we have been driven out from our homes and from our children?' But when fighting was prescribed for them, they turned away, except for a few of them. And Allah is Knowing of the wrongdoers."
+
+This verse mentions an incident from the history of the Children of Israel. They had requested a prophet to appoint a king for them, with the intention of fighting in the cause of Allah. However, when the opportunity for battle came, most of them turned away and refused to fight, except for a few individuals. The verse highlights their hypocrisy and lack of commitment to their initial claim. It emphasizes that Allah is aware of those who commit wrongdoing and fail to fulfill their promises.
+
+Verse 247:
+"Their prophet said to them, 'Indeed, Allah has sent to you Saul as a king.' They said, 'How can he have kingship over us while we are more worthy of kingship than him and he has not been given any measure of wealth?' He said, 'Indeed, Allah has chosen him over you and has increased him abundantly in knowledge and stature.' And Allah gives His sovereignty to whom He wills. And Allah is all-Encompassing [in favor] and Knowing."
+
+This verse continues the narration of the incident mentioned in the previous verse. The prophet appointed Saul as their king by the command of Allah. However, some of the Children of Israel questioned his eligibility for kingship, claiming they were more deserving due to their wealth. The prophet responded by highlighting that Allah had chosen Saul over them and blessed him with knowledge and status. The verse emphasizes that Allah bestows sovereignty and authority upon whomever He wills, and His decisions are based on His comprehensive knowledge and wisdom.
+
+Verse 248:
+"And their prophet said to them, 'Indeed, a sign of his kingship is that the chest will come to you in which is assurance from your Lord and a remnant of what the family of Moses and the family of Aaron had left, carried by the angels. Indeed in that is a sign for you if you are believers.'"
+
+In this verse, the prophet informs the Children of Israel that a sign of Saul's kingship is the coming of a chest to them. This chest contains assurance from their Lord and remnants from the family of Moses and the family of Aaron. The chest is said to be carried by the angels. The verse suggests that this event serves as a sign for them to recognize and affirm Saul's legitimacy as their king if they are truly believers.
+
+Verse 249:
+"And when Saul set out with the soldiers, he said, 'Indeed, Allah will be testing you with a river. So whoever drinks from it is not of me, and whoever does not taste it is indeed of me, excepting one who takes [from it] in the hollow of his hand.' But they drank from it, except a [very] few of them. Then when he had crossed it along with those who believed with him, they said, 'There is no power for us today against Goliath and his soldiers.' But those who were certain that they would meet Allah said, 'How many a small company has overcome a large company by permission of Allah. And Allah is with the patient.'"
+
+This verse tells the story of Saul (Talut) and his army facing a test from Allah. Saul informed his soldiers that they would be tested with a river. Whoever drinks from it will not be considered part of his army, except for those who take only a small amount of water in the hollow of their hands. However, most of the soldiers failed the test and drank from the river. Only a few remained who did not consume from it. As they proceeded, the soldiers who had failed the test lost hope in their ability to face Goliath and his soldiers. However, those who were certain in their faith and believed in meeting Allah remained steadfast and reminded themselves of the countless instances where a small group had overcome a larger one with the permission of Allah. They understood that Allah is with the patient and steadfast believers.
+
+Verse 250:
+"And when they went forth to [face] Goliath and his soldiers, they said, 'Our Lord, pour upon us patience and plant firmly our feet and give us victory over the disbelieving people.'"
+
+This verse describes the prayer of the believing soldiers as they prepared to face Goliath and his army. They sought Allah's assistance, asking Him to bestow patience upon them, to make their steps firm, and to grant them victory over the disbelievers.
+
+Verse 251:
+"So they defeated them by permission of Allah and killed David, and Allah gave him the kingship and prophethood and taught him from that which He willed. And if it were not for Allah checking [some] people by means of others, the earth would have been corrupted, but Allah is full of bounty to the worlds."
+
+This verse recounts the story of David (Dawud) and his victory over Goliath and his army. It emphasizes that their triumph was granted to them by the permission and support of Allah. David was blessed with both kingship and prophethood, and Allah taught him what He willed, bestowing upon him knowledge and wisdom. The verse also highlights the divine wisdom in Allah using different groups of people to check and balance one another, preventing corruption and maintaining harmony on earth. It emphasizes that Allah is full of bounty and goodness to the worlds.
+
+Verse 252:
+"These are the verses of Allah which We recite to you, [O Muhammad], in truth. And indeed, you are from among the messengers."
+
+In this verse, Allah affirms that the Quranic verses revealed to Prophet Muhammad (peace be upon him) are the authentic words of Allah. They are recited to him in truth, serving as a guidance for all humanity. The verse also affirms that Prophet Muhammad is one of the messengers of Allah, chosen to convey the divine message to the people.
+
+Verse 253:
+"Those messengers - some of them We caused to exceed others. Among them were those to whom Allah spoke, and He raised some of them in degree. And We gave Jesus, the Son of Mary, clear proofs, and We supported him with the Pure Spirit. If Allah had willed, those [generations] succeeding them would not have fought each other after the clear proofs had come to them. But they differed, and some of them believed and some of them disbelieved. And if Allah had willed, they would not have fought each other, but Allah does what He intends."
+
+This verse discusses the variation in the ranks and levels of the messengers of Allah. Allah raised some of them in rank and gave them special privileges. Among the messengers, some were directly spoken to by Allah, while others received clear signs and miracles. The verse specifically mentions Jesus (Isa), the son of Mary (Maryam), and the clear proofs and miracles bestowed upon him. It also highlights that if Allah had willed, the subsequent generations would not have fought or disputed with one another after receiving clear evidence and guidance. However, due to their differences in belief and disbelief, conflicts arose. Allah affirms that He has the power to prevent such conflicts, but He allows free will and the consequences of people's choices to unfold according to His divine plan.
+
+Verse 254:
+"O you who have believed, spend from that which We have provided for you before there comes a Day in which there is no exchange and no friendship and no intercession. And the disbelievers - they are the wrongdoers."
+
+This verse addresses the believers, urging them to spend from the provisions and blessings that Allah has bestowed upon them in acts of charity and goodness. It emphasizes the transient nature of worldly possessions and the importance of using them for the sake of Allah before the arrival of a Day of Judgment where no transactions, friendships, or intercessions will be of any avail. The verse also highlights that those who disbelieve are in the wrong and engage in wrongdoing by rejecting the truth and disregarding the importance of spending in the way of Allah.
+
+Verse 255, Ayat al-Kursi (The Throne Verse):
+"Allah! There is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great."
+
+This verse, known as Ayat al-Kursi, is a profound declaration of the greatness and sovereignty of Allah. It asserts that there is no deity worthy of worship except Allah, who is the Ever-Living and the Sustainer of all existence. Allah does not experience drowsiness or sleep, and everything in the heavens and the earth belongs to Him. No one can intercede with Him except with His permission, and He possesses complete knowledge of the past, present, and future. The verse emphasizes the vastness of Allah's dominion, extending over the entire universe, yet His preservation of it does not exhaust Him. Allah is described as the Most High and the Most Great, signifying His unmatched greatness and authority.
+
+Verses 256-257:
+"There shall be no compulsion in [acceptance of] the religion. The right course has become clear from the wrong. So whoever disbelieves in Taghut and believes in Allah has grasped the most trustworthy handhold with no break in it. And Allah is Hearing and Knowing. Allah is the ally of those who believe. He brings them out from darknesses into the light. And those who disbelieve - their allies are Taghut. They take them out of the light into darknesses. Those are the companions of the Fire; they will abide eternally therein."
+
+These verses emphasize the principle of freedom of religion and choice. It is stated that there should be no compulsion or coercion in matters of faith. The truth is made distinct from falsehood, and it is up to individuals to choose the right path. Those who reject false deities (Taghut) and believe in Allah have firmly grasped the most reliable and unbreakable support. Allah, who is All-Hearing and All-Knowing, is the protector and ally of the believers. He guides them from the darkness of disbelief into the light of faith. Conversely, those who associate themselves with false deities and disbelieve are guided away from the light into darkness. They are the companions of the Fire, destined for eternal punishment.
+
+# Missing Verses 257-286 
