@@ -121,7 +121,7 @@ The Quran, the holy book of Islam, is divided into 114 chapters called surahs. E
 
 ## Surah in quran with more description
 
-Describing each surah in the Quran in detail would be beyond the scope of a single response, as each surah covers various themes, teachings, and historical events. However, I can provide a brief overview of some notable aspects of each surah. Here's a summary of the main themes and content of each surah:
+Each surah covers various themes, teachings, and historical events. However, here is a brief overview of some notable aspects of each surah. Here's a summary of the main themes and content of each surah:
 
 1. Surah Al-Fatiha (The Opening): This surah is a prayer seeking guidance from Allah and serves as the opening chapter of the Quran.
 
