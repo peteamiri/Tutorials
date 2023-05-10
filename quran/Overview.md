@@ -143,11 +143,11 @@ Each surah covers various themes, teachings, and historical events. However, her
 
 1. Surah Yunus (Jonah): It highlights the story of the prophet Jonah and the lessons to be learned from his experiences. The surah emphasizes the mercy and forgiveness of Allah.
 
-1. Surah Hud: 1. Surah Hud is named after the prophet Hud. It recounts the story of Prophet Noah and the subsequent destruction of his people due to their disbelief. The surah also mentions the stories of other prophets such as Hud, Salih, Lot, and Shu'aib, highlighting the consequences of rejecting the messengers of Allah.
+1. Surah Hud: Surah Hud is named after the prophet Hud. It recounts the story of Prophet Noah and the subsequent destruction of his people due to their disbelief. The surah also mentions the stories of other prophets such as Hud, Salih, Lot, and Shu'aib, highlighting the consequences of rejecting the messengers of Allah.
 
-1. Surah Yusuf: 1. Surah Yusuf revolves around the story of the Prophet Joseph (Yusuf). It narrates his journey from being betrayed by his brothers to becoming a minister in Egypt. The surah emphasizes themes of patience, righteousness, and divine decree. It showcases the importance of trust in Allah's plans, even in difficult circumstances.
+1. Surah Yusuf: Surah Yusuf revolves around the story of the Prophet Joseph (Yusuf). It narrates his journey from being betrayed by his brothers to becoming a minister in Egypt. The surah emphasizes themes of patience, righteousness, and divine decree. It showcases the importance of trust in Allah's plans, even in difficult circumstances.
 
-1. Surah Ar-Ra'd: The 1. Surah is named after the thunder, mentioned in the first verse. It emphasizes the power and magnificence of Allah's creation. Ar-Ra'd highlights the importance of seeking knowledge and reflecting upon the signs of Allah in nature. It also emphasizes the consequences of disbelief and the rewards for those who believe.
+1. Surah Ar-Ra'd: The Surah is named after the thunder, mentioned in the first verse. It emphasizes the power and magnificence of Allah's creation. Ar-Ra'd highlights the importance of seeking knowledge and reflecting upon the signs of Allah in nature. It also emphasizes the consequences of disbelief and the rewards for those who believe.
 
 1. Surah Ibrahim: Surah Ibrahim focuses on the life and teachings of Prophet Ibrahim (Abraham). It highlights his unwavering faith in Allah and his efforts to guide his people to monotheism. The surah emphasizes the importance of gratitude, patience, and reliance on Allah. It also discusses the concept of resurrection and accountability in the Hereafter.
 
