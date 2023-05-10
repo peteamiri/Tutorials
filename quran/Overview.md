@@ -676,7 +676,6 @@ Surah Al-Kawthar highlights the abundant blessings bestowed upon the Prophet Muh
 * Chapter 109: Al-Kafirun - The Disbelievers
 Surah Al-Kafirun addresses the disbelievers and asserts the firmness of the Muslim belief in the oneness of Allah. It states that Muslims do not worship the deities worshiped by the disbelievers, and the disbelievers have their own beliefs and practices.
 
-
 * Chapter 110: An-Nasr - The Help
 Surah An-Nasr discusses the final victory and success granted to the Prophet Muhammad (peace be upon him) and the believers. It signifies the nearing of the end of the Prophet's life and the establishment of Islam as a dominant force. The surah highlights the importance of seeking forgiveness, expressing gratitude to Allah, and recognizing His help and support in all matters.
 
