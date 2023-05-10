@@ -691,4 +691,3 @@ Surah Al-Falaq seeks refuge in Allah from the evil of the unseen and the whisper
 
 * Chapter 114: An-Nas - The Mankind
 Surah An-Nas seeks refuge in Allah from the whisperings and evil intentions of Satan and the mischief caused by mankind. It highlights the vulnerability of humans to Satan's influence and emphasizes the need for seeking Allah's protection and guidance.
-These are the surahs from * Chapter 110 to * Chapter 114 in the Quran.
