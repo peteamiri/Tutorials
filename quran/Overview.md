@@ -417,239 +417,236 @@ Surah Al-Anbiya highlights the stories of various prophets, including Prophet No
 Surah Al-Hajj addresses the rituals and significance of the Hajj pilgrimage. It emphasizes the unity of the Muslim Ummah (community), the sanctity of the Kaaba, and the importance of sincere worship.
 
 * Chapter 23: Al-Muminun - The Believers
-1. Surah Al-Muminun discusses the attributes and characteristics of the true believers, the consequences of disbelief, and the importance of prayer, charity, and righteous conduct.
+Surah Al-Muminun discusses the attributes and characteristics of the true believers, the consequences of disbelief, and the importance of prayer, charity, and righteous conduct.
 
 * Chapter 24: An-Nur - The Light
-1. Surah An-Nur addresses various social and ethical issues, including modesty, slander, adultery, and the importance of maintaining a pure society based on justice, truth, and moral conduct.
+Surah An-Nur addresses various social and ethical issues, including modesty, slander, adultery, and the importance of maintaining a pure society based on justice, truth, and moral conduct.
 
 * Chapter 25: Al-Furqan - The Criterion
-1. Surah Al-Furqan differentiates between truth and falsehood, righteousness and evil. It emphasizes the distinction between believers and disbelievers and the importance of seeking guidance from the Quran.
+Surah Al-Furqan differentiates between truth and falsehood, righteousness and evil. It emphasizes the distinction between believers and disbelievers and the importance of seeking guidance from the Quran.
 
 * Chapter 26: Ash-Shu'ara - The Poets
-1. Surah Ash-Shu'ara highlights the stories of various prophets and their struggles, including Prophet Noah, Moses, and others. It addresses the power of speech, the consequences of rejecting the truth, and the importance of worshiping Allah alone.
+Surah Ash-Shu'ara highlights the stories of various prophets and their struggles, including Prophet Noah, Moses, and others. It addresses the power of speech, the consequences of rejecting the truth, and the importance of worshiping Allah alone.
 
 * Chapter 27: An-Naml - The Ant
-1. Surah An-Naml narrates the story of the Prophet Solomon (Sulaiman), his conversations with the ant, and his wisdom and kingdom. It emphasizes the importance of gratitude, humility, and the recognition of Allah's signs.
+Surah An-Naml narrates the story of the Prophet Solomon (Sulaiman), his conversations with the ant, and his wisdom and kingdom. It emphasizes the importance of gratitude, humility, and the recognition of Allah's signs.
 
 * Chapter 28: Al-Qasas - The Stories
-1. Surah Al-Qasas recounts various stories, including the story of Moses, Pharaoh, and the people of Madyan. It highlights lessons of courage, justice, patience, and the consequences of tyranny.
+Surah Al-Qasas recounts various stories, including the story of Moses, Pharaoh, and the people of Madyan. It highlights lessons of courage, justice, patience, and the consequences of tyranny.
 
 * Chapter 29: Al-Ankabut - The Spider
-1. Surah Al-Ankabut discusses the tests and trials faced by believers and the importance of patience and reliance on Allah. It also addresses the consequences of idol worship and the importance of seeking the truth.
-These are the descriptions for 1. Surah 20 to 1. Surah 29. If you would like descriptions for the remaining surahs, please let me know.
+Surah Al-Ankabut discusses the tests and trials faced by believers and the importance of patience and reliance on Allah. It also addresses the consequences of idol worship and the importance of seeking the truth.
 
 * Chapter 30: Ar-Rum - The Romans
-1. Surah Ar-Rum discusses the victory of the Romans over the Persians and the signs of Allah's power and wisdom in the creation of the universe. It emphasizes the rise and fall of nations and the importance of faith and patience.
+Surah Ar-Rum discusses the victory of the Romans over the Persians and the signs of Allah's power and wisdom in the creation of the universe. It emphasizes the rise and fall of nations and the importance of faith and patience.
 
 * Chapter 31: Luqman
-1. Surah Luqman is named after the wise figure, Luqman, and contains his advice to his son. It highlights the importance of wisdom, gratitude, and avoiding arrogance. It also emphasizes the significance of seeking knowledge and maintaining good character.
+Surah Luqman is named after the wise figure, Luqman, and contains his advice to his son. It highlights the importance of wisdom, gratitude, and avoiding arrogance. It also emphasizes the significance of seeking knowledge and maintaining good character.
 
 * Chapter 32: As-Sajda - The Prostration
-1. Surah As-Sajda emphasizes the concept of prostration and submission to Allah. It discusses the creation of humans, the consequences of disbelief, and the rewards of righteous deeds.
-* Chapter 33: Al-Ahzab - The Combined Forces
+Surah As-Sajda emphasizes the concept of prostration and submission to Allah. It discusses the creation of humans, the consequences of disbelief, and the rewards of righteous deeds.
 
-1. Surah Al-Ahzab addresses various aspects of the life of Prophet Muhammad (peace be upon him), including his marriages, the importance of obedience to Allah and His Messenger, and the obligations of the believers.
+* Chapter 33: Al-Ahzab - The Combined Forces
+Surah Al-Ahzab addresses various aspects of the life of Prophet Muhammad (peace be upon him), including his marriages, the importance of obedience to Allah and His Messenger, and the obligations of the believers.
 
 * Chapter 34: Saba - Sheba
-1. Surah Saba recounts the story of the people of Sheba and their queen, Balqis (Queen of Sheba). It highlights their prosperity, their arrogance, and the consequences they faced for their disbelief.
+Surah Saba recounts the story of the people of Sheba and their queen, Balqis (Queen of Sheba). It highlights their prosperity, their arrogance, and the consequences they faced for their disbelief.
 
 * Chapter 35: Fatir - The Originator
-1. Surah Fatir discusses the creation of the universe and the signs of Allah's existence and power. It emphasizes the importance of monotheism, gratitude, and the consequences of disbelief.
-
+Surah Fatir discusses the creation of the universe and the signs of Allah's existence and power. It emphasizes the importance of monotheism, gratitude, and the consequences of disbelief.
 
 * Chapter 36: Ya-Sin
-1. Surah Ya-Sin is a chapter that begins with the letters "Ya" and "Sin." It highlights the divine nature of the Quran and addresses the themes of resurrection, the stories of past nations, and the importance of following the truth.
+Surah Ya-Sin is a chapter that begins with the letters "Ya" and "Sin." It highlights the divine nature of the Quran and addresses the themes of resurrection, the stories of past nations, and the importance of following the truth.
 
 * Chapter 37: As-Saffat - Those who set the Ranks
-1. Surah As-Saffat discusses the divine messengers and their struggles against disbelief. It emphasizes the concept of divine decree, the consequences of arrogance, and the ultimate triumph of the believers.
+Surah As-Saffat discusses the divine messengers and their struggles against disbelief. It emphasizes the concept of divine decree, the consequences of arrogance, and the ultimate triumph of the believers.
 
 * Chapter 38: Sad
-1. Surah Sad addresses the story of the Prophet David (Dawud) and his encounter with the rebellious forces of Goliath (Jalut). It highlights the virtues of patience, repentance, and seeking forgiveness.
+Surah Sad addresses the story of the Prophet David (Dawud) and his encounter with the rebellious forces of Goliath (Jalut). It highlights the virtues of patience, repentance, and seeking forgiveness.
 
 * Chapter 39: Az-Zumar - The Troops
-1. Surah Az-Zumar discusses the consequences of disbelief and the rewards of faith and righteousness. It emphasizes the importance of turning to Allah, seeking His forgiveness, and the certainty of the Day of Judgment.
-These are the descriptions for 1. Surah 30 to 1. Surah 39. If you would like descriptions for the remaining surahs, please let me know.
+Surah Az-Zumar discusses the consequences of disbelief and the rewards of faith and righteousness. It emphasizes the importance of turning to Allah, seeking His forgiveness, and the certainty of the Day of Judgment.
 
 * Chapter 40: Al-Mu'min - The Believer
-1. Surah Al-Mu'min discusses the importance of faith and the consequences of disbelief. It emphasizes the stories of previous nations and their response to their messengers, highlighting the importance of following the guidance of Allah.
+Surah Al-Mu'min discusses the importance of faith and the consequences of disbelief. It emphasizes the stories of previous nations and their response to their messengers, highlighting the importance of following the guidance of Allah.
 
 * Chapter 41: Ha-Mim - Ha-Mim
-1. Surah Ha-Mim is a chapter that begins with the letters "Ha" and "Mim." It addresses the revelation of the Quran and its guidance, the truth of resurrection, and the accountability of individuals for their actions.
+Surah Ha-Mim is a chapter that begins with the letters "Ha" and "Mim." It addresses the revelation of the Quran and its guidance, the truth of resurrection, and the accountability of individuals for their actions.
 
 * Chapter 42: Ash-Shura - The Consultation
-1. Surah Ash-Shura emphasizes the importance of consultation and mutual understanding among people. It discusses the unity of believers, the oneness of Allah, and the consequences of turning away from His guidance.
+Surah Ash-Shura emphasizes the importance of consultation and mutual understanding among people. It discusses the unity of believers, the oneness of Allah, and the consequences of turning away from His guidance.
 
 * Chapter 43: Az-Zukhruf - The Gold Adornments
-1. Surah Az-Zukhruf highlights the signs of Allah's creation and His favors upon humanity. It challenges the beliefs of the disbelievers and emphasizes the truth of monotheism and the consequences of polytheism.
+Surah Az-Zukhruf highlights the signs of Allah's creation and His favors upon humanity. It challenges the beliefs of the disbelievers and emphasizes the truth of monotheism and the consequences of polytheism.
 
 * Chapter 44: Ad-Dukhan - The Smoke
-1. Surah Ad-Dukhan addresses the Day of Judgment and the punishment that will befall the disbelievers. It emphasizes the signs of Allah's existence, the consequences of rejecting the truth, and the rewards of the righteous.
+Surah Ad-Dukhan addresses the Day of Judgment and the punishment that will befall the disbelievers. It emphasizes the signs of Allah's existence, the consequences of rejecting the truth, and the rewards of the righteous.
 
 * Chapter 45: Al-Jathiyah - The Kneeling
-1. Surah Al-Jathiyah discusses the signs of Allah's creation and His power, highlighting the importance of monotheism and the consequences of disbelief. It calls people to reflect on the natural world as a means of recognizing Allah's existence.
+Surah Al-Jathiyah discusses the signs of Allah's creation and His power, highlighting the importance of monotheism and the consequences of disbelief. It calls people to reflect on the natural world as a means of recognizing Allah's existence.
 
 * Chapter 46: Al-Ahqaf - The Wind-Curved Sandhills
-1. Surah Al-Ahqaf emphasizes the truth of the Quran and the consequences of disbelief. It highlights the stories of previous nations and their messengers, emphasizing the importance of following the guidance of Allah.
+Surah Al-Ahqaf emphasizes the truth of the Quran and the consequences of disbelief. It highlights the stories of previous nations and their messengers, emphasizing the importance of following the guidance of Allah.
 
 * Chapter 47: Muhammad - Muhammad
-1. Surah Muhammad addresses the struggles faced by the early Muslim community and the importance of steadfastness and obedience to Allah and His Messenger. It emphasizes the concept of Jihad (striving) in the cause of Allah.
+Surah Muhammad addresses the struggles faced by the early Muslim community and the importance of steadfastness and obedience to Allah and His Messenger. It emphasizes the concept of Jihad (striving) in the cause of Allah.
 
 * Chapter 48: Al-Fath - The Victory
-1. Surah Al-Fath discusses the Treaty of Hudaybiyyah and the eventual victory of the Muslims in Makkah. It emphasizes the importance of trust in Allah, unity among the believers, and the fulfillment of covenants.
+Surah Al-Fath discusses the Treaty of Hudaybiyyah and the eventual victory of the Muslims in Makkah. It emphasizes the importance of trust in Allah, unity among the believers, and the fulfillment of covenants.
 
 * Chapter 49: Al-Hujurat - The Rooms
-1. Surah Al-Hujurat addresses the importance of proper etiquette, manners, and brotherhood among the believers. It emphasizes the avoidance of suspicion, backbiting, and arrogance, promoting unity and mutual respect.
+Surah Al-Hujurat addresses the importance of proper etiquette, manners, and brotherhood among the believers. It emphasizes the avoidance of suspicion, backbiting, and arrogance, promoting unity and mutual respect.
 
 * Chapter 50: Qaf
-1. Surah Qaf is named after the Arabic letter "Qaf." It discusses the Day of Resurrection, the power and wisdom of Allah, and the consequences of disbelief. It challenges the skeptics and emphasizes the truth of the Quran.
+Surah Qaf is named after the Arabic letter "Qaf." It discusses the Day of Resurrection, the power and wisdom of Allah, and the consequences of disbelief. It challenges the skeptics and emphasizes the truth of the Quran.
 
 * Chapter 51: Adh-Dhariyat - The Winnowing Winds
-1. Surah Adh-Dhariyat highlights the signs of Allah's creation and His power. It emphasizes the concept of resurrection, the stories of previous nations, and the consequences of disbelief. It calls people to reflect on the purpose of their existence.
+Surah Adh-Dhariyat highlights the signs of Allah's creation and His power. It emphasizes the concept of resurrection, the stories of previous nations, and the consequences of disbelief. It calls people to reflect on the purpose of their existence.
 
 * Chapter 52: At-Tur - The Mount
-1. Surah At-Tur emphasizes the truth of the Quran and the Day of Judgment. It discusses the fate of the disbelievers and the rewards of the righteous. It also highlights the signs of Allah's creation as proof of His existence.
+Surah At-Tur emphasizes the truth of the Quran and the Day of Judgment. It discusses the fate of the disbelievers and the rewards of the righteous. It also highlights the signs of Allah's creation as proof of His existence.
 
 * Chapter 53: An-Najm - The Star
-1. Surah An-Najm addresses the concept of revelation and the truth of Prophet Muhammad's (peace be upon him) message. It emphasizes the unity of Allah, the importance of prayer, and the consequences of deviation from the truth.
+Surah An-Najm addresses the concept of revelation and the truth of Prophet Muhammad's (peace be upon him) message. It emphasizes the unity of Allah, the importance of prayer, and the consequences of deviation from the truth.
 
 * Chapter 54: Al-Qamar - The Moon
-1. Surah Al-Qamar discusses the signs of Allah's power and wisdom, including the story of the people of Thamud and their punishment. It emphasizes the consequences of rejecting the truth and the importance of following the guidance of Allah.
+Surah Al-Qamar discusses the signs of Allah's power and wisdom, including the story of the people of Thamud and their punishment. It emphasizes the consequences of rejecting the truth and the importance of following the guidance of Allah.
 
 * Chapter 55: Ar-Rahman - The Beneficent
-1. Surah Ar-Rahman highlights the attributes and blessings of Allah. It emphasizes His mercy, the signs of His creation, and the rewards for the righteous. It serves as a reminder of His benevolence and the importance of gratitude.
+Surah Ar-Rahman highlights the attributes and blessings of Allah. It emphasizes His mercy, the signs of His creation, and the rewards for the righteous. It serves as a reminder of His benevolence and the importance of gratitude.
 
 * Chapter 56: Al-Waqi'ah - The Inevitable
-1. Surah Al-Waqi'ah addresses the reality of the Day of Judgment and the consequences that await individuals based on their deeds. It discusses the distinction between the righteous and the wicked and their respective rewards.
+Surah Al-Waqi'ah addresses the reality of the Day of Judgment and the consequences that await individuals based on their deeds. It discusses the distinction between the righteous and the wicked and their respective rewards.
 
 * Chapter 57: Al-Hadid - The Iron
-1. Surah Al-Hadid emphasizes the concept of trials and tribulations faced by believers. It highlights the importance of patience, charity, and spending in the way of Allah. It also discusses the transient nature of worldly possessions.
+Surah Al-Hadid emphasizes the concept of trials and tribulations faced by believers. It highlights the importance of patience, charity, and spending in the way of Allah. It also discusses the transient nature of worldly possessions.
 
 * Chapter 58: Al-Mujadilah - The Pleading Woman
-1. Surah Al-Mujadilah addresses the issue of marital disputes and the importance of resolving them with justice and fairness. It emphasizes the principles of reconciliation and forgiveness and the consequences of spreading falsehood.
+Surah Al-Mujadilah addresses the issue of marital disputes and the importance of resolving them with justice and fairness. It emphasizes the principles of reconciliation and forgiveness and the consequences of spreading falsehood.
 
 * Chapter 59: Al-Hashr - The Exile
-1. Surah Al-Hashr discusses the expulsion of the Jewish tribe of Banu Nadir from Madinah. It emphasizes the consequences of betrayal and the importance of trust and loyalty. It also highlights the blessings of Allah upon the believers.
+Surah Al-Hashr discusses the expulsion of the Jewish tribe of Banu Nadir from Madinah. It emphasizes the consequences of betrayal and the importance of trust and loyalty. It also highlights the blessings of Allah upon the believers.
 
 * Chapter 60: Al-Mumtahanah - She that is to be examined
-1. Surah Al-Mumtahanah discusses the rules and guidelines for interactions with non-Muslims. It emphasizes the importance of loyalty to Allah and His Messenger, the concept of friendship, and the consequences of aligning oneself with the enemies of Islam.
+Surah Al-Mumtahanah discusses the rules and guidelines for interactions with non-Muslims. It emphasizes the importance of loyalty to Allah and His Messenger, the concept of friendship, and the consequences of aligning oneself with the enemies of Islam.
 
 * Chapter 61: As-Saff - The Ranks
-1. Surah As-Saff addresses the concept of faith and the struggles faced by the early Muslim community. It emphasizes the importance of standing united in the cause of Allah, the reward of martyrdom, and the eternal success of the believers.
+Surah As-Saff addresses the concept of faith and the struggles faced by the early Muslim community. It emphasizes the importance of standing united in the cause of Allah, the reward of martyrdom, and the eternal success of the believers.
 
 * Chapter 62: Al-Jumu'ah - The Congregation
-1. Surah Al-Jumu'ah emphasizes the significance of the Friday congregational prayer and the gathering of Muslims for worship. It highlights the importance of listening to the sermon, seeking knowledge, and striving for the remembrance of Allah.
+Surah Al-Jumu'ah emphasizes the significance of the Friday congregational prayer and the gathering of Muslims for worship. It highlights the importance of listening to the sermon, seeking knowledge, and striving for the remembrance of Allah.
 
 * Chapter 63: Al-Munafiqun - The Hypocrites
-1. Surah Al-Munafiqun addresses the issue of hypocrisy and its dangers. It discusses the characteristics and behavior of hypocrites, warns against their deceptive actions, and emphasizes the importance of sincerity and true faith.
+Surah Al-Munafiqun addresses the issue of hypocrisy and its dangers. It discusses the characteristics and behavior of hypocrites, warns against their deceptive actions, and emphasizes the importance of sincerity and true faith.
 
 * Chapter 64: At-Taghabun - Mutual Disillusion
-1. Surah At-Taghabun discusses the concept of divine decree and the consequences of human actions. It emphasizes the importance of placing trust in Allah, seeking forgiveness, and the ultimate accountability on the Day of Judgment.
+Surah At-Taghabun discusses the concept of divine decree and the consequences of human actions. It emphasizes the importance of placing trust in Allah, seeking forgiveness, and the ultimate accountability on the Day of Judgment.
 
 * Chapter 65: At-Talaq - The Divorce
-1. Surah At-Talaq addresses the rules and regulations pertaining to divorce in Islam. It highlights the importance of fairness and kindness during the process of divorce and provides guidance on matters related to the waiting period and reconciliation.
+Surah At-Talaq addresses the rules and regulations pertaining to divorce in Islam. It highlights the importance of fairness and kindness during the process of divorce and provides guidance on matters related to the waiting period and reconciliation.
 
 * Chapter 66: At-Tahrim - The Prohibition
-1. Surah At-Tahrim discusses the story of Prophet Noah's wife and her disobedience. It emphasizes the consequences of disobedience to Allah and warns against following the path of the disbelievers. It also highlights the importance of repentance and seeking forgiveness.
+Surah At-Tahrim discusses the story of Prophet Noah's wife and her disobedience. It emphasizes the consequences of disobedience to Allah and warns against following the path of the disbelievers. It also highlights the importance of repentance and seeking forgiveness.
 
 * Chapter 67: Al-Mulk - The Sovereignty
-1. Surah Al-Mulk highlights the concept of Allah's sovereignty and His control over all affairs. It discusses the signs of His creation, the consequences of disbelief, and the importance of reflecting on the purpose of life.
+Surah Al-Mulk highlights the concept of Allah's sovereignty and His control over all affairs. It discusses the signs of His creation, the consequences of disbelief, and the importance of reflecting on the purpose of life.
 
 * Chapter 68: Al-Qalam - The Pen
-1. Surah Al-Qalam addresses the story of the Prophet Muhammad (peace be upon him) and the criticism he faced from his opponents. It emphasizes the importance of patience, steadfastness, and the ultimate triumph of the truth.
+Surah Al-Qalam addresses the story of the Prophet Muhammad (peace be upon him) and the criticism he faced from his opponents. It emphasizes the importance of patience, steadfastness, and the ultimate triumph of the truth.
 
 * Chapter 69: Al-Haqqah - The Inevitable
-1. Surah Al-Haqqah discusses the Day of Judgment and the certainty of its occurrence. It highlights the consequences faced by the disbelievers and the rewards of the righteous. It serves as a reminder of the truth of resurrection and accountability.
+Surah Al-Haqqah discusses the Day of Judgment and the certainty of its occurrence. It highlights the consequences faced by the disbelievers and the rewards of the righteous. It serves as a reminder of the truth of resurrection and accountability.
 
 * Chapter 70: Al-Ma'arij - The Ascending Stairways
-1. Surah Al-Ma'arij discusses the Day of Judgment and the accountability of individuals for their actions. It emphasizes the concept of patience, the consequences of disbelief, and the rewards for those who fulfill their obligations.
+Surah Al-Ma'arij discusses the Day of Judgment and the accountability of individuals for their actions. It emphasizes the concept of patience, the consequences of disbelief, and the rewards for those who fulfill their obligations.
 
 * Chapter 71: Nuh - Noah
-1. Surah Nuh (Noah) recounts the story of the Prophet Noah (peace be upon him) and his call to his people to worship Allah alone. It highlights the rejection he faced, the building of the Ark, and the punishment that befell his people.
+Surah Nuh (Noah) recounts the story of the Prophet Noah (peace be upon him) and his call to his people to worship Allah alone. It highlights the rejection he faced, the building of the Ark, and the punishment that befell his people.
 
 * Chapter 72: Al-Jinn - The Jinn
-1. Surah Al-Jinn addresses the existence and nature of the Jinn (supernatural beings). It highlights how a group of Jinn embraced Islam after hearing the Quran and encourages humans and Jinn alike to worship Allah alone.
+Surah Al-Jinn addresses the existence and nature of the Jinn (supernatural beings). It highlights how a group of Jinn embraced Islam after hearing the Quran and encourages humans and Jinn alike to worship Allah alone.
 
 * Chapter 73: Al-Muzzammil - The Enshrouded One
-1. Surah Al-Muzzammil advises the Prophet Muhammad (peace be upon him) to spend a portion of the night in prayer and contemplation. It emphasizes the importance of seeking closeness to Allah, reciting the Quran, and preparing oneself for the mission ahead.
+Surah Al-Muzzammil advises the Prophet Muhammad (peace be upon him) to spend a portion of the night in prayer and contemplation. It emphasizes the importance of seeking closeness to Allah, reciting the Quran, and preparing oneself for the mission ahead.
 
 * Chapter 74: Al-Muddathir - The Cloaked One
-1. Surah Al-Muddathir addresses the mission of the Prophet Muhammad (peace be upon him) and the opposition he faced from the disbelievers. It warns against the consequences of rejecting the message and highlights the punishment for those who oppose the truth.
+Surah Al-Muddathir addresses the mission of the Prophet Muhammad (peace be upon him) and the opposition he faced from the disbelievers. It warns against the consequences of rejecting the message and highlights the punishment for those who oppose the truth.
 
 * Chapter 75: Al-Qiyamah - The Resurrection
-1. Surah Al-Qiyamah discusses the Day of Resurrection and the events that will occur. It emphasizes the power of Allah to resurrect and bring mankind to account, highlighting the signs of His existence and the consequences of disbelief.
+Surah Al-Qiyamah discusses the Day of Resurrection and the events that will occur. It emphasizes the power of Allah to resurrect and bring mankind to account, highlighting the signs of His existence and the consequences of disbelief.
 
 * Chapter 76: Al-Insan - Man
-1. Surah Al-Insan (Man) emphasizes the rewards and blessings awaiting the righteous in Paradise. It describes the characteristics of the believers and their actions, highlighting the mercy and generosity of Allah towards His devoted servants.
+Surah Al-Insan (Man) emphasizes the rewards and blessings awaiting the righteous in Paradise. It describes the characteristics of the believers and their actions, highlighting the mercy and generosity of Allah towards His devoted servants.
 
 * Chapter 77: Al-Mursalat - Those Sent Forth
-1. Surah Al-Mursalat highlights the power and might of Allah and the signs of His creation. It describes the Day of Judgment and the consequences that will befall the disbelievers, emphasizing the certainty of resurrection and accountability.
+Surah Al-Mursalat highlights the power and might of Allah and the signs of His creation. It describes the Day of Judgment and the consequences that will befall the disbelievers, emphasizing the certainty of resurrection and accountability.
 
 * Chapter 78: An-Naba' - The Tidings
-1. Surah An-Naba' discusses the Day of Judgment and the importance of recognizing its certainty. It highlights the rewards and punishments awaiting individuals based on their deeds, emphasizing the truth of the Quran and the urgency of preparation.
+Surah An-Naba' discusses the Day of Judgment and the importance of recognizing its certainty. It highlights the rewards and punishments awaiting individuals based on their deeds, emphasizing the truth of the Quran and the urgency of preparation.
 
 * Chapter 79: An-Nazi'at - Those Who Drag Forth
-1. Surah An-Nazi'at describes the events of the Day of Judgment, emphasizing the power and precision with which Allah will resurrect mankind. It warns against the consequences of rejecting the truth and highlights the signs of Allah's existence.
+Surah An-Nazi'at describes the events of the Day of Judgment, emphasizing the power and precision with which Allah will resurrect mankind. It warns against the consequences of rejecting the truth and highlights the signs of Allah's existence.
 
 * Chapter 80: Abasa - He frowned
-1. Surah Abasa recounts an incident where the Prophet Muhammad (peace be upon him) frowned upon a blind man who approached him seeking guidance. It highlights the importance of showing kindness and respect to all individuals, regardless of their social status.
+Surah Abasa recounts an incident where the Prophet Muhammad (peace be upon him) frowned upon a blind man who approached him seeking guidance. It highlights the importance of showing kindness and respect to all individuals, regardless of their social status.
 
 * Chapter 81: At-Takwir - The Overthrowing
-1. Surah At-Takwir describes the events that will occur on the Day of Judgment. It portrays the cosmic changes and the overwhelming fear that will engulf mankind as the heavens are overturned. It emphasizes the absolute power of Allah and the accountability of humans.
+Surah At-Takwir describes the events that will occur on the Day of Judgment. It portrays the cosmic changes and the overwhelming fear that will engulf mankind as the heavens are overturned. It emphasizes the absolute power of Allah and the accountability of humans.
 
 * Chapter 82: Al-Infitar - The Cleaving
-1. Surah Al-Infitar addresses the Day of Judgment and the splitting of the heavens. It emphasizes the accountability of individuals for their actions and highlights the recording of their deeds. It serves as a reminder of the consequences that await mankind.
+Surah Al-Infitar addresses the Day of Judgment and the splitting of the heavens. It emphasizes the accountability of individuals for their actions and highlights the recording of their deeds. It serves as a reminder of the consequences that await mankind.
 
 * Chapter 83: Al-Mutaffifin - Defrauding
-1. Surah Al-Mutaffifin addresses the issue of dishonesty and fraud in business transactions. It warns against cheating and mistreating others in financial dealings and emphasizes the consequences that await those who engage in such practices.
+Surah Al-Mutaffifin addresses the issue of dishonesty and fraud in business transactions. It warns against cheating and mistreating others in financial dealings and emphasizes the consequences that await those who engage in such practices.
 
 * Chapter 84: Al-Inshiqaq - The Splitting Open
-1. Surah Al-Inshiqaq describes the events of the Day of Judgment when the earth will split open and the secrets of individuals will be laid bare. It emphasizes the accountability of humans and the recording of their deeds, highlighting the justice of Allah.
+Surah Al-Inshiqaq describes the events of the Day of Judgment when the earth will split open and the secrets of individuals will be laid bare. It emphasizes the accountability of humans and the recording of their deeds, highlighting the justice of Allah.
 
 * Chapter 85: Al-Buruj - The Mansions of the Stars
-1. Surah Al-Buruj narrates the story of a group of believers who were persecuted for their faith. It highlights their steadfastness and sacrifice, emphasizing the punishment that befell their oppressors and the rewards that awaited the believers.
+Surah Al-Buruj narrates the story of a group of believers who were persecuted for their faith. It highlights their steadfastness and sacrifice, emphasizing the punishment that befell their oppressors and the rewards that awaited the believers.
 
 * Chapter 86: At-Tariq - The Morning Star
-1. Surah At-Tariq emphasizes the importance of reflecting on the signs of Allah's creation. It draws attention to the night and the morning star as reminders of His power and the significance of recognizing His existence and submitting to Him.
+Surah At-Tariq emphasizes the importance of reflecting on the signs of Allah's creation. It draws attention to the night and the morning star as reminders of His power and the significance of recognizing His existence and submitting to Him.
 
 * Chapter 87: Al-A'la - The Most High
-1. Surah Al-A'la emphasizes the greatness and exaltedness of Allah. It highlights the importance of prayer and the remembrance of Allah, emphasizing that true success lies in the purification of the soul and seeking nearness to Him.
+Surah Al-A'la emphasizes the greatness and exaltedness of Allah. It highlights the importance of prayer and the remembrance of Allah, emphasizing that true success lies in the purification of the soul and seeking nearness to Him.
 
 * Chapter 88: Al-Ghashiyah - The Overwhelming
-1. Surah Al-Ghashiyah warns about the consequences that await mankind on the Day of Judgment. It highlights the overwhelming scenes of terror and accountability, emphasizing the need for belief and righteous deeds to attain salvation.
+Surah Al-Ghashiyah warns about the consequences that await mankind on the Day of Judgment. It highlights the overwhelming scenes of terror and accountability, emphasizing the need for belief and righteous deeds to attain salvation.
 These are the descriptions for 1. Surah 80 to 1. Surah 88. If you would like descriptions for the remaining surahs, please let me know.
 
 * Chapter 89: Al-Fajr - The Dawn
-1. Surah Al-Fajr reflects on the consequences that befell the ancient civilizations due to their disbelief and disobedience. It emphasizes the importance of gratitude to Allah for His blessings and warns against the punishment that awaits those who transgress.
+Surah Al-Fajr reflects on the consequences that befell the ancient civilizations due to their disbelief and disobedience. It emphasizes the importance of gratitude to Allah for His blessings and warns against the punishment that awaits those who transgress.
 
 * Chapter 90: Al-Balad - The City
-1. Surah Al-Balad discusses the responsibilities and tests associated with wealth and authority. It emphasizes the importance of fulfilling one's obligations, seeking righteousness, and helping the less fortunate. It warns against greed and self-centeredness.
+Surah Al-Balad discusses the responsibilities and tests associated with wealth and authority. It emphasizes the importance of fulfilling one's obligations, seeking righteousness, and helping the less fortunate. It warns against greed and self-centeredness.
 
 * Chapter 91: Ash-Shams - The Sun
-1. Surah Ash-Shams draws attention to the signs of Allah's creation, particularly the sun and its movement. It highlights the importance of recognizing His power and submitting to His will, and it emphasizes the consequences faced by those who deny the truth.
+Surah Ash-Shams draws attention to the signs of Allah's creation, particularly the sun and its movement. It highlights the importance of recognizing His power and submitting to His will, and it emphasizes the consequences faced by those who deny the truth.
 
 * Chapter 92: Al-Lail - The Night
-1. Surah Al-Lail discusses the contrast between good and evil, righteousness and sin. It emphasizes the importance of performing good deeds and seeking the pleasure of Allah, highlighting the reward and blessings that await the righteous.
+Surah Al-Lail discusses the contrast between good and evil, righteousness and sin. It emphasizes the importance of performing good deeds and seeking the pleasure of Allah, highlighting the reward and blessings that await the righteous.
 
 * Chapter 93: Ad-Duha - The Morning Hours
-1. Surah Ad-Duha reflects on the early years of the Prophet Muhammad (peace be upon him) and the support and guidance provided to him by Allah. It emphasizes the concept of divine favor and encourages gratitude and steadfastness in times of difficulty.
+Surah Ad-Duha reflects on the early years of the Prophet Muhammad (peace be upon him) and the support and guidance provided to him by Allah. It emphasizes the concept of divine favor and encourages gratitude and steadfastness in times of difficulty.
 
 * Chapter 94: Ash-Sharh - The Opening Forth
-1. Surah Ash-Sharh provides consolation and comfort to the Prophet Muhammad (peace be upon him) during a period of distress. It reassures him of Allah's support, highlights the ease that follows difficulty, and encourages him to continue his mission.
+Surah Ash-Sharh provides consolation and comfort to the Prophet Muhammad (peace be upon him) during a period of distress. It reassures him of Allah's support, highlights the ease that follows difficulty, and encourages him to continue his mission.
 
 * Chapter 95: At-Tin - The Fig
-1. Surah At-Tin draws attention to the favors and signs of Allah's creation. It highlights the importance of human potential and the significance of righteous actions. It warns against arrogance and emphasizes the consequences faced by those who reject the truth.
+Surah At-Tin draws attention to the favors and signs of Allah's creation. It highlights the importance of human potential and the significance of righteous actions. It warns against arrogance and emphasizes the consequences faced by those who reject the truth.
 
 * Chapter 96: Al-Alaq - The Clot
-1. Surah Al-Alaq marks the beginning of the revelation of the Quran to the Prophet Muhammad (peace be upon him). It highlights the significance of seeking knowledge, warns against ignorance and arrogance, and emphasizes the importance of worshiping Allah alone.
+Surah Al-Alaq marks the beginning of the revelation of the Quran to the Prophet Muhammad (peace be upon him). It highlights the significance of seeking knowledge, warns against ignorance and arrogance, and emphasizes the importance of worshiping Allah alone.
 
 * Chapter 97: Al-Qadr - The Power
-1. Surah Al-Qadr reflects on the significance of the Night of Power (Laylat al-Qadr), the blessed night during the month of Ramadan. It highlights the excellence and magnitude of this night, which is better than a thousand months.
+Surah Al-Qadr reflects on the significance of the Night of Power (Laylat al-Qadr), the blessed night during the month of Ramadan. It highlights the excellence and magnitude of this night, which is better than a thousand months.
 
 * Chapter 98: Al-Bayyinah - The Clear Proof
-1. Surah Al-Bayyinah emphasizes the clarity and validity of the message brought by the Prophet Muhammad (peace be upon him). It highlights the distinction between the believers and the disbelievers and the consequences that await each group.
+Surah Al-Bayyinah emphasizes the clarity and validity of the message brought by the Prophet Muhammad (peace be upon him). It highlights the distinction between the believers and the disbelievers and the consequences that await each group.
 
 * Chapter 99: Az-Zalzalah - The Earthquake
-1. Surah Az-Zalzalah describes the events that will occur on the Day of Judgment, specifically the shaking of the earth. It emphasizes the importance of recognizing the weight of even the smallest good and evil deeds, as they will be weighed on that day.
+Surah Az-Zalzalah describes the events that will occur on the Day of Judgment, specifically the shaking of the earth. It emphasizes the importance of recognizing the weight of even the smallest good and evil deeds, as they will be weighed on that day.
 
 * Chapter 100: Al-Adiyat - The Chargers
 Surah Al-Adiyat reflects on the behavior of horses used in battle, their speed, and their ability to charge forward. It draws parallels between the passion and determination of these horses and the human tendency to be ungrateful and forgetful of Allah's blessings. It serves as a reminder to reflect upon one's own actions and motivations and to express gratitude to Allah for His favors.
