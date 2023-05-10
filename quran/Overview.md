@@ -119,7 +119,7 @@ The Quran, the holy book of Islam, is divided into 114 chapters called surahs. E
 1. An-Nas (Mankind)
 
 
-## 1. Surah in quran with more description
+## Surah in quran with more description
 
 Describing each surah in the Quran in detail would be beyond the scope of a single response, as each surah covers various themes, teachings, and historical events. However, I can provide a brief overview of some notable aspects of each surah. Here's a summary of the main themes and content of each surah:
 
@@ -314,8 +314,6 @@ Describing each surah in the Quran in detail would be beyond the scope of a sing
 1. Surah At-Tin: Surah At-Tin draws attention to the significance of Allah's creation and the high moral character of human beings. It mentions the example of the fig tree, emphasizing that Allah has created humans in the best form. The surah highlights the importance of righteous deeds and warns against arrogance and disbelief.
 
 1. Surah Al-Alaq: Surah Al-Alaq reveals the first revelation received by the Prophet Muhammad (peace be upon him) from Allah through the angel Gabriel. It emphasizes the importance of knowledge and education. The surah highlights the consequences of ignorance and emphasizes the value of seeking knowledge and understanding the truth.
-
-1. Surah Al-Qadr: Surah Al-Qadr addresses the significance of the Night of Power (Laylat al-Qadr), which is better than a thousand months. It emphasizes the blessings and importance of this night, which falls in the last ten nights of Ramadan. The sur
 
 1. Surah Al-Qadr: Surah Al-Qadr addresses the significance of the Night of Power (Laylat al-Qadr), which is better than a thousand months. It emphasizes the blessings and importance of this night, which falls in the last ten nights of Ramadan. The surah highlights the value of worshiping Allah during this blessed night and the rewards that await those who engage in acts of devotion.
 
