@@ -8,17 +8,23 @@ Surah Al-Fatiha consists of seven verses, making it the opening chapter of the Q
 
 Core Learning Goals:
 
-Recognition and Praise of Allah: Surah Al-Fatiha highlights the importance of recognizing and praising Allah as the Most Gracious and the Most Merciful.
+* Recognition and Praise of Allah: Surah Al-Fatiha highlights the importance of recognizing and praising Allah as the Most Gracious and the Most Merciful.
 
-Seeking Guidance: The Surah teaches the significance of seeking guidance from Allah and supplicating to Him for the straight path.
+* Seeking Guidance: The Surah teaches the significance of seeking guidance from Allah and supplicating to Him for the straight path.
 
-Monotheism (Tawhid): Surah Al-Fatiha establishes the concept of monotheism by affirming the exclusive worship of Allah, recognizing Him as the Lord of all the worlds.
+* Monotheism (Tawhid): Surah Al-Fatiha establishes the concept of monotheism by affirming the exclusive worship of Allah, recognizing Him as the Lord of all the worlds.
 
-Dependence on Allah: The Surah emphasizes the reliance on Allah alone for worship and seeking assistance, acknowledging that He is the ultimate source of help.
+* Dependence on Allah: The Surah emphasizes the reliance on Allah alone for worship and seeking assistance, acknowledging that He is the ultimate source of help.
 
-The Day of Judgment: Surah Al-Fatiha affirms the belief in the Day of Judgment, acknowledging that Allah is the Master of that Day, and all individuals will be held accountable for their deeds.
+* The Day of Judgment: Surah Al-Fatiha affirms the belief in the Day of Judgment, acknowledging that Allah is the Master of that Day, and all individuals will be held accountable for their deeds.
 
 Detailed Description:
+This suraah is the shortest surah in the Quran, but it is also the most important. It is recited at the beginning of every prayer.
+
+The surah begins with a declaration of the oneness of God, and then goes on to ask for guidance and mercy. The surah ends with a request to be guided to the "straight path," which is the path of those who have been given God's favor, not the path of those who have earned God's anger or who have gone astray.
+
+Al-Fatiha is a beautiful and powerful prayer that expresses the core beliefs of Islam. It is a reminder that God is the only one who deserves our worship, and that we should ask for His guidance and mercy in all aspects of our lives.
+
 Surah Al-Fatiha holds a significant position in the Quran and Islamic worship. It serves as the opening chapter of the Quran and is recited in every unit of the Muslim prayer (Salah). Here is a detailed verse-by-verse description:
 
 Verse 1: "In the name of Allah, the Most Gracious, the Most Merciful."
