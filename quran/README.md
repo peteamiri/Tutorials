@@ -11,3 +11,28 @@
 
 ## Bazargon ##
 *[Bazarrgon Site](http://www.bazargan.com/abdolali/main0.html)
+
+## Tips When reading quran
+
+Here are some questions you can ask yourself when reading the Quran:
+
+* What is the main message of this verse?
+* How does this verse relate to other verses in the Quran?
+* What does this verse teach me about God, myself, and the world around me?
+* How can I apply this verse to my life?
+* What are my thoughts and feelings about this verse?
+* What questions do I have about this verse?
+
+It is also helpful to read the Quran with a commentary or translation that can help you understand the context of the verses and the meaning of the words. You can also ask a qualified scholar or teacher for help in understanding the Quran.
+
+Remember that the Quran is a living book that can speak to you in different ways at different times in your life. Be patient and open-minded as you read it, and ask Allah for guidance and understanding.
+
+Here are some additional tips for reading the Quran:
+
+* Read the Quran in a quiet place where you can focus on the text.
+* Read slowly and carefully, paying attention to the meaning of the words.
+* Recite the Quran aloud if you can.
+* Meditate on the verses of the Quran and reflect on their meaning.
+* Pray for guidance and understanding as you read the Quran.
+
+May Allah bless you in your study of the Quran.

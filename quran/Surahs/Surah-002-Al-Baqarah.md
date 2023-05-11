@@ -4,39 +4,54 @@ Surah Al-Baqarah, the second chapter of the Quran, is the longest chapter in ter
 
 Core Learning Goals:
 
-Tawhid (Monotheism): Surah Al-Baqarah emphasizes the concept of monotheism, highlighting the oneness of Allah and the rejection of all forms of polytheism.
+* Tawhid (Monotheism): Surah Al-Baqarah emphasizes the concept of monotheism, highlighting the oneness of Allah and the rejection of all forms of polytheism.
 
-Guidance from the Quran: The Surah emphasizes the importance of seeking guidance from the Quran and applying its teachings in daily life.
+* Guidance from the Quran: The Surah emphasizes the importance of seeking guidance from the Quran and applying its teachings in daily life.
 
-Moral Conduct and Justice: Surah Al-Baqarah provides guidance on various aspects of moral conduct and emphasizes the importance of justice, honesty, and fairness.
+* Moral Conduct and Justice: Surah Al-Baqarah provides guidance on various aspects of moral conduct and emphasizes the importance of justice, honesty, and fairness.
 
-Worship and Rituals: The Surah covers various acts of worship, including prayer, fasting, pilgrimage, and charitable giving, providing instructions and guidelines for their observance.
+* Worship and Rituals: The Surah covers various acts of worship, including prayer, fasting, pilgrimage, and charitable giving, providing instructions and guidelines for their observance.
 
-Stories of Prophets: Surah Al-Baqarah recounts stories of several prophets, such as Adam, Noah, Abraham, Moses, and Jesus, among others. These stories highlight their struggles, guidance, and lessons to be learned.
+* Stories of Prophets: Surah Al-Baqarah recounts stories of several prophets, such as Adam, Noah, Abraham, Moses, and Jesus, among others. These stories highlight their struggles, guidance, and lessons to be learned.
 
-Legal and Social Matters: The Surah addresses a wide range of legal and social matters, including family law, business transactions, criminal justice, and community ethics.
+* Legal and Social Matters: The Surah addresses a wide range of legal and social matters, including family law, business transactions, criminal justice, and community ethics.
 
-The Concept of Jihad: Surah Al-Baqarah discusses the concept of jihad, emphasizing the importance of striving in the way of Allah with sincerity and righteousness.
+* The Concept of Jihad: Surah Al-Baqarah discusses the concept of jihad, emphasizing the importance of striving in the way of Allah with sincerity and righteousness.
 
 Description:
 Surah Al-Baqarah covers various themes and provides comprehensive guidance on different aspects of life. It is divided into several sections, each addressing specific topics. Here is a general description of some key themes found in Surah Al-Baqarah:
 
-The Opening and Tawhid: The Surah begins with an introduction and establishes the importance of monotheism, emphasizing the oneness of Allah and the rejection of polytheism.
+* The Opening and Tawhid: The Surah begins with an introduction and establishes the importance of monotheism, emphasizing the oneness of Allah and the rejection of polytheism.
 
-Guidance and the Quran: Surah Al-Baqarah highlights the Quran as a source of guidance and instruction for believers. It emphasizes the need to reflect on its verses and apply its teachings in daily life.
+* Guidance and the Quran: Surah Al-Baqarah highlights the Quran as a source of guidance and instruction for believers. It emphasizes the need to reflect on its verses and apply its teachings in daily life.
 
-Moral Conduct and Justice: The Surah addresses the importance of moral conduct and ethical behavior. It provides guidance on matters such as truthfulness, honesty, fairness, and fulfilling promises.
+* Moral Conduct and Justice: The Surah addresses the importance of moral conduct and ethical behavior. It provides guidance on matters such as truthfulness, honesty, fairness, and fulfilling promises.
 
-Worship and Rituals: Surah Al-Baqarah covers various acts of worship, including prayer, fasting, pilgrimage, and charitable giving. It provides instructions and guidelines for these practices.
+* Worship and Rituals: Surah Al-Baqarah covers various acts of worship, including prayer, fasting, pilgrimage, and charitable giving. It provides instructions and guidelines for these practices.
 
-Stories of Prophets: The Surah recounts stories of numerous prophets, including their struggles, guidance, and lessons to be learned. These stories serve as a source of inspiration and moral teachings.
+* Stories of Prophets: The Surah recounts stories of numerous prophets, including their struggles, guidance, and lessons to be learned. These stories serve as a source of inspiration and moral teachings.
 
-Legal and Social Matters: Surah Al-Baqarah provides guidance on a wide range of legal and social matters, including family law, inheritance, business transactions, criminal justice, and community ethics.
+* Legal and Social Matters: Surah Al-Baqarah provides guidance on a wide range of legal and social matters, including family law, inheritance, business transactions, criminal justice, and community ethics.
 
-Concept of Jihad: The Surah discusses the concept of jihad, highlighting the importance of striving in the way of Allah with sincerity and righteousness. It clarifies the principles of defensive warfare and emphasizes the sanctity of human life.
+* Concept of Jihad: The Surah discusses the concept of jihad, highlighting the importance of striving in the way of Allah with sincerity and righteousness. It clarifies the principles of defensive warfare and emphasizes the sanctity of human life.
 
 Surah Al-Baqarah covers a vast array of topics, providing guidance on faith, worship, moral conduct, social matters, and legal principles. It serves as a comprehensive guide for Muslims, offering instructions and principles to navigate various aspects of their lives.
 
+Surah 2 of the Quran, also known as Al-Baqara (The Cow), is the second longest chapter in the Quran. It consists of 286 verses and is divided into 8 sections.
+
+The surah begins with a call to worship God and to believe in the Last Day. It then goes on to discuss the creation of the universe, the stories of previous prophets, and the laws of Islam.
+
+Some of the key themes of Surah 2 include:
+
+* The oneness of God
+* The prophethood of Muhammad
+* The Last Day
+* The importance of prayer and charity
+* The prohibition of idolatry and polytheism
+* The importance of justice and equality
+* The need to obey God and His messengers
+
+Surah 2 is a comprehensive and important chapter of the Quran. It covers a wide range of topics and provides guidance for Muslims on how to live their lives.
 
 ## Verse
 
@@ -1320,4 +1335,4 @@ Verses 256-257:
 
 These verses emphasize the principle of freedom of religion and choice. It is stated that there should be no compulsion or coercion in matters of faith. The truth is made distinct from falsehood, and it is up to individuals to choose the right path. Those who reject false deities (Taghut) and believe in Allah have firmly grasped the most reliable and unbreakable support. Allah, who is All-Hearing and All-Knowing, is the protector and ally of the believers. He guides them from the darkness of disbelief into the light of faith. Conversely, those who associate themselves with false deities and disbelieve are guided away from the light into darkness. They are the companions of the Fire, destined for eternal punishment.
 
-# Missing Verses 257-286 
+# Missing Verses 257-286
