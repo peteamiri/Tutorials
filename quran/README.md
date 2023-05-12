@@ -36,3 +36,10 @@ Here are some additional tips for reading the Quran:
 * Pray for guidance and understanding as you read the Quran.
 
 May Allah bless you in your study of the Quran.
+
+
+## Questions to ask Chatpt
+
+Describe verses in surah 4
+what are the core teaching in surah 4
+provide translation and describe verses 47-57 in surah 4
