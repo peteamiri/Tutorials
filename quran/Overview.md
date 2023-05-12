@@ -716,3 +716,77 @@ Surah Al-Falaq seeks refuge in Allah from the evil of the unseen and the whisper
 
 * Chapter 114: An-Nas - The Mankind
 Surah An-Nas seeks refuge in Allah from the whisperings and evil intentions of Satan and the mischief caused by mankind. It highlights the vulnerability of humans to Satan's influence and emphasizes the need for seeking Allah's protection and guidance.
+
+## Basic Concetps
+
+### Tawhid
+
+Tawhid is a fundamental concept in Islam that refers to the belief in the oneness and unity of Allah (God). It is the central principle of Islamic monotheism and is considered the foundation of Islamic faith. Tawhid encompasses the belief that there is only one God who is unique in His essence, attributes, and sovereignty.
+
+The concept of Tawhid is derived from the Arabic word "wahid," meaning "one." It affirms that Allah is the only deity worthy of worship, and there is no partner or associate with Him. Muslims believe that Allah is the Creator, Sustainer, and Controller of the universe, and He has no equal or rival.
+
+Tawhid encompasses three main aspects:
+
+1. Tawhid al-Rububiyyah: This refers to the oneness of Allah in His lordship and sovereignty. It acknowledges that Allah is the sole creator, provider, and controller of all things. He has full authority over the universe and everything within it.
+
+2. Tawhid al-Uluhiyyah: This aspect of Tawhid relates to the oneness of Allah in worship. It affirms that only Allah deserves to be worshipped, and all acts of worship should be directed to Him alone. Muslims are obligated to worship Allah alone and not associate any partners with Him.
+
+3. Tawhid al-Asma' wa al-Sifat: This aspect refers to the oneness of Allah's names and attributes. It affirms that Allah has unique and perfect attributes that are distinct from His creation. His attributes include knowledge, power, mercy, wisdom, and many others, which are beyond human comprehension.
+
+Tawhid is the core teaching of Islam and is emphasized throughout the Quran. It serves as the basis for the Muslim's relationship with Allah, guiding their beliefs, worship, and moral conduct. Upholding Tawhid is essential for a Muslim's spiritual growth, devotion to Allah, and adherence to Islamic teachings.
+
+### Gods attributes
+
+In Islam, Allah (God) is described with numerous attributes that reflect His perfection, greatness, and uniqueness. These attributes are mentioned in the Quran and are derived from the divine revelation. While it is important to note that Allah's true essence is beyond human comprehension, the Quran provides insights into His attributes to help humans understand and appreciate His divine nature. Here are some of the key attributes of Allah in Islam:
+
+1. All-Knowing (Al-ʿAlīm): Allah possesses complete knowledge of all things, including the seen and unseen. His knowledge encompasses everything past, present, and future.
+
+2. All-Powerful (Al-Qādir): Allah has absolute power and control over all creation. Nothing is beyond His ability, and He has the power to do anything He wills.
+
+3. All-Wise (Al-Ḥakīm): Allah's wisdom is perfect and flawless. He decrees and acts with ultimate wisdom, and His decisions are based on knowledge and understanding.
+
+4. All-Merciful (Ar-Raḥīm): Allah is infinitely merciful and compassionate. His mercy encompasses all of creation, and He showers His blessings and forgiveness upon those who seek it.
+
+5. All-Just (Al-ʿAdl): Allah is perfectly just and fair in all His actions. He judges with equity, and there is no injustice or oppression in His decree.
+
+6. All-Seeing (Al-Baṣīr): Allah observes everything, including the innermost thoughts and intentions of people. His vision is not limited by time or space.
+
+7. All-Hearing (As-Samīʿ): Allah hears all things, whether they are spoken, whispered, or thought of. He is attentive to the prayers and supplications of His creation.
+
+8. Ever-Living (Al-Ḥayy): Allah is eternal and self-subsisting. He is not bound by time or subject to death. His existence is infinite.
+
+9. Self-Sufficient (Al-Ghanī): Allah is self-sufficient and does not rely on anyone or anything for His existence or sustenance. All of creation depends on Him for their needs.
+
+10. The Creator (Al-Khāliq): Allah is the originator and creator of all things. He brought everything into existence from nothingness and continues to sustain and maintain His creation.
+
+These attributes, among others, highlight the majesty and perfection of Allah. They serve as a means for believers to deepen their understanding of His nature and to develop a closer relationship with Him. Muslims strive to acknowledge and appreciate these attributes in their worship, actions, and daily lives.
+
+P.A. in some literature It is said the God is complete meaning he  has no need for anytthing, including humans
+P.A. in some literature it is said that God is the glue for everything, without him the everything turns into nothingness. (God's ssyetm v.s. God himself)
+
+## Stages of Mohammad's life
+
+The life of the Prophet Muhammad (peace be upon him) can be broadly divided into different stages, each characterized by significant events and developments. Here is a general overview of the stages of his life:
+
+1. Pre-Prophethood:
+Before receiving the first revelation from Allah, Muhammad (pbuh) lived in Makkah and was known for his honesty, integrity, and wisdom. He often retreated to the cave of Hira for spiritual contemplation.
+
+2. Prophethood:
+At the age of 40, while in the cave of Hira, Muhammad (pbuh) received his first revelation from Allah through the angel Gabriel. This marked the beginning of his prophethood and his mission to deliver the message of Islam.
+
+3. Early Challenges in Makkah:
+Initially, Muhammad (pbuh) faced opposition and disbelief from the people of Makkah, who were primarily polytheists. He preached the message of monotheism, calling people to worship Allah alone and to abandon idolatry. Despite facing persecution and ridicule, he continued to convey the message with patience and perseverance.
+
+4. Migration to Madinah:
+As the opposition in Makkah intensified, Muhammad (pbuh) and his followers faced threats to their safety. In the year 622 CE, they migrated to the city of Madinah, where they were welcomed by the residents. This event, known as the Hijrah, marked the beginning of the Islamic lunar calendar.
+
+5. Establishment of the Islamic State:
+In Madinah, Muhammad (pbuh) played a pivotal role in establishing a cohesive Muslim community. He drafted the Constitution of Madinah, which laid out principles of governance, social relations, and the rights of various groups within the city.
+
+6. efensive and Conquest Campaigns:
+Muhammad (pbuh) and the Muslim community engaged in several defensive battles against the opposing forces from Makkah. The most notable among these was the Battle of Badr, where the Muslims achieved a significant victory against a much larger army. Later, there were conquest campaigns that resulted in the spread of Islam beyond the Arabian Peninsula.
+
+7. Final Years and Farewell Pilgrimage:
+In the last years of his life, Muhammad (pbuh) performed his final pilgrimage to Makkah, known as the Farewell Pilgrimage. During this pilgrimage, he delivered his famous sermon, emphasizing principles of justice, equality, and brotherhood. Shortly after returning to Madinah, he passed away in the year 632 CE.
+
+The stages of the Prophet Muhammad's life illustrate the challenges he faced, the guidance he received from Allah, and the profound impact he had in establishing and spreading the message of Islam. His life serves as a model for Muslims to follow, embodying virtues such as patience, compassion, and devotion to Allah.
