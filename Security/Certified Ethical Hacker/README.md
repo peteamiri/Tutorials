@@ -9,7 +9,7 @@ Footprinting, also know as reconnaissance, refers to the act of gathering inform
 
 Here are a few of the open source research and footprinting tools that may appear on the CEH certification exam:
 
-* Maltego
+* Maltego: [Video](https://www.youtube.com/watch?v=ceQhIBKFp2A&list=PLfRX-xJAc2yz6CjQVQuogJeCBoy8HbCOR)
 * Recon-NG
 * FOCA
 * OSR Framework
@@ -105,7 +105,37 @@ Here are a few of the malware and trojan generators that may appear on the CEH c
 * NLBrute
 * Powershell
 
+## Certified Ethical Hacker Certification
+The Certified Ethical Hacker (CEH) certification is currently in its 11th version and is also called the CEH v11. It teaches the aspirants about the latest commercial-grade hacking tools, methodologies, techniques, etc., used by hackers and security professionals to hack an organization legally. Now, what is a CEH-certified ethical hacker? We will discuss the critical updates associated with CEH v11 below to understand the work of a CEH-certified hacker.
 
+1. Parrot Security OS
+The operating system offers better performance on lower-powered machines and laptops. It also provides an in-depth understanding of a larger repository of OS tools.
+
+2. NICE/NIST Framework
+CEH v11 includes significant specialty areas under the NICE/NIST Framework’s job category, having elements like Protect and Defend (PR) roles, Analyze (AN), and Security Provision (SP).
+
+3. Cloud Security, OT, And IoT Modules
+CEH v11 includes updated IoT and cloud security modules to integrate container technologies, cloud computing threats, and IoT hacking tools.
+
+4. Cloud Computing Threats
+Organizations struggle to defend themselves against data security theft incidents because of misconfigured cloud environments. CEH v11 helps you to identify, respond, and avoid cloud-based attacks.
+
+5. IoT Threats
+You can learn to defend against IoT-based attacks in private cloud services by taking the CEH v11 certification, as it covers the latest IoT hacking tools.
+
+6. OT Attacks
+You can gain IT, IIoT, and OT expertise to secure critical operational technology deployments by learning the advanced skills in CEH v11.
+
+7. Malware Analysis
+CEH v11 incorporates the latest malware analysis tools and techniques for banking, financial malware, ransomware, OT malware analysis, etc.
+
+8. Fileless Malware
+Fileless malware attacks have become common in today’s security threats. So, you can get in-depth knowledge of the endpoint security solutions for such attacks by choosing CEH v11.
+
+9. New Operating Systems
+CEH v11 includes the latest operating systems like Windows Server 2016, Windows Server 2019, Windows 10, etc., configured with firewalls, domain controllers, and other vulnerable web applications.
+
+The CEH examination includes 125 multiple questions, and you get four hours to complete them. You must answer 70% of the questions successfully if you want to pass the test. You can choose the KnowledgeHut Certified Ethical Hacker course to gain in-depth knowledge of all the skills associated with ethical hacking.
 
 ## Read More
 
