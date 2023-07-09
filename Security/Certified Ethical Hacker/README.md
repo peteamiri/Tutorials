@@ -3,27 +3,7 @@
 CEH stands for Certified Ethical Hacker and is a certification program offered by the EC-Council. The certification covers a wide range of topics related to ethical hacking and cybersecurity.
 
 
-## Tools for CEH
-
-The tools used in CEH may vary depending on the specific version of the program being studied or the particular areas of focus within the program. However, some commonly used CEH tools include
-
-* Nessus,
-* Nmap,
-* Wireshark,
-* Metasploit,
-* Aircrack-ng,
-* John the Ripper,
-* Tcpdump,
-* Maltego.
-
-Other tools that might be used in CEH include
-
-* Acunetix,
-* Burp Suite,
-* Nikto
-
-
-## OPEN SOURCE RESEARCH/FOOTPRINTING TOOLS
+## OPEN SOURCE RESERCH/FOOTPRINTING TOOLS
 
 Footprinting, also know as reconnaissance, refers to the act of gathering information to aid a hacker in their attack. A hacker may research into the specific systems used or even details pertaining to the organization and its employees that could be used in a social engineering attack. Often times black and white hat hackers prefer to use open source, or free and widely available, tools because they can be altered easily to fit their unique needs without having to write entire applications from scratch.
 
