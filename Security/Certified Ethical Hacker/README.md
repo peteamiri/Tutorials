@@ -1,5 +1,134 @@
 # Certified Ethical Hacker
 
+CEH stands for Certified Ethical Hacker and is a certification program offered by the EC-Council. The certification covers a wide range of topics related to ethical hacking and cybersecurity.
+
+
+## Tools for CEH
+
+The tools used in CEH may vary depending on the specific version of the program being studied or the particular areas of focus within the program. However, some commonly used CEH tools include
+
+* Nessus,
+* Nmap,
+* Wireshark,
+* Metasploit,
+* Aircrack-ng,
+* John the Ripper,
+* Tcpdump,
+* Maltego.
+
+Other tools that might be used in CEH include
+
+* Acunetix,
+* Burp Suite,
+* Nikto
+
+
+## OPEN SOURCE RESEARCH/FOOTPRINTING TOOLS
+
+Footprinting, also know as reconnaissance, refers to the act of gathering information to aid a hacker in their attack. A hacker may research into the specific systems used or even details pertaining to the organization and its employees that could be used in a social engineering attack. Often times black and white hat hackers prefer to use open source, or free and widely available, tools because they can be altered easily to fit their unique needs without having to write entire applications from scratch.
+
+Here are a few of the open source research and footprinting tools that may appear on the CEH certification exam:
+
+* Maltego
+* Recon-NG
+* FOCA
+* OSR Framework
+* Recon-Dog
+* BillCipher
+* cewl
+* metagoofil
+* Censys
+
+## SCANNING TOOLS
+After the reconnaissance phase, hackers will build upon the information they gathered by performing three types of scans: a port scan, vulnerability scan and network scan. These scans are used to identify the number of open ports, known vulnerabilities and IP addresses.
+
+Here are a few of the scanning tools that may appear on the CEH certification exam:
+
+* nmap
+* hping2/3
+* Metasploit
+* NetScanTools Pro
+* Zenmap
+
+## PROXY TOOLS
+A proxy server is a hardware or software system that serves as an intermediary between the end-user and their online destination such as a website or cloud-based app. A proxy server offers a level of anonymity for your online activity.
+
+Here are a few of the proxy tools that may appear on the CEH certification exam:
+
+* BurpSuite
+* Tor
+* Proxy Switcher
+* CyberGhost VPN
+* Tails
+* Whonix
+
+## ENUMERATION TOOLS
+Enumeration is the process of extracting a system’s machine names, services, network resources, user names and other valuable data to be used to exploit a system. During this phase, a hacker will connect to the target system and then perform direct actions to obtain more detailed information about the target which will then be used to determine the system’s weak point or vulnerabilities.
+
+Here are a few of the enumeration tools that may appear on the CEH certification exam:
+
+* SNMP
+* MIB
+* LDAP
+* NFS
+* Dig
+
+## VULNERABILITY ANALYSIS TOOLS
+Once you have identified a system’s weak points during the enumeration phase, a vulnerability analysis will dive deeper into each of those cybersecurity flaws and determine their severity to prioritize fixes.
+
+Here are a few of the tools that can be used in a vulnerability analysis and may appear on the CEH certification exam:
+
+* CVSS/NVD/CVE/CWE
+* Nessus
+* GFI LanGuard
+* OpenVas
+* Nikto
+* Qualsys
+* Saint
+* Network Security Scanner
+
+## EXPLOITATION TOOLS
+
+An exploit is an attack on the vulnerabilities found within a system. These vulnerabilities may be through the system’s hardware, operating systems, applications, or networks and exploits will usually be performed through various programming efforts in order to take control of the system or export valuable data.
+
+Here are a few of the tools that can be used to exploit a system and may appear on the CEH certification exam:
+
+* John the Ripper
+* Mimikatz
+* Hashcat
+* pwdump
+* L0phtCrack
+* PsExec
+* LoJax
+* Scranos
+
+## ANTI-ROOTKIT TOOLS
+
+An anti rootkit helps identify malicious administrative access to a system usually gained through suspect processes, registry keys, hooks or modules, modified files, and rootkits.
+
+Here are a few of the anti-rootkit tools that may appear on the CEH certification exam:
+
+* Stinger
+* Rootkit Buster
+* Malwarebytes Anti-Rootkit
+
+## MALWARE/TROJAN GENERATORS
+
+A malware or trojan generator allows a hacker to quickly create their own malicious tools that can be used to attack a system.
+
+Here are a few of the malware and trojan generators that may appear on the CEH certification exam:
+
+* DarkHorse
+* Angler
+* Divergent
+* Vaporworm
+* NLBrute
+* Powershell
+
+
+
+## Read More
+
 * [Guru99 Ethical Hacking Tutorials](https://www.guru99.com/ethical-hacking-tutorials.html)
 * [Good Starting Point](https://www.guru99.com/ethical-hacking-tutorials.html)
 * [TutorialsPoint](https://www.tutorialspoint.com/ethical_hacking/ethical_hacking_quick_guide.htm)
