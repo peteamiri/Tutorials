@@ -10,7 +10,13 @@ The fundamentals of chatbot technology include:
 * Providing relevant responses,
 * Automating routine tasks.
 
-Additionally, chatbot design should prioritize simplicity and efficiency, with a focus on optimizing the user experience. Other key principles of chatbot design include respecting the chat medium, avoiding pretending to be human, and implementing conversational design principles that facilitate cooperation, goal-orientation, contextual understanding and quick and clear responses. Overall, chatbots are powered by rules engine and artificial intelligence, and they leverage natural language processing, machine learning, and data analytics to provide smart and efficient conversations with users
+Additionally, chatbot design should prioritize simplicity and efficiency, with a focus on optimizing the user experience. Other key principles of chatbot design include respecting the chat medium, avoiding pretending to be human, and implementing conversational design principles that facilitate cooperation, goal-orientation, contextual understanding and quick and clear responses. Overall, chatbots are powered by rules engine and artificial intelligence, and they leverage:
+
+* Natural language processing,
+* Machine learning,
+* Data analytics
+
+to provide smart and efficient conversations with users
 
 ## OpenAI
 OpenAI is a research and development company that is focused on advancing artificial intelligence technologies and ensuring that AI benefits all of humanity. OpenAI is known for its development of advanced natural language processing models, such as GPT and Codex, which have been used to create sophisticated chatbots and other AI-powered applications. Founded in 2015, OpenAI is a private research laboratory consisting of a non-profit organization and a for-profit subsidiary . Its mission is to create and promote safe AGI (artificial general intelligence), which is AI that has the ability to perform any intellectual task that a human can.
