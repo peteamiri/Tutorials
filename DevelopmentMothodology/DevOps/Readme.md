@@ -1,3 +1,28 @@
+# What is devOps
+DevOps is a software development methodology that aims to integrate the work of software development and IT teams by automating and streamlining the processes between them. It involves using practices, tools, and a cultural philosophy to unite people, processes, and technology in application planning, development, delivery, and maintenance. The goal is to remove the barriers between traditionally siloed teams , allowing for seamless collaboration and faster delivery of high-quality software.
+
+# DevOps vs. CI/CD
+
+DevOps and CI/CD are related but different concepts. CI/CD is a set of practices that are part of the DevOps methodology. CI/CD refers to the continuous integration and continuous delivery/deployment of application changes , automation of build, testing, and deployment pipelines. DevOps is a cultural, practice-driven philosophy focused on collaboration and communication between development and operations teams. DevOps includes many concepts beyond CI/CD, such as infrastructure as code, monitoring, and testing. In summary, CI/CD is a subset of DevOps that focuses on the automated building, testing, and deployment of code changes.
+
+In summary, CI/CD and DevOps are related but different concepts. CI/CD (Continuous Integration/Continuous Delivery) refers to a set of practices and tools for automating the building, testing, and deployment of code changes . It's a subset of the broader DevOps methodology, which involves a cultural, practice-driven philosophy focused on collaboration and communication between development and operations teams. DevOps includes many other concepts beyond CI/CD, such as infrastructure as code, monitoring, and testing.
+
+CI/CD refers to a set of development practices that enable the rapid and reliable delivery of code changes, while DevOps is a collection of ideas, practices, processes, and technologies that allow development and operations teams to work together to streamline product development.
+
+
+
+## Read more
+
+* [DevOps vs. CI/CD]()
+
+# What is CI/CD
+CI/CD stands for Continuous Integration/Continuous Delivery (or Continuous Deployment). It is a software development approach that involves frequent and automated testing, integration, and delivery of code changes to production environments. Continuous Integration (CI) is the practice of frequently merging code changes into a shared repository and running automated tests to detect and fix defects early on in the development process. Continuous Delivery (CD) is the practice of deploying code changes to production environments automatically and regularly, ensuring that code changes are delivered quickly, safely and reliably. Together, CI/CD helps teams deliver high-quality software faster and more efficiently.
+
+## Read More
+
+  * [GitLab](https://about.gitlab.com/topics/ci-cd/)
+
+
 # Continuous Integration
 Continuous Integration (CI) is the practice used by development teams of automating, merging, and testing code. CI helps to catch bugs early in the development cycle, which makes them less expensive to fix. Automated tests execute as part of the CI process to ensure quality. CI systems produce artifacts and feed them to release processes to drive frequent deployments.
 
