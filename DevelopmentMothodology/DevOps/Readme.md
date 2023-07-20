@@ -10,11 +10,6 @@ In summary, CI/CD and DevOps are related but different concepts. CI/CD (Continuo
 CI/CD refers to a set of development practices that enable the rapid and reliable delivery of code changes, while DevOps is a collection of ideas, practices, processes, and technologies that allow development and operations teams to work together to streamline product development.
 
 
-
-## Read more
-
-* [DevOps vs. CI/CD]()
-
 # What is CI/CD
 CI/CD stands for Continuous Integration/Continuous Delivery (or Continuous Deployment). It is a software development approach that involves frequent and automated testing, integration, and delivery of code changes to production environments. Continuous Integration (CI) is the practice of frequently merging code changes into a shared repository and running automated tests to detect and fix defects early on in the development process. Continuous Delivery (CD) is the practice of deploying code changes to production environments automatically and regularly, ensuring that code changes are delivered quickly, safely and reliably. Together, CI/CD helps teams deliver high-quality software faster and more efficiently.
 
