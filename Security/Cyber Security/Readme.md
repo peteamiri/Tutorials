@@ -19,6 +19,32 @@
 * [NIST + STICK](https://www.stigviewer.com/)
 * [Types of Attacks](https://www.noelnetworksupport.com/4-different-types-network-security-need/)
 
+## Thread
+
+* Cyber Thread hunt vs. Cyber thread management
+
+## Cyber Thread Hunt Tools
+
+There are many cyber threat hunting tools available in the market. Some of the popular ones mentioned in the search results are:
+
+* CybeReady
+* CrowdStrike
+* Sqrrl
+* Trend Micro
+* SpectralOps
+* Skyhawk
+* IBMX-Force Exchange
+* Kroll's Security Analytics
+* Check Point Research Tools
+* InviZzzible
+* Cuckoo AWS
+* CyberChef
+* SIEM systems
+* Threat intelligence tools
+* Security monitoring tools
+
+Each tool has its own unique features and capabilities , but they are all designed to help organizations detect and respond to potential cyber threats and vulnerabilities.
+
 ## Looking Glass
 * [Botnet activities](https://map.lookingglasscyber.com/)
 ## Great Resources
