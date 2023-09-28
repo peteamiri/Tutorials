@@ -76,7 +76,38 @@ The OIDC authentication flow involves the following steps:
 
 OIDC is widely used to enable single sign-on (SSO) experiences, where users can log in to one application and subsequently access other applications without needing to re-enter their credentials. It provides a standardized and secure way to handle user authentication and identity information, making it a valuable tool for modern web and mobile application development.
 
-### SAML
+### Security Assertion Markup Language (SAML)
+
+Security Assertion Markup Language (SAML) is an XML-based standard for exchanging authentication and authorization data between parties, particularly in web-based single sign-on (SSO) and identity federation scenarios. SAML enables secure communication between an identity provider (IdP) and a service provider (SP) to authenticate users and determine their access rights to protected resources. Here are the key components and concepts associated with SAML:
+
+1. **Identity Provider (IdP)**: The IdP is a trusted entity responsible for authenticating users and providing them with security tokens, known as SAML assertions. The IdP verifies the user's identity and, upon successful authentication, issues SAML assertions that contain information about the user.
+
+Service Provider (SP): The SP is a web application or service that relies on the IdP to authenticate users. The SP consumes SAML assertions to make access control decisions and grant or deny access to its resources.
+
+SAML Assertion: A SAML assertion is an XML-based document that contains statements about the user, such as their identity, authentication method, and attributes. SAML assertions are digitally signed by the IdP to ensure their integrity.
+
+Single Sign-On (SSO): SAML enables SSO, where a user logs in once at the IdP and gains access to multiple SPs without having to re-enter credentials. This enhances user convenience and security.
+
+Identity Federation: SAML facilitates identity federation, allowing users from one organization (or domain) to access resources in another organization's domain seamlessly and securely.
+
+SSO Profiles: SAML defines different profiles for implementing SSO, including the Web Browser SSO profile (used for web applications), the Single Logout profile (for logging out of multiple SPs), and the Enhanced Client or Proxy profile (for native and mobile applications).
+
+Bindings: SAML supports various bindings for transporting SAML messages, such as the HTTP POST binding (typically used in web applications), the HTTP Redirect binding, and the SOAP binding.
+
+Metadata: Metadata is often used to facilitate the setup and configuration of SAML-based SSO. It includes information about the IdP and SP, including their endpoints and public keys.
+
+The typical flow of SAML-based SSO involves the following steps:
+
+The user accesses a resource at the SP and is redirected to the IdP for authentication.
+
+After successful authentication, the IdP generates a SAML assertion and sends it to the user's browser or directly to the SP, depending on the SAML binding used.
+
+The user's browser (or the SP) passes the SAML assertion to the SP.
+
+The SP verifies the signature on the SAML assertion, checks the user's identity and attributes, and grants access to the requested resource.
+
+SAML is widely used for enabling secure SSO and identity federation in various applications and environments, especially in enterprise settings. It provides a standardized way to exchange authentication and authorization data, enhancing security and user experience across different web applications and services.
+
 ### WS-Fderation
 ### JWT
 ### MFA
