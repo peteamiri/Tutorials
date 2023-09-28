@@ -1,6 +1,8 @@
 ## Authantication secction
 
-* **OAuth2.0**:OAuth 2.0 (Open Authorization 2.0) is an industry-standard protocol used for authorization and secure access to web-based and mobile applications. It provides a way for one application to allow another application or service to access its resources on behalf of a user without sharing the user's credentials (such as passwords) directly.
+# OAuth2.0
+
+OAuth 2.0 (Open Authorization 2.0) is an industry-standard protocol used for authorization and secure access to web-based and mobile applications. It provides a way for one application to allow another application or service to access its resources on behalf of a user without sharing the user's credentials (such as passwords) directly.
 
 OAuth 2.0 is commonly used for scenarios where you want to grant a third-party application limited access to your resources. This is often seen in the context of social media logins or allowing third-party services to access your data on platforms like Google, Facebook, or GitHub.
 
