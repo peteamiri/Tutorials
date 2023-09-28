@@ -1,4 +1,4 @@
-## Cyberseecurity
+## Cybersecurity
 
 Cybersecurity or "InfoSec" (Information Security), is the practice of protecting computer systems, networks, data, and digital assets from theft, damage, unauthorized access, disruption, and other forms of cyber threats or attacks. It encompasses a wide range of strategies, technologies, practices, and processes designed to safeguard information and ensure the confidentiality, integrity, and availability of digital assets. Cybersecurity is an essential aspect of modern technology and is crucial for organizations, individuals, and governments alike.
 
@@ -29,6 +29,18 @@ Governance, Risk Management, and Compliance (GRC): GRC practices involve establi
 Security Operations (SecOps): SecOps teams monitor security events, analyze data, and respond to threats in real-time to protect the organization's assets.
 
 Cybersecurity is a vital part of information technology (IT) and is integrated into virtually every aspect of modern technology-driven organizations. It is a continuous process that evolves in response to emerging threats and vulnerabilities. Effective cybersecurity requires a combination of technical solutions, policies, procedures, and a proactive security mindset to safeguard digital assets and maintain trust in digital environments.
+
+## CIA Triad
+
+In the context of information security, "CIA" represents a fundamental concept known as the "CIA Triad." The CIA Triad is a core framework that outlines the three primary objectives or principles of information security. These objectives are:
+
+Confidentiality: Confidentiality focuses on ensuring that sensitive information remains private and is accessible only to authorized individuals or systems. It involves preventing unauthorized access, disclosure, or exposure of sensitive data. Methods for maintaining confidentiality include encryption, access controls, data classification, and secure storage practices.
+
+Integrity: Integrity is concerned with the accuracy and reliability of data and systems. It involves protecting data from unauthorized modifications, alterations, or corruption. Measures to maintain data integrity include checksums, digital signatures, version control, and change management processes.
+
+Availability: Availability ensures that information and resources are accessible and usable by authorized users when needed. It involves preventing disruptions, downtime, or unavailability of systems and data. Strategies for ensuring availability include redundancy, fault tolerance, disaster recovery planning, and monitoring for system uptime.
+
+The CIA Triad provides a framework for understanding the primary goals of information security and helps guide the development of security policies, practices, and technologies to achieve these objectives. It is considered a foundational concept in the field of information security and is often used as a basis for risk assessment and decision-making in security planning and implementation.
 
 ## Zero Trust secction
 
