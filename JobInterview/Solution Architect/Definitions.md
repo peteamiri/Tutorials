@@ -122,6 +122,8 @@ SAML is widely used for enabling secure SSO and identity federation in various a
 
 ## Active Directory(AD)
 
+Active Directory is a powerful tool for managing permissions and controlling access to network resources in Windows domain networks. It is widely used by organizations of all sizes to help manage user permissions and access rights.
+
 Active Directory (AD) is a **directory service** and **identity management system** developed by Microsoft. It is a crucial component in many Windows-based networks and is commonly used in enterprise environments to **manage users, computers, groups, and other resources**. Active Directory provides a centralized and standardized way to manage and authenticate users and resources in a networked environment.
 
 Active Directory (AD) manages permissions and controlling access to network resources. It is a database and set of services that connect users with the network resources they need to get their work done.
@@ -133,8 +135,6 @@ The main functions of Active Directory are authentication and authorization. It 
 Active Directory uses a hierarchical structure consisting of domains, which are tree-like structures that contain objects such as users, devices, groups, and databases. Domains can have standard domains and subdomains .
 
 Active Directory also includes other services such as Active Directory Domain Services (AD DS), Active Directory Lightweight Directory Services (AD LDS), Active Directory Certificate Services (AD CS), and Active Directory Federation Services (AD FS) .
-
-Overall, Active Directory is a powerful tool for managing permissions and controlling access to network resources in Windows domain networks. It is widely used by organizations of all sizes to help manage user permissions and access rights
 
 Here are some key aspects of Active Directory:
 
