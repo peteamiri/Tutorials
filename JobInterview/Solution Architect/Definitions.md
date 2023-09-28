@@ -122,7 +122,21 @@ SAML is widely used for enabling secure SSO and identity federation in various a
 
 ## Active Directory(AD)
 
-Active Directory (AD) is a **directory service** and **identity management system** developed by Microsoft. It is a crucial component in many Windows-based networks and is commonly used in enterprise environments to **manage users, computers, groups, and other resources**. Active Directory provides a centralized and standardized way to manage and authenticate users and resources in a networked environment. Here are some key aspects of Active Directory:
+Active Directory (AD) is a **directory service** and **identity management system** developed by Microsoft. It is a crucial component in many Windows-based networks and is commonly used in enterprise environments to **manage users, computers, groups, and other resources**. Active Directory provides a centralized and standardized way to manage and authenticate users and resources in a networked environment.
+
+Active Directory (AD) manages permissions and controlling access to network resources. It is a database and set of services that connect users with the network resources they need to get their work done.
+
+Active Directory stores data as objects, which can include users, groups, applications, and devices. These objects are categorized according to their name and attributes. For example, a user object may include information such as the user's name, job title, phone number, and password .
+
+The main functions of Active Directory are authentication and authorization. It ensures that each person is who they claim to be by checking their user ID and password (authentication). It also controls access to data by allowing users to access only the data they are authorized to use (authorization) .
+
+Active Directory uses a hierarchical structure consisting of domains, which are tree-like structures that contain objects such as users, devices, groups, and databases. Domains can have standard domains and subdomains .
+
+Active Directory also includes other services such as Active Directory Domain Services (AD DS), Active Directory Lightweight Directory Services (AD LDS), Active Directory Certificate Services (AD CS), and Active Directory Federation Services (AD FS) .
+
+Overall, Active Directory is a powerful tool for managing permissions and controlling access to network resources in Windows domain networks. It is widely used by organizations of all sizes to help manage user permissions and access rights
+
+Here are some key aspects of Active Directory:
 
 1. **Directory Service**: Active Directory functions as a directory service, which means it stores and organizes information about objects within a network. These objects can include users, computers, printers, applications, and more. Each object is represented in the directory with a set of attributes.
 
