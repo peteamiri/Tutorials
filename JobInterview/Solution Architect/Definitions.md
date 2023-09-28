@@ -1,6 +1,6 @@
 ## Authantication secction
 
-# OAuth2.0
+### OAuth2.0
 
 OAuth 2.0 (Open Authorization 2.0) an industry-standard protocol for authorization that allows third-party applications to access a user's data or perform actions on their behalf without the need to share the user's credentials, like usernames and passwords. OAuth 2.0 is widely used in the context of secure authentication and authorization in various applications, including web and mobile apps, APIs (Application Programming Interfaces), and IoT (Internet of Things) devices. Here are the key concepts and components of OAuth 2.0:
 
@@ -44,15 +44,15 @@ OAuth 2.0 is a flexible and widely adopted protocol used to provide secure acces
 
 
 
-* **OIDC**:
-* **SAML**:
-* **WS-Fderation**:
-* **JWT**:
-* **MFA**:
-* **SSO**:
-* **LDAP**:
-* **Kerberos**:
-* **MTLM**:
+### OIDC
+### SAML
+### WS-Fderation
+### JWT
+### MFA
+### SSO
+### LDAP
+### Kerberos
+### MTLM
 
 ## Active Directory Terms
 
