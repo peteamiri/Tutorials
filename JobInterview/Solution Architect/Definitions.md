@@ -36,9 +36,9 @@ OAuth 2.0 is a flexible and widely adopted protocol used to provide secure acces
 
 ### See more for more details
 
-* (OAuth2.0 Home)[https://oauth.net/2/]
-* (AAuth2.0 Information)[https://auth0.com/intro-to-iam/what-is-oauth-2]
-* (RFC6749)[https://datatracker.ietf.org/doc/html/rfc6749]
+* [OAuth2.0 Home](https://oauth.net/2/)
+* [AAuth2.0 Information](https://auth0.com/intro-to-iam/what-is-oauth-2)
+* [RFC6749](https://datatracker.ietf.org/doc/html/rfc6749)
 
 
 
