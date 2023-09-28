@@ -16,7 +16,7 @@ Key components and aspects of cybersecurity include:
 
 1. **Incident Response and Recovery**: Planning for and responding to security incidents is essential. Organizations need to have incident response plans in place to detect, contain, and recover from cyberattacks and breaches.
 
-1. **Security Awareness and Training**: People are often the weakest link in cybersecurity. Security awareness programs educate employees and users about best practices, safe online behavior, and the risks associated with cyber threats.
+1. **Security Awareness and Training**s: People are often the weakest link in cybersecurity. Security awareness programs educate employees and users about best practices, safe online behavior, and the risks associated with cyber threats.
 
 Cloud Security: As organizations increasingly move to cloud-based services and infrastructure, cloud security is critical. It involves securing cloud resources, data, and applications hosted by third-party providers.
 
