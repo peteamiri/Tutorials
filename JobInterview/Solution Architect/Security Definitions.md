@@ -4,19 +4,19 @@ Cybersecurity or "InfoSec" (Information Security), is the practice of protecting
 
 Key components and aspects of cybersecurity include:
 
-Network Security: This focuses on securing computer networks and infrastructure, including firewalls, intrusion detection systems, intrusion prevention systems, and network monitoring to detect and mitigate threats.
+1. **Network Security**: This focuses on securing computer networks and infrastructure, including firewalls, intrusion detection systems, intrusion prevention systems, and network monitoring to detect and mitigate threats.
 
-Endpoint Security: Endpoint security involves protecting individual devices (endpoints), such as computers, smartphones, and tablets, from malware, unauthorized access, and data breaches. This often includes antivirus software, endpoint detection and response (EDR) tools, and mobile device management (MDM) solutions.
+1. **Endpoint Security**: Endpoint security involves protecting individual devices (endpoints), such as computers, smartphones, and tablets, from malware, unauthorized access, and data breaches. This often includes antivirus software, endpoint detection and response (EDR) tools, and mobile device management (MDM) solutions.
 
-Data Security: Data security is about protecting sensitive data from unauthorized access, disclosure, or alteration. Encryption, access controls, data loss prevention (DLP) solutions, and secure data storage methods are key components.
+1. **Data Security**: Data security is about protecting sensitive data from unauthorized access, disclosure, or alteration. Encryption, access controls, data loss prevention (DLP) solutions, and secure data storage methods are key components.
 
-Identity and Access Management (IAM): IAM is the practice of managing user identities and controlling their access to systems and resources. It includes user authentication, authorization, and identity verification through technologies like multi-factor authentication (MFA).
+1. **Identity and Access Management (IAM)**: IAM is the practice of managing user identities and controlling their access to systems and resources. It includes user authentication, authorization, and identity verification through technologies like multi-factor authentication (MFA).
 
-Application Security: Application security involves securing software applications and web services to prevent vulnerabilities and protect against cyber threats. This includes code reviews, penetration testing, and the use of secure development practices.
+1. **Application Security**: Application security involves securing software applications and web services to prevent vulnerabilities and protect against cyber threats. This includes code reviews, penetration testing, and the use of secure development practices.
 
-Incident Response and Recovery: Planning for and responding to security incidents is essential. Organizations need to have incident response plans in place to detect, contain, and recover from cyberattacks and breaches.
+1. **Incident Response and Recovery**: Planning for and responding to security incidents is essential. Organizations need to have incident response plans in place to detect, contain, and recover from cyberattacks and breaches.
 
-Security Awareness and Training: People are often the weakest link in cybersecurity. Security awareness programs educate employees and users about best practices, safe online behavior, and the risks associated with cyber threats.
+1. **Security Awareness and Training**: People are often the weakest link in cybersecurity. Security awareness programs educate employees and users about best practices, safe online behavior, and the risks associated with cyber threats.
 
 Cloud Security: As organizations increasingly move to cloud-based services and infrastructure, cloud security is critical. It involves securing cloud resources, data, and applications hosted by third-party providers.
 
