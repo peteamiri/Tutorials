@@ -2,37 +2,46 @@
 
 # OAuth2.0
 
-OAuth 2.0 (Open Authorization 2.0) is an industry-standard protocol used for authorization and secure access to web-based and mobile applications. It provides a way for one application to allow another application or service to access its resources on behalf of a user without sharing the user's credentials (such as passwords) directly.
+OAuth 2.0 (Open Authorization 2.0) an industry-standard protocol for authorization that allows third-party applications to access a user's data or perform actions on their behalf without the need to share the user's credentials, like usernames and passwords. OAuth 2.0 is widely used in the context of secure authentication and authorization in various applications, including web and mobile apps, APIs (Application Programming Interfaces), and IoT (Internet of Things) devices. Here are the key concepts and components of OAuth 2.0:
 
-OAuth 2.0 is commonly used for scenarios where you want to grant a third-party application limited access to your resources. This is often seen in the context of social media logins or allowing third-party services to access your data on platforms like Google, Facebook, or GitHub.
+1. **Resource Owner:** The resource owner is an entity (usually a user) who owns the data, content, or resources being protected. For example, a user's photos on a social media platform.
 
-Key components and roles in the OAuth 2.0 protocol include:
+1. **Client:** The client is an application or service that seeks access to the resource owner's data. It could be a mobile app, a web app, or even a server-based application.
 
-Resource Owner: This is the user who owns the data or resources. For example, if you're using OAuth 2.0 to access your Google Drive files from a third-party application, you are the resource owner.
+1. **Authorization Server:** The authorization server is responsible for authenticating the resource owner and obtaining their consent. It issues **access tokens** to authorized clients.
 
-Client: The client is the third-party application or service that wants to access the resource owner's data. The client must be registered with the authorization server.
+1. **Resource Server:** This is the server where the protected resources are stored and managed. It verifies the access tokens and serves the protected resources.
 
-Authorization Server: The authorization server is responsible for authenticating the resource owner, handling user consent, and issuing access tokens to authorized clients. It verifies the client's identity and the resource owner's permissions.
+1. **Access Token:** An access token is a credential that the client presents to the resource server when requesting access to protected resources. It acts as proof that the resource owner has granted permission for the client to access their data.
 
-Resource Server: This is the server where the protected resources are hosted. It's the server that the client wants to access on behalf of the resource owner. In the Google Drive example, Google's servers are the resource server.
-
-Access Token: An access token is a credential that the client uses to access the resource server on behalf of the resource owner. It's a short-lived token that grants specific permissions. OAuth 2.0 access tokens can be bearer tokens or JWTs (JSON Web Tokens).
-
-Scope: Scopes define the specific permissions or access rights requested by the client. For instance, a client might request read-only access to a user's email.
+1. **Scope:** Scopes define the specific permissions or access levels granted to the client. For example, a scope might specify read-only access to a user's email or full access to their calendar.
 
 The OAuth 2.0 flow typically involves the following steps:
 
-The client requests authorization from the resource owner by redirecting them to the authorization server.
+1. **Authorization Request:** The client initiates the process by sending an authorization request to the authorization server, including details like its identity and requested scope.
 
-The resource owner authenticates themselves and grants permission to the client.
+1. **User Consent:** The authorization server authenticates the resource owner and seeks their consent to grant access to the client. The resource owner may be prompted to log in or confirm the requested permissions.
 
-The authorization server issues an access token to the client.
+1. **Authorization Grant:** After receiving consent, the authorization server issues an authorization grant to the client. The type of grant depends on the specific OAuth 2.0 flow being used.
 
-The client uses the access token to access the protected resources on the resource server.
+1. **Access Token Request:** The client then exchanges the authorization grant for an access token by sending a request to the authorization server.
 
-The resource server validates the access token and, if valid, provides the requested data.
+1. **Access Token Issuance:** Upon successful verification, the authorization server issues an access token to the client.
 
-OAuth 2.0 is a flexible and widely adopted protocol that's used in various applications and scenarios where secure, delegated access to resources is required. It's essential for ensuring user privacy and security when third-party applications need access to a user's data without exposing sensitive credentials.
+1. **Accessing Resources:** The client uses the access token to access protected resources on the resource server.
+
+1. **Resource Server Validation:** The resource server validates the access token, ensuring it's not expired and has the necessary scopes to perform the requested action.
+
+OAuth 2.0 is a flexible and widely adopted protocol used to provide secure access to resources while maintaining user privacy. It's used in scenarios such as social media logins, single sign-on (SSO), and API authorization. Different OAuth 2.0 flows exist to accommodate various use cases, including Authorization Code Flow, Implicit Flow, Client Credentials Flow, and Resource Owner Password Credentials Flow. The choice of flow depends on the specific requirements of the application.
+
+### See more for more details
+
+* (OAuth2.0 Home)[https://oauth.net/2/]
+* (AAuth2.0 Information)[https://auth0.com/intro-to-iam/what-is-oauth-2]
+* (RFC6749)[https://datatracker.ietf.org/doc/html/rfc6749]
+
+
+
 
 * **OIDC**:
 * **SAML**:
