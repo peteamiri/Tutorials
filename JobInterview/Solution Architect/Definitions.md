@@ -50,29 +50,29 @@ OpenID Connect (OIDC) is an authentication and authorization protocol **built on
 
 1. **Identity Provider (IdP)**: The Identity Provider is a trusted entity that verifies the identity of users and provides information about them to relying parties (applications). Popular IdPs include Google, Facebook, Microsoft Azure AD, and Okta.
 
-Relying Party (RP): The Relying Party is the application or service that relies on the IdP to authenticate users. The RP is responsible for initiating OIDC flows and consuming user identity information.
+1. **Relying Party (RP)**: The Relying Party is the application or service that relies on the IdP to authenticate users. The RP is responsible for initiating OIDC flows and consuming user identity information.
 
-End-User: The end-user is the person who is using the RP's application and attempting to authenticate.
+1. **End-User**: The end-user is the person who is using the RP's application and attempting to authenticate.
 
-ID Token: The ID Token is a JSON Web Token (JWT) that the IdP issues to the RP after a successful authentication. It contains information about the user, such as their unique identifier and, optionally, other profile attributes.
+1. **ID Token**: The ID Token is a JSON Web Token (JWT) that the IdP issues to the RP after a successful authentication. It contains information about the user, such as their unique identifier and, optionally, other profile attributes.
 
-Access Token: Similar to OAuth 2.0, OIDC can also issue access tokens that the RP can use to access protected resources on behalf of the user.
+1. **Access Token**: Similar to OAuth 2.0, OIDC can also issue access tokens that the RP can use to access protected resources on behalf of the user.
 
-Userinfo Endpoint: OIDC defines a Userinfo Endpoint that the RP can use to obtain additional user profile information, such as email address or display name, after receiving an ID Token.
+1. **Userinfo Endpoint**: OIDC defines a Userinfo Endpoint that the RP can use to obtain additional user profile information, such as email address or display name, after receiving an ID Token.
 
 The OIDC authentication flow involves the following steps:
 
-Authentication Request: The RP initiates the authentication process by sending an authentication request to the IdP. This request typically includes the desired scope and response type, specifying what information the RP is requesting.
+1. **Authentication Request**: The RP initiates the authentication process by sending an authentication request to the IdP. This request typically includes the desired scope and response type, specifying what information the RP is requesting.
 
-User Authentication: The IdP authenticates the user. This may involve username and password, multi-factor authentication, or other authentication mechanisms depending on the IdP's policies.
+1. **User Authentication**: The IdP authenticates the user. This may involve username and password, multi-factor authentication, or other authentication mechanisms depending on the IdP's policies.
 
-ID Token Issuance: After successful authentication, the IdP generates an ID Token containing information about the user and sends it back to the RP.
+1. **ID Token Issuance**: After successful authentication, the IdP generates an ID Token containing information about the user and sends it back to the RP.
 
-RP Validation: The RP validates the ID Token to ensure its authenticity, including checking the signature and expiration time.
+1. **RP Validation**: The RP validates the ID Token to ensure its authenticity, including checking the signature and expiration time.
 
-Optional Access Token: If needed, the IdP may also issue an access token to the RP, allowing it to access resources on the user's behalf.
+1. **Optional Access Token**: If needed, the IdP may also issue an access token to the RP, allowing it to access resources on the user's behalf.
 
-Userinfo Request (Optional): The RP may make an additional request to the Userinfo Endpoint to obtain more user profile information.
+1. **Userinfo Request (Optional)**: The RP may make an additional request to the Userinfo Endpoint to obtain more user profile information.
 
 OIDC is widely used to enable single sign-on (SSO) experiences, where users can log in to one application and subsequently access other applications without needing to re-enter their credentials. It provides a standardized and secure way to handle user authentication and identity information, making it a valuable tool for modern web and mobile application development.
 
@@ -85,8 +85,31 @@ OIDC is widely used to enable single sign-on (SSO) experiences, where users can 
 ### Kerberos
 ### MTLM
 
-## Active Directory Terms
+## Active Directory(AD)
 
-* **Domain**:
-* **Domainn Controller**:
-*
+Active Directory (AD) is a **directory service** and **identity management system** developed by Microsoft. It is a crucial component in many Windows-based networks and is commonly used in enterprise environments to **manage users, computers, groups, and other resources**. Active Directory provides a centralized and standardized way to manage and authenticate users and resources in a networked environment. Here are some key aspects of Active Directory:
+
+1. **Directory Service**: Active Directory functions as a directory service, which means it stores and organizes information about objects within a network. These objects can include users, computers, printers, applications, and more. Each object is represented in the directory with a set of attributes.
+
+Authentication and Authorization: Active Directory is used for authenticating and authorizing users and computers in a network. It allows administrators to define access permissions and policies for various resources based on user or group memberships.
+
+Single Sign-On (SSO): Active Directory supports single sign-on, which means users can log in once to their computer or a domain-joined device, and then access various network resources without having to re-enter their credentials repeatedly.
+
+Security: It provides security features like access control, password policies, and encryption to protect sensitive data and resources.
+
+Domain and Forest Structure: Active Directory uses a hierarchical structure of domains and forests. A domain is a logical grouping of network objects, while a forest is a collection of one or more domains. Domains within a forest share a common schema and global catalog.
+
+Replication: Active Directory uses replication to synchronize data between domain controllers (servers that run Active Directory services). This ensures that directory data is consistent and available across the network.
+
+Group Policy: Administrators can use Group Policy to manage and configure user and computer settings across the network. Group Policy allows for centralized control of configurations, security policies, and software deployment.
+
+LDAP Protocol: Active Directory is accessible using the LDAP (Lightweight Directory Access Protocol) standard, which allows other directory-aware applications and services to interact with it.
+
+Integration with Microsoft Products: Active Directory is tightly integrated with various Microsoft products, such as Windows Server, Exchange Server, SharePoint, and Azure services. This integration simplifies user management and authentication processes.
+
+Cloud Integration: Microsoft offers Azure Active Directory (Azure AD), which is a cloud-based identity and access management service that extends Active Directory to the cloud. Azure AD provides features like single sign-on for cloud applications, multi-factor authentication, and conditional access policies.
+
+Active Directory plays a crucial role in managing network resources, enhancing security, and streamlining administrative tasks in Windows-based networks. It is a fundamental component for establishing centralized identity and access control in enterprise environments.
+
+### Domain
+### Domainn Controller
