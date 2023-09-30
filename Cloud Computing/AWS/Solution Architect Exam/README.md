@@ -63,63 +63,62 @@ Welcome to your structured study plan for the AWS Certified Solutions Architect 
 This structured study plan is designed to help you prioritize your AWS Certified Solutions Architect - Associate exam preparation. Remember to allocate more time to the critical topics while still covering the remaining content for a comprehensive understanding. Use online courses, practice exams, and AWS documentation to reinforce your learning. Good luck with your exam!
 
 
-# AWS Global Infrastructure Study Plan
+# AWS Cloud Global Infrastructure Study Plan
 
-## Introduction
-This structured study plan is designed to provide you with an in-depth understanding of the AWS Global Infrastructure. By focusing on the critical topics that align with the Pareto Principle, you'll gain essential knowledge for AWS services and operations.
+This comprehensive study plan for understanding AWS Cloud Global Infrastructure follows the Pareto Principle, emphasizing the 20% of topics that yield 80% of the desired result. Each section includes links to relevant sources for deeper learning.
 
+## Introduction to AWS Infrastructure
+- [Overview of AWS](https://aws.amazon.com/getting-started/), its services, and global presence.
+- [Understanding AWS Regions](https://docs.aws.amazon.com/general/latest/gr/rande.html) and their significance.
+- [Dive into AWS Availability Zones](https://docs.aws.amazon.com/general/latest/gr/rande.html) and their role.
 
-### Introduction to AWS Infrastructure
-- [ ] Understand the significance of AWS's global infrastructure.
-- [ ] Learn about AWS Regions, Availability Zones, and Edge Locations.
+## Networking Fundamentals
+- [Study VPC (Virtual Private Cloud)](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) and its importance.
+- [Explore AWS Direct Connect](https://aws.amazon.com/directconnect/) and its benefits.
+- [Understand Amazon Route 53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html) for DNS management.
 
-### AWS Global Network Backbone
-- [ ] Explore AWS's global network backbone and how data flows.
-- [ ] Understand the importance of low-latency connections.
+## Edge Locations and Content Delivery
+- Learn about [AWS Edge Locations](https://aws.amazon.com/cloudfront/features/edge-locations/).
+- Explore [Amazon CloudFront](https://aws.amazon.com/cloudfront/) for content delivery.
+- Study [AWS Global Accelerator](https://aws.amazon.com/global-accelerator/).
 
-### AWS Data Centers
-- [ ] Dive into the architecture of AWS data centers.
-- [ ] Learn about physical security, redundancy, and fault tolerance.
+## Security in AWS Infrastructure
+- Understand [AWS Identity and Access Management (IAM)](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html).
+- Dive into [AWS Security Groups and NACLs](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html).
+- Explore [AWS Web Application Firewall (WAF)](https://aws.amazon.com/waf/).
 
-### Region Selection Strategies
-- [ ] Explore strategies for selecting the appropriate AWS Region for your workloads.
-- [ ] Understand the impact of Region selection on latency and compliance.
+## Week 5: High Availability and Fault Tolerance
+- Learn about [Auto Scaling](https://aws.amazon.com/autoscaling/).
+- Study [AWS Elastic Load Balancing (ELB)](https://aws.amazon.com/elasticloadbalancing/).
+- Understand [Multi-Region Architectures](https://aws.amazon.com/architecture/global-infrastructure/regional-resiliency/).
 
-### AWS Global Infrastructure Best Practices
-- [ ] Learn best practices for leveraging AWS's global infrastructure.
-- [ ] Understand how to design highly available and fault-tolerant applications.
+## Data Management and Storage
+- Explore [Amazon S3](https://aws.amazon.com/s3/) for object storage.
+- [Amazon EBS](https://aws.amazon.com/ebs/) for block storage.
+- Understand [Amazon RDS](https://aws.amazon.com/rds/) for relational databases.
 
-### AWS Edge Locations
-- [ ] Explore AWS Edge Locations and their role in content delivery.
-- [ ] Understand how Edge Locations reduce latency for end-users.
+## Monitoring and Troubleshooting
+- Learn [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) for monitoring.
+- Study [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) for auditing.
+- Explore [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/) for optimization.
 
-### Amazon CloudFront
-- [ ] Learn about Amazon CloudFront as AWS's Content Delivery Network (CDN).
-- [ ] Understand how CloudFront accelerates content delivery and improves user experience.
+## Real-World Scenarios and Best Practices
+- Review [AWS case studies](https://aws.amazon.com/solutions/case-studies/) and real-world implementations.
+- Explore [best practices](https://aws.amazon.com/architecture/best-practices/) for optimizing AWS infrastructure.
+- Take practice exams and assess your knowledge.
 
-### Security in AWS Infrastructure
-- [ ] Explore security measures in AWS's global infrastructure.
-- [ ] Understand data encryption, access controls, and compliance.
+## Hands-On Labs and Projects
+- Implement hands-on labs and projects to apply your knowledge practically.
 
-### AWS Global Infrastructure Compliance
-- [ ] Learn about AWS compliance standards and certifications.
-- [ ] Understand how AWS meets regulatory requirements.
-
-### AWS Global Accelerator
-- [ ] Explore AWS Global Accelerator and its role in global application availability.
-- [ ] Understand how Global Accelerator routes traffic efficiently.
-
-### AWS Direct Connect
-- [ ] Learn about AWS Direct Connect for dedicated network connections.
-- [ ] Understand the use cases for Direct Connect.
-
-### AWS Transit Gateway
-- [ ] Dive into AWS Transit Gateway and its capabilities.
-- [ ] Learn about centralizing network traffic in a global infrastructure.
-
-### Real-World Scenarios
-- [ ] Study real-world scenarios of organizations leveraging AWS's global infrastructure.
-- [ ] Analyze case studies and best practices.
+## Final Review and Exam Preparation
+- Review all topics and take practice exams.
+- Register for the [AWS Certified Cloud Practitioner Exam](https://aws.amazon.com/certifications/cloud-practitioner/).
 
 ## Conclusion
-This study plan provides a comprehensive understanding of the AWS Global Infrastructure, focusing on the critical topics that are essential for AWS services and operations. By following this plan, you'll be well-prepared to make informed decisions when designing and deploying applications in AWS's global network.
+By following this structured study plan and utilizing the provided sources, you will gain a strong understanding of AWS Cloud Global Infrastructure, preparing you for AWS certifications and real-world cloud solutions.
+
+
+*Recommended Sources:*
+- [AWS Documentation](https://aws.amazon.com/documentation/)
+- Online AWS Courses and Tutorials
+- AWS Certified Cloud Practitioner Study Guides
