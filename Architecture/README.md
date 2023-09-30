@@ -9,7 +9,7 @@ The IT architect is also responsible for ensuring that the IT infrastructure is 
 The IT architect is a critical role in any organization, as they help to ensure that the IT systems and solutions are aligned with the organization's business goals and can support its growth and success over time.
 
 
-
+``` MySQL
 AWS Certified SysOps Administrator - Associate Exam
    |
    ├─ AWS Fundamentals
@@ -46,3 +46,4 @@ AWS Certified SysOps Administrator - Associate Exam
        ├─ High Availability & DR
        ├─ AWS CLI
        └─ Exam Preparation
+```
