@@ -7,3 +7,42 @@ The IT architect works closely with business leaders and other stakeholders to u
 The IT architect is also responsible for ensuring that the IT infrastructure is scalable, secure, and reliable, and that it meets the organization's performance and availability requirements. They work with other IT professionals, such as developers and engineers, to ensure that the systems and applications they develop align with the overall IT architecture.
 
 The IT architect is a critical role in any organization, as they help to ensure that the IT systems and solutions are aligned with the organization's business goals and can support its growth and success over time.
+
+
+
+AWS Certified SysOps Administrator - Associate Exam
+   |
+   ├─ AWS Fundamentals
+   |   |
+   |   ├─ AWS Basics
+   |   └─ Global Infrastructure
+   |
+   ├─ IAM
+   |   |
+   |   ├─ Users & Groups
+   |   └─ Policies & Roles
+   |
+   ├─ Amazon EC2
+   |   |
+   |   ├─ Instance Types
+   |   └─ Instance Management
+   |
+   ├─ Amazon S3
+   |   |
+   |   ├─ Buckets & Objects
+   |   └─ Data Management
+   |
+   ├─ AWS Networking
+   |   |
+   |   ├─ VPC
+   |   └─ Security Groups & Routing
+   |
+   └─ More Subjects
+       |
+       ├─ RDS
+       ├─ Monitoring & Logging
+       ├─ Auto Scaling & ELB
+       ├─ Security Best Practices
+       ├─ High Availability & DR
+       ├─ AWS CLI
+       └─ Exam Preparation
