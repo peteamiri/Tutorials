@@ -1,6 +1,60 @@
-# IPv6
+# IPv6 Structured Study Plan
 
-## IPv6 vs. IPv4
+As a seasoned technical instructor, I've developed a structured study plan for IPv6 that follows the Pareto principle, focusing on the key 20% of topics that yield 80% of the desired results. Below, you'll find a comprehensive plan along with reference links for each topic.
+
+## 1. IPv6 Basics (20%)
+
+- **IPv6 Fundamentals**
+  - [IPv6 Basics](https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-ipv6/configuration/guide/12-4t/ipv6-12-4t-book.html)
+
+- **IPv6 Addressing**
+  - [IPv6 Addressing Explained](https://www.cloudflare.com/learning/ddos/glossary/ipv6-addressing/)
+
+- **IPv6 Subnetting**
+  - [IPv6 Subnetting](https://www.cisco.com/c/en/us/support/docs/ip/ip-version-6-ipv6/113338-ipv6-subnetting.html)
+
+## 2. IPv6 Routing and Protocols (20%)
+
+- **IPv6 Routing Principles**
+  - [IPv6 Routing](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/15-mt/iro-15-mt-book/ip6-route-ospfv3.html)
+
+- **OSPFv3 for IPv6**
+  - [OSPFv3 Configuration](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13686-16.html)
+
+- **BGP for IPv6**
+  - [BGP Configuration for IPv6](https://www.juniper.net/documentation/en_US/junos/topics/topic-map/bgp-ipv6.html)
+
+## 3. IPv6 Security (20%)
+
+- **IPv6 Security Threats**
+  - [IPv6 Security Threats](https://www.sans.org/blog/ipv6-security-threats/)
+
+- **IPv6 Firewall Configuration**
+  - [IPv6 Firewall Configuration](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_data_acl/configuration/xe-16-6/sec-data-acl-xe-16-6-book/sec-acl-fire-ipv6.html)
+
+- **IPv6 VPNs and Encryption**
+  - [IPv6 VPNs](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_vpnips/configuration/xe-16/sec-conn-vpnips-xe-16-book/sec-vpn-ipv6.html)
+
+## 4. IPv6 Deployment Strategies (20%)
+
+- **Dual-Stack Implementation**
+  - [IPv6 Dual-Stack Implementation](https://ipv6.com/articles/dual-stack-implementation.htm)
+
+- **Tunneling Mechanisms**
+  - [IPv6 Tunneling Mechanisms](https://www.cisco.com/c/en/us/support/docs/ip/ip-version-6-ipv6/117263-configure-ipv6-00.html)
+
+- **Transition Mechanisms**
+  - [IPv6 Transition Mechanisms](https://www.juniper.net/documentation/en_US/junos/topics/topic-map/ipv6-transition.html)
+
+## 5. Practical Hands-On (20%)
+
+- **IPv6 Configuration Practice**
+  - Utilize tools like [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) and [GNS3](https://www.gns3.com/) for lab exercises.
+
+- **Troubleshooting IPv6 Connectivity**
+  - Refer to [IPv6 Troubleshooting Guide](https://www.cisco.com/c/en/us/td/docs/ios/solutions_docs/ip_addressing_services/configuration/guide/address_v6_troubleshoot.pdf) for practical guidance.
+
+By focusing on these core topics and utilizing the provided resources, you'll efficiently grasp IPv6 concepts and achieve your desired results. Remember to practice hands-on tasks and troubleshooting to solidify your knowledge.
 
 
 ## Learn More
