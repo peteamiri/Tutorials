@@ -20,6 +20,11 @@ Azure is a comprehensive cloud computing platform that offers a wide range of se
 
 These are just a few examples of the many components and services available in Azure. Each component serves a specific purpose and can be combined to build scalable, secure, and efficient cloud solutions.
 
+### See More
+
+* [Azure Components](https://azure.microsoft.com/en-us/products)
+* [javatpoint](https://www.javatpoint.com/microsoft-azure)
+
 #### Azure Compute Services
 
 Azure Compute Services are a core set of cloud computing services provided by Microsoft Azure. These services allow you to deploy, manage, and scale workloads and applications in the cloud. Azure Compute Services provide the infrastructure, tools, and platforms needed to create, deploy, and manage cloud computing solutions.
