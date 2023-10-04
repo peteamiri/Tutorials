@@ -99,3 +99,23 @@ An Azure account and an Azure cloud subscription are two different concepts with
 * Each subscription has its own resource limits, billing, and access control settings .
 
 In summary, an Azure account is the primary identity used to access Azure services, while an Azure cloud subscription is a container for organizing and managing resources within Azure.
+
+#### Azure Cloud Resource Manager
+
+Azure Resource Manager (ARM) is the deployment and management service for Microsoft Azure. It provides a management layer that allows you to create, update, and delete resources in your Azure account.
+
+Here are some key features and benefits of Azure Resource Manager:
+
+**1. Consistent Management Layer:** When you send a request through any of the Azure APIs, tools, or SDKs, Resource Manager receives the request. It authenticates and authorizes the request before forwarding it to the appropriate Azure service. This ensures consistent results and capabilities across different tools.
+
+**2. Organize Resources:** Azure Resource Manager allows you to organize resources in your application. You can group resources with a common lifecycle into a resource group, which can be deployed or deleted as a single action. This makes it easier to manage and visualize resources within your app. You can also apply tags to resources for categorization and management tasks.
+
+**3. Access Control:** With Azure Resource Manager, you have control over who in your organization can perform actions on the resources. You can manage permissions by defining roles and adding users or groups to those roles. For critical resources, you can apply explicit locks to prevent unauthorized deletion or modification. Azure Resource Manager also logs all user actions for auditing purposes.
+
+**4. Infrastructure as Code (IaC):** Azure Resource Manager is the native platform for Infrastructure as Code (IaC) in Azure. It allows you to define and deploy your Azure resources using ARM templates. ARM templates are JSON files that describe the desired state of your infrastructure. This enables you to automate and version control your deployments, making them more reliable and repeatable.
+
+**5. Troubleshooting and Support:** Azure Resource Manager provides documentation and resources to help troubleshoot deployments and manage your Azure solutions. You can find guidance on deploying ARM templates and troubleshooting deployment issues.
+
+In summary, Azure Resource Manager is a powerful service in Azure that allows you to deploy, manage, and organize your Azure resources. It provides a consistent management layer, access control, and supports Infrastructure as Code practices.
+
+Let me know if there's anything else I can assist you with!
