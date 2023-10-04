@@ -1,5 +1,7 @@
 ## Azure Resource
 
+![Azure Cloud resource grouping](images/azure-resource-group-hierarchy.png)
+
 # What is a Resource Group in Azure Cloud?
 
 A resource group in Azure is a **logical container** that allows you to organize and manage related Azure resources as a single unit. **It simplifies resource management, deployment, and monitoring within the Azure environment**.
