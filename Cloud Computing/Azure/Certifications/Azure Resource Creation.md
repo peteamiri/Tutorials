@@ -1,6 +1,6 @@
 # Resouorce Creation
 
-![Methods to create Resource inn Azure Cloud](images/azure-resource-group-hierarchy.png)
+![Methods to create Resource in Azure Cloud](images/consistent-management-layer.png)
 
 To create resources in the Azure cloud, you have several options depending on your preference and familiarity with different tools. Here are a few common methods:
 
