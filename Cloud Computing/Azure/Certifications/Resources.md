@@ -76,3 +76,26 @@ Azure Resource Manager plays a crucial role in infrastructure management and res
 2. [Azure Resource Manager documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/)
 3. [Azure Resource Manager (ARM) Benefits and Best Practices](https://bluexp.netapp.com/blog/azure-cvo-blg-azure-resource-manager-arm-benefits-and-best-practices)
 4. [What is Azure Resource Manager](https://www.javatpoint.com/what-is-azure-resource-manager)
+
+
+## Azure Cloud Subscription vs. Azure Account
+An Azure account and an Azure cloud subscription are two different concepts within the Microsoft Azure ecosystem.
+
+### Azure Account:
+
+* An Azure account is a global unique entity that provides access to Azure services and resources.
+* It serves as the primary identity for managing and accessing Azure services.
+* With an Azure account, you can create and manage multiple Azure subscriptions.
+* An Azure account is associated with a Microsoft account or a work or school account (Azure Active Directory).
+* It is used for billing, authentication, and access control purposes .
+
+## Azure Cloud Subscription:
+
+* An Azure cloud subscription is a grouping of resources within Azure.
+* It acts as a container for organizing and managing resources such as virtual machines, storage accounts, databases, and more.
+* Each Azure subscription has an assigned owner who is responsible for managing billing and permissions for the resources within that subscription.
+* Subscriptions provide a unit of management, billing, and scale within Azure.
+* Multiple subscriptions can be associated with a single Azure account.
+* Each subscription has its own resource limits, billing, and access control settings .
+
+In summary, an Azure account is the primary identity used to access Azure services, while an Azure cloud subscription is a container for organizing and managing resources within Azure.
