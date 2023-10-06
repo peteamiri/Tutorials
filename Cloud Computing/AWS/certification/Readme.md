@@ -1,9 +1,89 @@
+**AWS Cloud Architect Associate Certification Study Plan**
+
+**Pareto Principle Applied**
+
+The Pareto Principle, also known as the 80/20 rule, states that for many events, roughly 80% of the effects come from 20% of the causes. This principle can be applied to studying for the AWS Cloud Architect Associate certification exam by focusing on the 20% of the topics that are most likely to appear on the exam.
+
+The following study plan is based on the Pareto Principle and covers the 20% of the most important topics for the AWS Cloud Architect Associate certification exam:
+
+**Week 1**
+
+* **Cloud Computing Concepts**
+    * What is cloud computing?
+    * What are the different types of cloud computing?
+    * What are the benefits of cloud computing?
+    * **Resources:**
+        * [AWS Cloud Computing:](https://aws.amazon.com/what-is-cloud-computing/)
+        * [Cloud Computing Concepts:](https://www.lucidchart.com/blog/cloud-computing-basics)
+        * [What is Cloud Computing? (Advantages, Disadvantages, Types):](https://www.guru99.com/advantages-disadvantages-cloud-computing.html)
+* **AWS Overview**
+    * What is AWS?
+    * What are the core AWS services?
+    * How does AWS work?
+    * **Resources:**
+        * [AWS Overview:](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/amazon-web-services-cloud-platform.html)
+        * [AWS Core Services:](https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/core-services-and-additional-services.html)
+        * [How AWS Works:](https://www.youtube.com/watch?v=qcY-uiEHhn0)
+* **AWS Well-Architected Framework**
+    * What is the AWS Well-Architected Framework?
+    * What are the six pillars of the AWS Well-Architected Framework?
+    * How to use the AWS Well-Architected Framework to design and build secure, reliable, efficient, and cost-effective AWS solutions.
+    * **Resources:**
+        * [AWS Well-Architected Framework Overview:](https://aws.amazon.com/architecture/well-architected/)
+        * [The Six Pillars of the AWS Well-Architected Framework:](https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/)
+        * [How to Use the AWS Well-Architected Framework:](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+
+**Week 2**
+
+* **EC2**
+    * What is EC2?
+    * What are the different types of EC2 instances?
+    * How to launch and manage EC2 instances
+    * **Resources:**
+        * [Amazon Elastic Compute Cloud (Amazon EC2): https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
+        * [Amazon EC2 Instance Types: https://aws.amazon.com/ec2/instance-types/)
+        * [Launching and Managing Amazon EC2 Instances: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/LaunchingAndUsingInstances.html)
+* **S3**
+    * What is S3?
+    * What are the different types of S3 storage classes?
+    * How to upload, download, and manage objects in S3
+    * **Resources:**
+        * [Amazon Simple Storage Service (Amazon S3): https://aws.amazon.com/s3/getting-started/)
+        * [Amazon S3 Storage Classes: https://aws.amazon.com/s3/storage-classes/)
+        * [Uploading, Downloading, and Managing Objects in Amazon S3: https://docs.aws.amazon.com/AmazonS3/latest/userguide/uploading-downloading-objects.html)
+* **RDS**
+    * What is RDS?
+    * What are the different types of RDS database engines?
+    * How to create and manage RDS databases
+    * **Resources:**
+        * [Amazon Relational Database Service (Amazon RDS):](https://aws.amazon.com/rds/)
+        * [Amazon RDS Database Engines:](https://aws.amazon.com/rds/)
+        * [Creating and Managing Amazon RDS Databases:](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_RDS_Managing.html)
+
+**Week 3**
+
+* **VPC**
+    * What is a VPC?
+    * How to create and manage VPCs
+    * How to configure subnets and security groups
+    * **Resources:**
+        * [Amazon Virtual Private Cloud (Amazon VPC):](https://aws.amazon.com/vpc/)
+        * [Creating and Managing Amazon VPCs:](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html)
+        * [Configuring Subnets and Security Groups in Amazon VPC:](https://www.youtube.com/watch?v=s4HKoaT6SZE)
+* **IAM**
+    * What is IAM?
+    * How to create and manage IAM users and roles
+    * How to assign permissions to IAM users and roles
+    * **Resources:**
+        * [AWS Identity and Access Management (IAM):](https://aws.amazon.com/iam/)
+        * [Creating and Managing IAM Users and Roles:](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+        * Assigning Permissions to IAM Users and Roles
+
 ## Resources
 
 * [AWS certification information](https://aws.amazon.com/certification/)
 * [Summary of Services](https://www.youtube.com/watch?v=TkT4iFRkaZk)
 * [AWS Certification](https://www.youtube.com/watch?v=ye7hgGZwSsY&list=PLJIqXVV4K5LXEGBDPy1mxigzNVMAzkOHv)
-
 * [AWS Quickstart Sourcecodes](https://github.com/aws-quickstart)
 
 ## IAAS, PAAS, SAAS
