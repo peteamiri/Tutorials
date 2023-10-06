@@ -4,7 +4,7 @@
 This study plan is designed to help you efficiently learn Azure Cloud Security, emphasizing the key topics using the Pareto Principle, which suggests that 20% of the topics yield 80% of the results.
 
 ## Week 1: Azure Security Fundamentals (20%)
-- **Day 1-2:** [Introduction to Azure Security](https://docs.microsoft.com/en-us/azure/security/fundamentals/intro-to-security-in-azure)
+- **Day 1-2:** [Introduction to Azure Security](https://learn.microsoft.com/en-us/azure/security/fundamentals/)
 - **Day 3-4:** [Azure Identity and Access Management (IAM)](https://docs.microsoft.com/en-us/azure/active-directory/identity-access-management-what-is)
 - **Day 5-7:** [Azure Resource Locks and Policies](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources)
 
