@@ -1,8 +1,4 @@
-**AWS Cloud Architect Associate Certification Study Plan**
-
-**Pareto Principle Applied**
-
-The Pareto Principle, also known as the 80/20 rule, states that for many events, roughly 80% of the effects come from 20% of the causes. This principle can be applied to studying for the AWS Cloud Architect Associate certification exam by focusing on the 20% of the topics that are most likely to appear on the exam.
+## AWS Cloud Architect Associate Certification Study Plan
 
 The following study plan is based on the Pareto Principle and covers the 20% of the most important topics for the AWS Cloud Architect Associate certification exam:
 
