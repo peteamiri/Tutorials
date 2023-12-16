@@ -29,7 +29,7 @@ Utilizing Pareto's Principle, focus on key areas for comprehensive understanding
 
 AWS EC2 (Amazon Elastic Compute Cloud) is a web service provided by Amazon Web Services (AWS) that allows users to rent virtual servers, known as instances, in the cloud. EC2 provides scalable computing capacity, allowing users to quickly scale up or down based on their needs.
 
-** Key Features of AWS EC2**:
+**Key Features of AWS EC2**:
 
 1. Instances: EC2 allows users to create and manage virtual instances, which are essentially virtual servers running in the cloud. Users can choose from a wide range of instance types based on their requirements, such as CPU, memory, storage, and networking capabilities.
 
