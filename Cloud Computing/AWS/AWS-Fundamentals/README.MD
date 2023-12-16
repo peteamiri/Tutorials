@@ -1,32 +1,59 @@
 # Detailed Study Plan for AWS Cloud Computing
 
-## 🗒️ Overview
+##  Overview
 Utilizing Pareto's Principle, focus on key areas for comprehensive understanding of AWS cloud computing.
 
-1. **Foundational Understanding**
-   - **AWS Services Overview** [1](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526): Grasp fundamental services like EC2, S3, VPC, and IAM crucial for architecture and deployment.
-   - **Pareto Principle Application** [5](https://geniusee.com/single-blog/pareto-principle-in-it-security): Identify critical services contributing significantly to cloud infrastructure.
+# Major Services in AWS Cloud (as a starting point)
 
-2. **Core Services Mastery**
-   - **EC2 and S3 Deep Dive** [1](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526): Gain expertise in Elastic Compute Cloud (EC2) and Simple Storage Service (S3) due to their prevalent usage.
-   - **Cost Optimization Techniques** [4](https://www.linkedin.com/posts/upstart-network_how-upstart-cut-near-10m-in-aws-cloud-costs-activity-7077766706730860545-8yUN?trk=public_profile_like_view): Learn about cost-saving strategies leveraging AWS services efficiently.
+1. **Amazon EC2 (Elastic Compute Cloud)**
+2. **Amazon RDS (Relational Database Service)**
+3. **Amazon S3 (Simple Storage Service)**
+4. **Amazon VPC (Virtual Private Cloud)**
+5. **Amazon CloudFront**
+6. **AWS Lambda**
+7. **Amazon DynamoDB**
+8. **AWS IAM (Identity and Access Management)**
+9. **Amazon SQS (Simple Queue Service)**
+10. **Amazon Route 53**
 
-3. **Security and Compliance**
-   - **Cloud Security Essentials** [3](https://www.helpnetsecurity.com/2020/03/12/paretos-principle-cloud-security/): Understand key security measures to implement in AWS, aligning with compliance standards.
-   - **Identity and Access Management (IAM)** [1](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526): Master IAM for robust access control.
-
-4. **Practical Application**
-   - **Scenario-based Learning** [6](https://www.reddit.com/r/aws/comments/b4ybsn/where_to_study_for_scenario_questions/): Practice with scenario-based questions for hands-on application of learned concepts.
-   - **Real-world Projects** [1](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526): Engage in projects to apply theoretical knowledge in practical situations.
-
-5. **Continuous Learning**
-   - **AWS Official Documentation** [1](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526): Regularly update knowledge through AWS official documentation and whitepapers.
-   - **Community Engagement** [6](https://www.reddit.com/r/aws/comments/b4ybsn/where_to_study_for_scenario_questions/): Engage in AWS forums for discussions, updates, and problem-solving.
 
 ## 🌐 Sources
-1. [medium.com - Study Techniques and Tips to pass the AWS Certified...](https://medium.com/@richardleecba/study-techniques-and-tips-to-pass-the-aws-certified-solutions-architect-associate-a241834f6526)
-2. [aws.amazon.com - How to establish and drive a forecasting culture](https://aws.amazon.com/blogs/aws-cloud-financial-management/how-to-establish-and-drive-a-forecasting-culture/)
-3. [helpnetsecurity.com - Applying the 80/20 rule to cloud security](https://www.helpnetsecurity.com/2020/03/12/paretos-principle-cloud-security/)
-4. [linkedin.com - How Upstart Cut Near $10M in AWS Cloud Costs...](https://www.linkedin.com/posts/upstart-network_how-upstart-cut-near-10m-in-aws-cloud-costs-activity-7077766706730860545-8yUN?trk=public_profile_like_view)
-5. [geniusee.com - Pareto Principle in IT Security](https://geniusee.com/single-blog/pareto-principle-in-it-security)
-6. [reddit.com - Where to study for scenario questions?](https://www.reddit.com/r/aws/comments/b4ybsn/where_to_study_for_scenario_questions/)
+1. [aws.amazon.com - AWS Cloud Products](https://aws.amazon.com/products/)
+2. [allcode.com - Top AWS Services List 2023](https://allcode.com/top-aws-services/)
+3. [aws.amazon.com - Cloud Computing with AWS](https://aws.amazon.com/what-is-aws/)
+4. [insider.ssi-net.com - The Top 10 Most Used AWS Services](https://insider.ssi-net.com/insights/the-top-10-most-used-aws-services)
+5. [mindmajix.com - Top 30 AWS Services List to Choose in 2023](https://mindmajix.com/top-aws-services)
+6. [aws.amazon.com - Types of Cloud Computing](https://aws.amazon.com/types-of-cloud-computing/)
+
+## **Amazon EC2 (Elastic Compute Cloud)**
+
+AWS EC2 (Amazon Elastic Compute Cloud) is a web service provided by Amazon Web Services (AWS) that allows users to rent virtual servers, known as instances, in the cloud. EC2 provides scalable computing capacity, allowing users to quickly scale up or down based on their needs.
+
+** Key Features of AWS EC2**:
+
+1. Instances: EC2 allows users to create and manage virtual instances, which are essentially virtual servers running in the cloud. Users can choose from a wide range of instance types based on their requirements, such as CPU, memory, storage, and networking capabilities.
+
+2. Elastic IP Addresses: EC2 provides the option to assign static public IP addresses, known as Elastic IP addresses, to instances. This allows users to maintain a consistent IP address even if the instance is stopped or restarted.
+
+3. Security Groups: EC2 uses security groups to control inbound and outbound traffic to instances. Users can define rules to allow or deny specific types of traffic based on protocols, ports, and IP addresses.
+
+4. Storage Options: EC2 offers various storage options, including Amazon Elastic Block Store (EBS) for persistent block-level storage, Amazon Elastic File System (EFS) for scalable file storage, and instance store volumes for temporary storage.
+
+5. Auto Scaling: EC2 Auto Scaling enables users to automatically adjust the number of instances based on demand. It helps maintain application availability and optimize costs by scaling up or down based on predefined policies.
+
+6. Load Balancing: EC2 Load Balancers distribute incoming traffic across multiple instances to improve application availability and fault tolerance. Users can choose between the Application Load Balancer (ALB) and the Network Load Balancer (NLB) based on their specific needs.
+
+7. Virtual Private Cloud (VPC) Integration: EC2 instances can be launched within a Virtual Private Cloud (VPC), providing users with control over their virtual network environment. Users can define subnets, configure routing tables, and apply network access control lists (ACLs) to secure their instances.
+
+8. Integration with Other AWS Services: EC2 seamlessly integrates with other AWS services, such as Amazon S3 for object storage, Amazon RDS for managed databases, and AWS Lambda for serverless computing.
+
+
+## **Amazon RDS (Relational Database Service)**
+## **Amazon S3 (Simple Storage Service)**
+## **Amazon VPC (Virtual Private Cloud)**
+## **AWS Lambda**
+## **Amazon CloudFront**
+## **Amazon DynamoDB**
+## **AWS IAM (Identity and Access Management)**
+## **Amazon SQS (Simple Queue Service)**
+## **Amazon Route 53**
