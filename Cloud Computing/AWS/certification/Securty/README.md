@@ -1,4 +1,4 @@
-## 🗒️ Answer
+## AWS Seccurity certification
 
 To prepare effectively for the AWS Certified Security - Specialty exam, applying the Pareto principle can streamline your study plan. Focusing on core areas that cover a significant portion of the exam:
 
