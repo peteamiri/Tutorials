@@ -1,7 +1,7 @@
 # Domain Name system (DNS)
 #### Network DNS Service
 
-The Domain Name System (DNS) is a critical component of the internet that allows communication across devices on a network. DNS is a hierarchical naming system built on a distributed database for computers, services, or any resource connected to the internet or a private network. Its primary function is to translate human-readable domain names (like example.com) into the numerical IP addresses associated with networking equipment, enabling devices to be located and connected worldwide.
+The Domain Name System (DNS) is a critical component of the internet that allows communication across devices on a network. DNS is a hierarchical distributed database to translate human-readable domain names (like example.com) into the numerical IP addresses associated with networking equipment, enabling devices to be located and connected worldwide public or private network.  
 
 A network DNS service refers to the infrastructure and servers responsible for managing and resolving DNS queries. These servers store DNS records that map domain names to their corresponding IP addresses. When a user enters a domain name into a browser, the DNS service is responsible for resolving that domain name to the correct IP address so that the requested information can be retrieved from the appropriate server.
 
