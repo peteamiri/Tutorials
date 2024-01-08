@@ -1,68 +1,68 @@
 Here's a detailed curriculum structured in modules:
 
-### Module 1: Introduction to Salesforce
+### Chapter 1: Introduction to Salesforce
 - Overview of Salesforce: its history, key features, and benefits
 - Understanding the Salesforce ecosystem: Sales Cloud, Service Cloud, Marketing Cloud, etc.
 - Creating a Salesforce Developer Account
 - Navigation and interface overview
 
-### Module 2: Salesforce Basics
+### Chapter 2: Salesforce Basics
 - User setup and management: profiles, permissions, roles
 - Data model fundamentals: objects, fields, records, relationships
 - Introduction to data import and export
 
-### Module 3: Salesforce Customization
+### Chapter 3: Salesforce Customization
 - Customizing fields, page layouts, and record types
 - Building custom objects and relationships
 - Creating workflows, approval processes, and validation rules
 - Introduction to formulas and expressions
 
-### Module 4: Salesforce Automation
+### Chapter 4: Salesforce Automation
 - Introduction to Process Builder and Flow Builder
 - Automation with workflows and triggers
 - Hands-on exercises for building simple automations
 
-### Module 5: Salesforce Security
+### Chapter 5: Salesforce Security
 - Data security and sharing settings
 - Role hierarchy and sharing rules
 - Managing user access and permissions
 
-### Module 6: Reports and Dashboards
+### Chapter 6: Reports and Dashboards
 - Creating and customizing reports
 - Building dashboards and dynamic dashboards
 - Data visualization best practices
 
-### Module 7: Salesforce App Development
+### Chapter 7: Salesforce App Development
 - Introduction to Salesforce Lightning App Builder
 - Building and customizing Lightning pages
 - Basics of Salesforce mobile app development
 
-### Module 8: Integration and APIs
+### Chapter 8: Integration and APIs
 - Understanding Salesforce APIs
 - Integrating external systems with Salesforce
 - Hands-on exercises on basic integrations
 
-### Module 9: Advanced Salesforce Features
+### Chapter 9: Advanced Salesforce Features
 - Advanced customization techniques
 - Advanced automation using Apex (triggers, classes)
 - Salesforce CPQ (Configure, Price, Quote) and Service Cloud advanced functionalities
 
-### Module 10: Salesforce Certification Preparation
+### Chapter 10: Salesforce Certification Preparation
 - Overview of Salesforce certification tracks
 - Tips and resources for certification preparation
 - Sample questions and mock exams
 
-### Module 11: Project Workshops
+### Chapter 11: Project Workshops
 - Real-life scenario-based projects for practical application
 - Guided project work to apply learned concepts
 
-### Module 12: Best Practices and Conclusion
+### Chapter 12: Best Practices and Conclusion
 - Best practices for Salesforce development and administration
 - Recap of key learnings
 - Resources for continued learning and community engagement
 
 
-# Module 1: Introduction to Salesforce
+# Chapter 1: Introduction to Salesforce
 
 Salesforce is a cloud-based Customer Relationship Management (CRM) platform that offers a suite of tools and services to help businesses manage their sales, marketing, customer service, and more. Here's an overview:
 
@@ -165,7 +165,7 @@ The Salesforce Ecosystem is versatile, offering a range of solutions that cater 
 Salesforce's flexibility, scalability, and comprehensive suite of tools make it a leading CRM solution across various industries, empowering businesses to streamline operations, drive growth, and build stronger customer relationships.
 
 
-### Module 2 Salesforce Basics
+### Chapter 2 Salesforce Basics
 
 let's delve into the fundamental aspects of Salesforce:
 
