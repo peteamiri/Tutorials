@@ -1,4 +1,4 @@
-Here's a detailed curriculum structured in modules:
+Here's a detailed structured of this document:
 
 ### Chapter 1: Introduction to Salesforce
 - Overview of Salesforce: its history, key features, and benefits
@@ -165,7 +165,7 @@ The Salesforce Ecosystem is versatile, offering a range of solutions that cater 
 Salesforce's flexibility, scalability, and comprehensive suite of tools make it a leading CRM solution across various industries, empowering businesses to streamline operations, drive growth, and build stronger customer relationships.
 
 
-### Chapter 2 Salesforce Basics
+# Chapter 2 Salesforce Basics
 
 let's delve into the fundamental aspects of Salesforce:
 
