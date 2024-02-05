@@ -25,38 +25,37 @@ Notes:
 
 ## Nearby Solar systems
 
-Here's a table listing some nearby star systems in order of their distance from our solar system. Please note that information about the number of planets, size, and type of planet for most of these systems may not be available or well-constrained due to current limitations in detection methods.
+Creating a table with detailed information about other solar systems beyond our own (exoplanetary systems) is challenging due to the vast number of known exoplanets and the limitations in observational data. However, I can provide a simplified table listing some notable exoplanetary systems in order of their distance from our solar system, along with basic information such as the size of the host star and the number of known planets:
 
-| Solar System   | Distance from Our Solar System (light-years) | Number of Planets | Size | Type of Star |
-|----------------|----------------------------------------------|-------------------|------|--------------|
-| Alpha Centauri | 4.37                                         | Unknown           | Unknown | Triple star system (Alpha Centauri A, B, Proxima Centauri) |
-| Barnard's Star | 5.96                                         | Unknown           | Unknown | Red dwarf star |
-| Luhman 16      | 6.5                                          | Unknown           | Unknown | Binary brown dwarf system |
-| Wolf 359       | 7.78                                         | Unknown           | Unknown | Red dwarf star |
-| Lalande 21185  | 8.29                                         | Unknown           | Unknown | Red dwarf star |
-| Sirius         | 8.58                                         | Unknown           | Unknown | Binary star system (Sirius A, Sirius B) |
-| Ross 154       | 9.68                                         | Unknown           | Unknown | Red dwarf star |
+| Solar System              | Distance from Our Solar System (light-years) | Size of Host Star | Number of Planets | Type of Planets                 |
+|---------------------------|----------------------------------------------|-------------------|-------------------|---------------------------------|
+| Proxima Centauri          | 4.24                                         | Small (Red Dwarf) | 1                 | Rocky, potentially habitable   |
+| TRAPPIST-1                | 39                                           | Small (M-type)    | 7                 | Rocky, potentially habitable   |
+| Kepler-11                 | ~2,000                                       | Medium (G-type)   | 6                 | Mostly gas/ice giants          |
+| Kepler-90                 | ~2,500                                       | Medium (G-type)   | 8                 | Rocky, gas/ice giants          |
+| HD 10180                  | ~127                                          | Medium (G-type)   | 7                 | Mix of gas giants and terrestrials |
+| WASP-47                   | ~460                                          | Large (F-type)    | 4                 | Mix of gas giants and terrestrials |
 
-Notes:
-- The number of planets, size, and type of planet for these star systems are largely unknown or poorly constrained due to current limitations in detection methods.
-- These distances are approximate and may vary slightly depending on the method used to measure them.
-- Some of these systems may have been identified as potentially hosting exoplanets, but detailed information about these planets may not be available.
-- The type of star is provided for each system based on its primary star or stars.
+Please note:
+- Distances are approximate and can vary depending on the method used for measurement.
+- The size of the host star is categorized as small (such as a red dwarf), medium (such as a G-type like our Sun), or large (such as an F-type).
+- The number of planets listed is based on current knowledge and may change as new exoplanets are discovered.
+- The type of planets is categorized broadly as rocky (terrestrial), gas giants, or ice giants, based on their composition and characteristics. Some systems may have a mix of different types of planets.
 
 # Galaxies Near US
 
-Below is a table listing some nearby galaxies in order of their distance from the Milky Way galaxy, along with their type of galaxy:
+Creating a table with detailed information such as size in light-years for galaxies beyond our own is challenging due to the vast distances involved and limitations in observational data. However, I can provide a simplified table listing some nearby galaxies in order of their distance from the Milky Way, along with their type of galaxy:
 
-| Galaxy                    | Type of Galaxy          | Distance from Milky Way (million light-years) |
-|---------------------------|-------------------------|-----------------------------------------------|
-| Andromeda Galaxy (M31)   | Spiral                  | 2.537                                         |
-| Triangulum Galaxy (M33)  | Spiral                  | 2.73                                          |
-| Large Magellanic Cloud   | Irregular               | ~160,000                                      |
-| Small Magellanic Cloud   | Irregular               | ~200,000                                      |
-| Messier 81 (Bode's Galaxy) | Spiral                | ~12 million                                   |
-| Messier 82 (Cigar Galaxy)  | Starburst              | ~12 million                                   |
+| Galaxy                    | Type of Galaxy   | Distance from Milky Way (million light-years) | Size (approximate)     |
+|---------------------------|------------------|-----------------------------------------------|-------------------------|
+| Andromeda Galaxy (M31)   | Spiral           | 2.537                                         | ~220,000 light-years    |
+| Triangulum Galaxy (M33)  | Spiral           | 2.73                                          | ~60,000 light-years     |
+| Large Magellanic Cloud   | Irregular        | ~160,000                                      | ~14,000 light-years     |
+| Small Magellanic Cloud   | Irregular        | ~200,000                                      | ~7,000 light-years      |
+| Messier 81 (Bode's Galaxy) | Spiral         | ~12 million                                   | ~95,000 light-years     |
+| Messier 82 (Cigar Galaxy)  | Starburst       | ~12 million                                   | ~37,000 light-years     |
 
 Please note:
 - Distances are approximate and can vary depending on the method used for measurement.
 - The types of galaxies are based on their visual appearance and structural characteristics, which are broadly classified into categories such as spiral, elliptical, irregular, and peculiar galaxies.
-- The Milky Way is not included in this table as we are considering other galaxies in relation to it.
+- The sizes of galaxies are estimated based on their observed extent, which can vary depending on the method used for measurement and the definition of the galaxy's boundaries. The sizes provided here are approximate and may not represent the full extent of each galaxy.
