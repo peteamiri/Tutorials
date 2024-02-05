@@ -21,3 +21,23 @@ Notes:
 - The type of planet is categorized as either Terrestrial, Gas Giant, or Ice Giant.
 - The number of moons listed is based on current knowledge and may change as new moons are discovered.
 - The names of some significant moons for each planet are listed. Each planet may have additional smaller moons not listed here.
+
+## Our nearby Solar systems
+
+Here's a table listing some nearby star systems in order of their distance from our solar system. Please note that information about the number of planets, size, and type of planet for most of these systems may not be available or well-constrained due to current limitations in detection methods.
+
+| Solar System   | Distance from Our Solar System (light-years) | Number of Planets | Size | Type of Star |
+|----------------|----------------------------------------------|-------------------|------|--------------|
+| Alpha Centauri | 4.37                                         | Unknown           | Unknown | Triple star system (Alpha Centauri A, B, Proxima Centauri) |
+| Barnard's Star | 5.96                                         | Unknown           | Unknown | Red dwarf star |
+| Luhman 16      | 6.5                                          | Unknown           | Unknown | Binary brown dwarf system |
+| Wolf 359       | 7.78                                         | Unknown           | Unknown | Red dwarf star |
+| Lalande 21185  | 8.29                                         | Unknown           | Unknown | Red dwarf star |
+| Sirius         | 8.58                                         | Unknown           | Unknown | Binary star system (Sirius A, Sirius B) |
+| Ross 154       | 9.68                                         | Unknown           | Unknown | Red dwarf star |
+
+Notes:
+- The number of planets, size, and type of planet for these star systems are largely unknown or poorly constrained due to current limitations in detection methods.
+- These distances are approximate and may vary slightly depending on the method used to measure them.
+- Some of these systems may have been identified as potentially hosting exoplanets, but detailed information about these planets may not be available.
+- The type of star is provided for each system based on its primary star or stars.
