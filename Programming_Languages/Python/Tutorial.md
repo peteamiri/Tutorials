@@ -1576,6 +1576,27 @@ PyInstaller is a popular tool that can be used to convert Python scripts into st
   ```
   pyinstaller your_script_name.py
   ```
+  # Chapter XX Standard Library
+  ## Operating System Interface
+  ## File Wildcards
+  ## Command Line Arguments
+  ## Error Output Redirection and Program Termination
+  ## String Pattern Matching
+  ## Mathematics
+  ## Internet Access
+  ## Dates and Times
+  ## Data Compression
+  ## Performance Measurement
+  ## Quality Control
+  ## Batteries Included
+  ## Output Formatting
+  ## Templating
+  ## Working with Binary Data Record Layouts
+  ## Multi-threading
+  ## Logging
+  ## Weak References
+  ## Tools for Working with Lists
+  ## Decimal Floating Point Arithmetic
 
 #### Using auto-py-to-exe:
 auto-py-to-exe is another tool that provides a graphical user interface to convert Python scripts into executable files. It simplifies the process of creating standalone executables from Python scripts. To use auto-py-to-exe, you can install it using the following command:
