@@ -796,10 +796,10 @@ These are just a few examples of the many math functions available in Python's `
 ## while loops
 ## for loops
 ## nested loops
-## reak continue pass
+## Break continue pass
 ## functions
 ## return statement
-## eyword arguments
+## Keyword arguments
 ## nested function calls
 ## variable scope
 ## *args
@@ -872,6 +872,7 @@ These are just a few examples of the many math functions available in Python's `
 ## clock program
 ## send an email
 ## run with command prompt
+
 ## pip
 In Python, `pip` is the standard package manager used for installing, managing, and distributing Python packages. It stands for "Pip Installs Packages" or "Preferred Installer Program". Pip allows you to easily install and manage libraries, frameworks, and other software packages written in Python from the Python Package Index (PyPI) or other sources.
 
