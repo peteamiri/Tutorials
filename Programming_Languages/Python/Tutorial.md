@@ -286,6 +286,8 @@ To access a docstring in Python, you can use the `__doc__` method of the object 
 
 These methods allow you to retrieve and access the docstring associated with a function, class, or method in Python.
 
+# Chapter 3 Printing
+
 ## Printing
 
 Examples of `print` statements in Python 3:
@@ -346,7 +348,7 @@ print("World")
 # Output: Hello World (without a newline in between)
 ```
 
-## variables
+# Chapter 4 variables
 
 In programming languages, variables are used to store data that can be referenced and manipulated throughout the program. Variables provide a way to label and store information temporarily in computer memory. Here are some key points about variables in programming languages:
 
