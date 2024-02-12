@@ -1,4 +1,4 @@
-# Python Tutrial
+# Chaptre 1 Python Tutrial
 Python is a high-level, interpreted, and general-purpose programming language that emphasizes simplicity, readability, and ease of use. Developed by Guido van Rossum and first released in 1991, Python has since become one of the most popular programming languages worldwide, renowned for its versatility and vast ecosystem of libraries and frameworks.
 
 Key features of Python include:
@@ -20,6 +20,8 @@ Key features of Python include:
 8. **Community-driven**: Python has a large and active community of developers who contribute to its development, provide support, share knowledge, and create a wealth of resources, tutorials, and tools.
 
 Python is widely used in various domains, including web development, data science, artificial intelligence, machine learning, scientific computing, automation, scripting, and more. Its simplicity, flexibility, and robustness make it an ideal choice for both beginners and experienced programmers alike.
+
+# Chapter 2 Comments
 
 ## Comments
 Comments in programming code are non-executable statements used to provide explanations, documentation, or annotations within the code itself. They are ignored by the compiler or interpreter and do not affect the execution of the program. Comments are essential for improving code readability, understanding, and maintenance. Here are some key points about comments:
