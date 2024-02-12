@@ -485,6 +485,8 @@ x, *y, z = values
 In this case, `x` will be assigned the first value, `z` will be assigned the last value, and `y` will be a list containing the remaining values.
 
 These are some examples of how you can use multiple assignments in Python to assign values to variables efficiently.
+# Chapter XX Data Structure
+
 ## lists
 ## 2D lists
 ## tuples
@@ -950,22 +952,36 @@ print(math.e)   # Output: 2.718281828459045
 
 These are just a few examples of the many math functions available in Python's `math` module. You can explore the complete list of functions and constants in the official Python documentation.
 
-
+# Chapter XX Flow Control
 ## if statements
 ## logical operators
 ## while loops
 ## for loops
 ## nested loops
 ## Break continue pass
-## functions
+
+# Chapter XX functions
 ## return statement
 ## Keyword arguments
 ## nested function calls
 ## variable scope
+
 ## *args
 ## **kwargs
 ## random numbers
-## exception handling
+
+# Chapter XX Errors and Exceptions
+## Syntax Errors
+## Exceptions
+## Handling Exceptions
+## Raising Exceptions
+## Exception Chaining
+## User-defined Exceptions
+## Defining Clean-up Actions
+## Predefined Clean-up Actions
+## Raising and Handling Multiple Unrelated Exceptions
+## Enriching Exceptions with Notes
+
 # Chapter XX working with Files
 In Python 3, file manipulation refers to the process of reading from and writing to files on the filesystem. Python provides built-in functions and methods for performing various file operations, including opening, reading, writing, closing, and manipulating files. Here's an overview of file manipulation in Python 3:
 
