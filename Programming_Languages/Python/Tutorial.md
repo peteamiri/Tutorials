@@ -270,7 +270,107 @@ byte_data = bytearray(b"world")
 ```
 
 ## multiple assignment
+
+Multiple assignments in Python allow you to assign multiple values to multiple variables in a single line. Here are some examples:
+
+1. Assigning multiple values to multiple variables:
+```python
+x, y, z = 1, 2, 3
+```
+
+2. Swapping values between variables:
+```python
+a, b = 10, 20
+a, b = b, a
+print("a:", a)  # Output: 20
+print("b:", b)  # Output: 10
+```
+
+3. Assigning multiple values to a single variable (using unpacking with an iterable):
+```python
+numbers = [1, 2, 3, 4]
+a, b, c, d = numbers
+```
+
+4. Assigning multiple values to the same variable:
+```python
+x = y = z = 0
+```
+
+5. Using the * (splat) operator for unpacking:
+```python
+values = (1, 2, 3, 4, 5)
+x, *y, z = values
+```
+In this case, `x` will be assigned the first value, `z` will be assigned the last value, and `y` will be a list containing the remaining values.
+
+These are some examples of how you can use multiple assignments in Python to assign values to variables efficiently.
+
 ## string methods
+Certainly! Here are examples of various string methods in Python 3:
+
+1. `upper()`: Converts all characters in a string to uppercase.
+```python
+string = "hello world"
+print(string.upper())  # Output: "HELLO WORLD"
+```
+
+2. `lower()`: Converts all characters in a string to lowercase.
+```python
+string = "HELLO WORLD"
+print(string.lower())  # Output: "hello world"
+```
+
+3. `capitalize()`: Converts the first character of a string to uppercase and the rest to lowercase.
+```python
+string = "hello world"
+print(string.capitalize())  # Output: "Hello world"
+```
+
+4. `title()`: Converts the first character of each word in a string to uppercase.
+```python
+string = "hello world"
+print(string.title())  # Output: "Hello World"
+```
+
+5. `strip()`: Removes leading and trailing whitespace characters from a string.
+```python
+string = "   hello world   "
+print(string.strip())  # Output: "hello world"
+```
+
+6. `replace()`: Replaces occurrences of a specified substring with another substring.
+```python
+string = "hello world"
+print(string.replace("world", "universe"))  # Output: "hello universe"
+```
+
+7. `split()`: Splits a string into a list of substrings based on a delimiter.
+```python
+string = "apple,banana,orange"
+print(string.split(","))  # Output: ['apple', 'banana', 'orange']
+```
+
+8. `join()`: Concatenates elements of an iterable (e.g., a list) into a single string, with a specified separator.
+```python
+words = ["apple", "banana", "orange"]
+print(",".join(words))  # Output: "apple,banana,orange"
+```
+
+9. `startswith()`: Checks if a string starts with a specified prefix.
+```python
+string = "hello world"
+print(string.startswith("hello"))  # Output: True
+```
+
+10. `endswith()`: Checks if a string ends with a specified suffix.
+```python
+string = "hello world"
+print(string.endswith("world"))  # Output: True
+```
+
+These are just a few examples of string methods available in Python 3. Python provides many more string methods for various string manipulation tasks.
+
 ## type cast
 ## user input
 ## math functions
