@@ -109,7 +109,129 @@ for name in names:
 
 These examples demonstrate various ways to use comments in Python code to improve readability, document code functionality, and provide explanations or context for better understanding.
 
+## Docstring
+In Python, a docstring is a string literal that occurs as the first statement in a module, function, class, or method definition. Docstrings are used to document code by providing a concise description of what the code does, how to use it, and any other relevant information. Docstrings are not just regular comments; they serve a specific purpose and can be accessed programmatically.
+
+Here are some key points about docstrings in Python:
+
+1. **Purpose**: Docstrings serve as documentation for Python modules, functions, classes, and methods. They help users and developers understand the purpose, usage, and behavior of the code without needing to read through the implementation details.
+
+2. **Location**: Docstrings are placed immediately after the header (the first line) of a module, function, class, or method definition. They are enclosed within triple quotes (`""" """`) for multi-line strings or single quotes (`''' '''` or `''' '''`) for single-line strings.
+
+3. **Access**: Docstrings can be accessed programmatically using the `__doc__` attribute of the module, function, class, or method. This allows tools like help(), dir(), and documentation generators to retrieve and display the documentation string.
+
+4. **Format**: There are different conventions for writing docstrings in Python, such as Google-style docstrings, reStructuredText (reST) docstrings, and NumPy docstrings. These conventions provide guidelines on how to structure and format docstrings to ensure consistency and readability across codebases.
+
+5. **Content**: A well-written docstring typically includes a brief description of what the code does, any parameters or arguments it accepts (for functions and methods), return values (if applicable), exceptions raised, usage examples, and any other relevant information.
+
+6. **Documentation Tools**: Python's standard library includes tools like pydoc and the `help()` function, which can display docstrings interactively. Additionally, there are third-party documentation generators like Sphinx that can generate HTML, PDF, and other documentation formats from docstrings.
+
+Here's an example of a function with a docstring:
+
+```python
+def add(a, b):
+    """
+    This function calculates the sum of two numbers.
+
+    Parameters:
+    a (int): The first number.
+    b (int): The second number.
+
+    Returns:
+    int: The sum of a and b.
+    """
+    return a + b
+```
+
+In this example, the docstring provides a description of what the `add()` function does, specifies the parameters it accepts (`a` and `b`), and describes the return value.
+
+Certainly! Here are various examples of docstrings in Python 3:
+
+1. Docstring for a function:
+```python
+def greet(name):
+    """
+    This function greets the person with the given name.
+
+    Parameters:
+    name (str): The name of the person to greet.
+
+    Returns:
+    str: A greeting message addressed to the person.
+    """
+    return f"Hello, {name}!"
+```
+
+2. Docstring for a class:
+```python
+class Dog:
+    """
+    A class representing a dog.
+
+    Attributes:
+    name (str): The name of the dog.
+    age (int): The age of the dog in years.
+    breed (str): The breed of the dog.
+    """
+
+    def __init__(self, name, age, breed):
+        self.name = name
+        self.age = age
+        self.breed = breed
+
+    def bark(self):
+        """Make the dog bark."""
+        return "Woof! Woof!"
+```
+
+3. Docstring for a module:
+```python
+"""
+This module contains utility functions for working with strings.
+"""
+
+def count_vowels(text):
+    """
+    Count the number of vowels in a given text.
+
+    Parameters:
+    text (str): The input text.
+
+    Returns:
+    int: The number of vowels in the text.
+    """
+    vowels = "aeiouAEIOU"
+    return sum(1 for char in text if char in vowels)
+```
+
+4. Docstring for a method within a class:
+```python
+class Circle:
+    """
+    A class representing a circle.
+
+    Attributes:
+    radius (float): The radius of the circle.
+    """
+
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        """
+        Calculate the area of the circle.
+
+        Returns:
+        float: The area of the circle.
+        """
+        return 3.14 * self.radius ** 2
+```
+
+These examples demonstrate different ways of using docstrings to document modules, functions, classes, and methods in Python 3. Docstrings provide valuable information about the purpose, usage, and behavior of the code, making it easier for users and developers to understand and utilize the code effectively.
+
+
 ## Printing
+
 Examples of `print` statements in Python 3:
 
 1. Printing a string:
@@ -307,6 +429,76 @@ In this case, `x` will be assigned the first value, `z` will be assigned the las
 These are some examples of how you can use multiple assignments in Python to assign values to variables efficiently.
 
 ## string methods
+
+Here are various methods of strings in Python 3:
+
+#### Case Changing of Strings
+- **lower()**: Converts all uppercase characters in a string into lowercase
+- **upper()**: Converts all lowercase characters in a string into uppercase
+- **title()**: Convert string to title case
+- **swapcase()**: Swap the cases of all characters in a string
+- **capitalize()**: Convert the first character of a string to uppercase
+
+#### Other String Methods
+- **capitalize()**: Converts the first character to upper case
+- **casefold()**: Converts string into lower case
+- **center()**: Returns a centered string
+- **count()**: Returns the number of times a specified value occurs in a string
+- **encode()**: Returns an encoded version of the string
+- **endswith()**: Returns true if the string ends with the specified value
+- **expandtabs()**: Sets the tab size of the string
+- **find()**: Searches the string for a specified value and returns the position of where it was found
+- **format()**: Formats specified values in a string
+- **format_map()**: Formats specified values in a string
+- **index()**: Searches the string for a specified value and returns the position of where it was found
+- **isalnum()**: Returns True if all characters in the string are alphanumeric
+- **startswith()**: Returns true if the string starts with the specified value
+- **isalpha()**: Checks if all characters are alphabets
+- **isdecimal()**: Checks for decimal characters
+- **isdigit()**: Checks for digit characters
+- **isidentifier()**: Checks for valid identifier
+- **islower()**: Checks if all characters are lowercase
+- **isnumeric()**: Checks for numeric characters
+- **isprintable()**: Checks if all characters are printable
+- **isspace()**: Checks for whitespace characters
+- **istitle()**: Checks if each word starts with an upper case letter and the rest are lower case
+- **isupper()**: Checks if all characters are uppercase
+- **join()**: Joins the elements of an iterable to the end of the string
+- **ljust()**: Returns a left-justified version of the string
+- **rjust()**: Returns a right-justified version of the string
+- **strip()**: Returns a trimmed version of the string
+- **lstrip()**: Returns a left trimmed version of the string
+- **rstrip()**: Returns a right trimmed version of the string
+- **partition()**: Returns a tuple containing the original string, the separator, and the part after the separator
+- **replace()**: Replaces a specified value with another value in a string
+- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
+- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
+- **rpartition()**: Returns a tuple containing the part before the separator, the separator, and the part after the separator
+- **split()**: Splits the string at the specified separator and returns a list
+- **rsplit()**: Splits the string at the specified separator, starting from the right
+- **splitlines()**: Splits the string at line breaks and returns a list
+- **startswith()**: Returns true if the string starts with the specified value
+- **endswith()**: Returns true if the string ends with the specified value
+- **swapcase()**: Swaps cases, lower case becomes upper case and vice versa
+- **zfill()**: Fills the string with a specified number of 0 values at the beginning
+- **format()**: Formats specified values in a string
+- **format_map()**: Formats the string using dictionary
+- **maketrans()**: Returns a translation table to be used in translations
+- **translate()**: Returns a translated string
+- **expandtabs()**: Sets the tab size of the string
+- **encode()**: Returns an encoded version of the string
+- **join()**: Joins the elements of an iterable to the end of the string
+- **ljust()**: Returns a left-justified version of the string
+- **rjust()**: Returns a right-justified version of the string
+- **strip()**: Returns a trimmed version of the string
+- **lstrip()**: Returns a left trimmed version of the string
+- **rstrip()**: Returns a right trimmed version of the string
+- **maketrans()**: Returns a translation table to be used in translations
+- **translate()**: Returns a translated string
+- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
+- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
+  - **rpartition()**: Returns a tuple containing the
+
 Certainly! Here are examples of various string methods in Python 3:
 
 1. `upper()`: Converts all characters in a string to uppercase.
