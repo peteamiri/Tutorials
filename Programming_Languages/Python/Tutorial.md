@@ -491,6 +491,67 @@ These are some examples of how you can use multiple assignments in Python to ass
 ## sets
 ## dictionaries
 ## indexing
+## type cast
+Type casting in Python 3 refers to the process of converting the data type of a variable or value from one type to another. Python provides several built-in functions for type casting, allowing you to convert between different data types as needed. Here are some commonly used type casting functions in Python:
+
+1. **int()**: Converts a value to an integer.
+```python
+x = 5.7
+y = int(x)
+print(y)  # Output: 5
+```
+
+2. **float()**: Converts a value to a floating-point number.
+```python
+x = 10
+y = float(x)
+print(y)  # Output: 10.0
+```
+
+3. **str()**: Converts a value to a string.
+```python
+x = 123
+y = str(x)
+print(y)  # Output: "123"
+```
+
+4. **bool()**: Converts a value to a boolean.
+```python
+x = 0
+y = bool(x)
+print(y)  # Output: False
+```
+
+5. **list()**: Converts a sequence (e.g., tuple, string) to a list.
+```python
+tuple_values = (1, 2, 3)
+list_values = list(tuple_values)
+print(list_values)  # Output: [1, 2, 3]
+```
+
+6. **tuple()**: Converts a sequence (e.g., list, string) to a tuple.
+```python
+list_values = [1, 2, 3]
+tuple_values = tuple(list_values)
+print(tuple_values)  # Output: (1, 2, 3)
+```
+
+7. **set()**: Converts a sequence (e.g., list, tuple) to a set.
+```python
+list_values = [1, 2, 2, 3, 3]
+set_values = set(list_values)
+print(set_values)  # Output: {1, 2, 3}
+```
+
+8. **dict()**: Converts a sequence of key-value pairs (e.g., list of tuples) to a dictionary.
+```python
+list_of_tuples = [("a", 1), ("b", 2), ("c", 3)]
+dict_values = dict(list_of_tuples)
+print(dict_values)  # Output: {'a': 1, 'b': 2, 'c': 3}
+```
+
+Type casting is useful when you need to ensure that the data type of a variable matches the requirements of an operation or when you need to convert data between different representations for processing or manipulation.
+
 
 # Working with Stings
 
@@ -719,7 +780,7 @@ Here are various methods of strings in Python 3:
 - **rindex()**: Searches the string for a specified value and returns the last position of where it was found
 - **rpartition()**: Returns a tuple containing the
 
-Certainly! Here are examples of various string methods in Python 3:
+Here are examples of various string methods in Python 3:
 
 1. `upper()`: Converts all characters in a string to uppercase.
 ```python
@@ -782,67 +843,6 @@ print(string.endswith("world"))  # Output: True
 ```
 
 These are just a few examples of string methods available in Python 3. Python provides many more string methods for various string manipulation tasks.
-
-## type cast
-Type casting in Python 3 refers to the process of converting the data type of a variable or value from one type to another. Python provides several built-in functions for type casting, allowing you to convert between different data types as needed. Here are some commonly used type casting functions in Python:
-
-1. **int()**: Converts a value to an integer.
-```python
-x = 5.7
-y = int(x)
-print(y)  # Output: 5
-```
-
-2. **float()**: Converts a value to a floating-point number.
-```python
-x = 10
-y = float(x)
-print(y)  # Output: 10.0
-```
-
-3. **str()**: Converts a value to a string.
-```python
-x = 123
-y = str(x)
-print(y)  # Output: "123"
-```
-
-4. **bool()**: Converts a value to a boolean.
-```python
-x = 0
-y = bool(x)
-print(y)  # Output: False
-```
-
-5. **list()**: Converts a sequence (e.g., tuple, string) to a list.
-```python
-tuple_values = (1, 2, 3)
-list_values = list(tuple_values)
-print(list_values)  # Output: [1, 2, 3]
-```
-
-6. **tuple()**: Converts a sequence (e.g., list, string) to a tuple.
-```python
-list_values = [1, 2, 3]
-tuple_values = tuple(list_values)
-print(tuple_values)  # Output: (1, 2, 3)
-```
-
-7. **set()**: Converts a sequence (e.g., list, tuple) to a set.
-```python
-list_values = [1, 2, 2, 3, 3]
-set_values = set(list_values)
-print(set_values)  # Output: {1, 2, 3}
-```
-
-8. **dict()**: Converts a sequence of key-value pairs (e.g., list of tuples) to a dictionary.
-```python
-list_of_tuples = [("a", 1), ("b", 2), ("c", 3)]
-dict_values = dict(list_of_tuples)
-print(dict_values)  # Output: {'a': 1, 'b': 2, 'c': 3}
-```
-
-Type casting is useful when you need to ensure that the data type of a variable matches the requirements of an operation or when you need to convert data between different representations for processing or manipulation.
 
 ## user input
 In Python 3, you can get user input using the `input()` function. Here are various examples of getting user input in Python 3:
