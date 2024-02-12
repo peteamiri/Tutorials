@@ -488,6 +488,118 @@ These are some examples of how you can use multiple assignments in Python to ass
 ## dictionaries
 ## indexing
 
+# Working with Stings
+
+## string format
+String formatting in Python 3 refers to the process of creating formatted strings by inserting dynamic values (variables, expressions, etc.) into predefined string templates. It allows you to construct strings with placeholders that will be replaced by the actual values at runtime. String formatting can be performed using various methods, including old-style formatting with `%`, the `str.format()` method, and f-strings (formatted string literals).
+
+Here's an overview of each method:
+
+1. **Old-style formatting with `%`**:
+   - This method uses the `%` operator to insert values into a string template.
+   - Syntax: `"template % value" % (value)`
+   - Example:
+     ```python
+     name = "Alice"
+     age = 30
+     message = "Hello, %s! You are %d years old." % (name, age)
+     print(message)
+     ```
+
+2. **`str.format()` method**:
+   - This method uses curly braces `{}` as placeholders for values and the `format()` method to insert values into the string.
+   - Syntax: `"template {}".format(value)`
+   - Example:
+     ```python
+     name = "Bob"
+     age = 25
+     message = "Hello, {}! You are {} years old.".format(name, age)
+     print(message)
+     ```
+
+3. **f-strings (formatted string literals)**:
+   - Introduced in Python 3.6, f-strings provide a concise and readable way to create formatted strings by prefixing the string with `f` or `F` and directly embedding expressions within curly braces `{}`.
+   - Syntax: `f"template {expression}"`
+   - Example:
+     ```python
+     name = "Charlie"
+     age = 20
+     message = f"Hello, {name}! You are {age} years old."
+     print(message)
+     ```
+
+All three methods allow you to include various types of values (strings, integers, floats, etc.) and expressions in the formatted string. They provide flexibility and readability in constructing strings with dynamic content.
+
+Additionally, you can specify formatting options such as alignment, padding, precision, and type conversion using format specifiers within placeholders (`%`, `{}`, or f-string expressions). This allows you to control the appearance of the inserted values in the resulting formatted string.
+
+Here are more examples demonstrating different string formatting techniques in Python:
+
+1. **Old-style formatting with `%`**:
+
+```python
+name = "Alice"
+age = 30
+height = 5.6
+message = "Hello, %s! You are %d years old and %.1f feet tall." % (name, age, height)
+print(message)
+# Output: Hello, Alice! You are 30 years old and 5.6 feet tall.
+```
+
+2. **`str.format()` method**:
+
+```python
+name = "Bob"
+age = 25
+height = 5.9
+message = "Hello, {}! You are {} years old and {:.1f} feet tall.".format(name, age, height)
+print(message)
+# Output: Hello, Bob! You are 25 years old and 5.9 feet tall.
+```
+
+3. **f-strings (formatted string literals)**:
+
+```python
+name = "Charlie"
+age = 20
+height = 6.0
+message = f"Hello, {name}! You are {age} years old and {height:.1f} feet tall."
+print(message)
+# Output: Hello, Charlie! You are 20 years old and 6.0 feet tall.
+```
+
+4. **Padding and Alignment**:
+
+```python
+name = "David"
+age = 35
+message = f"Name: {name:<10} | Age: {age:>5}"
+print(message)
+# Output: Name: David      | Age:    35
+```
+
+5. **Number formatting**:
+
+```python
+num = 123456.789
+formatted_num = f"Number: {num:,.2f}"
+print(formatted_num)
+# Output: Number: 123,456.79
+```
+
+6. **Binary, Octal, Hexadecimal formatting**:
+
+```python
+num = 42
+binary = f"Binary: {num:b}"
+octal = f"Octal: {num:o}"
+hexadecimal = f"Hexadecimal: {num:x}"
+print(binary)       # Output: Binary: 101010
+print(octal)        # Output: Octal: 52
+print(hexadecimal)  # Output: Hexadecimal: 2a
+```
+
+These examples demonstrate various string formatting techniques in Python, including inserting variables, expressions, padding, alignment, and number formatting using old-style formatting with `%`, the `str.format()` method, and f-strings.
+
 ## string slicing
 String slicing in Python 3 refers to the process of extracting a substring (a portion of a string) from a larger string. It allows you to create new strings by selecting specific characters or substrings from an existing string based on their position or index. String slicing is performed using square brackets `[]` and index notation.
 
@@ -601,7 +713,7 @@ Here are various methods of strings in Python 3:
 - **translate()**: Returns a translated string
 - **rfind()**: Searches the string for a specified value and returns the last position of where it was found
 - **rindex()**: Searches the string for a specified value and returns the last position of where it was found
-  - **rpartition()**: Returns a tuple containing the
+- **rpartition()**: Returns a tuple containing the
 
 Certainly! Here are examples of various string methods in Python 3:
 
@@ -848,7 +960,6 @@ These are just a few examples of the many math functions available in Python's `
 ## variable scope
 ## *args
 ## **kwargs
-## string format
 ## random numbers
 ## exception handling
 ## file detection
@@ -858,8 +969,6 @@ These are just a few examples of the many math functions available in Python's `
 ## move a file
 ## delete a file
 ## modules
-## rock, paper, scissors game
-## quiz game
 ## Object Oriented Programming (OOP)
 ## class variables
 ## inheritance
@@ -871,7 +980,7 @@ These are just a few examples of the many math functions available in Python's `
 ## abstract classes
 ## objects as arguments
 ## duck typing
-## (04:27:38) walrus operator
+## walrus operator
 ## functions to variables
 ## higher order functions
 ## lambda
