@@ -55,8 +55,8 @@ print("World")
 # Output: Hello World (without a newline in between)
 ```
 
-These are just a few examples, and the `print` function in Python is quite versatile, allowing for various formatting options and uses.
 ## variables
+
 ## multiple assignment
 ## string methods
 ## type cast
