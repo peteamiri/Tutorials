@@ -711,7 +711,69 @@ In these examples:
 
 String slicing is a powerful feature in Python that allows you to manipulate and extract substrings efficiently from strings. It is commonly used in various string manipulation tasks, including data processing, text parsing, and algorithm implementation.
 
-## string methods
+## Templates
+In Python, templates refer to a mechanism for creating dynamic strings or documents by substituting placeholders with actual values or content. Templates are commonly used in web development frameworks, text processing, and code generation tasks to generate output based on predefined templates or patterns.
+
+One popular library for working with templates in Python is the `string.Template` class from the `string` module. This class provides a simple and flexible way to create template strings and perform variable substitution. Here's a basic overview of how templates work in Python using `string.Template`:
+
+1. **Creating a Template**:
+   - To create a template, you first define a string with placeholders (variables) enclosed in curly braces `{}`.
+   - Example:
+     ```python
+     from string import Template
+
+     template_str = "Hello, ${name}! You have ${count} new messages."
+     ```
+
+2. **Substituting Variables**:
+   - After defining the template string, you create a `Template` object and call its `substitute()` method, passing a dictionary containing values for the placeholders.
+   - Example:
+     ```python
+     template = Template(template_str)
+     result = template.substitute(name="Alice", count=3)
+     print(result)  # Output: Hello, Alice! You have 3 new messages.
+     ```
+
+3. **Handling Missing Values**:
+   - If a placeholder in the template string does not have a corresponding value in the substitution dictionary, the `substitute()` method will raise a `KeyError`. To avoid this, you can use the `safe_substitute()` method, which leaves unmatched placeholders unchanged.
+   - Example:
+     ```python
+     template_str = "Hello, ${name}! You have ${count} new messages."
+     template = Template(template_str)
+     result = template.safe_substitute(name="Alice")
+     print(result)  # Output: Hello, Alice! You have ${count} new messages.
+     ```
+
+4. **Escaping Curly Braces**:
+   - If you need to include literal curly braces in the template string, you can escape them by doubling them (`{{` and `}}`).
+   - Example:
+     ```python
+     template_str = "The total cost is ${{{amount}}}."
+     template = Template(template_str)
+     result = template.substitute(amount=100)
+     print(result)  # Output: The total cost is $100.
+     ```
+
+5. **Customizing Placeholder Delimiters**:
+   - By default, placeholders are enclosed in `${}`. However, you can customize the placeholder delimiters by subclassing `Template` and overriding the `_pattern` attribute.
+   - Example:
+     ```python
+     class MyTemplate(Template):
+         delimiter = "{{"
+         pattern = r"""
+             \{\{(?:
+             (?P<escaped>\{\{)|
+             (?P<named>[_a-z][_a-z0-9]*)\}\}|
+             (?P<braced>[_a-z][_a-z0-9]*)\}\}|
+             (?P<invalid>)
+             )
+         """
+     ```
+
+Templates provide a powerful and flexible way to generate dynamic content in Python, allowing you to separate presentation from logic and easily customize output based on specific requirements. Whether you're generating HTML pages in web applications or generating text documents, templates can simplify the process and improve maintainability.
+
+
+## String Methods
 
 Here are various methods of strings in Python 3:
 
