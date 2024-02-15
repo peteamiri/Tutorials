@@ -27,6 +27,15 @@ Azure is a cloud computing platform offered by Microsoft, providing a wide range
    - Azure Disk Storage: Persistent block storage for VMs and other applications.
    - Azure Data Lake Storage: Scalable data lake solution for big data analytics workloads.
 
+1. **Database services**: Azure provides scalable and durable database services for various types of data, including:
+   - Azure SQL Database: fully managed relational database service based on the Microsoft SQL Server engine.
+   - Azure MySQL: fully managed MySQL database service that offers built-in high availability, automated backups, and scalability options.
+   - Azure PostgreSQL: fully managed PostgreSQL database service that offers high availability, automated backups, and scalability features.
+   - Azure Cosmos DB: globally distributed, multi-model database service designed for building highly responsive and scalable applications.
+   - Azure MariaDB: fully managed MariaDB database service that offers high availability, automated backups, and scalability options.
+   - Azure Database Migration Service: fully managed service that helps organizations migrate their on-premises databases to Azure with minimal downtime and data loss.
+   - Azure SQL Managed Instance: fully managed SQL Server database service that offers near 100% compatibility with on-premises SQL Server instances.
+
 1. **Networking**: Azure offers a robust networking infrastructure for connecting resources and users securely. Key networking services include:
    - Virtual Network (VNet): Isolated network environments for deploying VMs and other Azure resources.
    - Azure Load Balancer: High-performance load balancing service for distributing incoming network traffic across multiple VMs or instances.
