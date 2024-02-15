@@ -164,7 +164,7 @@ These methods offer various ways for users to connect to Azure Cloud and manage 
 
                                                                                                             |
 
-# What are Azure, Microsoft 365, Dynamics 365
+# What are Azure vs. Microsoft 365 vs. Dynamics 365
 
 Azure, Microsoft 365, and Dynamics 365 are three distinct product offerings from Microsoft, each catering to different aspects of cloud computing, productivity, and business applications. Here's an overview of each:
 
