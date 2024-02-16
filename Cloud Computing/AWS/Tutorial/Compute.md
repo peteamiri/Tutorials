@@ -50,8 +50,6 @@ Amazon Elastic Compute Cloud (EC2) is a web service provided by Amazon Web Servi
 
 Here's a more detailed description of AWS Cloud EC2:
 
-1. **Resizable Compute Capacity**: EC2 allows users to scale compute capacity up or down based on demand. Users can launch one or thousands of instances simultaneously, and they can terminate instances when they are no longer needed.
-
 2. **Instance Types**: EC2 offers a wide range of instance types optimized for different use cases, such as general-purpose computing, memory-intensive workloads, compute-optimized applications, storage-optimized tasks, and GPU-accelerated computing.
 
 3. **Operating System Support**: EC2 supports various operating systems, including Amazon Linux, Ubuntu, Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and others. Users can choose the desired operating system and customize the instance accordingly.
