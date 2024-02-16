@@ -154,3 +154,29 @@ AWS offers a wide range of EC2 instance types, each optimized for specific use c
    - **Instance Types**: Examples include `a1`, `m6g`, `c6g`, `r6g`, and `t4g` families.
 
 Each EC2 instance type comes in different sizes (e.g., small, medium, large) with varying combinations of vCPUs, memory, storage, and network performance. Users can choose the instance type and size that best matches their workload requirements and budget constraints. Additionally, AWS regularly introduces new instance types and sizes to meet evolving customer needs and technological advancements.
+
+### EC2 Pricing Options
+
+AWS EC2 offers several pricing options to accommodate different usage patterns and budgetary considerations. Here are the main EC2 pricing options in detail:
+
+1. **On-Demand Instances**:
+   - **Description**: On-Demand Instances allow users to pay for compute capacity by the hour or by the second with no long-term commitments. Users can launch instances when needed and terminate them when they're finished, paying only for the compute time used.
+   - **Use Cases**: On-Demand Instances are suitable for applications with short-term, unpredictable workloads, development and testing environments, and applications that require flexibility and scalability.
+
+2. **Reserved Instances (RI)**:
+   - **Description**: Reserved Instances provide users with a significant discount (compared to On-Demand pricing) in exchange for a one- or three-year commitment. Users can choose between Standard Reserved Instances, which offer a fixed capacity reservation, and Convertible Reserved Instances, which provide flexibility to change instance attributes such as instance type, operating system, or tenancy.
+   - **Use Cases**: Reserved Instances are suitable for applications with steady-state workloads, production environments, and applications with predictable usage patterns. They offer cost savings for long-term commitments and provide capacity assurance.
+
+3. **Spot Instances**:
+   - **Description**: Spot Instances allow users to bid for unused AWS EC2 capacity, offering potentially significant cost savings compared to On-Demand pricing. Spot Instances are available at variable prices that fluctuate based on supply and demand dynamics in the AWS cloud. Instances are terminated if the current Spot price exceeds the user's bid price.
+   - **Use Cases**: Spot Instances are suitable for fault-tolerant and flexible workloads, batch processing, data analysis, and applications that can tolerate interruptions. They offer the opportunity to access spare capacity at low costs but may not be suitable for mission-critical or time-sensitive workloads.
+
+4. **Dedicated Hosts**:
+   - **Description**: Dedicated Hosts allow users to have physical servers dedicated to their use, providing visibility and control over the underlying hardware. Dedicated Hosts offer a flat, hourly rate for hosting EC2 instances on dedicated hardware, with pricing based on the instance type and region.
+   - **Use Cases**: Dedicated Hosts are suitable for applications with regulatory or compliance requirements, licensing restrictions, or security concerns. They offer isolation and compliance benefits but may incur higher costs compared to shared infrastructure options.
+
+5. **Savings Plans**:
+   - **Description**: Savings Plans offer flexible pricing options that provide significant savings on AWS usage in exchange for committing to a consistent amount of usage (measured in dollars per hour) over a one- or three-year term. Users can choose between Compute Savings Plans, which offer savings on EC2 usage, and EC2 Instance Savings Plans, which offer savings on specific instance families in exchange for a commitment to a consistent instance usage.
+   - **Use Cases**: Savings Plans are suitable for users with predictable usage patterns who want to maximize cost savings on their AWS usage. They offer flexibility to adapt to changing workload requirements while providing cost-effective pricing options.
+
+These pricing options provide users with flexibility and cost optimization opportunities, allowing them to choose the most appropriate pricing model based on their usage patterns, budget constraints, and business requirements.
