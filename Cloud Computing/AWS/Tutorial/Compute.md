@@ -1,1 +1,17 @@
-"#" 
+# AWS Cloud Computing
+
+# Summary of Services
+
+here's a table describing the AWS cloud compute services:
+
+| Service Name          | Description                                                                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amazon Elastic Compute Cloud (EC2) | Amazon EC2 is a web service that provides resizable compute capacity in the cloud. It offers a wide selection of instance types, allowing users to choose the optimal configuration for their applications. EC2 instances can be launched, stopped, and terminated as needed, providing flexibility and scalability. |
+| AWS Lambda            | AWS Lambda is a serverless computing service that allows users to run code in response to events without provisioning or managing servers. It automatically scales and manages compute resources, charging only for the compute time consumed by the code. Lambda supports multiple programming languages and integrates with other AWS services. |
+| Amazon Elastic Container Service (ECS) | Amazon ECS is a fully managed container orchestration service that allows users to run, manage, and scale Docker containers on AWS. It provides features for deploying, scheduling, and monitoring containerized applications, making it easier to build and operate microservices architectures. ECS integrates with other AWS services such as Elastic Load Balancing and IAM for enhanced functionality. |
+| Amazon Elastic Kubernetes Service (EKS) | Amazon EKS is a managed Kubernetes service that allows users to run Kubernetes clusters on AWS without managing the underlying infrastructure. It provides features for deploying, scaling, and managing containerized applications using Kubernetes, an open-source container orchestration platform. EKS integrates with other AWS services such as IAM, VPC, and CloudFormation for seamless integration and enhanced security. |
+| AWS Batch             | AWS Batch is a fully managed batch processing service that enables users to run batch computing workloads on AWS. It automatically provisions and scales compute resources based on workload demand, allowing users to focus on building and running batch jobs without managing infrastructure. Batch supports containerized and non-containerized workloads, providing flexibility for different types of batch processing tasks. |
+| Amazon Lightsail      | Amazon Lightsail is a simplified virtual private server (VPS) service that allows users to launch and manage virtual private servers in the cloud with ease. It provides pre-configured server templates, networking features, and management tools for building and deploying web applications, websites, and development environments. Lightsail offers predictable pricing and a user-friendly interface, making it ideal for small-scale projects and developers getting started with cloud computing. |
+| AWS Outposts          | AWS Outposts is a fully managed service that extends AWS infrastructure and services to customer premises. It allows users to run AWS compute, storage, and database services locally, providing a consistent hybrid cloud experience across on-premises and cloud environments. Outposts supports a wide range of compute instances, storage options, and AWS services, enabling customers to modernize their applications and workflows while maintaining data residency and low-latency requirements. |
+
+These compute services offer a range of capabilities for running applications and workloads in the cloud, catering to different use cases, requirements, and preferences.
