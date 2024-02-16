@@ -50,15 +50,15 @@ Amazon Elastic Compute Cloud (EC2) is a web service provided by Amazon Web Servi
 
 Here's a more detailed description of AWS Cloud EC2:
 
-2. **Instance Types**: EC2 offers a wide range of instance types optimized for different use cases, such as general-purpose computing, memory-intensive workloads, compute-optimized applications, storage-optimized tasks, and GPU-accelerated computing.
+1. **Instance Types**: EC2 offers a wide range of instance types optimized for different use cases, such as general-purpose computing, memory-intensive workloads, compute-optimized applications, storage-optimized tasks, and GPU-accelerated computing.
 
-3. **Operating System Support**: EC2 supports various operating systems, including Amazon Linux, Ubuntu, Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and others. Users can choose the desired operating system and customize the instance accordingly.
+1. **Operating System Support**: EC2 supports various operating systems, including Amazon Linux, Ubuntu, Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, and others. Users can choose the desired operating system and customize the instance accordingly.
 
-4. **Pricing Options**: EC2 offers flexible pricing options, including On-Demand Instances, which allow users to pay for compute capacity by the hour with no long-term commitments, Reserved Instances, which offer significant discounts for a one- or three-year commitment, and Spot Instances, which enable users to bid for spare AWS capacity and obtain instances at lower costs.
+1. **Pricing Options**: EC2 offers flexible pricing options, including On-Demand Instances, which allow users to pay for compute capacity by the hour with no long-term commitments, Reserved Instances, which offer significant discounts for a one- or three-year commitment, and Spot Instances, which enable users to bid for spare AWS capacity and obtain instances at lower costs.
 
-5. **Security**: EC2 provides features for securing instances, such as security groups, which act as virtual firewalls to control inbound and outbound traffic, and key pairs, which allow users to securely connect to instances using SSH (Secure Shell) for Linux or RDP (Remote Desktop Protocol) for Windows.
+1. **Security**: EC2 provides features for securing instances, such as security groups, which act as virtual firewalls to control inbound and outbound traffic, and key pairs, which allow users to securely connect to instances using SSH (Secure Shell) for Linux or RDP (Remote Desktop Protocol) for Windows.
 
-6. **Integration with Other AWS Services**: EC2 seamlessly integrates with other AWS services, such as Amazon Elastic Block Store (EBS) for persistent block storage, Amazon Simple Storage Service (S3) for object storage, AWS Identity and Access Management (IAM) for access control, and Amazon Virtual Private Cloud (VPC) for networking.
+1. **Integration with Other AWS Services**: EC2 seamlessly integrates with other AWS services, such as Amazon Elastic Block Store (EBS) for persistent block storage, Amazon Simple Storage Service (S3) for object storage, AWS Identity and Access Management (IAM) for access control, and Amazon Virtual Private Cloud (VPC) for networking.
 
 To use AWS Cloud EC2, users typically follow these steps:
 
