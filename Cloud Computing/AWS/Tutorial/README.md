@@ -10,7 +10,7 @@ Amazon Web Services (AWS) provides a vast and comprehensive cloud infrastructure
 
 # AWS Service Catgories
 
-Sure, here's a table describing various AWS service categories, along with examples of services within each category:
+here's a table describing various AWS service categories, along with examples of some of the services within each category:
 
 | Service Category           | Service Name                        | Description                                                                                                                                                       |
 |----------------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -45,49 +45,50 @@ This table provides a comprehensive overview of various AWS service categories a
 
 
 
-4. **Compute Services**: AWS provides various compute services, including:
+1. **Compute Services**: AWS provides various compute services, including:
    - Amazon Elastic Compute Cloud (EC2) for resizable compute capacity.
    - AWS Lambda for serverless computing.
-   - Amazon Elastic Container Service (ECS) and Elastic Kubernetes Service (EKS) for containerized applications.
+   - Amazon Elastic Container Service (ECS) for containerized applications.
+   - Amazon Elastic Kubernetes Service (EKS) for containerized applications.
    - AWS Batch for batch processing workloads.
 
-5. **Storage Services**: AWS offers a range of storage services, including:
+1. **Storage Services**: AWS offers a range of storage services, including:
    - Amazon Simple Storage Service (S3) for scalable object storage.
    - Amazon Elastic Block Store (EBS) for block-level storage volumes for EC2 instances.
    - Amazon Glacier for long-term data archival.
    - Amazon Elastic File System (EFS) for scalable file storage.
 
-6. **Database Services**: AWS provides managed database services, such as:
+1. **Database Services**: AWS provides managed database services, such as:
    - Amazon Relational Database Service (RDS) for managed relational databases.
    - Amazon DynamoDB for managed NoSQL databases.
    - Amazon Redshift for data warehousing.
 
-7. **Networking**: AWS offers various networking services, including:
+1. **Networking**: AWS offers various networking services, including:
    - Amazon Virtual Private Cloud (VPC) for creating isolated virtual networks.
    - AWS Direct Connect for dedicated network connections between on-premises infrastructure and AWS.
    - Amazon Route 53 for scalable Domain Name System (DNS) web services.
 
-8. **Security & Identity**: AWS provides tools and services for security and identity management, such as:
+1. **Security & Identity**: AWS provides tools and services for security and identity management, such as:
    - AWS Identity and Access Management (IAM) for user authentication and access control.
    - AWS Key Management Service (KMS) for encryption key management.
    - AWS Certificate Manager for managing SSL/TLS certificates.
 
-9. **Management Tools**: AWS offers various management tools for monitoring, logging, and automation, including:
+1. **Management Tools**: AWS offers various management tools for monitoring, logging, and automation, including:
    - Amazon CloudWatch for monitoring resources and applications.
    - AWS CloudTrail for logging API activity.
    - AWS Systems Manager for automating administrative tasks.
 
-10. **Analytics**: AWS provides services for big data analytics and business intelligence, such as:
+1. **Analytics**: AWS provides services for big data analytics and business intelligence, such as:
     - Amazon EMR for big data processing.
     - Amazon Athena for interactive query service.
     - Amazon QuickSight for business analytics.
 
-11. **Artificial Intelligence & Machine Learning**: AWS offers AI and ML services, including:
+1. **Artificial Intelligence & Machine Learning**: AWS offers AI and ML services, including:
     - Amazon SageMaker for building, training, and deploying machine learning models.
     - Amazon Rekognition for image and video analysis.
     - Amazon Comprehend for natural language processing.
 
-12. **IoT (Internet of Things)**: AWS provides services for IoT applications, such as:
+1. **IoT (Internet of Things)**: AWS provides services for IoT applications, such as:
     - AWS IoT Core for managing IoT devices and data.
     - AWS IoT Greengrass for extending AWS IoT to edge devices.
 
