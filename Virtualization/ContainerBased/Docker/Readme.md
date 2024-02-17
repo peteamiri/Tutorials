@@ -1,8 +1,4 @@
-# Docker
-
-Certainly! Let's delve into the fascinating world of **Docker containers**. 
-
-## Docker Containers: A Comprehensive Overview
+## Docker Containers Overview
 
 ### What Are Containers?
 
@@ -62,10 +58,6 @@ To appreciate containers fully, let's compare them to traditional virtual machin
    - **VMs**: Better suited for legacy applications, complex setups, and scenarios requiring full OS isolation.
 
 In summary, Docker containers have revolutionized software deployment by providing consistency, efficiency, and portability. Whether you're building cloud-native applications or managing legacy systems, understanding containers is essential in today's dynamic tech landscape.
-
-Remember, when you see that friendly whale logo, you're entering the world of containers—a place where applications sail smoothly across diverse seas of infrastructure!
-
-For more information, explore the official [Docker documentation](https://www.docker.com/resources/what-container/).¹³
 
 ### Additional information
 
