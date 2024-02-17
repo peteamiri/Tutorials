@@ -43,7 +43,7 @@
 In summary, Kubernetes is the helmsman steering your ship of containers through the vast seas of distributed computing. 🌐⚓️
 
 ## For more information See the followings
-* [Cloud Native Computing Fundation](https://www.cncf.io/)
+* [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)
 * [Kubernetes Home](https://kubernetes.io/)
 * [Official Documentation](https://kubernetes.io/docs/home/)
 * [IBM Kubernates](https://www.youtube.com/watch?v=PH-2FfFD2PU)
