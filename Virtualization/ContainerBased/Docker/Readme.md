@@ -1,4 +1,4 @@
-## Docker Containers Overview
+# Docker Containers Overview
 
 ### What Are Containers?
 
@@ -61,9 +61,9 @@ In summary, Docker containers have revolutionized software deployment by providi
 
 ### Additional information
 
-(1) What is a Container? | Docker. https://www.docker.com/resources/what-container/.
-(2) Docker overview | Docker Docs. https://docs.docker.com/get-started/overview/.
-(3) What is Docker? - GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-docker/.
+* (1) What is a Container? | Docker. https://www.docker.com/resources/what-container/.
+* (2) Docker overview | Docker Docs. https://docs.docker.com/get-started/overview/.
+* (3) What is Docker? - GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-docker/.
 
 
 # Docker introduction
