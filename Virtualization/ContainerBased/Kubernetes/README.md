@@ -43,18 +43,17 @@
 In summary, Kubernetes is the helmsman steering your ship of containers through the vast seas of distributed computing. 🌐⚓️
 
 ## For more information See the followings
-* (1) Concepts | Kubernetes. https://kubernetes.io/docs/concepts/.
-* (2) What is Kubernetes? | DigitalOcean. https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes.
-* (3) Overview | Kubernetes. https://kubernetes.io/docs/concepts/overview/.
-* (4) Introduction to Kubernetes (K8S) - GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-kubernetes-k8s/.
-* (5) Getty. https://media.gettyimages.com/id/1247853580/photo/in-this-photo-illustration-the-kubernetes-logo-seen-displayed-on-a-smartphone.jpg?b=1&s=612x612&w=0&k=20&c=_7d1ZczQ2Mwqcaw0RZ0QIl6dRp6FvT8A3cSfv-tROX0=.
-
+* [Cloud Native Computing Fundation](https://www.cncf.io/)
 * [Kubernetes Home](https://kubernetes.io/)
 * [Official Documentation](https://kubernetes.io/docs/home/)
-
 * [IBM Kubernates](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 * [Introduction](https://www.youtube.com/watch?v=_3NUI5vasPk)
 * [Kubernaties](https://www.youtube.com/watch?v=aSrqRSk43lY)
+* [Concepts | Kubernetes](https://kubernetes.io/docs/concepts/)
+* What is Kubernetes? | DigitalOcean. https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes.
+* Overview | Kubernetes. https://kubernetes.io/docs/concepts/overview/.
+* Introduction to Kubernetes (K8S) - GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-kubernetes-k8s/.
+* Getty. https://media.gettyimages.com/id/1247853580/photo/in-this-photo-illustration-the-kubernetes-logo-seen-displayed-on-a-smartphone.jpg?b=1&s=612x612&w=0&k=20&c=_7d1ZczQ2Mwqcaw0RZ0QIl6dRp6FvT8A3cSfv-tROX0=.
 *
 ## Kubernetes Architecture
 
