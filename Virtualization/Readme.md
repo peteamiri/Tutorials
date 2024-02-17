@@ -27,3 +27,23 @@ Virtualization and containerization are both technologies used to create isolate
 5. **Use Cases**: Containerization is well-suited for building and deploying modern, microservices-based applications, DevOps workflows, and cloud-native architectures. Containers are portable, lightweight, and easy to manage, making them ideal for agile development and deployment pipelines.
 
 In summary, while both virtualization and containerization provide isolation and encapsulation for running applications, they differ in terms of resource overhead, isolation level, and use cases. Virtualization is more heavyweight and provides stronger isolation between VMs, while containerization is lighter-weight and more suitable for modern application development and deployment workflows.
+
+## Contianers
+
+Container refers to an isolated and lightweight runtime environment that encapsulates an application and its dependencies. Containers are a form of operating system-level virtualization that allow multiple isolated instances, known as containers, to run on a single host operating system (OS). Each container shares the host OS kernel but provides process and filesystem isolation, enabling applications to run independently of each other.
+
+Key characteristics of containers in computer science include:
+
+1. **Isolation**: Containers provide process isolation, meaning that each container runs as a separate process with its own filesystem, network stack, and environment variables. This isolation ensures that applications running in different containers do not interfere with each other.
+
+2. **Encapsulation**: Containers encapsulate an application and its dependencies into a single package, called a container image. The image contains everything needed to run the application, including the code, runtime, libraries, and configuration files. This allows for consistent deployment and execution of applications across different environments.
+
+3. **Lightweight**: Containers are lightweight compared to traditional virtual machines (VMs) because they share the host OS kernel and do not require a separate operating system for each instance. This results in faster startup times, lower resource overhead, and greater efficiency in resource utilization.
+
+4. **Portability**: Container images are portable and can run on any system that supports containerization technology, regardless of the underlying infrastructure. This portability makes it easy to deploy and migrate applications across different environments, such as development, testing, and production.
+
+5. **Scalability**: Containers are highly scalable and can be started and stopped quickly, allowing for rapid application deployment and scaling. Container orchestration platforms, such as Docker Swarm and Kubernetes, automate the deployment, scaling, and management of containerized applications across a cluster of machines.
+
+6. **Microservices**: Containers are well-suited for building and deploying microservices-based architectures, where applications are decomposed into smaller, independently deployable services. Each microservice can run in its own container, allowing for greater flexibility, agility, and scalability in application development and deployment.
+
+Overall, containers provide a flexible and efficient way to package, deploy, and manage applications in computer science, enabling organizations to build and run software more reliably, consistently, and at scale.
