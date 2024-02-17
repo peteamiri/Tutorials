@@ -1,6 +1,9 @@
+# Virtualization
+
+
 # This section deals with Container based Virtualization
 
-The focuse is mostly on 
+The focuse is mostly on
 * Docker
-* Kubernetes 
+* Kubernetes
 * Apache Mesos
