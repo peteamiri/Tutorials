@@ -1,4 +1,4 @@
-## An Overview Kubernetes 
+## An Overview Kubernetes
 
 **Kubernetes** is a powerful, open-source system initially developed by Google and supported by the **Cloud Native Computing Foundation (CNCF)**. Its primary purpose is to manage **containerized applications** within a clustered environment. Here's a detailed exploration:
 
@@ -56,4 +56,87 @@ In summary, Kubernetes is the helmsman steering your ship of containers through 
 * [Introduction](https://www.youtube.com/watch?v=_3NUI5vasPk)
 * [Kubernaties](https://www.youtube.com/watch?v=aSrqRSk43lY)
 *
-## Kubernetes Cluster servicces
+## Kubernetes Architecture
+
+The essential components that make up a **Kubernetes** cluster are presented in this section. These components work together to create a robust and flexible platform for managing containerized applications:
+
+1. **Control Plane Components**:
+   - The control plane is the brain of the Kubernetes cluster, responsible for making global decisions and managing the overall state. Here are the key control plane components:
+
+     - **kube-apiserver**:
+       - The **API server** acts as the front end for the Kubernetes control plane.
+       - It exposes the Kubernetes API, allowing users and other components to interact with the cluster.
+       - Designed for horizontal scalability, you can run multiple instances of kube-apiserver to balance traffic.
+
+     - **etcd**:
+       - **etcd** serves as a consistent and highly-available key-value store.
+       - It stores all cluster data, including configuration, secrets, and state information.
+       - Ensuring backups and high availability for etcd is crucial for cluster stability.
+
+     - **kube-scheduler**:
+       - The scheduler watches for newly created Pods without assigned nodes.
+       - It selects an appropriate node for each Pod based on factors like resource requirements, constraints, and affinity rules.
+       - Responsible for distributing workloads efficiently across the cluster.
+
+     - **kube-controller-manager**:
+       - Manages various controller processes.
+       - Controllers handle tasks such as maintaining desired state, scaling, and self-healing.
+       - Although logically separate, they are compiled into a single binary for simplicity.
+
+2. **Node Components**:
+   - Nodes (also known as worker nodes) are where containers run. Each node hosts one or more Pods. Here are the critical node components:
+
+     - **Kubelet**:
+       - The Kubelet runs on each node and communicates with the control plane.
+       - It ensures that containers within Pods are running and healthy.
+       - Handles tasks like pulling container images, starting/stopping containers, and reporting node status.
+
+     - **Kube-proxy**:
+       - Kube-proxy maintains network rules (such as load balancing and routing) for services.
+       - Ensures network connectivity between Pods and external clients.
+       - Implements the Kubernetes Service abstraction.
+
+     - **Container Runtime**:
+       - The container runtime (e.g., Docker) executes containers.
+       - It pulls container images, creates containers, and manages their lifecycle.
+       - Kubernetes supports various runtimes, but Docker is commonly used.
+
+3. **Additional Components**:
+   - Beyond the core components, there are other essential parts of a Kubernetes cluster:
+
+     - **Pods**:
+       - Pods are the smallest deployable units in Kubernetes.
+       - They encapsulate one or more containers and share the same network namespace.
+       - Pods allow containers to communicate and share storage volumes.
+
+     - **Services**:
+       - Services expose Pods to the network and provide load balancing.
+       - They allow external access to applications running inside the cluster.
+
+     - **ReplicaSets** and **Deployments**:
+       - ReplicaSets ensure a specified number of identical Pods are running.
+       - Deployments manage rolling updates and rollbacks.
+
+     - **ConfigMaps** and **Secrets**:
+       - ConfigMaps store configuration data.
+       - Secrets securely store sensitive information like passwords or API keys.
+
+     - **Ingress**:
+       - Manages external access to services.
+       - Routes traffic based on rules defined in the Ingress resource.
+
+     - **Persistent Volumes (PVs)** and **Persistent Volume Claims (PVCs)**:
+       - Handle storage needs for stateful applications.
+       - PVs represent physical storage resources, while PVCs request storage dynamically.
+
+In summary, Kubernetes orchestrates containerized applications by combining these components into a cohesive whole. Understanding their roles and interactions is essential for effective cluster management. 🚀🌟
+
+For more detailed information, refer to the official [Kubernetes documentation](https://kubernetes.io/docs/concepts/overview/components/).¹²³
+
+### For more information see the foollowings
+
+  * (1) Kubernetes Components | Kubernetes. https://kubernetes.io/docs/concepts/overview/components/.
+* (2) Kubernetes Architecture and Components Explained - Granulate. https://granulate.io/blog/kubernetes-architecture-beginner-guide/.
+* (3) Kubernetes Tutorials: List of Components of Kubernetes. https://www.devopsschool.com/blog/kubernetes-tutorials-list-of-components-of-kubernetes/.
+* (4) Kubernetes Architecture: Control Plane, Data Plane, and 11 Core .... https://spot.io/resources/kubernetes-architecture/11-core-components-explained/.
+* (5) Kubernetes Cluster Components | Baeldung on Ops. https://www.baeldung.com/ops/kubernetes-cluster-components.

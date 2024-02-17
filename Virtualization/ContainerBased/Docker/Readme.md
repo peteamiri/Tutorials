@@ -104,7 +104,7 @@ Docker works by utilizing containerization technology to package applications an
 
 Overall, Docker simplifies the process of packaging, distributing, and running applications by encapsulating them in lightweight, portable containers. This allows developers to build applications once and run them anywhere, from development laptops to production servers and cloud platforms, with consistent behavior and minimal overhead.
 
-## How componenets
+## Docker componenets
 
 The Docker Engine is the core component of Docker that enables containerization. It consists of several parts that work together to manage containers and their execution. Here's an overview of how the Docker Engine works:
 
