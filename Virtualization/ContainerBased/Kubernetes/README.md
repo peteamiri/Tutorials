@@ -17,8 +17,11 @@
    - **Service Discovery and Load Balancing**: Services allow communication between pods and external clients.
 
 3. **Components**:
-   - **Master Node**: Controls the cluster and manages its overall state.
-     - Includes the **API server**, **controller manager**, **scheduler**, and **etcd** (a distributed key-value store).
+   - **Master Node**: Controls the cluster and manages its overall state. Includes the
+       - **API server**,
+       - **controller manager**,
+       - **scheduler**, and
+       - **etcd** (a distributed key-value store).
    - **Worker Nodes (Minions)**: Run containers and execute tasks.
      - Each worker node runs the **kubelet** (communicates with the master) and the **container runtime** (e.g., Docker).
    - **Pods**: Smallest deployable units in Kubernetes, containing one or more containers.
