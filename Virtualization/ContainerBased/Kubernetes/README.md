@@ -3,14 +3,14 @@
 **Kubernetes** is a powerful, open-source system initially developed by Google and supported by the **Cloud Native Computing Foundation (CNCF)**. Its primary purpose is to manage **containerized applications** within a clustered environment. Here's a detailed exploration:
 
 1. **What Is Kubernetes?**
-   - Kubernetes provides better ways to manage related, distributed components and services across varied infrastructure.
+   - Kubernetes provides better ways to manage related, distributed components and services across independent infrastructure.
    - It facilitates both **declarative configuration** (defining desired state) and **automation** (ensuring actual state matches desired state).
    - The name "Kubernetes" originates from Greek, meaning **helmsman** or **pilot**.
 
 2. **Key Concepts**:
-   - **Containerization**: Kubernetes manages **Docker containers** in the form of a cluster.
-   - **Automated Deployment and Scaling**: It automatically restarts failed containers and reschedules them when their hosts die, enhancing application availability.
-   - **Resource Isolation**: Containers within a Kubernetes cluster are isolated, ensuring efficient resource utilization.
+   - **Containerization**: Kubernetes manages cluster of **Docker containers**.
+   - **Automated Deployment and Scaling**: It automatically restarts failed containers and reschedules them when their hosts die, enhancing application availability and resiliency.
+   - **Resource Isolation**: Each Container running within a Kubernetes cluster are isolated, ensuring efficient resource utilization.
    - **Declarative Configuration**: Define how your application should behave, and Kubernetes ensures it stays in that state.
    - **Scaling and Load Balancing**: Kubernetes scales applications horizontally by adding more instances (pods) and balances traffic across them.
    - **Self-Healing**: If a container fails, Kubernetes replaces it automatically.
@@ -40,7 +40,7 @@
    - Kubernetes has a rapidly growing ecosystem, with abundant services, support, and tools available.
    - It's the go-to platform for cloud-native applications and modern infrastructure management.
 
-In summary, Kubernetes is the helmsman steering your ship of containers through the vast seas of distributed computing. 🌐⚓️
+In summary, Kubernetes is the helmsman steering your ship of containers through the vast seas of distributed computing.
 
 ## For more information See the followings
 * [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)
