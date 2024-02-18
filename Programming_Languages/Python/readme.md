@@ -2320,6 +2320,159 @@ print("Sum of all elements:", total)
 ### Tuple Data Structure in Python
 A tuple in Python is an immutable, ordered collection of elements. Unlike lists, tuples cannot be modified after creation, making them suitable for representing fixed collections of items. Tuples are defined using parentheses `()` and can contain elements of different data types, including numbers, strings, booleans, and even other tuples. Here has a detailed overview of tuples in Python with extensive examples:
 
+### Linked List in Python
+
+A linked list is a linear data structure consisting of nodes where each node contains a data element and a reference (link) to the next node in the sequence. Linked lists can be singly linked (each node points to the next node) or doubly linked (each node points to both the next and previous nodes). Linked lists are commonly used to implement dynamic data structures like stacks, queues, and associative arrays. Here has a detailed overview of linked lists in Python with extensive examples:
+
+#### Node Implementation:
+
+A node in a linked list contains two fields: data and a reference to the next node.
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+```
+
+#### Linked List Implementation:
+
+A linked list consists of nodes connected in a sequence. The linked list class maintains a reference to the head node.
+
+```python
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = new_node
+
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data, end=" ")
+            current = current.next
+```
+
+#### Common Operations on Linked List:
+
+1. **Append**: Adding a new node to the end of the linked list.
+2. **Insert**: Inserting a new node at a specific position in the linked list.
+3. **Delete**: Removing a node from the linked list.
+4. **Search**: Finding a node with a specific value in the linked list.
+5. **Traversal**: Iterating through the linked list to access or modify each node.
+6. **Length**: Determining the number of nodes in the linked list.
+
+#### Use Cases of Linked List:
+
+1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures like stacks and queues, where elements can be added or removed efficiently.
+2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks dynamically.
+3. **Text Editors**: Linked lists can be used to implement text editors, where each character is stored in a separate node.
+4. **Sparse Matrices**: Linked lists are used to represent sparse matrices efficiently, where most elements are zero.
+5. **Polynomial Manipulation**: Linked lists can be used to represent and manipulate polynomials efficiently.
+
+### Example: Creating and Displaying a Linked List
+
+```python
+# Creating a linked list
+linked_list = LinkedList()
+
+# Appending elements to the linked list
+linked_list.append(1)
+linked_list.append(2)
+linked_list.append(3)
+linked_list.append(4)
+
+# Displaying the linked list
+print("Linked List:", end=" ")
+linked_list.display()
+# Output: Linked List: 1 2 3 4
+```
+
+### Example: Inserting a Node at a Specific Position
+
+```python
+# Inserting a node at a specific position
+def insert_at_position(self, data, position):
+    if position < 0:
+        print("Invalid position")
+        return
+    new_node = Node(data)
+    if position == 0:
+        new_node.next = self.head
+        self.head = new_node
+        return
+    current = self.head
+    for _ in range(position - 1):
+        if current is None:
+            print("Position out of range")
+            return
+        current = current.next
+    if current is None:
+        print("Position out of range")
+        return
+    new_node.next = current.next
+    current.next = new_node
+
+# Adding the insert_at_position method to the LinkedList class
+LinkedList.insert_at_position = insert_at_position
+
+# Inserting a node at position 2
+linked_list.insert_at_position(5, 2)
+
+# Displaying the modified linked list
+print("Modified Linked List:", end=" ")
+linked_list.display()
+# Output: Modified Linked List: 1 2 5 3 4
+```
+
+### Example Use Case: Implementing Stack Using Linked List
+
+```python
+class StackLinkedList:
+    def __init__(self):
+        self.head = None
+
+    def push(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node
+
+    def pop(self):
+        if self.is_empty():
+            return None
+        popped = self.head.data
+        self.head = self.head.next
+        return popped
+
+    def is_empty(self):
+        return self.head is None
+
+# Creating a stack using linked list
+stack = StackLinkedList()
+
+# Pushing elements onto the stack
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+# Popping elements from the stack
+while not stack.is_empty():
+    print("Popped:", stack.pop())
+# Output: Popped: 3
+#         Popped: 2
+#         Popped: 1
+```
+
+Linked lists provide a flexible and efficient way to manage dynamic collections of data, making them suitable for various applications in computer science and software engineering.
+
 ### Linked List Data Structure in Python
 
 A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node contains two parts: the data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be dynamically allocated and deallocated. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes). Linked lists are used in various applications such as implementing dynamic data structures, managing memory efficiently, and representing sequences of data. Here has a detailed overview of linked lists in Python with extensive examples:
@@ -3223,159 +3376,6 @@ pre_order_traversal(root)
 
 Trees are versatile data structures that find applications in various domains of computer science and software engineering. Understanding tree algorithms and implementations is crucial for solving problems efficiently and effectively in many areas of programming and computer science.
 
-
-### Linked List in Python
-
-A linked list is a linear data structure consisting of nodes where each node contains a data element and a reference (link) to the next node in the sequence. Linked lists can be singly linked (each node points to the next node) or doubly linked (each node points to both the next and previous nodes). Linked lists are commonly used to implement dynamic data structures like stacks, queues, and associative arrays. Here has a detailed overview of linked lists in Python with extensive examples:
-
-#### Node Implementation:
-
-A node in a linked list contains two fields: data and a reference to the next node.
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-```
-
-#### Linked List Implementation:
-
-A linked list consists of nodes connected in a sequence. The linked list class maintains a reference to the head node.
-
-```python
-class LinkedList:
-    def __init__(self):
-        self.head = None
-
-    def append(self, data):
-        new_node = Node(data)
-        if not self.head:
-            self.head = new_node
-        else:
-            current = self.head
-            while current.next:
-                current = current.next
-            current.next = new_node
-
-    def display(self):
-        current = self.head
-        while current:
-            print(current.data, end=" ")
-            current = current.next
-```
-
-#### Common Operations on Linked List:
-
-1. **Append**: Adding a new node to the end of the linked list.
-2. **Insert**: Inserting a new node at a specific position in the linked list.
-3. **Delete**: Removing a node from the linked list.
-4. **Search**: Finding a node with a specific value in the linked list.
-5. **Traversal**: Iterating through the linked list to access or modify each node.
-6. **Length**: Determining the number of nodes in the linked list.
-
-#### Use Cases of Linked List:
-
-1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures like stacks and queues, where elements can be added or removed efficiently.
-2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks dynamically.
-3. **Text Editors**: Linked lists can be used to implement text editors, where each character is stored in a separate node.
-4. **Sparse Matrices**: Linked lists are used to represent sparse matrices efficiently, where most elements are zero.
-5. **Polynomial Manipulation**: Linked lists can be used to represent and manipulate polynomials efficiently.
-
-### Example: Creating and Displaying a Linked List
-
-```python
-# Creating a linked list
-linked_list = LinkedList()
-
-# Appending elements to the linked list
-linked_list.append(1)
-linked_list.append(2)
-linked_list.append(3)
-linked_list.append(4)
-
-# Displaying the linked list
-print("Linked List:", end=" ")
-linked_list.display()
-# Output: Linked List: 1 2 3 4
-```
-
-### Example: Inserting a Node at a Specific Position
-
-```python
-# Inserting a node at a specific position
-def insert_at_position(self, data, position):
-    if position < 0:
-        print("Invalid position")
-        return
-    new_node = Node(data)
-    if position == 0:
-        new_node.next = self.head
-        self.head = new_node
-        return
-    current = self.head
-    for _ in range(position - 1):
-        if current is None:
-            print("Position out of range")
-            return
-        current = current.next
-    if current is None:
-        print("Position out of range")
-        return
-    new_node.next = current.next
-    current.next = new_node
-
-# Adding the insert_at_position method to the LinkedList class
-LinkedList.insert_at_position = insert_at_position
-
-# Inserting a node at position 2
-linked_list.insert_at_position(5, 2)
-
-# Displaying the modified linked list
-print("Modified Linked List:", end=" ")
-linked_list.display()
-# Output: Modified Linked List: 1 2 5 3 4
-```
-
-### Example Use Case: Implementing Stack Using Linked List
-
-```python
-class StackLinkedList:
-    def __init__(self):
-        self.head = None
-
-    def push(self, data):
-        new_node = Node(data)
-        new_node.next = self.head
-        self.head = new_node
-
-    def pop(self):
-        if self.is_empty():
-            return None
-        popped = self.head.data
-        self.head = self.head.next
-        return popped
-
-    def is_empty(self):
-        return self.head is None
-
-# Creating a stack using linked list
-stack = StackLinkedList()
-
-# Pushing elements onto the stack
-stack.push(1)
-stack.push(2)
-stack.push(3)
-
-# Popping elements from the stack
-while not stack.is_empty():
-    print("Popped:", stack.pop())
-# Output: Popped: 3
-#         Popped: 2
-#         Popped: 1
-```
-
-Linked lists provide a flexible and efficient way to manage dynamic collections of data, making them suitable for various applications in computer science and software engineering.
 
 ### Graph Data Structure inn Python
 
