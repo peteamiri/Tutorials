@@ -1611,6 +1611,105 @@ print(my_string.endswith('World!'))  # Output: True
 ```
 
 These are some of the most commonly used string functions in Python. They provide powerful tools for manipulating and working with strings in various ways, making them essential for many programming tasks.
+## String Formtting
+
+String formatting in Python refers to the process of constructing strings with placeholders and inserting values into those placeholders. There are several methods for string formatting in Python, including using the `%` operator, the `str.format()` method, and f-strings (formatted string literals). Let's explore each method with extensive examples:
+
+### 1. Using `%` Operator:
+
+```python
+name = "Alice"
+age = 30
+formatted_str = "My name is %s and I am %d years old." % (name, age)
+print(formatted_str)
+# Output: My name is Alice and I am 30 years old.
+```
+
+### 2. Using `str.format()` Method:
+
+```python
+name = "Bob"
+age = 25
+formatted_str = "My name is {} and I am {} years old.".format(name, age)
+print(formatted_str)
+# Output: My name is Bob and I am 25 years old.
+```
+
+### 3. Using f-strings (Python 3.6+):
+
+```python
+name = "Charlie"
+age = 35
+formatted_str = f"My name is {name} and I am {age} years old."
+print(formatted_str)
+# Output: My name is Charlie and I am 35 years old.
+```
+
+### Common Formatting Options:
+
+- **Specifying Field Width and Alignment**:
+
+```python
+num = 42
+formatted_str = "Number: {:10d}".format(num)  # Right-aligned, width 10
+print(formatted_str)
+# Output: Number:         42
+
+formatted_str = "Number: {:<10d}".format(num)  # Left-aligned, width 10
+print(formatted_str)
+# Output: Number: 42
+```
+
+- **Precision and Floating-Point Formatting**:
+
+```python
+pi = 3.141592653589793
+formatted_str = "Pi: {:.2f}".format(pi)  # Two decimal places
+print(formatted_str)
+# Output: Pi: 3.14
+```
+
+- **Specifying Argument Index**:
+
+```python
+name = "David"
+age = 40
+formatted_str = "Name: {1}, Age: {0}".format(age, name)
+print(formatted_str)
+# Output: Name: David, Age: 40
+```
+
+- **Using Named Arguments**:
+
+```python
+person = {"name": "Eve", "age": 45}
+formatted_str = "Name: {name}, Age: {age}".format(**person)
+print(formatted_str)
+# Output: Name: Eve, Age: 45
+```
+
+### Formatting with Special Characters:
+
+- **Escaping Braces**:
+
+```python
+print("{{Hello}}")  # Output: {Hello}
+```
+
+### Use Cases:
+
+- **Dynamic String Generation**:
+  - Constructing messages, filenames, URLs, etc., with variable values.
+- **Logging and Debugging**:
+  - Formatting log messages with timestamps, error details, etc.
+- **User Interfaces**:
+  - Displaying formatted data in console applications or GUIs.
+- **Data Reporting**:
+  - Formatting data for reports, charts, or visualizations.
+- **Template Rendering**:
+  - Generating HTML, XML, or other markup languages dynamically.
+
+String formatting in Python is a powerful feature that allows developers to create flexible and readable code while working with strings and textual data. Choose the method that best fits your needs and preferences for each situation.
 
 ## Unicode
 
