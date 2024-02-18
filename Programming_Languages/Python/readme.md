@@ -490,6 +490,55 @@ result = (value1 +
 
 Indentation errors are common sources of syntax errors in Python code. It's crucial to ensure that indentation is consistent and properly aligned to avoid such errors. Additionally, well-formatted indentation improves code readability and maintainability, making it easier for other developers to understand and work with the code.
 
+## Chapter XX user input and passing arguments
+
+In Python 3, you can get user input using the `input()` function. Here are various examples of getting user input in Python 3:
+
+1. **Basic input**: Get a single line of input from the user and assign it to a variable.
+```python
+name = input("Enter your name: ")
+print("Hello,", name)
+```
+
+2. **Numeric input**: Convert user input to a numeric data type (int or float) using type casting.
+```python
+age = int(input("Enter your age: "))
+print("You are", age, "years old.")
+```
+
+3. **Multiple inputs**: Get multiple inputs from the user and store them in separate variables.
+```python
+x, y = input("Enter two numbers separated by space: ").split()
+x = int(x)
+y = int(y)
+print("Sum:", x + y)
+```
+
+4. **String input**: Get a string input from the user and perform string manipulation.
+```python
+sentence = input("Enter a sentence: ")
+print("Number of characters:", len(sentence))
+```
+
+5. **Dynamic input**: Get user input dynamically within a loop until a specific condition is met.
+```python
+numbers = []
+while True:
+    num = input("Enter a number (or 'done' to finish): ")
+    if num == 'done':
+        break
+    numbers.append(int(num))
+print("Sum of numbers:", sum(numbers))
+```
+
+6. **Password input**: Get a password input from the user without displaying the characters entered.
+```python
+import getpass
+password = getpass.getpass("Enter your password: ")
+```
+
+These examples demonstrate various ways to get user input in Python 3 for different purposes, including basic input, numeric input, multiple inputs, string input, dynamic input within a loop, and password input.
+
 ## Passing Arguments to Python Script
 
 Passing arguments to a Python script allows you to provide input data or configuration options to the script when it is executed. This makes your scripts more flexible and reusable, as they can behave differently based on the provided arguments. Python provides the `sys.argv` list, the `argparse` module, and the `click` library for parsing command-line arguments. I'll describe each approach and provide examples for passing arguments to a Python script:
@@ -1283,6 +1332,66 @@ x, *y, z = values
 In this case, `x` will be assigned the first value, `z` will be assigned the last value, and `y` will be a list containing the remaining values.
 
 These are some examples of how you can use multiple assignments in Python to assign values to variables efficiently.
+## math functions
+
+In Python 3, the `math` module provides a wide range of mathematical functions for performing various mathematical operations. These functions cover operations such as arithmetic, trigonometry, exponentiation, logarithms, and more. Here are some common math functions available in Python 3:
+
+1. **Basic Arithmetic Functions**:
+   - `math.ceil(x)`: Returns the smallest integer greater than or equal to `x`.
+   - `math.floor(x)`: Returns the largest integer less than or equal to `x`.
+   - `math.trunc(x)`: Returns the integer part of `x` (truncates the fractional part).
+   - `math.factorial(x)`: Returns the factorial of `x`.
+   - `math.pow(x, y)`: Returns `x` raised to the power `y`.
+
+2. **Trigonometric Functions**:
+   - `math.sin(x)`, `math.cos(x)`, `math.tan(x)`: Returns the sine, cosine, and tangent of `x`, respectively.
+   - `math.asin(x)`, `math.acos(x)`, `math.atan(x)`: Returns the arcsine, arccosine, and arctangent of `x`, respectively.
+   - `math.degrees(x)`: Converts angle `x` from radians to degrees.
+   - `math.radians(x)`: Converts angle `x` from degrees to radians.
+
+3. **Exponential and Logarithmic Functions**:
+   - `math.exp(x)`: Returns the exponential of `x` (e^x).
+   - `math.log(x)`: Returns the natural logarithm of `x`.
+   - `math.log10(x)`: Returns the base-10 logarithm of `x`.
+   - `math.log2(x)`: Returns the base-2 logarithm of `x`.
+
+4. **Constants**:
+   - `math.pi`: Mathematical constant pi (π).
+   - `math.e`: Mathematical constant e (the base of natural logarithms).
+
+5. **Others**:
+   - `math.sqrt(x)`: Returns the square root of `x`.
+   - `math.isinf(x)`: Returns True if `x` is positive or negative infinity.
+   - `math.isnan(x)`: Returns True if `x` is not a number (NaN).
+
+Here has an example demonstrating the usage of some of these functions:
+
+```python
+import math
+
+# Basic arithmetic functions
+print(math.ceil(4.5))   # Output: 5
+print(math.floor(4.5))  # Output: 4
+print(math.factorial(5))  # Output: 120
+print(math.pow(2, 3))   # Output: 8.0
+
+# Trigonometric functions
+print(math.sin(math.pi / 2))  # Output: 1.0
+print(math.degrees(math.pi))  # Output: 180.0
+
+# Exponential and logarithmic functions
+print(math.exp(2))     # Output: 7.3890560989306495
+print(math.log(10))    # Output: 2.302585092994046
+print(math.sqrt(25))   # Output: 5.0
+
+# Constants
+print(math.pi)  # Output: 3.141592653589793
+print(math.e)   # Output: 2.718281828459045
+```
+
+These are just a few examples of the many math functions available in Python has `math` module. You can explore the complete list of functions and constants in the official Python documentation.
+
+
 
 # Chapter XX String
 
@@ -1718,6 +1827,7 @@ print(my_string.endswith('World!'))  # Output: True
 ```
 
 These are some of the most commonly used string functions in Python. They provide powerful tools for manipulating and working with strings in various ways, making them essential for many programming tasks.
+
 ## String Formtting
 
 String formatting in Python refers to the process of constructing strings with placeholders and inserting values into those placeholders. There are several methods for string formatting in Python, including using the `%` operator, the `str.format()` method, and f-strings (formatted string literals). Let's explore each method with extensive examples:
@@ -1863,6 +1973,7 @@ In these examples:
 String slicing is a powerful feature in Python that allows you to manipulate and extract substrings efficiently from strings. It is commonly used in various string manipulation tasks, including data processing, text parsing, and algorithm implementation.
 
 ## Templates
+
 In Python, templates refer to a mechanism for creating dynamic strings or documents by substituting placeholders with actual values or content. Templates are commonly used in web development frameworks, text processing, and code generation tasks to generate output based on predefined templates or patterns.
 
 One popular library for working with templates in Python is the `string.Template` class from the `string` module. This class provides a simple and flexible way to create template strings and perform variable substitution. Here has a basic overview of how templates work in Python using `string.Template`:
@@ -3023,6 +3134,7 @@ Doubly linked lists provide a versatile and efficient way to manage sequences of
 
 
 ### Tree Data Structure in Python
+
 In Python, a tree is a hierarchical data structure composed of nodes connected by edges. Each node has a value and can have zero or more child nodes, forming a branching structure similar to a tree in nature. Trees are widely used in computer science for various purposes, including representing hierarchical data, organizing information, and implementing algorithms like search and traversal. Let's delve into the details of tree data structures in Python with examples and use cases:
 
 ### Components of a Tree:
@@ -3268,6 +3380,7 @@ while not stack.is_empty():
 Linked lists provide a flexible and efficient way to manage dynamic collections of data, making them suitable for various applications in computer science and software engineering.
 
 ### Graph Data Structure inn Python
+
 A graph is a mathematical structure that consists of a set of vertices (also called nodes) and a set of edges (also called arcs) that connect pairs of vertices. Graphs are widely used to represent relationships between objects, such as networks, social connections, web pages, and more. In Python, graphs can be implemented using various data structures, such as adjacency lists or adjacency matrices. Here has a detailed overview of graphs in Python with extensive examples:
 
 ### Graph Representation:
@@ -3388,6 +3501,7 @@ def dijkstra(graph, start):
     return distances
 
 # Example graph
+
 graph = {
     'A': {'B': 1, 'C': 4},
     'B': {'A': 1, 'C': 2, 'D': 5},
@@ -3399,13 +3513,13 @@ graph = {
 shortest_paths = dijkstra(graph, 'A')
 print("Shortest Paths from '
 
-A':", shortest_paths)
+A":", shortest_paths)
 ```
 
 Graphs are versatile data structures used in various fields like computer science, social sciences, transportation, and more. Understanding graphs and their implementations is crucial for solving a wide range of problems efficiently.
 
-## indexing
-In Python, indexing refers to the process of accessing individual elements (items) in a data structure such as a list, tuple, string, or dictionary using their position or key. Indexing is fundamental in Python programming and allows you to retrieve specific elements from a collection based on their position or key. Here's a detailed explanation with examples and use cases:
+## What is Indexing
+In Python, indexing refers to the process of accessing individual elements (items) in a data structure such as a list, tuple, string, or dictionary using their position or key. Indexing is fundamental in Python programming and allows you to retrieve specific elements from a collection based on their position or key. Here is a detailed explanation with examples and use cases:
 
 ### 1. Indexing in Lists:
 
@@ -3487,7 +3601,8 @@ print(my_list[::-1])  # Reversing the list using slicing
 
 Indexing is a fundamental concept in Python programming that enables efficient access to elements within various data structures. Mastering indexing techniques is essential for effective data manipulation and algorithm implementation in Python.
 
-## type cast
+## Type Cast
+
 Type casting in Python 3 refers to the process of converting the data type of a variable or value from one type to another. Python provides several built-in functions for type casting, allowing you to convert between different data types as needed. Here are some commonly used type casting functions in Python:
 
 1. **int()**: Converts a value to an integer.
@@ -3555,114 +3670,6 @@ print(dict_values)  # Output: {'a': 1, 'b': 2, 'c': 3}
 
 Type casting is useful when you need to ensure that the data type of a variable matches the requirements of an operation or when you need to convert data between different representations for processing or manipulation.
 
-
-
-## Chapter XX user input
-
-In Python 3, you can get user input using the `input()` function. Here are various examples of getting user input in Python 3:
-
-1. **Basic input**: Get a single line of input from the user and assign it to a variable.
-```python
-name = input("Enter your name: ")
-print("Hello,", name)
-```
-
-2. **Numeric input**: Convert user input to a numeric data type (int or float) using type casting.
-```python
-age = int(input("Enter your age: "))
-print("You are", age, "years old.")
-```
-
-3. **Multiple inputs**: Get multiple inputs from the user and store them in separate variables.
-```python
-x, y = input("Enter two numbers separated by space: ").split()
-x = int(x)
-y = int(y)
-print("Sum:", x + y)
-```
-
-4. **String input**: Get a string input from the user and perform string manipulation.
-```python
-sentence = input("Enter a sentence: ")
-print("Number of characters:", len(sentence))
-```
-
-5. **Dynamic input**: Get user input dynamically within a loop until a specific condition is met.
-```python
-numbers = []
-while True:
-    num = input("Enter a number (or 'done' to finish): ")
-    if num == 'done':
-        break
-    numbers.append(int(num))
-print("Sum of numbers:", sum(numbers))
-```
-
-6. **Password input**: Get a password input from the user without displaying the characters entered.
-```python
-import getpass
-password = getpass.getpass("Enter your password: ")
-```
-
-These examples demonstrate various ways to get user input in Python 3 for different purposes, including basic input, numeric input, multiple inputs, string input, dynamic input within a loop, and password input.
-
-## math functions
-In Python 3, the `math` module provides a wide range of mathematical functions for performing various mathematical operations. These functions cover operations such as arithmetic, trigonometry, exponentiation, logarithms, and more. Here are some common math functions available in Python 3:
-
-1. **Basic Arithmetic Functions**:
-   - `math.ceil(x)`: Returns the smallest integer greater than or equal to `x`.
-   - `math.floor(x)`: Returns the largest integer less than or equal to `x`.
-   - `math.trunc(x)`: Returns the integer part of `x` (truncates the fractional part).
-   - `math.factorial(x)`: Returns the factorial of `x`.
-   - `math.pow(x, y)`: Returns `x` raised to the power `y`.
-
-2. **Trigonometric Functions**:
-   - `math.sin(x)`, `math.cos(x)`, `math.tan(x)`: Returns the sine, cosine, and tangent of `x`, respectively.
-   - `math.asin(x)`, `math.acos(x)`, `math.atan(x)`: Returns the arcsine, arccosine, and arctangent of `x`, respectively.
-   - `math.degrees(x)`: Converts angle `x` from radians to degrees.
-   - `math.radians(x)`: Converts angle `x` from degrees to radians.
-
-3. **Exponential and Logarithmic Functions**:
-   - `math.exp(x)`: Returns the exponential of `x` (e^x).
-   - `math.log(x)`: Returns the natural logarithm of `x`.
-   - `math.log10(x)`: Returns the base-10 logarithm of `x`.
-   - `math.log2(x)`: Returns the base-2 logarithm of `x`.
-
-4. **Constants**:
-   - `math.pi`: Mathematical constant pi (π).
-   - `math.e`: Mathematical constant e (the base of natural logarithms).
-
-5. **Others**:
-   - `math.sqrt(x)`: Returns the square root of `x`.
-   - `math.isinf(x)`: Returns True if `x` is positive or negative infinity.
-   - `math.isnan(x)`: Returns True if `x` is not a number (NaN).
-
-Here has an example demonstrating the usage of some of these functions:
-
-```python
-import math
-
-# Basic arithmetic functions
-print(math.ceil(4.5))   # Output: 5
-print(math.floor(4.5))  # Output: 4
-print(math.factorial(5))  # Output: 120
-print(math.pow(2, 3))   # Output: 8.0
-
-# Trigonometric functions
-print(math.sin(math.pi / 2))  # Output: 1.0
-print(math.degrees(math.pi))  # Output: 180.0
-
-# Exponential and logarithmic functions
-print(math.exp(2))     # Output: 7.3890560989306495
-print(math.log(10))    # Output: 2.302585092994046
-print(math.sqrt(25))   # Output: 5.0
-
-# Constants
-print(math.pi)  # Output: 3.141592653589793
-print(math.e)   # Output: 2.718281828459045
-```
-
-These are just a few examples of the many math functions available in Python has `math` module. You can explore the complete list of functions and constants in the official Python documentation.
 
 # Chapter XX Flow Control
 In Python 3, logical flow control refers to the mechanisms used to direct the execution flow of a program based on conditions or logical expressions. These mechanisms include conditional statements (`if`, `elif`, `else`), loops (`for` and `while`), and branching statements (`break`, `continue`, and `pass`). Here has a brief overview of each:
