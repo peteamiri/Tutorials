@@ -180,3 +180,29 @@ AWS EC2 offers several pricing options to accommodate different usage patterns a
    - **Use Cases**: Savings Plans are suitable for users with predictable usage patterns who want to maximize cost savings on their AWS usage. They offer flexibility to adapt to changing workload requirements while providing cost-effective pricing options.
 
 These pricing options provide users with flexibility and cost optimization opportunities, allowing them to choose the most appropriate pricing model based on their usage patterns, budget constraints, and business requirements.
+
+
+### EC2 Storage options
+
+Amazon EC2 instances offer various storage options to meet different performance, durability, and cost requirements. Here are the primary storage drive options available for EC2 instances:
+
+1. **Amazon Elastic Block Store (EBS)**:
+   - Amazon EBS provides block-level storage volumes that can be attached to EC2 instances. EBS volumes are durable, highly available, and offer persistent storage that persists independently from the life of an EC2 instance.
+   - EBS volumes come in different types optimized for various workloads, including General Purpose (SSD), Provisioned IOPS (SSD), Throughput Optimized (HDD), Cold HDD, and Magnetic (HDD).
+   - Users can choose the appropriate EBS volume type based on their performance and cost requirements. EBS volumes can be attached to EC2 instances as primary storage volumes or additional data volumes.
+
+2. **Instance Store (Ephemeral Storage)**:
+   - Instance store provides temporary block-level storage directly attached to the underlying EC2 instance. Instance store volumes are ephemeral, meaning they are not persisted when the instance is stopped or terminated.
+   - Instance store volumes offer high-performance local storage with low-latency access, making them suitable for temporary data, caching, and scratch space.
+   - The availability and performance characteristics of instance store volumes depend on the instance type and size. Not all EC2 instance types offer instance store volumes, and the size and performance vary between instance types.
+
+3. **Amazon Elastic File System (EFS)**:
+   - Amazon EFS provides scalable and fully managed file storage that can be mounted to multiple EC2 instances concurrently. EFS is designed for shared file storage use cases, allowing multiple EC2 instances to access the same file system simultaneously.
+   - EFS offers elastic storage capacity that automatically scales up or down based on demand, eliminating the need to provision and manage storage volumes.
+   - EFS is suitable for use cases such as content management systems, development environments, and shared data repositories where multiple EC2 instances need access to shared file storage.
+
+4. **Amazon S3**:
+   - While not directly attached storage like EBS or instance store, Amazon S3 provides scalable and highly durable object storage that can be accessed from EC2 instances over the network.
+   - EC2 instances can interact with S3 buckets using the AWS SDKs, CLI, or APIs to store and retrieve objects. S3 is ideal for storing large amounts of unstructured data, static website hosting, content distribution, and data backup and archival.
+
+These storage options offer flexibility and choice for users to meet different performance, durability, and scalability requirements for their EC2 instances and applications. Depending on the workload characteristics and access patterns, users can select the appropriate storage option or combination of options to optimize performance, cost, and data durability.
