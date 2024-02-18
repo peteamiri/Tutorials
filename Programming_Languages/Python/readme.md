@@ -2320,6 +2320,278 @@ print("Sum of all elements:", total)
 ### Tuple Data Structure in Python
 A tuple in Python is an immutable, ordered collection of elements. Unlike lists, tuples cannot be modified after creation, making them suitable for representing fixed collections of items. Tuples are defined using parentheses `()` and can contain elements of different data types, including numbers, strings, booleans, and even other tuples. Here has a detailed overview of tuples in Python with extensive examples:
 
+### Linked List Data Structure in Python
+
+A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node contains two parts: the data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be dynamically allocated and deallocated. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes). Linked lists are used in various applications such as implementing dynamic data structures, managing memory efficiently, and representing sequences of data. Here has a detailed overview of linked lists in Python with extensive examples:
+
+### Singly Linked List Implementation:
+
+We'll start with a simple implementation of a singly linked list in Python:
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class SinglyLinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+
+    def print_list(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data, end=" -> ")
+            current_node = current_node.next
+        print("None")
+```
+
+### Common Operations on Singly Linked List:
+
+1. **Append Operation**: Adding a new node to the end of the list.
+2. **Print Operation**: Printing all the elements of the list.
+3. **Insert Operation**: Inserting a new node at a specific position.
+4. **Delete Operation**: Deleting a node from the list.
+5. **Search Operation**: Searching for a specific value in the list.
+
+### Use Cases of Linked Lists:
+
+1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures such as stacks, queues, and hash tables.
+2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks efficiently.
+3. **File System Implementation**: Linked lists are used to represent directory structures and file allocation tables in file systems.
+4. **Undo Functionality**: Linked lists can be used to implement undo functionality in text editors or other applications.
+5. **Arbitrary Precision Arithmetic**: Linked lists can be used to implement arbitrary precision arithmetic operations.
+
+### Example: Using Singly Linked List to Store and Print Student Data:
+
+```python
+# Create a singly linked list instance
+student_list = SinglyLinkedList()
+
+# Append student data to the list
+student_list.append("Alice")
+student_list.append("Bob")
+student_list.append("Charlie")
+
+# Print the student list
+print("Student List:")
+student_list.print_list()
+```
+
+Output:
+```
+Student List:
+Alice -> Bob -> Charlie -> None
+```
+
+### Example: Using Singly Linked List for Undo Functionality:
+
+```python
+# Create a singly linked list instance
+undo_list = SinglyLinkedList()
+
+# Perform some actions
+actions = ["Action 1", "Action 2", "Action 3"]
+for action in actions:
+    undo_list.append(action)
+
+# Print the actions
+print("Actions:")
+undo_list.print_list()
+
+# Undo the last action
+undo_list.head = undo_list.head.next
+
+# Print the actions after undo
+print("Actions after undo:")
+undo_list.print_list()
+```
+
+Output:
+```
+Actions:
+Action 1 -> Action 2 -> Action 3 -> None
+Actions after undo:
+Action 2 -> Action 3 -> None
+```
+
+In these examples, we demonstrate how a singly linked list can be used to store and manipulate data efficiently. Singly linked lists are versatile data structures that find applications in various domains, including computer science, software engineering, and data processing.
+
+## Doubly Linked List
+
+A doubly linked list is a type of linked list where each node has two pointers: one that points to the next node in the sequence (next pointer) and another that points to the previous node (previous pointer). This bidirectional linkage allows traversal of the list in both forward and backward directions. Doubly linked lists offer efficient insertion and deletion operations compared to singly linked lists, as they don't require traversal from the beginning of the list to find the previous node. Here has a detailed overview of doubly linked lists in Python with extensive examples:
+
+### Node Implementation:
+
+A node in a doubly linked list contains three fields: data, a pointer to the next node, and a pointer to the previous node.
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
+```
+
+### Doubly Linked List Implementation:
+
+A doubly linked list consists of nodes connected in both forward and backward directions. The list maintains references to the head (first node) and tail (last node) of the list.
+
+```python
+class DoublyLinkedList:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+        else:
+            self.tail.next = new_node
+            new_node.prev = self.tail
+        self.tail = new_node
+
+    def display_forward(self):
+        current = self.head
+        while current:
+            print(current.data, end=" ")
+            current = current.next
+
+    def display_backward(self):
+        current = self.tail
+        while current:
+            print(current.data, end=" ")
+            current = current.prev
+```
+
+### Common Operations on Doubly Linked Lists:
+
+1. **Append**: Adding a new node to the end of the list.
+2. **Prepend**: Adding a new node to the beginning of the list.
+3. **Insert**: Inserting a new node at a specific position in the list.
+4. **Delete**: Removing a node from the list.
+5. **Search**: Finding a node with a specific value in the list.
+6. **Traversal**: Iterating through the list to access or modify each node.
+7. **Reverse Traversal**: Iterating through the list in reverse order.
+
+### Use Cases of Doubly Linked Lists:
+
+1. **Text Editors**: Doubly linked lists can be used to implement text editors, where each character is stored in a separate node, and efficient insertion, deletion, and navigation operations are required.
+2. **Undo/Redo Mechanism**: Doubly linked lists can be used to implement an undo/redo mechanism in applications, allowing users to revert or redo actions performed in the past.
+3. **Cache Implementation**: Doubly linked lists are used in cache implementations, where frequently accessed items are moved to the front of the list for quick access, while least recently used items are removed from the end of the list.
+4. **Music Playlist**: Doubly linked lists can be used to implement music playlists, allowing users to navigate forward and backward through the list of songs.
+
+### Example: Creating and Displaying a Doubly Linked List
+
+```python
+# Creating a doubly linked list
+dll = DoublyLinkedList()
+
+# Appending elements to the list
+dll.append(1)
+dll.append(2)
+dll.append(3)
+
+# Displaying the list in forward direction
+print("Forward:", end=" ")
+dll.display_forward()  # Output: Forward: 1 2 3
+
+# Displaying the list in backward direction
+print("\nBackward:", end=" ")
+dll.display_backward()  # Output: Backward: 3 2 1
+```
+
+### Example: Inserting a Node at a Specific Position
+
+```python
+def insert_at_position(self, data, position):
+    new_node = Node(data)
+    if position <= 0:
+        new_node.next = self.head
+        if self.head:
+            self.head.prev = new_node
+        self.head = new_node
+        if not self.tail:
+            self.tail = new_node
+        return
+    current = self.head
+    for _ in range(position - 1):
+        if current is None:
+            print("Position out of range")
+            return
+        current = current.next
+    if current is None:
+        print("Position out of range")
+        return
+    new_node.next = current.next
+    new_node.prev = current
+    if current.next:
+        current.next.prev = new_node
+    current.next = new_node
+    if new_node.next is None:
+        self.tail = new_node
+
+# Adding the insert_at_position method to the DoublyLinkedList class
+DoublyLinkedList.insert_at_position = insert_at_position
+```
+
+### Example Use Case: Implementing a Text Editor
+
+```python
+class TextEditor:
+    def __init__(self):
+        self.buffer = DoublyLinkedList()
+
+    def insert_text(self, text):
+        for char in text:
+            self.buffer.append(char)
+
+    def delete_text(self, position):
+        current = self.buffer.head
+        for _ in range(position):
+            if current is None:
+                return
+            current = current.next
+        if current is not None:
+            if current.prev:
+                current.prev.next = current.next
+            if current.next:
+                current.next.prev = current.prev
+
+    def display_text(self):
+        self.buffer.display_forward()
+
+# Creating a text editor
+editor = TextEditor()
+
+# Inserting text into the buffer
+editor.insert_text("Hello, World!")
+
+# Displaying the text
+editor.display_text()  # Output: Hello, World!
+
+# Deleting text at position 5
+editor.delete_text(5)
+
+# Displaying the updated text
+editor.display_text()
+
+ # Output: HelloWorld!
+```
+
+Doubly linked lists provide a versatile and efficient way to manage sequences of data with bidirectional traversal capabilities, making them suitable for various applications in computer science and software engineering.
+
 ### Creating Tuples:
 
 Tuples are defined using parentheses `()` and elements are separated by commas.
@@ -2502,7 +2774,6 @@ print(unique_numbers)  # Output: {1, 2, 3, 4, 5}
 Sets are versatile and efficient data structures in Python, providing a convenient way to work with collections of unique elements. They are commonly used in scenarios where uniqueness and efficient membership testing are important, such as removing duplicates, performing set operations, and testing for element presence.
 
 ### Dictionary Data Structure inn Python
-
 
 A dictionary in Python is a mutable, unordered collection of key-value pairs. It provides a mapping between unique keys and their associated values, allowing for efficient lookups, insertions, deletions, and updates. Dictionaries are defined using curly braces `{}` and consist of comma-separated key-value pairs in the form `key: value`. Keys must be immutable and unique, while values can be of any data type. Here has a detailed overview of dictionaries in Python with extensive examples:
 
@@ -2859,279 +3130,6 @@ print("Sorted Data:", sorted_result)  # Output: Sorted Data: [1, 2, 3, 5, 8, 9]
 In this example, heap sort is performed on a list of elements using a min-heap. The elements are added to the heap, and then they are popped out one by one to get the sorted result.
 
 Heaps are efficient data structures for maintaining priority queues, performing sorting algorithms, and solving various algorithmic problems efficiently.
-
-### Linked List Data Structure in Python
-
-A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node contains two parts: the data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be dynamically allocated and deallocated. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes). Linked lists are used in various applications such as implementing dynamic data structures, managing memory efficiently, and representing sequences of data. Here has a detailed overview of linked lists in Python with extensive examples:
-
-### Singly Linked List Implementation:
-
-We'll start with a simple implementation of a singly linked list in Python:
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-class SinglyLinkedList:
-    def __init__(self):
-        self.head = None
-
-    def append(self, data):
-        new_node = Node(data)
-        if not self.head:
-            self.head = new_node
-            return
-        last_node = self.head
-        while last_node.next:
-            last_node = last_node.next
-        last_node.next = new_node
-
-    def print_list(self):
-        current_node = self.head
-        while current_node:
-            print(current_node.data, end=" -> ")
-            current_node = current_node.next
-        print("None")
-```
-
-### Common Operations on Singly Linked List:
-
-1. **Append Operation**: Adding a new node to the end of the list.
-2. **Print Operation**: Printing all the elements of the list.
-3. **Insert Operation**: Inserting a new node at a specific position.
-4. **Delete Operation**: Deleting a node from the list.
-5. **Search Operation**: Searching for a specific value in the list.
-
-### Use Cases of Linked Lists:
-
-1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures such as stacks, queues, and hash tables.
-2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks efficiently.
-3. **File System Implementation**: Linked lists are used to represent directory structures and file allocation tables in file systems.
-4. **Undo Functionality**: Linked lists can be used to implement undo functionality in text editors or other applications.
-5. **Arbitrary Precision Arithmetic**: Linked lists can be used to implement arbitrary precision arithmetic operations.
-
-### Example: Using Singly Linked List to Store and Print Student Data:
-
-```python
-# Create a singly linked list instance
-student_list = SinglyLinkedList()
-
-# Append student data to the list
-student_list.append("Alice")
-student_list.append("Bob")
-student_list.append("Charlie")
-
-# Print the student list
-print("Student List:")
-student_list.print_list()
-```
-
-Output:
-```
-Student List:
-Alice -> Bob -> Charlie -> None
-```
-
-### Example: Using Singly Linked List for Undo Functionality:
-
-```python
-# Create a singly linked list instance
-undo_list = SinglyLinkedList()
-
-# Perform some actions
-actions = ["Action 1", "Action 2", "Action 3"]
-for action in actions:
-    undo_list.append(action)
-
-# Print the actions
-print("Actions:")
-undo_list.print_list()
-
-# Undo the last action
-undo_list.head = undo_list.head.next
-
-# Print the actions after undo
-print("Actions after undo:")
-undo_list.print_list()
-```
-
-Output:
-```
-Actions:
-Action 1 -> Action 2 -> Action 3 -> None
-Actions after undo:
-Action 2 -> Action 3 -> None
-```
-
-In these examples, we demonstrate how a singly linked list can be used to store and manipulate data efficiently. Singly linked lists are versatile data structures that find applications in various domains, including computer science, software engineering, and data processing.
-
-## Doubly Linked List
-
-A doubly linked list is a type of linked list where each node has two pointers: one that points to the next node in the sequence (next pointer) and another that points to the previous node (previous pointer). This bidirectional linkage allows traversal of the list in both forward and backward directions. Doubly linked lists offer efficient insertion and deletion operations compared to singly linked lists, as they don't require traversal from the beginning of the list to find the previous node. Here has a detailed overview of doubly linked lists in Python with extensive examples:
-
-### Node Implementation:
-
-A node in a doubly linked list contains three fields: data, a pointer to the next node, and a pointer to the previous node.
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-        self.prev = None
-```
-
-### Doubly Linked List Implementation:
-
-A doubly linked list consists of nodes connected in both forward and backward directions. The list maintains references to the head (first node) and tail (last node) of the list.
-
-```python
-class DoublyLinkedList:
-    def __init__(self):
-        self.head = None
-        self.tail = None
-
-    def append(self, data):
-        new_node = Node(data)
-        if not self.head:
-            self.head = new_node
-        else:
-            self.tail.next = new_node
-            new_node.prev = self.tail
-        self.tail = new_node
-
-    def display_forward(self):
-        current = self.head
-        while current:
-            print(current.data, end=" ")
-            current = current.next
-
-    def display_backward(self):
-        current = self.tail
-        while current:
-            print(current.data, end=" ")
-            current = current.prev
-```
-
-### Common Operations on Doubly Linked Lists:
-
-1. **Append**: Adding a new node to the end of the list.
-2. **Prepend**: Adding a new node to the beginning of the list.
-3. **Insert**: Inserting a new node at a specific position in the list.
-4. **Delete**: Removing a node from the list.
-5. **Search**: Finding a node with a specific value in the list.
-6. **Traversal**: Iterating through the list to access or modify each node.
-7. **Reverse Traversal**: Iterating through the list in reverse order.
-
-### Use Cases of Doubly Linked Lists:
-
-1. **Text Editors**: Doubly linked lists can be used to implement text editors, where each character is stored in a separate node, and efficient insertion, deletion, and navigation operations are required.
-2. **Undo/Redo Mechanism**: Doubly linked lists can be used to implement an undo/redo mechanism in applications, allowing users to revert or redo actions performed in the past.
-3. **Cache Implementation**: Doubly linked lists are used in cache implementations, where frequently accessed items are moved to the front of the list for quick access, while least recently used items are removed from the end of the list.
-4. **Music Playlist**: Doubly linked lists can be used to implement music playlists, allowing users to navigate forward and backward through the list of songs.
-
-### Example: Creating and Displaying a Doubly Linked List
-
-```python
-# Creating a doubly linked list
-dll = DoublyLinkedList()
-
-# Appending elements to the list
-dll.append(1)
-dll.append(2)
-dll.append(3)
-
-# Displaying the list in forward direction
-print("Forward:", end=" ")
-dll.display_forward()  # Output: Forward: 1 2 3
-
-# Displaying the list in backward direction
-print("\nBackward:", end=" ")
-dll.display_backward()  # Output: Backward: 3 2 1
-```
-
-### Example: Inserting a Node at a Specific Position
-
-```python
-def insert_at_position(self, data, position):
-    new_node = Node(data)
-    if position <= 0:
-        new_node.next = self.head
-        if self.head:
-            self.head.prev = new_node
-        self.head = new_node
-        if not self.tail:
-            self.tail = new_node
-        return
-    current = self.head
-    for _ in range(position - 1):
-        if current is None:
-            print("Position out of range")
-            return
-        current = current.next
-    if current is None:
-        print("Position out of range")
-        return
-    new_node.next = current.next
-    new_node.prev = current
-    if current.next:
-        current.next.prev = new_node
-    current.next = new_node
-    if new_node.next is None:
-        self.tail = new_node
-
-# Adding the insert_at_position method to the DoublyLinkedList class
-DoublyLinkedList.insert_at_position = insert_at_position
-```
-
-### Example Use Case: Implementing a Text Editor
-
-```python
-class TextEditor:
-    def __init__(self):
-        self.buffer = DoublyLinkedList()
-
-    def insert_text(self, text):
-        for char in text:
-            self.buffer.append(char)
-
-    def delete_text(self, position):
-        current = self.buffer.head
-        for _ in range(position):
-            if current is None:
-                return
-            current = current.next
-        if current is not None:
-            if current.prev:
-                current.prev.next = current.next
-            if current.next:
-                current.next.prev = current.prev
-
-    def display_text(self):
-        self.buffer.display_forward()
-
-# Creating a text editor
-editor = TextEditor()
-
-# Inserting text into the buffer
-editor.insert_text("Hello, World!")
-
-# Displaying the text
-editor.display_text()  # Output: Hello, World!
-
-# Deleting text at position 5
-editor.delete_text(5)
-
-# Displaying the updated text
-editor.display_text()
-
- # Output: HelloWorld!
-```
-
-Doubly linked lists provide a versatile and efficient way to manage sequences of data with bidirectional traversal capabilities, making them suitable for various applications in computer science and software engineering.
-
 
 ### Tree Data Structure in Python
 
