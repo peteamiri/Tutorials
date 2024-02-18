@@ -18,7 +18,13 @@ This table provides a detailed overview of AWS cloud database services, includin
 AWS provides a comprehensive suite of cloud database services to cater to different data storage and processing needs. Here's a detailed description of each AWS cloud database service:
 
 1. **Amazon Relational Database Service (RDS)**:
-   - **Description**: Amazon RDS is a fully managed relational database service that supports several popular database engines, including MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server. It automates administrative tasks such as patching, backups, and scaling, allowing users to focus on application development. RDS offers features such as automated backups, multi-AZ deployments, read replicas, and security enhancements.
+   - **Description**: Amazon RDS is a fully managed relational database service that supports several popular database engines, including:
+     - MySQL,
+     - PostgreSQL,
+     - MariaDB,
+     - Oracle, and
+     - SQL Server.
+     It automates administrative tasks such as patching, backups, and scaling, allowing users to focus on application development. RDS offers features such as automated backups, multi-AZ deployments, read replicas, and security enhancements.
    - **Use Cases**: RDS is suitable for various relational database workloads, including OLTP (Online Transaction Processing), analytics, and business applications requiring scalable and reliable database infrastructure.
 
 2. **Amazon Aurora**:
