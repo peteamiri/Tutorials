@@ -7237,9 +7237,269 @@ print(remote_control.execute("off"))  # Output: Light is off
 
 These examples illustrate more advanced implementations of design patterns in Python, including the Builder, Proxy, and Command patterns. Design patterns help address common software design challenges and promote best practices for building scalable, maintainable, and flexible systems.
 
+Certainly! Let's delve into more advanced examples of design patterns in Python:
+
+### 7. Decorator Pattern:
+Allows behavior to be added to individual objects dynamically, without affecting the behavior of other objects from the same class.
+
+```python
+class Component:
+    def operation(self):
+        pass
+
+class ConcreteComponent(Component):
+    def operation(self):
+        return "ConcreteComponent: operation"
+
+class Decorator(Component):
+    def __init__(self, component):
+        self._component = component
+
+    def operation(self):
+        return self._component.operation()
+
+class ConcreteDecoratorA(Decorator):
+    def operation(self):
+        return f"ConcreteDecoratorA: {super().operation()}"
+
+class ConcreteDecoratorB(Decorator):
+    def operation(self):
+        return f"ConcreteDecoratorB: {super().operation()}"
+
+# Usage
+component = ConcreteComponent()
+decorator_a = ConcreteDecoratorA(component)
+decorator_b = ConcreteDecoratorB(decorator_a)
+
+print(decorator_b.operation())  # Output: ConcreteDecoratorB: ConcreteDecoratorA: ConcreteComponent: operation
+```
+
+### 8. Template Method Pattern:
+Defines the skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure.
+
+```python
+from abc import ABC, abstractmethod
+
+class AbstractClass(ABC):
+    def template_method(self):
+        self.base_operation1()
+        self.required_operation1()
+        self.base_operation2()
+        self.hook()
+
+    def base_operation1(self):
+        print("AbstractClass: base operation 1")
+
+    def base_operation2(self):
+        print("AbstractClass: base operation 2")
+
+    @abstractmethod
+    def required_operation1(self):
+        pass
+
+    def hook(self):
+        pass
+
+class ConcreteClass(AbstractClass):
+    def required_operation1(self):
+        print("ConcreteClass: required operation 1 implementation")
+
+    def hook(self):
+        print("ConcreteClass: hook implementation")
+
+# Usage
+concrete_class = ConcreteClass()
+concrete_class.template_method()
+```
+
+### 9. Strategy Pattern:
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+
+```python
+from abc import ABC, abstractmethod
+
+class Strategy(ABC):
+    @abstractmethod
+    def execute(self):
+        pass
+
+class ConcreteStrategyA(Strategy):
+    def execute(self):
+        return "ConcreteStrategyA: execute"
+
+class ConcreteStrategyB(Strategy):
+    def execute(self):
+        return "ConcreteStrategyB: execute"
+
+class Context:
+    def __init__(self, strategy):
+        self._strategy = strategy
+
+    def context_interface(self):
+        return self._strategy.execute()
+
+# Usage
+context = Context(ConcreteStrategyA())
+print(context.context_interface())  # Output: ConcreteStrategyA: execute
+
+context = Context(ConcreteStrategyB())
+print(context.context_interface())  # Output: ConcreteStrategyB: execute
+```
+
+These examples demonstrate more advanced usage of design patterns in Python, including the Decorator, Template Method, and Strategy patterns. Design patterns provide elegant solutions to common software design problems and promote code reusability, flexibility, and maintainability.
+
 ## duck typing
+
+Duck typing is a concept in programming languages like Python where the type or class of an object is determined by its behavior (i.e., methods and properties it possesses) rather than its explicit type. The term "duck typing" comes from the phrase "If it looks like a duck, swims like a duck, and quacks like a duck, then it probably is a duck." In Python, this means that an object's suitability is determined by whether it can perform the required actions rather than by its inheritance hierarchy or explicit type.
+
+Here's an extensive example to illustrate duck typing in Python:
+
+```python
+class Duck:
+    def quack(self):
+        return "Quack, quack!"
+
+    def fly(self):
+        return "Duck is flying"
+
+class Person:
+    def quack(self):
+        return "I'm quacking like a duck!"
+
+    def fly(self):
+        return "I can't fly, but I'm pretending to be a duck!"
+
+class Dog:
+    def bark(self):
+        return "Woof, woof!"
+
+# Function that takes any object and calls quack and fly methods if available
+def make_object_quack_and_fly(obj):
+    if hasattr(obj, 'quack') and callable(obj.quack):
+        print(obj.quack())
+    if hasattr(obj, 'fly') and callable(obj.fly):
+        print(obj.fly())
+    else:
+        print("This object doesn't quack or fly!")
+
+# Objects of different types
+duck = Duck()
+person = Person()
+dog = Dog()
+
+# Using duck typing
+print("Duck:")
+make_object_quack_and_fly(duck)    # Output: Quack, quack! \n Duck is flying
+
+print("\nPerson:")
+make_object_quack_and_fly(person)  # Output: I'm quacking like a duck! \n I can't fly, but I'm pretending to be a duck!
+
+print("\nDog:")
+make_object_quack_and_fly(dog)     # Output: This object doesn't quack or fly!
+```
+
+In this example:
+- We define classes `Duck`, `Person`, and `Dog`, each with their own `quack` and `fly` methods.
+- The `make_object_quack_and_fly` function takes any object as input and attempts to call `quack` and `fly` methods on it using duck typing.
+- We pass objects of different types (`Duck`, `Person`, `Dog`) to `make_object_quack_and_fly`, and it dynamically calls the appropriate methods based on the object's behavior.
+
+Duck typing allows for flexible and dynamic code by focusing on what an object can do rather than what it is. It promotes code reuse and interoperability across different types that share common behavior.
+
 ## walrus operator
+
+The "walrus operator" is a colloquial term for the assignment expression operator `:=` introduced in Python 3.8. It allows you to assign a value to a variable as part of an expression. This can help improve code readability and reduce duplication, especially in cases where you need to use the same value multiple times within a single expression or statement.
+
+Here's an extensive explanation with examples:
+
+### Basic Usage:
+```python
+# Without walrus operator
+name = input("Enter your name: ")
+if len(name) > 0:
+    print(f"Hello, {name}")
+else:
+    print("No name provided")
+
+# With walrus operator
+if (name := input("Enter your name: ")):
+    print(f"Hello, {name}")
+else:
+    print("No name provided")
+```
+
+### Conditional Expression:
+```python
+# Without walrus operator
+number = int(input("Enter a number: "))
+if number > 10:
+    result = "greater than 10"
+else:
+    result = "less than or equal to 10"
+print(f"The number is {result}")
+
+# With walrus operator
+number = int(input("Enter a number: "))
+result = "greater than 10" if number > 10 else "less than or equal to 10"
+print(f"The number is {result}")
+```
+
+### List Comprehension:
+```python
+# Without walrus operator
+numbers = [1, 2, 3, 4, 5]
+doubled = [num * 2 for num in numbers if num % 2 == 0]
+
+# With walrus operator
+doubled = [num * 2 for num in numbers if (remainder := num % 2) == 0]
+print(remainder)  # Walrus operator allows accessing `remainder` outside the list comprehension
+```
+
+### Loop:
+```python
+# Without walrus operator
+while True:
+    value = input("Enter a value (or 'q' to quit): ")
+    if value == 'q':
+        break
+    print(f"You entered: {value}")
+
+# With walrus operator
+while (value := input("Enter a value (or 'q' to quit): ")) != 'q':
+    print(f"You entered: {value}")
+```
+
+### Multiple Assignments:
+```python
+# Without walrus operator
+x = 10
+y = 20
+z = 30
+
+# With walrus operator
+x = y = z = 10
+```
+
+### Try-Except Block:
+```python
+# Without walrus operator
+try:
+    num = int(input("Enter a number: "))
+except ValueError:
+    num = None
+
+# With walrus operator
+if (num := input("Enter a number: ")).isdigit():
+    num = int(num)
+else:
+    num = None
+```
+
+The walrus operator helps reduce redundancy and improve readability by allowing you to assign values directly within expressions. However, it should be used judiciously to avoid making code overly complex or difficult to understand.
+
+
 ## functions to variables
+
+
 ## higher order functions
 ## lambda
 ## sort
