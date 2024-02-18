@@ -1495,8 +1495,138 @@ Here's a table listing common string functions in Python along with their descri
 | `istitle()`   | Returns `True` if the string is titlecased (the first character of each word is uppercase); otherwise, returns `False`. |
 
 These are some of the most commonly used string functions in Python. They provide powerful tools for manipulating and working with strings in various ways.
+## String Methods
 
-Here are more detailed description and examples of some commonly used string functions in Python:
+Here are various methods of strings in Python 3:
+
+#### Case Changing of Strings
+- **lower()**: Converts all uppercase characters in a string into lowercase
+- **upper()**: Converts all lowercase characters in a string into uppercase
+- **title()**: Convert string to title case
+- **swapcase()**: Swap the cases of all characters in a string
+- **capitalize()**: Convert the first character of a string to uppercase
+
+#### Other String Methods
+- **capitalize()**: Converts the first character to upper case
+- **casefold()**: Converts string into lower case
+- **center()**: Returns a centered string
+- **count()**: Returns the number of times a specified value occurs in a string
+- **encode()**: Returns an encoded version of the string
+- **endswith()**: Returns true if the string ends with the specified value
+- **expandtabs()**: Sets the tab size of the string
+- **find()**: Searches the string for a specified value and returns the position of where it was found
+- **format()**: Formats specified values in a string
+- **format_map()**: Formats specified values in a string
+- **index()**: Searches the string for a specified value and returns the position of where it was found
+- **isalnum()**: Returns True if all characters in the string are alphanumeric
+- **startswith()**: Returns true if the string starts with the specified value
+- **isalpha()**: Checks if all characters are alphabets
+- **isdecimal()**: Checks for decimal characters
+- **isdigit()**: Checks for digit characters
+- **isidentifier()**: Checks for valid identifier
+- **islower()**: Checks if all characters are lowercase
+- **isnumeric()**: Checks for numeric characters
+- **isprintable()**: Checks if all characters are printable
+- **isspace()**: Checks for whitespace characters
+- **istitle()**: Checks if each word starts with an upper case letter and the rest are lower case
+- **isupper()**: Checks if all characters are uppercase
+- **join()**: Joins the elements of an iterable to the end of the string
+- **ljust()**: Returns a left-justified version of the string
+- **rjust()**: Returns a right-justified version of the string
+- **strip()**: Returns a trimmed version of the string
+- **lstrip()**: Returns a left trimmed version of the string
+- **rstrip()**: Returns a right trimmed version of the string
+- **partition()**: Returns a tuple containing the original string, the separator, and the part after the separator
+- **replace()**: Replaces a specified value with another value in a string
+- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
+- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
+- **rpartition()**: Returns a tuple containing the part before the separator, the separator, and the part after the separator
+- **split()**: Splits the string at the specified separator and returns a list
+- **rsplit()**: Splits the string at the specified separator, starting from the right
+- **splitlines()**: Splits the string at line breaks and returns a list
+- **startswith()**: Returns true if the string starts with the specified value
+- **endswith()**: Returns true if the string ends with the specified value
+- **swapcase()**: Swaps cases, lower case becomes upper case and vice versa
+- **zfill()**: Fills the string with a specified number of 0 values at the beginning
+- **format()**: Formats specified values in a string
+- **format_map()**: Formats the string using dictionary
+- **maketrans()**: Returns a translation table to be used in translations
+- **translate()**: Returns a translated string
+- **expandtabs()**: Sets the tab size of the string
+- **encode()**: Returns an encoded version of the string
+- **join()**: Joins the elements of an iterable to the end of the string
+- **ljust()**: Returns a left-justified version of the string
+- **rjust()**: Returns a right-justified version of the string
+- **strip()**: Returns a trimmed version of the string
+- **lstrip()**: Returns a left trimmed version of the string
+- **rstrip()**: Returns a right trimmed version of the string
+- **maketrans()**: Returns a translation table to be used in translations
+- **translate()**: Returns a translated string
+- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
+- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
+- **rpartition()**: Returns a tuple containing the
+
+Here are examples of various string methods in Python 3:
+
+1. `upper()`: Converts all characters in a string to uppercase.
+```python
+string = "hello world"
+print(string.upper())  # Output: "HELLO WORLD"
+```
+
+2. `lower()`: Converts all characters in a string to lowercase.
+```python
+string = "HELLO WORLD"
+print(string.lower())  # Output: "hello world"
+```
+
+3. `capitalize()`: Converts the first character of a string to uppercase and the rest to lowercase.
+```python
+string = "hello world"
+print(string.capitalize())  # Output: "Hello world"
+```
+
+4. `title()`: Converts the first character of each word in a string to uppercase.
+```python
+string = "hello world"
+print(string.title())  # Output: "Hello World"
+```
+
+5. `strip()`: Removes leading and trailing whitespace characters from a string.
+```python
+string = "   hello world   "
+print(string.strip())  # Output: "hello world"
+```
+
+6. `replace()`: Replaces occurrences of a specified substring with another substring.
+```python
+string = "hello world"
+print(string.replace("world", "universe"))  # Output: "hello universe"
+```
+
+7. `split()`: Splits a string into a list of substrings based on a delimiter.
+```python
+string = "apple,banana,orange"
+print(string.split(","))  # Output: ['apple', 'banana', 'orange']
+```
+
+8. `join()`: Concatenates elements of an iterable (e.g., a list) into a single string, with a specified separator.
+```python
+words = ["apple", "banana", "orange"]
+print(",".join(words))  # Output: "apple,banana,orange"
+```
+
+9. `startswith()`: Checks if a string starts with a specified prefix.
+```python
+string = "hello world"
+print(string.startswith("hello"))  # Output: True
+```
+
+10. `endswith()`: Checks if a string ends with a specified suffix.
+```python
+string = "hello world"
+print(string.endswith("world"))  # Output: True
+```
 
 ### 1. `len()`
 
@@ -1710,6 +1840,111 @@ print("{{Hello}}")  # Output: {Hello}
   - Generating HTML, XML, or other markup languages dynamically.
 
 String formatting in Python is a powerful feature that allows developers to create flexible and readable code while working with strings and textual data. Choose the method that best fits your needs and preferences for each situation.
+
+## string slicing
+String slicing in Python 3 refers to the process of extracting a substring (a portion of a string) from a larger string. It allows you to create new strings by selecting specific characters or substrings from an existing string based on their position or index. String slicing is performed using square brackets `[]` and index notation.
+
+The syntax for string slicing is as follows:
+
+```python
+string[start:end:step]
+```
+
+Where:
+- `start` is the starting index (inclusive) of the substring. If omitted, it defaults to 0.
+- `end` is the ending index (exclusive) of the substring. If omitted, it defaults to the end of the string.
+- `step` is the step or increment value used to select characters. If omitted, it defaults to 1.
+
+Here are some examples to illustrate string slicing in Python 3:
+
+```python
+# Define a sample string
+string = "Hello, World!"
+
+# Basic slicing
+print(string[0:5])   # Output: "Hello"
+print(string[7:])    # Output: "World!"
+print(string[:5])    # Output: "Hello"
+print(string[:])     # Output: "Hello, World!"
+
+# Using negative indices
+print(string[-6:-1]) # Output: "World"
+print(string[:-7])   # Output: "Hello"
+print(string[-1:])   # Output: "!"
+
+# Slicing with a step
+print(string[::2])   # Output: "Hlo ol!"
+print(string[1::2])  # Output: "el,Wrd"
+print(string[::-1])  # Output: "!dlroW ,olleH"
+```
+
+In these examples:
+- Basic slicing is used to extract substrings based on specified start and end indices.
+- Negative indices are used to specify positions relative to the end of the string.
+- Slicing with a step is used to select characters at regular intervals.
+
+String slicing is a powerful feature in Python that allows you to manipulate and extract substrings efficiently from strings. It is commonly used in various string manipulation tasks, including data processing, text parsing, and algorithm implementation.
+
+## Templates
+In Python, templates refer to a mechanism for creating dynamic strings or documents by substituting placeholders with actual values or content. Templates are commonly used in web development frameworks, text processing, and code generation tasks to generate output based on predefined templates or patterns.
+
+One popular library for working with templates in Python is the `string.Template` class from the `string` module. This class provides a simple and flexible way to create template strings and perform variable substitution. Here has a basic overview of how templates work in Python using `string.Template`:
+
+1. **Creating a Template**:
+   - To create a template, you first define a string with placeholders (variables) enclosed in curly braces `{}`.
+   - Example:
+     ```python
+     from string import Template
+
+     template_str = "Hello, ${name}! You have ${count} new messages."
+     ```
+
+2. **Substituting Variables**:
+   - After defining the template string, you create a `Template` object and call its `substitute()` method, passing a dictionary containing values for the placeholders.
+   - Example:
+     ```python
+     template = Template(template_str)
+     result = template.substitute(name="Alice", count=3)
+     print(result)  # Output: Hello, Alice! You have 3 new messages.
+     ```
+
+3. **Handling Missing Values**:
+   - If a placeholder in the template string does not have a corresponding value in the substitution dictionary, the `substitute()` method will raise a `KeyError`. To avoid this, you can use the `safe_substitute()` method, which leaves unmatched placeholders unchanged.
+   - Example:
+     ```python
+     template_str = "Hello, ${name}! You have ${count} new messages."
+     template = Template(template_str)
+     result = template.safe_substitute(name="Alice")
+     print(result)  # Output: Hello, Alice! You have ${count} new messages.
+     ```
+
+4. **Escaping Curly Braces**:
+   - If you need to include literal curly braces in the template string, you can escape them by doubling them (`{{` and `}}`).
+   - Example:
+     ```python
+     template_str = "The total cost is ${{{amount}}}."
+     template = Template(template_str)
+     result = template.substitute(amount=100)
+     print(result)  # Output: The total cost is $100.
+     ```
+
+5. **Customizing Placeholder Delimiters**:
+   - By default, placeholders are enclosed in `${}`. However, you can customize the placeholder delimiters by subclassing `Template` and overriding the `_pattern` attribute.
+   - Example:
+     ```python
+     class MyTemplate(Template):
+         delimiter = "{{"
+         pattern = r"""
+             \{\{(?:
+             (?P<escaped>\{\{)|
+             (?P<named>[_a-z][_a-z0-9]*)\}\}|
+             (?P<braced>[_a-z][_a-z0-9]*)\}\}|
+             (?P<invalid>)
+             )
+         """
+     ```
+
+Templates provide a powerful and flexible way to generate dynamic content in Python, allowing you to separate presentation from logic and easily customize output based on specific requirements. Whether you're generating HTML pages in web applications or generating text documents, templates can simplify the process and improve maintainability.
 
 ## Unicode
 
@@ -2179,7 +2414,7 @@ print(unique_numbers)  # Output: {1, 2, 3, 4, 5}
 Sets are versatile and efficient data structures in Python, providing a convenient way to work with collections of unique elements. They are commonly used in scenarios where uniqueness and efficient membership testing are important, such as removing duplicates, performing set operations, and testing for element presence.
 
 ### Dictionary Data Structure inn Python
-### Dictionary in Python
+
 
 A dictionary in Python is a mutable, unordered collection of key-value pairs. It provides a mapping between unique keys and their associated values, allowing for efficient lookups, insertions, deletions, and updates. Dictionaries are defined using curly braces `{}` and consist of comma-separated key-value pairs in the form `key: value`. Keys must be immutable and unique, while values can be of any data type. Here has a detailed overview of dictionaries in Python with extensive examples:
 
@@ -2447,7 +2682,6 @@ print(queue.size())  # Output: 1
 Queues are fundamental in computer science and find applications in various domains such as operating systems, networking, simulations, and more. Understanding queues and their operations is crucial for writing efficient and scalable programs.
 
 ### Heap Data Structure inn Python
-### Heap in Python
 
 A heap is a binary tree-based data structure that maintains the heap property: either the min-heap property (where the parent node is smaller than or equal to its children) or the max-heap property (where the parent node is larger than or equal to its children). In Python, heaps are commonly implemented using the `heapq` module, which provides functions to create and manipulate heaps. Heaps are typically used for priority queues, sorting algorithms like heapsort, and various graph algorithms like Dijkstra has algorithm. Here has a detailed overview of heaps in Python with extensive examples:
 
@@ -2538,7 +2772,8 @@ In this example, heap sort is performed on a list of elements using a min-heap. 
 
 Heaps are efficient data structures for maintaining priority queues, performing sorting algorithms, and solving various algorithmic problems efficiently.
 
-### Linked List Data Structure inn Python
+### Linked List Data Structure in Python
+
 A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node contains two parts: the data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be dynamically allocated and deallocated. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes). Linked lists are used in various applications such as implementing dynamic data structures, managing memory efficiently, and representing sequences of data. Here has a detailed overview of linked lists in Python with extensive examples:
 
 ### Singly Linked List Implementation:
@@ -2810,7 +3045,97 @@ editor.display_text()
 Doubly linked lists provide a versatile and efficient way to manage sequences of data with bidirectional traversal capabilities, making them suitable for various applications in computer science and software engineering.
 
 
-### Tree Data Structure inn Python
+### Tree Data Structure inn
+In Python, a tree is a hierarchical data structure composed of nodes connected by edges. Each node has a value and can have zero or more child nodes, forming a branching structure similar to a tree in nature. Trees are widely used in computer science for various purposes, including representing hierarchical data, organizing information, and implementing algorithms like search and traversal. Let's delve into the details of tree data structures in Python with examples and use cases:
+
+### Components of a Tree:
+
+1. **Node**: A single element in the tree containing a value and references to its child nodes (if any).
+2. **Edge**: A connection between nodes, representing the relationship between a parent node and its child nodes.
+3. **Root Node**: The topmost node in the tree, serving as the entry point for accessing the entire tree.
+4. **Parent Node**: A node that has one or more child nodes.
+5. **Child Node**: A node directly connected to another node via an edge.
+6. **Leaf Node**: A node that has no child nodes.
+
+### Implementing a Tree in Python:
+
+```python
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.children = []
+
+    def add_child(self, child_node):
+        self.children.append(child_node)
+```
+
+### Example: Creating a Tree:
+
+```python
+# Create nodes
+root = TreeNode("A")
+node_b = TreeNode("B")
+node_c = TreeNode("C")
+node_d = TreeNode("D")
+
+# Connect nodes
+root.add_child(node_b)
+root.add_child(node_c)
+node_b.add_child(node_d)
+```
+
+### Tree Traversal:
+
+1. **Depth-First Traversal**:
+   - Visit each node's children before visiting their siblings.
+   - Example: Pre-order, In-order, Post-order traversal.
+
+2. **Breadth-First Traversal**:
+   - Visit all nodes at the same depth before moving to the next level.
+   - Example: Level-order traversal.
+
+### Example: Depth-First Traversal (Pre-order):
+
+```python
+def pre_order_traversal(node):
+    if node is None:
+        return
+    print(node.value)
+    for child in node.children:
+        pre_order_traversal(child)
+
+pre_order_traversal(root)
+# Output: A B D C
+```
+
+### Use Cases of Tree Data Structure:
+
+1. **File System Representation**:
+   - Representing directory structures in a file system.
+
+2. **Organization Hierarchy**:
+   - Modeling hierarchical structures in organizations, such as reporting relationships.
+
+3. **Abstract Syntax Trees (AST)**:
+   - Representing the structure of program code in compilers and interpreters.
+
+4. **Binary Search Trees (BST)**:
+   - Implementing efficient search, insert, and delete operations in data structures.
+
+5. **Trie Data Structure**:
+   - Storing and retrieving strings efficiently, commonly used in search engines and spell checkers.
+
+6. **Parse Trees**:
+   - Analyzing the syntactic structure of sentences in natural language processing.
+
+7. **Decision Trees**:
+   - Building models for classification and regression tasks in machine learning.
+
+8. **Hierarchical Data Representation**:
+   - Organizing hierarchical data such as XML or JSON documents.
+
+Trees are versatile data structures that find applications in various domains of computer science and software engineering. Understanding tree algorithms and implementations is crucial for solving problems efficiently and effectively in many areas of programming and computer science.
+
 
 ### Linked List in Python
 
@@ -3165,360 +3490,8 @@ print(dict_values)  # Output: {'a': 1, 'b': 2, 'c': 3}
 Type casting is useful when you need to ensure that the data type of a variable matches the requirements of an operation or when you need to convert data between different representations for processing or manipulation.
 
 
-# Working with Stings
 
-## string format
-String formatting in Python 3 refers to the process of creating formatted strings by inserting dynamic values (variables, expressions, etc.) into predefined string templates. It allows you to construct strings with placeholders that will be replaced by the actual values at runtime. String formatting can be performed using various methods, including old-style formatting with `%`, the `str.format()` method, and f-strings (formatted string literals).
-
-Here has an overview of each method:
-
-1. **Old-style formatting with `%`**:
-   - This method uses the `%` operator to insert values into a string template.
-   - Syntax: `"template % value" % (value)`
-   - Example:
-     ```python
-     name = "Alice"
-     age = 30
-     message = "Hello, %s! You are %d years old." % (name, age)
-     print(message)
-     ```
-
-2. **`str.format()` method**:
-   - This method uses curly braces `{}` as placeholders for values and the `format()` method to insert values into the string.
-   - Syntax: `"template {}".format(value)`
-   - Example:
-     ```python
-     name = "Bob"
-     age = 25
-     message = "Hello, {}! You are {} years old.".format(name, age)
-     print(message)
-     ```
-
-3. **f-strings (formatted string literals)**:
-   - Introduced in Python 3.6, f-strings provide a concise and readable way to create formatted strings by prefixing the string with `f` or `F` and directly embedding expressions within curly braces `{}`.
-   - Syntax: `f"template {expression}"`
-   - Example:
-     ```python
-     name = "Charlie"
-     age = 20
-     message = f"Hello, {name}! You are {age} years old."
-     print(message)
-     ```
-
-All three methods allow you to include various types of values (strings, integers, floats, etc.) and expressions in the formatted string. They provide flexibility and readability in constructing strings with dynamic content.
-
-Additionally, you can specify formatting options such as alignment, padding, precision, and type conversion using format specifiers within placeholders (`%`, `{}`, or f-string expressions). This allows you to control the appearance of the inserted values in the resulting formatted string.
-
-Here are more examples demonstrating different string formatting techniques in Python:
-
-1. **Old-style formatting with `%`**:
-
-```python
-name = "Alice"
-age = 30
-height = 5.6
-message = "Hello, %s! You are %d years old and %.1f feet tall." % (name, age, height)
-print(message)
-# Output: Hello, Alice! You are 30 years old and 5.6 feet tall.
-```
-
-2. **`str.format()` method**:
-
-```python
-name = "Bob"
-age = 25
-height = 5.9
-message = "Hello, {}! You are {} years old and {:.1f} feet tall.".format(name, age, height)
-print(message)
-# Output: Hello, Bob! You are 25 years old and 5.9 feet tall.
-```
-
-3. **f-strings (formatted string literals)**:
-
-```python
-name = "Charlie"
-age = 20
-height = 6.0
-message = f"Hello, {name}! You are {age} years old and {height:.1f} feet tall."
-print(message)
-# Output: Hello, Charlie! You are 20 years old and 6.0 feet tall.
-```
-
-4. **Padding and Alignment**:
-
-```python
-name = "David"
-age = 35
-message = f"Name: {name:<10} | Age: {age:>5}"
-print(message)
-# Output: Name: David      | Age:    35
-```
-
-5. **Number formatting**:
-
-```python
-num = 123456.789
-formatted_num = f"Number: {num:,.2f}"
-print(formatted_num)
-# Output: Number: 123,456.79
-```
-
-6. **Binary, Octal, Hexadecimal formatting**:
-
-```python
-num = 42
-binary = f"Binary: {num:b}"
-octal = f"Octal: {num:o}"
-hexadecimal = f"Hexadecimal: {num:x}"
-print(binary)       # Output: Binary: 101010
-print(octal)        # Output: Octal: 52
-print(hexadecimal)  # Output: Hexadecimal: 2a
-```
-
-These examples demonstrate various string formatting techniques in Python, including inserting variables, expressions, padding, alignment, and number formatting using old-style formatting with `%`, the `str.format()` method, and f-strings.
-
-## string slicing
-String slicing in Python 3 refers to the process of extracting a substring (a portion of a string) from a larger string. It allows you to create new strings by selecting specific characters or substrings from an existing string based on their position or index. String slicing is performed using square brackets `[]` and index notation.
-
-The syntax for string slicing is as follows:
-
-```python
-string[start:end:step]
-```
-
-Where:
-- `start` is the starting index (inclusive) of the substring. If omitted, it defaults to 0.
-- `end` is the ending index (exclusive) of the substring. If omitted, it defaults to the end of the string.
-- `step` is the step or increment value used to select characters. If omitted, it defaults to 1.
-
-Here are some examples to illustrate string slicing in Python 3:
-
-```python
-# Define a sample string
-string = "Hello, World!"
-
-# Basic slicing
-print(string[0:5])   # Output: "Hello"
-print(string[7:])    # Output: "World!"
-print(string[:5])    # Output: "Hello"
-print(string[:])     # Output: "Hello, World!"
-
-# Using negative indices
-print(string[-6:-1]) # Output: "World"
-print(string[:-7])   # Output: "Hello"
-print(string[-1:])   # Output: "!"
-
-# Slicing with a step
-print(string[::2])   # Output: "Hlo ol!"
-print(string[1::2])  # Output: "el,Wrd"
-print(string[::-1])  # Output: "!dlroW ,olleH"
-```
-
-In these examples:
-- Basic slicing is used to extract substrings based on specified start and end indices.
-- Negative indices are used to specify positions relative to the end of the string.
-- Slicing with a step is used to select characters at regular intervals.
-
-String slicing is a powerful feature in Python that allows you to manipulate and extract substrings efficiently from strings. It is commonly used in various string manipulation tasks, including data processing, text parsing, and algorithm implementation.
-
-## Templates
-In Python, templates refer to a mechanism for creating dynamic strings or documents by substituting placeholders with actual values or content. Templates are commonly used in web development frameworks, text processing, and code generation tasks to generate output based on predefined templates or patterns.
-
-One popular library for working with templates in Python is the `string.Template` class from the `string` module. This class provides a simple and flexible way to create template strings and perform variable substitution. Here has a basic overview of how templates work in Python using `string.Template`:
-
-1. **Creating a Template**:
-   - To create a template, you first define a string with placeholders (variables) enclosed in curly braces `{}`.
-   - Example:
-     ```python
-     from string import Template
-
-     template_str = "Hello, ${name}! You have ${count} new messages."
-     ```
-
-2. **Substituting Variables**:
-   - After defining the template string, you create a `Template` object and call its `substitute()` method, passing a dictionary containing values for the placeholders.
-   - Example:
-     ```python
-     template = Template(template_str)
-     result = template.substitute(name="Alice", count=3)
-     print(result)  # Output: Hello, Alice! You have 3 new messages.
-     ```
-
-3. **Handling Missing Values**:
-   - If a placeholder in the template string does not have a corresponding value in the substitution dictionary, the `substitute()` method will raise a `KeyError`. To avoid this, you can use the `safe_substitute()` method, which leaves unmatched placeholders unchanged.
-   - Example:
-     ```python
-     template_str = "Hello, ${name}! You have ${count} new messages."
-     template = Template(template_str)
-     result = template.safe_substitute(name="Alice")
-     print(result)  # Output: Hello, Alice! You have ${count} new messages.
-     ```
-
-4. **Escaping Curly Braces**:
-   - If you need to include literal curly braces in the template string, you can escape them by doubling them (`{{` and `}}`).
-   - Example:
-     ```python
-     template_str = "The total cost is ${{{amount}}}."
-     template = Template(template_str)
-     result = template.substitute(amount=100)
-     print(result)  # Output: The total cost is $100.
-     ```
-
-5. **Customizing Placeholder Delimiters**:
-   - By default, placeholders are enclosed in `${}`. However, you can customize the placeholder delimiters by subclassing `Template` and overriding the `_pattern` attribute.
-   - Example:
-     ```python
-     class MyTemplate(Template):
-         delimiter = "{{"
-         pattern = r"""
-             \{\{(?:
-             (?P<escaped>\{\{)|
-             (?P<named>[_a-z][_a-z0-9]*)\}\}|
-             (?P<braced>[_a-z][_a-z0-9]*)\}\}|
-             (?P<invalid>)
-             )
-         """
-     ```
-
-Templates provide a powerful and flexible way to generate dynamic content in Python, allowing you to separate presentation from logic and easily customize output based on specific requirements. Whether you're generating HTML pages in web applications or generating text documents, templates can simplify the process and improve maintainability.
-
-
-## String Methods
-
-Here are various methods of strings in Python 3:
-
-#### Case Changing of Strings
-- **lower()**: Converts all uppercase characters in a string into lowercase
-- **upper()**: Converts all lowercase characters in a string into uppercase
-- **title()**: Convert string to title case
-- **swapcase()**: Swap the cases of all characters in a string
-- **capitalize()**: Convert the first character of a string to uppercase
-
-#### Other String Methods
-- **capitalize()**: Converts the first character to upper case
-- **casefold()**: Converts string into lower case
-- **center()**: Returns a centered string
-- **count()**: Returns the number of times a specified value occurs in a string
-- **encode()**: Returns an encoded version of the string
-- **endswith()**: Returns true if the string ends with the specified value
-- **expandtabs()**: Sets the tab size of the string
-- **find()**: Searches the string for a specified value and returns the position of where it was found
-- **format()**: Formats specified values in a string
-- **format_map()**: Formats specified values in a string
-- **index()**: Searches the string for a specified value and returns the position of where it was found
-- **isalnum()**: Returns True if all characters in the string are alphanumeric
-- **startswith()**: Returns true if the string starts with the specified value
-- **isalpha()**: Checks if all characters are alphabets
-- **isdecimal()**: Checks for decimal characters
-- **isdigit()**: Checks for digit characters
-- **isidentifier()**: Checks for valid identifier
-- **islower()**: Checks if all characters are lowercase
-- **isnumeric()**: Checks for numeric characters
-- **isprintable()**: Checks if all characters are printable
-- **isspace()**: Checks for whitespace characters
-- **istitle()**: Checks if each word starts with an upper case letter and the rest are lower case
-- **isupper()**: Checks if all characters are uppercase
-- **join()**: Joins the elements of an iterable to the end of the string
-- **ljust()**: Returns a left-justified version of the string
-- **rjust()**: Returns a right-justified version of the string
-- **strip()**: Returns a trimmed version of the string
-- **lstrip()**: Returns a left trimmed version of the string
-- **rstrip()**: Returns a right trimmed version of the string
-- **partition()**: Returns a tuple containing the original string, the separator, and the part after the separator
-- **replace()**: Replaces a specified value with another value in a string
-- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
-- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
-- **rpartition()**: Returns a tuple containing the part before the separator, the separator, and the part after the separator
-- **split()**: Splits the string at the specified separator and returns a list
-- **rsplit()**: Splits the string at the specified separator, starting from the right
-- **splitlines()**: Splits the string at line breaks and returns a list
-- **startswith()**: Returns true if the string starts with the specified value
-- **endswith()**: Returns true if the string ends with the specified value
-- **swapcase()**: Swaps cases, lower case becomes upper case and vice versa
-- **zfill()**: Fills the string with a specified number of 0 values at the beginning
-- **format()**: Formats specified values in a string
-- **format_map()**: Formats the string using dictionary
-- **maketrans()**: Returns a translation table to be used in translations
-- **translate()**: Returns a translated string
-- **expandtabs()**: Sets the tab size of the string
-- **encode()**: Returns an encoded version of the string
-- **join()**: Joins the elements of an iterable to the end of the string
-- **ljust()**: Returns a left-justified version of the string
-- **rjust()**: Returns a right-justified version of the string
-- **strip()**: Returns a trimmed version of the string
-- **lstrip()**: Returns a left trimmed version of the string
-- **rstrip()**: Returns a right trimmed version of the string
-- **maketrans()**: Returns a translation table to be used in translations
-- **translate()**: Returns a translated string
-- **rfind()**: Searches the string for a specified value and returns the last position of where it was found
-- **rindex()**: Searches the string for a specified value and returns the last position of where it was found
-- **rpartition()**: Returns a tuple containing the
-
-Here are examples of various string methods in Python 3:
-
-1. `upper()`: Converts all characters in a string to uppercase.
-```python
-string = "hello world"
-print(string.upper())  # Output: "HELLO WORLD"
-```
-
-2. `lower()`: Converts all characters in a string to lowercase.
-```python
-string = "HELLO WORLD"
-print(string.lower())  # Output: "hello world"
-```
-
-3. `capitalize()`: Converts the first character of a string to uppercase and the rest to lowercase.
-```python
-string = "hello world"
-print(string.capitalize())  # Output: "Hello world"
-```
-
-4. `title()`: Converts the first character of each word in a string to uppercase.
-```python
-string = "hello world"
-print(string.title())  # Output: "Hello World"
-```
-
-5. `strip()`: Removes leading and trailing whitespace characters from a string.
-```python
-string = "   hello world   "
-print(string.strip())  # Output: "hello world"
-```
-
-6. `replace()`: Replaces occurrences of a specified substring with another substring.
-```python
-string = "hello world"
-print(string.replace("world", "universe"))  # Output: "hello universe"
-```
-
-7. `split()`: Splits a string into a list of substrings based on a delimiter.
-```python
-string = "apple,banana,orange"
-print(string.split(","))  # Output: ['apple', 'banana', 'orange']
-```
-
-8. `join()`: Concatenates elements of an iterable (e.g., a list) into a single string, with a specified separator.
-```python
-words = ["apple", "banana", "orange"]
-print(",".join(words))  # Output: "apple,banana,orange"
-```
-
-9. `startswith()`: Checks if a string starts with a specified prefix.
-```python
-string = "hello world"
-print(string.startswith("hello"))  # Output: True
-```
-
-10. `endswith()`: Checks if a string ends with a specified suffix.
-```python
-string = "hello world"
-print(string.endswith("world"))  # Output: True
-```
-
-These are just a few examples of string methods available in Python 3. Python provides many more string methods for various string manipulation tasks.
-
-## user input
+# Chapter XX user input
 In Python 3, you can get user input using the `input()` function. Here are various examples of getting user input in Python 3:
 
 1. **Basic input**: Get a single line of input from the user and assign it to a variable.
