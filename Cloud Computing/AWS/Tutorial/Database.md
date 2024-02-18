@@ -12,7 +12,8 @@ Here's a table describing the AWS cloud database services:
 | Amazon Redshift          | Amazon Redshift is a fully managed data warehousing service that enables users to analyze large datasets using SQL queries. It offers high-performance query execution, scalable storage, and integration with popular BI tools. Redshift is suitable for data warehousing, analytics, and business intelligence applications requiring fast and scalable query processing. |
 | Amazon DocumentDB        | Amazon DocumentDB is a fully managed document database service compatible with MongoDB workloads. It provides the scalability, performance, and availability of a fully managed database service with the flexibility of MongoDB. DocumentDB is suitable for content management, catalogs, user profiles, and mobile and web backends requiring a scalable document database solution. |
 | Amazon Neptune           | Amazon Neptune is a fully managed graph database service that enables users to build and run applications with highly connected datasets. It supports both Property Graph and RDF graph models and provides high availability, durability, and scalability. Neptune is suitable for social networks, recommendation engines, fraud detection, and network analysis applications. |
-| In Memory Databases           |  |
+| In Memory Databases           | AWS offers two main in-memory database services: Amazon ElastiCache and Amazon MemoryDB for Redis.
+ |
 
 This table provides a detailed overview of AWS cloud database services, including their names and descriptions, highlighting their key features and use cases.
 
