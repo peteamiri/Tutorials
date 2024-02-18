@@ -1084,13 +1084,1169 @@ x, *y, z = values
 In this case, `x` will be assigned the first value, `z` will be assigned the last value, and `y` will be a list containing the remaining values.
 
 These are some examples of how you can use multiple assignments in Python to assign values to variables efficiently.
+
 # Chapter XX Data Structure
 
-## lists
-## 2D lists
-## tuples
-## sets
-## dictionaries
+Here's a table describing common Python data structures along with their names and descriptions:
+
+| Data Structure | Description                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| List           | A mutable, ordered collection of elements. Lists can contain elements of different data types and can be modified after creation. They are defined using square brackets `[]` and support operations like indexing, slicing, appending, inserting, and more. Lists are versatile and commonly used for storing and manipulating data in Python.                                                                                                        |
+| Tuple          | An immutable, ordered collection of elements. Tuples are similar to lists, but they cannot be modified after creation. They are defined using parentheses `()` and can contain elements of different data types. Tuples are often used for representing fixed collections of items, such as coordinates, database records, or function return values.                                                                                      |
+| Set            | An unordered collection of unique elements. Sets do not allow duplicate elements, and they are mutable, allowing for the addition and removal of items. Sets are defined using curly braces `{}` or the `set()` function and support mathematical set operations like union, intersection, difference, and more. Sets are useful for removing duplicates from a collection or testing membership of elements.                                                      |
+| Dictionary     | A mutable, unordered collection of key-value pairs. Each key in a dictionary must be unique and immutable, and it maps to a corresponding value. Dictionaries are defined using curly braces `{}` and consist of comma-separated key-value pairs in the form `key: value`. They are highly efficient for lookups and are commonly used for representing mappings or associations between items.                                             |
+| Stack          | A last-in, first-out (LIFO) data structure that operates on the principle of adding and removing elements from the top. Stacks support operations like push (to add an element), pop (to remove and retrieve the top element), and peek (to view the top element without removing it). Stacks are used in various algorithms and applications, such as expression evaluation, backtracking, and undo mechanisms.           |
+| Queue          | A first-in, first-out (FIFO) data structure that operates on the principle of adding elements to the rear and removing elements from the front. Queues support operations like enqueue (to add an element to the rear), dequeue (to remove and retrieve the front element), and peek (to view the front element without removing it). Queues are commonly used in scheduling, task management, and breadth-first search algorithms. |
+| Heap           | A binary tree-based data structure that maintains the heap property: either the min-heap property (parent node is smaller than or equal to its children) or the max-heap property (parent node is larger than or equal to its children). Heaps support operations like heapify (to create a heap from a list), push (to add an element), pop (to remove and retrieve the root element), and heapify-up or heapify-down (to maintain heap property after insertions or deletions). |
+| Linked List    | A linear collection of elements, where each element (node) contains a reference to the next node in the sequence. Linked lists can be singly linked (each node has a reference to the next node only) or doubly linked (each node has references to both the next and previous nodes). Linked lists support operations like insertion, deletion, traversal, and are used in implementations of stacks, queues, and various algorithms.      |
+
+These data structures form the foundation of many algorithms and applications in Python programming, providing efficient ways to organize, store, and manipulate data.
+
+### List Data structure in python
+### List in Python
+
+A list in Python is a versatile and widely-used data structure that represents an ordered collection of elements. Lists are mutable, meaning they can be modified after creation, and they can contain elements of different data types, including numbers, strings, booleans, and even other lists. Lists support various operations such as indexing, slicing, appending, inserting, removing, and more. Here's a detailed overview of lists in Python with extensive examples:
+
+#### Creating Lists:
+
+Lists are defined using square brackets `[]`, and elements are separated by commas.
+
+```python
+# Creating an empty list
+empty_list = []
+
+# Creating a list with elements
+numbers = [1, 2, 3, 4, 5]
+names = ["Alice", "Bob", "Charlie"]
+mixed = [1, "hello", True, 3.14]
+```
+
+#### Accessing Elements:
+
+You can access elements in a list by using their index. Python uses zero-based indexing.
+
+```python
+fruits = ["apple", "banana", "orange", "grape"]
+
+# Accessing elements by index
+print(fruits[0])  # Output: apple
+print(fruits[-1])  # Output: grape
+```
+
+#### Slicing:
+
+Slicing allows you to extract sublists from a list by specifying start and end indices.
+
+```python
+# Slicing
+print(fruits[1:3])  # Output: ['banana', 'orange']
+```
+
+#### Modifying Lists:
+
+Lists can be modified by adding, inserting, updating, or removing elements.
+
+```python
+# Appending elements
+fruits.append("kiwi")
+print(fruits)  # Output: ['apple', 'banana', 'orange', 'grape', 'kiwi']
+
+# Inserting elements
+fruits.insert(2, "pineapple")
+print(fruits)  # Output: ['apple', 'banana', 'pineapple', 'orange', 'grape', 'kiwi']
+
+# Updating elements
+fruits[3] = "mango"
+print(fruits)  # Output: ['apple', 'banana', 'pineapple', 'mango', 'grape', 'kiwi']
+
+# Removing elements
+fruits.remove("banana")
+print(fruits)  # Output: ['apple', 'pineapple', 'mango', 'grape', 'kiwi']
+```
+
+#### List Operations:
+
+Lists support various operations like concatenation, repetition, length, and membership testing.
+
+```python
+# Concatenation
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+result = list1 + list2
+print(result)  # Output: [1, 2, 3, 4, 5, 6]
+
+# Repetition
+repeated = [0] * 3
+print(repeated)  # Output: [0, 0, 0]
+
+# Length
+print(len(fruits))  # Output: 5
+
+# Membership testing
+print("apple" in fruits)  # Output: True
+```
+
+#### Common Use Cases:
+
+1. **Storing Sequences of Items**: Lists are commonly used to store sequences of items, such as numbers, strings, or objects.
+
+2. **Iterating Over Elements**: Lists can be iterated over using loops or comprehensions to perform operations on each element.
+
+3. **Data Processing and Transformation**: Lists are useful for processing and transforming data, such as filtering, mapping, or aggregating elements.
+
+4. **Implementing Stacks and Queues**: Lists can be used to implement stack and queue data structures by using append and pop operations.
+
+5. **Managing Dynamic Collections**: Lists are suitable for managing dynamic collections of data where elements can be added, removed, or modified frequently.
+
+6. **Algorithms and Data Structures**: Lists are fundamental in various algorithms and data structures, such as sorting, searching, graph traversal, and more.
+
+```python
+# Example: Iterating over elements
+for fruit in fruits:
+    print(fruit)
+
+# Example: Data processing
+numbers = [1, 2, 3, 4, 5]
+squared = [x ** 2 for x in numbers]
+print(squared)  # Output: [1, 4, 9, 16, 25]
+```
+
+Lists are a fundamental data structure in Python, offering flexibility, ease of use, and a wide range of operations for managing collections of data efficiently. They are suitable for various tasks and are used extensively in Python programming.
+
+#### 2D lists
+A 2D list in Python is a list of lists, where each element in the outer list is itself a list. This creates a two-dimensional grid or matrix-like structure, where elements can be accessed using row and column indices. 2D lists are often used to represent tabular data, grids, matrices, or nested collections of elements. Here's a detailed overview of 2D lists in Python with extensive examples:
+
+### Creating 2D Lists:
+
+2D lists can be created by initializing an outer list containing inner lists, or by using list comprehensions.
+
+```python
+# Creating a 2D list using initialization
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Creating a 2D list using list comprehension
+matrix_comp = [[i * j for j in range(1, 4)] for i in range(1, 4)]
+
+print(matrix)
+# Output:
+# [[1, 2, 3],
+#  [4, 5, 6],
+#  [7, 8, 9]]
+
+print(matrix_comp)
+# Output:
+# [[1, 2, 3],
+#  [2, 4, 6],
+#  [3, 6, 9]]
+```
+
+### Accessing Elements:
+
+You can access elements in a 2D list using row and column indices.
+
+```python
+# Accessing elements
+print(matrix[0][0])  # Output: 1
+print(matrix[1][2])  # Output: 6
+```
+
+### Modifying Elements:
+
+Elements in a 2D list can be modified by assigning new values.
+
+```python
+# Modifying elements
+matrix[1][1] = 10
+print(matrix)
+# Output:
+# [[1, 2, 3],
+#  [4, 10, 6],
+#  [7, 8, 9]]
+```
+
+### Iterating Over Elements:
+
+You can iterate over elements in a 2D list using nested loops.
+
+```python
+# Iterating over elements
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print()
+# Output:
+# 1 2 3
+# 4 10 6
+# 7 8 9
+```
+
+### Common Use Cases:
+
+1. **Tabular Data Representation**: 2D lists can represent tabular data where each row corresponds to a record and each column corresponds to a field.
+
+2. **Grids and Matrices**: 2D lists are useful for representing grids, matrices, game boards, or images where elements are organized in rows and columns.
+
+3. **Image Processing**: In image processing, images are often represented as 2D lists of pixel values, where each pixel contains color information.
+
+4. **Sparse Matrices**: Sparse matrices, where most elements are zero, can be efficiently represented using 2D lists.
+
+5. **Nested Collections**: 2D lists can contain nested collections of elements, allowing for hierarchical data structures.
+
+```python
+# Example: Sum of all elements in a 2D list
+total = sum([sum(row) for row in matrix])
+print("Sum of all elements:", total)
+# Output: Sum of all elements: 50
+```
+
+2D lists are versatile and widely used in Python for representing structured data, grids, matrices, and hierarchical collections of elements. They provide a flexible way to organize and manipulate data in various applications.
+
+### Tuple Data Structure in Python
+A tuple in Python is an immutable, ordered collection of elements. Unlike lists, tuples cannot be modified after creation, making them suitable for representing fixed collections of items. Tuples are defined using parentheses `()` and can contain elements of different data types, including numbers, strings, booleans, and even other tuples. Here's a detailed overview of tuples in Python with extensive examples:
+
+### Creating Tuples:
+
+Tuples are defined using parentheses `()` and elements are separated by commas.
+
+```python
+# Creating an empty tuple
+empty_tuple = ()
+
+# Creating a tuple with elements
+point = (3, 4)
+colors = ("red", "green", "blue")
+mixed = (1, "hello", True, 3.14)
+```
+
+### Accessing Elements:
+
+You can access elements in a tuple using indexing, similar to lists.
+
+```python
+# Accessing elements by index
+print(point[0])  # Output: 3
+print(colors[-1])  # Output: blue
+```
+
+### Unpacking Tuples:
+
+Tuples can be unpacked into individual variables.
+
+```python
+# Unpacking tuple
+x, y = point
+print("x:", x)  # Output: x: 3
+print("y:", y)  # Output: y: 4
+```
+
+### Tuple Operations:
+
+Tuples support various operations such as concatenation, repetition, length, and membership testing.
+
+```python
+# Concatenation
+tuple1 = (1, 2)
+tuple2 = (3, 4)
+result = tuple1 + tuple2
+print(result)  # Output: (1, 2, 3, 4)
+
+# Repetition
+repeated = (0,) * 3
+print(repeated)  # Output: (0, 0, 0)
+
+# Length
+print(len(colors))  # Output: 3
+
+# Membership testing
+print("red" in colors)  # Output: True
+```
+
+### Immutable Nature:
+
+Tuples are immutable, meaning their elements cannot be modified, added, or removed after creation.
+
+```python
+# Attempting to modify a tuple (this will raise an error)
+try:
+    point[0] = 5
+except TypeError as e:
+    print("Error:", e)  # Output: Error: 'tuple' object does not support item assignment
+```
+
+### Common Use Cases:
+
+1. **Representing Fixed Data**: Tuples are used to represent fixed collections of data that should not change over time, such as coordinates, constant settings, or configuration values.
+
+2. **Returning Multiple Values**: Functions can return multiple values as a tuple, allowing for convenient unpacking of results.
+
+3. **Dictionary Keys**: Tuples can be used as dictionary keys because they are immutable and hashable.
+
+4. **Named Tuples**: The `collections.namedtuple` function creates tuple subclasses with named fields, providing a more readable alternative to plain tuples.
+
+```python
+# Example: Returning multiple values from a function
+def calculate(x, y):
+    return x + y, x - y, x * y
+
+result = calculate(5, 3)
+print("Sum:", result[0])   # Output: Sum: 8
+print("Difference:", result[1])  # Output: Difference: 2
+print("Product:", result[2])  # Output: Product: 15
+```
+
+Tuples are versatile data structures in Python, offering immutability and convenient ways to represent fixed collections of elements. They are used in various scenarios where data should remain constant or when multiple values need to be returned from a function.
+
+### Set Data Structure inn Python
+A set in Python is an unordered collection of unique elements. Sets are mutable, but unlike lists and tuples, they do not allow duplicate elements. Sets are defined using curly braces `{}` or the `set()` constructor, and elements are separated by commas. Sets support various operations such as union, intersection, difference, and more. Here's a detailed overview of sets in Python with extensive examples:
+
+### Creating Sets:
+
+Sets can be created using curly braces `{}` or the `set()` constructor.
+
+```python
+# Creating an empty set
+empty_set = set()
+
+# Creating a set with elements
+colors = {"red", "green", "blue"}
+```
+
+### Adding and Removing Elements:
+
+Elements can be added to a set using the `add()` method, and removed using the `remove()` or `discard()` methods.
+
+```python
+# Adding elements
+colors.add("yellow")
+print(colors)  # Output: {'green', 'red', 'blue', 'yellow'}
+
+# Removing elements
+colors.remove("red")
+print(colors)  # Output: {'green', 'blue', 'yellow'}
+```
+
+### Set Operations:
+
+Sets support various operations such as union, intersection, difference, symmetric difference, and membership testing.
+
+```python
+# Union
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2
+print(union_set)  # Output: {1, 2, 3, 4, 5}
+
+# Intersection
+intersection_set = set1 & set2
+print(intersection_set)  # Output: {3}
+
+# Difference
+difference_set = set1 - set2
+print(difference_set)  # Output: {1, 2}
+
+# Symmetric Difference
+symmetric_difference_set = set1 ^ set2
+print(symmetric_difference_set)  # Output: {1, 2, 4, 5}
+
+# Membership Testing
+print(2 in set1)  # Output: True
+```
+
+### Iterating Over Elements:
+
+You can iterate over elements in a set using loops.
+
+```python
+# Iterating over elements
+for color in colors:
+    print(color)
+# Output:
+# green
+# blue
+# yellow
+```
+
+### Common Use Cases:
+
+1. **Removing Duplicates**: Sets are useful for removing duplicate elements from a collection.
+
+2. **Testing Membership**: Sets can efficiently test for membership of elements.
+
+3. **Mathematical Operations**: Sets are used for various mathematical operations such as union, intersection, and difference.
+
+4. **Removing Common Elements**: Sets can be used to find and remove common elements between two collections.
+
+```python
+# Example: Removing duplicates from a list
+numbers = [1, 2, 3, 3, 4, 5, 5]
+unique_numbers = set(numbers)
+print(unique_numbers)  # Output: {1, 2, 3, 4, 5}
+```
+
+Sets are versatile and efficient data structures in Python, providing a convenient way to work with collections of unique elements. They are commonly used in scenarios where uniqueness and efficient membership testing are important, such as removing duplicates, performing set operations, and testing for element presence.
+
+### Dictionary Data Structure inn Python
+### Dictionary in Python
+
+A dictionary in Python is a mutable, unordered collection of key-value pairs. It provides a mapping between unique keys and their associated values, allowing for efficient lookups, insertions, deletions, and updates. Dictionaries are defined using curly braces `{}` and consist of comma-separated key-value pairs in the form `key: value`. Keys must be immutable and unique, while values can be of any data type. Here's a detailed overview of dictionaries in Python with extensive examples:
+
+### Creating Dictionaries:
+
+Dictionaries are defined using curly braces `{}` and key-value pairs separated by colons `:`.
+
+```python
+# Creating an empty dictionary
+empty_dict = {}
+
+# Creating a dictionary with elements
+person = {"name": "Alice", "age": 30, "city": "New York"}
+```
+
+### Accessing and Modifying Elements:
+
+You can access elements in a dictionary using keys. Dictionaries are mutable, so values can be modified, added, or removed.
+
+```python
+# Accessing elements by key
+print(person["name"])  # Output: Alice
+print(person["age"])   # Output: 30
+
+# Modifying values
+person["age"] = 35
+print(person)  # Output: {'name': 'Alice', 'age': 35, 'city': 'New York'}
+
+# Adding new key-value pairs
+person["email"] = "alice@example.com"
+print(person)  # Output: {'name': 'Alice', 'age': 35, 'city': 'New York', 'email': 'alice@example.com'}
+
+# Removing key-value pairs
+del person["city"]
+print(person)  # Output: {'name': 'Alice', 'age': 35, 'email': 'alice@example.com'}
+```
+
+### Dictionary Operations:
+
+Dictionaries support various operations such as copying, length, membership testing, and iteration.
+
+```python
+# Copying dictionary
+person_copy = person.copy()
+
+# Length of dictionary
+print(len(person))  # Output: 3
+
+# Membership testing
+print("name" in person)  # Output: True
+print("address" not in person)  # Output: True
+
+# Iterating over keys
+for key in person:
+    print(key, "->", person[key])
+# Output:
+# name -> Alice
+# age -> 35
+# email -> alice@example.com
+```
+
+### Common Use Cases:
+
+1. **Data Storage and Retrieval**: Dictionaries are commonly used for storing and retrieving data based on keys, allowing for efficient lookups.
+
+2. **Configuration Settings**: Dictionaries can be used to store configuration settings, with keys representing parameters and values representing their corresponding values.
+
+3. **Database-Like Operations**: Dictionaries can mimic simple database operations such as adding, updating, or querying records.
+
+4. **Counting and Frequency Analysis**: Dictionaries are useful for counting occurrences of items or performing frequency analysis on data.
+
+```python
+# Example: Counting occurrences of letters in a string
+text = "hello world"
+letter_count = {}
+for char in text:
+    if char.isalpha():
+        char = char.lower()
+        letter_count[char] = letter_count.get(char, 0) + 1
+
+print(letter_count)
+# Output: {'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}
+```
+
+### Nested Dictionaries:
+
+Dictionaries can contain other dictionaries, allowing for hierarchical data structures.
+
+```python
+# Nested dictionary
+students = {
+    "Alice": {"age": 20, "major": "Computer Science"},
+    "Bob": {"age": 22, "major": "Engineering"}
+}
+
+print(students["Alice"]["age"])  # Output: 20
+```
+
+Dictionaries are versatile and widely used in Python for representing mappings or associations between items, such as database records, configuration settings, or frequency counts. They provide a flexible and efficient way to organize and manipulate data in various applications.
+
+### Stack Data Structure inn Python
+In Python, a stack is a last-in, first-out (LIFO) data structure that operates on the principle of adding and removing elements from the top. It is called a stack because it resembles a stack of items, where new items are added on top and removed from the top. Stacks support operations like push (to add an element), pop (to remove and retrieve the top element), and peek (to view the top element without removing it). Stacks are used in various algorithms and applications, such as expression evaluation, backtracking, undo mechanisms, and more. Here's a detailed overview of stacks in Python with extensive examples:
+
+### Implementing Stack in Python:
+
+You can implement a stack in Python using a list and its built-in methods.
+
+```python
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+        else:
+            raise IndexError("Stack is empty")
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        else:
+            raise IndexError("Stack is empty")
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def size(self):
+        return len(self.items)
+```
+
+### Stack Operations:
+
+1. **Push**: Adding an element to the top of the stack.
+2. **Pop**: Removing and retrieving the top element from the stack.
+3. **Peek**: Viewing the top element without removing it.
+4. **is_empty**: Checking if the stack is empty.
+5. **size**: Getting the number of elements in the stack.
+
+### Example Use Cases:
+
+1. **Expression Evaluation**: Stacks are used to evaluate expressions, such as arithmetic expressions, infix, postfix, or prefix notation.
+2. **Backtracking**: Stacks are used in backtracking algorithms, such as depth-first search (DFS) or recursive algorithms.
+3. **Function Calls**: Stacks are used to manage function calls and local variables in programming languages.
+4. **Undo Mechanisms**: Stacks are used to implement undo mechanisms in applications where the last action needs to be reverted.
+5. **Parsing and Syntax Analysis**: Stacks are used in parsing and syntax analysis of programming languages and markup languages.
+
+### Example: Expression Evaluation using Stack:
+
+```python
+def evaluate_postfix(expression):
+    stack = Stack()
+    for token in expression.split():
+        if token.isdigit():
+            stack.push(int(token))
+        else:
+            operand2 = stack.pop()
+            operand1 = stack.pop()
+            result = perform_operation(token, operand1, operand2)
+            stack.push(result)
+    return stack.pop()
+
+def perform_operation(operator, operand1, operand2):
+    if operator == "+":
+        return operand1 + operand2
+    elif operator == "-":
+        return operand1 - operand2
+    elif operator == "*":
+        return operand1 * operand2
+    elif operator == "/":
+        return operand1 / operand2
+
+# Example usage
+expression = "5 3 + 2 *"
+result = evaluate_postfix(expression)
+print("Result:", result)  # Output: Result: 16
+```
+
+In this example, we evaluate a postfix expression using a stack. We push operands onto the stack and perform operations when encountering operators, popping operands from the stack as needed. The result is the final value left on the stack after processing all tokens in the expression.
+
+Stacks are fundamental data structures used in various algorithms and applications. Understanding how to implement and use stacks is essential for solving a wide range of problems efficiently in Python.
+
+### Queue Data Structure inn Python
+### Queue in Python
+
+A queue is a fundamental data structure that follows the first-in, first-out (FIFO) principle, where elements are inserted from one end called the rear and removed from the other end called the front. Queues are commonly used in scenarios where tasks or data need to be processed in the order they were received. Python offers several ways to implement queues, including using lists, collections.deque, or queue.Queue from the standard library. Below is a detailed overview of queues in Python with extensive examples:
+
+### Implementation of Queue in Python:
+
+#### Using `collections.deque`:
+
+```python
+from collections import deque
+
+class Queue:
+    def __init__(self):
+        self.queue = deque()
+
+    def enqueue(self, item):
+        self.queue.append(item)
+
+    def dequeue(self):
+        if not self.is_empty():
+            return self.queue.popleft()
+        else:
+            raise IndexError("dequeue from an empty queue")
+
+    def peek(self):
+        if not self.is_empty():
+            return self.queue[0]
+        else:
+            return None
+
+    def is_empty(self):
+        return len(self.queue) == 0
+
+    def size(self):
+        return len(self.queue)
+```
+
+### Common Operations on Queue:
+
+1. **Enqueue Operation**: Adding an element to the rear of the queue.
+2. **Dequeue Operation**: Removing and retrieving the front element from the queue.
+3. **Peek Operation**: Viewing the front element without removing it.
+4. **Checking if Queue is Empty**: Verifying if the queue is empty.
+5. **Getting Size of Queue**: Determining the number of elements in the queue.
+
+### Use Cases of Queue:
+
+1. **Task Scheduling**: Queues are used in task scheduling algorithms to manage and prioritize tasks based on their arrival time.
+2. **Breadth-First Search (BFS)**: Queues are essential in BFS algorithms for traversing graphs level by level.
+3. **Buffering in I/O Operations**: Queues are used in buffering input or output operations to smooth out data flow.
+4. **Printing Queue**: When multiple print jobs are submitted, they are placed in a queue and processed one after the other.
+5. **Order Processing in Restaurants**: In restaurants, orders are placed in a queue and processed in the order they were received.
+
+### Example of Using Queue:
+
+```python
+# Creating a queue
+queue = Queue()
+
+# Enqueuing elements
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+
+# Dequeuing elements
+print(queue.dequeue())  # Output: 10
+print(queue.dequeue())  # Output: 20
+
+# Peeking at the front element
+print(queue.peek())  # Output: 30
+
+# Checking if the queue is empty
+print(queue.is_empty())  # Output: False
+
+# Getting the size of the queue
+print(queue.size())  # Output: 1
+```
+
+Queues are fundamental in computer science and find applications in various domains such as operating systems, networking, simulations, and more. Understanding queues and their operations is crucial for writing efficient and scalable programs.
+
+### Heap Data Structure inn Python
+### Heap in Python
+
+A heap is a binary tree-based data structure that maintains the heap property: either the min-heap property (where the parent node is smaller than or equal to its children) or the max-heap property (where the parent node is larger than or equal to its children). In Python, heaps are commonly implemented using the `heapq` module, which provides functions to create and manipulate heaps. Heaps are typically used for priority queues, sorting algorithms like heapsort, and various graph algorithms like Dijkstra's algorithm. Here's a detailed overview of heaps in Python with extensive examples:
+
+### Min-Heap and Max-Heap:
+
+Heaps can be either min-heaps or max-heaps. In a min-heap, the parent node has a value less than or equal to its children, whereas, in a max-heap, the parent node has a value greater than or equal to its children.
+
+### Implementation of Heaps in Python:
+
+Heaps can be implemented using the `heapq` module in Python, which provides functions to create and manipulate heaps.
+
+```python
+import heapq
+
+# Creating an empty heap
+heap = []
+
+# Adding elements to the heap
+heapq.heappush(heap, 4)
+heapq.heappush(heap, 1)
+heapq.heappush(heap, 7)
+
+# Removing and retrieving the smallest element
+min_element = heapq.heappop(heap)
+print("Min Element:", min_element)  # Output: Min Element: 1
+
+# Peeking at the smallest element
+min_element_peek = heap[0]
+print("Min Element (Peek):", min_element_peek)  # Output: Min Element (Peek): 4
+```
+
+### Common Operations on Heaps:
+
+1. **Push Operation**: Adding an element to the heap.
+2. **Pop Operation**: Removing and retrieving the smallest (for min-heap) or largest (for max-heap) element from the heap.
+3. **Peek Operation**: Viewing the smallest (for min-heap) or largest (for max-heap) element without removing it.
+
+### Use Cases of Heaps:
+
+1. **Priority Queues**: Heaps are commonly used to implement priority queues, where elements are removed in order of priority (based on their value).
+2. **Sorting Algorithms**: Heapsort, a comparison-based sorting algorithm, uses heaps to efficiently sort elements in ascending or descending order.
+3. **Graph Algorithms**: Heaps are used in graph algorithms like Dijkstra's algorithm and Prim's algorithm to efficiently find shortest paths and minimum spanning trees, respectively.
+4. **Scheduling and Resource Allocation**: Heaps can be used in scheduling and resource allocation algorithms to prioritize tasks or allocate resources based on certain criteria.
+
+### Example: Using Heap for Priority Queue:
+
+```python
+import heapq
+
+# Create an empty priority queue (min-heap)
+priority_queue = []
+
+# Enqueue elements with priority
+heapq.heappush(priority_queue, (3, "Task 1"))
+heapq.heappush(priority_queue, (1, "Task 2"))
+heapq.heappush(priority_queue, (2, "Task 3"))
+
+# Dequeue elements with the highest priority
+while priority_queue:
+    priority, task = heapq.heappop(priority_queue)
+    print(f"Task '{task}' with priority {priority}")
+# Output:
+# Task 'Task 2' with priority 1
+# Task 'Task 3' with priority 2
+# Task 'Task 1' with priority 3
+```
+
+In this example, elements are added to the priority queue with their priority, and then they are dequeued in order of their priority. This demonstrates how heaps can be used to implement priority queues efficiently.
+
+### Example: Using Heap for Sorting:
+
+```python
+import heapq
+
+# List of elements to be sorted
+data = [5, 3, 8, 2, 9, 1]
+
+# Using heap to perform heap sort (ascending order)
+sorted_data = []
+for item in data:
+    heapq.heappush(sorted_data, item)
+
+sorted_result = [heapq.heappop(sorted_data) for _ in range(len(data))]
+print("Sorted Data:", sorted_result)  # Output: Sorted Data: [1, 2, 3, 5, 8, 9]
+```
+
+In this example, heap sort is performed on a list of elements using a min-heap. The elements are added to the heap, and then they are popped out one by one to get the sorted result.
+
+Heaps are efficient data structures for maintaining priority queues, performing sorting algorithms, and solving various algorithmic problems efficiently.
+
+### Linked List Data Structure inn Python
+A linked list is a linear data structure consisting of a sequence of elements called nodes. Each node contains two parts: the data and a reference (or pointer) to the next node in the sequence. Unlike arrays, linked lists do not have a fixed size, and elements can be dynamically allocated and deallocated. Linked lists can be singly linked (each node has a reference to the next node) or doubly linked (each node has references to both the next and previous nodes). Linked lists are used in various applications such as implementing dynamic data structures, managing memory efficiently, and representing sequences of data. Here's a detailed overview of linked lists in Python with extensive examples:
+
+### Singly Linked List Implementation:
+
+We'll start with a simple implementation of a singly linked list in Python:
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class SinglyLinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+
+    def print_list(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data, end=" -> ")
+            current_node = current_node.next
+        print("None")
+```
+
+### Common Operations on Singly Linked List:
+
+1. **Append Operation**: Adding a new node to the end of the list.
+2. **Print Operation**: Printing all the elements of the list.
+3. **Insert Operation**: Inserting a new node at a specific position.
+4. **Delete Operation**: Deleting a node from the list.
+5. **Search Operation**: Searching for a specific value in the list.
+
+### Use Cases of Linked Lists:
+
+1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures such as stacks, queues, and hash tables.
+2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks efficiently.
+3. **File System Implementation**: Linked lists are used to represent directory structures and file allocation tables in file systems.
+4. **Undo Functionality**: Linked lists can be used to implement undo functionality in text editors or other applications.
+5. **Arbitrary Precision Arithmetic**: Linked lists can be used to implement arbitrary precision arithmetic operations.
+
+### Example: Using Singly Linked List to Store and Print Student Data:
+
+```python
+# Create a singly linked list instance
+student_list = SinglyLinkedList()
+
+# Append student data to the list
+student_list.append("Alice")
+student_list.append("Bob")
+student_list.append("Charlie")
+
+# Print the student list
+print("Student List:")
+student_list.print_list()
+```
+
+Output:
+```
+Student List:
+Alice -> Bob -> Charlie -> None
+```
+
+### Example: Using Singly Linked List for Undo Functionality:
+
+```python
+# Create a singly linked list instance
+undo_list = SinglyLinkedList()
+
+# Perform some actions
+actions = ["Action 1", "Action 2", "Action 3"]
+for action in actions:
+    undo_list.append(action)
+
+# Print the actions
+print("Actions:")
+undo_list.print_list()
+
+# Undo the last action
+undo_list.head = undo_list.head.next
+
+# Print the actions after undo
+print("Actions after undo:")
+undo_list.print_list()
+```
+
+Output:
+```
+Actions:
+Action 1 -> Action 2 -> Action 3 -> None
+Actions after undo:
+Action 2 -> Action 3 -> None
+```
+
+In these examples, we demonstrate how a singly linked list can be used to store and manipulate data efficiently. Singly linked lists are versatile data structures that find applications in various domains, including computer science, software engineering, and data processing.
+
+### Tree Data Structure inn Python
+
+### Linked List in Python
+
+A linked list is a linear data structure consisting of nodes where each node contains a data element and a reference (link) to the next node in the sequence. Linked lists can be singly linked (each node points to the next node) or doubly linked (each node points to both the next and previous nodes). Linked lists are commonly used to implement dynamic data structures like stacks, queues, and associative arrays. Here's a detailed overview of linked lists in Python with extensive examples:
+
+#### Node Implementation:
+
+A node in a linked list contains two fields: data and a reference to the next node.
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+```
+
+#### Linked List Implementation:
+
+A linked list consists of nodes connected in a sequence. The linked list class maintains a reference to the head node.
+
+```python
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = new_node
+
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data, end=" ")
+            current = current.next
+```
+
+#### Common Operations on Linked List:
+
+1. **Append**: Adding a new node to the end of the linked list.
+2. **Insert**: Inserting a new node at a specific position in the linked list.
+3. **Delete**: Removing a node from the linked list.
+4. **Search**: Finding a node with a specific value in the linked list.
+5. **Traversal**: Iterating through the linked list to access or modify each node.
+6. **Length**: Determining the number of nodes in the linked list.
+
+#### Use Cases of Linked List:
+
+1. **Dynamic Data Structures**: Linked lists are used to implement dynamic data structures like stacks and queues, where elements can be added or removed efficiently.
+2. **Memory Management**: Linked lists are used in memory management systems to allocate and deallocate memory blocks dynamically.
+3. **Text Editors**: Linked lists can be used to implement text editors, where each character is stored in a separate node.
+4. **Sparse Matrices**: Linked lists are used to represent sparse matrices efficiently, where most elements are zero.
+5. **Polynomial Manipulation**: Linked lists can be used to represent and manipulate polynomials efficiently.
+
+### Example: Creating and Displaying a Linked List
+
+```python
+# Creating a linked list
+linked_list = LinkedList()
+
+# Appending elements to the linked list
+linked_list.append(1)
+linked_list.append(2)
+linked_list.append(3)
+linked_list.append(4)
+
+# Displaying the linked list
+print("Linked List:", end=" ")
+linked_list.display()
+# Output: Linked List: 1 2 3 4
+```
+
+### Example: Inserting a Node at a Specific Position
+
+```python
+# Inserting a node at a specific position
+def insert_at_position(self, data, position):
+    if position < 0:
+        print("Invalid position")
+        return
+    new_node = Node(data)
+    if position == 0:
+        new_node.next = self.head
+        self.head = new_node
+        return
+    current = self.head
+    for _ in range(position - 1):
+        if current is None:
+            print("Position out of range")
+            return
+        current = current.next
+    if current is None:
+        print("Position out of range")
+        return
+    new_node.next = current.next
+    current.next = new_node
+
+# Adding the insert_at_position method to the LinkedList class
+LinkedList.insert_at_position = insert_at_position
+
+# Inserting a node at position 2
+linked_list.insert_at_position(5, 2)
+
+# Displaying the modified linked list
+print("Modified Linked List:", end=" ")
+linked_list.display()
+# Output: Modified Linked List: 1 2 5 3 4
+```
+
+### Example Use Case: Implementing Stack Using Linked List
+
+```python
+class StackLinkedList:
+    def __init__(self):
+        self.head = None
+
+    def push(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node
+
+    def pop(self):
+        if self.is_empty():
+            return None
+        popped = self.head.data
+        self.head = self.head.next
+        return popped
+
+    def is_empty(self):
+        return self.head is None
+
+# Creating a stack using linked list
+stack = StackLinkedList()
+
+# Pushing elements onto the stack
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+# Popping elements from the stack
+while not stack.is_empty():
+    print("Popped:", stack.pop())
+# Output: Popped: 3
+#         Popped: 2
+#         Popped: 1
+```
+
+Linked lists provide a flexible and efficient way to manage dynamic collections of data, making them suitable for various applications in computer science and software engineering.
+
+### Graph Data Structure inn Python
+A graph is a mathematical structure that consists of a set of vertices (also called nodes) and a set of edges (also called arcs) that connect pairs of vertices. Graphs are widely used to represent relationships between objects, such as networks, social connections, web pages, and more. In Python, graphs can be implemented using various data structures, such as adjacency lists or adjacency matrices. Here's a detailed overview of graphs in Python with extensive examples:
+
+### Graph Representation:
+
+Graphs can be represented using two main approaches:
+
+1. **Adjacency List**: Each vertex in the graph is associated with a list of its neighboring vertices. This representation is suitable for sparse graphs (graphs with few edges).
+
+2. **Adjacency Matrix**: A two-dimensional matrix where the rows and columns represent vertices, and the matrix cells contain information about the presence or absence of edges between vertices. This representation is suitable for dense graphs (graphs with many edges).
+
+### Graph Implementation:
+
+#### Adjacency List Implementation:
+
+```python
+class Graph:
+    def __init__(self):
+        self.adjacency_list = {}
+
+    def add_vertex(self, vertex):
+        if vertex not in self.adjacency_list:
+            self.adjacency_list[vertex] = []
+
+    def add_edge(self, vertex1, vertex2):
+        self.add_vertex(vertex1)
+        self.add_vertex(vertex2)
+        self.adjacency_list[vertex1].append(vertex2)
+        self.adjacency_list[vertex2].append(vertex1)
+
+    def display(self):
+        for vertex, neighbors in self.adjacency_list.items():
+            print(vertex, "->", neighbors)
+```
+
+#### Adjacency Matrix Implementation:
+
+```python
+class Graph:
+    def __init__(self, num_vertices):
+        self.num_vertices = num_vertices
+        self.adjacency_matrix = [[0] * num_vertices for _ in range(num_vertices)]
+
+    def add_edge(self, vertex1, vertex2):
+        self.adjacency_matrix[vertex1][vertex2] = 1
+        self.adjacency_matrix[vertex2][vertex1] = 1
+
+    def display(self):
+        for row in self.adjacency_matrix:
+            print(row)
+```
+
+### Common Operations on Graphs:
+
+1. **Add Vertex**: Adding a new vertex to the graph.
+2. **Add Edge**: Adding an edge between two vertices in the graph.
+3. **Remove Vertex**: Removing a vertex and all associated edges from the graph.
+4. **Remove Edge**: Removing an edge between two vertices in the graph.
+5. **Traversal**: Visiting all vertices and edges of the graph.
+
+### Use Cases of Graphs:
+
+1. **Social Networks**: Graphs can represent connections between individuals in social networks like Facebook or LinkedIn.
+2. **Network Routing**: Graphs can represent networks of routers and switches in computer networks.
+3. **Web Pages and Hyperlinks**: Graphs can represent web pages and hyperlinks between them in the World Wide Web.
+4. **Recommendation Systems**: Graphs can be used to model relationships between users and items for recommendation systems.
+5. **Transportation Networks**: Graphs can represent road networks, flight routes, or public transportation systems.
+
+### Example: Creating and Displaying a Graph Using Adjacency List
+
+```python
+# Creating a graph
+graph = Graph()
+graph.add_edge("A", "B")
+graph.add_edge("A", "C")
+graph.add_edge("B", "C")
+graph.add_edge("B", "D")
+
+# Displaying the graph
+graph.display()
+```
+
+### Example: Creating and Displaying a Graph Using Adjacency Matrix
+
+```python
+# Creating a graph
+graph = Graph(4)
+graph.add_edge(0, 1)
+graph.add_edge(0, 2)
+graph.add_edge(1, 2)
+graph.add_edge(1, 3)
+
+# Displaying the graph
+graph.display()
+```
+
+### Example Use Case: Shortest Path Algorithm (Dijkstra's Algorithm)
+
+```python
+import heapq
+
+def dijkstra(graph, start):
+    distances = {vertex: float('infinity') for vertex in graph}
+    distances[start] = 0
+    priority_queue = [(0, start)]
+
+    while priority_queue:
+        current_distance, current_vertex = heapq.heappop(priority_queue)
+
+        if current_distance > distances[current_vertex]:
+            continue
+
+        for neighbor, weight in graph[current_vertex].items():
+            distance = current_distance + weight
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                heapq.heappush(priority_queue, (distance, neighbor))
+
+    return distances
+
+# Example graph
+graph = {
+    'A': {'B': 1, 'C': 4},
+    'B': {'A': 1, 'C': 2, 'D': 5},
+    'C': {'A': 4, 'B': 2, 'D': 1},
+    'D': {'B': 5, 'C': 1}
+}
+
+# Finding shortest paths from vertex 'A'
+shortest_paths = dijkstra(graph, 'A')
+print("Shortest Paths from '
+
+A':", shortest_paths)
+```
+
+Graphs are versatile data structures used in various fields like computer science, social sciences, transportation, and more. Understanding graphs and their implementations is crucial for solving a wide range of problems efficiently.
+
 ## indexing
 ## type cast
 Type casting in Python 3 refers to the process of converting the data type of a variable or value from one type to another. Python provides several built-in functions for type casting, allowing you to convert between different data types as needed. Here are some commonly used type casting functions in Python:
