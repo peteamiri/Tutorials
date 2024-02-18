@@ -846,7 +846,6 @@ Click is a powerful and versatile library for building command-line interfaces i
 
 # Chapter 2 Comments
 
-## Comments
 Comments in programming code are non-executable statements used to provide explanations, documentation, or annotations within the code itself. They are ignored by the compiler or interpreter and do not affect the execution of the program. Comments are essential for improving code readability, understanding, and maintenance. Here are some key points about comments:
 
 1. **Purpose**: Comments are used to clarify the purpose of certain code sections, describe algorithms, provide context, or document important information such as variable meanings, function behavior, and program structure.
@@ -1201,10 +1200,6 @@ Sure, here has a table listing Python 3 variable types along with their names an
 | Float           | float          | Numbers with fractional parts.                                                     |
 | String          | str            | Sequence of characters, enclosed in single quotes ('') or double quotes ("").     |
 | Boolean         | bool           | Represents True or False values.                                                   |
-| List            | list           | Ordered collection of items, mutable (modifiable).                                 |
-| Tuple           | tuple          | Ordered collection of items, immutable (unchangeable).                             |
-| Dictionary      | dict           | Collection of key-value pairs, unordered and mutable.                              |
-| Set             | set            | Unordered collection of unique elements, mutable.                                  |
 | NoneType        | None           | Represents absence of a value or a null value.                                     |
 | Complex         | complex        | Numbers with a real and imaginary part.                                            |
 | Bytes           | bytes          | Immutable sequence of bytes.                                                       |
@@ -1230,26 +1225,6 @@ name = "Alice"
 4. Boolean Variable:
 ```python
 is_student = True
-```
-
-5. List Variable (mutable sequence):
-```python
-fruits = ["apple", "banana", "orange"]
-```
-
-6. Tuple Variable (immutable sequence):
-```python
-coordinates = (10, 20)
-```
-
-7. Dictionary Variable (key-value pairs):
-```python
-person = {"name": "Bob", "age": 30, "city": "New York"}
-```
-
-8. Set Variable (unordered collection of unique elements):
-```python
-unique_numbers = {1, 2, 3, 4, 5}
 ```
 
 9. None Variable (to represent absence of a value):
