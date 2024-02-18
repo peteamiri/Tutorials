@@ -93,6 +93,7 @@ The Python interpreter is a command-line tool that allows you to execute Python 
 The Python interpreter provides a powerful and interactive environment for writing and testing Python code. It has a valuable tool for learning Python, experimenting with new features, and quickly prototyping solutions. Whether you're a beginner or an experienced developer, the Python interpreter is an essential tool in your Python programming toolkit.
 
 ## Python Files
+
 Using files to run Python code involves creating Python scripts, which are plain text files containing Python code, and executing them using the Python interpreter. This method allows you to write, organize, and execute Python code stored in files. Below, I'll provide a detailed description and examples for using files to run Python code:
 
 1. **Creating a Python Script**:
@@ -397,7 +398,7 @@ def my_function():
 Understanding tokens is essential for writing, understanding, and debugging Python code effectively. Lexical analysis, which breaks down source code into tokens, is the first step in the process of interpreting and executing Python programs.
 
 ## Indentation in python
-In Python, indentation plays a crucial role in defining the structure and readability of the code. Unlike many other programming languages that use braces ({}) or other delimiters to denote block structures, Python uses indentation to define blocks of code. Consistent indentation is enforced by the Python interpreter and is essential for the code to be syntactically correct. Here's a detailed explanation of indentation in Python with extensive examples:
+In Python, indentation plays a crucial role in defining the structure and readability of the code. Unlike many other programming languages that use braces `({})` or other delimiters to denote block structures, Python uses indentation to define blocks of code. Consistent indentation is enforced by the Python interpreter and is essential for the code to be syntactically correct. Here's a detailed explanation of indentation in Python with extensive examples:
 
 ### Basic Indentation Rules:
 
@@ -490,6 +491,7 @@ result = (value1 +
 Indentation errors are common sources of syntax errors in Python code. It's crucial to ensure that indentation is consistent and properly aligned to avoid such errors. Additionally, well-formatted indentation improves code readability and maintainability, making it easier for other developers to understand and work with the code.
 
 ## Passing Arguments to Python Script
+
 Passing arguments to a Python script allows you to provide input data or configuration options to the script when it is executed. This makes your scripts more flexible and reusable, as they can behave differently based on the provided arguments. Python provides the `sys.argv` list, the `argparse` module, and the `click` library for parsing command-line arguments. I'll describe each approach and provide examples for passing arguments to a Python script:
 
 ### Using `sys.argv`:
@@ -519,8 +521,8 @@ $ python script.py arg1 arg2 arg3
 
 **Output:**
 
-```
-Command-line arguments: [ hascript.py', 'arg1', 'arg2', 'arg3']
+```bash
+Command-line arguments: [ 'hascript.py', 'arg1', 'arg2', 'arg3']
 Script name: script.py
 First argument: arg1
 ```
