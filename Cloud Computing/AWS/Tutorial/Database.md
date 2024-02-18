@@ -25,7 +25,12 @@ AWS provides a comprehensive suite of cloud database services to cater to differ
      - Oracle, and
      - SQL Server.
 
-     It automates administrative tasks such as patching, backups, and scaling, allowing users to focus on application development. RDS offers features such as automated backups, multi-AZ deployments, read replicas, and security enhancements.
+     It automates administrative tasks such as patching, backups, and scaling, allowing users to focus on application development. RDS offers features such as:
+    - automated backups,
+    - multi-AZ deployments,
+    - read replicas, and
+    - security enhancements.
+  
    - **Use Cases**: RDS is suitable for various relational database workloads, including OLTP (Online Transaction Processing), analytics, and business applications requiring scalable and reliable database infrastructure.
 
 2. **Amazon Aurora**:
