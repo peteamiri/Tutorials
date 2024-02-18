@@ -55,7 +55,7 @@ AWS provides a comprehensive suite of cloud database services to cater to differ
    - **Description**: Amazon Neptune is a fully managed graph database service that enables users to build and run applications with highly connected datasets. It supports both Property Graph and RDF graph models and provides high availability, durability, and scalability. Neptune offers features such as ACID transactions, graph query languages, and support for SPARQL and Gremlin.
    - **Use Cases**: Neptune is suitable for social networks, recommendation engines, fraud detection, and network analysis applications requiring highly connected graph data models and scalable graph database solutions.
 
-7. **In Memory Databases"
+7. **In Memory Databases"**
    - **Description**: AWS provides in-memory database services, such as Amazon ElastiCache and Amazon MemoryDB for Redis, to meet the needs of applications that require high-performance, real-time access to data and advanced performance capabilities. These services are fully managed, scalable, and designed to integrate seamlessly with other AWS services.
    - - **Use Cases**: In-memory databases are typically used for applications that require real-time access to data. They play a critical role in modern computing, particularly in reducing the strain on existing resources, scaling workloads efficiently, and minimizing the cost of infrastructure. These databases are vital for demanding applications characterized by voluminous data, real-time analytics, and rapid response requirements.
 
