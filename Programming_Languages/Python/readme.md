@@ -8352,6 +8352,126 @@ PyInstaller is a popular tool that can be used to convert Python scripts into st
 
 These are just a few examples of standard libraries available in Python 3. The Python standard library is extensive, covering a wide range of functionalities for various programming tasks, making Python a powerful and versatile language for different application domains.
 
+## Unit Testing in python
+
+Unit testing in Python involves testing individual units or components of your code to ensure they work as expected. Python provides a built-in `unittest` framework for writing and running unit tests. Here's an extensive example demonstrating unit testing in Python:
+
+Suppose we have a simple function `add()` that adds two numbers:
+
+```python
+# mymodule.py
+
+def add(x, y):
+    return x + y
+```
+
+Now, let's create a unit test for this function using the `unittest` framework:
+
+```python
+# test_mymodule.py
+
+import unittest
+from mymodule import add
+
+class TestAddFunction(unittest.TestCase):
+
+    def test_add_positive_numbers(self):
+        result = add(3, 5)
+        self.assertEqual(result, 8)
+
+    def test_add_negative_numbers(self):
+        result = add(-3, -5)
+        self.assertEqual(result, -8)
+
+    def test_add_mixed_numbers(self):
+        result = add(3, -5)
+        self.assertEqual(result, -2)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+In this example:
+- We define a test class `TestAddFunction` that inherits from `unittest.TestCase`.
+- We define test methods that start with the word `test_`. These methods are automatically discovered and executed by the test runner.
+- Within each test method, we call the `add()` function with different inputs and use assertion methods like `assertEqual()` to verify the expected output.
+- We use `unittest.main()` to run the tests when the script is executed directly.
+
+To run the tests, simply execute the `test_mymodule.py` script:
+
+```
+$ python test_mymodule.py
+```
+
+You should see the test results indicating whether each test passed or failed.
+
+### Additional Features and Techniques:
+1. **Setup and Teardown**: Use `setUp()` and `tearDown()` methods to set up and clean up resources needed for testing.
+
+```python
+class TestAddFunction(unittest.TestCase):
+
+    def setUp(self):
+        # Set up resources needed for testing
+        pass
+
+    def tearDown(self):
+        # Clean up resources after testing
+        pass
+
+    def test_add_positive_numbers(self):
+        # Test cases
+```
+
+2. **Parameterized Tests**: Use `@unittest.parameterized.parameterized` decorator to run the same test with different inputs.
+
+```python
+import unittest
+from parameterized import parameterized
+from mymodule import add
+
+class TestAddFunction(unittest.TestCase):
+
+    @parameterized.expand([
+        (3, 5, 8),
+        (-3, -5, -8),
+        (3, -5, -2)
+    ])
+    def test_add(self, x, y, expected):
+        result = add(x, y)
+        self.assertEqual(result, expected)
+```
+
+3. **Skipping Tests**: Use `@unittest.skip(reason)` decorator to skip certain tests under specific conditions.
+
+```python
+class TestAddFunction(unittest.TestCase):
+
+    @unittest.skip("Example of skipping a test")
+    def test_add_positive_numbers(self):
+        pass
+```
+
+4. **Mocking**: Use `unittest.mock` module to create mock objects for testing.
+
+```python
+from unittest.mock import MagicMock
+
+class TestAddFunction(unittest.TestCase):
+
+    def test_add_with_mock(self):
+        # Create a mock object
+        mock_add = MagicMock(return_value=10)
+
+        # Replace the add function with the mock
+        with unittest.mock.patch('mymodule.add', mock_add):
+            result = add(3, 5)
+            self.assertEqual(result, 10)
+            mock_add.assert_called_once_with(3, 5)
+```
+
+By using these features and techniques, you can write comprehensive unit tests for your Python code to ensure its correctness and reliability.
+
 # Chapter XX data encryption and compression in python
 
 ## Data Comptession
