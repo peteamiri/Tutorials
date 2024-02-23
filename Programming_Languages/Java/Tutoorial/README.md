@@ -201,6 +201,60 @@ System.out.printf("Number: %(,.2f%n", number);  // Print with parentheses for ne
 ### Summary:
 `System.out.printf()` in Java provides a powerful way to format output strings with various data types and styles. By using format specifiers, flags, and argument indexing, you can customize the appearance of your output according to your requirements. This method is commonly used for generating formatted output in console applications, debugging, and logging.
 
+### Formatting variable
+
+In Java, formatting values for variables involves converting data into a specific string representation according to certain rules or patterns. This is often useful when displaying data to users or when writing data to files. Java provides several mechanisms for formatting values, including string concatenation, the `String.format()` method, and the `printf` method from `System.out`. Here's a detailed description with examples of each approach:
+
+### 1. String Concatenation:
+String concatenation involves combining strings and variables using the `+` operator.
+
+Example:
+```java
+int age = 25;
+String name = "Alice";
+System.out.println("Name: " + name + ", Age: " + age);
+```
+
+### 2. Using String.format():
+The `String.format()` method allows you to create formatted strings using placeholders and arguments.
+
+Example:
+```java
+int age = 25;
+String name = "Alice";
+String formattedString = String.format("Name: %s, Age: %d", name, age);
+System.out.println(formattedString);
+```
+
+### 3. printf Method:
+The `printf` method from `System.out` allows you to format output similar to `String.format()` but directly prints the formatted string.
+
+Example:
+```java
+int age = 25;
+String name = "Alice";
+System.out.printf("Name: %s, Age: %d%n", name, age);
+```
+
+### Formatting Rules:
+- Placeholders in the format string start with `%` followed by a conversion character (such as `s` for string, `d` for integer, `f` for floating-point, etc.).
+- The placeholders are replaced by corresponding arguments in the order they appear in the argument list.
+- You can specify additional formatting options such as width, precision, alignment, and padding.
+
+Example with Formatting Options:
+```java
+double price = 19.99;
+System.out.printf("Price: %8.2f%n", price);  // Print with 2 decimal places and 8 characters width
+```
+
+### Summary:
+- String concatenation, `String.format()`, and `System.out.printf()` are commonly used for formatting values in Java.
+- String concatenation is simple but less flexible.
+- `String.format()` provides more control over formatting and creates a formatted string.
+- `System.out.printf()` directly prints formatted output to the console.
+- Use placeholders and formatting options to customize the output according to your requirements.
+- 
+
 ## Using Import statement
 In Java, the `import` statement is used to bring classes, interfaces, enums, and packages into scope, allowing you to use their members (fields, methods, nested types) in your code. It helps organize code and avoids redundancy by referencing classes and packages without needing their fully qualified names. Here's a detailed description with lots of examples on how to use the `import` statement in Java:
 
@@ -747,7 +801,7 @@ public class UserInputExample {
 - Use the `Scanner` class to read user inputs in Java.
 - Different methods like `nextInt()`, `nextDouble()`, `nextLine()`, and `next().charAt(0)` can be used to read different types of inputs.
 - Don't forget to close the `Scanner` object once you're done with it to release system resources.
-- 
+-
 ## expressions
 ## Math class
 ## random numbers
