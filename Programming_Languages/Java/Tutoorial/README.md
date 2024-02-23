@@ -3042,21 +3042,1399 @@ public class Main {
 
 By overriding the `toString()` method, you can provide a customized string representation of your objects, making your code more readable and aiding in debugging and logging.
 
+## Getter and Setters
+
+In Java, getters and setters are methods used to access and modify the private fields (instance variables) of a class, respectively. They are commonly used to implement encapsulation, a fundamental principle of object-oriented programming. Encapsulation ensures that the internal state of an object is controlled and accessed through well-defined methods, providing better data security, flexibility, and maintainability. Here's a detailed explanation of getters and setters in Java, along with examples:
+
+### 1. Getters:
+- Getters are methods used to retrieve the value of a private field.
+- They provide read-only access to the encapsulated data.
+- Getters typically have the `get` prefix followed by the name of the field they access.
+- Example:
+  ```java
+  public class Person {
+      private String name;
+
+      // Getter method for 'name' field
+      public String getName() {
+          return name;
+      }
+  }
+  ```
+
+### 2. Setters:
+- Setters are methods used to modify the value of a private field.
+- They provide write-only access to the encapsulated data.
+- Setters typically have the `set` prefix followed by the name of the field they modify, and they take a parameter representing the new value.
+- Example:
+  ```java
+  public class Person {
+      private String name;
+
+      // Setter method for 'name' field
+      public void setName(String newName) {
+          name = newName;
+      }
+  }
+  ```
+
+### Why Use Getters and Setters:
+1. **Encapsulation**: Getters and setters enforce encapsulation by controlling access to the internal state of an object. They prevent direct access to the fields, allowing for better data integrity and security.
+
+2. **Flexibility**: Getters and setters provide flexibility to change the internal implementation of a class without affecting the external code that uses it. For example, you can add validation logic or perform calculations when getting or setting a value.
+
+3. **Data Validation**: Setters allow you to validate input before setting the value of a field. This ensures that only valid data is stored in the object.
+
+4. **Readability and Maintainability**: By providing descriptive method names (`get` and `set`), code becomes more readable and self-explanatory. This improves maintainability and reduces the likelihood of errors when working with the class.
+
+### Example:
+Here's an example demonstrating the use of getters and setters in a `Person` class:
+
+```java
+public class Person {
+    private String name;
+    private int age;
+
+    // Getter for 'name' field
+    public String getName() {
+        return name;
+    }
+
+    // Setter for 'name' field
+    public void setName(String newName) {
+        name = newName;
+    }
+
+    // Getter for 'age' field
+    public int getAge() {
+        return age;
+    }
+
+    // Setter for 'age' field
+    public void setAge(int newAge) {
+        if (newAge >= 0 && newAge <= 120) { // Age validation
+            age = newAge;
+        } else {
+            System.out.println("Invalid age!");
+        }
+    }
+}
+```
+
+In this example, the `Person` class encapsulates the `name` and `age` fields using getters and setters. The setters include validation logic to ensure that the age is within a valid range (0 to 120). This demonstrates how getters and setters can enhance data security and integrity while providing flexibility and maintainability in Java programs.
+
+## this Keyword
+The `this` keyword in Java is a reference variable that refers to the current object within a method or constructor. It's primarily used to differentiate between instance variables and parameters with the same name, as well as to access instance methods and constructors from within the same class. Here's a detailed explanation of the `this` keyword with examples:
+
+### 1. Reference to Current Object:
+   - Inside any method or constructor, `this` refers to the current object.
+   - It can be used to access instance variables and methods of the current object.
+   - Example:
+     ```java
+     public class Person {
+         private String name;
+
+         public Person(String name) {
+             // Using 'this' to refer to instance variable
+             this.name = name;
+         }
+
+         public void sayHello() {
+             // Using 'this' to refer to instance method
+             System.out.println("Hello, my name is " + this.name);
+         }
+     }
+     ```
+
+### 2. Differentiating Between Instance Variables and Parameters:
+   - When instance variables have the same name as parameters or local variables, `this` can be used to refer to the instance variables.
+   - Example:
+     ```java
+     public class Rectangle {
+         private int length;
+         private int width;
+
+         public Rectangle(int length, int width) {
+             // 'this.length' and 'this.width' refer to instance variables
+             this.length = length;
+             this.width = width;
+         }
+     }
+     ```
+
+### 3. Passing Current Object as Argument:
+   - `this` can be used to pass the current object as an argument to other methods.
+   - Example:
+     ```java
+     public class Calculator {
+         private int result;
+
+         public Calculator() {
+             this.result = 0;
+         }
+
+         public void add(int num) {
+             this.result += num;
+         }
+
+         public void displayResult() {
+             // Passing current object as argument to printResult method
+             printResult(this);
+         }
+
+         private void printResult(Calculator calc) {
+             System.out.println("Result: " + calc.result);
+         }
+     }
+     ```
+
+### 4. Chaining Constructors (Constructor Overloading):
+   - `this` can be used to call one constructor from another constructor in the same class.
+   - This allows constructor chaining and helps avoid code duplication.
+   - Example:
+     ```java
+     public class Car {
+         private String make;
+         private String model;
+
+         public Car() {
+             this("Toyota", "Camry"); // Calling parameterized constructor
+         }
+
+         public Car(String make, String model) {
+             this.make = make;
+             this.model = model;
+         }
+     }
+     ```
+
+### 5. Returning Current Object:
+   - `this` can be used to return the current object from a method, allowing method chaining.
+   - Example:
+     ```java
+     public class Person {
+         private String name;
+
+         public Person setName(String name) {
+             this.name = name;
+             return this; // Returning current object
+         }
+
+         public void displayInfo() {
+             System.out.println("Name: " + this.name);
+         }
+     }
+     ```
+
+The `this` keyword is a powerful tool in Java that helps maintain clarity in code, enables effective use of instance variables and methods, and facilitates constructor chaining and method chaining. Understanding and correctly using `this` is essential for writing clean and efficient Java code.
+
 ## wrapper classes
-## array of objects
-## object passing
+
+Wrapper classes in Java are classes that encapsulate primitive data types within objects. They provide a way to represent primitive data types as objects, allowing them to be used in situations where objects are required. Wrapper classes also provide utility methods for converting between primitive data types and performing various operations on them. Here's a detailed explanation of wrapper classes in Java with examples:
+
+### Why Use Wrapper Classes?
+
+1. **Objects Required**: Some Java APIs and libraries require objects instead of primitive data types. Wrapper classes allow primitive types to be used in such scenarios.
+
+2. **Generics**: Generics in Java do not support primitive data types. Wrapper classes enable the use of primitive types as generic type parameters.
+
+3. **Nullability**: Wrapper classes can represent null values, while primitive types cannot. This is useful when dealing with data that may or may not have a value.
+
+4. **Collections and Data Structures**: Many Java collections and data structures, such as ArrayList and HashMap, work with objects rather than primitives. Wrapper classes facilitate the use of primitive data types in these structures.
+
+### Commonly Used Wrapper Classes:
+
+1. **`Integer`**: Wraps an `int` value.
+2. **`Long`**: Wraps a `long` value.
+3. **`Double`**: Wraps a `double` value.
+4. **`Float`**: Wraps a `float` value.
+5. **`Boolean`**: Wraps a `boolean` value.
+6. **`Character`**: Wraps a `char` value.
+7. **`Byte`**: Wraps a `byte` value.
+8. **`Short`**: Wraps a `short` value.
+
+### Examples:
+
+#### 1. Using Wrapper Classes with Collections:
+
+```java
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        // ArrayList of Integer objects
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(30);
+
+        // Accessing element using wrapper class methods
+        int firstNumber = numbers.get(0);
+        System.out.println("First number: " + firstNumber);
+    }
+}
+```
+
+#### 2. Converting Between Wrapper Classes and Primitive Types:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Wrapper to primitive
+        Integer wrappedInt = Integer.valueOf(10);
+        int primitiveInt = wrappedInt.intValue();
+        System.out.println("Primitive int: " + primitiveInt);
+
+        // Primitive to wrapper
+        int anotherInt = 20;
+        Integer anotherWrappedInt = Integer.valueOf(anotherInt);
+        System.out.println("Another wrapped int: " + anotherWrappedInt);
+    }
+}
+```
+
+#### 3. Nullability:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Integer nullableInt = null; // Wrapper class can represent null
+        System.out.println("Nullable integer: " + nullableInt);
+
+        int primitiveInt = nullableInt; // This will result in a NullPointerException
+    }
+}
+```
+
+Wrapper classes provide flexibility and functionality beyond what primitive data types offer, making them essential in Java programming when dealing with objects, generics, collections, and situations requiring nullability.
+
+## Modifiers
+In Java, modifiers are keywords that can be applied to classes, methods, variables, and other elements to specify their behavior, visibility, and accessibility. They control various aspects of how these elements can be accessed and used within a Java program. Here's a detailed explanation of modifiers in Java with examples:
+
+### 1. Access Modifiers:
+
+Access modifiers control the accessibility of classes, methods, and variables from other classes or packages.
+
+1. **`public`**:
+   - Allows unrestricted access to the class, method, or variable from any other class or package.
+   - Example:
+     ```java
+     public class MyClass {
+         public void myMethod() {
+             // Method accessible from any class or package
+         }
+     }
+     ```
+
+2. **`protected`**:
+   - Allows access to the class, method, or variable within the same package or by subclasses, regardless of the package.
+   - Example:
+     ```java
+     protected class MyBaseClass {
+         protected void myMethod() {
+             // Method accessible within the same package or by subclasses
+         }
+     }
+     ```
+
+3. **`default` (no modifier)**:
+   - Also known as package-private.
+   - Allows access to the class, method, or variable within the same package but not from outside the package.
+   - Example:
+     ```java
+     class MyPackageClass {
+         void myMethod() {
+             // Method accessible only within the same package
+         }
+     }
+     ```
+
+4. **`private`**:
+   - Restricts access to the class, method, or variable within the same class only.
+   - Example:
+     ```java
+     public class MyClass {
+         private int myVariable;
+         private void myMethod() {
+             // Method accessible only within the same class
+         }
+     }
+     ```
+
+### 2. Non-Access Modifiers:
+
+Non-access modifiers provide additional functionality and behavior to classes, methods, and variables.
+
+1. **`final`**:
+   - Indicates that a variable, method, or class cannot be modified or extended, respectively.
+   - Example:
+     ```java
+     public class MyClass {
+         final int myVariable = 10; // Final variable cannot be reassigned
+         final void myMethod() {
+             // Final method cannot be overridden
+         }
+     }
+     ```
+
+2. **`static`**:
+   - Indicates that a method or variable belongs to the class rather than to instances of the class. Only one instance of the variable exists for the class.
+   - Example:
+     ```java
+     public class MyClass {
+         static int count = 0; // Static variable shared among all instances of MyClass
+         static void incrementCount() {
+             count++; // Static method can access static variables directly
+         }
+     }
+     ```
+
+3. **`abstract`**:
+   - Indicates that a class or method does not have a complete implementation and must be implemented by subclasses (for abstract classes) or overridden by subclasses (for abstract methods).
+   - Example:
+     ```java
+     public abstract class Shape {
+         abstract void draw(); // Abstract method must be implemented by subclasses
+     }
+     ```
+
+4. **`synchronized`**:
+   - Applies to methods or code blocks to ensure that only one thread can access them at a time, preventing concurrent access and potential race conditions.
+   - Example:
+     ```java
+     public synchronized void myMethod() {
+         // Method body synchronized to prevent concurrent access
+     }
+     ```
+
+5. **`volatile`**:
+   - Indicates that a variable's value may be modified by different threads and ensures that changes to the variable are immediately visible to other threads.
+   - Example:
+     ```java
+     public volatile int myVariable;
+     ```
+
+6. **`transient`**:
+   - Indicates that a variable should not be serialized when the object containing it is serialized.
+   - Example:
+     ```java
+     public transient int sensitiveData;
+     ```
+
+7. **`native`**:
+   - Indicates that a method is implemented in native code (code written in another programming language such as C or C++) and should be linked at runtime.
+   - Example:
+     ```java
+     public native void nativeMethod();
+     ```
+
+8. **`strictfp`**:
+   - Applies to classes or methods and ensures that floating-point calculations are performed in a consistent manner across different platforms.
+   - Example:
+     ```java
+     public strictfp class MyClass {
+         strictfp void myMethod() {
+             // Floating-point calculations performed in a consistent manner
+         }
+     }
+     ```
+
+Modifiers in Java provide a powerful mechanism for controlling access, behavior, and functionality of classes, methods, and variables, enabling developers to design robust and secure Java applications.
+
 ## static keyword
-## inheritance
+
+In Java, the `static` keyword is used to declare members (variables, methods, and nested classes) that belong to the class itself, rather than to instances of the class. This means that only one instance of a `static` member exists, regardless of how many instances of the class are created. Here's a detailed explanation of `static` in Java with examples:
+
+### 1. Static Variables:
+
+Static variables, also known as class variables, are shared among all instances of a class. They are declared with the `static` keyword.
+
+Example:
+```java
+public class MyClass {
+    public static int count = 0; // Static variable
+
+    public MyClass() {
+        count++; // Incrementing static variable in the constructor
+    }
+}
+```
+
+### 2. Static Methods:
+
+Static methods belong to the class rather than to instances of the class. They can be called directly using the class name, without the need to create an instance of the class.
+
+Example:
+```java
+public class MathUtils {
+    public static int add(int a, int b) {
+        return a + b; // Static method to add two numbers
+    }
+}
+
+// Calling static method without creating an instance
+int sum = MathUtils.add(5, 3);
+```
+
+### 3. Static Blocks:
+
+Static blocks are used for static initialization of a class. They execute when the class is loaded into memory and are executed only once, before the execution of the main method or creation of any object.
+
+Example:
+```java
+public class MyClass {
+    static {
+        System.out.println("Static block executed"); // Static block
+    }
+
+    public static void main(String[] args) {
+        // Main method
+    }
+}
+```
+
+### 4. Static Nested Classes:
+
+Static nested classes are nested classes that are declared as `static`. They do not have access to the instance variables and methods of the outer class unless they are also declared as `static`.
+
+Example:
+```java
+public class OuterClass {
+    static class NestedClass {
+        void display() {
+            System.out.println("Nested class method");
+        }
+    }
+}
+
+// Creating an instance of the static nested class
+OuterClass.NestedClass nestedObj = new OuterClass.NestedClass();
+nestedObj.display();
+```
+
+### 5. Static Import:
+
+Static imports allow static members (variables and methods) of another class to be imported directly into the current class, eliminating the need to qualify their names with the class name.
+
+Example:
+```java
+import static java.lang.Math.PI;
+import static java.lang.Math.sqrt;
+
+public class Circle {
+    public static double calculateArea(double radius) {
+        return PI * sqrt(radius); // Using static imports
+    }
+}
+```
+
+### Best Practices:
+
+1. Use `static` for methods that do not depend on instance variables.
+2. Avoid using `static` for mutable state that needs to be shared across instances.
+3. Use `static` blocks for static initialization and loading resources.
+4. Prefer using `ClassName.methodName()` over `objectName.methodName()` for static methods.
+
+`static` in Java provides a way to define class-level behavior and state, allowing for better organization of code and improved performance in certain scenarios. However, overuse of static members can lead to tightly coupled and less maintainable code, so it should be used judiciously.
+
 ## overloaded methods
+Method overloading in Java allows you to define multiple methods in the same class with the same name but different parameter lists. This enables you to create methods that perform similar tasks but with different types or numbers of parameters. Here's a detailed explanation of method overloading in Java with examples:
+
+### 1. Method Signature:
+   - Method overloading is based on the method signature, which includes the method name and the parameter list (number, type, and order of parameters).
+   - Methods with the same name but different parameter lists are considered overloaded.
+
+### 2. Example of Method Overloading:
+```java
+public class Calculator {
+    // Method to add two integers
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Method to add three integers
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Method to add two doubles
+    public double add(double a, double b) {
+        return a + b;
+    }
+}
+```
+
+In the above example, the `add()` method is overloaded three times:
+- The first `add()` method takes two integers as parameters.
+- The second `add()` method takes three integers as parameters.
+- The third `add()` method takes two doubles as parameters.
+
+### 3. Overloading Rules:
+   - Methods can be overloaded within the same class.
+   - Overloaded methods must have a different number of parameters, different types of parameters, or both.
+   - Return type alone is not sufficient to distinguish overloaded methods.
+   - Overloaded methods can have different access modifiers.
+
+### 4. Example Demonstrating Overloading Rules:
+```java
+public class Example {
+    // Overloaded methods based on parameter type
+    public void display(int num) {
+        System.out.println("Displaying integer: " + num);
+    }
+
+    public void display(double num) {
+        System.out.println("Displaying double: " + num);
+    }
+
+    // Overloaded methods based on parameter order
+    public void print(String message, int count) {
+        System.out.println("Printing message: " + message + ", count: " + count);
+    }
+
+    public void print(int count, String message) {
+        System.out.println("Printing count: " + count + ", message: " + message);
+    }
+}
+```
+
+### 5. Overloading with Varargs:
+   - Java allows method overloading with variable-length argument lists (varargs).
+   - Varargs must be the last parameter in the method signature.
+   - Example:
+```java
+public class Example {
+    // Overloaded method with varargs
+    public void display(int... nums) {
+        for (int num : nums) {
+            System.out.println("Displaying integer: " + num);
+        }
+    }
+}
+```
+
+### 6. Overloading and Inheritance:
+   - Overloaded methods are resolved at compile time, based on the reference type.
+   - Overloaded methods are not inherited by subclasses.
+
+Method overloading provides flexibility and clarity in method design, allowing you to create methods with the same name but different behaviors based on the parameters they accept. It promotes code reusability and enhances readability by providing a consistent interface for similar operations with different inputs.
+
 ## method overriding
+
+Method overriding in Java allows a subclass to provide a specific implementation of a method that is already defined in its superclass. When a method in a subclass has the same signature (method name, number and type of parameters, and return type) as a method in its superclass, it is said to override the superclass method. This allows for polymorphic behavior, where the subclass method is invoked at runtime based on the actual object type. Here's a detailed explanation of method overriding in Java with examples:
+
+### 1. Basic Example:
+```java
+class Animal {
+    public void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Dog();
+        animal.sound(); // Output: Dog barks
+    }
+}
+```
+In this example, the `sound()` method in the `Dog` class overrides the `sound()` method in the `Animal` class.
+
+### 2. Access Modifier:
+```java
+class Animal {
+    protected void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    // Overriding method can have a less restrictive access modifier
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+Here, the `sound()` method in the `Animal` class is declared as `protected`, and the overriding `sound()` method in the `Dog` class is declared as `public`, which is less restrictive.
+
+### 3. Return Type:
+```java
+class Animal {
+    public void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    // Covariant return type: Overriding method can have a subtype return type
+    @Override
+    public String sound() {
+        return "Dog barks";
+    }
+}
+```
+In this example, the `sound()` method in the `Dog` class overrides the `sound()` method in the `Animal` class and returns a `String`, which is a subtype of `Object`.
+
+### 4. Exception Handling:
+```java
+import java.io.IOException;
+
+class Animal {
+    // Superclass method throws an IOException
+    public void sound() throws IOException {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    // Overriding method throws a more specific exception
+    @Override
+    public void sound() throws IllegalArgumentException {
+        System.out.println("Dog barks");
+    }
+}
+```
+In this example, the overriding `sound()` method in the `Dog` class throws a more specific exception (`IllegalArgumentException`) than the `IOException` thrown by the superclass method.
+
+### 5. Static and Private Methods:
+```java
+class Animal {
+    public static void staticMethod() {
+        System.out.println("Animal static method");
+    }
+
+    private void privateMethod() {
+        System.out.println("Animal private method");
+    }
+}
+
+class Dog extends Animal {
+    // Static methods cannot be overridden; this is method hiding
+    public static void staticMethod() {
+        System.out.println("Dog static method");
+    }
+
+    // Private methods cannot be overridden
+    private void privateMethod() {
+        System.out.println("Dog private method");
+    }
+}
+```
+In Java, static and private methods cannot be overridden, but they can be redefined in subclasses, which is called method hiding. Therefore, the `staticMethod()` and `privateMethod()` in the `Dog` class are not overrides but redefinitions.
+
+Method overriding is a key concept in Java's polymorphism mechanism, allowing subclasses to provide specific implementations of methods inherited from superclasses. It enables code reuse, flexibility, and extensibility in object-oriented programming.
+
+## Override vs. overload
+In Java, both overloading and overriding are important concepts in object-oriented programming, but they serve different purposes and apply to different elements of a class hierarchy. Here's a detailed comparison between overloading and overriding, along with examples for each:
+
+### Overloading:
+
+1. **Definition**:
+   - Overloading occurs when multiple methods in the same class have the same name but different parameters (number, type, or order).
+
+2. **Scope**:
+   - Overloading happens within the same class.
+
+3. **Return Type**:
+   - Overloading can have the same or different return types.
+
+4. **Example**:
+   ```java
+   public class Calculator {
+       public int add(int a, int b) {
+           return a + b;
+       }
+
+       // Overloaded method with different parameter types
+       public double add(double a, double b) {
+           return a + b;
+       }
+   }
+   ```
+
+5. **Invocation**:
+   - The method to be invoked is determined at compile-time based on the method signature.
+
+6. **Polymorphism**:
+   - Overloading is an example of compile-time polymorphism (also known as static or early binding), where the method to be executed is determined by the compiler.
+
+### Override:
+
+1. **Definition**:
+   - Overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+
+2. **Scope**:
+   - Overriding occurs between a superclass and its subclass.
+
+3. **Return Type**:
+   - Overriding must have the same return type or a covariant return type (a subtype of the return type in the superclass).
+
+4. **Example**:
+   ```java
+   class Animal {
+       public void sound() {
+           System.out.println("Animal makes a sound");
+       }
+   }
+
+   class Dog extends Animal {
+       @Override
+       public void sound() {
+           System.out.println("Dog barks");
+       }
+   }
+   ```
+
+5. **Invocation**:
+   - The method to be invoked is determined at runtime based on the actual object type (dynamic dispatch).
+
+6. **Polymorphism**:
+   - Overriding is an example of runtime polymorphism (also known as dynamic or late binding), where the method to be executed is determined during runtime based on the actual type of the object.
+
+### Key Differences:
+
+- Overloading involves multiple methods with the same name but different parameters within the same class, while overriding involves a subclass providing a specific implementation of a method defined in its superclass.
+- Overloading is resolved at compile-time based on the method signature, while overriding is resolved at runtime based on the actual object type.
+- Overloading allows methods with different behaviors to have the same name, providing convenience and flexibility in method invocation, while overriding allows subclasses to provide specialized behavior for inherited methods, enabling polymorphic behavior.
+
+Understanding the differences between overloading and overriding is essential for designing and implementing robust and flexible Java applications.
+
 ## super keyword
+
+In Java, the `super` keyword is a reference variable that is used to refer to the superclass (parent class) of the current object instance. It can be used to access superclass members, constructors, and methods, as well as to invoke superclass constructors. Here's a detailed explanation of the `super` keyword in Java with examples:
+
+### 1. Accessing Superclass Members:
+
+```java
+class Animal {
+    String type = "Animal";
+
+    void display() {
+        System.out.println("Type: " + type);
+    }
+}
+
+class Dog extends Animal {
+    String type = "Dog";
+
+    void display() {
+        // Accessing superclass member using 'super'
+        super.display();
+        System.out.println("Type: " + type);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.display();
+    }
+}
+```
+
+Output:
+```
+Type: Animal
+Type: Dog
+```
+
+In this example, the `Dog` class overrides the `display()` method from its superclass `Animal`. Inside the `display()` method of `Dog`, `super.display()` is used to call the superclass `display()` method before printing the `Dog` type.
+
+### 2. Invoking Superclass Constructor:
+
+```java
+class Animal {
+    String type;
+
+    Animal(String type) {
+        this.type = type;
+    }
+}
+
+class Dog extends Animal {
+    String name;
+
+    Dog(String type, String name) {
+        // Invoking superclass constructor using 'super'
+        super(type);
+        this.name = name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog("Canine", "Buddy");
+        System.out.println("Type: " + dog.type);
+        System.out.println("Name: " + dog.name);
+    }
+}
+```
+
+Output:
+```
+Type: Canine
+Name: Buddy
+```
+
+In this example, the `Dog` class invokes the constructor of its superclass `Animal` using `super(type)` to initialize the `type` attribute inherited from `Animal`.
+
+### 3. Accessing Superclass Methods:
+
+```java
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        super.sound(); // Calling superclass method using 'super'
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.sound();
+    }
+}
+```
+
+Output:
+```
+Animal makes a sound
+Dog barks
+```
+
+In this example, the `Dog` class overrides the `sound()` method from its superclass `Animal`. Inside the overridden `sound()` method, `super.sound()` is used to call the superclass `sound()` method before printing "Dog barks".
+
+### 4. Accessing Superclass Variables:
+
+```java
+class Animal {
+    String type = "Animal";
+}
+
+class Dog extends Animal {
+    String type = "Dog";
+
+    void display() {
+        System.out.println("Superclass type: " + super.type); // Accessing superclass variable using 'super'
+        System.out.println("Subclass type: " + type);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.display();
+    }
+}
+```
+
+Output:
+```
+Superclass type: Animal
+Subclass type: Dog
+```
+
+In this example, the `Dog` class has a variable `type` which hides the `type` variable from its superclass `Animal`. Inside the `display()` method, `super.type` is used to access the `type` variable from the superclass.
+
+The `super` keyword in Java is a powerful tool for working with inheritance, allowing subclasses to access and utilize members and behavior from their superclass. It enables better code organization, flexibility, and maintainability in object-oriented programming.
+
+## inharitance
+Inheritance is one of the fundamental concepts in object-oriented programming (OOP), including Java. It allows a class (subclass) to inherit properties and behavior from another class (superclass). This promotes code reuse, abstraction, and hierarchical organization of classes. Here's a detailed explanation of inheritance in Java with examples:
+
+### 1. Basic Inheritance:
+
+```java
+// Superclass
+class Animal {
+    String type;
+
+    Animal(String type) {
+        this.type = type;
+    }
+
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+// Subclass inheriting from Animal
+class Dog extends Animal {
+    String name;
+
+    Dog(String type, String name) {
+        // Call superclass constructor using 'super'
+        super(type);
+        this.name = name;
+    }
+
+    void bark() {
+        System.out.println(name + " barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog("Canine", "Buddy");
+        dog.sound(); // Inherited method
+        dog.bark();  // Subclass method
+    }
+}
+```
+
+Output:
+```
+Animal makes a sound
+Buddy barks
+```
+
+In this example, `Dog` is a subclass of `Animal`. It inherits the `type` attribute and `sound()` method from `Animal`, and also adds its own `name` attribute and `bark()` method.
+
+### 2. Method Overriding:
+
+```java
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    // Override superclass method
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.sound(); // Output: Dog barks
+    }
+}
+```
+
+In this example, the `sound()` method in the `Dog` class overrides the `sound()` method in its superclass `Animal`. This allows `Dog` objects to have their own implementation of the `sound()` method.
+
+### 3. Access Modifiers in Inheritance:
+
+```java
+class Animal {
+    private String type;
+
+    Animal(String type) {
+        this.type = type;
+    }
+
+    // Accessor method
+    public String getType() {
+        return type;
+    }
+}
+
+class Dog extends Animal {
+    Dog(String type) {
+        // Call superclass constructor using 'super'
+        super(type);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog("Canine");
+        System.out.println(dog.getType()); // Output: Canine
+    }
+}
+```
+
+In this example, the `type` attribute in the `Animal` class is `private`, but it's accessible in the `Dog` class through inheritance. The `getType()` method is used to access the `type` attribute of the `Animal` class from a `Dog` object.
+
+### 4. Multilevel Inheritance:
+
+```java
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+class GermanShepherd extends Dog {
+    void guard() {
+        System.out.println("German Shepherd guards");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        GermanShepherd dog = new GermanShepherd();
+        dog.sound();  // Output: Animal makes a sound
+        dog.bark();   // Output: Dog barks
+        dog.guard();  // Output: German Shepherd guards
+    }
+}
+```
+
+In this example, `GermanShepherd` is a subclass of `Dog`, which is itself a subclass of `Animal`. `GermanShepherd` inherits properties and behavior from both `Dog` and `Animal`.
+
+Inheritance is a powerful mechanism in Java for creating a hierarchical structure of classes, promoting code reuse, and facilitating polymorphic behavior. It allows for the creation of complex systems with clear relationships between classes. However, it's important to use inheritance judiciously to avoid excessive coupling and maintainability issues.
+
 ## abstraction
-## access modifiers
+
+Abstract classes in Java are classes that cannot be instantiated directly but serve as blueprints for other classes. They can contain abstract methods, which are methods without a body, as well as concrete methods with implementations. Abstract classes are used to define common behavior and enforce a contract on subclasses. Here's a detailed explanation of abstract classes in Java with examples:
+
+### 1. Basic Abstract Class:
+
+```java
+abstract class Animal {
+    String type;
+
+    Animal(String type) {
+        this.type = type;
+    }
+
+    // Abstract method
+    abstract void sound();
+
+    // Concrete method
+    void displayType() {
+        System.out.println("Type: " + type);
+    }
+}
+```
+
+In this example, `Animal` is an abstract class with an abstract method `sound()` and a concrete method `displayType()`. Abstract methods are declared using the `abstract` keyword and do not have a method body.
+
+### 2. Subclassing an Abstract Class:
+
+```java
+class Dog extends Animal {
+    String name;
+
+    Dog(String type, String name) {
+        super(type);
+        this.name = name;
+    }
+
+    // Implementing abstract method
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+
+Here, `Dog` is a concrete subclass of the abstract class `Animal`. It provides an implementation for the abstract method `sound()`.
+
+### 3. Instantiation of Subclasses:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog("Canine", "Buddy");
+        dog.displayType(); // Output: Type: Canine
+        dog.sound();      // Output: Dog barks
+    }
+}
+```
+
+In the `Main` class, we create an instance of the `Dog` class. Since `Dog` extends `Animal`, it inherits the `displayType()` method. We can also invoke the `sound()` method, which is implemented in the `Dog` class.
+
+### 4. Abstract Methods:
+
+Abstract methods must be implemented by concrete subclasses. If a subclass fails to provide an implementation for an abstract method, it must be declared as abstract itself.
+
+### 5. Abstract Classes vs. Interfaces:
+
+Abstract classes can have constructors, member variables, and non-abstract methods, whereas interfaces cannot. However, Java supports multiple interface inheritance but not multiple class inheritance.
+
+### 6. Example with Multiple Subclasses:
+
+```java
+abstract class Shape {
+    abstract double area();
+}
+
+class Circle extends Shape {
+    double radius;
+
+    Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    double area() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Rectangle extends Shape {
+    double length;
+    double width;
+
+    Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    @Override
+    double area() {
+        return length * width;
+    }
+}
+```
+
+In this example, `Shape` is an abstract class with an abstract method `area()`. `Circle` and `Rectangle` are concrete subclasses that provide implementations for the `area()` method.
+
+Abstract classes are useful when you want to define common behavior for a group of related classes while leaving specific implementations to the subclasses. They provide a way to enforce consistency and structure in object-oriented designs.
+
 ## encapsulation
-## copy objects
+Encapsulation is one of the four fundamental concepts of object-oriented programming (OOP) in Java, alongside inheritance, polymorphism, and abstraction. It refers to the bundling of data and methods that operate on that data into a single unit, often referred to as a class. The data within the class is typically hidden from external access, and access to it is controlled through public methods. Encapsulation helps in achieving data hiding, abstraction, and modularity, ultimately leading to more robust and maintainable code. Here's a detailed explanation of encapsulation in Java with examples:
+
+### 1. Data Hiding:
+
+Encapsulation allows you to hide the internal state of an object and only expose the necessary functionalities through methods. This prevents direct access to the object's data from external classes, ensuring that it remains consistent and valid.
+
+```java
+public class Car {
+    private String make;
+    private String model;
+    private int year;
+
+    // Getter methods
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    // Setter methods
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setYear(int year) {
+        if (year > 0) {
+            this.year = year;
+        }
+    }
+}
+```
+
+In this example, the `make`, `model`, and `year` variables are declared as private, making them inaccessible from outside the `Car` class. Public getter and setter methods provide controlled access to these variables.
+
+### 2. Abstraction:
+
+Encapsulation also enables abstraction by hiding the internal implementation details of an object and exposing only the essential features. Clients interacting with the object do not need to know how it internally manages its data.
+
+```java
+public class BankAccount {
+    private double balance;
+
+    public void deposit(double amount) {
+        // Internal implementation details omitted
+        balance += amount;
+    }
+
+    public void withdraw(double amount) {
+        // Internal implementation details omitted
+        balance -= amount;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+```
+
+In this example, the `BankAccount` class abstracts away the details of how deposits and withdrawals are processed internally. Clients only need to interact with public methods like `deposit()`, `withdraw()`, and `getBalance()`.
+
+### 3. Modularity and Flexibility:
+
+Encapsulation promotes modularity by encapsulating related data and behavior within a single unit (class). This makes the code easier to understand, maintain, and reuse. It also allows for changes to the internal implementation without affecting the external interface.
+
+```java
+public class Employee {
+    private String name;
+    private double salary;
+
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public void raiseSalary(double percentage) {
+        salary += (salary * percentage) / 100;
+    }
+
+    // Other methods for employee management
+}
+```
+
+In this example, the `Employee` class encapsulates employee data (name, salary) and behavior (raising salary) within a single unit, making it easier to manage and modify employee-related functionalities.
+
+### 4. Access Control:
+
+Encapsulation allows you to enforce access control by defining which parts of the class are visible and accessible from outside. This helps in maintaining the integrity and security of the object's data.
+
+```java
+public class Student {
+    private String name;
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    // Private method accessible only within the class
+    private boolean isAdult() {
+        return age >= 18;
+    }
+
+    // Public method to access isAdult() indirectly
+    public String getAdultStatus() {
+        return isAdult() ? "Adult" : "Minor";
+    }
+}
+```
+
+In this example, the `isAdult()` method is declared as private, making it accessible only within the `Student` class. Clients can indirectly access its functionality through the public `getAdultStatus()` method.
+
+Encapsulation is a fundamental principle in Java programming that promotes information hiding, abstraction, modularity, and access control. It helps in building robust, maintainable, and secure software systems.
+
 ## interface
+
+In Java, an interface is a reference type that specifies a set of methods that a class implementing the interface must implement. It acts as a contract, defining the behavior that implementing classes must adhere to, without providing any implementation details itself. Interfaces facilitate multiple inheritance, allowing a class to implement multiple interfaces. Here's a detailed explanation of the `interface` keyword in Java with examples:
+
+### 1. Basic Interface:
+
+```java
+public interface Animal {
+    void sound(); // Abstract method declaration
+}
+```
+
+In this example, `Animal` is an interface that declares a single abstract method `sound()`. Any class that implements the `Animal` interface must provide an implementation for the `sound()` method.
+
+### 2. Implementing an Interface:
+
+```java
+public class Dog implements Animal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+
+Here, `Dog` implements the `Animal` interface and provides an implementation for the `sound()` method as required by the interface contract.
+
+### 3. Extending Multiple Interfaces:
+
+```java
+public interface Mammal {
+    void eat(); // Abstract method declaration
+}
+
+public class Dog implements Animal, Mammal {
+    @Override
+    public void sound() {
+        System.out.println("Dog barks");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Dog eats");
+    }
+}
+```
+
+In this example, `Dog` implements both the `Animal` and `Mammal` interfaces, providing implementations for the abstract methods declared in each interface.
+
+### 4. Default and Static Methods:
+
+Starting from Java 8, interfaces can also contain default and static methods, providing default implementations for methods and allowing static methods within interfaces.
+
+```java
+public interface Vehicle {
+    void start();
+
+    default void stop() {
+        System.out.println("Vehicle stops");
+    }
+
+    static void info() {
+        System.out.println("This is a Vehicle interface");
+    }
+}
+```
+
+Here, `Vehicle` interface contains a default method `stop()` and a static method `info()`, which can be called directly from the interface itself.
+
+### 5. Using Interfaces in Client Code:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.sound(); // Output: Dog barks
+        dog.eat();   // Output: Dog eats
+        dog.stop();  // Output: Vehicle stops
+
+        Vehicle.info(); // Output: This is a Vehicle interface
+    }
+}
+```
+
+In this example, we create an instance of `Dog` and call its methods. Additionally, we call the static method `info()` from the `Vehicle` interface directly without creating an instance of a class.
+
+### 6. Interface Inheritance:
+
+Interfaces can extend other interfaces, inheriting their abstract methods. A class implementing a sub-interface must provide implementations for all inherited abstract methods.
+
+```java
+public interface Pet extends Animal {
+    void play();
+}
+```
+
+Here, `Pet` interface extends the `Animal` interface, inheriting the `sound()` method. Any class implementing the `Pet` interface must provide implementations for both `sound()` and `play()` methods.
+
+Interfaces play a crucial role in Java programming, providing a mechanism for achieving abstraction, multiple inheritance, and defining contracts for classes to adhere to. They enable better code organization, maintainability, and flexibility in Java applications.
+
 ## polymorphism
 ## dynamic polymorphism
+## copy objects
+
 # Chapter 5 Excpetion handling
 ## exception handling
 # Chapter 6 File handling
