@@ -1541,6 +1541,7 @@ Here's a table describing the control flow statements in Java with their descrip
 These control flow statements provide the basic building blocks for writing flexible and powerful programs in Java. They allow you to control the flow of execution based on different conditions and requirements.
 
 ## if statements
+
 ## switches
 ## logical operators
 ## while loop
@@ -1551,15 +1552,14 @@ These control flow statements provide the basic building blocks for writing flex
 # Chapter 3 data structure
 ## arrays
 ## 2D arrays
-## String methods
 ## ArrayList
 ## 2D ArrayList
 ## for-each loop
-## methods
-## overloaded methods
 ## final keyword
 # Chapter 4 Object Oriented Programming
 ## objects (OOP)
+## methods
+## Class variable
 ## constructors
 ## variable scope
 ## overloaded constructors
@@ -1569,6 +1569,7 @@ These control flow statements provide the basic building blocks for writing flex
 ## object passing
 ## static keyword
 ## inheritance
+## overloaded methods
 ## method overriding
 ## super keyword
 ## abstraction
