@@ -253,7 +253,7 @@ System.out.printf("Price: %8.2f%n", price);  // Print with 2 decimal places and 
 - `String.format()` provides more control over formatting and creates a formatted string.
 - `System.out.printf()` directly prints formatted output to the console.
 - Use placeholders and formatting options to customize the output according to your requirements.
--
+
 
 ## Using Import statement
 In Java, the `import` statement is used to bring classes, interfaces, enums, and packages into scope, allowing you to use their members (fields, methods, nested types) in your code. It helps organize code and avoids redundancy by referencing classes and packages without needing their fully qualified names. Here's a detailed description with lots of examples on how to use the `import` statement in Java:
@@ -886,6 +886,174 @@ System.out.println("b = " + b); // Output: b = 5
 - Java 8's Stream API provides a concise way to swap variables but is not commonly used for this purpose.
 - Choose the method that best suits your requirements and coding style.
 
+## Arguments
+
+In Java, the `main` method serves as the entry point for a Java program. When you run a Java program, the Java Virtual Machine (JVM) invokes the `main` method to start the execution of the program. You can pass command-line arguments to the `main` method when running the program from the command line. Here's a detailed description of passing arguments to the `main` method in Java with examples:
+
+### 1. Syntax:
+The `main` method in Java has the following syntax:
+
+```java
+public static void main(String[] args) {
+    // Method body
+}
+```
+
+### 2. `args` Parameter:
+The `args` parameter of the `main` method is an array of type `String[]`. It holds the command-line arguments passed to the program.
+
+### 3. Accessing Command-Line Arguments:
+You can access the command-line arguments passed to the program through the `args` array. Each element in the array represents a command-line argument.
+
+#### Example:
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Printing all command-line arguments
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("Argument " + (i + 1) + ": " + args[i]);
+        }
+    }
+}
+```
+
+### 4. Running a Java Program with Command-Line Arguments:
+To run a Java program with command-line arguments, you can pass the arguments after specifying the class name. For example:
+
+```bash
+java Main arg1 arg2 arg3
+```
+
+### 5. Example with Arguments:
+Let's consider a simple example where we want to calculate the sum of integers passed as command-line arguments.
+
+#### Example:
+```java
+public class SumCalculator {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (String arg : args) {
+            sum += Integer.parseInt(arg);
+        }
+        System.out.println("Sum: " + sum);
+    }
+}
+```
+
+#### Running the Program:
+If you run the program with command-line arguments like this:
+
+```bash
+java SumCalculator 10 20 30
+```
+
+The output will be:
+
+```
+Sum: 60
+```
+
+### Summary:
+- You can pass command-line arguments to the `main` method when running a Java program.
+- Command-line arguments are accessed through the `args` array parameter of the `main` method.
+- You can iterate over the `args` array to process each command-line argument.
+- Command-line arguments are space-separated when passed from the command line.
+
+### More on Arguments
+
+In Java, passing arguments refers to supplying data to a method or constructor when it is invoked. Arguments can be passed to methods and constructors in various ways, including passing primitive data types, objects, arrays, and varargs. Here's a detailed description with examples of passing arguments in Java:
+
+### 1. Passing Primitive Data Types:
+
+#### Example:
+```java
+public class Example {
+    public void printNumber(int num) {
+        System.out.println("Number is: " + num);
+    }
+
+    public static void main(String[] args) {
+        Example example = new Example();
+        example.printNumber(10); // Passing integer argument
+    }
+}
+```
+
+### 2. Passing Objects:
+
+#### Example:
+```java
+public class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public void greet() {
+        System.out.println("Hello, " + name);
+    }
+}
+
+public class Example {
+    public void greetPerson(Person person) {
+        person.greet();
+    }
+
+    public static void main(String[] args) {
+        Person person = new Person("Alice");
+        Example example = new Example();
+        example.greetPerson(person); // Passing object argument
+    }
+}
+```
+
+### 3. Passing Arrays:
+
+#### Example:
+```java
+public class Example {
+    public void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        Example example = new Example();
+        example.printArray(numbers); // Passing array argument
+    }
+}
+```
+
+### 4. Varargs (Variable-Length Arguments):
+
+#### Example:
+```java
+public class Example {
+    public void printNumbers(int... nums) {
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Example example = new Example();
+        example.printNumbers(1, 2, 3); // Passing varargs
+        example.printNumbers(4, 5, 6, 7); // Passing varargs
+    }
+}
+```
+
+### Summary:
+- Arguments can be passed to methods and constructors in Java to provide data necessary for their execution.
+- You can pass primitive data types, objects, arrays, and varargs as arguments.
+- Passing arguments enables methods and constructors to operate on specific data provided by the caller, enhancing code flexibility and reusability.
+
+
 ## user input
 To get user inputs in Java, you can use the `Scanner` class from the `java.util` package. Here's a detailed explanation with examples:
 
@@ -1378,7 +1546,7 @@ These control flow statements provide the basic building blocks for writing flex
 ## while loop
 ## for loop
 ## nested loops
-## Break, Continue, and return  
+## Break, Continue, and return
 
 # Chapter 3 data structure
 ## arrays
