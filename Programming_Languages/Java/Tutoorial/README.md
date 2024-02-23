@@ -554,8 +554,200 @@ int numberOfStudentsInClassroomAtAnyGivenTime;
 - Prioritize clarity and readability over brevity.
 - Follow these guidelines to improve code readability and maintainability.
 
+## Reserved Words
+
+here's a comprehensive table of all reserved words in Java:
+
+| Category      | Reserved Words                                           |
+|---------------|----------------------------------------------------------|
+| Keywords      | `abstract` `assert` `boolean` `break` `byte`            |
+|               | `case` `catch` `char` `class` `const`*                  |
+|               | `continue` `default` `do` `double` `else`               |
+|               | `enum` `extends` `final` `finally` `float`              |
+|               | `for` `goto`* `if` `implements` `import`                |
+|               | `instanceof` `int` `interface` `long` `native`          |
+|               | `new` `package` `private` `protected` `public`          |
+|               | `return` `short` `static` `strictfp` `super`            |
+|               | `switch` `synchronized` `this` `throw` `throws`         |
+|               | `transient` `try` `void` `volatile` `while`             |
+| Literals      | `true` `false` `null`                                   |
+| Operators     | `+` `-` `*` `/` `%` `&` `|` `^` `~` `<<` `>>` `>>>`    |
+|               | `=` `+=` `-=` `*=` `/=` `%=` `&=` `|=` `^=` `<<=` `>>=` |
+|               | `>>>=` `==` `!=` `<` `>` `<=` `>=` `&&` `||` `!`       |
+|               | `? :` `++` `--` `=` `[]` `()` `.` `,` `:` `;`          |
+
+*Note: `const` and `goto` are reserved but not used in the Java language.
+
+These keywords are part of the Java language specification and have special meanings. They cannot be used as identifiers (such as variable names, method names, or class names) in your Java programs. Using reserved words as identifiers will result in compilation errors.
+
 ## swap two variables
+
+Swapping two variables means exchanging their values. In Java, you can accomplish this using various techniques, including using a temporary variable, using arithmetic operations, or using bitwise XOR operation. Here's a detailed explanation of each method with examples:
+
+### 1. Using a Temporary Variable:
+This is the most straightforward method. You temporarily store the value of one variable in a temporary variable, then assign the value of the second variable to the first, and finally assign the value of the temporary variable to the second variable.
+
+```java
+int a = 5;
+int b = 10;
+
+// Swapping using a temporary variable
+int temp = a;
+a = b;
+b = temp;
+
+System.out.println("a = " + a); // Output: a = 10
+System.out.println("b = " + b); // Output: b = 5
+```
+
+### 2. Using Arithmetic Operations:
+This method takes advantage of arithmetic operations to perform the swap without using a temporary variable.
+
+```java
+int a = 5;
+int b = 10;
+
+// Swapping using arithmetic operations
+a = a + b;
+b = a - b;
+a = a - b;
+
+System.out.println("a = " + a); // Output: a = 10
+System.out.println("b = " + b); // Output: b = 5
+```
+
+### 3. Using Bitwise XOR Operation:
+This method uses bitwise XOR operation to perform the swap without using a temporary variable. It is efficient but may not be as readable as the other methods.
+
+```java
+int a = 5;
+int b = 10;
+
+// Swapping using bitwise XOR operation
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+System.out.println("a = " + a); // Output: a = 10
+System.out.println("b = " + b); // Output: b = 5
+```
+
+### 4. Using Java 8's Stream API (Optional):
+With Java 8's Stream API, you can swap two variables using a single line of code, but this approach is not commonly used.
+
+```java
+int a = 5;
+int b = 10;
+
+// Swapping using Java 8's Stream API
+a = b + ((b = a) * 0);
+
+System.out.println("a = " + a); // Output: a = 10
+System.out.println("b = " + b); // Output: b = 5
+```
+
+### Summary:
+- Swapping two variables can be done using a temporary variable, arithmetic operations, bitwise XOR operation, or Java 8's Stream API.
+- Using a temporary variable is the most common and straightforward approach.
+- Arithmetic operations and bitwise XOR operation methods are efficient but may be less readable.
+- Java 8's Stream API provides a concise way to swap variables but is not commonly used for this purpose.
+- Choose the method that best suits your requirements and coding style.
+
 ## user input
+To get user inputs in Java, you can use the `Scanner` class from the `java.util` package. Here's a detailed explanation with examples:
+
+### 1. Using Scanner Class:
+
+First, import the `Scanner` class at the beginning of your Java file:
+```java
+import java.util.Scanner;
+```
+
+Then, create an instance of the `Scanner` class to read input from the user:
+```java
+Scanner scanner = new Scanner(System.in);
+```
+
+### 2. Reading Different Types of Inputs:
+
+#### a. Reading Integers:
+```java
+System.out.print("Enter an integer: ");
+int num = scanner.nextInt();
+System.out.println("You entered: " + num);
+```
+
+#### b. Reading Floating-Point Numbers:
+```java
+System.out.print("Enter a floating-point number: ");
+double num = scanner.nextDouble();
+System.out.println("You entered: " + num);
+```
+
+#### c. Reading Strings:
+```java
+System.out.print("Enter a string: ");
+String str = scanner.nextLine();
+System.out.println("You entered: " + str);
+```
+
+#### d. Reading Characters:
+```java
+System.out.print("Enter a character: ");
+char ch = scanner.next().charAt(0);
+System.out.println("You entered: " + ch);
+```
+
+### 3. Closing Scanner Object:
+
+It's good practice to close the `Scanner` object once you're done with it:
+```java
+scanner.close();
+```
+
+### Example Program:
+
+Here's a complete example program that reads different types of inputs from the user:
+```java
+import java.util.Scanner;
+
+public class UserInputExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Reading an integer
+        System.out.print("Enter an integer: ");
+        int num = scanner.nextInt();
+        System.out.println("You entered: " + num);
+
+        // Reading a floating-point number
+        System.out.print("Enter a floating-point number: ");
+        double dbl = scanner.nextDouble();
+        System.out.println("You entered: " + dbl);
+
+        // Reading a string
+        System.out.print("Enter a string: ");
+        scanner.nextLine(); // Consuming newline character
+        String str = scanner.nextLine();
+        System.out.println("You entered: " + str);
+
+        // Reading a character
+        System.out.print("Enter a character: ");
+        char ch = scanner.next().charAt(0);
+        System.out.println("You entered: " + ch);
+
+        // Closing scanner
+        scanner.close();
+    }
+}
+```
+
+### Summary:
+
+- Use the `Scanner` class to read user inputs in Java.
+- Different methods like `nextInt()`, `nextDouble()`, `nextLine()`, and `next().charAt(0)` can be used to read different types of inputs.
+- Don't forget to close the `Scanner` object once you're done with it to release system resources.
+- 
 ## expressions
 ## Math class
 ## random numbers
