@@ -1338,12 +1338,47 @@ random.nextBytes(randomBytes); // Fills the array with random bytes
 
 
 # Chapter 2 flow control
+
+Here's a table describing the control flow statements in Java with their descriptions:
+
+| Control Flow Statement | Description                                                                                                               |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| `if-else`              | Executes a block of code if a specified condition is true. Otherwise, executes another block of code.                   |
+| `switch`               | Evaluates an expression and executes code blocks based on matching case values.                                         |
+| `while`                | Executes a block of code as long as a specified condition is true.                                                        |
+| `do-while`             | Similar to `while`, but executes the block of code at least once before checking the condition.                          |
+| `for`                  | Executes a block of code a specified number of times.                                                                      |
+| `break`                | Terminates the loop or switch statement and transfers control to the statement following the terminated loop or switch.   |
+| `continue`             | Skips the current iteration of a loop and proceeds with the next iteration.                                                |
+| `return`               | Exits from the current method and returns a value to the caller.                                                            |
+
+### Descriptions:
+
+1. **`if-else`**: It's used for decision-making. If the condition evaluates to true, the code inside the `if` block is executed; otherwise, the code inside the `else` block is executed.
+
+2. **`switch`**: It evaluates an expression and executes code blocks based on matching case values. It's useful when you have multiple options to choose from.
+
+3. **`while`**: It repeats a block of code as long as a specified condition is true. It's useful for looping when you don't know in advance how many times the code should iterate.
+
+4. **`do-while`**: Similar to `while`, but it guarantees that the block of code is executed at least once before checking the condition.
+
+5. **`for`**: It's a compact way of writing the `while` loop when the number of iterations is known. It includes initialization, condition, and iteration expression within a single line.
+
+6. **`break`**: It terminates the loop or switch statement and transfers control to the statement following the terminated loop or switch. It's useful for prematurely exiting a loop.
+
+7. **`continue`**: It skips the current iteration of a loop and proceeds with the next iteration. It's useful when you want to skip specific iterations without terminating the loop.
+
+8. **`return`**: It exits from the current method and returns a value to the caller. It's used to return a value from a method.
+
+These control flow statements provide the basic building blocks for writing flexible and powerful programs in Java. They allow you to control the flow of execution based on different conditions and requirements.
+
 ## if statements
 ## switches
 ## logical operators
 ## while loop
 ## for loop
 ## nested loops
+## Break, Continue, and return  
 
 # Chapter 3 data structure
 ## arrays
