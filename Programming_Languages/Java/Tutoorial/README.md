@@ -253,7 +253,7 @@ System.out.printf("Price: %8.2f%n", price);  // Print with 2 decimal places and 
 - `String.format()` provides more control over formatting and creates a formatted string.
 - `System.out.printf()` directly prints formatted output to the console.
 - Use placeholders and formatting options to customize the output according to your requirements.
-- 
+-
 
 ## Using Import statement
 In Java, the `import` statement is used to bring classes, interfaces, enums, and packages into scope, allowing you to use their members (fields, methods, nested types) in your code. It helps organize code and avoids redundancy by referencing classes and packages without needing their fully qualified names. Here's a detailed description with lots of examples on how to use the `import` statement in Java:
@@ -634,6 +634,185 @@ here's a comprehensive table of all reserved words in Java:
 
 These keywords are part of the Java language specification and have special meanings. They cannot be used as identifiers (such as variable names, method names, or class names) in your Java programs. Using reserved words as identifiers will result in compilation errors.
 
+## Variable types
+
+Below is a table describing the variable types in Java, including their names, memory sizes, limits, and descriptions:
+
+| Variable Type | Name          | Memory Size      | Limits                       | Description                                                                                       |
+|---------------|---------------|------------------|------------------------------|---------------------------------------------------------------------------------------------------|
+| `byte`        | Byte          | 1 byte           | -128 to 127                  | Represents an 8-bit signed integer value.                                                        |
+| `short`       | Short         | 2 bytes          | -32,768 to 32,767            | Represents a 16-bit signed integer value.                                                        |
+| `int`         | Integer       | 4 bytes          | -2^31 to 2^31-1               | Represents a 32-bit signed integer value.                                                        |
+| `long`        | Long          | 8 bytes          | -2^63 to 2^63-1               | Represents a 64-bit signed integer value.                                                        |
+| `float`       | Float         | 4 bytes          | ~ ±3.40282347E+38F (6-7 digits after decimal point) | Represents a single-precision 32-bit floating point value.                                 |
+| `double`      | Double        | 8 bytes          | ~ ±1.79769313486231570E+308D (15 digits after decimal point) | Represents a double-precision 64-bit floating point value.                          |
+| `char`        | Character     | 2 bytes          | 0 to 65,535                   | Represents a single 16-bit Unicode character.                                                     |
+| `boolean`     | Boolean       | 1 bit            | `true` or `false`            | Represents a boolean value, which can be `true` or `false`.                                        |
+
+- **Memory Size**: The amount of memory required to store each variable type.
+- **Limits**: The range of values that each variable type can represent.
+- **Description**: A brief description of each variable type.
+
+These variable types are fundamental in Java programming and are used to store different types of data in memory. Understanding their characteristics is essential for writing efficient and effective Java programs.
+
+In Java, variable types determine the kind of data that can be stored in a variable and the operations that can be performed on that data. Java supports several primitive data types and also provides mechanisms for creating user-defined types through classes and interfaces. Below is a detailed description of variable types in Java with lots of examples:
+
+### 1. Primitive Data Types:
+
+#### a. `byte`:
+- Represents an 8-bit signed integer value.
+- Range: -128 to 127.
+
+Example:
+```java
+byte age = 30;
+```
+
+#### b. `short`:
+- Represents a 16-bit signed integer value.
+- Range: -32,768 to 32,767.
+
+Example:
+```java
+short population = 25000;
+```
+
+#### c. `int`:
+- Represents a 32-bit signed integer value.
+- Range: -2^31 to 2^31-1.
+
+Example:
+```java
+int population = 1000000;
+```
+
+#### d. `long`:
+- Represents a 64-bit signed integer value.
+- Range: -2^63 to 2^63-1.
+
+Example:
+```java
+long population = 7000000000L; // Note the 'L' suffix to indicate a long literal
+```
+
+#### e. `float`:
+- Represents a single-precision 32-bit floating-point value.
+- Example: ±3.40282347E+38F (6-7 significant decimal digits).
+
+Example:
+```java
+float temperature = 25.5f; // Note the 'f' suffix to indicate a float literal
+```
+
+#### f. `double`:
+- Represents a double-precision 64-bit floating-point value.
+- Example: ±1.79769313486231570E+308D (15 significant decimal digits).
+
+Example:
+```java
+double price = 19.99;
+```
+
+#### g. `char`:
+- Represents a single 16-bit Unicode character.
+- Range: 0 to 65,535.
+
+Example:
+```java
+char grade = 'A';
+```
+
+#### h. `boolean`:
+- Represents a boolean value (`true` or `false`).
+- Size: 1 bit.
+
+Example:
+```java
+boolean isPassed = true;
+```
+
+### 2. User-Defined Types:
+
+#### a. Classes:
+Classes are blueprints for creating objects. They encapsulate data for the object and provide methods to operate on that data.
+
+Example:
+```java
+class Person {
+    String name;
+    int age;
+}
+```
+
+#### b. Interfaces:
+Interfaces declare a set of methods that a class implementing the interface must provide.
+
+Example:
+```java
+interface Drawable {
+    void draw();
+}
+```
+
+### Summary:
+- Java supports primitive data types (`byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`) and user-defined types (classes, interfaces).
+- Primitive data types are used to store simple values, while user-defined types allow for the creation of more complex data structures and behaviors.
+- Understanding variable types and their characteristics is essential for writing clear, concise, and maintainable Java code.
+
+## Casting
+
+In Java, casting is the process of converting a value of one data type into another. Casting is mainly used when you want to assign a value of one data type to a variable of another data type, or when you want to force a value to be of a specific data type. There are two types of casting: implicit casting (also known as widening or automatic casting) and explicit casting (also known as narrowing or manual casting). Here's a detailed description of casting in Java with lots of examples:
+
+### 1. Implicit Casting:
+Implicit casting occurs when you assign a value of a smaller data type to a variable of a larger data type. Java automatically performs this type of casting because there is no loss of data.
+
+#### Example:
+```java
+int intValue = 10;
+long longValue = intValue; // Implicit casting from int to long
+System.out.println(longValue); // Outputs: 10
+```
+
+### 2. Explicit Casting:
+Explicit casting occurs when you manually convert a value of a larger data type to a smaller data type. This type of casting may result in loss of data if the value cannot be represented by the target data type.
+
+#### Example:
+```java
+double doubleValue = 10.5;
+int intValue = (int) doubleValue; // Explicit casting from double to int
+System.out.println(intValue); // Outputs: 10 (fractional part is truncated)
+```
+
+### 3. Widening and Narrowing:
+- **Widening (Implicit Casting)**: When you assign a value of a smaller data type to a variable of a larger data type.
+- **Narrowing (Explicit Casting)**: When you assign a value of a larger data type to a variable of a smaller data type. This requires explicit casting and may result in loss of data.
+
+### 4. Casting between Related Types:
+You can cast between related types such as primitive numeric types (byte, short, int, long, float, double) and char.
+
+#### Example:
+```java
+int intValue = 65;
+char charValue = (char) intValue; // Explicit casting from int to char
+System.out.println(charValue); // Outputs: A (ASCII value 65 represents character 'A')
+```
+
+### 5. Be Mindful of Data Loss:
+When narrowing, be mindful of potential loss of data due to truncation or loss of precision.
+
+#### Example:
+```java
+double doubleValue = 10.999;
+int intValue = (int) doubleValue; // Explicit casting from double to int
+System.out.println(intValue); // Outputs: 10 (fractional part is truncated)
+```
+
+### Summary:
+- Casting in Java allows you to convert values from one data type to another.
+- Implicit casting occurs automatically when assigning values of smaller data types to larger data types.
+- Explicit casting requires manual intervention and may result in loss of data, so it should be used carefully.
+- Be mindful of data loss when narrowing, as it can lead to unexpected results.
+
 ## swap two variables
 
 Swapping two variables means exchanging their values. In Java, you can accomplish this using various techniques, including using a temporary variable, using arithmetic operations, or using bitwise XOR operation. Here's a detailed explanation of each method with examples:
@@ -801,10 +980,362 @@ public class UserInputExample {
 - Use the `Scanner` class to read user inputs in Java.
 - Different methods like `nextInt()`, `nextDouble()`, `nextLine()`, and `next().charAt(0)` can be used to read different types of inputs.
 - Don't forget to close the `Scanner` object once you're done with it to release system resources.
--
+
 ## expressions
+
+In Java, an expression is a combination of variables, operators, and method invocations that evaluates to a single value. Expressions can be as simple as a single variable or literal, or they can be complex combinations of multiple sub-expressions. Here's a detailed description of expressions in Java with lots of examples:
+
+### 1. Simple Expressions:
+```java
+int a = 10; // Variable assignment
+int b = 5;
+int sum = a + b; // Addition expression
+int difference = a - b; // Subtraction expression
+```
+
+### 2. Arithmetic Expressions:
+```java
+int result = 10 * (5 + 3) / 2; // Arithmetic operations
+double average = (double) (a + b) / 2; // Type casting and division
+int remainder = a % b; // Modulus operation
+```
+
+### 3. Relational Expressions:
+```java
+boolean isEqual = (a == b); // Equality comparison
+boolean isGreater = (a > b); // Greater than comparison
+boolean isLessThanOrEqual = (a <= b); // Less than or equal comparison
+```
+
+### 4. Logical Expressions:
+```java
+boolean isValid = (a > 0) && (b < 10); // Logical AND operation
+boolean isInRange = (a >= 0) || (b <= 100); // Logical OR operation
+boolean isNotValid = !(a > b); // Logical NOT operation
+```
+
+### 5. Conditional Expressions (Ternary Operator):
+```java
+int max = (a > b) ? a : b; // Ternary conditional expression
+String result = (a % 2 == 0) ? "Even" : "Odd";
+```
+
+### 6. Assignment Expressions:
+```java
+int x = 5;
+x += 10; // Compound assignment operator (equivalent to x = x + 10)
+x -= 3;
+```
+
+### 7. Method Invocation Expressions:
+```java
+String str = "Hello";
+int length = str.length(); // Method invocation expression
+String substring = str.substring(1, 3);
+```
+
+### 8. Array Access Expressions:
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+int element = numbers[2]; // Array access expression
+numbers[3] = 10;
+```
+
+### 9. Object Creation Expressions (Instantiation):
+```java
+Random random = new Random(); // Object creation expression
+StringBuffer buffer = new StringBuffer("Hello");
+```
+
+### 10. Precedence and Associativity:
+- Java follows operator precedence and associativity rules to evaluate complex expressions.
+- Parentheses `()` can be used to override the default precedence and specify the order of evaluation.
+
+### Summary:
+- Expressions in Java are combinations of variables, operators, and method invocations that evaluate to a single value.
+- They can be arithmetic, relational, logical, conditional, assignment, method invocation, array access, or object creation expressions.
+- Understanding expressions is essential for writing Java code, as they form the basis of calculations, comparisons, and data manipulation in programs.
+
+
 ## Math class
+Here's a table listing some of the commonly used methods in the `Math` class in Java along with their descriptions:
+
+| Method                 | Description                                                  |
+|------------------------|--------------------------------------------------------------|
+| `abs(double a)`        | Returns the absolute value of a double value.                |
+| `max(double a, double b)` | Returns the greater of two double values.                 |
+| `min(double a, double b)` | Returns the smaller of two double values.                 |
+| `exp(double a)`        | Returns the exponential value of `a` (e^a).                   |
+| `log(double a)`        | Returns the natural logarithm (base e) of `a`.               |
+| `pow(double a, double b)` | Returns the value of `a` raised to the power of `b`.       |
+| `sin(double a)`        | Returns the sine of `a` (in radians).                        |
+| `cos(double a)`        | Returns the cosine of `a` (in radians).                      |
+| `tan(double a)`        | Returns the tangent of `a` (in radians).                     |
+| `atan(double a)`       | Returns the arctangent (inverse tangent) of `a`.             |
+| `round(double a)`      | Rounds the floating-point value `a` to the nearest integer.  |
+| `floor(double a)`      | Returns the largest integer less than or equal to `a`.       |
+| `ceil(double a)`       | Returns the smallest integer greater than or equal to `a`.   |
+| `random()`             | Returns a random double value between 0.0 (inclusive) and 1.0 (exclusive). |
+
+These are just some of the methods available in the `Math` class. Java's `Math` class provides a comprehensive set of mathematical functions and constants for performing various operations, making it a powerful tool for mathematical computations in Java programs.
+
+The `Math` class in Java is a utility class that provides various mathematical functions and constants. It is part of the `java.lang` package and does not require importing.
+
+Here's a detailed description of the `Math` class in Java with lots of examples:
+
+### 1. Constants:
+The `Math` class provides several constants:
+- `Math.PI`: Represents the mathematical constant π (pi).
+- `Math.E`: Represents the mathematical constant e (Euler's number).
+
+Example:
+```java
+double pi = Math.PI;
+double e = Math.E;
+System.out.println("PI: " + pi);  // Outputs: PI: 3.141592653589793
+System.out.println("E: " + e);    // Outputs: E: 2.718281828459045
+```
+
+### 2. Basic Arithmetic Functions:
+The `Math` class provides methods for basic arithmetic operations:
+- `Math.abs(double a)`: Returns the absolute value of a number.
+- `Math.max(double a, double b)`: Returns the greater of two numbers.
+- `Math.min(double a, double b)`: Returns the smaller of two numbers.
+
+Example:
+```java
+double absoluteValue = Math.abs(-10.5);  // Outputs: 10.5
+double maxNumber = Math.max(5, 10);      // Outputs: 10
+double minNumber = Math.min(5, 10);      // Outputs: 5
+```
+
+### 3. Exponential and Logarithmic Functions:
+The `Math` class provides methods for exponential and logarithmic functions:
+- `Math.exp(double a)`: Returns the value of e raised to the power of a.
+- `Math.log(double a)`: Returns the natural logarithm (base e) of a.
+- `Math.pow(double a, double b)`: Returns the value of a raised to the power of b.
+
+Example:
+```java
+double exponentialValue = Math.exp(2);  // Outputs: 7.38905609893065
+double naturalLog = Math.log(10);       // Outputs: 2.302585092994046
+double powerValue = Math.pow(2, 3);      // Outputs: 8.0
+```
+
+### 4. Trigonometric Functions:
+The `Math` class provides methods for trigonometric functions:
+- `Math.sin(double a)`: Returns the sine of a.
+- `Math.cos(double a)`: Returns the cosine of a.
+- `Math.tan(double a)`: Returns the tangent of a.
+- `Math.atan(double a)`: Returns the arctangent (inverse tangent) of a.
+
+Example:
+```java
+double sineValue = Math.sin(Math.PI / 6);     // Outputs: 0.49999999999999994
+double cosineValue = Math.cos(Math.PI / 3);   // Outputs: 0.5000000000000001
+double tangentValue = Math.tan(Math.PI / 4);  // Outputs: 0.9999999999999999
+double arctanValue = Math.atan(1);            // Outputs: 0.7853981633974483
+```
+
+### 5. Rounding and Random Functions:
+The `Math` class provides methods for rounding and generating random numbers:
+- `Math.round(double a)`: Rounds a floating-point number to the nearest integer.
+- `Math.floor(double a)`: Returns the largest integer less than or equal to a.
+- `Math.ceil(double a)`: Returns the smallest integer greater than or equal to a.
+- `Math.random()`: Returns a random double value between 0.0 (inclusive) and 1.0 (exclusive).
+
+Example:
+```java
+long roundedValue = Math.round(10.5);    // Outputs: 11
+double floorValue = Math.floor(10.7);    // Outputs: 10.0
+double ceilValue = Math.ceil(10.2);      // Outputs: 11.0
+double randomValue = Math.random();      // Generates a random value between 0.0 and 1.0
+```
+
+### Summary:
+The `Math` class in Java provides a wide range of mathematical functions and constants for performing common mathematical operations. By utilizing these methods, you can efficiently perform mathematical calculations in your Java programs.
+
+## Strings
+Here's a table listing some of the commonly used methods in the `String` class in Java along with their descriptions:
+
+| Method                             | Description                                                               |
+|------------------------------------|---------------------------------------------------------------------------|
+| `charAt(int index)`                | Returns the character at the specified index in the string.               |
+| `compareTo(String anotherString)` | Compares two strings lexicographically.                                  |
+| `concat(String str)`               | Concatenates the specified string to the end of this string.              |
+| `contains(CharSequence s)`        | Returns true if and only if this string contains the specified sequence.  |
+| `endsWith(String suffix)`          | Returns true if this string ends with the specified suffix.              |
+| `equals(Object anObject)`          | Compares this string to the specified object.                            |
+| `equalsIgnoreCase(String anotherString)` | Compares this string to another string, ignoring case considerations.  |
+| `indexOf(int ch)`                  | Returns the index of the first occurrence of the specified character.     |
+| `isEmpty()`                        | Returns true if this string is empty.                                    |
+| `lastIndexOf(int ch)`              | Returns the index of the last occurrence of the specified character.      |
+| `length()`                         | Returns the length of this string.                                        |
+| `replace(char oldChar, char newChar)` | Returns a new string resulting from replacing all occurrences of `oldChar` with `newChar`. |
+| `split(String regex)`              | Splits this string around matches of the given regular expression.        |
+| `startsWith(String prefix)`        | Returns true if this string starts with the specified prefix.             |
+| `substring(int beginIndex)`        | Returns a new string that is a substring of this string.                  |
+| `toLowerCase()`                    | Converts all of the characters in this string to lowercase.               |
+| `toUpperCase()`                    | Converts all of the characters in this string to uppercase.               |
+| `trim()`                           | Returns a copy of the string, with leading and trailing whitespace removed. |
+| `valueOf(int i)`                   | Returns the string representation of the `int` argument.                  |
+
+These are just some of the methods available in the `String` class. Java's `String` class provides a comprehensive set of methods for manipulating strings, making it a powerful tool for string processing in Java programs.
+
+The `String` class in Java is one of the most commonly used classes, providing a convenient way to work with strings of characters. It is part of the `java.lang` package and is automatically imported into every Java program. Here's a detailed description of the `String` class in Java with lots of examples:
+
+### 1. Creating Strings:
+Strings can be created using string literals or by using the `new` keyword to instantiate a `String` object.
+
+Example:
+```java
+String str1 = "Hello";              // Using string literal
+String str2 = new String("World");  // Using new keyword
+```
+
+### 2. String Concatenation:
+Strings can be concatenated using the `+` operator or the `concat()` method.
+
+Example:
+```java
+String message = str1 + ", " + str2;          // Using +
+String concatenated = str1.concat(", ").concat(str2);  // Using concat()
+```
+
+### 3. String Length:
+The `length()` method returns the length of the string.
+
+Example:
+```java
+int length = str1.length();  // length is 5
+```
+
+### 4. Accessing Characters:
+Individual characters in a string can be accessed using the `charAt()` method.
+
+Example:
+```java
+char firstChar = str1.charAt(0);  // firstChar is 'H'
+```
+
+### 5. Substrings:
+The `substring()` method returns a substring of the original string.
+
+Example:
+```java
+String sub = str1.substring(2);          // sub is "llo"
+String sub2 = str1.substring(1, 4);      // sub2 is "ell"
+```
+
+### 6. Comparing Strings:
+Strings can be compared using the `equals()` method for content equality and `compareTo()` method for lexicographic comparison.
+
+Example:
+```java
+boolean isEqual = str1.equals("Hello");        // true
+int compareResult = str1.compareTo(str2);      // Negative, zero, or positive integer
+```
+
+### 7. Case Manipulation:
+Strings can be converted to lowercase or uppercase using `toLowerCase()` and `toUpperCase()` methods.
+
+Example:
+```java
+String lowercase = str1.toLowerCase();    // lowercase is "hello"
+String uppercase = str2.toUpperCase();    // uppercase is "WORLD"
+```
+
+### 8. Searching and Replacing:
+The `indexOf()` method returns the index of the first occurrence of a substring, and `replace()` method replaces occurrences of a specified substring.
+
+Example:
+```java
+int index = str1.indexOf("lo");            // index is 3
+String replaced = str1.replace("l", "L");  // replaced is "HeLLo"
+```
+
+### 9. Trimming:
+The `trim()` method removes leading and trailing whitespace from the string.
+
+Example:
+```java
+String padded = "   Hello   ";
+String trimmed = padded.trim();            // trimmed is "Hello"
+```
+
+### 10. Splitting:
+The `split()` method splits a string into an array of substrings based on a delimiter.
+
+Example:
+```java
+String sentence = "Java is awesome";
+String[] words = sentence.split(" ");      // words is {"Java", "is", "awesome"}
+```
+
+### Summary:
+- The `String` class in Java provides many methods for manipulating strings, including creating, concatenating, comparing, and searching.
+- Strings are immutable, meaning their values cannot be changed after creation.
+- Understanding the methods available in the `String` class is essential for effective string manipulation in Java programs.
+
 ## random numbers
+
+Random number generation in Java is facilitated by the `java.util.Random` class, which provides methods for generating random numbers of various types. It offers flexibility and control over random number generation. Here's a detailed description with lots of examples:
+
+### 1. Basic Random Number Generation:
+The `java.util.Random` class provides methods to generate random numbers of different data types.
+
+#### Example:
+```java
+import java.util.Random;
+
+Random random = new Random();
+int randomNumber = random.nextInt(); // Generates a random integer
+double randomDouble = random.nextDouble(); // Generates a random double between 0.0 (inclusive) and 1.0 (exclusive)
+```
+
+### 2. Generating Random Numbers within a Specific Range:
+You can generate random numbers within a specific range by using the appropriate method overload.
+
+#### Example:
+```java
+int min = 1;
+int max = 100;
+int randomInRange = random.nextInt(max - min + 1) + min; // Generates a random integer between 1 and 100 (inclusive)
+```
+
+### 3. Setting a Seed Value:
+You can initialize the random number generator with a seed value. Setting the same seed value ensures reproducibility of random sequences.
+
+#### Example:
+```java
+Random seededRandom = new Random(123); // Seed value of 123
+int seededRandomNumber = seededRandom.nextInt(); // Generates a random integer using the seeded random number generator
+```
+
+### 4. Generating Random Numbers of Other Types:
+The `Random` class also provides methods for generating random numbers of other types such as `long`, `float`, and `boolean`.
+
+#### Example:
+```java
+long randomLong = random.nextLong(); // Generates a random long value
+float randomFloat = random.nextFloat(); // Generates a random float value between 0.0 (inclusive) and 1.0 (exclusive)
+boolean randomBoolean = random.nextBoolean(); // Generates a random boolean value
+```
+
+### 5. Generating Random Bytes:
+You can generate an array of random bytes using the `nextBytes(byte[] bytes)` method.
+
+#### Example:
+```java
+byte[] randomBytes = new byte[10];
+random.nextBytes(randomBytes); // Fills the array with random bytes
+```
+
+### Summary:
+- The `java.util.Random` class in Java provides methods for generating random numbers of various types.
+- You can generate random numbers within a specific range, set a seed value for reproducibility, and generate random numbers of other types.
+- Random number generation is useful in scenarios such as simulations, cryptography, gaming, and statistical analysis.
+
 
 # Chapter 2 flow control
 ## if statements
