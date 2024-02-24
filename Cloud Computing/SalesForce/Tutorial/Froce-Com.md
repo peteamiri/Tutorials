@@ -110,3 +110,360 @@ In summary, Force.com's database provides a scalable, secure, and flexible found
 4. [Salesforce Tutorial - Force.com database | Standard Field Types in Salesforce](https://www.salesforcetutorial.com/force-com-database-standard-field-types-in-salesforce/)
 5. [Intellipaat - The Salesforce Database Explained](https://intellipaat.com/blog/salesforce-database/)
 6. [Mindmajix - What is Salesforce Database? Architecture of ...](https://mindmajix.com/what-is-salesforce-database)
+
+# Development Components in Force.com
+
+1. **Apex**:
+   - Apex is a strongly-typed, object-oriented programming language used in Force.com development.
+   - Developers use Apex to create custom business logic, such as triggers, classes, and controllers.
+   - It integrates seamlessly with Force.com's metadata-driven architecture, enabling developers to manipulate data, perform complex operations, and create custom REST and SOAP web services.
+
+2. **Visualforce**:
+   - Visualforce is a framework for building user interfaces in Force.com applications.
+   - Developers use Visualforce pages to create custom UI components, including forms, tables, and charts, using a combination of HTML, CSS, and Apex.
+   - It allows for the creation of responsive and interactive user interfaces, enhancing user experience and productivity.
+
+3. **Lightning Web Components (LWC)**:
+   - LWC is a modern component-based framework for building Lightning web components in Force.com.
+   - Developers use LWC to create reusable, lightweight UI components that leverage standard web technologies like HTML, CSS, and JavaScript.
+   - LWC provides enhanced performance, better encapsulation, and improved developer productivity compared to Visualforce.
+
+4. **Triggers**:
+   - Triggers are Apex code that execute before or after specific data manipulation operations, such as insert, update, delete, or undelete, on records in Force.com.
+   - Developers use triggers to enforce business rules, perform validation, and automate processes, ensuring data integrity and consistency.
+
+5. **Process Builder and Workflows**:
+   - Process Builder and Workflows are declarative tools in Force.com for automating business processes without writing code.
+   - Developers and administrators use Process Builder to define complex workflows and trigger automated actions based on predefined criteria.
+   - Workflows allow for the creation of simple rule-based processes, such as field updates, email alerts, and task assignments, to streamline business operations.
+
+6. **Integration Tools**:
+   - Force.com provides various integration tools and APIs, such as SOAP, REST, and Bulk APIs, for integrating with external systems and services.
+   - Developers use these tools to exchange data, invoke external services, and synchronize information between Force.com and other platforms, enabling seamless integration with existing systems.
+
+In summary, Force.com offers a comprehensive suite of development components and tools, empowering developers to build custom applications, automate processes, and integrate with external systems effectively.
+
+## 🌐 Sources
+1. [Salesforce Developer Documentation - Apex](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
+2. [Salesforce Developer Documentation - Visualforce](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro_whatis.htm)
+3. [Salesforce Developer Documentation - Lightning Web Components](https://developer.salesforce.com/docs/component-library/documentation/lwc)
+4. [Salesforce Developer Documentation - Triggers](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers.htm)
+5. [Salesforce Developer Documentation - Process Automation](https://developer.salesforce.com/docs/atlas.en-us.232.0.process_builder.meta/process_builder/)
+6. [Salesforce Developer Documentation - Integration](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm)
+
+## Apex Programming Language Overview
+
+**Apex** is a powerful, object-oriented programming language used in Salesforce development for building custom business logic, automating processes, and extending Salesforce capabilities. Here's a detailed overview with examples:
+
+### 1. Data Manipulation:
+   - **Creating Records**:
+     ```apex
+     Account acc = new Account(Name='Test Account');
+     insert acc;
+     ```
+   - **Querying Records**:
+     ```apex
+     List<Contact> contacts = [SELECT Id, Name FROM Contact WHERE AccountId = :acc.Id];
+     ```
+   - **Updating Records**:
+     ```apex
+     acc.Name = 'Updated Account';
+     update acc;
+     ```
+   - **Deleting Records**:
+     ```apex
+     delete acc;
+     ```
+
+### 2. Apex Classes:
+   - **Creating a Class**:
+     ```apex
+     public class MyClass {
+         public void myMethod() {
+             // Method implementation
+         }
+     }
+     ```
+   - **Access Modifiers**: `public`, `private`, `protected`, `global`
+   - **Inheritance**:
+     ```apex
+     public class MySubClass extends MyClass {
+         // Additional methods and properties
+     }
+     ```
+
+### 3. Apex Triggers:
+   - **Before Insert Trigger**:
+     ```apex
+     trigger MyTrigger on Account (before insert) {
+         // Trigger logic before records are inserted
+     }
+     ```
+   - **After Update Trigger**:
+     ```apex
+     trigger MyTrigger on Account (after update) {
+         // Trigger logic after records are updated
+     }
+     ```
+
+### 4. Exception Handling:
+   - **Try-Catch Block**:
+     ```apex
+     try {
+         // Code that may throw an exception
+     } catch (Exception e) {
+         // Handle exception
+     }
+     ```
+
+### 5. SOQL and SOSL:
+   - **SOQL Query**:
+     ```apex
+     List<Contact> contacts = [SELECT Id, Name FROM Contact WHERE AccountId = :acc.Id];
+     ```
+   - **SOSL Search**:
+     ```apex
+     List<List<SObject>> searchResults = [FIND 'Test' IN ALL FIELDS RETURNING Account, Contact];
+     ```
+
+### 6. Batch Apex:
+   - **Implementing Batch Apex**:
+     ```apex
+     global class MyBatch implements Database.Batchable<sObject> {
+         global Database.QueryLocator start(Database.BatchableContext bc) {
+             // Query records to process
+         }
+         global void execute(Database.BatchableContext bc, List<sObject> scope) {
+             // Process each batch of records
+         }
+         global void finish(Database.BatchableContext bc) {
+             // Handle post-processing tasks
+         }
+     }
+     ```
+
+### 7. Web Services:
+   - **Creating a REST Web Service**:
+     ```apex
+     @RestResource(urlMapping='/MyWebService/*')
+     global with sharing class MyWebService {
+         @HttpGet
+         global static String doGet() {
+             // Web service logic
+         }
+     }
+     ```
+
+### 8. Future Methods:
+   - **Asynchronous Execution**:
+     ```apex
+     @Future
+     public static void myFutureMethod(List<Id> recordIds) {
+         // Perform asynchronous operation
+     }
+     ```
+
+### 9. Apex Test Classes:
+   - **Writing Test Methods**:
+     ```apex
+     @isTest
+     private class MyTestClass {
+         @isTest
+         static void testMethod() {
+             // Test method logic
+         }
+     }
+     ```
+
+### 10. Integration with REST API:
+   - **Making REST Callouts**:
+     ```apex
+     HttpRequest req = new HttpRequest();
+     req.setEndpoint('https://api.example.com');
+     req.setMethod('GET');
+     HttpResponse res = new Http().send(req);
+     ```
+
+Apex is a versatile language with extensive capabilities for Salesforce customization and automation. These examples showcase its flexibility and power in various scenarios.
+
+## 🌐 Sources
+1. [Salesforce Developer Documentation - Apex Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
+2. [Salesforce Apex Developer Trailhead Module](https://trailhead.salesforce.com/en/content/learn/modules/apex_database)
+
+# Visualforce in Detail with Examples
+
+Visualforce is a powerful framework in the Salesforce platform used to create custom user interfaces for web and mobile applications. It allows developers to design and build UI components using a combination of HTML, CSS, and Apex (Salesforce's programming language). Below, I'll explain Visualforce in detail along with several examples:
+
+## 1. Visualforce Pages
+Visualforce pages are the building blocks of the user interface in Salesforce applications. They can contain standard HTML tags, Visualforce components, and Apex code. Here's a simple example:
+
+```html
+<apex:page>
+    <h1>Hello, Visualforce!</h1>
+    <apex:outputText value="This is a Visualforce page."/>
+</apex:page>
+```
+
+## 2. Visualforce Components
+Visualforce components are reusable UI elements that can be included in Visualforce pages. Examples include `<apex:inputText>`, `<apex:commandButton>`, and `<apex:pageBlock>`. Here's an example using a command button:
+
+```html
+<apex:page>
+    <apex:form>
+        <apex:commandButton value="Click Me!" action="{!doSomething}"/>
+    </apex:form>
+</apex:page>
+```
+
+## 3. Apex Controllers
+Apex controllers are used to define the behavior of Visualforce pages. They contain methods that handle user interactions and manipulate data. Here's an example of a simple controller:
+
+```java
+public class MyController {
+    public String message { get; set; }
+
+    public MyController() {
+        message = 'Hello, Visualforce!';
+    }
+
+    public void doSomething() {
+        message = 'Button clicked!';
+    }
+}
+```
+
+## 4. Data Binding
+Visualforce supports two-way data binding between the UI and controller. Changes made in the UI reflect in the controller, and vice versa. Here's an example using data binding:
+
+```html
+<apex:page controller="MyController">
+    <apex:form>
+        <apex:inputText value="{!message}"/>
+        <apex:commandButton value="Update Message" action="{!doSomething}"/>
+    </apex:form>
+    <h1>{!message}</h1>
+</apex:page>
+```
+
+## 5. Custom Controllers
+You can create custom controllers to define complex business logic and interact with Salesforce data. Here's an example of a custom controller retrieving and displaying account records:
+
+```java
+public class AccountController {
+    public List<Account> accounts { get; set; }
+
+    public AccountController() {
+        accounts = [SELECT Id, Name FROM Account LIMIT 10];
+    }
+}
+```
+
+```html
+<apex:page controller="AccountController">
+    <apex:pageBlock>
+        <apex:pageBlockTable value="{!accounts}" var="acc">
+            <apex:column value="{!acc.Name}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
+```
+
+## Conclusion
+Visualforce is a versatile framework for building custom UIs in Salesforce. With its rich set of components and integration with Apex, developers can create dynamic and interactive interfaces tailored to their business needs.
+
+## 🌐 Sources
+- [Salesforce Developer Documentation - Visualforce](https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_intro_whatis.htm)
+
+
+# Lightning Web Components (LWC) in Detail with Examples
+
+Lightning Web Components (LWC) is a modern UI framework for building web components and applications on the Salesforce platform. LWC leverages web standards such as modern JavaScript and Shadow DOM to provide a powerful and efficient development experience. Below, I'll explain Lightning Web Components in detail along with several examples:
+
+## 1. Component Structure
+LWC components consist of a JavaScript class that contains the component's logic and a markup file that defines the component's UI structure. Here's a simple example of a Lightning Web Component:
+
+### HelloWorld.js
+
+```javascript
+import { LightningElement } from 'lwc';
+
+export default class HelloWorld extends LightningElement {
+    greeting = 'Hello, World!';
+}
+```
+
+### HelloWorld.html
+
+```html
+<template>
+    <p>{greeting}</p>
+</template>
+```
+
+## 2. Data Binding
+LWC supports one-way and two-way data binding between the JavaScript class and the template. Data changes in the JavaScript class automatically reflect in the template, and vice versa. Here's an example of data binding:
+
+### Counter.js
+
+```javascript
+import { LightningElement } from 'lwc';
+
+export default class Counter extends LightningElement {
+    count = 0;
+
+    handleIncrement() {
+        this.count++;
+    }
+}
+```
+
+### Counter.html
+
+```html
+<template>
+    <p>Count: {count}</p>
+    <button onclick={handleIncrement}>Increment</button>
+</template>
+```
+
+## 3. Event Handling
+LWC allows components to communicate with each other using events. Components can fire custom events and handle events raised by other components. Here's an example of event handling:
+
+### ParentComponent.js
+
+```javascript
+import { LightningElement } from 'lwc';
+
+export default class ParentComponent extends LightningElement {
+    handleChildEvent(event) {
+        const message = event.detail.message;
+        console.log('Message from child:', message);
+    }
+}
+```
+
+### ChildComponent.js
+
+```javascript
+import { LightningElement } from 'lwc';
+
+export default class ChildComponent extends LightningElement {
+    handleClick() {
+        const message = 'Hello from child!';
+        const event = new CustomEvent('childclick', { detail: { message } });
+        this.dispatchEvent(event);
+    }
+}
+```
+
+## 4. Lifecycle Hooks
+LWC provides several lifecycle hooks that allow developers to run custom logic at specific stages of a component's lifecycle. Examples of lifecycle hooks include `connectedCallback`, `renderedCallback`, and `disconnectedCallback`.
+
+## 5. Apex Integration
+LWC components can interact with Salesforce data using Apex methods. Apex methods are annotated with `@AuraEnabled` and can be called imperatively or declaratively from LWC components.
+
+## Conclusion
+Lightning Web Components is a powerful framework for building modern, efficient, and scalable web applications on the Salesforce platform. With its intuitive syntax and rich feature set, developers can create highly interactive and responsive user interfaces tailored to their business needs.
+
+## 🌐 Sources
+- [Salesforce Developer Documentation - Lightning Web Components](https://developer.salesforce.com/docs/component-library/documentation/lwc)
