@@ -48,3 +48,65 @@ Force.com empowers developers to build innovative and scalable cloud application
 4. [Salesforce - What is Salesforce CRM?](https://www.salesforce.com/crm/what-is-crm/)
 5. [SalesforceBen - Salesforce.com Vs Force.com](https://www.salesforceben.com/salesforce-com-vs-force-com/)
 6. [Ascendix - What Is Salesforce And What It Is Used For](https://ascendix.com/blog/what-is-salesforce-what-salesforce-is-used-for/)
+
+# Force.com Components
+
+Force.com, now known as Salesforce Platform, is a robust platform-as-a-service (PaaS) offering by Salesforce that facilitates the development and deployment of custom cloud-based applications. Here's an overview of its components:
+
+1. **Database**:
+   - **Object Model**: Force.com provides a powerful object-relational database model where data is stored in custom objects.
+   - **Custom Fields and Relationships**: Developers can define custom fields, relationships, and data types to meet specific business requirements.
+   - **Data Security**: Force.com offers robust data security features, including object-level, field-level, and record-level security settings [[5](https://trailhead.salesforce.com/trailblazer-community/download/file/06930000003vEQi)].
+
+2. **User Interface**:
+   - **Visualforce**: A framework for building custom user interfaces using a tag-based markup language similar to HTML.
+   - **Lightning Web Components**: Allows developers to build modern, responsive user interfaces using web standards like HTML, CSS, and JavaScript.
+   - **App Builder**: Provides a drag-and-drop interface for building custom applications without writing code [[6](https://subscription.packtpub.com/book/programming/9781782172796/1/ch01lvl1sec08/introduction-to-the-force-com-platform)].
+
+3. **Logic**:
+   - **Apex**: A strongly-typed, object-oriented programming language similar to Java, used to write custom business logic and controllers.
+   - **Process Builder**: Offers a point-and-click interface for creating automated business processes using visual workflows.
+   - **Workflow Rules**: Allows for automated actions based on specified criteria without code [[6](https://subscription.packtpub.com/book/programming/9781782172796/1/ch01lvl1sec08/introduction-to-the-force-com-platform)].
+
+4. **Integration**:
+   - **APIs**: Provides robust APIs for integrating with external systems and services, including SOAP, REST, and Bulk APIs.
+   - **External Objects**: Enables seamless integration with external data sources without data replication using External Objects [[6](https://subscription.packtpub.com/book/programming/9781782172796/1/ch01lvl1sec08/introduction-to-the-force-com-platform)].
+
+5. **Security**:
+   - **Identity and Access Management**: Offers centralized user authentication and access control mechanisms.
+   - **Field-level Security**: Allows administrators to control access to individual fields on objects.
+   - **Sharing Rules**: Enables sharing of records with specific criteria to extend data visibility [[5](https://trailhead.salesforce.com/trailblazer-community/download/file/06930000003vEQi)].
+
+In summary, Force.com provides a comprehensive set of components for building, customizing, and extending applications on the Salesforce Platform, empowering developers to create tailored solutions to meet diverse business needs.
+
+## 🌐 Sources
+1. [TechTarget - What is Salesforce Platform (formerly Force.com)?](https://www.techtarget.com/searchcustomerexperience/definition/Forcecom)
+2. [Salesforce - Force.com is now Salesforce Platform](https://www.salesforce.com/ap/products/platform/products/force/)
+3. [Salesforce Drillers - What is force.com | Salesforce](https://salesforcedrillers.com/learn-salesforce/what-is-force-com/)
+4. [Salesforce Live - Introduction to Force.com](https://www.salesforce.com/video/194451/)
+5. [Trailhead - Definitive Guide to Force.com Security](https://trailhead.salesforce.com/trailblazer-community/download/file/06930000003vEQi)
+6. [Packt Subscription - Learning Force.com Application Development](https://subscription.packtpub.com/book/programming/9781782172796/1/ch01lvl1sec08/introduction-to-the-force-com-platform)
+
+# Describe the Database in Detail in Force.com
+
+1. **Structure**: Force.com utilizes a relational database structure where data is organized into tables, also known as objects. These tables store records that represent individual instances of data entities, such as leads, contacts, opportunities, and custom objects [[3](https://nanonets.com/blog/what-is-salesforce-database/)].
+
+2. **Tables and Fields**: Each table in Force.com corresponds to a specific object and contains fields that define the attributes or properties of the data. Fields can be of various types, including text, number, date, picklist, and lookup, allowing for flexibility in data representation [[4](https://www.salesforcetutorial.com/force-com-database-standard-field-types-in-salesforce/)].
+
+3. **Standard and Custom Objects**: Force.com provides a set of standard objects with predefined functionality, such as Accounts, Contacts, and Opportunities. Additionally, users can create custom objects tailored to their unique business requirements [[2](https://www.integrate.io/blog/the-salesforce-database-explained/)].
+
+4. **Relationships**: Tables in Force.com can be related to each other through various types of relationships, including one-to-many, many-to-many, and hierarchical relationships. These relationships facilitate data integrity and enable efficient data querying and retrieval [[1](https://www.oreilly.com/library/view/the-forcecom-multitenant/30000LTI00089/30000LTI00089_ch08.html)].
+
+5. **Data Security**: Force.com offers robust data security features, including object-level, field-level, and record-level security settings. Administrators can control access to sensitive data based on user roles, profiles, and permissions [[3](https://nanonets.com/blog/what-is-salesforce-database/)].
+
+6. **Integration**: Force.com allows seamless integration with external systems and services through its APIs. This enables data exchange and synchronization between Force.com and other applications, ensuring data consistency across the ecosystem [[6](https://mindmajix.com/what-is-salesforce-database)].
+
+In summary, Force.com's database provides a scalable, secure, and flexible foundation for managing data in Salesforce applications, supporting diverse business needs and enabling efficient data-driven decision-making.
+
+## 🌐 Sources
+1. [O'Reilly - Force.com Data Definition and Storage](https://www.oreilly.com/library/view/the-forcecom-multitenant/30000LTI00089/30000LTI00089_ch08.html)
+2. [integrate.io - The Salesforce Database Explained](https://www.integrate.io/blog/the-salesforce-database-explained/)
+3. [Nanonets - What is Salesforce Database?: A Complete guide for 2024](https://nanonets.com/blog/what-is-salesforce-database/)
+4. [Salesforce Tutorial - Force.com database | Standard Field Types in Salesforce](https://www.salesforcetutorial.com/force-com-database-standard-field-types-in-salesforce/)
+5. [Intellipaat - The Salesforce Database Explained](https://intellipaat.com/blog/salesforce-database/)
+6. [Mindmajix - What is Salesforce Database? Architecture of ...](https://mindmajix.com/what-is-salesforce-database)
