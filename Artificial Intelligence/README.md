@@ -12,15 +12,8 @@ AI has applications in a wide range of industries, including healthcare, finance
 
 While AI has the potential to revolutionize many industries and improve human lives in countless ways, there are also concerns about the potential risks associated with the technology, including job displacement, biases, and the possibility of autonomous systems making decisions that are harmful to humans. As a result, researchers and policymakers are working to ensure that AI is developed and used in a responsible and ethical manner.
 
-## The Big Picture
 
-Artificial intelligence (AI) can be broadly categorized into the following branches:
-
-
-
-These branches of AI are often used together to create more complex and sophisticated systems.
-
-## Applications of AI
+## Example of Applications of the AI
 
 Artificial intelligence (AI) has a wide range of applications across various industries and domains. Here are some examples:
 
@@ -47,7 +40,6 @@ These are just a few examples of how AI is being used in various industries. As 
 
 * [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)
 * [Glossary of artificial intelligence](https://en.wikipedia.org/wiki/Glossary_of_artificial_intelligence)
-
 
 # The Field of Artificial Intelligence (AI)
 
