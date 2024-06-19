@@ -22,8 +22,8 @@ Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses o
 
 1. **Definition and Scope**:
    - ML involves designing algorithms that can learn from and make predictions based on data. This capability allows machines to improve their performance on tasks over time without being explicitly programmed for those tasks.
-   - [Read more](https://www.ibm.com/topics/machine-learning#:~:text=Machine%20learning%20)
-   - [Read more](https://ischoolonline.berkeley.edu/blog/what-is-machine-learning/)
+    - [Read more](https://www.ibm.com/topics/machine-learning#:~:text=Machine%20learning%20)
+    - [Read more](https://ischoolonline.berkeley.edu/blog/what-is-machine-learning/)
 
 2. **How It Works**:
    - ML algorithms build a model based on sample data, known as training data, to make decisions or predictions. The algorithms adapt their output based on the input data, refining their accuracy over time [Read more](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML).
