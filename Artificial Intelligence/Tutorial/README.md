@@ -21,32 +21,24 @@ Artificial Intelligence (AI) is a field of computer science that focuses on deve
 Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on developing algorithms and statistical models enabling computers to perform specific tasks without using explicit instructions. Instead, these systems rely on patterns and inference derived from data. Here’s a detailed look at the core aspects of ML:
 
 1. **Definition and Scope**:
-   - ML involves designing algorithms that can learn from and make predictions based on data. This capability allows machines to improve their performance on tasks over time without being explicitly programmed for those tasks [1](https://www.ibm.com/topics/machine-learning#:~:text=Machine%20learning%20).
+   - ML involves designing algorithms that can learn from and make predictions based on data. This capability allows machines to improve their performance on tasks over time without being explicitly programmed for those tasks [Read more](https://www.ibm.com/topics/machine-learning#:~:text=Machine%20learning%20).
 
 2. **How It Works**:
-   - ML algorithms build a model based on sample data, known as training data, to make decisions or predictions. The algorithms adapt their output based on the input data, refining their accuracy over time [[6](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML)].
+   - ML algorithms build a model based on sample data, known as training data, to make decisions or predictions. The algorithms adapt their output based on the input data, refining their accuracy over time [Read more](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML).
 
 3. **Types of Machine Learning**:
    - **Supervised Learning**: The algorithm is trained on labeled data, which means the output is known. It learns to predict the output from the input data.
    - **Unsupervised Learning**: The algorithm is used on data without labeled responses, aiming to identify patterns and structures.
-   - **Reinforcement Learning**: The algorithm learns by interacting with its environment, receiving rewards or penalties for the actions it performs [[3](https://www.datacamp.com/blog/what-is-machine-learning)].
+   - **Reinforcement Learning**: The algorithm learns by interacting with its environment, receiving rewards or penalties for the actions it performs [Read more](https://www.datacamp.com/blog/what-is-machine-learning).
 
 4. **Applications**:
-   - ML is used in various fields such as finance for fraud detection, in healthcare for medical diagnosis, in autonomous vehicles, and in recommendation systems like those used by streaming services [[5](https://www.geeksforgeeks.org/ml-machine-learning/)].
+   - ML is used in various fields such as finance for fraud detection, in healthcare for medical diagnosis, in autonomous vehicles, and in recommendation systems like those used by streaming services [Read more](https://www.geeksforgeeks.org/ml-machine-learning/).
 
 5. **Benefits**:
-   - Automation of tasks, improvement in decision-making processes, ability to handle large and complex datasets, and discovering hidden patterns and insights from data [[4](https://enterprisersproject.com/article/2019/7/machine-learning-explained-plain-english)].
+   - Automation of tasks, improvement in decision-making processes, ability to handle large and complex datasets, and discovering hidden patterns and insights from data [Read more](https://enterprisersproject.com/article/2019/7/machine-learning-explained-plain-english).
 
 Machine learning is a powerful tool that enhances the capability of computers to perform tasks intelligently and efficiently by learning from data and experience.
 
-## 🌐 Sources
-1. [ibm.com - What Is Machine Learning (ML)?](https://www.ibm.com/topics/machine-learning#:~:text=Machine%20learning%20(ML)%20is%20a,How%20does%20machine%20learning%20work%3F)
-2. [mitsloan.mit.edu - Machine learning, explained](https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained)
-3. [datacamp.com - What is Machine Learning? Definition, Types, Tools & More](https://www.datacamp.com/blog/what-is-machine-learning)
-4. [enterprisersproject.com - How to explain machine learning in plain English](https://enterprisersproject.com/article/2019/7/machine-learning-explained-plain-english)
-5. [geeksforgeeks.org - What is Machine Learning?](https://www.geeksforgeeks.org/ml-machine-learning/)
-6. [techtarget.com - What is Machine Learning and How Does It Work? In- ...](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML)
-</response>
 
 ## Robotics
 
