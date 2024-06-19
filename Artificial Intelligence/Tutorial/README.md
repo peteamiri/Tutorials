@@ -26,18 +26,22 @@ Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses o
     - [Read more](https://ischoolonline.berkeley.edu/blog/what-is-machine-learning/)
 
 2. **How It Works**:
-   - ML algorithms build a model based on sample data, known as training data, to make decisions or predictions. The algorithms adapt their output based on the input data, refining their accuracy over time [Read more](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML).
+   - ML algorithms build a model based on sample data, known as training data, to make decisions or predictions. The algorithms adapt their output based on the input data, refining their accuracy over time.
+   - [Read more](https://www.techtarget.com/searchenterpriseai/definition/machine-learning-ML)
 
 3. **Types of Machine Learning**:
    - **Supervised Learning**: The algorithm is trained on labeled data, which means the output is known. It learns to predict the output from the input data.
    - **Unsupervised Learning**: The algorithm is used on data without labeled responses, aiming to identify patterns and structures.
-   - **Reinforcement Learning**: The algorithm learns by interacting with its environment, receiving rewards or penalties for the actions it performs [Read more](https://www.datacamp.com/blog/what-is-machine-learning).
+   - **Reinforcement Learning**: The algorithm learns by interacting with its environment, receiving rewards or penalties for the actions it performs
+   [Read more](https://www.datacamp.com/blog/what-is-machine-learning).
 
 4. **Applications**:
-   - ML is used in various fields such as finance for fraud detection, in healthcare for medical diagnosis, in autonomous vehicles, and in recommendation systems like those used by streaming services [Read more](https://www.geeksforgeeks.org/ml-machine-learning/).
+   - ML is used in various fields such as finance for fraud detection, in healthcare for medical diagnosis, in autonomous vehicles, and in recommendation systems like those used by streaming services
+   [Read more](https://www.geeksforgeeks.org/ml-machine-learning/).
 
 5. **Benefits**:
-   - Automation of tasks, improvement in decision-making processes, ability to handle large and complex datasets, and discovering hidden patterns and insights from data [Read more](https://enterprisersproject.com/article/2019/7/machine-learning-explained-plain-english).
+   - Automation of tasks, improvement in decision-making processes, ability to handle large and complex datasets, and discovering hidden patterns and insights from data
+   [Read more](https://enterprisersproject.com/article/2019/7/machine-learning-explained-plain-english).
 
 Machine learning is a powerful tool that enhances the capability of computers to perform tasks intelligently and efficiently by learning from data and experience.
 
