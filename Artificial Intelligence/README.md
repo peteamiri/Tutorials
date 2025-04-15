@@ -42,8 +42,6 @@ Here’s a list of **30 top AI chatbots** in 2025, along with links to their res
 ### **More Chatbots with Links**
 
 2. **Google Bard** - [Google Bard](https://bard.google.com)
-4. **Meta AI** - [Meta AI](https://about.meta.com/meta-ai/)
-5. **Anthropic Claude** - [Claude AI](https://www.anthropic.com/index/claude)
 6. **YouChat** - [YouChat](https://you.com/chat)
 7. **Jasper Chat** - [Jasper AI](https://www.jasper.ai/chat)
 8. **Character.AI** - [Character.AI](https://character.ai)
