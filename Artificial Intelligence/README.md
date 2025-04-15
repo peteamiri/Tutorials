@@ -2,7 +2,7 @@
 
 Here are some of the top chat portals in 2025, along with their web links:
 
-1. [ChatGPT](https://www.ranker.com/list/best-chatting-websites/dot-commander) – AI-powered conversational assistant.
+1. [ChatGPT](https://openai.com/) – AI-powered conversational assistant.
 2. [Microsoft Copilot](https://www.ranker.com/list/best-chatting-websites/dot-commander) – Integrated AI assistant for productivity.
 3. [Claude](https://www.ranker.com/list/best-chatting-websites/dot-commander) – Privacy-focused AI chatbot.
 4. [Perplexity AI](https://www.ranker.com/list/best-chatting-websites/dot-commander) – AI-driven search and research tool.
