@@ -138,6 +138,4 @@ Less common or research-based container systems.
 
 ---
 
-Would you like me to compare some of these (e.g., Docker vs Podman, or Kata Containers vs Docker) or suggest which ones are best for your use case?
-
 Would you like a **diagram** of how container-based virtualization compares to traditional VMs?
