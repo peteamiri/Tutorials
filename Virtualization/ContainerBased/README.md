@@ -83,4 +83,61 @@ Containers are usually built from images using tools like:
 
 ---
 
+# Summary of tools
+
+Sure! Here's a list of popular **container-based virtualization technologies**, categorized by type and usage:
+
+---
+
+### 🐳 **General-Purpose Container Platforms**
+These are the most commonly used container runtimes for application deployment.
+
+| Name | Description |
+|------|-------------|
+| **Docker** | The most widely used container platform, designed for developers and DevOps to build, ship, and run containers easily. |
+| **Podman** | A daemonless container engine compatible with Docker CLI; used for running containers without root. |
+| **CRI-O** | Lightweight container runtime for Kubernetes, developed to use OCI (Open Container Initiative) images. |
+| **containerd** | Core container runtime used under Docker and Kubernetes; focuses on simplicity and performance. |
+| **LXC (Linux Containers)** | Low-level system container tool that simulates a full Linux OS environment; used for system-level virtualization. |
+| **LXD** | A system container and VM manager built on top of LXC, offering a user-friendly interface and REST API. |
+
+---
+
+### 🔐 **Security-Focused / Sandboxed Containers**
+These tools add security and isolation layers on top of traditional container runtimes.
+
+| Name | Description |
+|------|-------------|
+| **gVisor** | A user-space kernel from Google that provides strong isolation for containers by intercepting syscalls. |
+| **Kata Containers** | Lightweight VMs that look and feel like containers, combining performance of containers with VM-level isolation. |
+| **Firecracker** | A microVM-based container runtime created by AWS for secure, multi-tenant workloads (used in AWS Lambda, Fargate). |
+| **Sysbox** | A container runtime that enables containers to run systemd, Docker, and even Kubernetes inside them, securely. |
+
+---
+
+### ☁️ **Cloud-Native / Kubernetes-Integrated**
+Container runtimes used within or alongside Kubernetes.
+
+| Name | Description |
+|------|-------------|
+| **Mirantis Container Runtime** (formerly Docker Enterprise) | Enterprise-ready container runtime used in secure environments. |
+| **Rkt (Rocket)** *(deprecated)* | CoreOS’s container runtime, now discontinued but notable historically. |
+| **K3s** | Lightweight Kubernetes distribution with integrated container runtime (containerd). |
+
+---
+
+### 🧪 **Specialized / Experimental**
+Less common or research-based container systems.
+
+| Name | Description |
+|------|-------------|
+| **Singularity** (now Apptainer) | Designed for HPC (High-Performance Computing), used in scientific environments. |
+| **OpenVZ** | Older OS-level virtualization for Linux, focused on running multiple isolated Linux instances. |
+| **Jails (FreeBSD)** | Similar to Linux containers but native to the FreeBSD operating system. |
+| **Zones (Solaris Containers)** | OS-level virtualization in Solaris OS; isolates applications in "zones." |
+
+---
+
+Would you like me to compare some of these (e.g., Docker vs Podman, or Kata Containers vs Docker) or suggest which ones are best for your use case?
+
 Would you like a **diagram** of how container-based virtualization compares to traditional VMs?
