@@ -119,5 +119,3 @@ Sure! Here's a **detailed glossary** for a Cloud Computing book or reference, in
 | **Prometheus** | Open-source systems monitoring and alerting toolkit. |
 
 ---
-
-Would you like this glossary as a downloadable PDF or formatted as a printable appendix for a book or presentation?
