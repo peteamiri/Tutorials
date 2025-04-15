@@ -1,4 +1,4 @@
-Absolutely! Here's a **detailed Table of Contents** for a comprehensive technical book on **Cloud Computing**. It’s structured to serve beginners through advanced readers, covering foundational concepts, architectures, deployment models, services, security, and real-world applications.
+**detailed Table of Contents** for a comprehensive technical book on **Cloud Computing**. It’s structured to serve beginners through advanced readers, covering foundational concepts, architectures, deployment models, services, security, and real-world applications.
 
 ---
 
