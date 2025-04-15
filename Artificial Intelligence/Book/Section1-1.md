@@ -1,7 +1,7 @@
 Artificial Intelligence (AI) is a vast field with numerous concepts and terminologies. Here’s a detailed breakdown:
 
 ### **Core AI Concepts**
-1. **Artificial Intelligence (AI)** – The simulation of human intelligence in machines, enabling them to perform tasks such as learning, problem-solving, and decision-making.
+1. **Artificial Intelligence (AI)** – The simulation of human intelligence in machines, enabling them to perform tasks such as learning, content creation, problem-solving, and decision-making.
 2. **Machine Learning (ML)** – A subset of AI that enables systems to learn from data and improve performance without explicit programming.
 3. **Deep Learning (DL)** – A type of ML that uses multi-layered neural networks to process complex data and perform advanced tasks such as image and speech recognition.
 4. **Neural Network** – A computing system inspired by the human brain, consisting of layers of interconnected nodes (neurons) that process data.
