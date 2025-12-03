@@ -81,3 +81,89 @@ Integrating security into the DevOps pipeline.
 *   **Chaos Engineering:** The discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production (e.g., intentionally crashing servers to see if the system recovers).
 *   **Toil:** Work that is manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly as a service grows. SREs aim to eliminate toil.
 *   **Error Budget:** The amount of error that your service can accumulate over a certain period of time before your users start being unhappy. If you have "budget" left, you can take risks; if not, you must freeze changes to focus on stability.
+
+
+ *7. DevOp Tools*
+
+ This is an extensive list of DevOps tools, categorized by their primary role in the software delivery lifecycle (Build, Test, Deploy, Operate, Monitor).
+
+### **1. Source Code Management (SCM)**
+Tools for version control, code storage, and team collaboration.
+
+*   **Git:** The industry-standard distributed version control system.
+*   **GitHub:** The most popular cloud-hosted Git platform; includes issues, project boards, and Pull Requests.
+*   **GitLab:** A complete DevOps platform that includes git repository management, CI/CD, and security scanning in one tool.
+*   **Bitbucket:** Atlassian’s Git solution, highly integrated with Jira and Trello.
+*   **Perforce (Helix Core):** Popular in game development for handling very large binary files and repositories.
+*   **Subversion (SVN):** A centralized version control system (older, but still in use in legacy environments).
+
+### **2. Continuous Integration & Delivery (CI/CD)**
+Automation servers that build, test, and deploy your code.
+
+*   **Jenkins:** The classic open-source automation server. Extremely plugin-rich but requires significant maintenance.
+*   **GitHub Actions:** CI/CD built directly into GitHub. Rapidly becoming a favorite for its ease of use and marketplace of actions.
+*   **GitLab CI:** Integrated directly into GitLab; uses a single YAML file (`.gitlab-ci.yml`) to define pipelines.
+*   **CircleCI:** A cloud-native CI/CD platform known for speed and effective caching.
+*   **Travis CI:** One of the first hosted CI services; widely used in the open-source community.
+*   **Bamboo:** Atlassian’s CI/CD server; integrates seamlessly with Jira and Bitbucket.
+*   **TeamCity:** JetBrains’ CI/CD server; known for its smart configuration features and .NET support.
+*   **Azure DevOps (Pipelines):** Microsoft’s platform-agnostic CI/CD tool, great for enterprise environments.
+*   **Argo CD:** A GitOps continuous delivery tool specifically for Kubernetes.
+*   **Spinnaker:** A multi-cloud continuous delivery platform originally created by Netflix.
+
+### **3. Containers & Orchestration**
+Tools for packaging applications and managing them at scale.
+
+*   **Docker:** The standard for creating and running containers.
+*   **Kubernetes (K8s):** The industry standard for container orchestration (automating deployment, scaling, and management).
+*   **Docker Swarm:** Docker’s native, simpler orchestration tool (easier to set up than K8s, but less feature-rich).
+*   **OpenShift:** Red Hat’s enterprise Kubernetes platform with added developer tools and security.
+*   **Rancher:** A platform for managing multiple Kubernetes clusters across different clouds.
+*   **Helm:** A package manager for Kubernetes (helps you define, install, and upgrade K8s applications).
+*   **Podman:** A daemonless, open-source Linux-native tool for working with containers (often used as a secure Docker alternative).
+
+### **4. Infrastructure as Code (IaC) & Configuration Management**
+Tools to provision and configure servers and cloud resources via code.
+
+*   **Terraform:** The industry standard for provisioning infrastructure (servers, VPCs, databases) across any cloud provider.
+*   **Ansible:** An agentless configuration management tool. Great for installing software and patching servers.
+*   **Pulumi:** Allows you to define infrastructure using real programming languages (Python, TypeScript, Go) instead of proprietary configuration languages.
+*   **Chef:** A configuration management tool that treats infrastructure as code (uses Ruby).
+*   **Puppet:** An older, mature configuration management tool typically used for managing the state of servers.
+*   **AWS CloudFormation:** The native IaC tool for Amazon Web Services.
+*   **Crossplane:** An open-source Kubernetes add-on that enables you to provision and manage cloud infrastructure using K8s manifests.
+
+### **5. Monitoring, Logging, & Observability**
+Tools to see what is happening inside your applications and infrastructure.
+
+*   **Prometheus:** The standard open-source monitoring system for Kubernetes; collects metrics.
+*   **Grafana:** A visualization tool that takes data from Prometheus (and others) to create beautiful dashboards.
+*   **ELK Stack (Elasticsearch, Logstash, Kibana):** A popular stack for searching, analyzing, and visualizing log data in real time.
+*   **Datadog:** A comprehensive, paid SaaS platform for monitoring servers, databases, tools, and services.
+*   **New Relic:** An Observability platform known for deep Application Performance Monitoring (APM).
+*   **Splunk:** A powerful platform for searching, monitoring, and analyzing machine-generated big data (logs).
+*   **Dynatrace:** Uses AI to provide software intelligence, APM, and infrastructure monitoring.
+*   **Nagios:** A veteran open-source tool for monitoring systems, networks, and infrastructure.
+
+### **6. Security (DevSecOps)**
+Tools that integrate security scanning into the DevOps pipeline.
+
+*   **SonarQube:** Checks code quality and security vulnerabilities (Static Application Security Testing - SAST).
+*   **Snyk:** Scans for vulnerabilities in open-source dependencies and container images.
+*   **OWASP ZAP:** A free security tool for finding vulnerabilities in web applications (Dynamic Application Security Testing - DAST).
+*   **HashiCorp Vault:** A tool for securely accessing secrets (API keys, passwords, certificates).
+*   **Trivy:** A comprehensive and versatile security scanner for containers, filesystems, and git repositories.
+*   **Checkmarx:** Enterprise-grade software security scanning (SAST).
+
+### **7. Collaboration & Planning**
+*   **Jira:** The most common tool for Agile project management and issue tracking.
+*   **Slack / Microsoft Teams:** Used for "ChatOps"—receiving alerts and triggering deployments directly from chat.
+*   **Confluence:** A wiki tool used for documentation and knowledge sharing.
+*   **PagerDuty / Opsgenie:** Incident response tools that alert the right people when monitoring tools detect a critical issue.
+
+### **8. Artifact Management**
+Where you store the binary files (artifacts) produced by your build process.
+
+*   **JFrog Artifactory:** A universal repository manager supporting all major packaging formats (Maven, Docker, npm, etc.).
+*   **Sonatype Nexus:** A popular repository manager, often used for Java/Maven artifacts.
+*   **Harbor:** An open-source, trusted cloud-native registry project that stores, signs, and scans content.
