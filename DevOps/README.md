@@ -83,7 +83,7 @@ Integrating security into the DevOps pipeline.
 *   **Error Budget:** The amount of error that your service can accumulate over a certain period of time before your users start being unhappy. If you have "budget" left, you can take risks; if not, you must freeze changes to focus on stability.
 
 
- *7. DevOp Tools*
+ # DevOp Tools
 
  This is an extensive list of DevOps tools, categorized by their primary role in the software delivery lifecycle (Build, Test, Deploy, Operate, Monitor).
 
